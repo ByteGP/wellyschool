@@ -1,0 +1,696 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L13",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 13,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Division, Exile, and the Prophetic Case",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Kingdom and Exile"
+  },
+  "core": {
+    "big_idea": "The prophets interpreted national catastrophe as covenant judgment rather than the defeat of God.",
+    "passages": [
+      {
+        "reference": "2 Kings 17:6-23",
+        "role": "primary",
+        "reading_note": "Read the narrators theological explanation of the northern kingdoms fall, using non-graphic selections."
+      },
+      {
+        "reference": "2 Kings 25:1-21",
+        "role": "primary",
+        "reading_note": "Read selected verses on Jerusalem's fall, temple destruction, displacement, and exile without dwelling on graphic violence."
+      },
+      {
+        "reference": "Deuteronomy 28:47-68",
+        "role": "context",
+        "reading_note": "Use selected covenant-warning verses to establish the interpretive background."
+      },
+      {
+        "reference": "Jeremiah 25:1-14",
+        "role": "comparison",
+        "reading_note": "Use to show prophetic warning, Babylon as an instrument, and eventual accountability of Babylon."
+      },
+      {
+        "reference": "Lamentations 1:1-5",
+        "role": "comparison",
+        "reading_note": "Use to preserve grief and lament alongside judgment interpretation."
+      }
+    ],
+    "metanarrative_position": "Divided kingdom and exile: biblical historians and prophets interpret Assyrian and Babylonian catastrophe through covenant unfaithfulness while preserving divine sovereignty, lament, and future hope.",
+    "biblical_genre": "Theological history, covenant warning, prophecy, and lament",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Second Kings 17 explicitly explains Israel's exile through idolatry, injustice, rejection of warnings, and covenant unfaithfulness.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Kings 17:7-18"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Second Kings 25 narrates Jerusalem's fall, temple destruction, political collapse, and deportation to Babylon.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Kings 25:1-21"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The Deuteronomic covenant warnings provide a major interpretive framework for the catastrophe.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Deuteronomy 28:47-68",
+          "2 Kings 17:13-23",
+          "2 Kings 25:1-21"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Jeremiah presents Babylon as an instrument of judgment while also announcing that Babylon will itself be held accountable.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Jeremiah 25:8-14"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The exile narratives argue that national defeat did not mean Israel's God had been defeated by stronger gods.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "2 Kings 17:7-23",
+          "2 Kings 25:1-21",
+          "Jeremiah 25:8-14"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The narrators insistence on covenant causation and prophetic fulfilment rather than divine impotence.",
+        "prohibited_overstatement": "Do not turn the claim into a rule that every modern national disaster is a directly revealed divine punishment."
+      },
+      {
+        "claim_id": "C06",
+        "statement": "Lament belongs alongside covenant judgment and prevents a cold or triumphalist treatment of catastrophe.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Lamentations 1:1-5",
+          "Lamentations 3:19-33"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "judgment",
+      "sovereignty",
+      "lament"
+    ],
+    "formation_tags": [
+      "repentance",
+      "truthfulness",
+      "compassion"
+    ],
+    "interpretation_skill": "Reconstruct the biblical authors covenant case while distinguishing ancient revealed interpretation from unsupported modern disaster claims.",
+    "key_terms": [
+      "exile",
+      "covenant",
+      "judgment",
+      "lament"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse 2 Kings 17 and 25 and explain how biblical authors interpreted national catastrophe as covenant judgment rather than divine defeat.",
+    "extension_objective": "Evaluate the case through Torah warnings, prophetic speech, imperial agency, lament, and the limits of applying revealed ancient interpretations to modern events.",
+    "know": [
+      "Assyria conquered the northern kingdom and Babylon destroyed Jerusalem.",
+      "The biblical narrator gives a covenant explanation.",
+      "Prophets warned before catastrophe and preserved future accountability and hope."
+    ],
+    "understand": [
+      "Divine sovereignty does not make imperial cruelty morally good.",
+      "Judgment interpretation and compassionate lament must remain together.",
+      "Modern events require humility where no inspired interpretation has been given."
+    ],
+    "practise": [
+      "Refuse simplistic blame when tragedy occurs.",
+      "Use lament, repentance, historical analysis, and practical compassion together."
+    ],
+    "become": [
+      "A student who can confront moral failure without celebrating catastrophe or claiming secret knowledge of God's purposes."
+    ],
+    "success_evidence": [
+      "The student identifies the covenant case in the text.",
+      "The student distinguishes instrument from moral approval.",
+      "The student rejects an unsupported modern disaster judgment claim."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain the biblical covenant interpretation of exile and its limits for modern disaster claims.",
+      "read": "2 Kings 17:7-18; 25:8-12; Jeremiah 25:8-14",
+      "opening": "Ask: What different explanations can people give for the same national catastrophe?",
+      "say": [
+        "Second Kings does not present Assyria or Babylon as gods stronger than the Lord.",
+        "The narrator and prophets interpret exile through long covenant unfaithfulness and rejected warnings.",
+        "The empires remain morally accountable; being used in judgment does not make their violence righteous.",
+        "Lamentations shows that truthful judgment language should not eliminate grief, compassion, or protest."
+      ],
+      "ask": [
+        "What reasons does 2 Kings 17 list?",
+        "What was destroyed or lost in 2 Kings 25?",
+        "How does Jeremiah treat Babylon?",
+        "Why can we not declare every modern disaster a specific judgment?"
+      ],
+      "do": "Complete the Exile Case File: Events, Covenant Evidence, Agents, Lament, Limits.",
+      "close": "Pray for repentance, compassion for displaced people, humility about hidden causes, and confidence in God's justice.",
+      "materials": [
+        "Bible",
+        "Exile Case File"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Second Kings 17 provides an extended theological explanation for the northern exile. Second Kings 25 narrates the fall of Jerusalem and the temple. Deuteronomy supplies covenant warnings, Jeremiah supplies prophetic interpretation and imperial accountability, and Lamentations preserves communal grief.",
+      "text_observations": [
+        "Second Kings 17 repeatedly names feared other gods, high places, idols, rejected statutes, and ignored prophets.",
+        "The explanation spans generations rather than blaming one final victim or one isolated event.",
+        "Second Kings 25 narrates military and political events more than it explains them; the explanation depends on wider canonical context.",
+        "Jeremiah calls Babylon God's servant instrument in one sense, yet announces punishment of Babylon in another.",
+        "Lament refuses emotionally detached judgment language."
+      ],
+      "interpretation_notes": [
+        "Distinguish textual event, theological interpretation, and historical reconstruction.",
+        "Avoid saying prophets means only prediction; they prosecuted covenant unfaithfulness and interpreted public life.",
+        "Do not use covenant-judgment categories as a shortcut around political, military, economic, or human causes."
+      ],
+      "theological_guardrails": [
+        "Do not say victims of war, disaster, displacement, illness, or abuse are suffering because of specific personal sin unless Scripture directly supports that case.",
+        "Do not celebrate imperial violence or treat conquerors as morally innocent instruments.",
+        "Do not equate a present nation with covenant Israel and transfer exile formulas mechanically.",
+        "Do not use hell terminology for the Assyrian or Babylonian exiles; this is historical covenant judgment, not a direct lesson on final judgment."
+      ],
+      "likely_questions": [
+        {
+          "question": "Did God cause the violence?",
+          "purpose": "The texts affirm divine judgment and sovereign use of empires while also holding human powers accountable. The philosophical relation requires careful treatment beyond a simplistic yes or no."
+        },
+        {
+          "question": "Can we say an earthquake or war today is God's judgment?",
+          "purpose": "We can affirm general moral accountability and God's sovereignty, but without inspired interpretation we should not declare a specific hidden cause. Historical analysis, lament, repentance, and compassion remain appropriate."
+        },
+        {
+          "question": "Why punish a whole nation for leaders sins?",
+          "purpose": "Second Kings presents broad, long-term covenant unfaithfulness involving rulers, institutions, worship, and people. It does not eliminate difficult questions about collective consequence, innocent suffering, or differentiated responsibility."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the theological explanation and selected catastrophe texts, then separate narrated events, covenant interpretation, imperial agency, lament, and application limits.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build an evidence case without converting an ancient inspired interpretation into unrestricted modern disaster diagnosis.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Exile Case File activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L13-P01-exile-case-file"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read the theological explanation and selected catastrophe texts, then separate narrated events, covenant interpretation, imperial agency, lament, and application limits.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build an evidence case without converting an ancient inspired interpretation into unrestricted modern disaster diagnosis.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Exile Case File activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L13-P01-exile-case-file"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read the theological explanation and selected catastrophe texts, then separate narrated events, covenant interpretation, imperial agency, lament, and application limits.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build an evidence case without converting an ancient inspired interpretation into unrestricted modern disaster diagnosis.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Exile Case File activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L13-P01-exile-case-file"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Disaster Claim Triage activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What categories of unfaithfulness appear in 2 Kings 17?",
+        "purpose": "Textual case",
+        "foundation_prompt": "Idolatry, rejected statutes, ignored prophets, injustice and imitation of nations.",
+        "extension_prompt": "Group the evidence under worship, covenant, leadership, and social practice."
+      },
+      {
+        "question_id": "Q02",
+        "question": "How can Babylon be an instrument and still accountable?",
+        "purpose": "Sovereignty and agency",
+        "foundation_prompt": "Jeremiah names use and later punishment.",
+        "extension_prompt": "Explain why purpose and moral innocence are not identical."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What work does lament perform?",
+        "purpose": "Genre and formation",
+        "foundation_prompt": "It voices grief, loss, protest, confession, and hope.",
+        "extension_prompt": "Explain why lament resists both denial and celebration of judgment."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is the boundary for modern application?",
+        "purpose": "Epistemic humility",
+        "foundation_prompt": "Do not assign a specific hidden judgment without revelation.",
+        "extension_prompt": "Construct a response including analysis, compassion, repentance, prayer, and uncertainty."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Exile Case File",
+        "duration_minutes": 10,
+        "materials": [
+          "Five-section case file",
+          "Pens"
+        ],
+        "steps": [
+          "Record the historical events.",
+          "Record the covenant evidence.",
+          "Identify Assyria and Babylon as agents with responsibility.",
+          "Add lament evidence.",
+          "Write the modern-application limit."
+        ],
+        "learning_link": "Builds a disciplined theological argument and its epistemic boundary.",
+        "low_resource_alternative": "Use five headings on a board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Disaster Claim Triage",
+        "duration_minutes": 8,
+        "materials": [
+          "Four fictional claims"
+        ],
+        "steps": [
+          "Classify each as supported text, general doctrine, plausible historical analysis, or unsupported hidden-cause claim.",
+          "Identify victim-blaming language.",
+          "Rewrite the claim with humility and compassion.",
+          "Name an appropriate practical response."
+        ],
+        "learning_link": "Prevents irresponsible judgment rhetoric.",
+        "low_resource_alternative": "Analyse one claim together."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Lamentations 3:22-23",
+      "prayer_prompt": "Pray for repentance, displaced people, restrained judgment language, and hope in God's mercy.",
+      "take_home_line": "The Bible interprets the exile covenantally, but it does not authorise us to diagnose every modern catastrophe."
+    },
+    "printable_refs": [
+      "T1-L13-P01-exile-case-file"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Exile: Judgment, Agency, and Lament",
+    "parent_intro": "This study examines the Bibles own interpretation of exile and the limits of applying it to modern events.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read 2 Kings 17:13-18, Jeremiah 25:8-14, and Lamentations 1:1-3."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Identify covenant warning, human agents, accountability, and grief."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Sort four claims into explicit text, canonical synthesis, historical analysis, or unsupported diagnosis."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why does Babylon remain accountable?",
+      "Why should lament accompany judgment language?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Claim and Limit Audit",
+      "instructions": "Classify four statements and rewrite one unsupported diagnosis responsibly."
+    },
+    "weekly_action": "When hearing a confident claim about a tragedy, ask what evidence supports the specific diagnosis and choose one compassionate response.",
+    "prayer": "God, make us truthful about sin, humble about hidden causes, and compassionate toward people who suffer.",
+    "parent_note": "Avoid using current wars or disasters to accuse victims or political opponents. Keep discussion non-graphic and focused on method."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "How does 2 Kings 17 explain the northern exile?",
+        "type": "multiple_choice",
+        "options": [
+          "Through covenant unfaithfulness and rejected warnings",
+          "As proof that Assyrian gods were stronger",
+          "As a random event with no interpretation"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Through covenant unfaithfulness and rejected warnings"
+        },
+        "explanation": "The narrator gives an extensive covenant explanation."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Jeremiah presents Babylon as an instrument and also announces Babylons accountability.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "Instrumentality does not erase moral responsibility."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Which genre preserves grief alongside judgment?",
+        "type": "multiple_choice",
+        "options": [
+          "Lament",
+          "Genealogy only",
+          "Proverb only"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Lament"
+        },
+        "explanation": "Lamentations gives communal voice to catastrophe."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which modern claim exceeds the evidence?",
+        "type": "multiple_choice",
+        "options": [
+          "This disaster proves God is punishing that specific group",
+          "War has political and moral causes",
+          "Christians should respond with compassion and humility"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "This disaster proves God is punishing that specific group"
+        },
+        "explanation": "Without revelation the specific hidden-cause diagnosis is unsupported."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Exile Evidence Sort",
+      "instructions": "Sort each statement into the best category.",
+      "items": [
+        "Israel ignored prophetic warnings",
+        "Babylon destroyed Jerusalem",
+        "Babylon would later be judged",
+        "The community laments its loss",
+        "A modern storm proves one group was punished"
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Covenant interpretation",
+            "items": [
+              "Israel ignored prophetic warnings"
+            ]
+          },
+          {
+            "label": "Historical event",
+            "items": [
+              "Babylon destroyed Jerusalem"
+            ]
+          },
+          {
+            "label": "Agent accountability",
+            "items": [
+              "Babylon would later be judged"
+            ]
+          },
+          {
+            "label": "Lament",
+            "items": [
+              "The community laments its loss"
+            ]
+          },
+          {
+            "label": "Unsupported modern diagnosis",
+            "items": [
+              "A modern storm proves one group was punished"
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L13-P01-exile-case-file",
+        "title": "Exile Case File",
+        "purpose": "Separate historical events, covenant interpretation, agent accountability, lament, and modern application limits.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "war",
+      "displacement",
+      "mass_death",
+      "judgment",
+      "victim_blaming"
+    ],
+    "do_not_ask": [
+      "Do not ask students to describe personal war, refugee, disaster, or bereavement trauma publicly.",
+      "Do not identify current victims as objects of divine punishment.",
+      "Do not use graphic siege or death detail.",
+      "Do not equate a political opponent with Babylon as a rhetorical shortcut."
+    ],
+    "teacher_response": "Use non-graphic excerpts and allow opt-out from current-event examples. Follow safeguarding procedures for trauma disclosures.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L13",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D024",
+      "D027"
+    ],
+    "review_flags": [
+      "TH-COVENANT-JUDGMENT",
+      "TH-SOVEREIGNTY-AGENCY",
+      "DEV-TEEN-EPISTEMIC-HUMILITY",
+      "PASTORAL-WAR-DISPLACEMENT",
+      "MATRIX-METADATA-CORRECTION"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

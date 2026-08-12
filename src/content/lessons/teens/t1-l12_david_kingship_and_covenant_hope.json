@@ -1,0 +1,681 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L12",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 12,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "David, Kingship, and Covenant Hope",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "Kingdom"
+  },
+  "core": {
+    "big_idea": "God's promise to David directs royal hope beyond the failures of the monarchy.",
+    "passages": [
+      {
+        "reference": "2 Samuel 7:8-16",
+        "role": "primary",
+        "reading_note": "Read the promise in its immediate royal and covenant setting."
+      },
+      {
+        "reference": "Psalm 89:19-37",
+        "role": "primary",
+        "reading_note": "Read the celebration of the Davidic promise, then summarise the later lament in verses 38-51."
+      },
+      {
+        "reference": "Psalm 89:38-51",
+        "role": "context",
+        "reading_note": "Use selected verses to expose the crisis created by royal collapse."
+      },
+      {
+        "reference": "Luke 1:30-33",
+        "role": "comparison",
+        "reading_note": "Examine the New Testament application of Davidic throne language to Jesus."
+      },
+      {
+        "reference": "Acts 2:29-36",
+        "role": "comparison",
+        "reading_note": "Use for older teens to compare resurrection and exaltation with Davidic promise."
+      }
+    ],
+    "metanarrative_position": "Davidic covenant and royal hope: an immediate dynasty promise survives royal failure, exile, and lament, then is applied to Jesus in the New Testament.",
+    "biblical_genre": "Covenant narrative, royal psalm, lament, and apostolic proclamation",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God promised to raise up David's offspring, establish his kingdom, and establish his throne forever.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Samuel 7:12-16"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The promise includes father-son relationship, possible wrongdoing, discipline, and continuing steadfast love.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Samuel 7:14-15"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Psalm 89 both celebrates the enduring promise and later laments the apparent rejection and collapse of the anointed kings rule.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Psalm 89:19-37",
+          "Psalm 89:38-51"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The exile and collapse of the monarchy create a canonical tension between historical experience and the forever promise.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "2 Kings 25:1-21",
+          "Psalm 89:38-51",
+          "Jeremiah 33:14-26"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Luke and Acts apply Davidic throne and promise language to Jesus, His resurrection, and His exalted reign.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Luke 1:30-33",
+          "Acts 2:29-36"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C06",
+        "statement": "The curriculum adopts the Christian conclusion that Jesus is the enduring Davidic Messiah and King.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "2 Samuel 7:8-16",
+          "Luke 1:30-33",
+          "Acts 2:29-36"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Jewish readings continue to understand the Davidic promise and messianic hope without accepting the New Testament identification of Jesus as its fulfilment.",
+        "interpretive_hinge": "Whether and how New Testament resurrection and enthronement claims fulfil the dynasty, throne, and forever language.",
+        "prohibited_overstatement": "Do not say 2 Samuel 7 directly names Jesus, erase the immediate royal offspring, or equate a modern political state with the Davidic kingdom."
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "christology",
+      "kingship",
+      "resurrection"
+    ],
+    "formation_tags": [
+      "hope",
+      "allegiance",
+      "lament"
+    ],
+    "interpretation_skill": "Hold immediate promise, royal failure, lament, prophetic hope, and New Testament identification together without collapsing their horizons.",
+    "key_terms": [
+      "dynasty",
+      "anointed",
+      "throne",
+      "forever"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse 2 Samuel 7 and Psalm 89 and explain how the Davidic promise generated hope beyond failed kings and royal collapse.",
+    "extension_objective": "Evaluate the Christian messianic synthesis using Luke and Acts, while representing the immediate context and credible non-Christian alternative accurately.",
+    "know": [
+      "The promise includes dynasty, sonship, discipline, kingdom, and throne.",
+      "Psalm 89 celebrates and then laments the promise.",
+      "Luke and Acts apply Davidic language to Jesus."
+    ],
+    "understand": [
+      "Biblical hope can include lament when history appears to contradict promise.",
+      "Christian messianic interpretation depends on canonical development, not isolated proof-texting."
+    ],
+    "practise": [
+      "Use lament rather than denying tension.",
+      "Test political saviour claims against the character and reign of Jesus."
+    ],
+    "become": [
+      "A student whose hope is centred on the risen Christ rather than idealised human power."
+    ],
+    "success_evidence": [
+      "The student identifies immediate, crisis, and New Testament horizons.",
+      "The student states the Christian case and strongest alternative without caricature.",
+      "The student classifies at least four claims correctly."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain how the Davidic promise, royal collapse, lament, and New Testament Jesus claim fit together.",
+      "read": "2 Samuel 7:12-16; Psalm 89:30-46; Luke 1:30-33",
+      "opening": "Ask: What should faithful people do when history appears to contradict a promise they trust?",
+      "say": [
+        "Second Samuel 7 promises David's house, offspring, kingdom, and throne, while also allowing for discipline of a sinful son.",
+        "Psalm 89 celebrates the promise and then openly laments the collapse of the kings rule.",
+        "The biblical tradition does not solve tension by pretending the collapse never happened.",
+        "Luke and Acts identify Jesus, risen and exalted, with the enduring Davidic hope."
+      ],
+      "ask": [
+        "Which parts of the promise are immediate?",
+        "What crisis does Psalm 89 name?",
+        "How does lament function faithfully?",
+        "What case do Luke and Acts make about Jesus?"
+      ],
+      "do": "Complete the Promise, Crisis, Lament, Fulfilment grid.",
+      "close": "Pray for honest lament, disciplined hope, and allegiance to Jesus above political power.",
+      "materials": [
+        "Bible",
+        "Davidic Hope Grid"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Second Samuel 7 answers David's temple proposal with a divine dynasty promise. Psalm 89 is crucial because it preserves both confidence in the covenant and protest over apparent royal rejection. Luke 1 and Acts 2 provide explicit New Testament appropriation.",
+      "text_observations": [
+        "The promise begins with God's past action toward David and moves to future rest and dynasty.",
+        "The immediate son can commit iniquity and receive discipline, which resists a one-layer reading.",
+        "Psalm 89 repeats covenant language before abruptly shifting to but now in verse 38.",
+        "The lament appeals back to God's own sworn promise rather than abandoning faith.",
+        "Acts 2 reasons from David's death, resurrection promise, and Jesus exaltation."
+      ],
+      "interpretation_notes": [
+        "Use Psalm 89 to prevent triumphalist interpretation that skips exile and unanswered lament.",
+        "Distinguish dynasty continuity, messianic expectation, resurrection, and heavenly enthronement as related but not identical claims.",
+        "Represent Jewish non-acceptance of the Christian conclusion as a substantive interpretive disagreement, not stubborn refusal."
+      ],
+      "theological_guardrails": [
+        "Do not call a current nation or politician the direct Davidic kingdom or anointed fulfilment.",
+        "Do not use the promise to excuse David's or later kings moral failures.",
+        "Do not imply that lament is unbelief; Psalm 89 models covenant protest within faith.",
+        "Do not claim historical or political success proves divine approval."
+      ],
+      "likely_questions": [
+        {
+          "question": "Did God break the promise when the monarchy ended?",
+          "purpose": "Psalm 89 voices that crisis. Christian canonical interpretation sees the promise redirected and fulfilled in the risen Jesus rather than cancelled, while the historical tension must be acknowledged."
+        },
+        {
+          "question": "Is Jesus ruling on David's throne now?",
+          "purpose": "Acts 2 supports exalted Davidic rule in the Christian reading. Millennial traditions differ on how present reign and future earthly fulfilment relate; this curriculum does not require one millennial timetable."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the promise, selected celebration and lament from Psalm 89, and New Testament application, marking each interpretive horizon.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Complete a four-column grid and test the Christian synthesis against immediate context, crisis, and later canonical claims.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Davidic Hope Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L12-P01-davidic-hope-grid"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read the promise, selected celebration and lament from Psalm 89, and New Testament application, marking each interpretive horizon.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Complete a four-column grid and test the Christian synthesis against immediate context, crisis, and later canonical claims.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Davidic Hope Grid activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L12-P01-davidic-hope-grid"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read the promise, selected celebration and lament from Psalm 89, and New Testament application, marking each interpretive horizon.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Complete a four-column grid and test the Christian synthesis against immediate context, crisis, and later canonical claims.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Davidic Hope Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L12-P01-davidic-hope-grid"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Messianic Claim Audit activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Which details in 2 Samuel 7 point to an immediate royal descendant?",
+        "purpose": "Immediate context",
+        "foundation_prompt": "Offspring, father-son language, wrongdoing, discipline.",
+        "extension_prompt": "Explain why immediate meaning and wider hope can coexist."
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does Psalm 89 preserve faith while protesting collapse?",
+        "purpose": "Genre and theology",
+        "foundation_prompt": "It appeals to the covenant while lamenting rejection.",
+        "extension_prompt": "Analyse how lament differs from denial or abandonment."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What inferential steps connect the promise to Jesus?",
+        "purpose": "Canonical synthesis",
+        "foundation_prompt": "Davidic descent, resurrection, exaltation, endless kingdom.",
+        "extension_prompt": "Identify which steps come from Luke, Acts, and broader Christian theology."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How should this lesson discipline political hope?",
+        "purpose": "Ethics",
+        "foundation_prompt": "No human leader should receive messianic trust.",
+        "extension_prompt": "Compare coercive power, moral failure, resurrection, and the character of Jesus reign."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Davidic Hope Grid",
+        "duration_minutes": 10,
+        "materials": [
+          "Four-column worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record the original promise.",
+          "Record the monarchy and exile crisis.",
+          "Record Psalm 89s lament.",
+          "Record Luke and Acts claims about Jesus.",
+          "Label each statement by evidence class."
+        ],
+        "learning_link": "Forces the Christian claim to account for rather than skip the historical tension.",
+        "low_resource_alternative": "Build the grid on a board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Messianic Claim Audit",
+        "duration_minutes": 8,
+        "materials": [
+          "Four fictional leader claims"
+        ],
+        "steps": [
+          "Identify language that treats a leader as saviour.",
+          "Test the claim against Jesus resurrection, lordship, moral character, and kingdom.",
+          "Separate legitimate civic leadership from messianic allegiance.",
+          "Rewrite the claim in restrained language."
+        ],
+        "learning_link": "Applies Davidic hope without partisan recruitment.",
+        "low_resource_alternative": "Analyse one generic slogan orally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Luke 1:32-33",
+      "prayer_prompt": "Pray for honest lament and hope fixed on the risen King rather than fragile political power.",
+      "take_home_line": "The Davidic promise survives royal failure and directs Christian hope to Jesus."
+    },
+    "printable_refs": [
+      "T1-L12-P01-davidic-hope-grid"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Promise, Crisis, and Hope",
+    "parent_intro": "This study keeps the Davidic promise, the monarchy crisis, faithful lament, and the Christian Jesus claim together.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read 2 Samuel 7:12-16, Psalm 89:38-46, and Luke 1:30-33."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Identify promise words, crisis words, and the New Testament claim."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Create four cards: Promise, Collapse, Lament, Jesus, and explain one link between each."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why is Psalm 89 important to an honest reading?",
+      "What makes Christian hope different from political optimism?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Four Horizons",
+      "instructions": "Classify statements under original promise, historical crisis, lament, or Christian fulfilment claim."
+    },
+    "weekly_action": "Notice and revise one piece of exaggerated saviour language about a public leader.",
+    "prayer": "God, receive our lament and keep our hope centred on Jesus the risen King.",
+    "parent_note": "Avoid partisan argument. The purpose is to discipline messianic language and preserve honest textual reasoning."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Second Samuel 7 includes both enduring promise and discipline for a sinful royal son.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The immediate royal line is part of the passage."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What does Psalm 89 add to the discussion?",
+        "type": "multiple_choice",
+        "options": [
+          "A lament over apparent royal collapse",
+          "A denial that David existed",
+          "A command to build the tabernacle"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A lament over apparent royal collapse"
+        },
+        "explanation": "The psalm openly voices the covenant crisis."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Which texts apply Davidic throne language to Jesus?",
+        "type": "multiple_choice",
+        "options": [
+          "Luke 1 and Acts 2",
+          "Exodus 16 and Judges 2",
+          "Ruth 1 only"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Luke 1 and Acts 2"
+        },
+        "explanation": "These New Testament texts support the Christian synthesis."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which claim is prohibited?",
+        "type": "multiple_choice",
+        "options": [
+          "A modern political leader is automatically the Davidic Messiah",
+          "Psalm 89 laments the crisis",
+          "The promise includes an enduring throne"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A modern political leader is automatically the Davidic Messiah"
+        },
+        "explanation": "The covenant cannot be transferred to a political figure by slogan."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Evidence Horizon Match",
+      "instructions": "Match each statement to its horizon.",
+      "items": [
+        "Your throne shall be established forever",
+        "You have renounced the covenant with your servant",
+        "He will reign over the house of Jacob forever",
+        "God raised Jesus up"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Your throne shall be established forever",
+            "answer": "Original Davidic promise"
+          },
+          {
+            "prompt": "You have renounced the covenant with your servant",
+            "answer": "Psalm 89 lament"
+          },
+          {
+            "prompt": "He will reign over the house of Jacob forever",
+            "answer": "Luke 1 application"
+          },
+          {
+            "prompt": "God raised Jesus up",
+            "answer": "Acts 2 resurrection and exaltation case"
+          }
+        ]
+      },
+      "choices": [
+        "Original Davidic promise",
+        "Psalm 89 lament",
+        "Luke 1 application",
+        "Acts 2 resurrection and exaltation case"
+      ]
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L12-P01-davidic-hope-grid",
+        "title": "Davidic Hope Grid",
+        "purpose": "Hold the original promise, monarchy crisis, faithful lament, and Christian fulfilment claim together.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "politics",
+      "nationalism",
+      "religious_disagreement",
+      "lament"
+    ],
+    "do_not_ask": [
+      "Do not require students to disclose family political allegiance.",
+      "Do not mock Jewish or non-Christian interpretations.",
+      "Do not imply lament or disappointment equals unbelief."
+    ],
+    "teacher_response": "Keep examples generic and evidence-based. Redirect partisan debate to the interpretive method and Jesus-centred allegiance.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L12",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D006",
+      "D025"
+    ],
+    "review_flags": [
+      "TH-DAVIDIC-COVENANT",
+      "TH-CHRISTOLOGY",
+      "TH-ESCHATOLOGY",
+      "DEV-TEEN-CANONICAL-SYNTHESIS"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

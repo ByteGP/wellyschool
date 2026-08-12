@@ -1,0 +1,621 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L11",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 11,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Provides in the Wilderness",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "God Provides"
+  },
+  "core": {
+    "big_idea": "God provided food and water for His people in need.",
+    "passages": [
+      {
+        "reference": "Exodus 16:1-18",
+        "role": "primary",
+        "reading_note": "Read selected verses showing the complaint, God's promise, the manna, and the daily collection."
+      },
+      {
+        "reference": "Exodus 17:1-7",
+        "role": "primary",
+        "reading_note": "Read selected verses showing the lack of water and God's provision from the rock."
+      },
+      {
+        "reference": "Deuteronomy 8:2-3",
+        "role": "context",
+        "reading_note": "Use only with older children to recall that the wilderness taught dependence on God."
+      }
+    ],
+    "metanarrative_position": "Wilderness provision: after rescuing Israel from Egypt, God sustained His people as they travelled toward the promised land.",
+    "biblical_genre": "Biblical wilderness narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "The Israelites complained when they lacked food in the wilderness.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 16:2-3"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "God promised bread from heaven and provided manna for the people to gather each day.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 16:4",
+          "Exodus 16:13-18"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "When the people lacked water, God provided water from the rock.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 17:1-6"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "These stories show God's patient provision for a rescued people who still needed to learn trust.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Exodus 14:30-31",
+          "Exodus 16:1-18",
+          "Exodus 17:1-7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "provision",
+      "covenant",
+      "grace"
+    ],
+    "formation_tags": [
+      "gratitude",
+      "trust",
+      "sharing"
+    ],
+    "interpretation_skill": "Retell need, complaint, God's instruction, provision, and response without turning the story into a promise of identical miracles.",
+    "key_terms": [
+      "wilderness",
+      "manna",
+      "provide",
+      "daily"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell that the people needed food and water and that God provided manna and water in the wilderness.",
+    "extension_objective": "Explain that God's provision came after rescue and invited daily trust, while avoiding the claim that every need is met by the same kind of miracle.",
+    "know": [
+      "The Israelites were travelling through the wilderness.",
+      "They needed food and water.",
+      "God provided manna and water."
+    ],
+    "understand": [
+      "God cared for the people even when they complained.",
+      "Daily provision taught the people to depend on God."
+    ],
+    "practise": [
+      "Thank God before one meal or drink.",
+      "Share one ordinary resource with someone else."
+    ],
+    "become": [
+      "A child who notices provision, expresses gratitude, and shares without shaming people who have less."
+    ],
+    "success_evidence": [
+      "The child places Need, Ask, Provision, and Thank in order.",
+      "The child identifies manna and water as God's provision.",
+      "The child names one gratitude or sharing action."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children retell how God provided food and water for His people in the wilderness.",
+      "read": "Exodus 16:4, 13-18; 17:1-6",
+      "opening": "Ask: What do people need every day to live and grow?",
+      "say": [
+        "God had rescued His people from Egypt, but the wilderness was difficult.",
+        "The people needed food, and God provided manna for them to gather.",
+        "The people needed water, and God provided water from the rock.",
+        "God's provision invited the people to trust Him one day at a time."
+      ],
+      "ask": [
+        "What did the people need?",
+        "What food did God provide?",
+        "How did God provide water?",
+        "How can we respond to ordinary provision today?"
+      ],
+      "do": "Use the Need and Provision Path to place Need, Complaint, Provision, and Gratitude in order.",
+      "close": "Pray: God, thank You for daily food, water, care, and people who help us.",
+      "materials": [
+        "Bible",
+        "Need and Provision Path or four blank cards"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Exodus 16-17 follows the rescue through the sea. Israel has been freed but must learn to live as a dependent covenant people in a harsh environment. The narrative combines real need, grumbling, divine instruction, and patient provision.",
+      "text_observations": [
+        "The people remember Egypt selectively and complain to Moses and Aaron.",
+        "God announces bread from heaven before the people know what manna is.",
+        "The collection is daily and ordered; hoarding is not the lesson goal for younger children, but dependence is visible.",
+        "Exodus 17 again places real need beside quarrelling and divine provision."
+      ],
+      "interpretation_notes": [
+        "Keep the main sequence concrete: need, complaint, instruction, provision, response.",
+        "Do not describe all complaint or sadness as rebellion; the text records both real need and harmful accusation.",
+        "Do not claim that believers will never experience hunger, thirst, poverty, or delayed help."
+      ],
+      "theological_guardrails": [
+        "Do not promise a miracle identical to manna or water from the rock for every present need.",
+        "Do not shame children whose households experience food insecurity or dependence on community support.",
+        "Do not teach that receiving practical help means a person has failed to trust God."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why did the people complain if God had rescued them?",
+          "purpose": "Explain that rescue did not instantly remove fear or teach mature trust; the wilderness exposed what they still needed to learn."
+        },
+        {
+          "question": "Why are some people hungry today?",
+          "purpose": "Say the passage does not answer every cause of hunger. Christians should pray, share, serve, and seek wise adult help rather than blaming hungry people."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected verses from Exodus 16:1-18 and 17:1-7, marking Need, Complaint, God's Instruction, and Provision.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build a four-part path and discuss how daily provision called the people to trust without denying that the wilderness was hard.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Need and Provision Path activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L11-P01-need-and-provision-path"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read selected verses from Exodus 16:1-18 and 17:1-7, marking Need, Complaint, God's Instruction, and Provision.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build a four-part path and discuss how daily provision called the people to trust without denying that the wilderness was hard.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Need and Provision Path activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L11-P01-need-and-provision-path"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read selected verses from Exodus 16:1-18 and 17:1-7, marking Need, Complaint, God's Instruction, and Provision.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build a four-part path and discuss how daily provision called the people to trust without denying that the wilderness was hard.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Need and Provision Path activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L11-P01-need-and-provision-path"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Daily Provision Inventory activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What two needs appear in these passages?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Food and water.",
+        "extension_prompt": "Identify where each need appears and how the people respond."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What was manna, according to the story?",
+        "purpose": "Narrative recall",
+        "foundation_prompt": "Food God provided for the people to gather.",
+        "extension_prompt": "Notice that the people first asked what it was."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What does daily gathering teach about trust?",
+        "purpose": "Theological understanding",
+        "foundation_prompt": "The people depended on God each day.",
+        "extension_prompt": "Distinguish dependence from passivity or refusing practical help."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one safe way to respond to provision?",
+        "purpose": "Formation",
+        "foundation_prompt": "Say thank you or share.",
+        "extension_prompt": "Name gratitude, wise care, work, generosity, and receiving help without shame."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Need and Provision Path",
+        "duration_minutes": 9,
+        "materials": [
+          "Four labelled cards",
+          "Table or floor space"
+        ],
+        "steps": [
+          "Place Need first.",
+          "Add Complaint and describe the people's words without acting them out loudly.",
+          "Add God's Instruction and Provision.",
+          "Add Gratitude and Sharing as a present response."
+        ],
+        "learning_link": "Makes the narrative sequence visible and separates the ancient event from modern application.",
+        "low_resource_alternative": "Draw four boxes on a board and point while retelling."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Daily Provision Inventory",
+        "duration_minutes": 8,
+        "materials": [
+          "Paper",
+          "Pencils"
+        ],
+        "steps": [
+          "List or draw ordinary things people need.",
+          "Circle things received through family, community, work, or creation.",
+          "Choose one item for gratitude.",
+          "Choose one safe, realistic sharing action."
+        ],
+        "learning_link": "Connects provision to gratitude and generosity without promising identical miracles.",
+        "low_resource_alternative": "Create one class list orally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Exodus 16:4",
+      "prayer_prompt": "Thank God for daily provision and ask for generous, wise care for people in need.",
+      "take_home_line": "God provided food and water for His people in need."
+    },
+    "printable_refs": [
+      "K1-L11-P01-need-and-provision-path"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Food and Water in the Wilderness",
+    "parent_intro": "This study follows the concrete story of need and provision while avoiding promises that every need is met in the same way.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Exodus 16:4, 13-18 and Exodus 17:5-6, or retell the sequence for a younger child."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the people needed, what God provided, and what daily gathering taught."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use four household objects for Need, Complaint, Provision, and Thankfulness, then retell the story."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What did God provide in each passage?",
+      "What is one ordinary provision we can thank God for?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Need to Gratitude",
+      "instructions": "Place four objects in order and say one sentence for each part of the story."
+    },
+    "weekly_action": "Thank someone for one practical act of provision, or choose one safe item to share this week.",
+    "prayer": "God, thank You for food, water, care, and people who help. Make us grateful and generous.",
+    "parent_note": "Avoid asking whether the family has enough food. If a need is disclosed, respond privately through appropriate adult support rather than turning it into a group lesson."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What food did God provide in the wilderness?",
+        "type": "multiple_choice",
+        "options": [
+          "Manna",
+          "Fish from a market",
+          "Grapes from a vineyard"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Manna"
+        },
+        "explanation": "Exodus 16 describes manna provided for Israel."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What did the people need in Exodus 17?",
+        "type": "multiple_choice",
+        "options": [
+          "Water",
+          "A crown",
+          "A boat"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Water"
+        },
+        "explanation": "The camp had no water to drink."
+      },
+      {
+        "question_id": "Q3",
+        "question": "God provided for the people even while they were still learning to trust.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The narrative shows patient provision amid complaint."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which response fits the lesson?",
+        "type": "multiple_choice",
+        "options": [
+          "Gratitude and sharing",
+          "Shaming people who need help",
+          "Promising every need will be met by manna"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Gratitude and sharing"
+        },
+        "explanation": "The application is gratitude and practical care, not overstatement."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Need, Instruction, Provision",
+      "instructions": "Put the four parts in order.",
+      "items": [
+        "God provides.",
+        "The people have a need.",
+        "The people respond.",
+        "God gives an instruction."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "The people have a need.",
+          "God gives an instruction.",
+          "God provides.",
+          "The people respond."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L11-P01-need-and-provision-path",
+        "title": "Need and Provision Path",
+        "purpose": "Help children sequence the wilderness needs and God's provision.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "food_insecurity",
+      "poverty",
+      "basic_needs"
+    ],
+    "do_not_ask": [
+      "Do not ask children whether there is enough food at home.",
+      "Do not ask children to identify poor families in the group.",
+      "Do not imply that need proves weak faith."
+    ],
+    "teacher_response": "Keep discussion general. If a child independently discloses unmet basic needs, follow the congregations safeguarding and practical-support process privately.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L11",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D022"
+    ],
+    "review_flags": [
+      "TH-PROVISION",
+      "DEV-KIDS-SCAFFOLD",
+      "PASTORAL-BASIC-NEEDS"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

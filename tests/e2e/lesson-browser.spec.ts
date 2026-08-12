@@ -6,7 +6,7 @@ test.describe('lesson browser', () => {
   }) => {
     await page.goto('/teacher/kids/');
     const list = page.locator('[data-lesson-list] > li');
-    await expect(list).toHaveCount(12);
+    await expect(list).toHaveCount(16);
     await expect(page.getByRole('heading', { name: 'All Kids lessons' })).toBeVisible();
     await expect(page.getByPlaceholder('Search by title, passage, or topic')).toBeVisible();
   });
@@ -29,14 +29,14 @@ test.describe('lesson browser', () => {
     await expect(visibleRows).toHaveCount(0);
     await expect(page.getByText('No lessons match')).toBeVisible();
     await search.fill('');
-    await expect(visibleRows).toHaveCount(12);
+    await expect(visibleRows).toHaveCount(16);
   });
 
   test('series filter narrows by cycle', async ({ page }) => {
     await page.goto('/teacher/kids/');
     const visibleRows = page.locator('[data-lesson-list] > li:not([hidden])');
     await page.getByLabel('Filter by series').selectOption({ label: 'God Made and Cares' });
-    await expect(visibleRows).toHaveCount(11);
+    await expect(visibleRows).toHaveCount(15);
     await expect(visibleRows.first()).toContainText('God Made a Good World');
   });
 
@@ -54,7 +54,7 @@ test.describe('lesson browser', () => {
     const context = await browser.newContext({ javaScriptEnabled: false });
     const page = await context.newPage();
     await page.goto('/teacher/teens/');
-    await expect(page.locator('[data-lesson-list] > li')).toHaveCount(12);
+    await expect(page.locator('[data-lesson-list] > li')).toHaveCount(16);
     // Search controls stay hidden without JS instead of rendering dead inputs.
     await expect(page.getByPlaceholder('Search by title, passage, or topic')).toBeHidden();
     await context.close();

@@ -1,0 +1,650 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L14",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 14,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "The Kingdom Divides",
+    "annual_anchor": "rebellion_and_need",
+    "thematic_unit": "Kingdom"
+  },
+  "core": {
+    "big_idea": "Idolatry, pride, and injustice fractured the kingdom and accelerated covenant failure.",
+    "passages": [
+      {
+        "reference": "1 Kings 11:29-39",
+        "role": "context",
+        "reading_note": "Read Ahijah's sign and the covenant reason for division after Solomon's idolatry."
+      },
+      {
+        "reference": "1 Kings 12:1-20",
+        "role": "primary",
+        "reading_note": "Read the request for lighter labour, Rehoboam's counsel process, harsh answer, and secession."
+      },
+      {
+        "reference": "1 Kings 12:25-33",
+        "role": "supporting",
+        "reading_note": "Use selected verses to show Jeroboam's fear-driven alternative worship and idolatry."
+      }
+    ],
+    "metanarrative_position": "Divided monarchy: covenant unfaithfulness, harsh leadership, pride, fear, and false worship fracture the united kingdom.",
+    "biblical_genre": "Historical narrative with prophetic interpretation",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "The prophetic announcement connects the division to Solomon's idolatry and covenant unfaithfulness.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Kings 11:31-33"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The people asked Rehoboam to lighten the heavy service imposed under Solomon.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Kings 12:3-4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Rehoboam rejected the elders counsel, followed the younger advisers, and answered with increased harshness.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Kings 12:6-15"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The northern tribes rejected David's house, and the kingdom divided.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Kings 12:16-20"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Jeroboam later established alternative shrines and calves because he feared losing political control.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Kings 12:26-33"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C06",
+        "statement": "The narrative presents the division as the result of several connected failures rather than one isolated mistake.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "1 Kings 11:1-13",
+          "1 Kings 11:29-39",
+          "1 Kings 12:1-33"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "sin",
+      "covenant",
+      "idolatry",
+      "justice"
+    ],
+    "formation_tags": [
+      "humility",
+      "listening",
+      "justice"
+    ],
+    "interpretation_skill": "Trace multiple causes across chapters and distinguish prophetic theological explanation from individual political choices.",
+    "key_terms": [
+      "divide",
+      "burden",
+      "counsel",
+      "idolatry"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain how Solomon's idolatry, Rehoboam's harsh pride, and Jeroboam's false worship contributed to the divided kingdom.",
+    "extension_objective": "Build a multi-cause explanation that distinguishes divine judgment, human agency, leadership injustice, fear, and covenant failure.",
+    "know": [
+      "Solomon's idolatry set the covenant crisis.",
+      "The people asked for lighter burdens.",
+      "Rehoboam answered harshly.",
+      "Jeroboam established false worship."
+    ],
+    "understand": [
+      "Large breakdowns often develop through several decisions and systems.",
+      "Listening, justice, and faithful worship matter in leadership."
+    ],
+    "practise": [
+      "Listen before defending status.",
+      "Name one burden fairly and seek a just response without humiliation."
+    ],
+    "become": [
+      "A student who rejects simplistic blame and recognises pride, injustice, fear, and idolatry as connected dangers."
+    ],
+    "success_evidence": [
+      "The student orders the three passage sections.",
+      "The student identifies at least three causes.",
+      "The student labels one direct statement and one synthesis."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain how idolatry, harsh leadership, pride, and fear contributed to the divided kingdom.",
+      "read": "1 Kings 12:1-20, with 11:31-33 and 12:26-30 summarised",
+      "opening": "Ask: Why can a serious conflict have more than one cause?",
+      "say": [
+        "Solomon's idolatry had already created a covenant crisis.",
+        "The people asked Rehoboam to lighten heavy labour and service.",
+        "Rehoboam rejected experienced counsel and answered with greater harshness.",
+        "Jeroboam later used fear and false worship to protect political control."
+      ],
+      "ask": [
+        "What burden did the people name?",
+        "Which advice did Rehoboam reject?",
+        "What happened to the kingdom?",
+        "Why did Jeroboam establish alternative worship?"
+      ],
+      "do": "Build the Kingdom Fracture Map with Idolatry, Burden, Pride, Division, Fear, and False Worship.",
+      "close": "Pray for humble listening, just leadership, and faithful worship.",
+      "materials": [
+        "Bible",
+        "Kingdom Fracture Map"
+      ]
+    },
+    "preparation": {
+      "passage_context": "First Kings 11-12 links Solomon's idolatry, prophetic judgment, popular grievance, Rehoboam's counsel, tribal division, and Jeroboam's religious policy. The narrator provides theological evaluation while also preserving human motives and decisions.",
+      "text_observations": [
+        "Ahijah's torn garment symbolises the kingdom being torn.",
+        "The people's request concerns heavy service and burden.",
+        "Rehoboam consults two groups but chooses the harsher counsel.",
+        "Verse 15 includes the narrators statement about the turn of events from the Lord while the characters remain morally responsible.",
+        "Jeroboam's fear of political loss leads to deliberate worship innovation and idolatry."
+      ],
+      "interpretation_notes": [
+        "Do not make Rehoboam's poor counsel the only cause; the narrative reaches back to Solomon's idolatry and forward to Jeroboam's choices.",
+        "The narrators divine-sovereignty statement does not make injustice righteous or remove agency.",
+        "Avoid turning tribal division into a simple analogy for every church or political disagreement."
+      ],
+      "theological_guardrails": [
+        "Do not teach that every organisational division is proof of divine judgment.",
+        "Do not use the lesson to blame people who resist abusive burdens.",
+        "Do not imply that unity should be maintained at the cost of justice, truthful worship, or safety."
+      ],
+      "likely_questions": [
+        {
+          "question": "If the division was from the Lord, was Rehoboam innocent?",
+          "purpose": "No. The narrator can affirm God's judgment while also showing Rehoboam's proud, unjust decision and Jeroboam's later sin."
+        },
+        {
+          "question": "Was the people's protest wrong?",
+          "purpose": "The text presents a real burden. The main criticism falls on the harsh response, while the wider story includes covenant and tribal complexity."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read 1 Kings 12:1-20 closely and use short summaries from 11:29-39 and 12:25-33 to build the wider cause map.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Create a multi-cause chain and distinguish theological interpretation, human motives, and moral responsibility.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Kingdom Fracture Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L14-P01-kingdom-fracture-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read 1 Kings 12:1-20 closely and use short summaries from 11:29-39 and 12:25-33 to build the wider cause map.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Create a multi-cause chain and distinguish theological interpretation, human motives, and moral responsibility.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Kingdom Fracture Map activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L14-P01-kingdom-fracture-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read 1 Kings 12:1-20 closely and use short summaries from 11:29-39 and 12:25-33 to build the wider cause map.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Create a multi-cause chain and distinguish theological interpretation, human motives, and moral responsibility.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Kingdom Fracture Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L14-P01-kingdom-fracture-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Counsel Evaluation activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What did the people ask Rehoboam to change?",
+        "purpose": "Text observation",
+        "foundation_prompt": "The heavy service and burden.",
+        "extension_prompt": "Identify why this is a justice issue rather than mere dislike."
+      },
+      {
+        "question_id": "Q02",
+        "question": "How did the two sets of advisers differ?",
+        "purpose": "Comparison",
+        "foundation_prompt": "The elders advised service and kindness; the younger advisers advised greater harshness.",
+        "extension_prompt": "Evaluate how pride and audience approval shape Rehoboam's decision."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What earlier and later events widen the explanation?",
+        "purpose": "Context",
+        "foundation_prompt": "Solomon's idolatry and Jeroboam's false worship.",
+        "extension_prompt": "Build a multi-cause theological account."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What does responsible unity require?",
+        "purpose": "Application",
+        "foundation_prompt": "Truth, justice, listening, and faithfulness.",
+        "extension_prompt": "Explain why unity cannot mean silence about abusive burdens or false worship."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Kingdom Fracture Map",
+        "duration_minutes": 9,
+        "materials": [
+          "Cause cards",
+          "Arrows",
+          "Worksheet"
+        ],
+        "steps": [
+          "Place Solomon's Idolatry.",
+          "Add Heavy Burden and Rehoboam's Pride.",
+          "Add Division.",
+          "Add Jeroboam's Fear and False Worship.",
+          "Mark divine judgment and human responsibility as related but distinct."
+        ],
+        "learning_link": "Builds multi-causal reasoning across immediate context.",
+        "low_resource_alternative": "Draw a cause chain on a board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Counsel Evaluation",
+        "duration_minutes": 8,
+        "materials": [
+          "Two counsel summaries",
+          "Evaluation questions"
+        ],
+        "steps": [
+          "Compare the elders and younger advisers.",
+          "Identify who bears the cost of each recommendation.",
+          "Rewrite the harsh answer as a just response.",
+          "Name a question a leader should ask before increasing burdens."
+        ],
+        "learning_link": "Connects narrative to ethical leadership without partisan mapping.",
+        "low_resource_alternative": "Discuss the two counsels orally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "1 Kings 12:7",
+      "prayer_prompt": "Pray for leaders who listen, serve, act justly, and worship faithfully.",
+      "take_home_line": "Pride, injustice, fear, and idolatry can fracture a community."
+    },
+    "printable_refs": [
+      "Y1-L14-P01-kingdom-fracture-map"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Why the Kingdom Split",
+    "parent_intro": "This study resists one-cause explanations and traces idolatry, burden, pride, fear, and false worship.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read 1 Kings 12:3-16 and summarise 11:31-33 and 12:26-30."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "List the causes named in the text and distinguish what happened before, during, and after the split."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Arrange six cards into a cause chain and explain one connection."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Which burden was legitimate to raise?",
+      "Which leadership choice made the conflict worse?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Six Causes and Consequences",
+      "instructions": "Arrange the cards and mark which are motives, decisions, or consequences."
+    },
+    "weekly_action": "In one family decision, listen to the person who carries the burden before choosing a solution.",
+    "prayer": "God, give us humility, just leadership, faithful worship, and courage to listen.",
+    "parent_note": "Do not use the story to force unity in an unsafe situation or to label every disagreement rebellion. Keep personal family and church disputes out of group analysis."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What did the people ask Rehoboam to lighten?",
+        "type": "multiple_choice",
+        "options": [
+          "Their heavy service and burden",
+          "The temple lamps",
+          "The number of psalms"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Their heavy service and burden"
+        },
+        "explanation": "The grievance is stated directly in 1 Kings 12."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Which counsel did Rehoboam follow?",
+        "type": "multiple_choice",
+        "options": [
+          "The harsher counsel of the younger advisers",
+          "The elders counsel to serve",
+          "No counsel at all"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The harsher counsel of the younger advisers"
+        },
+        "explanation": "He rejected the elders and intensified the burden."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Solomon's idolatry belongs to the wider context of the division.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "First Kings 11 provides the covenant background."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Why did Jeroboam establish alternative worship?",
+        "type": "multiple_choice",
+        "options": [
+          "Fear of losing political control",
+          "A command from Moses",
+          "A shortage of musicians"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Fear of losing political control"
+        },
+        "explanation": "His internal reasoning is stated in 1 Kings 12:26-27."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Fracture Chain",
+      "instructions": "Place the main developments in order.",
+      "items": [
+        "Jeroboam establishes false worship.",
+        "Solomon's idolatry creates covenant crisis.",
+        "The kingdom divides.",
+        "The people ask for lighter burdens.",
+        "Rehoboam answers harshly."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Solomon's idolatry creates covenant crisis.",
+          "The people ask for lighter burdens.",
+          "Rehoboam answers harshly.",
+          "The kingdom divides.",
+          "Jeroboam establishes false worship."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L14-P01-kingdom-fracture-map",
+        "title": "Kingdom Fracture Map",
+        "purpose": "Trace the connected causes and consequences of the divided kingdom.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "leadership",
+      "injustice",
+      "division",
+      "abuse_of_power"
+    ],
+    "do_not_ask": [
+      "Do not ask students to expose current family or church conflicts.",
+      "Do not teach that resisting abusive burdens is automatically rebellion.",
+      "Do not pressure students to preserve unsafe unity."
+    ],
+    "teacher_response": "Use fictional or textual examples. Follow safeguarding procedures if a student discloses coercion, exploitation, or unsafe leadership.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L14",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D005",
+      "D027"
+    ],
+    "review_flags": [
+      "TH-COVENANT-JUDGMENT",
+      "TH-DIVINE-SOVEREIGNTY",
+      "DEV-YOUTH-MULTICAUSAL",
+      "SAFE-POWER"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

@@ -1,0 +1,629 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L12",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 12,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Gives Good Instructions",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "God Guides"
+  },
+  "core": {
+    "big_idea": "God's instructions showed His people how to love Him and one another.",
+    "passages": [
+      {
+        "reference": "Exodus 20:1-17",
+        "role": "primary",
+        "reading_note": "Read the rescue introduction and selected commandments in child-friendly summary without replacing the biblical reference."
+      },
+      {
+        "reference": "Deuteronomy 6:4-9",
+        "role": "supporting",
+        "reading_note": "Use to connect God's commands with wholehearted love and family teaching."
+      },
+      {
+        "reference": "Matthew 22:34-40",
+        "role": "comparison",
+        "reading_note": "Use with older children to show Jesus summarising love for God and neighbour."
+      }
+    ],
+    "metanarrative_position": "Sinai covenant: the God who rescued Israel gave instructions for life as His people.",
+    "biblical_genre": "Covenant law within biblical narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God introduced the commandments by reminding Israel that He had brought them out of Egypt.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 20:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The commandments address loyalty to God and the treatment of other people.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Exodus 20:3-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Israel received these instructions after rescue, not as a way to earn release from Egypt.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Exodus 19:3-6",
+          "Exodus 20:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "prohibited_overstatement": "Do not present obedience as the price Israel paid to make God rescue them."
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Jesus later summarised the law around wholehearted love for God and love for neighbour.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Matthew 22:37-40"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "law",
+      "holiness"
+    ],
+    "formation_tags": [
+      "love",
+      "truthfulness",
+      "respect"
+    ],
+    "interpretation_skill": "Notice that rescue comes before covenant instruction and group commands under love for God and love for neighbour.",
+    "key_terms": [
+      "commandment",
+      "covenant",
+      "love",
+      "neighbour"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "State that God gave Israel instructions about loving Him and treating people rightly after He rescued them.",
+    "extension_objective": "Explain that the Ten Commandments belong to Israel's Sinai covenant and reveal God's good purposes without being a way to earn rescue.",
+    "know": [
+      "God rescued Israel from Egypt.",
+      "God gave commandments at Sinai.",
+      "The instructions concern God and other people."
+    ],
+    "understand": [
+      "God's commands were given within a relationship He had established.",
+      "Love is not vague; it includes truthful, faithful, and respectful action."
+    ],
+    "practise": [
+      "Choose one truthful or respectful action.",
+      "Use a safe boundary when an instruction from a person would cause harm or break God's law."
+    ],
+    "become": [
+      "A child who sees obedience as a loving response and understands that human authority is not permission for harm."
+    ],
+    "success_evidence": [
+      "The child sorts examples under Love God or Love Others.",
+      "The child states that rescue came before the commandments.",
+      "The child names one safe action."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children explain that God gave His rescued people good instructions for loving Him and one another.",
+      "read": "Exodus 20:1-17, selected verses",
+      "opening": "Ask: What makes an instruction helpful rather than random?",
+      "say": [
+        "God first reminded Israel that He had rescued them from Egypt.",
+        "Then God gave instructions for life as His people.",
+        "Some instructions focus on loyalty and worship toward God.",
+        "Other instructions protect people through honour, truth, faithfulness, and respect for what belongs to others."
+      ],
+      "ask": [
+        "What had God already done for Israel?",
+        "Who gave the instructions?",
+        "Which instructions concern God?",
+        "Which instructions concern other people?"
+      ],
+      "do": "Sort example cards under Love God and Love Others.",
+      "close": "Pray: God, teach us to love You and treat people truthfully and well.",
+      "materials": [
+        "Bible",
+        "Love God and Love Others sorting cards"
+      ]
+    },
+    "preparation": {
+      "passage_context": "The commandments are given after the Exodus and at the formation of the Sinai covenant. Exodus 20 begins with God's identity and rescue before listing obligations. The lesson should neither detach the Decalogue from Israel nor reduce it to arbitrary rules.",
+      "text_observations": [
+        "The prologue names God and the Exodus before the commands.",
+        "The first commands address exclusive loyalty and worship.",
+        "Later commands address family honour, life, marriage, property, truth, and desire.",
+        "The commands are brief; later Torah material applies them in Israel's covenant life."
+      ],
+      "interpretation_notes": [
+        "Use child-safe summaries while retaining the biblical reference and sequence.",
+        "Do not treat every Mosaic civil application as a direct rule for a modern child.",
+        "Jesus summary of love for God and neighbour helps children see the moral shape without erasing the original covenant context."
+      ],
+      "theological_guardrails": [
+        "Do not teach that children earn salvation or God's love by perfect rule-keeping.",
+        "Do not use honour or obedience language to require silence about abuse, unsafe touch, secrecy, or wrongdoing by an adult.",
+        "Do not imply that all human instructions carry God's authority."
+      ],
+      "likely_questions": [
+        {
+          "question": "Do Christians have to keep every Old Testament law?",
+          "purpose": "Say these commands were given within Israel's covenant. Christians learn from all Scripture and follow Jesus under the New Covenant; fuller comparison comes later."
+        },
+        {
+          "question": "Should I obey every adult?",
+          "purpose": "No. Children should follow safe, lawful guidance, but tell a trusted adult when someone asks for harm, unsafe secrecy, or disobedience to God."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Exodus 20:1-17 in selected sections, beginning with God's rescue statement and grouping commands by God and neighbour.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Sort the instructions and explain why rescue before law matters.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Love God and Love Others Sort activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L12-P01-love-god-love-others-sort"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Exodus 20:1-17 in selected sections, beginning with God's rescue statement and grouping commands by God and neighbour.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Sort the instructions and explain why rescue before law matters.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Love God and Love Others Sort activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L12-P01-love-god-love-others-sort"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Exodus 20:1-17 in selected sections, beginning with God's rescue statement and grouping commands by God and neighbour.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Sort the instructions and explain why rescue before law matters.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Love God and Love Others Sort activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L12-P01-love-god-love-others-sort"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Helpful, Human, or Unsafe? activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does God say before giving the commandments?",
+        "purpose": "Context observation",
+        "foundation_prompt": "He brought Israel out of Egypt.",
+        "extension_prompt": "Explain how the prologue shapes the meaning of obedience."
+      },
+      {
+        "question_id": "Q02",
+        "question": "Which commands focus directly on loyalty to God?",
+        "purpose": "Classification",
+        "foundation_prompt": "No other gods, no idols, honour God's name.",
+        "extension_prompt": "Explain why worship belongs to covenant loyalty."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Which commands protect relationships with people?",
+        "purpose": "Classification",
+        "foundation_prompt": "Honour, do not kill, steal, lie, or take what belongs to others.",
+        "extension_prompt": "Connect truth and respect to love of neighbour."
+      },
+      {
+        "question_id": "Q04",
+        "question": "When should a child tell a safe adult instead of following an instruction?",
+        "purpose": "Safeguarding",
+        "foundation_prompt": "When someone asks for harm, unsafe secrecy, or wrongdoing.",
+        "extension_prompt": "Distinguish legitimate authority from abusive misuse of authority."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Love God and Love Others Sort",
+        "duration_minutes": 9,
+        "materials": [
+          "Command summary cards",
+          "Two heading cards"
+        ],
+        "steps": [
+          "Place Love God and Love Others headings.",
+          "Read one child-safe command summary at a time.",
+          "Sort the card and explain the relationship it protects.",
+          "Notice that some commands affect both headings."
+        ],
+        "learning_link": "Makes the structure of the commandments concrete without reducing them to memorised numbers.",
+        "low_resource_alternative": "Draw two columns and write or point."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Helpful, Human, or Unsafe?",
+        "duration_minutes": 8,
+        "materials": [
+          "Fictional instruction cards"
+        ],
+        "steps": [
+          "Read a safe household or classroom instruction.",
+          "Read a neutral preference that is not a Bible command.",
+          "Read an unsafe secrecy scenario without graphic detail.",
+          "Choose follow, discuss, or tell a safe adult."
+        ],
+        "learning_link": "Prevents confusion between God's authority and every human demand.",
+        "low_resource_alternative": "Discuss three teacher-created examples orally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Exodus 20:2",
+      "prayer_prompt": "Thank God for rescue and ask for truthful love toward God and neighbour.",
+      "take_home_line": "God gave His rescued people instructions for loving Him and one another."
+    },
+    "printable_refs": [
+      "K1-L12-P01-love-god-love-others-sort"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Good Instructions After Rescue",
+    "parent_intro": "This study begins with God's rescue and then groups the commandments around love for God and neighbour.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Exodus 20:1-3, 12-17 and Matthew 22:37-40, or summarise the selected commands for a younger child."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what God had already done, then sort the instructions by the relationship they protect."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Write Love God and Love Others on two papers and place example actions under them."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why does the story begin with rescue?",
+      "Which truthful or respectful action can our family practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Two Relationships Sort",
+      "instructions": "Sort six example actions under Love God, Love Others, or Both."
+    },
+    "weekly_action": "Choose one concrete action: tell the truth, return something, honour a promise, or make time to worship.",
+    "prayer": "God, thank You for rescue and good instruction. Help us love You and our neighbours.",
+    "parent_note": "Do not use this lesson to demand unquestioning obedience to adults. Reinforce that unsafe requests and harmful secrecy should be reported to a trusted adult."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What did God remind Israel before giving the commandments?",
+        "type": "multiple_choice",
+        "options": [
+          "He had rescued them from Egypt",
+          "They had built a palace",
+          "They had earned His help"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "He had rescued them from Egypt"
+        },
+        "explanation": "Exodus 20 begins with God's identity and rescue."
+      },
+      {
+        "question_id": "Q2",
+        "question": "The commandments include instructions about God and about other people.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The Decalogue addresses both relationships."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Which action reflects love of neighbour?",
+        "type": "multiple_choice",
+        "options": [
+          "Telling the truth",
+          "Taking what belongs to someone else",
+          "Using harmful secrecy"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Telling the truth"
+        },
+        "explanation": "Truth protects relationships."
+      },
+      {
+        "question_id": "Q4",
+        "question": "A child must obey an adult who asks for harm or unsafe secrecy.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Human authority does not require participation in harm or wrongdoing."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Love God, Love Others, or Both",
+      "instructions": "Sort the actions into the best group.",
+      "items": [
+        "Worship God alone",
+        "Tell the truth",
+        "Respect what belongs to others",
+        "Use God's name with honour",
+        "Keep a faithful promise",
+        "Refuse an idol"
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Love God",
+            "items": [
+              "Worship God alone",
+              "Use God's name with honour",
+              "Refuse an idol"
+            ]
+          },
+          {
+            "label": "Love Others",
+            "items": [
+              "Tell the truth",
+              "Respect what belongs to others",
+              "Keep a faithful promise"
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L12-P01-love-god-love-others-sort",
+        "title": "Love God and Love Others Sort",
+        "purpose": "Help children see the relational shape of God's instructions.",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "authority",
+      "obedience",
+      "unsafe_secrecy"
+    ],
+    "do_not_ask": [
+      "Do not ask children to disclose whether an adult has broken a command.",
+      "Do not say good children obey every adult without exception.",
+      "Do not frame reporting harm as dishonouring authority."
+    ],
+    "teacher_response": "Use fictional examples only. If a child discloses harm or unsafe secrecy, stop the public discussion and follow safeguarding procedures.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L12",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D005",
+      "D022"
+    ],
+    "review_flags": [
+      "TH-COVENANT-LAW",
+      "DEV-KIDS-SCAFFOLD",
+      "SAFE-AUTHORITY"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

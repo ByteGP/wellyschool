@@ -1,0 +1,31 @@
+{
+  "patch_version": "0.1",
+  "source_batch": "Content Production Batch 04 v0.1",
+  "changes": [
+    {
+      "lesson_id": "K1-L13",
+      "fields": {
+        "doctrine_tags": "humanity, ethics, providence, kingship",
+        "theological_review_flag": "TH-DIVINE-KNOWLEDGE, TH-HUMAN-DIGNITY",
+        "pastoral_sensitivity": "Body image/bullying/social exclusion"
+      }
+    },
+    {
+      "lesson_id": "T1-L11",
+      "fields": {
+        "doctrine_tags": "sin, covenant, apostasy, leadership, biblical_theology",
+        "formation_tags": "memory, repentance, perseverance, trust",
+        "theological_review_flag": "TH-COVENANT, TH-APOSTASY, TH-LAND",
+        "pastoral_sensitivity": "Religious pressure; violence/oppression references"
+      }
+    },
+    {
+      "lesson_id": "T1-L13",
+      "fields": {
+        "doctrine_tags": "sin, covenant, judgment, prophecy, mercy, biblical_theology",
+        "theological_review_flag": "TH-COVENANT-JUDGMENT, TH-SOVEREIGNTY-AGENCY, HIST-ANCIENT-NEAR-EAST",
+        "pastoral_sensitivity": "War/displacement/trauma/victim-blaming"
+      }
+    }
+  ]
+}

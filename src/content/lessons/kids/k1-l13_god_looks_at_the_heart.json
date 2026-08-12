@@ -1,0 +1,631 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L13",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 13,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Looks at the Heart",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "God Sees"
+  },
+  "core": {
+    "big_idea": "God sees the heart rather than judging only by outward appearance.",
+    "passages": [
+      {
+        "reference": "1 Samuel 16:1-13",
+        "role": "primary",
+        "reading_note": "Read selected verses focusing on Samuel's assumptions, God's correction, and David's selection."
+      },
+      {
+        "reference": "Psalm 51:10",
+        "role": "supporting",
+        "reading_note": "Use as a simple prayer for a clean heart without claiming humans can inspect another persons heart."
+      }
+    ],
+    "metanarrative_position": "Kingdom preparation: God chooses David, beginning the royal line through which the enduring kingship promise will later be given.",
+    "biblical_genre": "Biblical narrative of prophetic anointing",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Samuel initially thought Eliab must be the chosen one because of his appearance.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Samuel 16:6"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "God told Samuel not to judge by appearance or height because the Lord looks at the heart.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Samuel 16:7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "David, the youngest son present and a shepherd, was chosen and anointed.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Samuel 16:11-13"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The passage corrects appearance-based judgment but does not teach that people can perfectly see or declare another persons heart.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "1 Samuel 16:7"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "prohibited_overstatement": "Do not use the verse to claim certainty about another persons hidden motives or character."
+      }
+    ],
+    "doctrine_tags": [
+      "divine_knowledge",
+      "kingship",
+      "human_dignity"
+    ],
+    "formation_tags": [
+      "humility",
+      "fairness",
+      "character"
+    ],
+    "interpretation_skill": "Contrast what Samuel could see with what God knew, while distinguishing God's knowledge from human assumptions.",
+    "key_terms": [
+      "appearance",
+      "heart",
+      "choose",
+      "anoint"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell that Samuel looked at appearance, God looked at the heart, and David was chosen.",
+    "extension_objective": "Explain that the heart in this passage concerns the inner person known fully by God, not a licence for people to guess hidden motives.",
+    "know": [
+      "Samuel visited Jesses family.",
+      "Samuel noticed outward appearance.",
+      "God chose David."
+    ],
+    "understand": [
+      "Outward appearance does not reveal a persons full worth or character.",
+      "God knows the inner person more fully than humans do."
+    ],
+    "practise": [
+      "Include someone who is easily overlooked.",
+      "Name a character quality without comparing bodies or attractiveness."
+    ],
+    "become": [
+      "A child who resists appearance-based ranking and values truthful, kind character."
+    ],
+    "success_evidence": [
+      "The child states the contrast in 1 Samuel 16:7.",
+      "The child identifies David as the chosen son.",
+      "The child names one inclusive action."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children explain that God corrected Samuel's appearance-based judgment and chose David.",
+      "read": "1 Samuel 16:6-13",
+      "opening": "Show two closed bags or boxes and ask: Can you know everything inside by looking at the outside?",
+      "say": [
+        "Samuel saw Eliab and thought he looked like a king.",
+        "God told Samuel not to judge only by appearance or height.",
+        "People see what is outside, but God knows the heart.",
+        "God chose David, who had not been the first person Samuel expected."
+      ],
+      "ask": [
+        "What did Samuel notice first?",
+        "What did God tell him?",
+        "Who was chosen?",
+        "How can we avoid judging people by appearance?"
+      ],
+      "do": "Use the Outside and Inside Character Cards to separate visible details from character actions.",
+      "close": "Pray: God, shape our hearts and help us treat every person with dignity.",
+      "materials": [
+        "Bible",
+        "Two bags or boxes",
+        "Outside and Inside Character Cards"
+      ]
+    },
+    "preparation": {
+      "passage_context": "After Sauls rejection as king, Samuel is sent to Jesse in Bethlehem. The narrative repeatedly overturns Samuel's expectations until David is brought from tending sheep. The lesson concerns divine selection and the limits of human appearance-based judgment.",
+      "text_observations": [
+        "Samuel responds to Eliabs appearance before God corrects him.",
+        "The contrast is between human sight and divine knowledge.",
+        "Seven sons pass before Samuel before David is called from the sheep.",
+        "David is anointed, and the Spirit of the Lord comes powerfully upon him from that day."
+      ],
+      "interpretation_notes": [
+        "Use heart as the inner person, motives, loyalties, and character, not merely feelings.",
+        "Do not describe David as already morally perfect; later biblical narratives show serious failure.",
+        "Do not replace one appearance hierarchy with another by praising attractiveness in the same lesson."
+      ],
+      "theological_guardrails": [
+        "Do not claim that teachers or children can see another persons heart the way God does.",
+        "Do not use this passage to dismiss observable harmful behaviour with the phrase good heart.",
+        "Do not make comments about childrens bodies, height, skin, disability, clothing cost, or attractiveness."
+      ],
+      "likely_questions": [
+        {
+          "question": "Was David chosen because he was better than everyone?",
+          "purpose": "Say the passage highlights God's choice and knowledge, not a claim that David never sinned or was better in every way."
+        },
+        {
+          "question": "Can a person look nice and still do something wrong?",
+          "purpose": "Yes. Appearance cannot prove character; actions should be evaluated truthfully and safely."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read 1 Samuel 16:6-13, pausing at Samuel's assumption, God's correction, and David's arrival.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Create two columns: What Samuel Could See and What God Knew, then discuss the limits of human judgment.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Outside and Inside Character Cards activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L13-P01-outside-inside-character-cards"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read 1 Samuel 16:6-13, pausing at Samuel's assumption, God's correction, and David's arrival.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Create two columns: What Samuel Could See and What God Knew, then discuss the limits of human judgment.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Outside and Inside Character Cards activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L13-P01-outside-inside-character-cards"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read 1 Samuel 16:6-13, pausing at Samuel's assumption, God's correction, and David's arrival.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Create two columns: What Samuel Could See and What God Knew, then discuss the limits of human judgment.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Outside and Inside Character Cards activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L13-P01-outside-inside-character-cards"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Include the Overlooked activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Why did Samuel first notice Eliab?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Because of his appearance.",
+        "extension_prompt": "Identify the assumption Samuel made from appearance."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What contrast does God make in verse 7?",
+        "purpose": "Key idea",
+        "foundation_prompt": "People see outside; God sees the heart.",
+        "extension_prompt": "Define heart as the inner person rather than a physical organ in this sentence."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Where was David when Samuel arrived?",
+        "purpose": "Narrative detail",
+        "foundation_prompt": "He was tending sheep.",
+        "extension_prompt": "Explain how his absence reinforces the unexpected choice."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What can humans judge responsibly?",
+        "purpose": "Application",
+        "foundation_prompt": "We can notice actions, words, and fairness.",
+        "extension_prompt": "Distinguish evaluating behaviour from claiming perfect knowledge of motives."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Outside and Inside Character Cards",
+        "duration_minutes": 9,
+        "materials": [
+          "Attribute cards",
+          "Two headings"
+        ],
+        "steps": [
+          "Place Visible Detail and Character Action headings.",
+          "Sort height, clothes, kindness, truthfulness, and keeping a promise.",
+          "Discuss which details reveal worth and which actions can be evaluated.",
+          "Repeat that only God knows the heart fully."
+        ],
+        "learning_link": "Makes the appearance and character distinction concrete without ranking bodies.",
+        "low_resource_alternative": "Write examples in two columns."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Include the Overlooked",
+        "duration_minutes": 8,
+        "materials": [
+          "Fictional group scenarios"
+        ],
+        "steps": [
+          "Read a scenario in which one child is overlooked.",
+          "Identify the appearance-based or popularity assumption.",
+          "Choose one inclusive action.",
+          "Explain that inclusion does not require ignoring unsafe behaviour."
+        ],
+        "learning_link": "Connects the passage to dignity and fair treatment.",
+        "low_resource_alternative": "Discuss one scenario as a class."
+      }
+    ],
+    "closing": {
+      "memory_reference": "1 Samuel 16:7",
+      "prayer_prompt": "Ask God to shape truthful, humble hearts and help the group treat people with dignity.",
+      "take_home_line": "People see the outside, but God knows the heart."
+    },
+    "printable_refs": [
+      "K1-L13-P01-outside-inside-character-cards"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "What God Sees",
+    "parent_intro": "This study contrasts appearance with the inner person while avoiding judgments about bodies or hidden motives.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read 1 Samuel 16:6-13, especially verse 7."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what Samuel assumed, what God corrected, and why David was unexpected."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Sort examples into Visible Detail and Character Action."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What can appearance not tell us?",
+      "What character action can we practise this week?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Visible or Character?",
+      "instructions": "Sort six examples into what can be seen and what is shown through action."
+    },
+    "weekly_action": "Include someone who is often overlooked, or affirm a truthful character action rather than appearance.",
+    "prayer": "God, shape our hearts and help us treat every person with dignity and fairness.",
+    "parent_note": "Do not use the lesson to comment on a child's body, attractiveness, disability, clothing, or family resources. Evaluate harmful actions honestly rather than excusing them as a good heart."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What did Samuel notice first about Eliab?",
+        "type": "multiple_choice",
+        "options": [
+          "His appearance",
+          "His sheep",
+          "His writing"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "His appearance"
+        },
+        "explanation": "Samuel made an initial judgment from what he could see."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Who did God choose?",
+        "type": "multiple_choice",
+        "options": [
+          "David",
+          "Eliab",
+          "Samuel"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "David"
+        },
+        "explanation": "David was brought from tending sheep and anointed."
+      },
+      {
+        "question_id": "Q3",
+        "question": "The passage says humans know every hidden motive.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The contrast is that God sees the heart more fully than humans do."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which response fits the lesson?",
+        "type": "multiple_choice",
+        "options": [
+          "Include someone overlooked",
+          "Rank people by height",
+          "Ignore harmful behaviour because someone looks friendly"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Include someone overlooked"
+        },
+        "explanation": "The passage challenges appearance-based ranking while preserving truthful evaluation of actions."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Visible Detail or Character Action",
+      "instructions": "Sort each item into the best group.",
+      "items": [
+        "Height",
+        "Clothing colour",
+        "Telling the truth",
+        "Keeping a promise",
+        "Hair style",
+        "Helping fairly"
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Visible Detail",
+            "items": [
+              "Height",
+              "Clothing colour",
+              "Hair style"
+            ]
+          },
+          {
+            "label": "Character Action",
+            "items": [
+              "Telling the truth",
+              "Keeping a promise",
+              "Helping fairly"
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L13-P01-outside-inside-character-cards",
+        "title": "Outside and Inside Character Cards",
+        "purpose": "Help children distinguish visible details from character shown through actions.",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "appearance",
+      "body_image",
+      "bullying",
+      "disability"
+    ],
+    "do_not_ask": [
+      "Do not ask children to rank who looks like a leader.",
+      "Do not compare bodies, attractiveness, clothing cost, disability, or skin.",
+      "Do not excuse harmful conduct by saying someone has a good heart."
+    ],
+    "teacher_response": "Redirect appearance comments to dignity and observable actions. Address bullying privately under safeguarding procedures.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L13",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D015",
+      "D016"
+    ],
+    "review_flags": [
+      "TH-DIVINE-KNOWLEDGE",
+      "DEV-KIDS-METAPHOR",
+      "PASTORAL-BODY-IMAGE",
+      "MATRIX-METADATA-CORRECTION"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

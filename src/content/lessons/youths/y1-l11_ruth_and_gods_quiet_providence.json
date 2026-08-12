@@ -1,0 +1,646 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L11",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 11,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Ruth and God's Quiet Providence",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Land and Judges"
+  },
+  "core": {
+    "big_idea": "God's purposes advanced through ordinary loyalty and the inclusion of an outsider.",
+    "passages": [
+      {
+        "reference": "Ruth 1:1-18",
+        "role": "context",
+        "reading_note": "Read the family losses and Ruth's decision without romanticising grief or insecurity."
+      },
+      {
+        "reference": "Ruth 2:8-13",
+        "role": "supporting",
+        "reading_note": "Notice protection, provision, and Ruth's status as a foreigner."
+      },
+      {
+        "reference": "Ruth 4:13-17",
+        "role": "primary",
+        "reading_note": "Focus on restoration, the community response, and the genealogy link to David."
+      },
+      {
+        "reference": "Matthew 1:5-6",
+        "role": "comparison",
+        "reading_note": "Use with older students to locate Ruth within the genealogy leading to David and Jesus."
+      }
+    ],
+    "metanarrative_position": "Judges-era providence: God preserves the promised line through ordinary faithfulness, care for vulnerable people, and the inclusion of Ruth the Moabite.",
+    "biblical_genre": "Hebrew narrative and family genealogy",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Ruth chose to remain with Naomi and identify with her people and God.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Ruth 1:16-18"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Ruth is repeatedly identified as a Moabite, making her outsider status important to the narrative.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Ruth 1:22",
+          "Ruth 2:2",
+          "Ruth 4:5"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Boaz provided lawful protection and access to food for Ruth as she worked.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Ruth 2:8-12"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The book ends by locating Ruth and Boaz in the family line leading to David.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Ruth 4:17-22"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "God's providence in Ruth is often discerned through the narratives pattern of timing, ordinary decisions, covenant law, and community care rather than a continuous series of direct divine speeches.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Ruth 1:6",
+          "Ruth 2:3",
+          "Ruth 4:13-17"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "How the narrator names God's action and how ordinary events contribute to the genealogical conclusion.",
+        "prohibited_overstatement": "Do not claim that every detail is explicitly identified as a miracle or that hardship was good in itself."
+      }
+    ],
+    "doctrine_tags": [
+      "providence",
+      "covenant",
+      "mission"
+    ],
+    "formation_tags": [
+      "loyalty",
+      "hospitality",
+      "inclusion"
+    ],
+    "interpretation_skill": "Locate the story in the Judges era; distinguish narrated actions from inferred providence; track outsider inclusion and genealogy.",
+    "key_terms": [
+      "loyalty",
+      "foreigner",
+      "redeemer",
+      "providence"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain from Ruth 1 and 4 that Ruth showed loyal commitment and became part of the family line leading to David.",
+    "extension_objective": "Distinguish what the narrator explicitly attributes to God from the reasonable inference that God's purposes advanced through ordinary actions and covenant care.",
+    "know": [
+      "Ruth was a Moabite widow.",
+      "Ruth stayed with Naomi.",
+      "Boaz protected and provided for Ruth within Israel's law and customs.",
+      "Ruth became David's great-grandmother."
+    ],
+    "understand": [
+      "Outsider status did not exclude Ruth from God's unfolding purposes.",
+      "Providence can operate through ordinary loyalty, lawful care, timing, and community action."
+    ],
+    "practise": [
+      "Include a newcomer without making them perform gratitude.",
+      "Practise loyal help that preserves dignity and choice."
+    ],
+    "become": [
+      "A student who notices overlooked people, acts loyally, and avoids romanticising vulnerability."
+    ],
+    "success_evidence": [
+      "The student places Ruth on the Judges-to-David timeline.",
+      "The student labels an explicit statement and an inference correctly.",
+      "The student proposes one dignifying act of inclusion."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain how Ruth's loyalty and outsider inclusion advanced the story toward David.",
+      "read": "Ruth 1:15-18; 4:13-17",
+      "opening": "Ask: What makes welcome meaningful when someone is new to a group?",
+      "say": [
+        "Ruth was a Moabite widow living through grief and insecurity.",
+        "She chose loyal commitment to Naomi, Naomi's people, and Naomi's God.",
+        "The story shows practical protection, provision, and community responsibility.",
+        "The ending connects Ruth's family to David, moving the wider biblical story forward."
+      ],
+      "ask": [
+        "What choice did Ruth make?",
+        "Why does the book keep calling her a Moabite?",
+        "What did Boaz do that protected dignity?",
+        "Which part is explicit and which part is providential inference?"
+      ],
+      "do": "Use the Ruth Story Threads to connect Loss, Loyalty, Provision, Community, and David.",
+      "close": "Pray for loyal love, dignifying welcome, and wisdom to notice God's work without overclaiming.",
+      "materials": [
+        "Bible",
+        "Ruth Story Threads worksheet or five cards"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Ruth is set in the period of the Judges. Famine, migration, bereavement, poverty, gleaning, kinship responsibility, and marriage customs shape the story. The book moves from emptiness to fullness and ends with a genealogy leading to David.",
+      "text_observations": [
+        "Ruth's speech in 1:16-17 expresses people, place, and God commitments.",
+        "The narrator repeatedly identifies Ruth as Moabite rather than allowing her outsider status to disappear.",
+        "Ruth 2 shows both work and protective generosity; Ruth is not merely passive.",
+        "Ruth 4 includes legal process, community witnesses, birth, womens interpretation, and genealogy."
+      ],
+      "interpretation_notes": [
+        "Quiet providence is an interpretive description, not a phrase used by the book itself.",
+        "Do not reduce Ruth to a romance; loyalty, law, land, food, kinship, and lineage all matter.",
+        "Do not use the book to prescribe one marriage path for widows or to idealise economic vulnerability."
+      ],
+      "theological_guardrails": [
+        "Do not imply that tragedy is good because later good emerges.",
+        "Do not teach that a vulnerable outsider owes affection, conversion, or marriage in exchange for support.",
+        "Do not turn Ruth's inclusion into a slogan that erases her Moabite identity or the complexities of Israel's history with Moab."
+      ],
+      "likely_questions": [
+        {
+          "question": "Did Ruth have to marry Boaz to be safe?",
+          "purpose": "Explain that the narrative uses its own ancient legal and family context. The lesson is not a rule for modern vulnerable people."
+        },
+        {
+          "question": "Why does God not speak much in this book?",
+          "purpose": "The narrator still names God's action at key points, while much of the story shows ordinary decisions and community structures carrying the plot."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Ruth 1:15-18 and 4:13-17, then use Ruth 2:8-13 as context for dignifying protection and provision.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Trace five story threads and label which claims are directly stated and which are reasonable inferences.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Ruth Story Threads activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L11-P01-ruth-story-threads"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Ruth 1:15-18 and 4:13-17, then use Ruth 2:8-13 as context for dignifying protection and provision.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Trace five story threads and label which claims are directly stated and which are reasonable inferences.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Ruth Story Threads activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L11-P01-ruth-story-threads"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Ruth 1:15-18 and 4:13-17, then use Ruth 2:8-13 as context for dignifying protection and provision.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Trace five story threads and label which claims are directly stated and which are reasonable inferences.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Ruth Story Threads activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L11-P01-ruth-story-threads"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Dignifying Help Audit activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What commitments does Ruth make in 1:16-17?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Naomi, her people, and her God.",
+        "extension_prompt": "Identify the repeated first-person commitments and their cost."
+      },
+      {
+        "question_id": "Q02",
+        "question": "Why is Ruth's Moabite identity important?",
+        "purpose": "Narrative emphasis",
+        "foundation_prompt": "She is an outsider included in Israel.",
+        "extension_prompt": "Explain how repeated naming prevents the reader from forgetting the boundary crossed."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Which actions in Ruth 2 protect dignity?",
+        "purpose": "Ethical reasoning",
+        "foundation_prompt": "Safety, access to gleaning, water, and respectful instruction.",
+        "extension_prompt": "Compare help that preserves agency with help that controls a vulnerable person."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is explicit and what is inferred about providence?",
+        "purpose": "Interpretation skill",
+        "foundation_prompt": "The genealogy is explicit; some timing connections are inferred.",
+        "extension_prompt": "Use evidence labels for God's named action, narrator pattern, and application."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Ruth Story Threads",
+        "duration_minutes": 9,
+        "materials": [
+          "Five thread cards",
+          "Timeline strip"
+        ],
+        "steps": [
+          "Place Loss and Migration in the Judges era.",
+          "Add Ruth's Loyalty.",
+          "Add Gleaning and Protection.",
+          "Add Community and Family Restoration.",
+          "Connect the genealogy to David."
+        ],
+        "learning_link": "Builds chronology and canonical connection without reducing the book to romance.",
+        "low_resource_alternative": "Draw five linked boxes."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Dignifying Help Audit",
+        "duration_minutes": 8,
+        "materials": [
+          "Fictional help scenarios"
+        ],
+        "steps": [
+          "Read a scenario involving a newcomer or person in need.",
+          "Identify whether the help preserves choice and dignity.",
+          "Revise controlling or performative help.",
+          "Name one practical inclusion action."
+        ],
+        "learning_link": "Connects covenant care to age-appropriate ethical reasoning.",
+        "low_resource_alternative": "Discuss two scenarios orally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Ruth 1:16",
+      "prayer_prompt": "Pray for loyalty, welcome, and help that preserves dignity.",
+      "take_home_line": "God's purposes advanced through Ruth's loyalty and the welcome of an outsider."
+    },
+    "printable_refs": [
+      "Y1-L11-P01-ruth-story-threads"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Ruth: Loyalty and Welcome",
+    "parent_intro": "This study follows ordinary faithfulness and outsider inclusion without reducing the story to romance.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Ruth 1:15-18 and 4:13-17. Add Ruth 2:8-12 if time allows."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what Ruth chose, why her outsider identity matters, and how the ending connects to David."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Draw five linked circles for Loss, Loyalty, Provision, Community, and David."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Which action is directly stated?",
+      "What is one reasonable inference about God's providence?"
+    ],
+    "interactive": {
+      "type": "creative",
+      "title": "Five Story Threads",
+      "instructions": "Draw or arrange five connected symbols and explain how each moves the story toward David."
+    },
+    "weekly_action": "Welcome a newcomer or offer help in a way that gives choice rather than demanding attention or gratitude.",
+    "prayer": "God, make us loyal, hospitable, and careful to preserve the dignity of others.",
+    "parent_note": "This story includes bereavement, migration, poverty, and ancient marriage customs. Do not use it to question a family's private losses or pressure anyone toward reconciliation or relationship decisions."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Ruth was from which people?",
+        "type": "multiple_choice",
+        "options": [
+          "Moab",
+          "Egypt",
+          "Rome"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Moab"
+        },
+        "explanation": "The book repeatedly identifies Ruth as a Moabite."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Who did Ruth choose to remain with?",
+        "type": "multiple_choice",
+        "options": [
+          "Naomi",
+          "Pharaoh",
+          "Samuel"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Naomi"
+        },
+        "explanation": "Ruth's loyalty speech is addressed to Naomi."
+      },
+      {
+        "question_id": "Q3",
+        "question": "The book ends by connecting Ruth's family to David.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "Ruth 4 gives the genealogy leading to David."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which statement is an inference rather than a direct quotation?",
+        "type": "multiple_choice",
+        "options": [
+          "God's providence often worked through ordinary timing and loyalty",
+          "Ruth said your people shall be my people",
+          "The women named the child Obed"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God's providence often worked through ordinary timing and loyalty"
+        },
+        "explanation": "That formulation synthesises the narrative pattern."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "From Loss to David",
+      "instructions": "Put the story stages in order.",
+      "items": [
+        "The genealogy reaches David.",
+        "Ruth stays with Naomi.",
+        "Ruth gleans and receives protection.",
+        "The family experiences loss and migration.",
+        "The community celebrates a child."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "The family experiences loss and migration.",
+          "Ruth stays with Naomi.",
+          "Ruth gleans and receives protection.",
+          "The community celebrates a child.",
+          "The genealogy reaches David."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L11-P01-ruth-story-threads",
+        "title": "Ruth Story Threads",
+        "purpose": "Trace loss, loyalty, provision, community, and the genealogy to David.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "bereavement",
+      "migration",
+      "poverty",
+      "widowhood",
+      "family_structure"
+    ],
+    "do_not_ask": [
+      "Do not ask students to disclose family death, migration status, poverty, or relationship decisions.",
+      "Do not imply that vulnerable people owe loyalty or affection to helpers.",
+      "Do not frame ancient marriage practice as a modern personal prescription."
+    ],
+    "teacher_response": "Keep examples fictional and dignifying. Follow safeguarding or pastoral procedures if a student independently discloses loss, housing insecurity, or coercion.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L11",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D003",
+      "D015"
+    ],
+    "review_flags": [
+      "TH-PROVIDENCE",
+      "TH-OUTSIDER-INCLUSION",
+      "DEV-YOUTH-INFERENCE",
+      "PASTORAL-FAMILY-LOSS"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

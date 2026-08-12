@@ -1,0 +1,666 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L11",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 11,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Land, Judges, and Covenant Failure",
+    "annual_anchor": "rebellion_and_need",
+    "thematic_unit": "Land and Judges"
+  },
+  "core": {
+    "big_idea": "Possession of the land did not cure Israel's recurring rebellion or need for faithful leadership.",
+    "passages": [
+      {
+        "reference": "Joshua 24:14-28",
+        "role": "primary",
+        "reading_note": "Read the covenant-renewal appeal, the people's response, Joshua's warning, and the witness stone."
+      },
+      {
+        "reference": "Judges 2:6-23",
+        "role": "primary",
+        "reading_note": "Trace the generational transition and the repeating apostasy-oppression-deliverance cycle."
+      },
+      {
+        "reference": "Deuteronomy 6:4-12",
+        "role": "context",
+        "reading_note": "Use to establish the prior command to teach the next generation and not forget after receiving the land."
+      },
+      {
+        "reference": "Hebrews 3:7-14",
+        "role": "comparison",
+        "reading_note": "Use cautiously as a later Christian warning about unbelief and mutual exhortation, not as a direct commentary on every Judges episode."
+      }
+    ],
+    "metanarrative_position": "Conquest and Judges: land fulfilment is followed by covenant renewal, generational failure, repeated apostasy, oppression, and temporary deliverance, showing that external possession does not transform the human heart.",
+    "biblical_genre": "Covenant-renewal speech and theological historical narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Joshua called Israel to put away other gods, fear the Lord, and choose whom they would serve.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Joshua 24:14-15"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The people pledged covenant loyalty, but Joshua warned them about the seriousness of serving the holy and jealous God.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Joshua 24:16-24"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Judges reports that a later generation did not know the Lord or the work He had done for Israel.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Judges 2:10"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Judges describes a recurring pattern of apostasy, divine anger, oppression, cries of distress, judges, and renewed corruption after a judges death.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Judges 2:11-19"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The land itself did not cure covenant rebellion or create durable faithfulness across generations.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Joshua 24:14-28",
+          "Judges 2:6-19"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The contrast between covenant renewal after settlement and the next generations recurring apostasy.",
+        "prohibited_overstatement": "Do not claim that land was unimportant, that every Israelite was equally unfaithful, or that inherited faith is automatically false."
+      },
+      {
+        "claim_id": "C06",
+        "statement": "The cycle exposes the need for more than temporary deliverers and prepares the wider biblical story for faithful kingship and deeper covenant renewal.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Judges 2:16-19",
+          "1 Samuel 8:4-9",
+          "Jeremiah 31:31-34"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "sin",
+      "covenant",
+      "perseverance",
+      "leadership"
+    ],
+    "formation_tags": [
+      "faithfulness",
+      "memory",
+      "mutual_exhortation"
+    ],
+    "interpretation_skill": "Compare covenant speech and theological narrative; reconstruct the cycle; distinguish land fulfilment, human agency, divine judgment, and canonical need.",
+    "key_terms": [
+      "covenant",
+      "apostasy",
+      "judge",
+      "generation"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse Joshua 24 and Judges 2 and explain why settlement in the land did not end Israel's recurring rebellion.",
+    "extension_objective": "Test the claim against covenant context, generational transmission, narrative theology, individual responsibility, and later canonical development.",
+    "know": [
+      "Joshua 24 records covenant renewal in the land.",
+      "Judges 2 records a generational transition and repeated cycle.",
+      "Judges were temporary deliverers rather than a permanent cure."
+    ],
+    "understand": [
+      "External blessings and institutions do not mechanically produce inward faithfulness.",
+      "Communities must remember, teach, practise, and renew allegiance without assuming inherited identity is enough."
+    ],
+    "practise": [
+      "Audit one inherited belief by reading its central passage.",
+      "Build a practice of mutual encouragement rather than private drift."
+    ],
+    "become": [
+      "A student who receives a faith tradition gratefully but verifies, owns, and practises it responsibly."
+    ],
+    "success_evidence": [
+      "The student reconstructs the Judges cycle accurately.",
+      "The student distinguishes direct narrative statements from canonical synthesis.",
+      "The student proposes a non-coercive practice for intergenerational formation."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain why land possession and covenant ceremony did not remove Israel's need for faithful, enduring allegiance.",
+      "read": "Joshua 24:14-24; Judges 2:6-19",
+      "opening": "Ask: Can a person inherit a community, place, or tradition without personally living its commitments?",
+      "say": [
+        "Joshua 24 renews covenant allegiance after Israel is established in the land.",
+        "The people's strong pledge is followed by Joshua's warning about the seriousness of covenant loyalty.",
+        "Judges 2 then describes a later generation and a repeating cycle of apostasy and temporary deliverance.",
+        "The land was a genuine gift, but possession did not mechanically transform hearts or secure generational faithfulness."
+      ],
+      "ask": [
+        "What choice does Joshua place before Israel?",
+        "What warning complicates the people's confidence?",
+        "What cycle appears in Judges 2?",
+        "What is required for faith to become owned rather than merely inherited?"
+      ],
+      "do": "Complete the Covenant and Cycle Audit using Joshua 24 and Judges 2.",
+      "close": "Pray for remembered grace, owned conviction, faithful practice, and communities that encourage rather than coerce.",
+      "materials": [
+        "Bible",
+        "Covenant and Cycle Audit"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Joshua 24 functions as covenant renewal near the end of Joshua's leadership. Judges 2 provides a theological introduction to the recurring narrative pattern that follows. Deuteronomy had already warned that prosperity and settlement could lead to forgetting.",
+      "text_observations": [
+        "Joshua grounds the appeal in God's past acts before calling for exclusive service.",
+        "The people's confident response is met by a severe warning, not immediate reassurance.",
+        "A witness stone memorialises the covenant words but cannot enforce inward fidelity.",
+        "Judges 2 distinguishes the generation that knew the works from the generation that followed.",
+        "The cycle worsens: after each judges death, the people return and act more corruptly."
+      ],
+      "interpretation_notes": [
+        "The phrase did not know need not mean total factual ignorance; the narrative shows lack of covenant recognition and allegiance.",
+        "Avoid treating the entire Judges period as mechanically identical; Judges 2 provides a theological pattern, while individual narratives vary.",
+        "Do not collapse the need for faithful leadership into a claim that stronger human control can cure sin."
+      ],
+      "theological_guardrails": [
+        "Do not use Israel's failure to justify antisemitism or a claim that another ethnic group is morally superior.",
+        "Do not turn the conquest and land theme into an unqualified modern territorial claim.",
+        "Do not teach that one generation can guarantee another generations faith through pressure, surveillance, or inherited labels.",
+        "Do not use apostasy language for every question, doubt, failure, or developmental struggle."
+      ],
+      "likely_questions": [
+        {
+          "question": "Did the parents fail to teach the next generation?",
+          "purpose": "The text states the later generation did not know the Lord and His work, but it does not assign one exhaustive cause. Teaching, community practice, memory, and personal response all require examination."
+        },
+        {
+          "question": "Why did God allow oppression?",
+          "purpose": "Judges interprets oppression within covenant judgment and consequence. That does not authorise modern oppressors or permit teachers to label present victims as deserving harm."
+        },
+        {
+          "question": "Can a Christian fall away?",
+          "purpose": "The curriculum position affirms real warning and possible apostasy while preserving assurance in Christ and rejecting the idea that every isolated failure equals final falling away."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Joshua 24 and Judges 2 as two linked texts, marking grace remembered, allegiance pledged, warning given, generation changed, and cycle repeated.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Reconstruct the cycle and audit which factors are external gifts, communal practices, personal responses, and theological interpretations.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Covenant and Cycle Audit activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L11-P01-covenant-cycle-audit"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Joshua 24 and Judges 2 as two linked texts, marking grace remembered, allegiance pledged, warning given, generation changed, and cycle repeated.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Reconstruct the cycle and audit which factors are external gifts, communal practices, personal responses, and theological interpretations.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Covenant and Cycle Audit activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L11-P01-covenant-cycle-audit"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Joshua 24 and Judges 2 as two linked texts, marking grace remembered, allegiance pledged, warning given, generation changed, and cycle repeated.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Reconstruct the cycle and audit which factors are external gifts, communal practices, personal responses, and theological interpretations.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Covenant and Cycle Audit activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L11-P01-covenant-cycle-audit"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Inherited or Owned? activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "How does Joshua ground the call to choose?",
+        "purpose": "Context and theology",
+        "foundation_prompt": "In God's past acts and covenant care.",
+        "extension_prompt": "Explain why grace remembered precedes allegiance demanded."
+      },
+      {
+        "question_id": "Q02",
+        "question": "Why does Joshua challenge the people's confident pledge?",
+        "purpose": "Rhetorical analysis",
+        "foundation_prompt": "To expose the seriousness of exclusive service.",
+        "extension_prompt": "Evaluate whether the warning rejects commitment or tests superficial confidence."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What are the stages of the Judges cycle?",
+        "purpose": "Narrative structure",
+        "foundation_prompt": "Apostasy, oppression, cry, judge, relief, renewed corruption.",
+        "extension_prompt": "Identify where divine action and human agency appear in each stage."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What practices help inherited faith become owned conviction?",
+        "purpose": "Formation",
+        "foundation_prompt": "Reading, questioning, remembering, practising, and community encouragement.",
+        "extension_prompt": "Distinguish formation from coercion and certainty from unexamined conformity."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Covenant and Cycle Audit",
+        "duration_minutes": 10,
+        "materials": [
+          "Audit worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "List God's remembered acts in Joshua 24.",
+          "List Israel's pledge and Joshua's warning.",
+          "Diagram the Judges 2 cycle.",
+          "Identify what the land, ceremony, stone, judge, and generation could and could not accomplish."
+        ],
+        "learning_link": "Integrates textual observation with the big idea without reducing the land promise to irrelevance.",
+        "low_resource_alternative": "Build the audit on a board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Inherited or Owned?",
+        "duration_minutes": 8,
+        "materials": [
+          "Belief-practice scenarios"
+        ],
+        "steps": [
+          "Read a scenario of inherited religious language.",
+          "Identify what has been received well.",
+          "Identify what still requires examination and personal practice.",
+          "Rewrite a coercive formation method as invitation, evidence, modelling, and accountability."
+        ],
+        "learning_link": "Moves from narrative theology to adolescent faith ownership.",
+        "low_resource_alternative": "Discuss one scenario in pairs."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Joshua 24:15",
+      "prayer_prompt": "Pray for remembered grace, faithful communities, honest examination, and enduring allegiance.",
+      "take_home_line": "A gift, place, or tradition cannot replace faithful allegiance to God."
+    },
+    "printable_refs": [
+      "T1-L11-P01-covenant-cycle-audit"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Inherited and Owned Faith",
+    "parent_intro": "This study compares covenant renewal with the recurring Judges cycle and asks how faith becomes personally owned.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Joshua 24:14-18 and Judges 2:10-19."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Identify God's past acts, the people's pledge, the later generation, and the repeating cycle."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Draw the Judges cycle and place one family practice beside the stage it can address."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What did Israel receive externally?",
+      "What still required personal and communal faithfulness?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Gift, Practice, Response",
+      "instructions": "Sort examples under external gift, community practice, and personal response."
+    },
+    "weekly_action": "Choose one belief or practice and read its central passage together rather than relying only on family habit.",
+    "prayer": "God, help us remember Your grace, examine what we believe, and remain faithful together.",
+    "parent_note": "Do not interrogate a teens faith status or label questions as apostasy. The goal is owned conviction through Scripture, practice, and honest conversation."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What did Joshua call Israel to choose?",
+        "type": "multiple_choice",
+        "options": [
+          "Whom they would serve",
+          "Which city to build",
+          "Which judge to appoint"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Whom they would serve"
+        },
+        "explanation": "Joshua 24 places covenant allegiance before the people."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Judges 2 describes a repeating cycle rather than one isolated failure.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The chapter introduces a recurring pattern."
+      },
+      {
+        "question_id": "Q3",
+        "question": "What did possession of the land fail to guarantee?",
+        "type": "multiple_choice",
+        "options": [
+          "Automatic covenant faithfulness",
+          "Any agricultural work",
+          "The existence of tribes"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Automatic covenant faithfulness"
+        },
+        "explanation": "The next generation still turned to other gods."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which response best supports owned conviction?",
+        "type": "multiple_choice",
+        "options": [
+          "Reading and testing beliefs in community",
+          "Never asking questions",
+          "Assuming a family label guarantees faithfulness"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Reading and testing beliefs in community"
+        },
+        "explanation": "Owned faith requires evidence, practice, and personal response."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Judges Cycle",
+      "instructions": "Put the recurring stages in order.",
+      "items": [
+        "God raises a judge.",
+        "The people turn to other gods.",
+        "The people experience oppression.",
+        "There is relief.",
+        "The people cry out.",
+        "After the judge dies, corruption returns."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "The people turn to other gods.",
+          "The people experience oppression.",
+          "The people cry out.",
+          "God raises a judge.",
+          "There is relief.",
+          "After the judge dies, corruption returns."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L11-P01-covenant-cycle-audit",
+        "title": "Covenant and Cycle Audit",
+        "purpose": "Compare Joshua 24 covenant renewal with the Judges 2 cycle and evaluate what external gifts can and cannot accomplish.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "apostasy",
+      "religious_pressure",
+      "violence",
+      "conquest",
+      "intergenerational_conflict"
+    ],
+    "do_not_ask": [
+      "Do not require students to declare their salvation status publicly.",
+      "Do not label questions or uncertainty as apostasy.",
+      "Do not use conquest language to legitimise modern ethnic or territorial hostility.",
+      "Do not ask students to criticise parents or church leaders publicly."
+    ],
+    "teacher_response": "Keep personal reflection optional and private. Address disclosures of coercion, fear, or religious abuse through safeguarding procedures.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L11",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D005",
+      "D023",
+      "D027"
+    ],
+    "review_flags": [
+      "TH-COVENANT",
+      "TH-APOSTASY",
+      "TH-LAND",
+      "DEV-TEEN-FAITH-OWNERSHIP",
+      "PASTORAL-RELIGIOUS-PRESSURE",
+      "MATRIX-METADATA-CORRECTION"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

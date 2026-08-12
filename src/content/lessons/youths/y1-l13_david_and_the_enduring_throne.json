@@ -1,0 +1,634 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L13",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 13,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "David and the Enduring Throne",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "Kingdom"
+  },
+  "core": {
+    "big_idea": "The Davidic promise created hope for a lasting ruler within God's story.",
+    "passages": [
+      {
+        "reference": "2 Samuel 7:8-16",
+        "role": "primary",
+        "reading_note": "Read the promise in its immediate setting, including David, his offspring, discipline, house, kingdom, and throne."
+      },
+      {
+        "reference": "Psalm 89:19-37",
+        "role": "supporting",
+        "reading_note": "Use selected verses to see the promise celebrated before the psalm later laments apparent failure."
+      },
+      {
+        "reference": "Luke 1:30-33",
+        "role": "comparison",
+        "reading_note": "Use to show the New Testament applying Davidic throne language to Jesus."
+      }
+    ],
+    "metanarrative_position": "Davidic covenant: God's promise establishes royal hope that survives the failures of individual kings and is applied to Jesus in the New Testament.",
+    "biblical_genre": "Royal narrative, covenant promise, and poetry",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God reminded David that He had taken him from shepherding and had been with him.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Samuel 7:8-9"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "God promised to raise up David's offspring, establish his kingdom, and establish the throne of his kingdom forever.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Samuel 7:12-16"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The promise includes father-son language and discipline for wrongdoing, showing an immediate royal line as well as enduring hope.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Samuel 7:14-15"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The New Testament applies Davidic throne language to Jesus.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Luke 1:30-33",
+          "Acts 2:29-36",
+          "Romans 1:1-4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Christian interpretation sees Jesus as the ultimate fulfilment of the enduring throne promise, while Jewish and other readings do not accept that identification.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "2 Samuel 7:12-16",
+          "Luke 1:30-33"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Jewish interpretation can understand the promise in relation to David's dynasty and future messianic hope without identifying Jesus as the Messiah.",
+        "interpretive_hinge": "How later canonical texts identify Jesus in relation to David and how forever language functions across dynasty, exile, and messianic expectation.",
+        "prohibited_overstatement": "Do not pretend 2 Samuel 7 names Jesus directly or erase the immediate reference to David's royal offspring."
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "kingship",
+      "christology"
+    ],
+    "formation_tags": [
+      "hope",
+      "patience",
+      "worship"
+    ],
+    "interpretation_skill": "Read promise in immediate context, trace later canonical use, and distinguish direct wording from Christian messianic synthesis.",
+    "key_terms": [
+      "offspring",
+      "house",
+      "kingdom",
+      "throne"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain the main parts of God's promise to David and place the Davidic covenant on the whole-Bible timeline.",
+    "extension_objective": "Distinguish the immediate royal-line meaning from the New Testaments identification of Jesus as the enduring Davidic ruler.",
+    "know": [
+      "David wanted to build a house for God.",
+      "God promised to build David's house or dynasty.",
+      "The promise included offspring, kingdom, and throne."
+    ],
+    "understand": [
+      "Biblical promises can have an immediate historical horizon and a wider canonical fulfilment.",
+      "Human kings fail, but the royal hope remains in God's story."
+    ],
+    "practise": [
+      "Read later passages before claiming fulfilment.",
+      "Place hope in God's promise rather than idealising a human leader."
+    ],
+    "become": [
+      "A student who traces promise carefully and resists turning political leaders into messianic figures."
+    ],
+    "success_evidence": [
+      "The student lists offspring, house, kingdom, and throne.",
+      "The student places David before exile and Jesus.",
+      "The student labels direct text and canonical synthesis."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain the Davidic promise and how the New Testament connects it to Jesus.",
+      "read": "2 Samuel 7:8-16; Luke 1:30-33",
+      "opening": "Ask: How can the word house mean both a building and a family line?",
+      "say": [
+        "David wanted to build a house for God, but God promised to build David's house or dynasty.",
+        "The promise includes offspring, kingdom, throne, father-son relationship, and discipline.",
+        "Later kings failed and the monarchy collapsed, but the promise continued to shape hope.",
+        "Luke applies Davidic throne language to Jesus, and Christians understand Him as the enduring King."
+      ],
+      "ask": [
+        "What meanings of house appear?",
+        "Which parts of the promise concern David's offspring?",
+        "What does discipline show?",
+        "Which later text connects the promise to Jesus?"
+      ],
+      "do": "Use the Promise Layers chart: David, Royal Line, Crisis, Jesus.",
+      "close": "Pray for careful reading, hope in God's faithfulness, and allegiance to Jesus rather than political saviours.",
+      "materials": [
+        "Bible",
+        "Davidic Promise Layers worksheet"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Second Samuel 7 follows David's establishment in Jerusalem and his desire to build a temple. Through Nathan, God reverses David's proposal: David will not secure God with a house; God will establish David's house. The passage speaks both to an immediate son and to an enduring dynasty.",
+      "text_observations": [
+        "God's past action and presence precede the future promise.",
+        "House shifts from temple to dynasty.",
+        "Offspring, father-son language, wrongdoing, discipline, steadfast love, kingdom, and throne appear together.",
+        "The word forever creates the later interpretive tension when the monarchy collapses."
+      ],
+      "interpretation_notes": [
+        "Do not skip the immediate royal line by moving directly to Jesus.",
+        "Use Luke 1 as a later canonical interpretation rather than pretending 2 Samuel uses New Testament terminology.",
+        "Psalm 89 can be used to show how faithful readers wrestled with promise and apparent historical collapse."
+      ],
+      "theological_guardrails": [
+        "Do not identify a modern nation, dynasty, or political leader as the automatic continuation of David's throne.",
+        "Do not describe every detail of Solomon's reign as a complete messianic fulfilment.",
+        "Do not dismiss Jewish readings with caricature; state the Christian canonical case accurately."
+      ],
+      "likely_questions": [
+        {
+          "question": "Did the promise fail when Judah lost its king?",
+          "purpose": "Explain that exile created the central tension. Biblical prophets, psalms, and the New Testament continue to interpret the promise as unresolved hope rather than simple cancellation."
+        },
+        {
+          "question": "Does forever mean every king would rule forever?",
+          "purpose": "No individual Davidic king lived forever. The term concerns the enduring house, kingdom, and throne promise, whose full interpretation develops canonically."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read 2 Samuel 7:8-16 and Luke 1:30-33, marking house, offspring, kingdom, throne, forever, and discipline.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build promise layers and label immediate text, historical tension, and later Christian synthesis.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Davidic Promise Layers activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L13-P01-davidic-promise-layers"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read 2 Samuel 7:8-16 and Luke 1:30-33, marking house, offspring, kingdom, throne, forever, and discipline.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build promise layers and label immediate text, historical tension, and later Christian synthesis.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Davidic Promise Layers activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L13-P01-davidic-promise-layers"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read 2 Samuel 7:8-16 and Luke 1:30-33, marking house, offspring, kingdom, throne, forever, and discipline.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build promise layers and label immediate text, historical tension, and later Christian synthesis.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Davidic Promise Layers activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L13-P01-davidic-promise-layers"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Claim Classification Drill activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "How does the meaning of house change in the passage?",
+        "purpose": "Word-in-context skill",
+        "foundation_prompt": "From a building to a family dynasty.",
+        "extension_prompt": "Explain the rhetorical reversal between David's plan and God's promise."
+      },
+      {
+        "question_id": "Q02",
+        "question": "Which details point to an immediate royal son?",
+        "purpose": "Context observation",
+        "foundation_prompt": "Offspring, father-son language, wrongdoing, discipline.",
+        "extension_prompt": "Explain why immediate fulfilment cannot simply be erased."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What creates hope beyond one failed king?",
+        "purpose": "Canonical reasoning",
+        "foundation_prompt": "The enduring house, kingdom, and throne.",
+        "extension_prompt": "Trace how exile turns forever language into a major biblical question."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How does Luke 1 use the promise?",
+        "purpose": "Canonical synthesis",
+        "foundation_prompt": "It applies David's throne and endless kingdom to Jesus.",
+        "extension_prompt": "Distinguish quotation, allusion, and theological identification."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Davidic Promise Layers",
+        "duration_minutes": 9,
+        "materials": [
+          "Four-layer worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record the immediate promise to David's offspring.",
+          "Add the royal line and its failures.",
+          "Add exile as the historical crisis.",
+          "Add Luke 1 and the Christian claim about Jesus."
+        ],
+        "learning_link": "Prevents collapse of immediate and canonical horizons.",
+        "low_resource_alternative": "Create four headings on a board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Claim Classification Drill",
+        "duration_minutes": 8,
+        "materials": [
+          "Claim cards"
+        ],
+        "steps": [
+          "Classify a direct phrase from 2 Samuel 7.",
+          "Classify a historical statement about exile.",
+          "Classify Luke 1s use as canonical synthesis.",
+          "Classify the Christian conclusion about Jesus as framework position supported by the New Testament."
+        ],
+        "learning_link": "Practises text, history, synthesis, and framework distinctions.",
+        "low_resource_alternative": "Call out claims and use hand signals for categories."
+      }
+    ],
+    "closing": {
+      "memory_reference": "2 Samuel 7:16",
+      "prayer_prompt": "Thank God for faithfulness and ask for hope centred on Jesus rather than human power.",
+      "take_home_line": "God's promise to David created hope for an enduring King."
+    },
+    "printable_refs": [
+      "Y1-L13-P01-davidic-promise-layers"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A House That Means a Dynasty",
+    "parent_intro": "This study traces the promise from David to later Christian identification of Jesus without skipping the immediate context.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read 2 Samuel 7:11-16 and Luke 1:30-33."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Circle house, offspring, kingdom, throne, and forever. Ask what each means in context."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Make four cards: David, Royal Line, Exile, Jesus, and explain the connection."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What is directly promised in 2 Samuel?",
+      "What does Luke add to the Christian interpretation?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Promise Layers",
+      "instructions": "Arrange four cards and label direct text, historical development, and canonical synthesis."
+    },
+    "weekly_action": "When discussing a leader this week, avoid saviour language and remember that allegiance to Jesus is primary.",
+    "prayer": "God, thank You for keeping Your purposes through human failure. Teach us to hope in Jesus the King.",
+    "parent_note": "Avoid mapping the promise directly onto modern politics or treating one party, nation, or leader as the kingdom of God."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "In 2 Samuel 7, what second meaning does house take?",
+        "type": "multiple_choice",
+        "options": [
+          "A dynasty or family line",
+          "A sheep pen only",
+          "A foreign temple"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A dynasty or family line"
+        },
+        "explanation": "God promises to establish David's house."
+      },
+      {
+        "question_id": "Q2",
+        "question": "The promise includes discipline for wrongdoing.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "Father-son language includes correction, showing an immediate royal line."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Which New Testament passage applies Davidic throne language to Jesus?",
+        "type": "multiple_choice",
+        "options": [
+          "Luke 1:30-33",
+          "Exodus 16",
+          "Ruth 1"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Luke 1:30-33"
+        },
+        "explanation": "Luke explicitly names David's throne and an endless kingdom."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which statement is the Christian canonical synthesis?",
+        "type": "multiple_choice",
+        "options": [
+          "Jesus is the enduring Davidic King",
+          "David wanted to build a house",
+          "Nathan spoke to David"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Jesus is the enduring Davidic King"
+        },
+        "explanation": "That conclusion depends on later canonical identification."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Promise Through the Story",
+      "instructions": "Place the stages in canonical order.",
+      "items": [
+        "Jesus is announced as Davidic King.",
+        "God promises David's house and throne.",
+        "The monarchy fails and exile creates a crisis.",
+        "David's royal line continues through history."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "God promises David's house and throne.",
+          "David's royal line continues through history.",
+          "The monarchy fails and exile creates a crisis.",
+          "Jesus is announced as Davidic King."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L13-P01-davidic-promise-layers",
+        "title": "Davidic Promise Layers",
+        "purpose": "Separate immediate royal meaning, historical development, and Christian canonical fulfilment.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "politics",
+      "nationalism",
+      "religious_disagreement"
+    ],
+    "do_not_ask": [
+      "Do not ask students to identify a current leader as God's chosen king.",
+      "Do not mock Jewish or other non-Christian readings.",
+      "Do not equate loyalty to Jesus with party allegiance."
+    ],
+    "teacher_response": "Keep contemporary examples general and return to text, canonical use, and evidence classification.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L13",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D004",
+      "D006"
+    ],
+    "review_flags": [
+      "TH-DAVIDIC-COVENANT",
+      "TH-CHRISTOLOGY",
+      "DEV-YOUTH-CANONICAL-SYNTHESIS"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

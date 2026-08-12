@@ -1,0 +1,641 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L14",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 14,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "The Lord Is Our Shepherd",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "God Guides"
+  },
+  "core": {
+    "big_idea": "God guides, provides for, and remains with His people.",
+    "passages": [
+      {
+        "reference": "Psalm 23",
+        "role": "primary",
+        "reading_note": "Read the whole psalm slowly, using a simple shepherd image and explaining the metaphor."
+      },
+      {
+        "reference": "John 10:11-15",
+        "role": "supporting",
+        "reading_note": "Use with older children to show Jesus using shepherd language for His own care."
+      }
+    ],
+    "metanarrative_position": "Wisdom and worship: God's people use poetry to confess trust in His guidance, provision, presence, and lasting welcome.",
+    "biblical_genre": "Hebrew poetry and prayer",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Psalm 23 describes the Lord as a shepherd who provides rest, water, guidance, and presence.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Psalm 23:1-4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The psalm includes a dark valley, showing that trust in God is not a claim that frightening or painful places never occur.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Psalm 23:4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The table, anointing, overflowing cup, goodness, mercy, and dwelling language express generous welcome and continuing hope.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Psalm 23:5-6"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Shepherd is poetic imagery: it communicates God's care without meaning that people are literally sheep or that every line is a physical promise.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Psalm 23:1-6"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "prohibited_overstatement": "Do not literalise the metaphor or promise a life without danger, grief, or unmet need."
+      }
+    ],
+    "doctrine_tags": [
+      "providence",
+      "worship",
+      "divine_presence"
+    ],
+    "formation_tags": [
+      "trust",
+      "prayer",
+      "hope"
+    ],
+    "interpretation_skill": "Identify a poetic metaphor and connect each image to care without treating every image as a literal guarantee.",
+    "key_terms": [
+      "shepherd",
+      "guide",
+      "valley",
+      "mercy"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Name ways the shepherd image describes God's care: guiding, providing, staying near, and welcoming.",
+    "extension_objective": "Explain that Psalm 23 is poetry and that the dark valley belongs inside the psalm rather than being denied by faith.",
+    "know": [
+      "A shepherd guides and protects sheep.",
+      "Psalm 23 uses shepherd language for God.",
+      "The psalm includes rest, a valley, a table, and a home."
+    ],
+    "understand": [
+      "Poetry uses pictures to communicate truth.",
+      "God's presence does not mean difficult places never occur."
+    ],
+    "practise": [
+      "Pray one line of trust from the psalm.",
+      "Offer calm companionship to someone who is worried."
+    ],
+    "become": [
+      "A child who can use biblical poetry to express trust without hiding fear or sadness."
+    ],
+    "success_evidence": [
+      "The child matches shepherd images with care words.",
+      "The child identifies Psalm 23 as poetry.",
+      "The child states that the valley is part of the psalm."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children explain how the shepherd picture shows God's guidance, provision, and presence.",
+      "read": "Psalm 23",
+      "opening": "Show a simple shepherd picture and ask: What work does a good shepherd do?",
+      "say": [
+        "Psalm 23 is a poem and prayer.",
+        "It pictures the Lord as a shepherd who guides and provides.",
+        "The poem includes a dark valley, but the speaker says God is with him there.",
+        "The poem ends with goodness, mercy, and welcome in God's house."
+      ],
+      "ask": [
+        "What does the shepherd provide?",
+        "What happens in the valley?",
+        "Why is shepherd a picture rather than a literal description?",
+        "Which line could become a prayer?"
+      ],
+      "do": "Use the Shepherd Path to move through Rest, Guidance, Valley, Table, and Home.",
+      "close": "Pray: Lord, guide us, remain with us in hard places, and teach us to trust Your care.",
+      "materials": [
+        "Bible",
+        "Shepherd Path cards or a drawn path"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Psalm 23 is a psalm of trust traditionally associated with David. It moves from third-person language about the shepherd to direct address in the valley, then to host and household imagery. The lesson should preserve the poem rather than turn it into a flat list of promises.",
+      "text_observations": [
+        "The shepherd imagery includes pasture, water, restoration, and right paths.",
+        "The pronoun shifts toward direct speech in the darkest part: You are with me.",
+        "The rod and staff are signs of the shepherds protective and guiding role.",
+        "The final images move from shepherding to a generous host and enduring dwelling."
+      ],
+      "interpretation_notes": [
+        "Define metaphor through a concrete comparison: God is like a good shepherd in the ways named by the poem.",
+        "Do not explain the valley only as physical death; it can describe deep danger or darkness more broadly.",
+        "Keep the emotional honesty of the valley and the confidence of God's presence together."
+      ],
+      "theological_guardrails": [
+        "Do not promise that Christians will never be frightened, harmed, bereaved, hungry, or confused.",
+        "Do not tell a distressed child simply to stop being afraid because God is present.",
+        "Do not claim the poem gives a detailed map of heaven or the afterlife."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why is there a dark valley if God is a good shepherd?",
+          "purpose": "Say the psalm does not deny danger. Its confidence is that God remains present and guiding within it."
+        },
+        {
+          "question": "Are we really sheep?",
+          "purpose": "No. This is a poetic comparison that helps us understand care, dependence, guidance, and presence."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Psalm 23 slowly, naming each picture and allowing children to point to the matching path card.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Match Rest, Guidance, Valley, Table, and Home with what each image communicates about God's care.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Shepherd Path activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L14-P01-shepherd-path"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Psalm 23 slowly, naming each picture and allowing children to point to the matching path card.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Match Rest, Guidance, Valley, Table, and Home with what each image communicates about God's care.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Shepherd Path activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L14-P01-shepherd-path"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Psalm 23 slowly, naming each picture and allowing children to point to the matching path card.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Match Rest, Guidance, Valley, Table, and Home with what each image communicates about God's care.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Shepherd Path activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L14-P01-shepherd-path"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Image to Meaning Match activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Which images show provision and rest?",
+        "purpose": "Poetic observation",
+        "foundation_prompt": "Green pastures and quiet waters.",
+        "extension_prompt": "Explain how concrete images communicate care."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What changes when the poem reaches the valley?",
+        "purpose": "Literary observation",
+        "foundation_prompt": "The speaker says You are with me.",
+        "extension_prompt": "Notice the shift to direct address and its emotional effect."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Why is shepherd a metaphor?",
+        "purpose": "Genre understanding",
+        "foundation_prompt": "God cares like a shepherd; people are not literal sheep.",
+        "extension_prompt": "Distinguish truthful imagery from literal description."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How can we respond when someone is in a hard place?",
+        "purpose": "Formation",
+        "foundation_prompt": "Stay near, listen, pray, and get adult help when needed.",
+        "extension_prompt": "Distinguish companionship from simplistic promises."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Shepherd Path",
+        "duration_minutes": 9,
+        "materials": [
+          "Five image cards",
+          "String or drawn path"
+        ],
+        "steps": [
+          "Place Rest and Water.",
+          "Add Right Path.",
+          "Add Dark Valley and say God is present there.",
+          "Add Table and Home.",
+          "Retell the psalm as a journey of trust."
+        ],
+        "learning_link": "Anchors poetic imagery in a visible sequence while preserving metaphor.",
+        "low_resource_alternative": "Draw five symbols on a board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Image to Meaning Match",
+        "duration_minutes": 8,
+        "materials": [
+          "Image cards",
+          "Meaning cards"
+        ],
+        "steps": [
+          "Match pasture with provision.",
+          "Match path with guidance.",
+          "Match valley with danger and presence.",
+          "Match table with welcome and home with enduring belonging."
+        ],
+        "learning_link": "Builds elementary metaphor comprehension.",
+        "low_resource_alternative": "Call out an image and let children answer with one care word."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Psalm 23:4",
+      "prayer_prompt": "Use one image from Psalm 23 as a prayer for guidance, provision, presence, or welcome.",
+      "take_home_line": "The Lord guides, provides, and stays with His people."
+    },
+    "printable_refs": [
+      "K1-L14-P01-shepherd-path"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A Shepherd Who Stays Near",
+    "parent_intro": "This study introduces Psalm 23 as poetry that uses shepherd and host images to express trust.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Psalm 23 slowly. Let a child draw or point to each image as it appears."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what each picture communicates and notice that the valley is included rather than denied."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Make a five-stop path using objects for Rest, Path, Valley, Table, and Home."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Which line shows God's presence in a hard place?",
+      "Which image could become our prayer this week?"
+    ],
+    "interactive": {
+      "type": "creative",
+      "title": "Five Images of Care",
+      "instructions": "Draw or arrange five symbols and say what each picture means."
+    },
+    "weekly_action": "Choose one calm companionship action for someone who is worried or lonely.",
+    "prayer": "Lord our Shepherd, guide us, provide what is good, and stay near in hard places.",
+    "parent_note": "Do not force a child to disclose grief or fear. The psalm supports honest emotion and adult help; it is not a command to hide distress."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What picture does Psalm 23 use for the Lord?",
+        "type": "multiple_choice",
+        "options": [
+          "A shepherd",
+          "A ship captain",
+          "A merchant"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A shepherd"
+        },
+        "explanation": "The opening line names the Lord as shepherd."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Psalm 23 includes a dark valley.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The poem includes danger and God's presence."
+      },
+      {
+        "question_id": "Q3",
+        "question": "What does the shepherd picture communicate?",
+        "type": "multiple_choice",
+        "options": [
+          "Guidance and care",
+          "That people are literal sheep",
+          "That hard places never happen"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Guidance and care"
+        },
+        "explanation": "The image communicates care without being a literal identity statement."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which response fits someone in a hard place?",
+        "type": "multiple_choice",
+        "options": [
+          "Stay near and seek wise help",
+          "Tell them faith means no sadness",
+          "Promise nothing difficult will happen"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Stay near and seek wise help"
+        },
+        "explanation": "The psalm supports presence, not denial."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Psalm 23 Image Match",
+      "instructions": "Match each image with the main idea it communicates.",
+      "items": [
+        "Pasture",
+        "Right path",
+        "Dark valley",
+        "Table",
+        "House"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Pasture",
+            "answer": "Provision and rest"
+          },
+          {
+            "prompt": "Right path",
+            "answer": "Guidance"
+          },
+          {
+            "prompt": "Dark valley",
+            "answer": "Danger with God's presence"
+          },
+          {
+            "prompt": "Table",
+            "answer": "Welcome and abundance"
+          },
+          {
+            "prompt": "House",
+            "answer": "Enduring belonging"
+          }
+        ]
+      },
+      "choices": [
+        "Provision and rest",
+        "Guidance",
+        "Danger with God's presence",
+        "Welcome and abundance",
+        "Enduring belonging"
+      ]
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L14-P01-shepherd-path",
+        "title": "Shepherd Path",
+        "purpose": "Help children follow Psalm 23s poetic images and connect each image to care.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "fear",
+      "grief",
+      "death",
+      "trauma"
+    ],
+    "do_not_ask": [
+      "Do not ask children to name their darkest experience.",
+      "Do not use the lesson to demand that a distressed child stop being afraid.",
+      "Do not present the valley as proof that a specific tragedy was planned for a lesson."
+    ],
+    "teacher_response": "Allow general responses and quiet participation. If a child discloses current danger, trauma, or severe distress, follow safeguarding procedures.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L14",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D022",
+      "D024"
+    ],
+    "review_flags": [
+      "TH-PROVIDENCE",
+      "DEV-KIDS-METAPHOR",
+      "PASTORAL-GRIEF-FEAR"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

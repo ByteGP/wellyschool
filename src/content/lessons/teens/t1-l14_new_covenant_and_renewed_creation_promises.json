@@ -1,0 +1,707 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L14",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 14,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "New Covenant and Renewed Creation Promises",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "Prophetic Hope"
+  },
+  "core": {
+    "big_idea": "The prophets anticipate forgiveness, transformed people, restored presence, and renewed creation.",
+    "passages": [
+      {
+        "reference": "Jeremiah 31:31-34",
+        "role": "primary",
+        "reading_note": "Read the promise to the houses of Israel and Judah, noting covenant contrast, internal law, knowledge, and forgiveness."
+      },
+      {
+        "reference": "Ezekiel 36:22-28",
+        "role": "primary",
+        "reading_note": "Read cleansing, new heart, new spirit, God's Spirit, obedience, land, and belonging in context."
+      },
+      {
+        "reference": "Isaiah 65:17-25",
+        "role": "primary",
+        "reading_note": "Read as prophetic new-creation poetry, noting joy, life, work, peace, and imagery."
+      },
+      {
+        "reference": "Hebrews 8:6-13",
+        "role": "comparison",
+        "reading_note": "Examine the New Testaments quotation and application of Jeremiah 31."
+      },
+      {
+        "reference": "2 Corinthians 3:2-6",
+        "role": "comparison",
+        "reading_note": "Use for older teens to compare written-on-heart and Spirit language."
+      },
+      {
+        "reference": "Revelation 21:1-5",
+        "role": "comparison",
+        "reading_note": "Use to trace renewed creation and divine presence without forcing every prophetic image into a literal one-to-one chart."
+      }
+    ],
+    "metanarrative_position": "Exilic and post-exilic prophetic hope: God promises covenant renewal, forgiveness, inner transformation, restored presence, and creation renewal, which the New Testament applies to Christ, the Spirit, the church, and final hope.",
+    "biblical_genre": "Prophetic promise, restoration oracle, covenant quotation, and apocalyptic vision",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Jeremiah promises a new covenant with Israel and Judah that differs from the covenant broken after the Exodus.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Jeremiah 31:31-32"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Jeremiah describes internalised law, direct covenant knowledge, and decisive forgiveness.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Jeremiah 31:33-34"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Ezekiel promises cleansing, a new heart and spirit, God's Spirit, renewed obedience, land, and restored belonging for God's names sake.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Ezekiel 36:22-28"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Isaiah 65 uses new-heavens-and-new-earth imagery to portray joy, security, fruitful work, long life, and peace.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Isaiah 65:17-25"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Hebrews applies Jeremiah 31 to the superior covenant mediated by Jesus.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Hebrews 8:6-13"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C06",
+        "statement": "Christian canonical synthesis connects prophetic covenant and creation promises to present life in Christ and the Spirit while also retaining future consummation hope.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "2 Corinthians 3:2-6",
+          "Hebrews 8:6-13",
+          "Revelation 21:1-5"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C07",
+        "statement": "Interpreters disagree about the timing, recipients, literal or symbolic dimensions, and Israel-church relationship within these promises.",
+        "classification": "disputed",
+        "evidence_refs": [
+          "Jeremiah 31:31-34",
+          "Ezekiel 36:22-28",
+          "Isaiah 65:17-25",
+          "Hebrews 8:6-13"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Dispensational, covenantal, restorationist, Jewish, and other readings differ on national Israel, church participation, land, fulfilment timing, and renewed-creation imagery.",
+        "interpretive_hinge": "How original audiences, New Testament quotation, inaugurated fulfilment, future hope, land language, and prophetic imagery relate.",
+        "prohibited_overstatement": "Do not erase Israel and Judah from the original promise, claim every image is already fully realised, or force one millennial system as a salvation test."
+      }
+    ],
+    "doctrine_tags": [
+      "new_covenant",
+      "forgiveness",
+      "holy_spirit",
+      "new_creation"
+    ],
+    "formation_tags": [
+      "hope",
+      "repentance",
+      "renewal"
+    ],
+    "interpretation_skill": "Read prophetic imagery in original exile context, trace explicit New Testament appropriation, and distinguish inaugurated claims, future hope, and disputed fulfilment models.",
+    "key_terms": [
+      "new covenant",
+      "new heart",
+      "Spirit",
+      "new creation"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse Jeremiah, Ezekiel, and Isaiah and explain the connected hopes of forgiveness, transformation, restored presence, and renewed creation.",
+    "extension_objective": "Evaluate New Testament appropriation while distinguishing original audience, present covenant participation, future consummation, prophetic imagery, and disputed Israel-church models.",
+    "know": [
+      "Jeremiah addresses Israel and Judah.",
+      "Ezekiel links cleansing, new heart, Spirit, obedience, land, and belonging.",
+      "Isaiah uses renewed-creation imagery.",
+      "Hebrews quotes Jeremiah and applies it to Jesus covenant mediation."
+    ],
+    "understand": [
+      "Prophetic hope is moral, relational, communal, and cosmic rather than merely private escape.",
+      "Fulfilment can involve present participation and future completion without flattening every image."
+    ],
+    "practise": [
+      "Pray for genuine inward transformation rather than religious appearance.",
+      "Act as a sign of forgiveness, peace, faithful work, or care for creation."
+    ],
+    "become": [
+      "A student who hopes biblically, reads prophetic imagery carefully, and resists both escapism and overconfident timetables."
+    ],
+    "success_evidence": [
+      "The student compares the three prophetic passages.",
+      "The student identifies Hebrews explicit use of Jeremiah.",
+      "The student states one disputed hinge without caricature.",
+      "The student proposes one present practice consistent with future hope."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain how prophetic promises connect forgiveness, inner renewal, God's presence, and renewed creation.",
+      "read": "Jeremiah 31:31-34; Ezekiel 36:25-28; Isaiah 65:17-25; Hebrews 8:6-13",
+      "opening": "Ask: What would genuine restoration require beyond rebuilding a city or changing external rules?",
+      "say": [
+        "Jeremiah promises a new covenant to Israel and Judah after covenant failure.",
+        "Ezekiel adds cleansing, a new heart, God's Spirit, obedience, land, and restored belonging.",
+        "Isaiah widens hope through poetic new-creation imagery of joy, work, life, and peace.",
+        "Hebrews explicitly applies Jeremiah's covenant promise to Jesus superior covenant, while interpreters still debate timing and the relation of Israel, church, and future fulfilment."
+      ],
+      "ask": [
+        "What changes in Jeremiah?",
+        "What does Ezekiel add?",
+        "Which images shape Isaiah's hope?",
+        "What does Hebrews explicitly claim and what remains debated?"
+      ],
+      "do": "Complete the Prophetic Hope Matrix: Problem, Promise, Original Audience, New Testament Use, Future Question.",
+      "close": "Pray for forgiveness, transformed hearts, the Spirits work, faithful present living, and the completion of God's renewal.",
+      "materials": [
+        "Bible",
+        "Prophetic Hope Matrix"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Jeremiah and Ezekiel speak amid covenant breakdown and exile. Isaiah 65 presents restoration through expansive poetic imagery. Hebrews quotes Jeremiah directly and argues for a better covenant mediated by Jesus. Revelation later reuses new-creation and divine-presence imagery.",
+      "text_observations": [
+        "Jeremiah names the houses of Israel and Judah and compares the new covenant with the broken Exodus covenant.",
+        "Knowledge and forgiveness in Jeremiah are covenant-wide, not merely private feelings.",
+        "Ezekiel says the action protects God's holy name and combines cleansing, heart, Spirit, obedience, land, and belonging.",
+        "Isaiah 65 contains features that complicate a simplistic literal final-state reading, including death and long life within new-creation imagery.",
+        "Hebrews 8 quotes Jeremiah and draws a covenantal conclusion, but does not answer every later system question."
+      ],
+      "interpretation_notes": [
+        "Keep original audience visible before Christian appropriation.",
+        "Distinguish metaphor, poetic idealisation, typology, and direct doctrinal statement.",
+        "Avoid reducing new covenant to private forgiveness only; the passages include transformed community and divine presence.",
+        "Avoid reducing new creation to disembodied escape; the imagery values life, work, peace, and God's dwelling."
+      ],
+      "theological_guardrails": [
+        "Do not erase Israel and Judah from the original covenant promise or use replacement language carelessly.",
+        "Do not force premillennial, amillennial, or postmillennial timing as a fellowship or salvation test.",
+        "Do not claim complete present sinlessness or that every covenant member automatically lives without struggle.",
+        "Do not use new heart language to dismiss mental health, trauma, disability, or the need for practical care.",
+        "Do not describe renewed creation in more physical or nonphysical detail than the texts support."
+      ],
+      "likely_questions": [
+        {
+          "question": "Is the new covenant already fulfilled?",
+          "purpose": "Hebrews says Jesus mediates the better covenant and applies Jeremiah to its readers. Christians disagree about what is inaugurated now, what remains future, and how Israel and church relate."
+        },
+        {
+          "question": "Will the new creation be physical or spiritual?",
+          "purpose": "The approved curriculum teaches resurrection, return, judgment, and new spiritual creation without forcing one millennial system. Biblical texts use embodied, cosmic, relational, and symbolic language; avoid certainty beyond the evidence."
+        },
+        {
+          "question": "Does everyone in the new covenant know God perfectly?",
+          "purpose": "Jeremiah gives an ideal covenant promise. Hebrews applies it covenantally, while lived experience and fulfilment timing raise interpretive questions. Do not use the verse to claim complete present knowledge or sinlessness."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the prophetic passages in original context, then Hebrews and Revelation as later canonical use, marking audience, problem, promised action, imagery, and fulfilment claim.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Complete the matrix and classify explicit prophecy, New Testament quotation, canonical synthesis, framework position, and disputed models.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Prophetic Hope Matrix activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L14-P01-prophetic-hope-matrix"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read the prophetic passages in original context, then Hebrews and Revelation as later canonical use, marking audience, problem, promised action, imagery, and fulfilment claim.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Complete the matrix and classify explicit prophecy, New Testament quotation, canonical synthesis, framework position, and disputed models.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Prophetic Hope Matrix activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L14-P01-prophetic-hope-matrix"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read the prophetic passages in original context, then Hebrews and Revelation as later canonical use, marking audience, problem, promised action, imagery, and fulfilment claim.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Complete the matrix and classify explicit prophecy, New Testament quotation, canonical synthesis, framework position, and disputed models.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Prophetic Hope Matrix activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L14-P01-prophetic-hope-matrix"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Already, Not Yet, or Disputed? activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What makes the covenant new in Jeremiah 31?",
+        "purpose": "Textual comparison",
+        "foundation_prompt": "Internal law, covenant knowledge, forgiveness, and contrast with the broken covenant.",
+        "extension_prompt": "Explain both continuity and discontinuity without importing a whole system prematurely."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What does Ezekiel's sequence reveal about restoration?",
+        "purpose": "Theological synthesis",
+        "foundation_prompt": "Cleansing, new heart, Spirit, obedience, land, and belonging.",
+        "extension_prompt": "Analyse divine initiative, purpose for God's name, and human transformation."
+      },
+      {
+        "question_id": "Q03",
+        "question": "How should Isaiah 65s imagery be read?",
+        "purpose": "Genre",
+        "foundation_prompt": "As prophetic new-creation poetry using concrete restoration images.",
+        "extension_prompt": "Explain why death and long life complicate a flat literal map of the final state."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What does Hebrews settle and what remains disputed?",
+        "purpose": "Canonical reasoning",
+        "foundation_prompt": "It applies Jeremiah to Jesus better covenant.",
+        "extension_prompt": "Identify unresolved questions about timing, Israel, church, land, and consummation."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Prophetic Hope Matrix",
+        "duration_minutes": 10,
+        "materials": [
+          "Five-column matrix",
+          "Pens"
+        ],
+        "steps": [
+          "Record each passages original audience and crisis.",
+          "Record promised divine action.",
+          "Record transformation and creation imagery.",
+          "Record explicit New Testament use.",
+          "Record one unresolved interpretive hinge."
+        ],
+        "learning_link": "Prevents proof-texting and flattening of distinct prophetic texts.",
+        "low_resource_alternative": "Build the matrix on a board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Already, Not Yet, or Disputed?",
+        "duration_minutes": 8,
+        "materials": [
+          "Claim cards"
+        ],
+        "steps": [
+          "Classify forgiveness through Jesus.",
+          "Classify complete end of death and sorrow.",
+          "Classify land and national restoration claims.",
+          "Classify present Spirit-enabled transformation.",
+          "Defend each classification with evidence and uncertainty labels."
+        ],
+        "learning_link": "Practises calibrated eschatological reasoning without imposing one system.",
+        "low_resource_alternative": "Discuss three claims orally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Jeremiah 31:33-34",
+      "prayer_prompt": "Pray for forgiveness, inward renewal, Spirit-enabled faithfulness, and the completion of God's promised restoration.",
+      "take_home_line": "Prophetic hope joins forgiveness, transformed people, God's presence, and renewed creation."
+    },
+    "printable_refs": [
+      "T1-L14-P01-prophetic-hope-matrix"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A Bigger Picture of Restoration",
+    "parent_intro": "This study compares three prophetic promises and the New Testaments explicit use of Jeremiah.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Jeremiah 31:31-34, Ezekiel 36:25-28, and Hebrews 8:6-13. Summarise Isaiah 65:17-25."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "List what God forgives, changes, gives, restores, and renews."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Sort claim cards into explicit prophecy, New Testament use, present application, future hope, or disputed model."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What restoration is inward?",
+      "What restoration is communal or cosmic?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Restoration Claim Sort",
+      "instructions": "Classify five claims and identify the evidence for each."
+    },
+    "weekly_action": "Choose one practice that anticipates renewal: forgive, make peace, care for creation, or do faithful work.",
+    "prayer": "God, forgive us, renew our hearts, give Your Spirit, and bring Your promised creation to completion.",
+    "parent_note": "Do not force agreement on one end-times system. Keep Israel and Judah visible in the original promise and avoid speculative detail."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "To whom does Jeremiah explicitly promise the new covenant?",
+        "type": "multiple_choice",
+        "options": [
+          "The houses of Israel and Judah",
+          "Only the Roman Empire",
+          "Only one individual prophet"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The houses of Israel and Judah"
+        },
+        "explanation": "The original audience must remain visible."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What does Ezekiel include?",
+        "type": "multiple_choice",
+        "options": [
+          "Cleansing, a new heart, God's Spirit, and obedience",
+          "Only a new building",
+          "Only military victory"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Cleansing, a new heart, God's Spirit, and obedience"
+        },
+        "explanation": "The promise is inward, relational, and communal."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Hebrews explicitly quotes Jeremiah 31 and applies it to Jesus covenant mediation.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This is a direct New Testament appropriation."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which issue remains disputed?",
+        "type": "multiple_choice",
+        "options": [
+          "How Israel, church, land, timing, and future fulfilment relate",
+          "Whether Jeremiah mentions forgiveness",
+          "Whether Ezekiel mentions a new heart"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "How Israel, church, land, timing, and future fulfilment relate"
+        },
+        "explanation": "The texts settle core claims but not every later system question."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Promise and Passage Match",
+      "instructions": "Match each promise emphasis to the passage.",
+      "items": [
+        "Law written on hearts and forgiveness",
+        "Cleansing, new heart, and Spirit",
+        "New heavens and new earth imagery",
+        "Better covenant mediated by Jesus"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Law written on hearts and forgiveness",
+            "answer": "Jeremiah 31"
+          },
+          {
+            "prompt": "Cleansing, new heart, and Spirit",
+            "answer": "Ezekiel 36"
+          },
+          {
+            "prompt": "New heavens and new earth imagery",
+            "answer": "Isaiah 65"
+          },
+          {
+            "prompt": "Better covenant mediated by Jesus",
+            "answer": "Hebrews 8"
+          }
+        ]
+      },
+      "choices": [
+        "Jeremiah 31",
+        "Ezekiel 36",
+        "Isaiah 65",
+        "Hebrews 8"
+      ]
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L14-P01-prophetic-hope-matrix",
+        "title": "Prophetic Hope Matrix",
+        "purpose": "Compare original audience, covenant problem, promised action, New Testament use, and unresolved fulfilment questions.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "eschatology",
+      "religious_disagreement",
+      "mental_health",
+      "disability"
+    ],
+    "do_not_ask": [
+      "Do not test a students salvation by agreement with one fulfilment model.",
+      "Do not use new heart language to blame mental illness, trauma, or disability.",
+      "Do not invite partisan debate over modern territorial claims.",
+      "Do not use fear-based end-times speculation."
+    ],
+    "teacher_response": "Keep disagreement evidence-based and non-coercive. Redirect personal distress or fear to a trusted adult and appropriate pastoral support.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L14",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 04 v0.1"
+    ],
+    "decision_register_refs": [
+      "D018",
+      "D022",
+      "D025"
+    ],
+    "review_flags": [
+      "TH-NEW-COVENANT",
+      "TH-HOLY-SPIRIT",
+      "TH-ISRAEL-CHURCH",
+      "TH-NEW-CREATION",
+      "DEV-TEEN-PROPHETIC-GENRE"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}
