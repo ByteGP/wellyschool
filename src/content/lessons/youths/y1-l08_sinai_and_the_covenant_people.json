@@ -1,0 +1,641 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L08",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 8,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Sinai and the Covenant People",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Law"
+  },
+  "core": {
+    "big_idea": "God gave law to a people He had already rescued, shaping their covenant life.",
+    "passages": [
+      {
+        "reference": "Exodus 19:1-8",
+        "role": "primary",
+        "reading_note": "Track rescue language, covenant invitation, vocation, and the people’s response."
+      },
+      {
+        "reference": "Exodus 20:1-17",
+        "role": "primary",
+        "reading_note": "Begin with the rescue preface before reading the commandments in two relational directions."
+      },
+      {
+        "reference": "Deuteronomy 6:4-9",
+        "role": "supporting",
+        "reading_note": "Use to show love, memory, teaching, and daily covenant practice."
+      },
+      {
+        "reference": "Hebrews 8:6-13",
+        "role": "comparison",
+        "reading_note": "Use for extension to distinguish Mosaic and New Covenant settings."
+      }
+    ],
+    "metanarrative_position": "Covenant formation: the God who rescued Israel calls the nation to holy, priestly life and gives covenant instruction.",
+    "biblical_genre": "Covenant narrative and law",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Before giving the covenant terms, God reminded Israel that He had acted against Egypt and carried the people to Himself.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 19:3-4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Israel was called to be God’s treasured possession, a kingdom of priests, and a holy nation.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 19:5-6"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The Ten Commandments begin with God’s identity and prior rescue from Egypt.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 20:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The commandments order Israel’s covenant relationship toward God and neighbour rather than presenting a ladder by which an unrescued people earn deliverance.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Exodus 19:3-8",
+          "Exodus 20:1-17"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The narrative sequence places deliverance before covenant obligation.",
+        "prohibited_overstatement": "Do not claim Israelite obedience was optional or that grace and obedience are opposites."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Christians read the Mosaic covenant as Scripture but live under the New Covenant rather than simply transferring every Sinai stipulation unchanged.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Jeremiah 31:31-34",
+          "Hebrews 8:6-13",
+          "1 Corinthians 9:8-10"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not use the old/new covenant distinction to dismiss the Old Testament as irrelevant."
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "law",
+      "salvation",
+      "holiness"
+    ],
+    "formation_tags": [
+      "obedience",
+      "love",
+      "worship"
+    ],
+    "interpretation_skill": "Read law in narrative sequence; distinguish rescued identity, covenant vocation, command, and later New Covenant application.",
+    "key_terms": [
+      "covenant",
+      "holy",
+      "priest",
+      "commandment",
+      "response"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain that God rescued Israel before giving covenant law and place Sinai after the Exodus on the timeline.",
+    "extension_objective": "Distinguish Mosaic covenant commands from New Covenant application while explaining how Scripture still teaches God’s character and wise love.",
+    "know": [
+      "God brought Israel out of Egypt before Sinai.",
+      "Israel received a covenant identity and vocation.",
+      "The commandments begin with God’s rescue statement."
+    ],
+    "understand": [
+      "Obedience responds to God’s rescue; it does not purchase the Exodus.",
+      "Biblical laws must be read in their covenant and literary context."
+    ],
+    "practise": [
+      "Connect one command to love of God or neighbour.",
+      "Read a command with its opening context rather than as an isolated rule."
+    ],
+    "become": [
+      "A young person who sees obedience as loyal response and reads biblical law carefully."
+    ],
+    "success_evidence": [
+      "The student places Exodus before Sinai.",
+      "The student explains the rescue-before-response sequence.",
+      "The student distinguishes original covenant setting from present application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain that God rescued Israel before giving law and that the law shaped a covenant people.",
+      "read": "Exodus 19:3-8; 20:1-17",
+      "opening": "Write Rescue and Rules on two cards. Ask which comes first in Exodus and why the order matters.",
+      "say": [
+        "God first reminded Israel what He had done in Egypt.",
+        "He called them a treasured possession, priestly kingdom, and holy nation.",
+        "The commandments begin, I am the Lord who brought you out.",
+        "The law shaped the life of a people already rescued."
+      ],
+      "ask": [
+        "What had God already done?",
+        "What identity did He give Israel?",
+        "How do the commandments begin?",
+        "Why should covenant context affect application?"
+      ],
+      "do": "Complete the Rescue, Identity, Instruction, Response pathway.",
+      "close": "Pray for grateful obedience, love of God, and love of neighbour.",
+      "materials": [
+        "Bible",
+        "Covenant Pathway worksheet",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Sinai follows the Passover, sea crossing, and wilderness provision. Exodus 19 introduces covenant vocation before Exodus 20 gives the Decalogue. Later Scripture distinguishes the Mosaic covenant from the New Covenant while continuing to learn from the Old Testament.",
+      "text_observations": [
+        "Exodus 19:4 begins with what God has done.",
+        "The if/then covenant statement concerns vocation and treasured status in the covenant arrangement.",
+        "Exodus 20:2 functions as a historical-theological preface to the commandments."
+      ],
+      "interpretation_notes": [
+        "Do not read the commandments as contextless universal slogans.",
+        "Show the broad Godward and neighbourward shape without pretending the two tablets division is stated in the passage.",
+        "The Sabbath command requires covenant-context care; do not evade it or transfer it mechanically."
+      ],
+      "theological_guardrails": [
+        "Do not teach that obedience earns salvation or that rescue makes obedience unnecessary.",
+        "Do not say the Old Testament has no authority or value for Christians.",
+        "Do not use one command to control students without explaining context and purpose."
+      ],
+      "likely_questions": [
+        {
+          "question": "Do Christians have to keep all Ten Commandments?",
+          "purpose": "Explain that Christians live under the New Covenant; many moral commands are reaffirmed, but application must come through New Testament teaching rather than a simplistic copy-and-paste."
+        },
+        {
+          "question": "Why did God give so many rules?",
+          "purpose": "The laws ordered worship, justice, holiness, and communal life for a rescued covenant nation; not every rule had the same function."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Exodus 19:3-8 and 20:1-17, highlighting Rescue, Identity, Instruction, and Response.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build the covenant pathway and label original Israelite meaning, canonical principle, and present New Covenant application.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Covenant Pathway activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L08-P01-covenant-pathway"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Exodus 19:3-8 and 20:1-17, highlighting Rescue, Identity, Instruction, and Response.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build the covenant pathway and label original Israelite meaning, canonical principle, and present New Covenant application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Covenant Pathway activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L08-P01-covenant-pathway"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Exodus 19:3-8 and 20:1-17, highlighting Rescue, Identity, Instruction, and Response.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build the covenant pathway and label original Israelite meaning, canonical principle, and present New Covenant application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Covenant Pathway activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L08-P01-covenant-pathway"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Command in Context activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What had God done before asking for covenant obedience?",
+        "purpose": "Narrative sequence",
+        "foundation_prompt": "Brought Israel from Egypt.",
+        "extension_prompt": "Explain the eagle-wings and brought-to-myself language."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What vocation was Israel given?",
+        "purpose": "Identity",
+        "foundation_prompt": "Treasured possession, priestly kingdom, holy nation.",
+        "extension_prompt": "Discuss vocation without turning it into national superiority."
+      },
+      {
+        "question_id": "Q03",
+        "question": "How does Exodus 20 begin?",
+        "purpose": "Context",
+        "foundation_prompt": "God identifies Himself as rescuer.",
+        "extension_prompt": "Explain how the preface frames the commands."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How should Christians use Sinai law responsibly?",
+        "purpose": "Hermeneutics",
+        "foundation_prompt": "Read context and New Covenant teaching.",
+        "extension_prompt": "Distinguish direct transfer, moral principle, and fulfilled covenant form."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Covenant Pathway",
+        "duration_minutes": 11,
+        "materials": [
+          "Pathway worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record Rescue.",
+          "Record Identity and vocation.",
+          "Record selected Instructions.",
+          "Record a faithful Response."
+        ],
+        "learning_link": "Makes narrative and covenant order visible.",
+        "low_resource_alternative": "Use four connected boxes on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Command in Context",
+        "duration_minutes": 9,
+        "materials": [
+          "Selected command cards"
+        ],
+        "steps": [
+          "Read a command with its surrounding verses.",
+          "Name the original audience and covenant setting.",
+          "Find any New Testament reuse or principle.",
+          "Write a careful present application."
+        ],
+        "learning_link": "Prevents decontextualised rule transfer.",
+        "low_resource_alternative": "Work through one command together."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Exodus 20:2",
+      "prayer_prompt": "Thank God for rescue and ask for loyal, loving obedience.",
+      "take_home_line": "God rescued Israel first, then shaped them as His covenant people."
+    },
+    "printable_refs": [
+      "Y1-L08-P01-covenant-pathway"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Rescue Before Response",
+    "parent_intro": "This study shows why the order of Exodus and Sinai matters.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Exodus 19:3-6 and 20:1-3, 12-17."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Name what God did, who Israel was called to be, and how the commands shaped life."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Arrange four cards: Rescue, Identity, Instruction, Response."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why does the rescue come before the commands?",
+      "How can one command express love for God or neighbour?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Covenant Order",
+      "instructions": "Put Rescue, Identity, Instruction, and Response in the order shown by Exodus."
+    },
+    "weekly_action": "Choose one command-shaped act of love this week, such as truthfulness, honour, or contentment.",
+    "prayer": "Rescuing God, form us into people who love You and love our neighbours.",
+    "parent_note": "Avoid using the lesson as a behaviour-control speech. The point is covenant order and grateful response."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What came before the law at Sinai?",
+        "type": "multiple_choice",
+        "options": [
+          "God’s rescue from Egypt",
+          "Israel’s perfect obedience",
+          "The building of Solomon’s temple"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God’s rescue from Egypt"
+        },
+        "explanation": "The narrative places Exodus before Sinai."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Which identity appears in Exodus 19?",
+        "type": "multiple_choice",
+        "options": [
+          "A kingdom of priests",
+          "A Roman colony",
+          "A merchant guild"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A kingdom of priests"
+        },
+        "explanation": "The phrase describes Israel’s covenant vocation."
+      },
+      {
+        "question_id": "Q3",
+        "question": "The Ten Commandments begin by identifying God as the one who rescued Israel.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "Exodus 20:2 gives the rescue preface."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What is a responsible Christian reading of Sinai?",
+        "type": "multiple_choice",
+        "options": [
+          "Read covenant context and New Testament use",
+          "Copy every law without context",
+          "Ignore the Old Testament"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Read covenant context and New Testament use"
+        },
+        "explanation": "Both continuity and covenant difference matter."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Covenant Pathway",
+      "instructions": "Put the four stages in order.",
+      "items": [
+        "Response",
+        "Identity",
+        "Rescue",
+        "Instruction"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Rescue",
+          "Identity",
+          "Instruction",
+          "Response"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L08-P01-covenant-pathway",
+        "title": "Covenant Pathway",
+        "purpose": "Show that rescue precedes identity, instruction, and response at Sinai.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "authority",
+      "obedience",
+      "religious_pressure"
+    ],
+    "do_not_ask": [
+      "Do not use the lesson to demand disclosure of rule-breaking.",
+      "Do not equate unquestioning compliance with every adult request to obedience to God."
+    ],
+    "teacher_response": "Distinguish God’s covenant authority from unsafe human control. Reinforce that harmful or unlawful adult demands should be reported to safe adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L08",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D005",
+      "D022"
+    ],
+    "review_flags": [
+      "TH-COVENANT",
+      "TH-LAW",
+      "TH-NEW-COVENANT"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

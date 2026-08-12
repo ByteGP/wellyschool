@@ -1,0 +1,668 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L09",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 9,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Exodus, Passover, and Deliverance",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Exodus"
+  },
+  "core": {
+    "big_idea": "The Exodus becomes Scripture's paradigmatic account of God delivering a people for Himself.",
+    "passages": [
+      {
+        "reference": "Exodus 12:1-32",
+        "role": "primary",
+        "reading_note": "Trace Passover instruction, judgment, protection, memory, and departure."
+      },
+      {
+        "reference": "Exodus 14:10-31",
+        "role": "primary",
+        "reading_note": "Trace fear, divine action, crossing, judgment, and the people’s response."
+      },
+      {
+        "reference": "Deuteronomy 5:12-15; Psalm 77:11-20",
+        "role": "supporting",
+        "reading_note": "Use to show how law and worship remember the Exodus."
+      },
+      {
+        "reference": "Luke 22:14-20; 1 Corinthians 5:7-8; 10:1-4",
+        "role": "comparison",
+        "reading_note": "Follow New Testament reuse without forcing every Exodus detail into typology."
+      }
+    ],
+    "metanarrative_position": "Paradigmatic deliverance: God defeats the enslaving power, protects a people through judgment, brings them through the sea, and claims them for covenant life.",
+    "biblical_genre": "Rescue narrative, ritual instruction, covenant memory, and later canonical reuse",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Passover joins household obedience, a blood sign, divine judgment, protection, departure, and commanded remembrance.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Exodus 12:1-32",
+          "Exodus 12:43-51"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Exodus 14 attributes Israel’s deliverance through the sea to the Lord and records judgment on the pursuing Egyptian force.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 14:13-14",
+          "Exodus 14:21-31"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Later Israelite law, prayer, poetry, and prophecy repeatedly use the Exodus as a foundational account of God’s identity and Israel’s covenant identity.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Deuteronomy 5:12-15",
+          "Psalm 77:11-20",
+          "Hosea 11:1"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Jesus and Paul reuse Passover and Exodus language to interpret Jesus’ death, Christian remembrance, deliverance, and warning.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Luke 22:14-20",
+          "1 Corinthians 5:7-8",
+          "1 Corinthians 10:1-12"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "A responsible typological reading follows later biblical use, preserves the original Exodus meaning, and does not assign a hidden Christian equivalent to every object or action.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Luke 24:25-27",
+          "1 Corinthians 5:7-8",
+          "1 Corinthians 10:1-12"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The controls supplied by explicit apostolic reuse and whole-canon coherence.",
+        "prohibited_overstatement": "Do not turn typology into unrestricted allegory."
+      },
+      {
+        "claim_id": "C06",
+        "statement": "The Exodus supports Christian concern for oppression and rescue, but mapping it onto a modern political movement is a prudential argument requiring contextual and ethical reasoning beyond a slogan.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "Exodus 1-15",
+          "Luke 4:16-21",
+          "Romans 13:1-7"
+        ],
+        "confidence": "Medium",
+        "review_status": "draft",
+        "credible_alternative": "Political theologies differ over how directly the Exodus should shape contemporary liberation programs.",
+        "interpretive_hinge": "How a unique redemptive event supplies moral imagination without becoming a one-to-one political template.",
+        "prohibited_overstatement": "Do not claim that every preferred political campaign is automatically the biblical Exodus reenacted."
+      }
+    ],
+    "doctrine_tags": [
+      "salvation",
+      "covenant",
+      "atonement",
+      "worship",
+      "biblical_theology"
+    ],
+    "formation_tags": [
+      "gratitude",
+      "remembrance",
+      "justice"
+    ],
+    "interpretation_skill": "Trace an event as a biblical paradigm; distinguish original meaning, canonical reuse, typology, and modern prudential application.",
+    "key_terms": [
+      "Exodus",
+      "Passover",
+      "deliverance",
+      "paradigm",
+      "typology",
+      "remembrance"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain why Passover and the sea crossing become Scripture’s paradigmatic account of God delivering a people for Himself.",
+    "extension_objective": "Evaluate later biblical reuse, construct a controlled typological argument, and distinguish canonical development from modern political analogy.",
+    "know": [
+      "Passover and sea crossing form the Exodus deliverance.",
+      "Israel repeatedly remembers the event in law and worship.",
+      "The New Testament reuses Passover and Exodus language."
+    ],
+    "understand": [
+      "A paradigm is a defining pattern that later texts recall and develop.",
+      "Typology is controlled by canonical evidence rather than imaginative similarity alone."
+    ],
+    "practise": [
+      "Build an argument with original context and later citations.",
+      "Test a modern liberation claim for both insight and overreach."
+    ],
+    "become": [
+      "A student who remembers rescue, cares about oppression, and resists manipulative biblical analogy."
+    ],
+    "success_evidence": [
+      "The student completes the Exodus Paradigm Trace.",
+      "The student gives one controlled New Testament connection.",
+      "The student rewrites one political overclaim as a careful prudential argument."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain the Exodus as a defining deliverance paradigm and evaluate later biblical reuse responsibly.",
+      "read": "Exodus 12:11-14, 24-27; 14:13-14, 21-31; 1 Corinthians 5:7-8",
+      "opening": "Ask: When does one event become the story a whole community keeps using to explain who it is?",
+      "say": [
+        "Passover and the sea crossing form a connected deliverance story.",
+        "Israel remembers the Exodus in worship, law, and later hope.",
+        "The New Testament uses Passover and Exodus language around Christ and the church.",
+        "A valid connection needs textual control; similarity alone is not enough."
+      ],
+      "ask": [
+        "What does Passover remember?",
+        "How does Exodus 14 identify the rescuer?",
+        "Where does later Scripture reuse the event?",
+        "What makes a typological or political connection responsible?"
+      ],
+      "do": "Complete the Exodus Paradigm Trace from Event to Israelite Memory to New Testament Use to Present Application.",
+      "close": "Pray with gratitude for deliverance and ask for justice, humility, and careful reading.",
+      "materials": [
+        "Bible",
+        "Exodus Paradigm Trace",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Exodus 12-14 narrates Israel’s movement from Passover night through departure and the sea. The event becomes a repeated memory across the canon and a major source of New Testament language about Jesus and the Christian community.",
+      "text_observations": [
+        "Passover is both an immediate instruction and a future memorial.",
+        "The sea narrative alternates human fear and divine action.",
+        "Later texts reuse Exodus themes for Sabbath compassion, praise, prophetic hope, Christ, baptismal warning, and Christian identity."
+      ],
+      "interpretation_notes": [
+        "Do not detach the Passover from Egyptian oppression, judgment, and the formation of Israel.",
+        "Distinguish typology named or strongly developed by later Scripture from homiletical analogy.",
+        "Modern liberation applications can be morally illuminating but require separate judgments about actors, means, ends, law, and justice."
+      ],
+      "theological_guardrails": [
+        "Do not dehumanise Egyptians or celebrate mass death.",
+        "Do not reduce Jesus’ work to political liberation alone or spiritualise away bodily oppression.",
+        "Do not make every water event a baptism proof or every meal a Lord’s Supper prediction."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why did God kill the firstborn?",
+          "purpose": "Set the judgment within the prolonged oppression and Pharaoh conflict, acknowledge the severe moral question, and avoid graphic or glib answers."
+        },
+        {
+          "question": "Can Christians call every freedom movement an Exodus?",
+          "purpose": "No. The analogy may illuminate oppression and rescue, but responsible application requires ethical and contextual analysis."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the selected texts and label Original Event, Israelite Memory, New Testament Reuse, and Present Application.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build the paradigm trace, then audit whether each later connection is explicit, canonical synthesis, strong inference, or prudential judgment.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Exodus Paradigm Trace activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L09-P01-exodus-paradigm-trace"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read the selected texts and label Original Event, Israelite Memory, New Testament Reuse, and Present Application.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build the paradigm trace, then audit whether each later connection is explicit, canonical synthesis, strong inference, or prudential judgment.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Exodus Paradigm Trace activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L09-P01-exodus-paradigm-trace"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read the selected texts and label Original Event, Israelite Memory, New Testament Reuse, and Present Application.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build the paradigm trace, then audit whether each later connection is explicit, canonical synthesis, strong inference, or prudential judgment.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Exodus Paradigm Trace activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L09-P01-exodus-paradigm-trace"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Analogy Stress Test activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Which movements make up the Exodus deliverance?",
+        "purpose": "Narrative synthesis",
+        "foundation_prompt": "Passover, departure, sea crossing.",
+        "extension_prompt": "Include judgment, protection, memory, and covenant purpose."
+      },
+      {
+        "question_id": "Q02",
+        "question": "How did Israel reuse the Exodus?",
+        "purpose": "Canonical memory",
+        "foundation_prompt": "Law, worship, identity.",
+        "extension_prompt": "Compare Deuteronomy and a Psalm."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Which New Testament connections are explicit?",
+        "purpose": "Typology control",
+        "foundation_prompt": "Christ our Passover; Exodus warning.",
+        "extension_prompt": "Distinguish Luke, 1 Corinthians 5, and 1 Corinthians 10 uses."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What makes a modern Exodus analogy responsible?",
+        "purpose": "Prudential ethics",
+        "foundation_prompt": "Context, justice, means, and limits.",
+        "extension_prompt": "Audit one neutral claim for insight and overreach."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Exodus Paradigm Trace",
+        "duration_minutes": 12,
+        "materials": [
+          "Trace worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record original event claims.",
+          "Record Israelite remembrance texts.",
+          "Record New Testament reuse.",
+          "Add one present application with its evidence class."
+        ],
+        "learning_link": "Makes canonical development and application levels explicit.",
+        "low_resource_alternative": "Use four board columns."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Analogy Stress Test",
+        "duration_minutes": 10,
+        "materials": [
+          "General analogy cards"
+        ],
+        "steps": [
+          "State the proposed Exodus analogy.",
+          "List genuine similarities.",
+          "List important differences.",
+          "Write a bounded conclusion rather than an identity claim."
+        ],
+        "learning_link": "Prevents political and devotional overreach.",
+        "low_resource_alternative": "Stress-test one fictional claim together."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Exodus 14:13",
+      "prayer_prompt": "Thank God for deliverance in Scripture and ask for justice, compassion, and disciplined interpretation.",
+      "take_home_line": "The Exodus is a defining rescue story whose later use must follow the text."
+    },
+    "printable_refs": [
+      "T1-L09-P01-exodus-paradigm-trace"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Event, Memory, Fulfillment, Application",
+    "parent_intro": "This study traces the Exodus without treating every later resemblance as a direct fulfillment.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Exodus 12:24-27; 14:13-14, 29-31; 1 Corinthians 5:7-8."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Name the original event, how it was remembered, and how Paul reuses Passover language."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Test one modern rescue analogy by listing similarities and differences."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why does remembrance matter?",
+      "What keeps a biblical analogy from becoming manipulation?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Analogy Stress Test",
+      "instructions": "Record the original event, claimed similarity, important difference, and bounded conclusion."
+    },
+    "weekly_action": "When using a Bible comparison this week, add the words similar because and different because.",
+    "prayer": "God of deliverance, form gratitude and justice in us, and teach us to handle Your word carefully.",
+    "parent_note": "Keep discussion non-graphic and nonpartisan. Do not force a teenager to defend or condemn a current political cause."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What made the Exodus paradigmatic for Israel?",
+        "type": "multiple_choice",
+        "options": [
+          "It became a repeated rescue and identity story",
+          "It was never mentioned again",
+          "It removed the need for covenant life"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "It became a repeated rescue and identity story"
+        },
+        "explanation": "Later law and worship recall it."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Which New Testament phrase is explicit?",
+        "type": "multiple_choice",
+        "options": [
+          "Christ our Passover has been sacrificed",
+          "Every Exodus object is Jesus",
+          "Every sea is baptism"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Christ our Passover has been sacrificed"
+        },
+        "explanation": "1 Corinthians 5 supplies the wording."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Any political movement that uses Exodus language is automatically biblically correct.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Modern application requires prudential ethical analysis."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What controls typology?",
+        "type": "multiple_choice",
+        "options": [
+          "Later biblical use and canonical coherence",
+          "Imagination alone",
+          "A shared colour or number"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Later biblical use and canonical coherence"
+        },
+        "explanation": "Textual control distinguishes typology from free allegory."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Exodus Paradigm Levels",
+      "instructions": "Order the interpretive levels.",
+      "items": [
+        "Present application",
+        "Original Exodus event",
+        "New Testament reuse",
+        "Israelite remembrance"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Original Exodus event",
+          "Israelite remembrance",
+          "New Testament reuse",
+          "Present application"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L09-P01-exodus-paradigm-trace",
+        "title": "Exodus Paradigm Trace",
+        "purpose": "Trace original event, Israelite memory, New Testament reuse, and bounded present application.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "mass_death",
+      "oppression",
+      "politics",
+      "religious_doubt"
+    ],
+    "do_not_ask": [
+      "Do not require students to disclose political affiliation or defend a current conflict.",
+      "Do not invite graphic discussion of the death of children."
+    ],
+    "teacher_response": "Keep examples general, acknowledge moral difficulty, and stop partisan targeting or dehumanising language.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L09",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D005",
+      "D006",
+      "D019",
+      "D022",
+      "D027"
+    ],
+    "review_flags": [
+      "TH-SALVATION",
+      "TH-ATONEMENT",
+      "TH-BIBLICAL-THEOLOGY",
+      "PASTORAL-JUDGMENT"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Correct the canonical matrixs scripture-only tag and TH-BIBLIOLOGY flag; this is a salvation, covenant, atonement, and biblical-theology lesson."
+    ]
+  }
+}

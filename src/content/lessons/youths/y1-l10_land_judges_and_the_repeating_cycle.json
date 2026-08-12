@@ -1,0 +1,640 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L10",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 10,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Land, Judges, and the Repeating Cycle",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Land and Judges"
+  },
+  "core": {
+    "big_idea": "Settlement in the land was followed by repeated rebellion, oppression, and deliverance.",
+    "passages": [
+      {
+        "reference": "Joshua 21:43-45",
+        "role": "primary",
+        "reading_note": "Record the repeated fulfillment language about land, rest, and promise."
+      },
+      {
+        "reference": "Judges 2:6-23",
+        "role": "primary",
+        "reading_note": "Track generation change, rebellion, oppression, crying out, judges, deliverance, and relapse."
+      },
+      {
+        "reference": "Judges 3:7-11",
+        "role": "supporting",
+        "reading_note": "Use as one concrete example of the summary cycle without dwelling on violence."
+      }
+    ],
+    "metanarrative_position": "Land and Judges: God fulfills the land promise, but covenant unfaithfulness produces a recurring cycle that temporary judges do not finally solve.",
+    "biblical_genre": "Historical narrative and theological summary",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Joshua 21 states that the Lord gave Israel the land, rest, and fulfillment of His good promises.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Joshua 21:43-45"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Judges 2 describes a later generation that did not know the Lord or the work He had done for Israel.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Judges 2:10"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The summary cycle includes idolatry, covenant anger, oppression, raising judges, deliverance, and relapse after the judge died.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Judges 2:11-19"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The judges are temporary deliverers rather than a final solution to Israel’s recurring rebellion.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Judges 2:16-19",
+          "Judges 3-16"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The repeated relapse and worsening narrative show the inadequacy of temporary deliverance.",
+        "prohibited_overstatement": "Do not present every judge as a simple moral hero to copy."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The movement from fulfilled promise to repeated rebellion contributes to the biblical need for faithful leadership and deeper covenant renewal.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Judges 2:6-23",
+          "1 Samuel 8:1-9",
+          "Jeremiah 31:31-34"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "sin",
+      "covenant",
+      "judgment",
+      "deliverance"
+    ],
+    "formation_tags": [
+      "memory",
+      "repentance",
+      "discernment"
+    ],
+    "interpretation_skill": "Read a theological summary as a cycle; distinguish narrative description, narrator evaluation, and modern application.",
+    "key_terms": [
+      "land",
+      "judge",
+      "oppression",
+      "deliverance",
+      "cycle"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain the Judges cycle after settlement in the land and place it between Joshua and the kings on the timeline.",
+    "extension_objective": "Use the narrator evaluation to distinguish temporary deliverance from lasting covenant faithfulness and avoid treating violent episodes as hero templates.",
+    "know": [
+      "God fulfilled the land promise in Joshua.",
+      "A later generation turned to other gods.",
+      "Judges 2 summarises a repeating cycle of oppression and deliverance."
+    ],
+    "understand": [
+      "Receiving a promise does not remove the need for faithful memory and response.",
+      "Temporary rescue did not cure the deeper pattern of rebellion."
+    ],
+    "practise": [
+      "Use a timeline or cycle to remember cause and effect.",
+      "Interrupt one ordinary repeating wrong pattern with truth, help, and a changed action."
+    ],
+    "become": [
+      "A young person who notices repeating patterns and seeks genuine change rather than only short-term relief."
+    ],
+    "success_evidence": [
+      "The student draws the Judges cycle accurately.",
+      "The student places Judges after land settlement and before monarchy.",
+      "The student explains why not every judge is a moral model."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students map the Judges cycle and explain why temporary deliverance did not solve Israel’s recurring rebellion.",
+      "read": "Joshua 21:43-45; Judges 2:10-19",
+      "opening": "Draw a circle. Ask: What makes a bad pattern repeat even after one problem is temporarily fixed?",
+      "say": [
+        "Joshua closes with strong promise-fulfillment language.",
+        "Judges begins with a generation that forgets the Lord and turns to other gods.",
+        "Oppression, crying out, judges, deliverance, and relapse form a cycle.",
+        "The book does not present every judge as a perfect hero; the cycle reveals a deeper problem."
+      ],
+      "ask": [
+        "What did God fulfill in Joshua 21?",
+        "What changed in the next generation?",
+        "Which stages repeat in Judges 2?",
+        "Why is temporary relief different from lasting repentance?"
+      ],
+      "do": "Build the Judges Cycle Wheel and mark where the pattern could be interrupted.",
+      "close": "Pray for faithful memory, honest repentance, and change that goes deeper than temporary relief.",
+      "materials": [
+        "Bible",
+        "Judges Cycle Wheel",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Joshua 21 summarises land-promise fulfillment. Judges 2 supplies the theological lens for much of the book. Individual judge narratives vary and often become morally complex, so the summary must guide rather than be replaced by hero storytelling.",
+      "text_observations": [
+        "Joshua 21 repeats not one word failed.",
+        "Judges 2 contrasts the Joshua generation with a later generation.",
+        "The narrator evaluates idolatry and describes repeated divine compassion through judges followed by relapse."
+      ],
+      "interpretation_notes": [
+        "A judge is a deliverer or leader in this period, not necessarily a courtroom official.",
+        "Do not reduce the cycle to misbehave, get punished, say sorry, get rescued; the text includes covenant betrayal, oppression, compassion, and incomplete repentance.",
+        "Later judge stories require close evaluation; narrative inclusion is not moral endorsement."
+      ],
+      "theological_guardrails": [
+        "Do not tell victims of oppression that their suffering proves personal sin.",
+        "Do not glorify violence or invite students to imitate violent tactics.",
+        "Do not use the cycle to justify abusive authority as divine punishment."
+      ],
+      "likely_questions": [
+        {
+          "question": "Were the judges all good people?",
+          "purpose": "No. They were used as deliverers, but several narratives expose serious flaws; description is not complete endorsement."
+        },
+        {
+          "question": "Does God make bad things happen every time people sin?",
+          "purpose": "The Judges narrative concerns Israel’s covenant history; it must not be used as a formula for explaining every modern harm."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Joshua 21:43-45 and Judges 2:10-19, recording Promise Fulfilled, Rebellion, Oppression, Cry, Judge, Deliverance, and Relapse.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Create a cycle wheel, then label which parts are narrator statements, historical events, and present analogies.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Judges Cycle Wheel activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L10-P01-judges-cycle-wheel"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Joshua 21:43-45 and Judges 2:10-19, recording Promise Fulfilled, Rebellion, Oppression, Cry, Judge, Deliverance, and Relapse.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Create a cycle wheel, then label which parts are narrator statements, historical events, and present analogies.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Judges Cycle Wheel activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L10-P01-judges-cycle-wheel"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Joshua 21:43-45 and Judges 2:10-19, recording Promise Fulfilled, Rebellion, Oppression, Cry, Judge, Deliverance, and Relapse.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Create a cycle wheel, then label which parts are narrator statements, historical events, and present analogies.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Judges Cycle Wheel activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L10-P01-judges-cycle-wheel"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Description or Endorsement? activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does Joshua 21 say about God’s promises?",
+        "purpose": "Text observation",
+        "foundation_prompt": "They were fulfilled.",
+        "extension_prompt": "Identify the repeated totalising language."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What caused the cycle to begin in Judges 2?",
+        "purpose": "Narrative cause",
+        "foundation_prompt": "Forgetting and idolatry.",
+        "extension_prompt": "Explain generational memory without blaming children for adults’ failures."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What did God do when the people were oppressed?",
+        "purpose": "Compassion and deliverance",
+        "foundation_prompt": "Raised judges and was moved by groaning.",
+        "extension_prompt": "Hold judgment and compassion together in the narrator account."
+      },
+      {
+        "question_id": "Q04",
+        "question": "Why did the cycle keep repeating?",
+        "purpose": "Synthesis",
+        "foundation_prompt": "The people returned to corrupt ways.",
+        "extension_prompt": "Explain why temporary deliverance did not create lasting transformation."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Judges Cycle Wheel",
+        "duration_minutes": 11,
+        "materials": [
+          "Cycle worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Add Rebellion.",
+          "Add Oppression and Cry.",
+          "Add Judge and Deliverance.",
+          "Add Relapse and draw the return arrow."
+        ],
+        "learning_link": "Turns a long narrative pattern into a concrete visual structure.",
+        "low_resource_alternative": "Draw a circle with six labelled sections on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Description or Endorsement?",
+        "duration_minutes": 9,
+        "materials": [
+          "Neutral narrative statements"
+        ],
+        "steps": [
+          "Read a narrative action.",
+          "Ask whether the narrator reports or approves it.",
+          "Find any evaluation words.",
+          "Write a careful conclusion."
+        ],
+        "learning_link": "Introduces the distinction needed for morally complex judge stories.",
+        "low_resource_alternative": "Use two examples from Judges 2 only."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Judges 2:18",
+      "prayer_prompt": "Ask for faithful memory, repentance, compassion, and lasting change.",
+      "take_home_line": "Temporary rescue did not cure Israel’s repeating rebellion."
+    },
+    "printable_refs": [
+      "Y1-L10-P01-judges-cycle-wheel"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "The Repeating Cycle",
+    "parent_intro": "This study shows how Judges summarises a repeating national pattern without making every judge a simple hero.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Joshua 21:43-45 and Judges 2:10-19."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Name the promise fulfillment and the stages that later repeated."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Draw a cycle with Rebellion, Trouble, Cry, Judge, Deliverance, and Relapse."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why did temporary rescue not end the cycle?",
+      "How is reporting an action different from approving it?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Cycle Wheel",
+      "instructions": "Arrange the six stages in a circle and explain why it repeats."
+    },
+    "weekly_action": "Choose one low-risk repeating household pattern and interrupt it with a truthful new action.",
+    "prayer": "Faithful God, help us remember Your works, turn from wrong, and seek lasting change.",
+    "parent_note": "Use only ordinary, low-risk examples. Do not use the cycle to explain abuse, trauma, or a family members suffering."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What does Joshua 21 say about God’s promises?",
+        "type": "multiple_choice",
+        "options": [
+          "They were fulfilled",
+          "They were forgotten by God",
+          "They belonged only to Egypt"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "They were fulfilled"
+        },
+        "explanation": "The summary stresses fulfillment."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What repeated in Judges?",
+        "type": "multiple_choice",
+        "options": [
+          "Rebellion, oppression, deliverance, relapse",
+          "Creation every week",
+          "The building of the ark"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Rebellion, oppression, deliverance, relapse"
+        },
+        "explanation": "Judges 2 supplies the cycle."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Every action recorded by a judge is automatically approved.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Narrative description is not identical to endorsement."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What did God raise up?",
+        "type": "multiple_choice",
+        "options": [
+          "Judges",
+          "Pharaoh’s",
+          "Roman governors"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Judges"
+        },
+        "explanation": "The Lord raised deliverers for Israel."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Judges Cycle",
+      "instructions": "Put the cycle stages in order.",
+      "items": [
+        "Deliverance",
+        "Rebellion",
+        "Relapse",
+        "Cry",
+        "Oppression",
+        "Judge"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Rebellion",
+          "Oppression",
+          "Cry",
+          "Judge",
+          "Deliverance",
+          "Relapse"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L10-P01-judges-cycle-wheel",
+        "title": "Judges Cycle Wheel",
+        "purpose": "Map the theological cycle in Judges 2 and distinguish temporary deliverance from lasting faithfulness.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "violence",
+      "oppression",
+      "abuse_of_power",
+      "victim_blaming"
+    ],
+    "do_not_ask": [
+      "Do not ask students to connect personal abuse or victimisation to sin.",
+      "Do not celebrate violent details or ask students to role-play them."
+    ],
+    "teacher_response": "Keep the focus on the book’s theological cycle. Correct victim-blaming immediately and follow safeguarding procedures for independent disclosures.",
+    "escalation_required": true
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L10",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D020",
+      "D022"
+    ],
+    "review_flags": [
+      "TH-COVENANT",
+      "TH-JUDGMENT",
+      "PASTORAL-VIOLENCE",
+      "SAFEGUARDING"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

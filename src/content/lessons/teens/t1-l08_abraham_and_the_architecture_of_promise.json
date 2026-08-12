@@ -1,0 +1,677 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L08",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 8,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Abraham and the Architecture of Promise",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "Covenant"
+  },
+  "core": {
+    "big_idea": "The Abrahamic promises structure the biblical movement toward land, people, and blessing in Christ.",
+    "passages": [
+      {
+        "reference": "Genesis 12:1-3",
+        "role": "primary",
+        "reading_note": "Identify call, nation, name, blessing, and worldwide purpose."
+      },
+      {
+        "reference": "Genesis 15:1-21",
+        "role": "primary",
+        "reading_note": "Track offspring, belief, covenant ceremony, land, and the historical horizon."
+      },
+      {
+        "reference": "Genesis 17:1-8",
+        "role": "supporting",
+        "reading_note": "Use to clarify covenant continuity, nations, descendants, and land."
+      },
+      {
+        "reference": "Galatians 3:6-18, 26-29",
+        "role": "primary",
+        "reading_note": "Follow Paul’s argument about faith, nations, promise, seed, Christ, and heirs."
+      },
+      {
+        "reference": "Romans 4:9-17",
+        "role": "comparison",
+        "reading_note": "Use in Extended profile for another apostolic reading of Abraham and faith."
+      }
+    ],
+    "metanarrative_position": "Covenant promise: God’s call of Abraham creates the land, people, and worldwide blessing architecture that later Scripture interprets around Christ and the nations.",
+    "biblical_genre": "Patriarchal narrative, covenant text, and apostolic argument",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis 12 joins the promise of a great nation, a great name, divine blessing, and blessing for all families of the earth.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 12:1-3"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Genesis 15 develops offspring and land promises, records Abram’s belief, and narrates a covenant-making ceremony.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 15:1-21"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Galatians 3 presents the Abrahamic promise as good news for the nations through faith and identifies Christ as the promised seed in Paul’s argument.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Galatians 3:6-16"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Galatians concludes that those who belong to Christ are Abraham’s offspring and heirs according to promise.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Galatians 3:26-29"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Land, people or offspring, and worldwide blessing form a durable biblical architecture whose lines develop across Israel, Christ, and the multi-nation people of faith.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 12:1-3",
+          "Genesis 15:1-21",
+          "Genesis 17:1-8",
+          "Galatians 3:6-29"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C06",
+        "statement": "Christians disagree about how unfulfilled or ongoing land and national-Israel dimensions relate to Christ, the church, and future hope.",
+        "classification": "disputed",
+        "evidence_refs": [
+          "Genesis 15:18-21",
+          "Romans 9-11",
+          "Galatians 3:26-29"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Dispensational, covenantal, progressive covenantal, and other readings differ over continuity, fulfillment, and future national or territorial promises.",
+        "interpretive_hinge": "How apostolic Christ-centered fulfillment relates to the historical particularity and possible future dimensions of the Abrahamic promises.",
+        "prohibited_overstatement": "Do not say Galatians makes Abraham or Israel irrelevant, and do not make one modern geopolitical policy the automatic fulfillment of a biblical text."
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "promise",
+      "mission",
+      "christology",
+      "salvation"
+    ],
+    "formation_tags": [
+      "faith",
+      "mission",
+      "humility"
+    ],
+    "interpretation_skill": "Trace a promise across narrative and epistle; follow Paul’s argument without simplistic word-study claims or erasing original context.",
+    "key_terms": [
+      "covenant",
+      "offspring",
+      "seed",
+      "land",
+      "nations",
+      "heir"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Trace land, people or offspring, and worldwide blessing from Genesis into Galatians and explain the Christ-centered movement.",
+    "extension_objective": "Evaluate competing continuity and fulfillment claims, follow Paul’s use of seed in context, and identify what the apostolic argument settles or leaves disputed.",
+    "know": [
+      "Genesis gives land, offspring, and nations-blessing promises.",
+      "Abram believes God in Genesis 15.",
+      "Galatians connects the promise to Christ, faith, the nations, and heirs."
+    ],
+    "understand": [
+      "A promise can retain historical context while receiving canonical development.",
+      "Paul’s seed argument must be read as part of his whole Galatians case, not a free-standing English grammar trick."
+    ],
+    "practise": [
+      "Build a cross-canonical argument with explicit citations.",
+      "Represent one alternative Israel-church reading without caricature."
+    ],
+    "become": [
+      "A student who sees election as blessing for the nations and holds disputed fulfillment questions with humility."
+    ],
+    "success_evidence": [
+      "The student completes the three-part promise architecture.",
+      "The student explains Galatians 3 without erasing Genesis context.",
+      "The student identifies one genuine interpretive hinge in the continuity debate."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students trace the Abrahamic promises toward land, people, worldwide blessing, and Christ.",
+      "read": "Genesis 12:1-3; 15:1-6; Galatians 3:6-16, 26-29",
+      "opening": "Draw three foundation blocks labelled Land, People, and Blessing. Ask how a promise can shape a story for centuries.",
+      "say": [
+        "Genesis 12 gives a promise with local and worldwide dimensions.",
+        "Genesis 15 develops offspring, belief, covenant, and land.",
+        "Galatians reads the promise around Christ, faith, and blessing for the nations.",
+        "The apostolic fulfillment claim does not license careless erasure of the earlier historical story."
+      ],
+      "ask": [
+        "What promise elements appear in Genesis 12?",
+        "What changes or develops in Genesis 15?",
+        "How does Paul use Abraham in Galatians?",
+        "Where do serious Christians still disagree?"
+      ],
+      "do": "Complete the Promise Architecture Map with Genesis foundation, biblical development, Christ-centered use, and unresolved questions.",
+      "close": "Pray for faith, mission to the nations, and humility in disputed questions.",
+      "materials": [
+        "Bible",
+        "Promise Architecture Map",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 12 begins the Abraham narrative; Genesis 15 formalises key promises; Genesis 17 expands covenant identity. Galatians 3 addresses justification, the law, faith, and Gentile inclusion by interpreting Abraham through Christ.",
+      "text_observations": [
+        "The blessing vocabulary in Genesis 12 moves toward all families of the earth.",
+        "Genesis 15 separates the offspring and land discussions while joining them in covenant.",
+        "Galatians 3 cites Genesis and argues from promise priority over the later law.",
+        "Paul’s conclusion includes belonging to Christ and being heirs according to promise."
+      ],
+      "interpretation_notes": [
+        "The Hebrew and Greek terms translated seed or offspring can function collectively; Paul’s inspired argument is contextual and christological, not a general rule that grammatical singular always means one individual.",
+        "Do not use Galatians to make the original land, family, and Israel story unreal.",
+        "Do not let current political disputes replace exegesis of Genesis, Galatians, and Romans."
+      ],
+      "theological_guardrails": [
+        "Do not teach that Abraham was chosen because his ethnicity was superior.",
+        "Do not equate the modern state of Israel straightforwardly with every biblical promise without argument.",
+        "Do not use a framework label as a substitute for explaining the relevant texts."
+      ],
+      "likely_questions": [
+        {
+          "question": "Does the land promise still apply today?",
+          "purpose": "Identify the main interpretive models, show what Genesis states and how the New Testament develops the promise, and acknowledge the unresolved hinge."
+        },
+        {
+          "question": "Why does Paul say seed and not seeds?",
+          "purpose": "Follow Galatians 3:16 in Paul’s argument while explaining that collective-noun usage prevents a simplistic dictionary proof."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the Genesis and Galatians selections, marking Land, Offspring or People, Blessing, Faith, Christ, Nations, and Heirs.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build a four-level map: Genesis promise, development in the story, apostolic Christ-centered use, and questions that remain disputed.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Promise Architecture Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L08-P01-promise-architecture-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read the Genesis and Galatians selections, marking Land, Offspring or People, Blessing, Faith, Christ, Nations, and Heirs.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build a four-level map: Genesis promise, development in the story, apostolic Christ-centered use, and questions that remain disputed.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Promise Architecture Map activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L08-P01-promise-architecture-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read the Genesis and Galatians selections, marking Land, Offspring or People, Blessing, Faith, Christ, Nations, and Heirs.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build a four-level map: Genesis promise, development in the story, apostolic Christ-centered use, and questions that remain disputed.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Promise Architecture Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L08-P01-promise-architecture-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Seed Argument Audit activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What are the major promise components in Genesis 12 and 15?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Land, offspring or people, blessing.",
+        "extension_prompt": "Distinguish explicit wording from later summary categories."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What role does faith play in Genesis 15 and Galatians 3?",
+        "purpose": "Canonical comparison",
+        "foundation_prompt": "Abram believes; Galatians cites it.",
+        "extension_prompt": "Trace Paul’s justification argument rather than isolating one verse."
+      },
+      {
+        "question_id": "Q03",
+        "question": "How does Galatians connect Christ and the nations to Abraham?",
+        "purpose": "Apostolic interpretation",
+        "foundation_prompt": "Christ is the seed; believers are heirs.",
+        "extension_prompt": "Explain corporate participation in Christ."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What remains disputed about land and Israel?",
+        "purpose": "Fair disagreement",
+        "foundation_prompt": "Continuity and fulfillment models differ.",
+        "extension_prompt": "State the strongest alternative and its interpretive hinge."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Promise Architecture Map",
+        "duration_minutes": 12,
+        "materials": [
+          "Architecture worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record Genesis promise blocks.",
+          "Trace one development for each block.",
+          "Record Galatians Christ-centered use.",
+          "Add one unresolved continuity question."
+        ],
+        "learning_link": "Makes cross-canonical development visible without erasing stages.",
+        "low_resource_alternative": "Draw foundation, structure, and roof on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Seed Argument Audit",
+        "duration_minutes": 10,
+        "materials": [
+          "Galatians 3 excerpt references",
+          "Audit prompts"
+        ],
+        "steps": [
+          "State Paul’s explicit claim.",
+          "Place it in the surrounding argument.",
+          "Identify a simplistic word-study overclaim.",
+          "Rewrite the conclusion with contextual support."
+        ],
+        "learning_link": "Trains responsible lexical and apostolic reasoning.",
+        "low_resource_alternative": "Audit one claim together."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 12:3",
+      "prayer_prompt": "Thank God for the promise fulfilled in Christ and ask for faith, mission, and interpretive humility.",
+      "take_home_line": "God’s promise to Abraham moves toward blessing for the nations in Christ."
+    },
+    "printable_refs": [
+      "T1-L08-P01-promise-architecture-map"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Three Promise Foundations",
+    "parent_intro": "This study traces land, people, and blessing from Genesis into Paul’s Christ-centered argument.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 12:1-3 and Galatians 3:8-9, 16, 26-29."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "List the Genesis promise parts and the Galatians words Christ, nations, faith, and heirs."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Build three paper blocks - Land, People, Blessing - and add a Christ and Nations connector."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "How does election serve blessing beyond one family?",
+      "Which part of the fulfillment debate remains open?"
+    ],
+    "interactive": {
+      "type": "creative",
+      "title": "Promise Building",
+      "instructions": "Build three labelled blocks and connect them to Christ, nations, and heirs."
+    },
+    "weekly_action": "Pray for one nation or people group and choose one practical act of cross-cultural welcome.",
+    "prayer": "God of promise, form faith in us and make us participants in blessing the nations through Christ.",
+    "parent_note": "Avoid turning the discussion into a modern political argument. Begin with the texts and state uncertainty honestly."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Which elements structure the Abrahamic promise?",
+        "type": "multiple_choice",
+        "options": [
+          "Land, people, and blessing",
+          "Temple, king, and exile only",
+          "Wisdom, poetry, and prophecy"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Land, people, and blessing"
+        },
+        "explanation": "The categories summarise Genesis 12 and 15."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What does Galatians connect to Abraham?",
+        "type": "multiple_choice",
+        "options": [
+          "Faith and blessing for the nations",
+          "Roman military power",
+          "The end of every historical question"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Faith and blessing for the nations"
+        },
+        "explanation": "Paul cites the Abrahamic good news."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Galatians permits interpreters to ignore the original Genesis context.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Canonical development does not erase original context."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which issue remains disputed?",
+        "type": "multiple_choice",
+        "options": [
+          "How land and national Israel relate to fulfillment",
+          "Whether Genesis names Abraham",
+          "Whether Galatians mentions Christ"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "How land and national Israel relate to fulfillment"
+        },
+        "explanation": "Serious Christian models differ on continuity."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Promise Architecture",
+      "instructions": "Match each promise element with one major development.",
+      "items": [
+        "Land",
+        "People or offspring",
+        "Blessing"
+      ],
+      "choices": [
+        "A place and inheritance theme",
+        "A family becoming a people and heirs in Christ",
+        "Good news reaching the nations"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Land",
+            "answer": "A place and inheritance theme"
+          },
+          {
+            "prompt": "People or offspring",
+            "answer": "A family becoming a people and heirs in Christ"
+          },
+          {
+            "prompt": "Blessing",
+            "answer": "Good news reaching the nations"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L08-P01-promise-architecture-map",
+        "title": "Promise Architecture Map",
+        "purpose": "Trace land, people, blessing, Christ-centered development, and unresolved continuity questions.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "ethnicity",
+      "nationalism",
+      "religious_disagreement"
+    ],
+    "do_not_ask": [
+      "Do not ask students to defend a modern nation or political party as a test of faith.",
+      "Do not use election language to rank ethnic groups."
+    ],
+    "teacher_response": "Keep discussion text-based and distinguish biblical Israel, Jewish people, the modern state, the church, and political policy rather than collapsing them.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L08",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D006",
+      "D019",
+      "D022"
+    ],
+    "review_flags": [
+      "TH-COVENANT",
+      "TH-CHRISTOLOGY",
+      "TH-ISRAEL-CHURCH"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Correct the canonical matrixs Apostolic-church era, Epistle-only genre, violence tag, and Violence/war sensitivity."
+    ]
+  }
+}

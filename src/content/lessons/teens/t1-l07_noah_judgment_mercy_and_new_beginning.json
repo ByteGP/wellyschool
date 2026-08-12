@@ -1,0 +1,680 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L07",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 7,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Noah: Judgment, Mercy, and New Beginning",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "Covenant"
+  },
+  "core": {
+    "big_idea": "The flood narrative joins universal judgment, preservation, covenant, and unresolved human sin.",
+    "passages": [
+      {
+        "reference": "Genesis 6:5-22",
+        "role": "primary",
+        "reading_note": "Trace human corruption, violence, divine grief and judgment, Noah’s description, and ark instructions."
+      },
+      {
+        "reference": "Genesis 7:17-24",
+        "role": "context",
+        "reading_note": "Use selected verses to establish the judgment and preservation movement without graphic amplification."
+      },
+      {
+        "reference": "Genesis 8:20-22; 9:1-17",
+        "role": "primary",
+        "reading_note": "Track sacrifice, continuing human inclination, renewed commission, covenant scope, and sign."
+      },
+      {
+        "reference": "1 Peter 3:18-22",
+        "role": "comparison",
+        "reading_note": "Reserve for extension; examine Peter’s use without making every flood detail a baptismal prediction."
+      }
+    ],
+    "metanarrative_position": "Judgment and covenant renewal: God judges a violent world, preserves Noah’s household and creatures, and covenants with all flesh while the human sin problem remains.",
+    "biblical_genre": "Primeval biblical narrative with covenant speech",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis describes widespread human wickedness, corrupt violence, and divine grief before the flood judgment.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 6:5-7",
+          "Genesis 6:11-13"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Noah found favour, was described as righteous and blameless in his generation, walked with God, and obeyed the ark instructions.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 6:8-9",
+          "Genesis 6:22"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The flood narrative presents both judgment on the corrupt world and preservation of Noah’s household and animal life through the ark.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 6:13-22",
+          "Genesis 7:17-24",
+          "Genesis 8:1-19"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "God made a covenant with Noah, his descendants, and every living creature, with the bow as the covenant sign.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 9:8-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The post-flood text still speaks of the human heart inclining toward evil, so the new beginning does not resolve the deeper problem of sin.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 8:21"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C06",
+        "statement": "The narrative should be read as Scripture teaching real divine judgment, preservation, and covenant; interpreters dispute the geographic extent, geological model, and relationship between the narratives universal language and modern scientific reconstruction.",
+        "classification": "disputed",
+        "evidence_refs": [
+          "Genesis 6-9"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "credible_alternative": "Views range from a global geological flood to regional-event readings and literary-theological approaches; each must account for the narratives language, genre, and canonical use.",
+        "interpretive_hinge": "How primeval narrative, universal language, ancient context, and modern geological claims relate.",
+        "prohibited_overstatement": "Do not claim the passage by itself settles every modern geological or chronological question, and do not dismiss its theological judgment claims as irrelevant."
+      }
+    ],
+    "doctrine_tags": [
+      "sin",
+      "judgment",
+      "mercy",
+      "covenant",
+      "creation"
+    ],
+    "formation_tags": [
+      "obedience",
+      "humility",
+      "hope"
+    ],
+    "interpretation_skill": "Audit judgment, preservation, covenant, and unresolved sin; distinguish narrative claims from modern scope and geology models.",
+    "key_terms": [
+      "corruption",
+      "violence",
+      "favour",
+      "preservation",
+      "covenant",
+      "scope"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse Genesis 6-9 and explain how judgment, preservation, covenant, and unresolved sin operate together.",
+    "extension_objective": "Evaluate scope and historicity claims with genre awareness, state what the text clearly teaches, and identify what requires external historical or scientific argument.",
+    "know": [
+      "Human violence and corruption frame the judgment.",
+      "Noah, his household, and creatures are preserved.",
+      "The covenant is made with Noah, descendants, and every living creature.",
+      "Human sin remains after the flood."
+    ],
+    "understand": [
+      "A new beginning is not the same as a complete cure for sin.",
+      "Theological claims and geological reconstructions are related questions but not identical questions."
+    ],
+    "practise": [
+      "State a high-confidence textual claim and a lower-confidence scope claim separately.",
+      "Respond to difficult judgment texts without denial, panic, or graphic fascination."
+    ],
+    "become": [
+      "A student who can hold judgment and mercy together while calibrating confidence about disputed reconstruction."
+    ],
+    "success_evidence": [
+      "The student completes the four-lens flood audit.",
+      "The student identifies Genesis 8:21 as evidence of unresolved sin.",
+      "The student separates textual universality language from a modern geological model."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain how Genesis 6-9 joins judgment, preservation, covenant, and unresolved human sin.",
+      "read": "Genesis 6:5-13, 17-22; 8:20-22; 9:8-17",
+      "opening": "Ask: What makes a fresh start different from a complete solution?",
+      "say": [
+        "The narrative frames the world as corrupt and filled with violence.",
+        "Judgment and preservation occur in the same story.",
+        "The covenant after the flood extends to Noah, descendants, and living creatures.",
+        "Genesis 8 still names the inclination of the human heart, so the deeper problem remains."
+      ],
+      "ask": [
+        "What reasons for judgment does the text give?",
+        "Who and what are preserved?",
+        "What is the scope of the covenant?",
+        "Which claims are clear from the text, and which require additional argument?"
+      ],
+      "do": "Complete the Judgment, Preservation, Covenant, Unresolved Sin audit.",
+      "close": "Pray for reverence, humility, gratitude for mercy, and honesty about unresolved questions.",
+      "materials": [
+        "Bible",
+        "Four-Lens Flood Audit",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 6-9 belongs to the primeval narrative following Eden, Cain, and the spread of violence. The flood leads to renewed creation language and covenant, but the narrative quickly demonstrates that humanity is not morally remade.",
+      "text_observations": [
+        "Genesis 6 uses both moral and social language: wickedness, corrupt earth, and violence.",
+        "Noah is singled out by favour, character description, walking with God, and obedience.",
+        "The covenant sign is explained repeatedly and includes nonhuman creatures.",
+        "Genesis 8:21 precedes the renewed commission and acknowledges continuing human inclination."
+      ],
+      "interpretation_notes": [
+        "Do not let debates over boats, fossils, or geography erase the narrative’s moral-theological structure.",
+        "Do not use universal language carelessly; record it accurately before arguing about modern scope.",
+        "1 Peter 3 uses Noah and water in a baptismal argument, but the exact analogy must follow Peter’s wording rather than free association."
+      ],
+      "theological_guardrails": [
+        "Do not claim every modern disaster is a direct judgment for a named sin.",
+        "Do not use the flood to threaten students with graphic punishment.",
+        "Do not make one flood-geology model a salvation or fellowship test without an approved project decision."
+      ],
+      "likely_questions": [
+        {
+          "question": "Was the flood global?",
+          "purpose": "State the narratives universal language, explain that geographic and geological models are disputed, and identify what additional evidence each claim needs."
+        },
+        {
+          "question": "Why would God judge so severely?",
+          "purpose": "Begin with the texts description of pervasive evil and violence, acknowledge the moral weight of the question, and avoid pretending one short answer removes all difficulty."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the selected sections and mark evidence under Judgment, Preservation, Covenant, and Unresolved Sin.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Complete the four-lens audit, then classify scope claims as explicit text, inference, disputed reconstruction, or external historical-scientific claim.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Four-Lens Flood Audit activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L07-P01-four-lens-flood-audit"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read the selected sections and mark evidence under Judgment, Preservation, Covenant, and Unresolved Sin.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Complete the four-lens audit, then classify scope claims as explicit text, inference, disputed reconstruction, or external historical-scientific claim.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Four-Lens Flood Audit activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L07-P01-four-lens-flood-audit"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read the selected sections and mark evidence under Judgment, Preservation, Covenant, and Unresolved Sin.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Complete the four-lens audit, then classify scope claims as explicit text, inference, disputed reconstruction, or external historical-scientific claim.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Four-Lens Flood Audit activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L07-P01-four-lens-flood-audit"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Scope Claim Calibration activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "How does Genesis describe the pre-flood world?",
+        "purpose": "Close reading",
+        "foundation_prompt": "Wicked, corrupt, violent.",
+        "extension_prompt": "Analyse the relation between inward intention and public violence."
+      },
+      {
+        "question_id": "Q02",
+        "question": "How are judgment and preservation held together?",
+        "purpose": "Narrative synthesis",
+        "foundation_prompt": "Flood and ark.",
+        "extension_prompt": "Explain why neither theme should erase the other."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What is distinctive about the covenant in Genesis 9?",
+        "purpose": "Covenant scope",
+        "foundation_prompt": "It includes descendants and living creatures.",
+        "extension_prompt": "Discuss creation-wide implications without importing later covenant terms."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What does the passage settle about flood scope, and what remains disputed?",
+        "purpose": "Epistemic discipline",
+        "foundation_prompt": "It uses universal language and teaches judgment/preservation.",
+        "extension_prompt": "List the external evidence needed for a geological conclusion."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Four-Lens Flood Audit",
+        "duration_minutes": 12,
+        "materials": [
+          "Audit worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record judgment evidence.",
+          "Record preservation evidence.",
+          "Record covenant parties and sign.",
+          "Record evidence that sin remains."
+        ],
+        "learning_link": "Prevents a one-theme reading and exposes the narratives internal logic.",
+        "low_resource_alternative": "Use four board quadrants."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Scope Claim Calibration",
+        "duration_minutes": 10,
+        "materials": [
+          "Claim cards"
+        ],
+        "steps": [
+          "Read a claim about universality or geology.",
+          "Classify its evidence type.",
+          "State a confidence level.",
+          "Rewrite any overclaim with its required evidence."
+        ],
+        "learning_link": "Teaches distinction between textual observation and modern reconstruction.",
+        "low_resource_alternative": "Audit two claims together."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 9:13",
+      "prayer_prompt": "Acknowledge judgment, thank God for mercy and covenant faithfulness, and ask for humility in disputed questions.",
+      "take_home_line": "The flood brings judgment and preservation, but humanity still needs deeper rescue."
+    },
+    "printable_refs": [
+      "T1-L07-P01-four-lens-flood-audit"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A New Beginning, Not the Final Solution",
+    "parent_intro": "This study holds together the four major movements of the flood narrative without requiring a family to settle every geology question.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 6:11-13; 8:20-22; 9:8-17."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "List one detail under Judgment, Preservation, Covenant, and Unresolved Sin."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Take two claims - one textual and one geological - and identify what evidence each would require."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why is a new beginning not the same as a complete cure?",
+      "What can we say confidently without overstating?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Four-Lens Audit",
+      "instructions": "Record one passage detail for judgment, preservation, covenant, and unresolved sin."
+    },
+    "weekly_action": "Practise one sentence this week that begins, The text clearly says..., and another that begins, Interpreters dispute....",
+    "prayer": "God of justice and mercy, give us reverence for Your word and humility where our evidence is limited.",
+    "parent_note": "Keep the discussion non-graphic. Honest disagreement about scope should not be treated as evidence of weak faith."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Which condition does Genesis 6 emphasise?",
+        "type": "multiple_choice",
+        "options": [
+          "Corruption and violence",
+          "Perfect peace",
+          "Lack of rainfall only"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Corruption and violence"
+        },
+        "explanation": "The narrative gives moral reasons for judgment."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Who is included in the Genesis 9 covenant language?",
+        "type": "multiple_choice",
+        "options": [
+          "Noah, descendants, and living creatures",
+          "Noah alone",
+          "Only later Israelite kings"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Noah, descendants, and living creatures"
+        },
+        "explanation": "The covenant scope is repeated."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Genesis 8 presents the human sin problem as completely solved.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Genesis 8:21 still speaks of human inclination to evil."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which claim requires evidence beyond the passage alone?",
+        "type": "multiple_choice",
+        "options": [
+          "A detailed modern geological model",
+          "God made a covenant with Noah",
+          "The earth was described as violent"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A detailed modern geological model"
+        },
+        "explanation": "Modern reconstruction requires additional argument."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Flood Narrative Lenses",
+      "instructions": "Match each lens with its best evidence.",
+      "items": [
+        "Judgment",
+        "Preservation",
+        "Covenant",
+        "Unresolved sin"
+      ],
+      "choices": [
+        "Corruption and violence are judged",
+        "Noah, household, and creatures survive",
+        "God promises and gives the bow sign",
+        "The human heart still inclines toward evil"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Judgment",
+            "answer": "Corruption and violence are judged"
+          },
+          {
+            "prompt": "Preservation",
+            "answer": "Noah, household, and creatures survive"
+          },
+          {
+            "prompt": "Covenant",
+            "answer": "God promises and gives the bow sign"
+          },
+          {
+            "prompt": "Unresolved sin",
+            "answer": "The human heart still inclines toward evil"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L07-P01-four-lens-flood-audit",
+        "title": "Four-Lens Flood Audit",
+        "purpose": "Hold judgment, preservation, covenant, and unresolved sin together while calibrating disputed scope claims.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "mass_death",
+      "disaster",
+      "judgment",
+      "religious_doubt"
+    ],
+    "do_not_ask": [
+      "Do not invite graphic descriptions or disaster comparisons involving students’ families.",
+      "Do not shame students for uncertainty about flood scope or geology."
+    ],
+    "teacher_response": "Acknowledge moral and emotional difficulty, keep the text central, and refer persistent distress or trauma through appropriate channels.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L07",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D020",
+      "D022",
+      "D024",
+      "D026"
+    ],
+    "review_flags": [
+      "TH-JUDGMENT",
+      "TH-COVENANT",
+      "TH-CREATION",
+      "PASTORAL-DISASTER"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Correct the canonical matrixs eschatology-only classification; the lesson primarily concerns judgment, covenant, mercy, and creation."
+    ]
+  }
+}

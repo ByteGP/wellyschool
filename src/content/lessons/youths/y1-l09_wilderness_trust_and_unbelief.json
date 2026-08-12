@@ -1,0 +1,653 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L09",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 9,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Wilderness: Trust and Unbelief",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Wilderness"
+  },
+  "core": {
+    "big_idea": "Israel's wilderness story shows the consequences of refusing to trust God's promise.",
+    "passages": [
+      {
+        "reference": "Numbers 13:25-33",
+        "role": "primary",
+        "reading_note": "Compare the shared evidence with the different conclusions drawn from it."
+      },
+      {
+        "reference": "Numbers 14:1-12",
+        "role": "primary",
+        "reading_note": "Track fear, complaint, proposed return, Joshua and Caleb’s appeal, and rebellion."
+      },
+      {
+        "reference": "Numbers 14:20-35",
+        "role": "supporting",
+        "reading_note": "Use in Standard or Extended profiles to examine consequence without graphic emphasis."
+      }
+    ],
+    "metanarrative_position": "Wilderness testing: the rescued generation refuses the promised land, and unbelief delays entry for the community.",
+    "biblical_genre": "Wilderness narrative with speeches and judgment",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "The spies agreed that the land was fruitful and that its cities and inhabitants were formidable.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Numbers 13:27-29"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Caleb urged the people to go up, while the other spies concluded that Israel could not prevail and spread a frightening report.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Numbers 13:30-33"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The congregation wept, complained, and proposed returning to Egypt rather than entering the land.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Numbers 14:1-4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Joshua and Caleb appealed to God’s promise and presence rather than denying the reality of the opposition.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Numbers 14:6-9"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The passage distinguishes the experience of fear from the settled communal choice to reject God’s promise and return to slavery.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Numbers 13:25-33",
+          "Numbers 14:1-12"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The narrative moves from fear-inducing evidence to speech, collective decision, and threatened rebellion.",
+        "prohibited_overstatement": "Do not label anxiety, cautious planning, or asking for help as unbelief."
+      }
+    ],
+    "doctrine_tags": [
+      "sin",
+      "covenant",
+      "promise",
+      "perseverance"
+    ],
+    "formation_tags": [
+      "trust",
+      "courage",
+      "discernment"
+    ],
+    "interpretation_skill": "Compare reports built from shared facts; distinguish observation, interpretation, fear, choice, and consequence.",
+    "key_terms": [
+      "report",
+      "fear",
+      "trust",
+      "rebellion",
+      "promise"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain how Israel’s response to the spies’ report became a refusal to trust God’s promise and locate the event in the wilderness period.",
+    "extension_objective": "Compare evidence and interpretation in the two reports and distinguish fear from the later choice of rebellion.",
+    "know": [
+      "The spies saw the same land and opposition.",
+      "Caleb and Joshua urged trust in God.",
+      "The people chose complaint and return rather than entry."
+    ],
+    "understand": [
+      "Facts can be interpreted through either panic or faithful trust.",
+      "Trust does not deny danger; it includes God and His promise in the decision."
+    ],
+    "practise": [
+      "Separate facts from fearful predictions.",
+      "Ask for help and make a faithful next step when afraid."
+    ],
+    "become": [
+      "A young person who names fear honestly and evaluates conclusions before joining group panic."
+    ],
+    "success_evidence": [
+      "The student sorts report details into Observation and Interpretation.",
+      "The student explains the difference between fear and rebellion.",
+      "The student identifies a faithful next step in a fictional scenario."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students compare the spies’ reports and explain how group fear became refusal to trust God’s promise.",
+      "read": "Numbers 13:25-33; 14:1-9",
+      "opening": "Describe two people seeing the same difficult task: one says difficult, the other says impossible. Ask what changed - the facts or the conclusion?",
+      "say": [
+        "The spies shared many of the same observations about the land.",
+        "Caleb and Joshua included God’s promise and presence in their judgment.",
+        "The other report moved from real danger to a conclusion of hopelessness.",
+        "The peoples fear became a decision to reject the way forward and return to Egypt."
+      ],
+      "ask": [
+        "Which facts did the spies share?",
+        "Where did their conclusions differ?",
+        "What did Joshua and Caleb add to the evaluation?",
+        "How can we respond to fear without pretending danger is small?"
+      ],
+      "do": "Complete the Fact, Interpretation, Choice grid.",
+      "close": "Pray for honest courage, wise evaluation, and trust that does not deny difficulty.",
+      "materials": [
+        "Bible",
+        "Fact, Interpretation, Choice grid",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Numbers 13-14 occurs after Sinai and wilderness travel. The scouting mission returns with evidence about the land. The crisis is not that the people notice danger; it is that the community rejects God’s promise and proposes returning to Egypt.",
+      "text_observations": [
+        "The report contains shared positive and negative observations.",
+        "Caleb’s conclusion appears before the majority escalates the language.",
+        "Numbers 14 records communal weeping, complaint, leadership rejection, and threatened violence."
+      ],
+      "interpretation_notes": [
+        "Treat giant language and grasshopper self-description as report rhetoric, not a prompt for speculative biology.",
+        "Do not teach that careful risk assessment is faithlessness.",
+        "Group fear and social pressure are central features appropriate for this age group."
+      ],
+      "theological_guardrails": [
+        "Do not tell anxious students that their symptoms prove rebellion or weak faith.",
+        "Do not promise that faith guarantees success in every difficult project.",
+        "Do not use the conquest setting to legitimise modern violence without separate ethical reasoning."
+      ],
+      "likely_questions": [
+        {
+          "question": "Were the people wrong to be afraid?",
+          "purpose": "Fear was understandable; the narrative condemns the decision to reject God’s promise, spread hopelessness, and return to slavery."
+        },
+        {
+          "question": "Does trusting God mean ignoring risk?",
+          "purpose": "No. Joshua and Caleb knew the opposition was real but judged it within God’s stated promise and presence."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Numbers 13:25-33 and 14:1-9, marking Observation, Interpretation, Group Reaction, and Proposed Action.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Compare the reports in a grid and identify where shared evidence becomes different interpretation and choice.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Fact, Interpretation, Choice Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L09-P01-fact-interpretation-choice-grid"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Numbers 13:25-33 and 14:1-9, marking Observation, Interpretation, Group Reaction, and Proposed Action.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Compare the reports in a grid and identify where shared evidence becomes different interpretation and choice.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Fact, Interpretation, Choice Grid activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L09-P01-fact-interpretation-choice-grid"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Numbers 13:25-33 and 14:1-9, marking Observation, Interpretation, Group Reaction, and Proposed Action.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Compare the reports in a grid and identify where shared evidence becomes different interpretation and choice.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Fact, Interpretation, Choice Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L09-P01-fact-interpretation-choice-grid"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Group Panic Interruption activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Which observations did the spies share?",
+        "purpose": "Evidence",
+        "foundation_prompt": "Fruitful land, fortified cities, strong people.",
+        "extension_prompt": "List only claims stated in the text."
+      },
+      {
+        "question_id": "Q02",
+        "question": "How did the conclusions differ?",
+        "purpose": "Interpretation",
+        "foundation_prompt": "Caleb says go; others say cannot.",
+        "extension_prompt": "Analyse the escalating rhetoric."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What did Joshua and Caleb say about God?",
+        "purpose": "Theological reasoning",
+        "foundation_prompt": "The Lord is with us and can bring us in.",
+        "extension_prompt": "Explain trust without denying opposition."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How can group panic be interrupted?",
+        "purpose": "Formation",
+        "foundation_prompt": "Pause, check facts, seek wise help.",
+        "extension_prompt": "Create a response that names fear and rejects hopeless exaggeration."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Fact, Interpretation, Choice Grid",
+        "duration_minutes": 11,
+        "materials": [
+          "Grid worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record shared facts.",
+          "Record each interpretation.",
+          "Record the action each report encourages.",
+          "Label any exaggeration or missing factor."
+        ],
+        "learning_link": "Builds evidence-based reasoning with a concrete structure.",
+        "low_resource_alternative": "Use three board columns."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Group Panic Interruption",
+        "duration_minutes": 9,
+        "materials": [
+          "Fictional scenario cards"
+        ],
+        "steps": [
+          "Read a non-sensitive group scenario.",
+          "Name facts and fearful predictions.",
+          "Add missing evidence or wise counsel.",
+          "Choose one faithful, safe next step."
+        ],
+        "learning_link": "Practises peer-pressure resistance without personal disclosure.",
+        "low_resource_alternative": "Use one shared scenario."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Numbers 14:9",
+      "prayer_prompt": "Ask for courage that faces facts, resists group panic, and trusts God wisely.",
+      "take_home_line": "Trust does not deny danger; it refuses to leave God out of the decision."
+    },
+    "printable_refs": [
+      "Y1-L09-P01-fact-interpretation-choice-grid"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Same Facts, Different Conclusions",
+    "parent_intro": "This study helps a family separate facts, fear, interpretation, and choice.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Numbers 13:27-33 and 14:6-9."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "List the facts both reports accept and the conclusions that differ."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Take one ordinary challenge and sort statements into Fact, Prediction, and Next Step."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why is fear not identical to rebellion?",
+      "How can trust include wise planning?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Fact or Prediction?",
+      "instructions": "Sort statements into what is known, what is predicted, and what action is wise."
+    },
+    "weekly_action": "When a worry appears this week, write one fact, one fear, and one safe next step.",
+    "prayer": "God, help us face facts honestly, resist hopelessness, and take wise steps with You.",
+    "parent_note": "Do not use mental-health symptoms as examples of unbelief. Seek appropriate support for persistent anxiety."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What did all the spies agree about?",
+        "type": "multiple_choice",
+        "options": [
+          "The land was fruitful and the opposition strong",
+          "There were no cities",
+          "Egypt was better in every way"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The land was fruitful and the opposition strong"
+        },
+        "explanation": "The shared observations appear in the report."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What did Caleb urge?",
+        "type": "multiple_choice",
+        "options": [
+          "Go up and take the land",
+          "Return to Egypt",
+          "Build a tower"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Go up and take the land"
+        },
+        "explanation": "Caleb gives a different conclusion."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Feeling fear is exactly the same as choosing rebellion.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The narrative moves from fear to a later communal decision."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which response is wise?",
+        "type": "multiple_choice",
+        "options": [
+          "Check facts and seek counsel",
+          "Repeat the most frightening claim",
+          "Pretend there is no risk"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Check facts and seek counsel"
+        },
+        "explanation": "Trust and wise evaluation belong together."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Fact, Interpretation, Choice",
+      "instructions": "Sort each phrase into the best group.",
+      "items": [
+        "The land has fruit.",
+        "The cities are fortified.",
+        "We can never succeed.",
+        "The Lord is with us.",
+        "Let us return to Egypt.",
+        "Let us go forward."
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Fact",
+            "items": [
+              "The land has fruit.",
+              "The cities are fortified."
+            ]
+          },
+          {
+            "label": "Interpretation",
+            "items": [
+              "We can never succeed.",
+              "The Lord is with us."
+            ]
+          },
+          {
+            "label": "Choice",
+            "items": [
+              "Let us return to Egypt.",
+              "Let us go forward."
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L09-P01-fact-interpretation-choice-grid",
+        "title": "Fact, Interpretation, Choice Grid",
+        "purpose": "Compare the spies’ shared evidence, different conclusions, and proposed actions.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "fear",
+      "anxiety",
+      "peer_pressure",
+      "violence"
+    ],
+    "do_not_ask": [
+      "Do not ask students to disclose anxiety diagnoses or panic experiences.",
+      "Do not label a frightened student faithless."
+    ],
+    "teacher_response": "Normalise fear as an experience, distinguish it from harmful decisions, and refer persistent distress through appropriate family or safeguarding pathways.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L09",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D022",
+      "D023",
+      "D031"
+    ],
+    "review_flags": [
+      "TH-COVENANT",
+      "PASTORAL-ANXIETY",
+      "DEV-YOUTH-SCAFFOLD"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

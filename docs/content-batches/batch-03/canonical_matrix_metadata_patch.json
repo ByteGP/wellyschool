@@ -1,0 +1,32 @@
+{
+  "patch_version": "0.1",
+  "basis": "Content Production Batch 03 review",
+  "changes": [
+    {
+      "lesson_id": "T1-L07",
+      "fields": {
+        "doctrine_tags": "sin, covenant, judgment, mercy, creation",
+        "theological_review_flag": "TH-JUDGMENT, TH-COVENANT, TH-CREATION",
+        "pastoral_sensitivity": "Judgment/death, Disaster"
+      }
+    },
+    {
+      "lesson_id": "T1-L08",
+      "fields": {
+        "biblical_era": "Creation and Patriarchs / Apostolic interpretation",
+        "biblical_genre": "Biblical narrative / covenant and epistle",
+        "doctrine_tags": "covenant, promise, christology, mission, faith",
+        "theological_review_flag": "TH-COVENANT, TH-CHRISTOLOGY, TH-ISRAEL-CHURCH",
+        "pastoral_sensitivity": ""
+      }
+    },
+    {
+      "lesson_id": "T1-L09",
+      "fields": {
+        "doctrine_tags": "salvation, covenant, judgment, worship, biblical_theology",
+        "theological_review_flag": "TH-SALVATION, TH-ATONEMENT, TH-BIBLICAL-THEOLOGY",
+        "pastoral_sensitivity": "Judgment/death"
+      }
+    }
+  ]
+}

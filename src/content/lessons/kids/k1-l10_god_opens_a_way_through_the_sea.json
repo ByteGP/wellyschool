@@ -1,0 +1,617 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L10",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 10,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Opens a Way Through the Sea",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "God Rescues"
+  },
+  "core": {
+    "big_idea": "God rescued His people when they could not rescue themselves.",
+    "passages": [
+      {
+        "reference": "Exodus 14:10-31",
+        "role": "primary",
+        "reading_note": "For younger children, select verses 10-16, 21-22, and 29-31 and avoid graphic detail."
+      },
+      {
+        "reference": "Exodus 15:1-2",
+        "role": "supporting",
+        "reading_note": "Use the opening song lines to show the people’s response of praise."
+      }
+    ],
+    "metanarrative_position": "Exodus deliverance: God brings Israel out of slavery and opens a path where the people cannot save themselves.",
+    "biblical_genre": "Biblical rescue narrative and song",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Israel was afraid when the Egyptian army approached and the sea was before them.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 14:10-12"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Moses told the people to fear not, stand firm, and see the salvation of the Lord.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 14:13-14"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "God opened the sea, and Israel crossed on dry ground.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 14:21-22",
+          "Exodus 14:29"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The people saw the Lord’s deliverance, feared the Lord, believed, and responded in song.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 14:30-31",
+          "Exodus 15:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "salvation",
+      "power",
+      "covenant"
+    ],
+    "formation_tags": [
+      "trust",
+      "praise",
+      "courage"
+    ],
+    "interpretation_skill": "Retell fear, God’s instruction, opened path, crossing, and praise; avoid turning the miracle into a promise that every danger will end the same way.",
+    "key_terms": [
+      "rescue",
+      "sea",
+      "path",
+      "salvation",
+      "praise"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell that Israel was trapped, God opened a path through the sea, and the people crossed safely.",
+    "extension_objective": "Place the sea crossing after Passover in the Exodus story and explain that the rescue came from God’s power rather than Israel’s strength.",
+    "know": [
+      "Israel faced the sea and an approaching army.",
+      "God opened a path through the water.",
+      "Israel crossed and responded with trust and praise."
+    ],
+    "understand": [
+      "God rescued a people who could not create their own escape.",
+      "Feeling afraid is not the same as being abandoned by God."
+    ],
+    "practise": [
+      "Use a short prayer when afraid.",
+      "Praise God for the Exodus rescue recorded in Scripture."
+    ],
+    "become": [
+      "A child who can name fear, seek help, and remember God’s rescuing power without demanding a miracle."
+    ],
+    "success_evidence": [
+      "The child sequences fear, instruction, path, crossing, praise.",
+      "The child identifies God as rescuer.",
+      "The child names a safe response to fear."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children retell the sea crossing and say that God rescued Israel when they could not rescue themselves.",
+      "read": "Exodus 14:10-16, 21-22, 29-31",
+      "opening": "Place two blue sheets with no path between them. Ask: How could a whole group cross if there were no bridge or boat?",
+      "say": [
+        "Israel was afraid because the sea was ahead and the army was behind.",
+        "God told Moses what to do.",
+        "God opened a path, and the people crossed on dry ground.",
+        "The rescue showed God’s power, and the people praised Him."
+      ],
+      "ask": [
+        "Why were the people afraid?",
+        "Who opened the path?",
+        "How did the people cross?",
+        "What can we do when we feel afraid?"
+      ],
+      "do": "Open a path between two blue sheets and move people markers through in story order.",
+      "close": "Pray: Powerful God, thank You for rescuing Israel. Help us pray and seek safe help when we are afraid.",
+      "materials": [
+        "Bible",
+        "Two blue sheets or scarves",
+        "Simple people markers"
+      ]
+    },
+    "preparation": {
+      "passage_context": "The sea crossing follows Passover and Israel’s departure from Egypt. Pharaoh changes course and pursues. The narrative attributes the deliverance to the Lord and leads into the song of Exodus 15.",
+      "text_observations": [
+        "Fear and complaint appear before the miracle.",
+        "Moses speaks of the Lord’s salvation, and God then gives instructions to move forward.",
+        "The text repeats that Israel crossed on dry ground and later saw the deliverance."
+      ],
+      "interpretation_notes": [
+        "Do not teach that courage means never feeling afraid.",
+        "Keep the miracle as a particular Exodus event rather than a formula for every crisis.",
+        "For ages 4-8, do not dramatise or describe deaths graphically."
+      ],
+      "theological_guardrails": [
+        "Do not promise that God will always remove danger through a visible miracle.",
+        "Do not shame a frightened child or imply that anxiety proves unbelief.",
+        "Do not invite children to act out drowning or violence."
+      ],
+      "likely_questions": [
+        {
+          "question": "How did the sea open?",
+          "purpose": "The passage attributes it to God’s action through a strong east wind and Moses’ stretched hand; avoid speculative scientific reconstruction."
+        },
+        {
+          "question": "Will God always make danger disappear?",
+          "purpose": "No. We pray, obey safe instructions, and seek help while trusting that God is not absent."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected verses from Exodus 14 and pause at fear, instruction, opened path, crossing, and response.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Create a five-part rescue sequence and identify what Israel did and what only God did.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Open the Sea Path activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L10-P01-sea-rescue-sequence"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read selected verses from Exodus 14 and pause at fear, instruction, opened path, crossing, and response.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Create a five-part rescue sequence and identify what Israel did and what only God did.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Open the Sea Path activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L10-P01-sea-rescue-sequence"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read selected verses from Exodus 14 and pause at fear, instruction, opened path, crossing, and response.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Create a five-part rescue sequence and identify what Israel did and what only God did.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Open the Sea Path activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L10-P01-sea-rescue-sequence"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Who Did What? activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What made Israel afraid?",
+        "purpose": "Narrative setting",
+        "foundation_prompt": "Sea ahead and army behind.",
+        "extension_prompt": "Separate the real danger from the peoples later accusations."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What did Moses say the people would see?",
+        "purpose": "Text observation",
+        "foundation_prompt": "The salvation of the Lord.",
+        "extension_prompt": "Explain rescue as God’s action in this narrative."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What did only God do?",
+        "purpose": "Agency",
+        "foundation_prompt": "Opened the way through the sea.",
+        "extension_prompt": "Compare divine action with Israel’s instructed movement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is a safe response to fear now?",
+        "purpose": "Formation",
+        "foundation_prompt": "Pray and tell a trusted adult.",
+        "extension_prompt": "Distinguish trust from pretending danger is unreal."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Open the Sea Path",
+        "duration_minutes": 8,
+        "materials": [
+          "Two blue sheets",
+          "People markers"
+        ],
+        "steps": [
+          "Place the sheets together to show no path.",
+          "Name the peoples fear.",
+          "Move the sheets apart when the passage describes God’s action.",
+          "Move markers through and finish with praise."
+        ],
+        "learning_link": "Provides a concrete visual sequence without violent reenactment.",
+        "low_resource_alternative": "Draw a blue wall on each side of a board path."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Who Did What?",
+        "duration_minutes": 8,
+        "materials": [
+          "Action cards"
+        ],
+        "steps": [
+          "Sort actions under God, Moses, or Israel.",
+          "Check each action against the passage.",
+          "Identify the action no human could perform.",
+          "Name the people’s response after rescue."
+        ],
+        "learning_link": "Clarifies agency and prevents turning salvation into human achievement.",
+        "low_resource_alternative": "Use spoken actions and hand signals."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Exodus 14:13",
+      "prayer_prompt": "Thank God for the Exodus rescue and ask for wise courage and safe help in fear.",
+      "take_home_line": "God opened the way and rescued His people."
+    },
+    "printable_refs": [
+      "K1-L10-P01-sea-rescue-sequence"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A Way Through the Sea",
+    "parent_intro": "This study uses movement and sequence to remember God’s Exodus rescue.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Exodus 14:10-16, 21-22, and 29-31."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the people could not do for themselves and what God did."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use two towels as water and open a path for small objects to cross."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What made the people afraid?",
+      "How did the people respond after God rescued them?"
+    ],
+    "interactive": {
+      "type": "movement",
+      "title": "Towel Sea Crossing",
+      "instructions": "Open a path between two towels and move objects through in the story sequence."
+    },
+    "weekly_action": "When fear comes this week, use a three-part response: name it, pray, tell a safe person.",
+    "prayer": "Powerful God, thank You for opening the way for Israel. Help us trust You and seek wise help when afraid.",
+    "parent_note": "Do not promise a miracle or dismiss fear. Keep the activity calm and non-graphic."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What was in front of Israel?",
+        "type": "multiple_choice",
+        "options": [
+          "The sea",
+          "A palace",
+          "A vineyard"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The sea"
+        },
+        "explanation": "The sea formed part of the danger."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Who opened the way?",
+        "type": "multiple_choice",
+        "options": [
+          "God",
+          "The people by themselves",
+          "Pharaoh"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God"
+        },
+        "explanation": "The narrative attributes the rescue to the Lord."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Israel crossed on dry ground.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The statement is repeated in Exodus 14."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What did the people do after seeing the rescue?",
+        "type": "multiple_choice",
+        "options": [
+          "Believed and praised",
+          "Built Babel",
+          "Returned to Pharaoh"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Believed and praised"
+        },
+        "explanation": "Exodus 14-15 records trust and song."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "The Sea Rescue",
+      "instructions": "Put the five moments in order.",
+      "items": [
+        "The people praised God.",
+        "The people were afraid.",
+        "God opened a path.",
+        "Moses gave God’s instruction.",
+        "Israel crossed."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "The people were afraid.",
+          "Moses gave God’s instruction.",
+          "God opened a path.",
+          "Israel crossed.",
+          "The people praised God."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L10-P01-sea-rescue-sequence",
+        "title": "Sea Rescue Sequence Cards",
+        "purpose": "Retell fear, instruction, opened path, crossing, and praise without graphic violence.",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "fear",
+      "violence",
+      "death",
+      "disaster"
+    ],
+    "do_not_ask": [
+      "Do not ask children to describe traumatic danger.",
+      "Do not require children to act out drowning, pursuit, or death."
+    ],
+    "teacher_response": "Keep the narrative calm and selected. If a child becomes distressed, allow them to step back and use the non-reader visual sequence.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L10",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D022"
+    ],
+    "review_flags": [
+      "TH-SALVATION",
+      "DEV-KIDS-SCAFFOLD",
+      "PASTORAL-VIOLENCE"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

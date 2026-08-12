@@ -1,0 +1,620 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L07",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 7,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Keeps His Promise to Sarah",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "God Cares"
+  },
+  "core": {
+    "big_idea": "God kept His promise even after a long wait.",
+    "passages": [
+      {
+        "reference": "Genesis 18:1-15",
+        "role": "primary",
+        "reading_note": "Read selected verses and focus on the promise, Sarah’s laughter, and God’s question."
+      },
+      {
+        "reference": "Genesis 21:1-7",
+        "role": "primary",
+        "reading_note": "Emphasise that the child was born at the time God had said."
+      },
+      {
+        "reference": "Genesis 17:15-19",
+        "role": "context",
+        "reading_note": "Use with older children to recall that God had named Sarah and promised Isaac."
+      }
+    ],
+    "metanarrative_position": "Covenant promise: God continues the promised family through Abraham and Sarah despite a long wait.",
+    "biblical_genre": "Biblical narrative with divine promise",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God promised that Sarah would have a son at the appointed time.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 18:10",
+          "Genesis 18:14"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Sarah laughed because the promise seemed impossible in her circumstances.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 18:11-12"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Sarah gave birth to Isaac as God had promised and at the time God had said.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 21:1-3"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Isaac’s birth continues the covenant family through whom God would carry His promise forward.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 12:1-3",
+          "Genesis 17:15-19",
+          "Genesis 21:1-7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "promise",
+      "faithfulness"
+    ],
+    "formation_tags": [
+      "patience",
+      "trust",
+      "joy"
+    ],
+    "interpretation_skill": "Retell promise, waiting, fulfilment, and joy; do not turn one fulfilled promise into a guarantee about every request.",
+    "key_terms": [
+      "promise",
+      "wait",
+      "faithful",
+      "Isaac"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell that God promised Sarah a son, Sarah waited, and Isaac was born as God had said.",
+    "extension_objective": "Place Isaac in the promised-family story and explain that trusting God does not mean every wish is answered in the same way.",
+    "know": [
+      "God made a specific promise to Abraham and Sarah.",
+      "Sarah found the promise hard to imagine.",
+      "Isaac was born as God had said."
+    ],
+    "understand": [
+      "God is faithful even when waiting feels long.",
+      "A specific biblical promise must not be changed into a promise God did not make to us."
+    ],
+    "practise": [
+      "Wait for one ordinary good thing without complaining.",
+      "Thank God for one promise He has kept in the biblical story."
+    ],
+    "become": [
+      "A child who can wait, trust, and celebrate God’s faithfulness without demanding a timetable."
+    ],
+    "success_evidence": [
+      "The child places Promise, Wait, Birth, and Joy in order.",
+      "The child says that God kept this specific promise.",
+      "The child names one patient action."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children retell the promise to Sarah and say that God kept it after a long wait.",
+      "read": "Genesis 18:10-14; 21:1-7",
+      "opening": "Ask: What is something small that is hard to wait for, such as a turn or a special day?",
+      "say": [
+        "God had promised Abraham and Sarah a son.",
+        "The promise seemed impossible to Sarah, and she laughed.",
+        "God asked whether anything was too hard for Him.",
+        "Isaac was born at the time God had said, and Sarah rejoiced."
+      ],
+      "ask": [
+        "What did God promise?",
+        "Why did Sarah laugh?",
+        "What happened after the long wait?",
+        "What can patient trust look like this week?"
+      ],
+      "do": "Use the Promise and Waiting Path to place four events in order.",
+      "close": "Pray: Faithful God, help us trust You and wait with patience.",
+      "materials": [
+        "Bible",
+        "Promise and Waiting Path or four blank cards"
+      ]
+    },
+    "preparation": {
+      "passage_context": "God’s promise of offspring has been repeated since Genesis 12. Genesis 18 announces an appointed time, and Genesis 21 records the birth of Isaac. The narrative is about a particular covenant promise, not a general promise that every desired child or outcome will be given.",
+      "text_observations": [
+        "The visitors announce a specific time for Sarah to have a son.",
+        "Sarah laughs privately, and the Lord addresses the laughter directly.",
+        "Genesis 21 repeats that the Lord did as He had promised and at the time He had spoken."
+      ],
+      "interpretation_notes": [
+        "Keep the lesson concrete: promise, waiting, fulfilment, joy.",
+        "Do not shame Sarah for finding the promise difficult; the narrative still records God’s faithfulness.",
+        "Use the name Isaac only as the child’s name; detailed wordplay about laughter is optional for older children."
+      ],
+      "theological_guardrails": [
+        "Do not promise that God will give every family a baby or answer every request on the timetable they want.",
+        "Do not imply that infertility, pregnancy loss, or delayed answers are caused by weak faith.",
+        "Do not ask children to discuss private family fertility or loss experiences."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why did Sarah have to wait so long?",
+          "purpose": "Say that the passage does not explain every reason; it shows that God kept the promise despite the long wait."
+        },
+        {
+          "question": "Will God give me anything I wait for?",
+          "purpose": "No. We trust the promises God has actually made and bring other hopes to Him without pretending He guaranteed the outcome."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 18:10-14 and 21:1-7, pausing at Promise, Laughter, Birth, and Joy.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build a four-part path: God promised, Sarah waited, Isaac was born, the family rejoiced.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Promise and Waiting Path activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L07-P01-promise-waiting-path"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 18:10-14 and 21:1-7, pausing at Promise, Laughter, Birth, and Joy.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build a four-part path: God promised, Sarah waited, Isaac was born, the family rejoiced.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Promise and Waiting Path activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L07-P01-promise-waiting-path"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 18:10-14 and 21:1-7, pausing at Promise, Laughter, Birth, and Joy.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build a four-part path: God promised, Sarah waited, Isaac was born, the family rejoiced.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Promise and Waiting Path activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L07-P01-promise-waiting-path"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Patient Waiting Practice activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What exactly did God promise Sarah?",
+        "purpose": "Text observation",
+        "foundation_prompt": "She would have a son.",
+        "extension_prompt": "Find the appointed-time language."
+      },
+      {
+        "question_id": "Q02",
+        "question": "Why did the promise seem difficult to believe?",
+        "purpose": "Narrative understanding",
+        "foundation_prompt": "Abraham and Sarah were old.",
+        "extension_prompt": "Explain why difficulty does not change what God had promised."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Which words in Genesis 21 show that God kept His word?",
+        "purpose": "Evidence",
+        "foundation_prompt": "The Lord did as He had said.",
+        "extension_prompt": "Compare promise and fulfilment phrases."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one patient response we can practise?",
+        "purpose": "Formation",
+        "foundation_prompt": "Wait without grabbing or complaining.",
+        "extension_prompt": "Distinguish patient trust from pretending disappointment is not real."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Promise and Waiting Path",
+        "duration_minutes": 8,
+        "materials": [
+          "Four event cards",
+          "Floor or table space"
+        ],
+        "steps": [
+          "Place the promise card first.",
+          "Add a waiting card with several footsteps.",
+          "Add the Isaac is born card.",
+          "Add the joy card and retell the story."
+        ],
+        "learning_link": "Makes a long narrative sequence concrete for young children.",
+        "low_resource_alternative": "Draw four boxes on a board and let children point."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Patient Waiting Practice",
+        "duration_minutes": 8,
+        "materials": [
+          "One shared object",
+          "Timer if available"
+        ],
+        "steps": [
+          "Explain a short turn-taking task.",
+          "Let each child wait for a brief turn.",
+          "Name one helpful waiting action.",
+          "Connect ordinary waiting to patient character, not to earning a reward."
+        ],
+        "learning_link": "Practises patience without pretending it matches Sarah’s long wait.",
+        "low_resource_alternative": "Use a verbal turn-taking game."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 21:1",
+      "prayer_prompt": "Thank God for His faithfulness and ask for patient trust.",
+      "take_home_line": "God kept His promise to Sarah even after a long wait."
+    },
+    "printable_refs": [
+      "K1-L07-P01-promise-waiting-path"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A Promise Kept",
+    "parent_intro": "This study uses a concrete story sequence to talk about waiting and God’s faithfulness.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 18:10-14 and 21:1-7, or retell the four events for a younger child."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what God promised, what made it hard to imagine, and what happened at the appointed time."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Place four household objects in order for Promise, Wait, Birth, and Joy."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Which words show that God kept His word?",
+      "How can we wait patiently for one ordinary thing this week?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Four-Part Promise Path",
+      "instructions": "Use four objects as story markers and retell one sentence for each."
+    },
+    "weekly_action": "Choose one daily turn-taking moment and practise waiting without grabbing or complaining.",
+    "prayer": "Faithful God, thank You for keeping Your word. Help us wait with patience and trust.",
+    "parent_note": "Keep this lesson about the biblical promise. Do not connect it to private questions about pregnancy, babies, or loss."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What did God promise Sarah?",
+        "type": "multiple_choice",
+        "options": [
+          "A son",
+          "A palace",
+          "A ship"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A son"
+        },
+        "explanation": "Genesis 18 announces the promised son."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What was the son’s name?",
+        "type": "multiple_choice",
+        "options": [
+          "Isaac",
+          "Joseph",
+          "Moses"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Isaac"
+        },
+        "explanation": "Genesis 21 names the child Isaac."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Genesis 21 says the Lord did as He had promised.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The fulfilment language is explicit."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which action shows patience?",
+        "type": "multiple_choice",
+        "options": [
+          "Taking every turn first",
+          "Waiting without pushing",
+          "Saying the promise never mattered"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Waiting without pushing"
+        },
+        "explanation": "Patient trust can be practised in ordinary waiting."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Promise, Wait, Joy",
+      "instructions": "Put the four events in order.",
+      "items": [
+        "Isaac was born.",
+        "God promised Sarah a son.",
+        "Sarah and Abraham waited.",
+        "Sarah rejoiced."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "God promised Sarah a son.",
+          "Sarah and Abraham waited.",
+          "Isaac was born.",
+          "Sarah rejoiced."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L07-P01-promise-waiting-path",
+        "title": "Promise and Waiting Path",
+        "purpose": "Help children retell promise, waiting, fulfilment, and joy in order.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "infertility",
+      "pregnancy_loss",
+      "family_grief",
+      "waiting"
+    ],
+    "do_not_ask": [
+      "Do not ask children whether their family wants, lost, or cannot have a baby.",
+      "Do not imply that a delayed answer proves weak faith."
+    ],
+    "teacher_response": "Keep examples to ordinary waiting. Respond privately and follow pastoral or safeguarding procedures if a child independently discloses grief.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L07",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D022"
+    ],
+    "review_flags": [
+      "TH-COVENANT",
+      "DEV-KIDS-SCAFFOLD",
+      "PASTORAL-FAMILY-SENSITIVE"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

@@ -1,0 +1,19 @@
+Content Production Batch 03 v0.1 — QA
+
+K1-L07: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=4 quiz=4 resources=1 overall=PASS
+K1-L08: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=4 quiz=4 resources=1 overall=PASS
+K1-L09: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=4 quiz=4 resources=1 overall=PASS
+K1-L10: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=4 quiz=4 resources=1 overall=PASS
+T1-L07: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=6 quiz=4 resources=1 overall=PASS
+T1-L08: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=6 quiz=4 resources=1 overall=PASS
+T1-L09: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=6 quiz=4 resources=1 overall=PASS
+T1-L10: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=7 quiz=4 resources=1 overall=PASS
+Y1-L07: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=5 quiz=4 resources=1 overall=PASS
+Y1-L08: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=5 quiz=4 resources=1 overall=PASS
+Y1-L09: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=5 quiz=4 resources=1 overall=PASS
+Y1-L10: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=5 quiz=4 resources=1 overall=PASS
+
+Lessons validated: 12
+Resources validated: 12
+Schema or cross-field errors: 0
+Overall: PASS

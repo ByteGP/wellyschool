@@ -1,0 +1,612 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L09",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 9,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Hears His People",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "God Rescues"
+  },
+  "core": {
+    "big_idea": "God heard Israel's suffering and acted to rescue them.",
+    "passages": [
+      {
+        "reference": "Exodus 2:23-25",
+        "role": "primary",
+        "reading_note": "Notice the four actions: heard, remembered, saw, knew."
+      },
+      {
+        "reference": "Exodus 3:1-12",
+        "role": "primary",
+        "reading_note": "Focus on God’s call, His knowledge of suffering, His rescue purpose, and His promise to be with Moses."
+      }
+    ],
+    "metanarrative_position": "Exodus rescue begins: God attends to His oppressed people and calls Moses to bring them out of Egypt.",
+    "biblical_genre": "Biblical narrative and call story",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God heard Israel’s groaning, remembered His covenant, saw the people, and knew.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 2:23-25"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "God told Moses that He had seen the affliction, heard the cry, and knew the suffering of His people.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 3:7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "God announced His purpose to deliver Israel from Egypt and bring them to a good land.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 3:8"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "God called Moses to participate in the rescue and promised to be with him.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 3:10-12"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "salvation",
+      "covenant",
+      "compassion"
+    ],
+    "formation_tags": [
+      "prayer",
+      "attention",
+      "help_seeking"
+    ],
+    "interpretation_skill": "Identify repeated seeing, hearing, knowing, and acting words; connect divine compassion to a safe response to suffering.",
+    "key_terms": [
+      "heard",
+      "remembered",
+      "saw",
+      "knew",
+      "rescue"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell that God heard, saw, knew, and acted when Israel suffered.",
+    "extension_objective": "Explain that God called Moses into the rescue and name a safe way to notice and seek help for suffering today.",
+    "know": [
+      "Israel suffered in Egypt.",
+      "God heard, remembered, saw, and knew.",
+      "God called Moses and promised to be with him."
+    ],
+    "understand": [
+      "God’s attention is active compassion, not distant observation.",
+      "God often involves people in helping and protecting others."
+    ],
+    "practise": [
+      "Pray for someone who is suffering without demanding private details.",
+      "Tell a trusted adult when someone may be unsafe."
+    ],
+    "become": [
+      "A child who believes suffering matters, prays, notices, and seeks safe help."
+    ],
+    "success_evidence": [
+      "The child names the four verbs in Exodus 2.",
+      "The child connects Moses’ call to God’s rescue purpose.",
+      "The child names a safe adult-help response in a fictional example."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children explain that God heard, saw, knew, and acted when Israel suffered.",
+      "read": "Exodus 2:23-25; 3:7-12",
+      "opening": "Show an ear and an eye picture. Ask: What is the difference between noticing a problem and helping?",
+      "say": [
+        "The Israelites were suffering in Egypt.",
+        "God heard, remembered, saw, and knew.",
+        "God planned rescue and called Moses to help.",
+        "God promised Moses, I will be with you."
+      ],
+      "ask": [
+        "What four actions are named in Exodus 2?",
+        "What did God say He knew?",
+        "What job did God give Moses?",
+        "Who is a safe adult we can go to when someone needs help?"
+      ],
+      "do": "Complete the Hear, See, Know, Act picture sequence.",
+      "close": "Pray: God, hear people who suffer. Help us notice, pray, and seek safe help.",
+      "materials": [
+        "Bible",
+        "Hear, See, Know, Act cards or four drawings"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Exodus 1-2 describes Israelite oppression and the growth of Moses. The transition into Exodus 3 explicitly grounds the rescue in God’s covenant memory and compassionate knowledge.",
+      "text_observations": [
+        "Exodus 2:23-25 uses a dense sequence of divine attention verbs.",
+        "Exodus 3:7 repeats seeing, hearing, and knowing before announcing deliverance.",
+        "God sends Moses and pairs the commission with the promise of His presence."
+      ],
+      "interpretation_notes": [
+        "Remembered does not mean God had forgotten; in covenant language it signals action in line with His promise.",
+        "Keep Moses as a participant in God’s rescue, not the source of rescue.",
+        "Do not promise immediate or spectacular removal from every hardship."
+      ],
+      "theological_guardrails": [
+        "Do not imply that unanswered prayer means God did not hear.",
+        "Do not ask children to identify suffering, abuse, or danger in their own home.",
+        "Do not tell children to confront a dangerous person; direct them to safe adults and established procedures."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why did God wait before rescuing them?",
+          "purpose": "Acknowledge that the passage does not explain every aspect of timing; it emphasises that God knew and acted according to His covenant purpose."
+        },
+        {
+          "question": "Does God always stop bad things straight away?",
+          "purpose": "No. We pray, seek help, and trust that suffering matters to God without promising a timetable."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Exodus 2:23-25 and 3:7-12, marking heard, remembered, saw, knew, deliver, send, and with you.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build the sequence Hear, See, Know, Act, then add Moses as the person God called to participate.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Hear, See, Know, Act Sequence activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L09-P01-hear-see-know-act"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Exodus 2:23-25 and 3:7-12, marking heard, remembered, saw, knew, deliver, send, and with you.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build the sequence Hear, See, Know, Act, then add Moses as the person God called to participate.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Hear, See, Know, Act Sequence activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L09-P01-hear-see-know-act"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Exodus 2:23-25 and 3:7-12, marking heard, remembered, saw, knew, deliver, send, and with you.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build the sequence Hear, See, Know, Act, then add Moses as the person God called to participate.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Hear, See, Know, Act Sequence activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L09-P01-hear-see-know-act"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Notice, Pray, Tell activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Which four words describe God’s attention in Exodus 2?",
+        "purpose": "Close observation",
+        "foundation_prompt": "Heard, remembered, saw, knew.",
+        "extension_prompt": "Explain why remembered is covenant action, not absent-mindedness."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What did God plan to do?",
+        "purpose": "Narrative purpose",
+        "foundation_prompt": "Deliver Israel.",
+        "extension_prompt": "Identify the movement from Egypt toward the promised land."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Why was Moses part of the story?",
+        "purpose": "Human participation",
+        "foundation_prompt": "God sent him.",
+        "extension_prompt": "Distinguish God’s rescue from Moses’ role."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is a safe helping response today?",
+        "purpose": "Safeguarding formation",
+        "foundation_prompt": "Pray and tell a trusted adult.",
+        "extension_prompt": "Explain why children should not carry adult danger alone."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Hear, See, Know, Act Sequence",
+        "duration_minutes": 8,
+        "materials": [
+          "Four symbol cards: ear, eye, heart, footprints"
+        ],
+        "steps": [
+          "Place Hear and See.",
+          "Add Know to show understanding.",
+          "Add Act to show rescue purpose.",
+          "Add a Moses marker as the person God sent."
+        ],
+        "learning_link": "Turns repeated verbs into a concrete rescue sequence.",
+        "low_resource_alternative": "Use gestures for ear, eyes, heart, and walking."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Notice, Pray, Tell",
+        "duration_minutes": 8,
+        "materials": [
+          "Fictional help scenarios"
+        ],
+        "steps": [
+          "Read a fictional scenario.",
+          "Choose what can be noticed.",
+          "Choose a simple prayer.",
+          "Choose a trusted adult rather than direct confrontation."
+        ],
+        "learning_link": "Practises safe compassion without inviting disclosure.",
+        "low_resource_alternative": "Use one general scenario verbally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Exodus 3:7",
+      "prayer_prompt": "Pray for people who suffer and for wise, safe helpers.",
+      "take_home_line": "God heard, saw, knew, and acted to rescue His people."
+    },
+    "printable_refs": [
+      "K1-L09-P01-hear-see-know-act"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Hear, See, Know, Act",
+    "parent_intro": "This study shows that God’s compassion includes attention and action.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Exodus 2:23-25 and 3:7-12."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Circle or repeat the words heard, saw, knew, send, and with you."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use ear, eye, heart, and shoe objects to retell the sequence."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What does God notice in the passage?",
+      "Why did God send Moses?"
+    ],
+    "interactive": {
+      "type": "movement",
+      "title": "Four Compassion Gestures",
+      "instructions": "Touch ear, point to eyes, place hand near heart, and make walking fingers to retell the verbs."
+    },
+    "weekly_action": "Choose one person or group to pray for, then name one appropriate adult-led helping action.",
+    "prayer": "God, hear those who suffer. Give wise helpers courage and keep people safe.",
+    "parent_note": "Do not ask a child to disclose danger during the study. Any independent safety disclosure should be handled through safeguarding procedures."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Which word appears in Exodus 2:23-25?",
+        "type": "multiple_choice",
+        "options": [
+          "God heard",
+          "God ignored",
+          "God forgot forever"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God heard"
+        },
+        "explanation": "The text says God heard the groaning."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Who did God call to go to Pharaoh?",
+        "type": "multiple_choice",
+        "options": [
+          "Moses",
+          "Joseph",
+          "David"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Moses"
+        },
+        "explanation": "God sent Moses in Exodus 3."
+      },
+      {
+        "question_id": "Q3",
+        "question": "God promised Moses that He would be with him.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "Exodus 3:12 contains the promise."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What is a safe response when someone may be in danger?",
+        "type": "multiple_choice",
+        "options": [
+          "Keep it secret",
+          "Tell a trusted adult",
+          "Confront the danger alone"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Tell a trusted adult"
+        },
+        "explanation": "Children should seek safe adult help."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "God’s Compassion Sequence",
+      "instructions": "Put the four action words in the lesson order.",
+      "items": [
+        "Act",
+        "Know",
+        "Hear",
+        "See"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Hear",
+          "See",
+          "Know",
+          "Act"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L09-P01-hear-see-know-act",
+        "title": "Hear, See, Know, Act Cards",
+        "purpose": "Help children remember the compassion and rescue sequence in Exodus 2-3.",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "oppression",
+      "suffering",
+      "abuse",
+      "help_seeking"
+    ],
+    "do_not_ask": [
+      "Do not ask children to describe danger or suffering in their own home.",
+      "Do not instruct children to confront a dangerous person."
+    ],
+    "teacher_response": "Keep examples fictional. If a child independently discloses possible harm, listen, reassure them they did the right thing by telling, and follow safeguarding procedures.",
+    "escalation_required": true
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L09",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D022",
+      "D031"
+    ],
+    "review_flags": [
+      "TH-SALVATION",
+      "SAFEGUARDING",
+      "PASTORAL-SUFFERING"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

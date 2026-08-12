@@ -1,0 +1,620 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L08",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 8,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Is with Joseph",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "God Cares"
+  },
+  "core": {
+    "big_idea": "God remained at work through Joseph's hardship and family reconciliation.",
+    "passages": [
+      {
+        "reference": "Genesis 39:1-6",
+        "role": "primary",
+        "reading_note": "Notice the repeated statement that the Lord was with Joseph."
+      },
+      {
+        "reference": "Genesis 45:1-15",
+        "role": "primary",
+        "reading_note": "Read selected verses focusing on recognition, preserving life, weeping, and reunion."
+      },
+      {
+        "reference": "Genesis 50:15-21",
+        "role": "supporting",
+        "reading_note": "Use with older children to clarify forgiveness and God’s good purpose without excusing harm."
+      }
+    ],
+    "metanarrative_position": "Promise preserved: God remains with Joseph and uses his place in Egypt to preserve the covenant family.",
+    "biblical_genre": "Biblical family narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis 39 repeatedly says that the Lord was with Joseph in Egypt.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 39:2-3",
+          "Genesis 39:5"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Joseph’s brothers had harmed him, and the later reunion includes strong emotion and direct recognition of the family relationship.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 45:1-4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Joseph understood his position in Egypt as serving the preservation of life during famine.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 45:5-8"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The Joseph story presents God’s providential work through hardship without calling the brothers’ evil action good or removing their responsibility.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 37:18-28",
+          "Genesis 45:5-8",
+          "Genesis 50:15-21"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "providence",
+      "covenant",
+      "forgiveness"
+    ],
+    "formation_tags": [
+      "trust",
+      "forgiveness",
+      "safe_repair"
+    ],
+    "interpretation_skill": "Track hardship, God’s presence, preservation, and reconciliation; distinguish God’s good purpose from approval of harmful actions.",
+    "key_terms": [
+      "with",
+      "hardship",
+      "preserve",
+      "forgive"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell that God was with Joseph in hardship and later used Joseph’s place in Egypt to preserve his family.",
+    "extension_objective": "Explain that God can bring good through wrongdoing without calling wrongdoing good, and distinguish forgiveness from unsafe forced reunion.",
+    "know": [
+      "Joseph lived in Egypt after being harmed by his brothers.",
+      "The Lord was with Joseph.",
+      "Joseph later helped preserve his family during famine."
+    ],
+    "understand": [
+      "God’s presence does not mean life is easy.",
+      "God can work for good without excusing the people who caused harm."
+    ],
+    "practise": [
+      "Ask a safe adult for help when something is wrong.",
+      "Practise forgiveness through truthful, safe repair in ordinary conflicts."
+    ],
+    "become": [
+      "A child who trusts God’s presence, tells the truth about harm, and seeks safe repair."
+    ],
+    "success_evidence": [
+      "The child retells hardship, presence, preservation, and reunion.",
+      "The child says that harm was still wrong.",
+      "The child identifies a safe adult or safe repair action in a fictional example."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children explain that God was with Joseph in hardship and used Joseph to preserve his family.",
+      "read": "Genesis 39:1-6; 45:1-8",
+      "opening": "Ask: Can someone be with you and care for you even when the day is hard?",
+      "say": [
+        "Joseph was far from home because his brothers had harmed him.",
+        "Genesis says the Lord was with Joseph.",
+        "Later Joseph was able to provide food and preserve his family.",
+        "God’s good work did not make the brothers’ harmful choice good."
+      ],
+      "ask": [
+        "Where was Joseph?",
+        "What phrase repeats in Genesis 39?",
+        "How did Joseph help during the famine?",
+        "What should we do when a situation is unsafe or wrong?"
+      ],
+      "do": "Use the Joseph Story Bridge to connect Hardship, God With Joseph, Preservation, and Reunion.",
+      "close": "Pray: God, stay close to people in hardship and help us seek truth, safety, and wise repair.",
+      "materials": [
+        "Bible",
+        "Joseph Story Bridge or four cards"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Joseph was sold by his brothers and taken to Egypt. Genesis 39 emphasises God’s presence before the narrative reaches Joseph’s later authority and family reunion. Genesis 45 interprets Joseph’s position as preserving life during famine, while Genesis 50 still names the brothers’ intended harm.",
+      "text_observations": [
+        "The phrase the Lord was with Joseph repeats in Genesis 39.",
+        "Joseph weeps and identifies himself before discussing preservation.",
+        "Joseph names both the brothers’ action and God’s preserving purpose in the wider story."
+      ],
+      "interpretation_notes": [
+        "Do not collapse the whole Joseph narrative into a promise that every hardship will resolve visibly.",
+        "Providence is not permission to call abuse or betrayal good.",
+        "Reconciliation in this narrative includes changed circumstances; it is not a rule that children must return to unsafe contact."
+      ],
+      "theological_guardrails": [
+        "Do not say God caused the brothers’ sin in order to teach Joseph a lesson.",
+        "Do not pressure a child to forgive publicly, stop feeling hurt, or reunite with an unsafe person.",
+        "Do not ask for disclosures about family conflict in the group."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why did God let Joseph be hurt?",
+          "purpose": "Say the text does not answer every why question. It shows that God was with Joseph and brought preservation without approving the harm."
+        },
+        {
+          "question": "Do I have to be friends again with someone unsafe?",
+          "purpose": "No. Forgiveness, truth, boundaries, justice, and safe adult help can belong together."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 39:1-6 and selected verses from Genesis 45:1-8, marking hardship, presence, emotion, and preservation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build a bridge from Hardship to God With Joseph to Preservation to Family Reunion, while keeping harm and God’s purpose distinct.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Joseph Story Bridge activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L08-P01-joseph-story-bridge"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 39:1-6 and selected verses from Genesis 45:1-8, marking hardship, presence, emotion, and preservation.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build a bridge from Hardship to God With Joseph to Preservation to Family Reunion, while keeping harm and God’s purpose distinct.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Joseph Story Bridge activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L08-P01-joseph-story-bridge"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 39:1-6 and selected verses from Genesis 45:1-8, marking hardship, presence, emotion, and preservation.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build a bridge from Hardship to God With Joseph to Preservation to Family Reunion, while keeping harm and God’s purpose distinct.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Joseph Story Bridge activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L08-P01-joseph-story-bridge"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Safe Repair or Adult Help? activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What phrase repeats in Genesis 39?",
+        "purpose": "Text observation",
+        "foundation_prompt": "The Lord was with Joseph.",
+        "extension_prompt": "Explain why presence is not the same as ease."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What harmful action happened earlier in Joseph’s story?",
+        "purpose": "Narrative context",
+        "foundation_prompt": "His brothers sold him.",
+        "extension_prompt": "Explain why later good does not rename earlier evil."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What purpose does Joseph identify in Genesis 45?",
+        "purpose": "Cause and purpose",
+        "foundation_prompt": "Preserving life during famine.",
+        "extension_prompt": "Distinguish Joseph’s theological interpretation from approval of the brothers’ intent."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is a safe response when someone has harmed us?",
+        "purpose": "Safeguarding formation",
+        "foundation_prompt": "Tell a safe adult and seek help.",
+        "extension_prompt": "Distinguish forgiveness, boundaries, consequences, and reconciliation."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Joseph Story Bridge",
+        "duration_minutes": 9,
+        "materials": [
+          "Four bridge cards",
+          "String or drawn line"
+        ],
+        "steps": [
+          "Place Hardship first.",
+          "Add God Was With Joseph.",
+          "Add Preservation in Egypt.",
+          "Add Family Reunion and retell without calling the harm good."
+        ],
+        "learning_link": "Makes providence and sequence visible while preserving moral responsibility.",
+        "low_resource_alternative": "Draw four connected boxes on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Safe Repair or Adult Help?",
+        "duration_minutes": 8,
+        "materials": [
+          "Fictional scenario cards"
+        ],
+        "steps": [
+          "Read a low-risk fictional conflict.",
+          "Choose whether a simple apology and repair is enough.",
+          "For an unsafe scenario, choose tell a safe adult rather than direct reunion.",
+          "Explain that safety is not unforgiveness."
+        ],
+        "learning_link": "Prevents forced reconciliation and practises safe judgment.",
+        "low_resource_alternative": "Discuss two teacher-created scenarios verbally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 39:2",
+      "prayer_prompt": "Pray for people in hardship, trustworthy adults, truth, forgiveness, and safe repair.",
+      "take_home_line": "God was with Joseph, and God did not call the harm good."
+    },
+    "printable_refs": [
+      "K1-L08-P01-joseph-story-bridge"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "God was with Joseph",
+    "parent_intro": "This study holds together God’s presence, real harm, preservation, and safe reconciliation.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 39:1-6 and Genesis 45:4-8."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Name what was hard, what the text says about God, and how Joseph later helped preserve life."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Make a four-box story bridge and label each box."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "How is God’s presence different from an easy life?",
+      "Why does later good not make earlier harm right?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Four-Part Story Bridge",
+      "instructions": "Place Hardship, God’s Presence, Preservation, and Reunion in narrative order."
+    },
+    "weekly_action": "Choose one ordinary conflict where a truthful apology and safe repair can happen this week.",
+    "prayer": "God, be near to people in hardship. Help us tell the truth, seek safety, forgive wisely, and repair what we can.",
+    "parent_note": "Do not use the lesson to force disclosure or reconciliation. Serious or unsafe harm belongs with trusted adults and safeguarding procedures."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What phrase repeats in Genesis 39?",
+        "type": "multiple_choice",
+        "options": [
+          "The Lord was with Joseph",
+          "Joseph was never sad",
+          "The brothers were right"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The Lord was with Joseph"
+        },
+        "explanation": "The narrative stresses God’s presence."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What did Joseph help preserve during famine?",
+        "type": "multiple_choice",
+        "options": [
+          "Lives",
+          "A tower",
+          "A ship"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Lives"
+        },
+        "explanation": "Genesis 45 speaks of preserving life."
+      },
+      {
+        "question_id": "Q3",
+        "question": "The good result means the brothers’ harmful action became good.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "God’s purpose does not excuse wrongdoing."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What is a safe response to serious harm?",
+        "type": "multiple_choice",
+        "options": [
+          "Keep it secret",
+          "Tell a trusted safe adult",
+          "Return immediately to the person"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Tell a trusted safe adult"
+        },
+        "explanation": "Safety and truth are appropriate responses."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Joseph’s Story Bridge",
+      "instructions": "Put the four parts in order.",
+      "items": [
+        "Joseph helped preserve the family.",
+        "God was with Joseph.",
+        "Joseph faced hardship in Egypt.",
+        "Joseph met his family again."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Joseph faced hardship in Egypt.",
+          "God was with Joseph.",
+          "Joseph helped preserve the family.",
+          "Joseph met his family again."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L08-P01-joseph-story-bridge",
+        "title": "Joseph Story Bridge",
+        "purpose": "Show hardship, God’s presence, preservation, and reunion without excusing harm.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "family_conflict",
+      "betrayal",
+      "abuse",
+      "forgiveness",
+      "reconciliation"
+    ],
+    "do_not_ask": [
+      "Do not ask children to disclose family harm or identify a person they must forgive.",
+      "Do not instruct a child to reunite with or contact someone unsafe."
+    ],
+    "teacher_response": "Use fictional examples. If a child independently discloses harm, listen calmly, do not investigate in class, and follow safeguarding procedures.",
+    "escalation_required": true
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L08",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D022"
+    ],
+    "review_flags": [
+      "TH-PROVIDENCE",
+      "PASTORAL-FORGIVENESS",
+      "SAFEGUARDING"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

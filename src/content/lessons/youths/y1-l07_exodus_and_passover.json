@@ -1,0 +1,643 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L07",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 7,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Exodus and Passover",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Exodus"
+  },
+  "core": {
+    "big_idea": "The Exodus became Israel's defining story of rescue and covenant identity.",
+    "passages": [
+      {
+        "reference": "Exodus 12:1-32",
+        "role": "primary",
+        "reading_note": "Read selected instructions, the sign, the judgment announcement, and the departure without graphic detail."
+      },
+      {
+        "reference": "Exodus 14:13-31",
+        "role": "primary",
+        "reading_note": "Track the Lord’s rescue, Israel’s crossing, and the people’s response."
+      },
+      {
+        "reference": "Deuteronomy 5:12-15",
+        "role": "supporting",
+        "reading_note": "Use to show how later covenant instruction remembers slavery and deliverance."
+      },
+      {
+        "reference": "Luke 22:14-20; 1 Corinthians 5:7",
+        "role": "comparison",
+        "reading_note": "Use only for extension to show later Passover language around Christ."
+      }
+    ],
+    "metanarrative_position": "Exodus deliverance: God brings Israel out of slavery, forms a covenant people, and gives them a rescue story to remember.",
+    "biblical_genre": "Biblical narrative, ritual instruction, and covenant memory",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Passover was given as a household observance marking the night the Lord brought judgment on Egypt and passed over the marked houses.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 12:1-13"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Israel was commanded to remember the Passover event through a recurring observance.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 12:14",
+          "Exodus 12:24-27"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "At the sea, the Lord delivered Israel from the Egyptian force, and Israel crossed on dry ground.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 14:13-14",
+          "Exodus 14:21-31"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Later Israelite teaching uses the Exodus as a central reason for covenant identity and compassionate obedience.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Deuteronomy 5:12-15",
+          "Deuteronomy 15:12-15",
+          "Psalm 78:12-16"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The New Testament reuses Passover language to interpret Jesus and Christian remembrance, while the extent of each typological detail must be argued from the later texts rather than assumed.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Luke 22:14-20",
+          "1 Corinthians 5:7-8"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not declare every object or action in Exodus 12 a direct prediction of one later Christian detail."
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "salvation",
+      "remembrance",
+      "christology"
+    ],
+    "formation_tags": [
+      "gratitude",
+      "worship",
+      "compassion"
+    ],
+    "interpretation_skill": "Place Passover and the sea crossing on the timeline; distinguish original Israelite meaning from later canonical use.",
+    "key_terms": [
+      "Passover",
+      "deliverance",
+      "remember",
+      "covenant",
+      "identity"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain how Passover and the sea crossing formed Israel’s defining memory of rescue and place them on the whole-Bible timeline.",
+    "extension_objective": "Separate the original Exodus setting from later Christian Passover connections and identify how remembered rescue shapes covenant life.",
+    "know": [
+      "Passover preceded Israel’s departure from Egypt.",
+      "God delivered Israel through the sea.",
+      "Israel was told to remember and teach the rescue."
+    ],
+    "understand": [
+      "A rescue story can shape a communitys identity and practices.",
+      "Later biblical writers can develop earlier patterns without making every detail a prediction."
+    ],
+    "practise": [
+      "Retell the rescue with gratitude rather than treating it as trivia.",
+      "Connect remembered rescue to compassion for people who are vulnerable."
+    ],
+    "become": [
+      "A young person who remembers God’s saving work and lets gratitude shape conduct."
+    ],
+    "success_evidence": [
+      "The student orders Passover, departure, pursuit, crossing, and remembrance.",
+      "The student gives one original-context claim and one later canonical connection.",
+      "The student names one ethical response to remembered rescue."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain why Passover and the sea crossing became Israel’s defining rescue story.",
+      "read": "Exodus 12:11-14, 24-27; 14:13-14, 21-31",
+      "opening": "Ask: Why do families or nations repeat stories about how they were rescued or formed?",
+      "say": [
+        "Passover marked the night Israel left slavery under God’s protection and judgment.",
+        "The people were commanded to remember and explain the event.",
+        "At the sea, Israel could not rescue itself; the Lord opened the way.",
+        "The Exodus became a repeated identity story, not a one-time fact to forget."
+      ],
+      "ask": [
+        "What signs and instructions appear in Passover?",
+        "What were future children meant to ask?",
+        "Who delivers Israel at the sea?",
+        "How can remembered rescue shape the way a community treats others?"
+      ],
+      "do": "Complete the Rescue, Remember, Live grid.",
+      "close": "Pray with gratitude for God’s saving work and ask for compassion shaped by remembrance.",
+      "materials": [
+        "Bible",
+        "Rescue, Remember, Live grid",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Exodus 12 combines ritual instruction, narrative fulfillment, judgment, and departure. Exodus 14 completes the immediate movement out of Egyptian control. Later biblical texts repeatedly appeal to this rescue when shaping Israel’s worship, law, and hope.",
+      "text_observations": [
+        "Passover includes specific household instructions and a command for future remembrance.",
+        "The explanation to children in Exodus 12 connects ritual to divine rescue.",
+        "Exodus 14 attributes deliverance to the Lord while Israel moves through the opened path."
+      ],
+      "interpretation_notes": [
+        "Handle the death of the firstborn soberly without graphic detail or easy slogans.",
+        "Explain original Passover meaning before introducing Christian connections.",
+        "Do not claim the Exodus is merely a symbol; the narrative presents it as Israel’s remembered deliverance event."
+      ],
+      "theological_guardrails": [
+        "Do not portray Egyptians as less human or use the judgment narrative to justify ethnic hostility.",
+        "Do not teach that every later liberation claim is automatically equivalent to the Exodus.",
+        "Do not force a detailed atonement model into every Passover element."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why did the firstborn die?",
+          "purpose": "Acknowledge the severity of judgment within the long conflict over oppression and Pharaoh’s refusal, and do not pretend the emotional difficulty disappears."
+        },
+        {
+          "question": "Is the Passover lamb Jesus?",
+          "purpose": "Later New Testament texts use Passover language for Christ; explain that the canonical connection comes from those later texts and must not be expanded without evidence."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected Passover and sea-crossing verses, recording Rescue Event, Memory Practice, Identity Statement, and Ethical Response.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Complete the Rescue, Remember, Live grid and label each item as Exodus text, later biblical use, or present application.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Rescue, Remember, Live Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L07-P01-rescue-remember-live-grid"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read selected Passover and sea-crossing verses, recording Rescue Event, Memory Practice, Identity Statement, and Ethical Response.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Complete the Rescue, Remember, Live grid and label each item as Exodus text, later biblical use, or present application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Rescue, Remember, Live Grid activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L07-P01-rescue-remember-live-grid"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read selected Passover and sea-crossing verses, recording Rescue Event, Memory Practice, Identity Statement, and Ethical Response.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Complete the Rescue, Remember, Live grid and label each item as Exodus text, later biblical use, or present application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Rescue, Remember, Live Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L07-P01-rescue-remember-live-grid"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Original Meaning or Later Connection? activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What did Passover households do, and why?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Follow God’s instructions and mark the houses.",
+        "extension_prompt": "Distinguish ritual instructions from narrative outcome."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What question were future children expected to ask?",
+        "purpose": "Memory and teaching",
+        "foundation_prompt": "What does this service mean?",
+        "extension_prompt": "Explain how ritual preserves communal memory."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What does Exodus 14 say about the source of deliverance?",
+        "purpose": "Agency",
+        "foundation_prompt": "The Lord saved Israel.",
+        "extension_prompt": "Separate divine deliverance from Israel’s instructed movement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How did remembered rescue shape later conduct?",
+        "purpose": "Canonical application",
+        "foundation_prompt": "Remember slavery and show compassion.",
+        "extension_prompt": "Use Deuteronomy 5 or 15 without pretending every law has identical modern application."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Rescue, Remember, Live Grid",
+        "duration_minutes": 11,
+        "materials": [
+          "Grid worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record the rescue event.",
+          "Record the commanded remembrance.",
+          "Record the identity it produced.",
+          "Record one later ethical result."
+        ],
+        "learning_link": "Connects event, memory, identity, and conduct without collapsing contexts.",
+        "low_resource_alternative": "Build four columns on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Original Meaning or Later Connection?",
+        "duration_minutes": 9,
+        "materials": [
+          "Statement cards"
+        ],
+        "steps": [
+          "Read a statement about Passover.",
+          "Sort it under Exodus, Later Scripture, or Application.",
+          "Check the cited passage.",
+          "Rewrite any overstatement."
+        ],
+        "learning_link": "Practises canonical connection with evidence discipline.",
+        "low_resource_alternative": "Sort three statements orally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Exodus 14:13",
+      "prayer_prompt": "Thank God for rescue and ask that remembered grace produces compassion and worship.",
+      "take_home_line": "God rescued Israel, told them to remember, and shaped how they lived."
+    },
+    "printable_refs": [
+      "Y1-L07-P01-rescue-remember-live-grid"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Rescue, Remember, Live",
+    "parent_intro": "This study connects the Exodus event, its remembrance, and the life it shaped.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Exodus 12:24-27 and 14:13-14, 29-31."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Name the rescue, the remembrance practice, and the response of the people."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Make three headings - Rescue, Remember, Live - and place one detail under each."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why were future children meant to ask about Passover?",
+      "How can gratitude for rescue shape compassion?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Three-Part Memory Grid",
+      "instructions": "Sort passage details under Rescue, Remember, and Live."
+    },
+    "weekly_action": "Tell one family story of help received, then choose one grateful act for another person.",
+    "prayer": "God of rescue, help us remember Your saving work and live with gratitude and compassion.",
+    "parent_note": "Keep the judgment portion sober and brief. Questions are welcome; no child should be forced to resolve every difficulty in one sitting."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What was Passover meant to help Israel do?",
+        "type": "multiple_choice",
+        "options": [
+          "Remember God’s rescue",
+          "Forget Egypt entirely",
+          "Celebrate Pharaoh"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Remember God’s rescue"
+        },
+        "explanation": "Exodus 12 commands ongoing remembrance."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Who delivered Israel at the sea?",
+        "type": "multiple_choice",
+        "options": [
+          "The Lord",
+          "Israel by its own strength",
+          "The Egyptian army"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The Lord"
+        },
+        "explanation": "Exodus 14 attributes salvation to the Lord."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Later biblical writers use Exodus and Passover language again.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The language is reused across Scripture."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which is a responsible way to make a Christian connection?",
+        "type": "multiple_choice",
+        "options": [
+          "Use later biblical texts",
+          "Invent a meaning for every detail",
+          "Ignore the original Exodus setting"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Use later biblical texts"
+        },
+        "explanation": "Canonical connections need textual support."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "From Slavery to Memory",
+      "instructions": "Place the events and response in order.",
+      "items": [
+        "Israel was told to remember.",
+        "Israel crossed the sea.",
+        "Passover was observed.",
+        "Israel left Egypt.",
+        "The people saw the deliverance."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Passover was observed.",
+          "Israel left Egypt.",
+          "Israel crossed the sea.",
+          "The people saw the deliverance.",
+          "Israel was told to remember."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L07-P01-rescue-remember-live-grid",
+        "title": "Rescue, Remember, Live Grid",
+        "purpose": "Connect Exodus event, covenant memory, identity, and ethical response.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "death",
+      "violence",
+      "oppression",
+      "religious_doubt"
+    ],
+    "do_not_ask": [
+      "Do not ask students to imagine or perform the death of children.",
+      "Do not shame students who find divine judgment difficult."
+    ],
+    "teacher_response": "Acknowledge emotional difficulty, keep details non-graphic, and distinguish honest questions from rejection.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L07",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D019",
+      "D022"
+    ],
+    "review_flags": [
+      "TH-SALVATION",
+      "TH-ATONEMENT",
+      "PASTORAL-JUDGMENT"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L10",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 10,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Sinai, Law, and Holy Presence",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Law and Presence"
+  },
+  "core": {
+    "big_idea": "Law and tabernacle define rescued Israel's covenant vocation and the problem of holy presence among sinners.",
+    "passages": [
+      {
+        "reference": "Exodus 19:1-8",
+        "role": "primary",
+        "reading_note": "Trace prior rescue, covenant vocation, conditional response, and holiness."
+      },
+      {
+        "reference": "Exodus 20:1-21",
+        "role": "primary",
+        "reading_note": "Track rescue preface, commands, divine manifestation, fear, and mediation."
+      },
+      {
+        "reference": "Exodus 25:1-9; 40:34-38",
+        "role": "primary",
+        "reading_note": "Connect sanctuary purpose with the glory filling and governing Israel’s journey."
+      },
+      {
+        "reference": "Hebrews 8:1-13; 9:6-14",
+        "role": "comparison",
+        "reading_note": "Use in Extended profile for New Covenant and sanctuary development."
+      }
+    ],
+    "metanarrative_position": "Covenant and presence: the rescued nation receives vocation and law, while boundaries and tabernacle make visible the tension of a holy God dwelling among sinful people.",
+    "biblical_genre": "Covenant narrative, law, sanctuary instruction, and apostolic interpretation",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Exodus 19 grounds the covenant invitation in God’s prior rescue of Israel from Egypt.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 19:3-4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Israel is called to covenant obedience and a vocation as treasured possession, kingdom of priests, and holy nation.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 19:5-6"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The Decalogue begins with the identity of the Lord who brought Israel out of slavery before stating covenant commands.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 20:1-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Sinai includes boundaries, divine manifestation, fear, and mediated speech, displaying the seriousness of holy presence.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Exodus 19:10-25",
+          "Exodus 20:18-21"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The tabernacle is constructed so that God may dwell among Israel, and the filling glory both confirms presence and creates access limits.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Exodus 25:8-9",
+          "Exodus 40:34-38"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C06",
+        "statement": "Hebrews interprets the old covenant sanctuary and priestly system as limited and anticipatory in relation to Christ and the New Covenant.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Hebrews 8:1-13",
+          "Hebrews 9:6-14"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C07",
+        "statement": "The common moral, civil, and ceremonial division can be a later teaching tool, but Exodus does not present its laws under those three explicit labels.",
+        "classification": "historical_context",
+        "evidence_refs": [
+          "Exodus 20-40"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Christian traditions differ over how useful the threefold category is and how continuity with Mosaic law should be described.",
+        "interpretive_hinge": "Whether a later systematic classification accurately clarifies or oversimplifies the covenant text.",
+        "prohibited_overstatement": "Do not call the threefold division an explicit biblical table of contents or use it to bypass contextual exegesis."
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "law",
+      "holiness",
+      "presence",
+      "salvation"
+    ],
+    "formation_tags": [
+      "reverence",
+      "obedience",
+      "worship"
+    ],
+    "interpretation_skill": "Read law and sanctuary within rescue and covenant narrative; test continuity claims through New Covenant texts rather than isolated transfer.",
+    "key_terms": [
+      "holy",
+      "covenant",
+      "law",
+      "presence",
+      "tabernacle",
+      "mediation"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain how rescue, covenant vocation, law, boundaries, and tabernacle presence fit together at Sinai.",
+    "extension_objective": "Evaluate law-continuity models, use Hebrews responsibly, and distinguish the biblical covenant structure from later systematic categories.",
+    "know": [
+      "Rescue precedes covenant instruction.",
+      "Israel receives a priestly and holy vocation.",
+      "The tabernacle is built for divine presence among the people.",
+      "Hebrews develops the sanctuary theme around Christ."
+    ],
+    "understand": [
+      "Holy presence is gift and danger in a sinful community.",
+      "Law must be read as covenant text before being applied across covenants."
+    ],
+    "practise": [
+      "Classify a law claim by original context, canonical development, and present application.",
+      "Practise reverence without fear-based manipulation."
+    ],
+    "become": [
+      "A student who treats holiness seriously, obeys from gratitude, and refuses simplistic law transfer."
+    ],
+    "success_evidence": [
+      "The student completes the Rescue-to-Presence map.",
+      "The student explains why Exodus 20:2 matters.",
+      "The student identifies the limits of the moral-civil-ceremonial classification."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students connect rescue, covenant vocation, law, and tabernacle presence and explain the problem of holy presence among sinners.",
+      "read": "Exodus 19:3-8; 20:1-3, 18-21; 25:8-9; 40:34-38",
+      "opening": "Ask: What changes when a powerful and good king chooses to live among a community that is not yet trustworthy?",
+      "say": [
+        "Sinai begins with rescue already accomplished.",
+        "Israel receives a vocation and covenant commands.",
+        "Boundaries and fear show the seriousness of God’s holiness.",
+        "The tabernacle expresses God’s desire to dwell among the people while access remains ordered and mediated."
+      ],
+      "ask": [
+        "What comes before the covenant demands?",
+        "What vocation does Israel receive?",
+        "What do the boundaries communicate?",
+        "How does the tabernacle hold presence and access limits together?"
+      ],
+      "do": "Complete the Rescue, Vocation, Boundary, Presence map.",
+      "close": "Pray for reverence, gratitude, obedience, and confidence in God’s completed work in Christ.",
+      "materials": [
+        "Bible",
+        "Rescue-to-Presence Map",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Sinai follows the Exodus and wilderness provision. Exodus 19-24 establishes covenant; Exodus 25-40 develops sanctuary, priesthood, failure, renewal, construction, and filling glory. Hebrews later interprets the covenant and sanctuary through Christ.",
+      "text_observations": [
+        "Exodus 19 explicitly moves from rescue to vocation and response.",
+        "Exodus 20 combines ethical commands with manifestation and mediated hearing.",
+        "Exodus 25 states the sanctuary purpose; Exodus 40 records glory filling and cloud guidance.",
+        "Moses cannot enter when the glory fills the tabernacle, showing presence and access tension."
+      ],
+      "interpretation_notes": [
+        "Do not describe the Mosaic law merely as a failed attempt to earn salvation; it is covenant instruction for a rescued nation.",
+        "Do not transfer every stipulation directly to the church or dismiss it as useless.",
+        "Use Hebrews to follow inspired canonical development, not to mock or denigrate Judaism."
+      ],
+      "theological_guardrails": [
+        "Do not use holiness language to shame bodies, disability, ethnicity, or ordinary human limitation.",
+        "Do not equate fear of God with panic induced by a controlling teacher or leader.",
+        "Do not claim the moral-civil-ceremonial division is explicit in Exodus."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why could Moses not enter when the glory filled the tabernacle?",
+          "purpose": "The text highlights the overwhelming presence and ordered access; later priestly and Hebrews material develops the issue."
+        },
+        {
+          "question": "Which Old Testament laws apply to Christians?",
+          "purpose": "Begin with covenant context, then follow New Testament reaffirmation, fulfillment, transformation, or discontinuity; avoid one mechanical rule."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the selected Exodus texts and record Rescue, Vocation, Command, Boundary, Presence, and Mediation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build the Rescue-to-Presence map, then test one law application through original context, canonical development, and New Covenant use.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Rescue-to-Presence Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L10-P01-rescue-to-presence-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read the selected Exodus texts and record Rescue, Vocation, Command, Boundary, Presence, and Mediation.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build the Rescue-to-Presence map, then test one law application through original context, canonical development, and New Covenant use.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Rescue-to-Presence Map activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L10-P01-rescue-to-presence-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read the selected Exodus texts and record Rescue, Vocation, Command, Boundary, Presence, and Mediation.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build the Rescue-to-Presence map, then test one law application through original context, canonical development, and New Covenant use.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Rescue-to-Presence Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L10-P01-rescue-to-presence-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Law Application Audit activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "How does Exodus frame law with prior grace or rescue?",
+        "purpose": "Narrative sequence",
+        "foundation_prompt": "God brought Israel out first.",
+        "extension_prompt": "Explain why this does not make obedience optional."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What does kingdom of priests and holy nation mean in context?",
+        "purpose": "Vocation",
+        "foundation_prompt": "A people belonging to God with a priestly role.",
+        "extension_prompt": "Discuss mission and holiness without national superiority."
+      },
+      {
+        "question_id": "Q03",
+        "question": "How do boundary and tabernacle texts portray presence?",
+        "purpose": "Theological synthesis",
+        "foundation_prompt": "God comes near, but access is ordered.",
+        "extension_prompt": "Trace the tension into Hebrews."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How should a Christian test a law application?",
+        "purpose": "Hermeneutics",
+        "foundation_prompt": "Context, covenant, New Testament use.",
+        "extension_prompt": "Compare transfer, principle, fulfillment, and discontinuity."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Rescue-to-Presence Map",
+        "duration_minutes": 12,
+        "materials": [
+          "Map worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record Rescue.",
+          "Record Vocation and commands.",
+          "Record Boundary and mediation.",
+          "Record Tabernacle presence and access tension."
+        ],
+        "learning_link": "Integrates law and sanctuary into one covenant narrative.",
+        "low_resource_alternative": "Use a four-stage board map."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Law Application Audit",
+        "duration_minutes": 10,
+        "materials": [
+          "Selected law claims"
+        ],
+        "steps": [
+          "Identify the original covenant setting.",
+          "Identify the laws function there.",
+          "Find New Testament development.",
+          "Classify present use as direct command, principle, fulfilled pattern, or no direct transfer."
+        ],
+        "learning_link": "Prevents arbitrary law selection.",
+        "low_resource_alternative": "Audit one command as a group."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Exodus 25:8",
+      "prayer_prompt": "Thank God for rescue and presence; ask for reverence and careful obedience in Christ.",
+      "take_home_line": "The God who rescued Israel called them to holiness and came to dwell among them."
+    },
+    "printable_refs": [
+      "T1-L10-P01-rescue-to-presence-map"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Rescue to Presence",
+    "parent_intro": "This study connects the law and tabernacle to the Exodus rather than treating them as disconnected religious rules.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Exodus 19:3-6; 20:1-3; 25:8; 40:34-38."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Name what God had done, what Israel was called to be, and why the sanctuary was built."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Arrange Rescue, Vocation, Boundary, and Presence and explain each link."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why does rescue come before law?",
+      "How can God be near while access is still ordered?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Four-Stage Covenant Map",
+      "instructions": "Connect Rescue, Vocation, Boundary, and Presence with passage evidence."
+    },
+    "weekly_action": "Before applying one Bible command this week, ask: Who was addressed, under which covenant, and how does the New Testament use it?",
+    "prayer": "Holy God, thank You for rescue and presence. Teach us reverence, obedience, and careful reading.",
+    "parent_note": "Do not use holiness or obedience language to justify fear-based control. Questions about application are part of faithful study."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What comes first in Exodus 19-20?",
+        "type": "multiple_choice",
+        "options": [
+          "God’s rescue",
+          "Israel’s law-keeping",
+          "The exile"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God’s rescue"
+        },
+        "explanation": "The covenant is framed by prior deliverance."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Why was the sanctuary built?",
+        "type": "multiple_choice",
+        "options": [
+          "So God might dwell among Israel",
+          "To make Pharaoh king",
+          "To replace every future covenant"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "So God might dwell among Israel"
+        },
+        "explanation": "Exodus 25:8 states the purpose."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Exodus explicitly labels every law moral, civil, or ceremonial.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Those are later systematic categories."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What should guide Christian law application?",
+        "type": "multiple_choice",
+        "options": [
+          "Original context and New Testament development",
+          "Personal preference only",
+          "Copying every stipulation identically"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Original context and New Testament development"
+        },
+        "explanation": "Covenant and canonical context are required."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "From Rescue to Presence",
+      "instructions": "Place the stages in covenant order.",
+      "items": [
+        "Presence",
+        "Vocation and law",
+        "Rescue",
+        "Boundary and mediation"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Rescue",
+          "Vocation and law",
+          "Boundary and mediation",
+          "Presence"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L10-P01-rescue-to-presence-map",
+        "title": "Rescue-to-Presence Map",
+        "purpose": "Integrate Exodus rescue, covenant vocation, law, boundaries, tabernacle, and New Covenant application.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "authority",
+      "religious_fear",
+      "control",
+      "shame"
+    ],
+    "do_not_ask": [
+      "Do not require disclosure of rule-breaking or religious fear.",
+      "Do not use holy presence language to justify coercive leadership."
+    ],
+    "teacher_response": "Distinguish biblical reverence from manipulative fear. Provide private support pathways for students reporting spiritual coercion or abuse.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L10",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Content Production Batch 03 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D005",
+      "D019",
+      "D022"
+    ],
+    "review_flags": [
+      "TH-COVENANT",
+      "TH-LAW",
+      "TH-PRESENCE",
+      "TH-NEW-COVENANT"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": []
+  }
+}
