@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.2.0",
+  "lesson_id": "K1-L19",
+  "content_version": "0.4.0",
+  "status": "vertical_slice_draft",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 19,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Jesus Calms the Storm",
+    "annual_anchor": "jesus_lord_cross_resurrection",
+    "thematic_unit": "Jesus Cares"
+  },
+  "core": {
+    "big_idea": "Jesus has authority over creation and is present with frightened disciples.",
+    "passages": [
+      {
+        "reference": "Mark 4:35-41",
+        "role": "primary",
+        "reading_note": "Read the complete short narrative."
+      }
+    ],
+    "metanarrative_position": "Jesus' ministry: the promised King reveals authority over creation.",
+    "biblical_genre": "Gospel narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "A severe storm arose while Jesus and the disciples crossed the lake.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Mark 4:35-37"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Jesus spoke to the wind and sea, and the storm became calm.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Mark 4:39"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The event reveals that Jesus has authority over creation.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Mark 4:39-41",
+          "Psalm 107:23-30"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Followers may bring fear to Jesus, but the passage does not promise that every frightening situation will end immediately.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "Mark 4:38-40"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not promise children that faith always removes danger or difficult feelings at once."
+      }
+    ],
+    "doctrine_tags": [
+      "christology",
+      "creation"
+    ],
+    "formation_tags": [
+      "trust",
+      "prayer",
+      "compassion"
+    ],
+    "interpretation_skill": "Retell sequence, identify cause and effect, and connect the action to Jesus without forced symbolism.",
+    "key_terms": [
+      "disciple",
+      "authority",
+      "creation",
+      "fear",
+      "trust"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell the main action in Mark 4:35-41 and state that Jesus has authority over the wind and sea.",
+    "extension_objective": "Explain why the disciples asked who Jesus was and name one faithful response when afraid.",
+    "know": [
+      "A storm frightened the disciples.",
+      "Jesus commanded the storm and it became calm."
+    ],
+    "understand": [
+      "The miracle points to Jesus being more than an ordinary teacher.",
+      "Fear can be spoken honestly rather than hidden."
+    ],
+    "practise": [
+      "Name a fear in safe, general language and pray for help.",
+      "Retell the story in sequence."
+    ],
+    "become": [
+      "A child who increasingly trusts Jesus and responds to others fear with care rather than ridicule."
+    ],
+    "success_evidence": [
+      "The child orders four story events correctly.",
+      "The child says that Jesus had authority over the storm.",
+      "The child names prayer or asking a trusted adult for help as a faithful response to fear."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 10,
+    "zero_prep_card": {
+      "objective": "Children retell the story and say that Jesus has authority over the storm.",
+      "read": "Mark 4:35-41",
+      "opening": "Ask children to make quiet rain sounds with their fingers, then louder storm sounds, then stop together.",
+      "say": [
+        "The disciples were in a real storm and were frightened.",
+        "Jesus spoke, and the wind and sea obeyed Him.",
+        "The disciples asked, \"Who is this?\" The miracle showed His authority.",
+        "We can tell Jesus when we are afraid, and we can ask trusted people for help."
+      ],
+      "ask": [
+        "What happened on the lake?",
+        "What did Jesus do?",
+        "What changed after Jesus spoke?",
+        "What can we do when we feel afraid?"
+      ],
+      "do": "Use the room to make a storm-to-calm soundscape, then place four story events in order.",
+      "close": "Pray: Jesus, thank You that You are powerful and present. Help us tell You and trusted people when we are afraid.",
+      "materials": [
+        "Bible",
+        "Four event cards or four blank sheets of paper"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Mark has just recorded Jesus teaching in parables. The crossing and miracle turn attention from what Jesus teaches to who He is.",
+      "text_observations": [
+        "The danger and fear are not imaginary; water was entering the boat.",
+        "Jesus is asleep, the disciples wake Him, and He directly addresses both the storm and their fear.",
+        "The narrative ends with the disciples' question about Jesus' identity rather than with a general lesson about weather."
+      ],
+      "interpretation_notes": [
+        "The strongest theological point is Christological: creation responds to Jesus' command.",
+        "Psalm 107 provides a canonical echo in which God stills storms, but avoid presenting this as a direct quotation or proof-text inside the children's lesson."
+      ],
+      "theological_guardrails": [
+        "Do not promise that Jesus will stop every storm, illness, conflict, or frightening event immediately.",
+        "Do not shame children for fear. The lesson calls for trust and honest dependence, not emotional denial.",
+        "Do not turn every detail in the boat into a symbol."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why was Jesus sleeping?",
+          "purpose": "Acknowledge His real human tiredness without overexplaining.",
+          "foundation_prompt": "Jesus had been teaching and was tired.",
+          "extension_prompt": "Mark shows Jesus genuinely human and yet exercising authority over creation."
+        },
+        {
+          "question": "Will Jesus stop every bad thing?",
+          "purpose": "Prevent a false promise.",
+          "foundation_prompt": "Jesus is with us and we can ask for help.",
+          "extension_prompt": "This passage shows His authority; it does not promise immediate removal of every hardship."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Essential",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Create quiet rain sounds, build to a storm, then stop together.",
+            "question_refs": []
+          },
+          {
+            "step_id": "E02",
+            "minutes": 7,
+            "label": "Read and retell",
+            "instructions": "Read Mark 4:35-41 in short sections and retell the concrete sequence.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Notice what changed when Jesus spoke and what this shows about Him.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 7,
+            "label": "Do",
+            "instructions": "Complete the Storm to Calm Sequence activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L19-P01-sequence-cards"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one safe response to fear, repeat the take-home line, and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 40,
+        "use_case": "Default Sunday session with reading, discussion, activity, and response.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Make storm sounds and discuss what a storm can feel like."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 9,
+            "label": "Read",
+            "instructions": "Read Mark 4:35-41 with brief pauses for observation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S03",
+            "minutes": 7,
+            "label": "Observe",
+            "instructions": "List what the disciples did, what Jesus did, and what the wind and sea did.",
+            "question_refs": [
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss identity",
+            "instructions": "Explore why the disciples asked who Jesus is and avoid promising a trouble-free life.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Order and act out the story events.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L19-P01-sequence-cards"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Close",
+            "instructions": "Review the big idea, use one quiz item orally, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 55,
+        "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 5,
+            "label": "Connect",
+            "instructions": "Build a storm soundscape and establish classroom safety for discussing fear."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 10,
+            "label": "Dramatic reading",
+            "instructions": "Read or retell the passage with assigned sound and movement roles.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X03",
+            "minutes": 8,
+            "label": "Text observation",
+            "instructions": "Separate details stated in Mark from details the group imagined.",
+            "question_refs": [
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Who is Jesus?",
+            "instructions": "Discuss the disciples question and, for older children, note the canonical echo of God stilling storms without forcing technical terminology.",
+            "question_refs": [
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 12,
+            "label": "Sequence activity",
+            "instructions": "Complete, explain, and repeat the story sequence.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L19-P01-sequence-cards"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Review",
+            "instructions": "Use the quiz and correct the false promise that Christians never face frightening situations."
+          },
+          {
+            "step_id": "X07",
+            "minutes": 5,
+            "label": "Respond",
+            "instructions": "Practise naming prayer and trusted-adult support as safe responses to fear, then pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What did the disciples see, hear, and feel?",
+        "purpose": "Concrete observation.",
+        "foundation_prompt": "Name the storm details.",
+        "extension_prompt": "Separate details stated by the text from imagined details."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What happened immediately after Jesus spoke?",
+        "purpose": "Cause-and-effect comprehension."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Why do you think the disciples asked, \"Who is this?\"",
+        "purpose": "Move from miracle to identity.",
+        "foundation_prompt": "Because even the wind and water obeyed Him.",
+        "extension_prompt": "Connect authority over creation to Jesus' identity without requiring technical vocabulary."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one safe thing you can do when afraid?",
+        "purpose": "Formation and safeguarding.",
+        "foundation_prompt": "Pray or tell a trusted adult."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Storm to Calm Sequence",
+        "duration_minutes": 10,
+        "materials": [
+          "Four event cards: crossing, storm, Jesus speaks, calm"
+        ],
+        "steps": [
+          "Mix the cards.",
+          "Let children place them in story order.",
+          "Act out each scene using sounds and movements.",
+          "Repeat the big idea together after the calm."
+        ],
+        "learning_link": "Reinforces narrative order, cause and effect, and Jesus' authority.",
+        "low_resource_alternative": "Assign four children one event each and have the class stand them in the correct order."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Mark 4:39",
+      "prayer_prompt": "Thank Jesus for His authority and ask for help to speak honestly when afraid.",
+      "take_home_line": "Jesus has authority over creation, and I can bring my fear to Him."
+    },
+    "printable_refs": [
+      "K1-L19-P01-sequence-cards"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "From Storm to Calm",
+    "parent_intro": "This activity helps children see what the story says about Jesus. It does not promise that every frightening situation disappears immediately.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Make quiet rain sounds, then loud storm sounds, then stop."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Mark 4:35-41. Let the child make a motion for each main event."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what changed when Jesus spoke and what the disciples wondered about Him."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Put four events in order: crossing, storm, Jesus speaks, calm."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Each person names one safe way to respond to fear, then pray."
+      }
+    ],
+    "questions": [
+      "What does the storm obeying Jesus show us about Him?",
+      "Who can you talk to when you feel afraid?"
+    ],
+    "interactive": {
+      "type": "movement",
+      "title": "Storm and Stillness",
+      "instructions": "Use hands and voices to act out the storm, then freeze in silence when Jesus speaks."
+    },
+    "weekly_action": "When someone in the family feels afraid, pause, listen without teasing, and pray together.",
+    "prayer": "Jesus, You are powerful. Help us trust You and ask for help when we are afraid.",
+    "parent_note": "Avoid asking a child to disclose a private fear in front of others. General examples are sufficient."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Where were Jesus and the disciples?",
+        "type": "multiple_choice",
+        "options": [
+          "In a boat",
+          "In a palace",
+          "In a field"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "In a boat"
+        },
+        "explanation": "They were crossing the lake."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What did Jesus command?",
+        "type": "multiple_choice",
+        "options": [
+          "The wind and sea",
+          "The crowd to leave",
+          "The boat to grow"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The wind and sea"
+        },
+        "explanation": "The storm became calm after Jesus spoke."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: The story promises that Christians will never face frightening situations.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The story shows Jesus' authority and presence, not a promise of a trouble-free life."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Put the events in order.",
+        "type": "sequence",
+        "answer": {
+          "kind": "ordered_list",
+          "items": [
+            "Crossing",
+            "Storm",
+            "Jesus speaks",
+            "Calm"
+          ]
+        },
+        "explanation": "This is the narrative sequence in Mark 4."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "What Happened Next?",
+      "instructions": "Arrange the story cards from first to last.",
+      "items": [
+        "Jesus speaks",
+        "The storm begins",
+        "The lake becomes calm",
+        "They cross the lake"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "They cross the lake",
+          "The storm begins",
+          "Jesus speaks",
+          "The lake becomes calm"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L19-P01-sequence-cards",
+        "title": "Storm to Calm Sequence Cards",
+        "purpose": "Narrative ordering and retelling",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Adult reads Scripture; child-facing instructions use short concrete sentences.",
+    "plain_language_rule": "Prefer wind, waves, afraid, command, and calm over abstract theological vocabulary.",
+    "neurodiversity_supports": [
+      "Show the sequence visually before acting it out.",
+      "Allow a child to watch rather than make loud sounds.",
+      "Use a predictable start-and-stop signal."
+    ],
+    "sensory_notes": [
+      "Storm sounds may be uncomfortable; offer a quiet role and keep volume controlled."
+    ],
+    "non_reader_support": [
+      "Use pictures or gestures for each event.",
+      "Accept pointing or acting instead of verbal answers."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "fear",
+      "storms",
+      "danger"
+    ],
+    "do_not_ask": [
+      "Do not require children to disclose traumatic events or private fears to the group."
+    ],
+    "teacher_response": "Validate fear, offer prayer, and remind children they may speak privately to a trusted adult.",
+    "escalation_required": false,
+    "escalation_note": "Follow normal safeguarding policy if a child voluntarily discloses harm or immediate danger."
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3 - K1-L19: Jesus Calms the Storm",
+      "Theological Decision Register v0.3",
+      "Curriculum Research Adjudication v0.1",
+      "Uploaded double-pass curriculum research reports",
+      "Editorial synthesis for content-system validation"
+    ],
+    "decision_register_refs": [
+      "D004",
+      "D005",
+      "D006"
+    ],
+    "review_flags": [],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases in the prototype. Add licensed translation text only after permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "This is a vertical-slice draft designed to test schema, rendering, timing, and workflow rather than a final published lesson.",
+      "Teacher and Family experiences must render from this same canonical object.",
+      "Teacher timing is tested through Essential (25 minutes), Standard (40 minutes), and Extended (55 minutes) delivery profiles.",
+      "Schema 1.2 migration normalized interactive answer shapes for Decap CMS. No theological or pedagogical meaning changed."
+    ]
+  }
+}

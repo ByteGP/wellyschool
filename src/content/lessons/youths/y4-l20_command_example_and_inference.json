@@ -1,0 +1,667 @@
+{
+  "schema_version": "1.2.0",
+  "lesson_id": "Y4-L20",
+  "content_version": "0.4.0",
+  "status": "vertical_slice_draft",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y4",
+    "cycle_name": "Church, Scripture, and Christian Hope",
+    "sequence": 20,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Command, Example, and Inference",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Reasoning from Scripture"
+  },
+  "core": {
+    "big_idea": "Christians reason from explicit teaching, apostolic practice, and inference, but must not disguise interpretation as quotation.",
+    "passages": [
+      {
+        "reference": "Acts 20:7",
+        "role": "primary",
+        "reading_note": "Observe what Luke directly reports about the first-day gathering."
+      },
+      {
+        "reference": "1 Corinthians 16:1-2",
+        "role": "primary",
+        "reading_note": "Observe Paul's first-day instruction and its stated purpose."
+      },
+      {
+        "reference": "Acts 15:1-29",
+        "role": "supporting",
+        "reading_note": "Use selected verses to show apostolic reasoning from testimony, Scripture, and necessary implications."
+      },
+      {
+        "reference": "1 Corinthians 11:1-2",
+        "role": "supporting",
+        "reading_note": "Notice Paul's concern for transmitted apostolic practice."
+      }
+    ],
+    "metanarrative_position": "Apostolic churches receive teaching and reason carefully about faithful practice.",
+    "biblical_genre": "Narrative history and epistle instruction",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Acts 20:7 reports that disciples in Troas gathered on the first day of the week to break bread and hear Paul.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Acts 20:7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "First Corinthians 16:1-2 instructs members to set something aside on the first day of every week for a collection.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Corinthians 16:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Narrative example and epistle instruction are different genres, so readers must ask how each functions before treating a detail as a universal rule.",
+        "classification": "historical_context",
+        "evidence_refs": [
+          "Acts 20:7",
+          "1 Corinthians 16:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "This curriculum uses explicit command, approved apostolic example, and necessary inference as one disciplined way to identify New Testament patterns.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Acts 15:1-29",
+          "1 Corinthians 11:1-2",
+          "2 Thessalonians 2:15"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "credible_alternative": "Other Christian approaches give different weight to narrative examples, broad moral principles, historic tradition, or an ongoing teaching office.",
+        "interpretive_hinge": "How genre, audience, repetition, apostolic approval, canonical coherence, and the necessity of an inference establish normative scope.",
+        "prohibited_overstatement": "Do not treat every action in Acts as binding, every possible inference as necessary, or the framework label as a direct biblical quotation."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "A necessary inference must follow from the evidence rather than being merely possible or convenient.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Acts 15:7-19",
+          "1 Corinthians 16:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not call a conclusion necessary when the evidence permits several live possibilities."
+      },
+      {
+        "claim_id": "C06",
+        "statement": "Responsible teachers say the text states, the text shows, or we conclude according to the actual evidence type.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "2 Timothy 2:15",
+          "Acts 17:11"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "biblical_authority",
+      "hermeneutics",
+      "church_practice"
+    ],
+    "formation_tags": [
+      "honesty",
+      "humility",
+      "careful_reading",
+      "conviction"
+    ],
+    "interpretation_skill": "Identify command, approved example, necessary inference, genre, audience, and scope; label conclusions honestly.",
+    "key_terms": [
+      "command",
+      "approved example",
+      "necessary inference",
+      "genre",
+      "context",
+      "scope"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Sort basic statements from Acts 20:7 and 1 Corinthians 16:1-2 into explicit text, example, inference, and application.",
+    "extension_objective": "Test whether a proposed inference is necessary, possible, or invalid by checking context, genre, audience, and canonical coherence.",
+    "know": [
+      "A command directly instructs an audience.",
+      "An approved example records apostolic practice presented positively and consistently with teaching.",
+      "A necessary inference is a conclusion that must follow from the evidence, not simply one possible idea."
+    ],
+    "understand": [
+      "The same passage can contain direct statements and also support later conclusions.",
+      "Narrative details are not automatically universal laws.",
+      "Honest interpretation labels the difference between quotation and conclusion."
+    ],
+    "practise": [
+      "Classify statements from the two passages.",
+      "Reject one invalid inference and explain why it does not follow.",
+      "Replace the phrase the Bible says with more accurate language when needed."
+    ],
+    "become": [
+      "A student who holds convictions carefully and refuses to disguise personal reasoning as direct quotation."
+    ],
+    "success_evidence": [
+      "The student correctly identifies one command and one narrative example.",
+      "The student explains why meeting upstairs is not a necessary universal practice.",
+      "The student uses evidence labels when explaining a congregational conclusion."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 18,
+    "zero_prep_card": {
+      "objective": "Students distinguish command, approved example, necessary inference, and application using two first-day passages.",
+      "read": "Acts 20:7; 1 Corinthians 16:1-2",
+      "opening": "Give this rule: Bring a pencil to class. Ask which conclusions follow necessarily and which are only guesses.",
+      "say": [
+        "A command tells an audience what to do; first ask who received it and why.",
+        "An approved example shows apostolic practice, but not every narrative detail is automatically binding.",
+        "A necessary inference must follow from the evidence; a possible inference is not enough.",
+        "We should say the text states or we conclude according to the actual evidence."
+      ],
+      "ask": [
+        "What does Acts 20:7 directly report?",
+        "What does 1 Corinthians 16:2 directly instruct?",
+        "Does either passage command an upstairs room?",
+        "Which words should we use when presenting an inference?"
+      ],
+      "do": "Sort twelve statement cards into Text States, Approved Example, Necessary Inference, Possible Inference, or Invalid Conclusion.",
+      "close": "Pray for honesty, humility, and courage to obey what Scripture actually teaches.",
+      "materials": [
+        "Bibles",
+        "Five category labels",
+        "Statement cards or blank paper"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Acts 20 narrates Paul's final travel toward Jerusalem and a gathering in Troas. First Corinthians 16 closes an epistle with a collection instruction already given to Galatian churches. The passages have different immediate purposes.",
+      "text_observations": [
+        "Acts 20:7 directly reports a first-day gathering, breaking bread, and Paul's speech.",
+        "The same narrative also includes an upstairs room, lamps, a late meeting, and an accident; these details test whether students can distinguish example from binding detail.",
+        "First Corinthians 16:2 uses a recurring first-day rhythm for setting aside the collection.",
+        "Neither passage contains a sentence defining the command-example-inference framework."
+      ],
+      "interpretation_notes": [
+        "Introduce the framework as a disciplined method adopted by the congregation, not as a magic formula.",
+        "Approved example requires more than something merely happening in Acts; context and apostolic approval matter.",
+        "Necessary inference should be reserved for conclusions without a viable alternative, while many church-practice conclusions remain strong or framework inferences rather than logically unavoidable deductions."
+      ],
+      "theological_guardrails": [
+        "Do not label every narrative action a binding example.",
+        "Do not use silence alone as an automatic prohibition without asking what the positive instruction specifies.",
+        "Do not present a human inference as equal in wording or certainty to an explicit command.",
+        "Do not train students to use the method mainly to win arguments; the purpose is faithful understanding and obedience."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why is the upstairs room not binding?",
+          "purpose": "Test the difference between detail and normative purpose.",
+          "foundation_prompt": "The passage reports it, but nothing makes that location necessary to the action.",
+          "extension_prompt": "Ask whether the detail is repeated, approved as a pattern, required by purpose, or necessary from other texts."
+        },
+        {
+          "question": "Is every example in Acts approved?",
+          "purpose": "Prevent mechanical narrative use.",
+          "foundation_prompt": "No. Acts records faithful and unfaithful actions.",
+          "extension_prompt": "Approval must be established from narrator framing, apostolic teaching, outcome, and canonical coherence."
+        },
+        {
+          "question": "Can Christians disagree while using the same method?",
+          "purpose": "Normalize interpretive humility.",
+          "foundation_prompt": "Yes. They may disagree about context, scope, or whether an inference is necessary.",
+          "extension_prompt": "The method does not remove the need for exegesis or guarantee identical judgment."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Essential",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Logic warm-up",
+            "instructions": "Compare a direct instruction with a conclusion drawn from an example."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 7,
+            "label": "Read",
+            "instructions": "Read Acts 20:7 and 1 Corinthians 16:1-2 in context.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Define",
+            "instructions": "Define command, approved example, necessary inference, and mere possibility.",
+            "question_refs": [
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 7,
+            "label": "Classify",
+            "instructions": "Use the evidence-label cards on several statements.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y4-L20-P01-evidence-label-cards"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Reflect",
+            "instructions": "Say why Christians should label interpretation honestly.",
+            "question_refs": [
+              "Q05"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 40,
+        "use_case": "Default Sunday session with reading, discussion, activity, and response.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 5,
+            "label": "Logic warm-up",
+            "instructions": "Distinguish direct wording, reported practice, and inferred conclusion."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 10,
+            "label": "Read and observe",
+            "instructions": "Read the two passages and list only what each text explicitly states.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Define the method",
+            "instructions": "Explain command, approved example, necessary inference, and the need for context and canonical coherence.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 12,
+            "label": "Card sort",
+            "instructions": "Classify statements and test whether proposed inferences are necessary, possible, or invalid.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y4-L20-P01-evidence-label-cards",
+              "Y4-L20-P02-inference-test"
+            ],
+            "question_refs": [
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 5,
+            "label": "Reflect",
+            "instructions": "Identify one overstatement and rewrite it with an accurate evidence label.",
+            "question_refs": [
+              "Q05"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 55,
+        "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 5,
+            "label": "Logic warm-up",
+            "instructions": "Use an everyday example to distinguish observation from conclusion."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 12,
+            "label": "Read in context",
+            "instructions": "Read Acts 20 and 1 Corinthians 16 around the cited verses, noting genre and occasion.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Method and limits",
+            "instructions": "Define the three traditional categories and explain why genre, context, and canonical coherence prevent mechanical use.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 15,
+            "label": "Evidence lab",
+            "instructions": "Complete both the label-card sort and inference-strength worksheet.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y4-L20-P01-evidence-label-cards",
+              "Y4-L20-P02-inference-test"
+            ],
+            "question_refs": [
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 8,
+            "label": "Overstatement repair",
+            "instructions": "Rewrite claims that confuse explicit command, inference, and tradition.",
+            "question_refs": [
+              "Q05"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Respond",
+            "instructions": "Commit to saying both what the text states and how the congregation reasons from it."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Which statement in 1 Corinthians 16 is a direct instruction?",
+        "purpose": "Identify command and audience."
+      },
+      {
+        "question_id": "Q02",
+        "question": "Which actions in Acts 20 are central to the gathering, and which are incidental details?",
+        "purpose": "Narrative discrimination."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What makes an inference necessary rather than merely possible?",
+        "purpose": "Logical precision."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How can the phrase the Bible says become misleading?",
+        "purpose": "Epistemic honesty."
+      },
+      {
+        "question_id": "Q05",
+        "question": "What should a Christian do when a conclusion is strong but not explicit?",
+        "purpose": "Conviction with humility."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Evidence Label Lab",
+        "duration_minutes": 12,
+        "materials": [
+          "Five category labels",
+          "Twelve statement cards"
+        ],
+        "steps": [
+          "Read one statement card.",
+          "Place it under Text States, Approved Example, Necessary Inference, Possible Inference, or Invalid Conclusion.",
+          "Identify the passage evidence and genre.",
+          "Rewrite any overstatement using more accurate language."
+        ],
+        "learning_link": "Turns an abstract hermeneutical method into observable classification and explanation.",
+        "low_resource_alternative": "Number the five categories on a whiteboard and let students hold up one to five fingers."
+      }
+    ],
+    "closing": {
+      "memory_reference": "2 Timothy 2:15",
+      "prayer_prompt": "Ask God for careful reading, honest speech, and willing obedience.",
+      "take_home_line": "Say what the text states, and label what we conclude."
+    },
+    "printable_refs": [
+      "Y4-L20-P01-evidence-label-cards",
+      "Y4-L20-P02-inference-test"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Does the Text Say It, Show It, or Support It?",
+    "parent_intro": "The goal is transparent reasoning, not a family debate over every church practice.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the instruction Bring a pencil and name one necessary and one merely possible conclusion."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Acts 20:7 and 1 Corinthians 16:1-2."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "List what each passage directly states before drawing conclusions."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Label four statements as command, example, inference, or invalid conclusion."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose one phrase to use this week: The text states, the text shows, or we conclude."
+      }
+    ],
+    "questions": [
+      "Why is meeting upstairs not a necessary rule?",
+      "How does careful labeling make Christian disagreement more honest?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Four Evidence Labels",
+      "instructions": "Classify a direct instruction, a reported practice, a conclusion that follows, and a conclusion that does not follow."
+    },
+    "weekly_action": "When someone says the Bible says, check the passage and identify whether it is quotation, example, inference, or application.",
+    "prayer": "God, help us read carefully, speak honestly, and obey faithfully.",
+    "parent_note": "Correct labels matter more than reaching a fast conclusion. Allow uncertainty where the evidence has not been fully examined."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What does Acts 20:7 directly report?",
+        "type": "multiple_choice",
+        "options": [
+          "A first-day gathering to break bread",
+          "A command to use an upstairs room forever",
+          "A ban on all other meeting times"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A first-day gathering to break bread"
+        },
+        "explanation": "The passage narrates the gathering without stating the other conclusions."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What does 1 Corinthians 16:2 directly instruct?",
+        "type": "multiple_choice",
+        "options": [
+          "Set something aside on the first day of every week",
+          "Break bread in Troas",
+          "Use lamps in worship"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Set something aside on the first day of every week"
+        },
+        "explanation": "Paul gives a recurring collection instruction."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: Every detail in an approved event becomes a universal command.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Context, purpose, genre, and apostolic approval determine normative weight."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which sentence is most honest for an inference?",
+        "type": "multiple_choice",
+        "options": [
+          "This verse literally says our whole conclusion",
+          "We conclude this from the pattern and supporting texts",
+          "No evidence is needed"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "We conclude this from the pattern and supporting texts"
+        },
+        "explanation": "The wording distinguishes inference from quotation."
+      }
+    ],
+    "puzzle": {
+      "type": "case_grid",
+      "title": "Inference Test",
+      "instructions": "For each statement, identify evidence type and whether the conclusion is necessary, possible, or invalid.",
+      "items": [
+        "Paul instructed a first-day collection",
+        "Troas gathered in an upstairs room",
+        "All churches must meet upstairs",
+        "First-day practices may carry apostolic-pattern weight"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Paul instructed a first-day collection",
+            "answer": "Explicit command to the addressed churches"
+          },
+          {
+            "prompt": "Troas gathered in an upstairs room",
+            "answer": "Narrative detail"
+          },
+          {
+            "prompt": "All churches must meet upstairs",
+            "answer": "Invalid inference"
+          },
+          {
+            "prompt": "First-day practices may carry apostolic-pattern weight",
+            "answer": "Framework inference requiring further argument"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y4-L20-P01-evidence-label-cards",
+        "title": "Command, Example, and Inference Cards",
+        "purpose": "Classify New Testament evidence accurately",
+        "format": "cards",
+        "status": "content_source_draft"
+      },
+      {
+        "resource_id": "Y4-L20-P02-inference-test",
+        "title": "Necessary, Possible, or Invalid?",
+        "purpose": "Test the logical strength of proposed conclusions",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Concrete definitions with one example before abstract terminology.",
+    "plain_language_rule": "Define command as direct instruction, example as reported practice, and necessary inference as a conclusion that must follow.",
+    "neurodiversity_supports": [
+      "Keep the five category labels visible.",
+      "Use one statement card at a time.",
+      "Allow written defense rather than rapid oral response."
+    ],
+    "sensory_notes": [
+      "No high-sensory component required."
+    ],
+    "non_reader_support": [
+      "Read cards aloud.",
+      "Use icons for speech bubble, footsteps, arrow, question mark, and stop sign."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not ask students to publicly judge named relatives or congregations as faithful or unfaithful based on one practice."
+    ],
+    "teacher_response": "Keep examples focused on evidence classification. Route broader fellowship questions to later Teen or adult study.",
+    "escalation_required": false,
+    "escalation_note": ""
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3 - Y4-L20: Command, Example, and Inference",
+      "Theological Decision Register v0.3",
+      "Curriculum Research Adjudication v0.1",
+      "Uploaded double-pass curriculum research reports",
+      "Editorial synthesis for content-system validation"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D005",
+      "D012"
+    ],
+    "review_flags": [
+      "Examples require exegetical review so no inference is presented as direct quotation"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases in the prototype. Add licensed translation text only after permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "This is a vertical-slice draft designed to test schema, rendering, timing, resources, and review workflow rather than a final published lesson.",
+      "Teacher and Family experiences must render from this same canonical object.",
+      "All direct Bible quotations should be supplied from the approved translation only after licensing and attribution rules are confirmed.",
+      "Teacher timing is tested through Essential (25 minutes), Standard (40 minutes), and Extended (55 minutes) delivery profiles.",
+      "Schema 1.2 migration normalized interactive answer shapes for Decap CMS. No theological or pedagogical meaning changed."
+    ]
+  }
+}

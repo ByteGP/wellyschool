@@ -1,0 +1,680 @@
+{
+  "schema_version": "1.2.0",
+  "lesson_id": "Y2-L12",
+  "content_version": "0.4.0",
+  "status": "vertical_slice_draft",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y2",
+    "cycle_name": "Covenant, Kingdom, Wisdom, and Prophets",
+    "sequence": 12,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Job: Suffering Is Not a Simple Formula",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Wisdom Literature"
+  },
+  "core": {
+    "big_idea": "Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
+    "passages": [
+      {
+        "reference": "Job 1:1-12",
+        "role": "primary",
+        "reading_note": "Observe the narrator's description of Job and the hidden heavenly setting."
+      },
+      {
+        "reference": "Job 38:1-18",
+        "role": "primary",
+        "reading_note": "Read a selected portion of God's questions about creation and human limits."
+      },
+      {
+        "reference": "Job 42:1-9",
+        "role": "primary",
+        "reading_note": "Include God's correction of the friends in verses 7-9."
+      },
+      {
+        "reference": "Job 2:11-13",
+        "role": "supporting",
+        "reading_note": "Notice that the friends initially sit with Job before their speeches begin."
+      }
+    ],
+    "metanarrative_position": "Wisdom literature wrestles with suffering, limited human knowledge, justice, and faithful trust in God.",
+    "biblical_genre": "Wisdom literature with prose frame, poetic debate, and divine speeches",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "The narrator describes Job as blameless and upright, and God repeats that assessment.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Job 1:1",
+          "Job 1:8"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The opening scene presents Job's suffering within a test unknown to Job rather than as punishment for a specific sin named by the narrator.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Job 1:6-12",
+          "Job 2:1-7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "God says Job's friends have not spoken rightly about Him, which rebukes their confident explanations of Job's suffering.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Job 42:7-9"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The book of Job rejects the universal formula that every instance of suffering is direct punishment for the sufferer's personal sin.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Job 1:1-12",
+          "Job 2:3",
+          "Job 42:7-9"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "credible_alternative": "Other biblical passages do teach that choices can have consequences and that God may discipline; Job denies a universal one-to-one formula, not every connection between sin and suffering.",
+        "interpretive_hinge": "The narrator's assessment of Job, the friends' speeches, and God's final evaluation of those speeches.",
+        "prohibited_overstatement": "Do not turn the conclusion into the opposite overstatement that wrongdoing never causes suffering or consequences."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "A wise Christian response to suffering begins with presence, truthful humility, practical care, lament, and prayer rather than assigning blame or inventing a complete explanation.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "Job 2:11-13",
+          "Job 38:1-18",
+          "Job 42:7-9"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not use Job to tell a suffering person that questions, grief, or requests for help are signs of weak faith."
+      }
+    ],
+    "doctrine_tags": [
+      "suffering",
+      "sin",
+      "providence",
+      "human_limits"
+    ],
+    "formation_tags": [
+      "humility",
+      "lament",
+      "compassion",
+      "patient_presence"
+    ],
+    "interpretation_skill": "Identify narrator, speakers, genre, and point of view; distinguish a character's claim from the book's final evaluation.",
+    "key_terms": [
+      "wisdom",
+      "suffering",
+      "retribution",
+      "lament",
+      "humility",
+      "providence"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain why Job's suffering cannot be reduced to the claim that he must have committed a particular sin.",
+    "extension_objective": "Distinguish the narrator's assessment, the friends' claims, God's response, and a wise modern application.",
+    "know": [
+      "The narrator and God describe Job as upright at the beginning.",
+      "Job's friends repeatedly try to explain his suffering as deserved punishment.",
+      "God corrects the friends at the end."
+    ],
+    "understand": [
+      "Not every painful event can be explained by a simple direct-punishment formula.",
+      "A speaker inside a Bible book can be wrong; readers must follow the whole argument and final evaluation.",
+      "Human beings do not possess complete knowledge of God's purposes."
+    ],
+    "practise": [
+      "Label statements as narrator, Job, friend, or God.",
+      "Replace one blaming response with a truthful and compassionate response."
+    ],
+    "become": [
+      "A person who responds to suffering with humility, presence, prayer, and practical care rather than confident blame."
+    ],
+    "success_evidence": [
+      "The student cites Job 1 or 42 when rejecting the simple punishment formula.",
+      "The student identifies that not every character statement equals the book's teaching.",
+      "The student proposes one non-intrusive way to support a suffering person."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 20,
+    "zero_prep_card": {
+      "objective": "Students explain that Job does not support the formula that every sufferer is being punished for a specific personal sin.",
+      "read": "Job 1:1, 1:8-12, 38:1-7, 42:7-9",
+      "opening": "Write two claims: Every bad consequence is random; Every bad event proves the sufferer did something wrong. Ask what is weak about both.",
+      "say": [
+        "Job is wisdom literature, so we must track who is speaking and whether the book finally approves that speech.",
+        "The narrator and God describe Job as upright before the losses occur.",
+        "The friends confidently blame Job, but God corrects them at the end.",
+        "The book teaches humility about causes and compassion toward sufferers, not easy formulas."
+      ],
+      "ask": [
+        "How does the narrator describe Job?",
+        "What do the friends assume?",
+        "What does God say about the friends at the end?",
+        "What response helps without pretending to know the whole reason?"
+      ],
+      "do": "Sort six statements by speaker and by whether the book finally approves, corrects, or leaves the claim unresolved.",
+      "close": "Pray for humility, truthful speech, and compassion toward people who suffer.",
+      "materials": [
+        "Bibles",
+        "Speaker cards",
+        "Helpful-response cards or blank paper"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Job combines a prose opening and ending with long poetic speeches. The reader knows about the heavenly challenge, but Job and his friends do not. Much of the book records competing explanations rather than simple approved doctrine.",
+      "text_observations": [
+        "Job is called blameless and upright before the calamities.",
+        "The accuser challenges Job's motives, and the test occurs within limits set by God.",
+        "The friends move from silent presence to increasingly confident accusations.",
+        "God's speeches expose the limits of human knowledge rather than providing Job a complete causal explanation.",
+        "God explicitly says the friends have not spoken rightly about Him."
+      ],
+      "interpretation_notes": [
+        "Teach the difference between what a character says and what the whole book endorses.",
+        "The book does not answer every philosophical question about divine permission, evil, or suffering.",
+        "Job's final response in 42:1-6 has translation and interpretive complexity; do not use it to erase God's rebuke of the friends."
+      ],
+      "theological_guardrails": [
+        "Do not tell a student that illness, bereavement, disability, abuse, or family hardship is punishment for a specific sin.",
+        "Do not teach the opposite error that choices never have consequences or that divine discipline is impossible.",
+        "Do not require students to share personal suffering publicly.",
+        "Do not use sovereignty language to excuse wrongdoing, discourage safety-seeking, or silence lament."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why did God allow the test?",
+          "purpose": "Acknowledge the text and the limits of the lesson.",
+          "foundation_prompt": "The book shows permission within limits, but it does not give Job a complete explanation.",
+          "extension_prompt": "Older students may distinguish the narrative question from a complete philosophical theodicy."
+        },
+        {
+          "question": "Did Job sin at all?",
+          "purpose": "Avoid treating upright as sinless perfection.",
+          "foundation_prompt": "Job is presented as upright, not as a person who never made any mistake.",
+          "extension_prompt": "The issue is whether the losses were direct punishment for a hidden crime, as the friends claimed."
+        },
+        {
+          "question": "Should we never explain consequences?",
+          "purpose": "Preserve moral responsibility.",
+          "foundation_prompt": "Choices can have consequences, but we must not assume every sufferer caused the suffering.",
+          "extension_prompt": "Use clear evidence and appropriate authority rather than suspicion or religious slogans."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Essential",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Frame",
+            "instructions": "Write the claim: If someone suffers, they must have done something to deserve it."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of Job 1, Job 38, and Job 42, keeping track of speakers.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Evaluate",
+            "instructions": "Compare the simple formula with what the whole book actually permits us to conclude.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Response lab",
+            "instructions": "Sort helpful and harmful responses to a suffering person.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y2-L12-P02-helpful-response-sort"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name humility, presence, prayer, and practical help as faithful responses.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 40,
+        "use_case": "Default Sunday session with reading, discussion, activity, and response.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 5,
+            "label": "Frame",
+            "instructions": "Test the simple suffering-equals-personal-guilt formula."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 12,
+            "label": "Read",
+            "instructions": "Read the selected passages and identify narrator, accuser, Job, friends, and God.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Map speakers",
+            "instructions": "Record each speaker's claim and whether the book endorses, corrects, or complicates it.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ],
+            "resource_refs": [
+              "Y2-L12-P01-speaker-map"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 10,
+            "label": "Response lab",
+            "instructions": "Classify and improve responses to suffering.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y2-L12-P02-helpful-response-sort"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 5,
+            "label": "Respond",
+            "instructions": "Pray for wisdom and compassionate presence without demanding private disclosure.",
+            "question_refs": [
+              "Q04",
+              "Q05"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 55,
+        "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 5,
+            "label": "Frame the wisdom question",
+            "instructions": "Distinguish a proverb-like general pattern from a guaranteed formula."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 15,
+            "label": "Read and annotate",
+            "instructions": "Read the selected passages and annotate speaker, claim, evidence, and evaluation.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Speaker map",
+            "instructions": "Use the speaker map to see why quotation alone does not establish endorsement.",
+            "resource_refs": [
+              "Y2-L12-P01-speaker-map"
+            ],
+            "question_refs": [
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 12,
+            "label": "Compassion case lab",
+            "instructions": "Sort responses, rewrite harmful claims, and explain why certainty about another person's suffering can injure.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y2-L12-P02-helpful-response-sort"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 8,
+            "label": "Synthesis",
+            "instructions": "State what Job teaches clearly and what it leaves unresolved.",
+            "question_refs": [
+              "Q04",
+              "Q05"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Respond",
+            "instructions": "Write a brief prayer or practical offer of help that does not diagnose someone's private life."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the narrator want readers to know about Job before the losses?",
+        "purpose": "Narrative evidence."
+      },
+      {
+        "question_id": "Q02",
+        "question": "Why is it dangerous to treat every speech in Job as equally true?",
+        "purpose": "Genre and point of view."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What exactly does God criticize in 42:7-9?",
+        "purpose": "Final evaluation."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How can we say choices have consequences without blaming every sufferer?",
+        "purpose": "Balanced moral reasoning."
+      },
+      {
+        "question_id": "Q05",
+        "question": "Which response is more helpful: I know exactly why this happened, or I do not know the full reason, but I will listen and help?",
+        "purpose": "Formation and application."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Speaker, Claim, Evaluation",
+        "duration_minutes": 10,
+        "materials": [
+          "Speaker cards",
+          "Six claim cards",
+          "Three evaluation labels"
+        ],
+        "steps": [
+          "Assign each claim to narrator, Job, friend, or God.",
+          "Mark whether the book supports, corrects, or leaves the claim unresolved.",
+          "Locate one verse that justifies the classification.",
+          "Rewrite one harmful response to suffering as a humble and helpful response."
+        ],
+        "learning_link": "Builds genre awareness and prevents students from treating a friend's accusation as the book's doctrine.",
+        "low_resource_alternative": "Write four speaker names and three evaluation labels on the board."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Job 42:7",
+      "prayer_prompt": "Ask God for wisdom to avoid false blame and courage to be present with people who suffer.",
+      "take_home_line": "Suffering is not a simple formula; respond with truth, humility, and care."
+    },
+    "printable_refs": [
+      "Y2-L12-P01-speaker-map",
+      "Y2-L12-P02-helpful-response-sort"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "When Easy Answers Hurt",
+    "parent_intro": "Keep examples hypothetical. The aim is to challenge blame and practise compassionate responses, not to investigate family suffering.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Compare two statements: Choices can have consequences; Every painful event proves the sufferer did wrong."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Job 1:1, 1:8-12, and 42:7-9."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Identify what the narrator says, what the friends claim, and what God says about the friends."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Sort four responses into helpful, harmful, or needs-more-context."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose one way to support someone without demanding an explanation and pray."
+      }
+    ],
+    "questions": [
+      "Which part of the passage blocks the claim that Job must have committed a hidden crime?",
+      "What can we do when we do not know why someone is suffering?"
+    ],
+    "interactive": {
+      "type": "discussion",
+      "title": "Helpful, Harmful, or Needs More Context?",
+      "instructions": "Classify responses such as I am here with you, This must be your fault, What help would be useful, and I know exactly what God is doing."
+    },
+    "weekly_action": "Offer one practical act of care or encouragement without asking for private details.",
+    "prayer": "God, give us humility when we do not understand and compassion for people who suffer.",
+    "parent_note": "If the conversation raises a serious disclosure, stop the activity and follow normal safeguarding and support processes."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "How is Job described at the beginning?",
+        "type": "multiple_choice",
+        "options": [
+          "Upright and God-fearing",
+          "Secretly violent",
+          "Unknown to God"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Upright and God-fearing"
+        },
+        "explanation": "The narrator and God establish this before the suffering."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What did Job's friends repeatedly assume?",
+        "type": "multiple_choice",
+        "options": [
+          "Job must have committed serious hidden sin",
+          "Nothing has moral consequences",
+          "Job was not suffering"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Job must have committed serious hidden sin"
+        },
+        "explanation": "Their speeches rely heavily on a direct retribution formula."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: God says the friends spoke rightly about Him.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Job 42:7-9 records God correcting them."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which response best fits the lesson?",
+        "type": "scenario",
+        "options": [
+          "I know exactly why this happened",
+          "I do not know the full reason, but I will listen and help",
+          "You should hide your grief"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "I do not know the full reason, but I will listen and help"
+        },
+        "explanation": "The lesson joins humility with compassionate action."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Text, Formula, or Wise Response",
+      "instructions": "Sort each statement into the category that best fits.",
+      "items": [
+        "Job is described as upright",
+        "Every sufferer must have committed a matching sin",
+        "God corrects the friends",
+        "Listen before explaining",
+        "Choices can have consequences"
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Text",
+            "items": [
+              "Job is described as upright",
+              "God corrects the friends"
+            ]
+          },
+          {
+            "label": "Rejected formula",
+            "items": [
+              "Every sufferer must have committed a matching sin"
+            ]
+          },
+          {
+            "label": "Wise response",
+            "items": [
+              "Listen before explaining"
+            ]
+          },
+          {
+            "label": "Needs context",
+            "items": [
+              "Choices can have consequences"
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y2-L12-P01-speaker-map",
+        "title": "Job Speaker and Evaluation Map",
+        "purpose": "Distinguish narrator, character speech, and final evaluation",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      },
+      {
+        "resource_id": "Y2-L12-P02-helpful-response-sort",
+        "title": "Helpful Response Sort",
+        "purpose": "Practise humble and compassionate responses to suffering",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Youth-facing language with abstract terms defined through concrete examples.",
+    "plain_language_rule": "Define retribution as the idea that suffering always matches a personal wrong; prefer speaker, claim, evidence, and response.",
+    "neurodiversity_supports": [
+      "Provide the speaker map before reading.",
+      "Use short selected passages rather than long poetic blocks.",
+      "Permit written classification instead of rapid verbal debate."
+    ],
+    "sensory_notes": [
+      "No role-play of traumatic events.",
+      "Keep examples hypothetical and low-intensity."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Use icons for narrator, Job, friends, and God."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "suffering",
+      "bereavement",
+      "illness",
+      "family hardship"
+    ],
+    "do_not_ask": [
+      "Do not require students to disclose grief, abuse, illness, disability, or family hardship publicly.",
+      "Do not ask the group to explain why a named person is suffering."
+    ],
+    "teacher_response": "Validate the question, avoid assigning cause, offer appropriate support, and follow local safeguarding policy if harm or danger is disclosed.",
+    "escalation_required": false,
+    "escalation_note": "The lesson itself does not require escalation; voluntary disclosures may trigger normal safeguarding duties."
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3 - Y2-L12: Job: Suffering Is Not a Simple Formula",
+      "Theological Decision Register v0.3",
+      "Curriculum Research Adjudication v0.1",
+      "Uploaded double-pass curriculum research reports",
+      "Editorial synthesis for content-system validation"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D005",
+      "D020",
+      "D022"
+    ],
+    "review_flags": [
+      "DEV-YOUTH-SCAFFOLD",
+      "Suffering language requires developmental and pastoral review"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases in the prototype. Add licensed translation text only after permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "This is a vertical-slice draft designed to test schema, rendering, timing, resources, and review workflow rather than a final published lesson.",
+      "Teacher and Family experiences must render from this same canonical object.",
+      "All direct Bible quotations should be supplied from the approved translation only after licensing and attribution rules are confirmed.",
+      "Teacher timing is tested through Essential (25 minutes), Standard (40 minutes), and Extended (55 minutes) delivery profiles.",
+      "Schema 1.2 migration normalized interactive answer shapes for Decap CMS. No theological or pedagogical meaning changed."
+    ]
+  }
+}

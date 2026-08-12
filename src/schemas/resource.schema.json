@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/resource-v1.json",
+  "title": "Printable Resource",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "resource_id",
+    "lesson_id",
+    "title",
+    "purpose",
+    "format",
+    "status",
+    "body_markdown"
+  ],
+  "properties": {
+    "resource_id": {
+      "type": "string",
+      "minLength": 4
+    },
+    "lesson_id": {
+      "type": "string",
+      "pattern": "^[KYT][1-5]-L[0-9]{2}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 3
+    },
+    "format": {
+      "enum": [
+        "A4",
+        "US Letter",
+        "cards",
+        "worksheet",
+        "none"
+      ]
+    },
+    "status": {
+      "enum": [
+        "placeholder",
+        "content_source_draft",
+        "ready"
+      ]
+    },
+    "body_markdown": {
+      "type": "string",
+      "minLength": 5
+    }
+  }
+}

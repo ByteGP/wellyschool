@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/schedule-entry-v1.json",
+  "title": "Schedule Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schedule_id",
+    "date",
+    "segment",
+    "entry_type",
+    "status"
+  ],
+  "properties": {
+    "schedule_id": {
+      "type": "string",
+      "pattern": "^20[0-9]{2}-[0-9]{2}-[0-9]{2}-(kids|youths|teens)$"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "segment": {
+      "enum": [
+        "Kids",
+        "Youths",
+        "Teens"
+      ]
+    },
+    "entry_type": {
+      "enum": [
+        "lesson",
+        "break",
+        "special"
+      ]
+    },
+    "lesson_id": {
+      "type": "string",
+      "pattern": "^[KYT][1-5]-L[0-9]{2}$"
+    },
+    "title_override": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "approved",
+        "cancelled"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "entry_type": {
+            "const": "lesson"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "lesson_id"
+        ]
+      }
+    }
+  ]
+}

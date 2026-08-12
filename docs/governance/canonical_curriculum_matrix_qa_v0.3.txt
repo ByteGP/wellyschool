@@ -1,0 +1,32 @@
+Canonical Curriculum Matrix QA v0.3
+
+K1: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+K2: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+K3: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+K4: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+K5: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+Y1: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+Y2: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+Y3: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+Y4: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+T1: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+T2: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+T3: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+T4: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+T5: total=30 core=24 synthesis=3 flex=3 structure=PASS anchors=PASS duplicates=0
+
+Decision register entries: 32
+Theological review flagged lessons: 153
+Developmental review flagged lessons: 36
+Pastoral sensitivity flagged lessons: 99
+Overall: PASS
+
+Decision governance workflow:
+Adopted: 13
+Adopted with qualification: 14
+Research required (decision type): 1
+Pastoral protocol required (decision type): 4
+Deferred - owner-managed: 5 (D010, D028, D029, D030, D031)
+Current build blockers: 0
+Next stage: Content Schema v1 and six vertical-slice lessons
+Decision governance workflow: PASS

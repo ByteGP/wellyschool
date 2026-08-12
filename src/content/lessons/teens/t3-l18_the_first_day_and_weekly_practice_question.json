@@ -1,0 +1,685 @@
+{
+  "schema_version": "1.2.0",
+  "lesson_id": "T3-L18",
+  "content_version": "0.4.0",
+  "status": "vertical_slice_draft",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T3",
+    "cycle_name": "Church, Worship, and Mission",
+    "sequence": 18,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "The First-Day and Weekly Practice Question",
+    "annual_anchor": "gospel_response_and_church",
+    "thematic_unit": "The Lord's Supper"
+  },
+  "core": {
+    "big_idea": "Weekly first-day observance is a framework conclusion drawn from apostolic practice rather than a verse that states the frequency as a universal command.",
+    "passages": [
+      {
+        "reference": "Acts 20:7",
+        "role": "primary",
+        "reading_note": "Observe the first-day gathering and breaking-bread statement in narrative context."
+      },
+      {
+        "reference": "1 Corinthians 16:1-2",
+        "role": "primary",
+        "reading_note": "Observe the recurring first-day collection instruction."
+      },
+      {
+        "reference": "Acts 2:42",
+        "role": "supporting",
+        "reading_note": "Observe devotion to breaking bread without a stated weekly day."
+      },
+      {
+        "reference": "1 Corinthians 11:17-34",
+        "role": "supporting",
+        "reading_note": "Observe repeated church gathering, meaning, correction, and participation."
+      },
+      {
+        "reference": "Luke 22:14-23",
+        "role": "context",
+        "reading_note": "Establish Jesus' institution and meaning before considering frequency."
+      }
+    ],
+    "metanarrative_position": "The risen Christ's churches gather around apostolic teaching and the meal He instituted.",
+    "biblical_genre": "Gospel institution narrative, Acts narrative, and epistle instruction",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Acts 20:7 reports that the disciples in Troas gathered on the first day of the week to break bread.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Acts 20:7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "First Corinthians 16:1-2 directs a recurring first-day practice for setting aside a collection.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Corinthians 16:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "First Corinthians 11 assumes that the congregation repeatedly comes together for the Lord's Supper and regulates its meaning and conduct, but it does not name a day or exact frequency.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "1 Corinthians 11:17-34"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Combining Jesus' institution, devotion to breaking bread, the Troas first-day example, and the recurring first-day rhythm supports a strong inference for weekly first-day observance.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Luke 22:14-23",
+          "Acts 2:42",
+          "Acts 20:7",
+          "1 Corinthians 11:17-34",
+          "1 Corinthians 16:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Other Christians hold that the passages establish the Supper and permit regular observance without making one narrative example a universal weekly rule.",
+        "interpretive_hinge": "The normative weight of Acts 20:7, the meaning of breaking bread, and whether the first-day collection rhythm legitimately informs Supper frequency.",
+        "prohibited_overstatement": "Do not state that Acts 20:7 contains a direct universal command saying every congregation must commune every Sunday."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "This congregation treats the weekly first-day inference as the best reading of apostolic practice and therefore follows it consistently.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Acts 20:7",
+          "1 Corinthians 11:17-34",
+          "1 Corinthians 16:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "credible_alternative": "Many congregations observe monthly, quarterly, daily, or at another regular interval while affirming the Supper's importance.",
+        "interpretive_hinge": "Whether a strong apostolic pattern is normatively binding when no verse phrases the frequency as a universal command.",
+        "prohibited_overstatement": "Do not make frequency the sole measure of a church's faithfulness or pronounce on another person's eternal state from this practice alone."
+      },
+      {
+        "claim_id": "C06",
+        "statement": "Christians should hold the practice with conviction while accurately identifying which parts are explicit text and which are inference.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "2 Timothy 2:15",
+          "Acts 17:11"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "lord_supper",
+      "church_practice",
+      "hermeneutics",
+      "apostolic_pattern"
+    ],
+    "formation_tags": [
+      "remembrance",
+      "unity",
+      "conviction",
+      "humility"
+    ],
+    "interpretation_skill": "Build and critique an argument from command, approved example, canonical synthesis, and inference; state the burden of proof and limits precisely.",
+    "key_terms": [
+      "institution",
+      "frequency",
+      "first day",
+      "approved example",
+      "strong inference",
+      "framework position"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain the textual case for weekly first-day observance and identify which evidence is explicit and which is inferred.",
+    "extension_objective": "State the strongest flexible-frequency alternative, identify the interpretive hinge, and defend the framework conclusion without overclaiming.",
+    "know": [
+      "Jesus instituted the Supper and Paul transmitted its meaning.",
+      "Acts 20:7 records a first-day gathering to break bread.",
+      "First Corinthians 16:2 shows a recurring first-day rhythm for a different congregational practice."
+    ],
+    "understand": [
+      "Meaning and frequency are separate interpretive questions.",
+      "Weekly frequency is a strong framework inference rather than the wording of one universal command.",
+      "Conviction does not require caricaturing Christians who weigh the evidence differently."
+    ],
+    "practise": [
+      "Map every premise in the weekly case to its passage and evidence classification.",
+      "State the alternative case in language its advocates would recognize.",
+      "Identify one claim the evidence does not settle by itself."
+    ],
+    "become": [
+      "A Christian who can follow a congregational conviction with informed confidence, humility, and truthful argumentation."
+    ],
+    "success_evidence": [
+      "The student distinguishes institution, meaning, day, and frequency.",
+      "The student does not quote Acts 20:7 as a direct weekly universal command.",
+      "The student can articulate both the framework and flexible-frequency cases fairly."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students build the weekly first-day case, label every premise, and test the strongest alternative.",
+      "read": "Acts 20:7; 1 Corinthians 11:23-26; 16:1-2",
+      "opening": "Ask: What is the difference between a practice being mentioned once, repeated, commanded, and inferred as a pattern?",
+      "say": [
+        "Jesus and Paul establish what the Supper means; the frequency question requires additional reasoning.",
+        "Acts 20:7 explicitly records a first-day gathering to break bread.",
+        "The weekly conclusion combines several passages and the normative weight of apostolic practice.",
+        "Our congregation follows the weekly first-day conclusion while admitting that no verse states the whole rule in one sentence."
+      ],
+      "ask": [
+        "What does each passage explicitly say?",
+        "Which premise connects first-day rhythm to weekly frequency?",
+        "What is the strongest flexible-frequency objection?",
+        "How can conviction and humility operate together?"
+      ],
+      "do": "Complete an argument map with columns for passage, explicit observation, inference, alternative, and confidence.",
+      "close": "Pray for gratitude at the Supper, careful interpretation, and unity grounded in truth and love.",
+      "materials": [
+        "Bibles",
+        "Argument-map worksheet",
+        "Two-view comparison sheet"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Luke records the institution before the cross. Acts 2 names devotion to breaking bread. Acts 20 narrates a first-day gathering in Troas. First Corinthians 11 corrects the congregation's practice and explains meaning. First Corinthians 16 sets a recurring first-day rhythm for a collection.",
+      "text_observations": [
+        "The institution texts establish the meal but do not specify weekly frequency.",
+        "Acts 20:7 directly combines first day, gathering, and breaking bread in one narrative statement.",
+        "First Corinthians 16:2 contains explicit recurring language but concerns the collection, not the Supper.",
+        "First Corinthians 11 repeatedly refers to coming together and the Supper but does not name the day.",
+        "The weekly case is cumulative; removing any premise changes the argument's strength."
+      ],
+      "interpretation_notes": [
+        "Keep meaning and frequency analytically distinct before synthesising them.",
+        "Do not use unverified post-apostolic history while D029 remains deferred; this slice tests the canonical argument only.",
+        "Breaking bread can refer to ordinary meals in Luke-Acts, so context and the author's usage are part of the hinge.",
+        "A strong inference can govern congregational practice even when it is not an explicit quotation, but the classification must remain visible."
+      ],
+      "theological_guardrails": [
+        "Do not state that one verse contains a direct universal weekly command.",
+        "Do not imply that observing more or less frequently automatically settles every question of faithfulness or salvation.",
+        "Do not misrepresent flexible-frequency Christians as denying the Lord's Supper.",
+        "Do not let the frequency debate eclipse remembrance, proclamation, participation, unity, self-examination, and hope."
+      ],
+      "likely_questions": [
+        {
+          "question": "Does Acts 20:7 mean every Sunday?",
+          "purpose": "State the framework inference precisely.",
+          "foundation_prompt": "It explicitly names one first-day gathering.",
+          "extension_prompt": "The weekly conclusion comes from treating the example as a recurring apostolic pattern together with first-day rhythm elsewhere."
+        },
+        {
+          "question": "Could breaking bread mean an ordinary meal?",
+          "purpose": "Acknowledge the lexical and contextual question.",
+          "foundation_prompt": "Sometimes the phrase refers to a meal.",
+          "extension_prompt": "The case for the Lord's Supper in Acts 20 depends on literary context, purpose, and relation to Luke-Acts usage."
+        },
+        {
+          "question": "Are churches with monthly communion disobedient?",
+          "purpose": "Avoid a simplistic fellowship verdict.",
+          "foundation_prompt": "Our congregation believes weekly practice best follows the apostolic pattern.",
+          "extension_prompt": "Evaluating another church requires more than this single issue, and this lesson does not pronounce on anyone's eternal state."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Essential",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Frame the question",
+            "instructions": "State the issue precisely: what supports first-day weekly observance, and what does not?"
+          },
+          {
+            "step_id": "E02",
+            "minutes": 7,
+            "label": "Read",
+            "instructions": "Read Acts 20:7 and 1 Corinthians 16:1-2 with their immediate settings.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Classify evidence",
+            "instructions": "Separate explicit observations from inferred frequency and universal application.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 7,
+            "label": "Map the argument",
+            "instructions": "Build the cumulative weekly-practice case and identify its hinge.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T3-L18-P01-argument-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Conclude",
+            "instructions": "State the congregation's position accurately without claiming a direct universal command."
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 40,
+        "use_case": "Default Sunday session with reading, discussion, activity, and response.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 5,
+            "label": "Frame",
+            "instructions": "Define the claim, burden of proof, and evidence classifications."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 10,
+            "label": "Text observations",
+            "instructions": "Read both passages and record what each directly states.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Build the framework case",
+            "instructions": "Combine the Supper's meaning, first-day assembly evidence, recurring first-day language, and pattern reasoning.",
+            "question_refs": [
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 12,
+            "label": "Steelman and test",
+            "instructions": "Compare the weekly and flexible-frequency views and test the interpretive hinge.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T3-L18-P01-argument-map",
+              "T3-L18-P02-view-comparison"
+            ],
+            "question_refs": [
+              "Q04",
+              "Q05"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 5,
+            "label": "Conclude and respond",
+            "instructions": "Practise stating conviction with accuracy, humility, and no fellowship-boundary judgment."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 55,
+        "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 5,
+            "label": "Frame and define",
+            "instructions": "Distinguish meaning, day, and frequency as separate questions."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 14,
+            "label": "Close reading",
+            "instructions": "Read Acts 20:7 and 1 Corinthians 16:1-2 in context, noting narrative and epistolary differences.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Cumulative case",
+            "instructions": "Build the strongest weekly-practice argument without using Acts 20:7 as a direct command.",
+            "question_refs": [
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 15,
+            "label": "Comparison lab",
+            "instructions": "Complete the argument map and view comparison, then identify where each view places the burden of proof.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T3-L18-P01-argument-map",
+              "T3-L18-P02-view-comparison"
+            ],
+            "question_refs": [
+              "Q04",
+              "Q05"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 6,
+            "label": "Overstatement repair",
+            "instructions": "Rewrite common claims so text, inference, framework position, and uncertainty are labelled correctly."
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Respond",
+            "instructions": "State the adopted practice and explain why conviction does not require caricaturing other Christians."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Which passage establishes the Supper's meaning most directly?",
+        "purpose": "Separate meaning from frequency."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What exactly is explicit in Acts 20:7?",
+        "purpose": "Close observation."
+      },
+      {
+        "question_id": "Q03",
+        "question": "How does 1 Corinthians 16 strengthen a first-day rhythm, and what does it not prove by itself?",
+        "purpose": "Cumulative reasoning."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is the strongest reason to regard frequency as flexible?",
+        "purpose": "Steelmanning."
+      },
+      {
+        "question_id": "Q05",
+        "question": "What language allows us to teach the weekly position truthfully?",
+        "purpose": "Epistemic discipline."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Weekly Practice Argument Map",
+        "duration_minutes": 12,
+        "materials": [
+          "Argument-map worksheet",
+          "Bibles",
+          "Highlighters"
+        ],
+        "steps": [
+          "Enter one passage per row.",
+          "Record the explicit observation.",
+          "Identify the role in the weekly case.",
+          "Write the strongest alternative reading.",
+          "Assign confidence and state what the passage does not prove alone."
+        ],
+        "learning_link": "Makes the framework conclusion auditable and prevents a cumulative inference from being disguised as one quotation.",
+        "low_resource_alternative": "Create five columns on a whiteboard and complete the map together."
+      }
+    ],
+    "closing": {
+      "memory_reference": "1 Corinthians 11:26",
+      "prayer_prompt": "Thank Jesus for the Supper and ask for faithful practice, careful interpretation, and unity in truth.",
+      "take_home_line": "We practise weekly on the first day from a strong apostolic-pattern inference, not from a sentence that states the whole rule."
+    },
+    "printable_refs": [
+      "T3-L18-P01-argument-map",
+      "T3-L18-P02-view-comparison"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "What Does the First-Day Evidence Show?",
+    "parent_intro": "The aim is to understand the congregation's reasoning accurately, not to turn family study into a verdict on other Christians.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Name the difference between a direct rule and a pattern inferred from several examples."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Acts 20:7 and 1 Corinthians 11:23-26."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "List what the passages say about day, gathering, meaning, and frequency."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Label four claims as explicit text, strong inference, framework position, or not established."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "State the congregation's practice in one accurate sentence and pray."
+      }
+    ],
+    "questions": [
+      "Which part of weekly first-day observance is explicit, and which part is inferred?",
+      "How can a family hold conviction without misrepresenting another view?"
+    ],
+    "interactive": {
+      "type": "discussion",
+      "title": "Text, Inference, Position, or Not Established?",
+      "instructions": "Classify: Troas gathered on the first day; every congregation is directly commanded in Acts 20:7; weekly practice is a strong pattern conclusion; the Supper proclaims Jesus' death."
+    },
+    "weekly_action": "Before the next Lord's Supper, read 1 Corinthians 11:23-26 and prepare one sentence of remembrance or gratitude.",
+    "prayer": "Jesus, thank You for giving Your church this meal. Help us remember You and handle Scripture truthfully.",
+    "parent_note": "Keep the distinction between the congregation's approved conclusion and the exact wording of the passages visible."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What does Acts 20:7 explicitly report?",
+        "type": "multiple_choice",
+        "options": [
+          "A first-day gathering to break bread",
+          "A universal command worded for every church",
+          "A monthly schedule"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A first-day gathering to break bread"
+        },
+        "explanation": "The verse narrates the Troas gathering."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Which passage explains remembrance and proclamation?",
+        "type": "multiple_choice",
+        "options": [
+          "1 Corinthians 11:23-26",
+          "Acts 20:7 alone",
+          "1 Corinthians 16:2 alone"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "1 Corinthians 11:23-26"
+        },
+        "explanation": "Paul transmits the institution and its meaning."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: Weekly first-day frequency is stated as one universal command in Acts 20:7.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The framework conclusion is cumulative and inferential."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What is the strongest alternative view?",
+        "type": "multiple_choice",
+        "options": [
+          "The Supper is unimportant",
+          "The Supper is required but frequency remains flexible",
+          "Jesus never instituted the Supper"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The Supper is required but frequency remains flexible"
+        },
+        "explanation": "That alternative affirms the meal while weighing the frequency evidence differently."
+      }
+    ],
+    "puzzle": {
+      "type": "case_grid",
+      "title": "Evidence Role Grid",
+      "instructions": "Place each statement under institution, meaning, first-day evidence, recurring rhythm, or framework conclusion.",
+      "items": [
+        "Jesus gives bread and cup",
+        "Proclaim the Lord's death",
+        "Troas gathers on the first day",
+        "Set aside on the first day of every week",
+        "Observe the Supper every first day"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Jesus gives bread and cup",
+            "answer": "Institution"
+          },
+          {
+            "prompt": "Proclaim the Lord's death",
+            "answer": "Meaning"
+          },
+          {
+            "prompt": "Troas gathers on the first day",
+            "answer": "First-day example"
+          },
+          {
+            "prompt": "Set aside on the first day of every week",
+            "answer": "Recurring first-day rhythm for collection"
+          },
+          {
+            "prompt": "Observe the Supper every first day",
+            "answer": "Framework conclusion from cumulative evidence"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T3-L18-P01-argument-map",
+        "title": "Weekly First-Day Argument Map",
+        "purpose": "Classify and connect every premise in the framework case",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      },
+      {
+        "resource_id": "T3-L18-P02-view-comparison",
+        "title": "Weekly and Flexible-Frequency Comparison",
+        "purpose": "Steelman both views and isolate the interpretive hinge",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen-level argumentation with every technical term defined in ordinary language.",
+    "plain_language_rule": "Use explicit text, example, strong inference, and framework position before specialist hermeneutical labels.",
+    "neurodiversity_supports": [
+      "Provide the argument map in advance.",
+      "Permit written comparison rather than live debate.",
+      "Use one passage and one claim at a time."
+    ],
+    "sensory_notes": [
+      "No high-sensory component required."
+    ],
+    "non_reader_support": [
+      "Use an audio Bible.",
+      "Pair each evidence category with an icon and colour-independent label."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "interchurch disagreement"
+    ],
+    "do_not_ask": [
+      "Do not require students to name or condemn relatives or congregations with a different frequency.",
+      "Do not turn the activity into a public test of who is a true Christian."
+    ],
+    "teacher_response": "Keep the discussion on texts, evidence classifications, and the approved congregational practice. Defer fellowship-boundary judgments.",
+    "escalation_required": false,
+    "escalation_note": ""
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3 - T3-L18: The First-Day and Weekly Practice Question",
+      "Theological Decision Register v0.3",
+      "Curriculum Research Adjudication v0.1",
+      "Uploaded double-pass curriculum research reports",
+      "Editorial synthesis for content-system validation"
+    ],
+    "decision_register_refs": [
+      "D005",
+      "D011",
+      "D012",
+      "D013"
+    ],
+    "review_flags": [
+      "Exegetical review required before publication",
+      "Do not add post-apostolic historical claims until D029 research is completed"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases in the prototype. Add licensed translation text only after permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "This is a vertical-slice draft designed to test schema, rendering, timing, resources, and review workflow rather than a final published lesson.",
+      "Teacher and Family experiences must render from this same canonical object.",
+      "All direct Bible quotations should be supplied from the approved translation only after licensing and attribution rules are confirmed.",
+      "Teacher timing is tested through Essential (25 minutes), Standard (40 minutes), and Extended (55 minutes) delivery profiles.",
+      "Schema 1.2 migration normalized interactive answer shapes for Decap CMS. No theological or pedagogical meaning changed."
+    ]
+  }
+}

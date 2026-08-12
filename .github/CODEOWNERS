@@ -1,0 +1,9 @@
+# Replace all placeholders before protecting main.
+/src/schemas/ @TECH_OWNER @THEOLOGY_REVIEWER
+/src/content/lessons/ @CURRICULUM_OWNER @THEOLOGY_REVIEWER @DEVELOPMENTAL_REVIEWER
+/src/content/resources/ @CURRICULUM_OWNER @DEVELOPMENTAL_REVIEWER
+/src/content/schedule/ @SCHEDULER @CURRICULUM_OWNER
+/src/content/settings/ @TECH_OWNER @CURRICULUM_OWNER
+/public/admin/ @TECH_OWNER
+/scripts/validate-content.mjs @TECH_OWNER
+/docs/governance/ @CURRICULUM_OWNER @THEOLOGY_REVIEWER

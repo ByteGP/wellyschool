@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/site-settings-v1.json",
+  "title": "Site Settings",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "site_name",
+    "timezone",
+    "default_teacher_profile",
+    "family_duration_minutes",
+    "public_teacher_routes",
+    "show_upcoming_lessons"
+  ],
+  "properties": {
+    "site_name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "timezone": {
+      "const": "Pacific/Auckland"
+    },
+    "default_teacher_profile": {
+      "enum": [
+        "essential",
+        "standard",
+        "extended"
+      ]
+    },
+    "family_duration_minutes": {
+      "const": 15
+    },
+    "public_teacher_routes": {
+      "type": "boolean"
+    },
+    "show_upcoming_lessons": {
+      "type": "boolean"
+    }
+  }
+}

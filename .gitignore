@@ -1,0 +1,21 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.*
+!.env.example
+
+# test artifacts
+playwright-report/
+test-results/
+coverage/
+
+# generated types are committed deliberately; see scripts/generate-types.mjs
+
+# os
+.DS_Store

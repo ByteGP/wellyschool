@@ -1,0 +1,14 @@
+Content Validation Pack QA v0.3
+
+K1-L19: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=4 quiz=4 resources=1 overall=PASS
+K5-L13: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=4 quiz=4 resources=2 overall=PASS
+Y2-L12: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=5 quiz=4 resources=2 overall=PASS
+Y4-L20: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=6 quiz=4 resources=2 overall=PASS
+T3-L18: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=6 quiz=4 resources=2 overall=PASS
+T4-L22: schema=PASS canonical=PASS profiles=PASS(essential=25/25, standard=40/40, extended=55/55) family=PASS(15/15) claims=5 quiz=4 resources=2 overall=PASS
+
+Schema validation errors: 0
+Lessons validated: 6
+Resources resolved: 11
+Cross-field or content failures: 0
+Overall: PASS

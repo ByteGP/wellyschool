@@ -1,0 +1,8 @@
+{
+  "site_name": "Sunday School",
+  "timezone": "Pacific/Auckland",
+  "default_teacher_profile": "standard",
+  "family_duration_minutes": 15,
+  "public_teacher_routes": true,
+  "show_upcoming_lessons": false
+}

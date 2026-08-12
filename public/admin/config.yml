@@ -1,0 +1,3774 @@
+backend:
+  name: github
+  repo: __GITHUB_OWNER__/__REPOSITORY__
+  branch: main
+  auth_scope: repo
+  squash_merges: true
+  use_graphql: true
+publish_mode: editorial_workflow
+local_backend: true
+media_folder: public/uploads
+public_folder: /uploads
+editor:
+  preview: false
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-'
+collections:
+- name: lessons_kids
+  label: Kids lessons
+  label_singular: Kids lesson
+  folder: src/content/lessons/kids
+  create: true
+  format: json
+  extension: json
+  identifier_field: lesson_id
+  slug: '{{fields.lesson_id}}'
+  summary: '{{lesson_id}} - {{status}}'
+  sortable_fields:
+  - lesson_id
+  - status
+  view_filters:
+  - label: In review
+    field: status
+    pattern: in_review
+  - label: Approved
+    field: status
+    pattern: approved
+  - label: Published
+    field: status
+    pattern: published
+  fields:
+  - label: Schema Version
+    name: schema_version
+    widget: hidden
+    default: 1.2.0
+  - label: Lesson ID
+    name: lesson_id
+    widget: string
+    pattern:
+    - ^[KYT][1-5]-L[0-9]{2}$
+    - Lesson ID has an invalid format
+    hint: Stable curriculum ID for Kids; do not change after creation.
+  - label: Content Version
+    name: content_version
+    widget: string
+    pattern:
+    - ^[0-9]+\.[0-9]+\.[0-9]+$
+    - Content Version has an invalid format
+    default: 0.1.0
+  - label: Status
+    name: status
+    widget: select
+    options:
+    - vertical_slice_draft
+    - in_review
+    - approved
+    - scheduled
+    - published
+    - retired
+    default: vertical_slice_draft
+  - label: Curriculum
+    name: curriculum
+    widget: object
+    collapsed: true
+    fields:
+    - label: Segment
+      name: segment
+      widget: hidden
+      default: Kids
+    - label: Age range
+      name: age_range
+      widget: hidden
+      default: 4-8
+    - label: Cycle ID
+      name: cycle_id
+      widget: select
+      options:
+      - K1
+      - K2
+      - K3
+      - K4
+      - K5
+    - label: Cycle Name
+      name: cycle_name
+      widget: string
+    - label: Sequence
+      name: sequence
+      widget: number
+      value_type: int
+      min: 1
+      max: 30
+    - label: Unit Type
+      name: unit_type
+      widget: select
+      options:
+      - Core
+      - Synthesis
+      - Flex
+    - label: Scheduling Priority
+      name: scheduling_priority
+      required: false
+      widget: select
+      options:
+      - Required
+      - Recommended
+      - Optional
+    - label: Title
+      name: title
+      widget: string
+    - label: Annual Anchor
+      name: annual_anchor
+      required: false
+      widget: string
+    - label: Thematic Unit
+      name: thematic_unit
+      required: false
+      widget: string
+  - label: Core
+    name: core
+    widget: object
+    collapsed: true
+    fields:
+    - label: Big Idea
+      name: big_idea
+      widget: text
+    - label: Passages
+      name: passages
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      summary: '{{fields.role}} - {{fields.reference}}'
+      fields:
+      - label: Reference
+        name: reference
+        widget: string
+      - label: Role
+        name: role
+        widget: select
+        options:
+        - primary
+        - supporting
+        - context
+        - comparison
+      - label: Reading Note
+        name: reading_note
+        required: false
+        widget: text
+    - label: Metanarrative Position
+      name: metanarrative_position
+      widget: string
+    - label: Biblical Genre
+      name: biblical_genre
+      widget: string
+    - label: Claims
+      name: claims
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 2
+      summary: '{{fields.claim_id}} - {{fields.statement}}'
+      fields:
+      - label: Claim ID
+        name: claim_id
+        widget: string
+        pattern:
+        - ^C[0-9]{2}$
+        - Claim ID has an invalid format
+      - label: Statement
+        name: statement
+        widget: text
+      - label: Classification
+        name: classification
+        widget: select
+        options:
+        - explicit_text
+        - canonical_synthesis
+        - strong_inference
+        - framework_position
+        - disputed
+        - historical_context
+        - prudential_judgment
+      - label: Evidence Refs
+        name: evidence_refs
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Evidence Ref
+          name: item
+          widget: string
+      - label: Confidence
+        name: confidence
+        widget: select
+        options:
+        - High
+        - Medium
+        - Low
+      - label: Review Status
+        name: review_status
+        widget: select
+        options:
+        - draft
+        - review_required
+        - approved
+      - label: Credible Alternative
+        name: credible_alternative
+        required: false
+        widget: text
+      - label: Interpretive Hinge
+        name: interpretive_hinge
+        required: false
+        widget: text
+      - label: Prohibited Overstatement
+        name: prohibited_overstatement
+        required: false
+        widget: text
+    - label: Doctrine Tags
+      name: doctrine_tags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Doctrine Tag
+        name: item
+        widget: string
+    - label: Formation Tags
+      name: formation_tags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Formation Tag
+        name: item
+        widget: string
+    - label: Interpretation Skill
+      name: interpretation_skill
+      required: false
+      widget: string
+    - label: Key Terms
+      name: key_terms
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Key Term
+        name: item
+        widget: string
+  - label: Learning
+    name: learning
+    widget: object
+    collapsed: true
+    fields:
+    - label: Foundation Objective
+      name: foundation_objective
+      widget: text
+    - label: Extension Objective
+      name: extension_objective
+      widget: text
+    - label: Know
+      name: know
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Understand
+      name: understand
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Practise
+      name: practise
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Become
+      name: become
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Success Evidence
+      name: success_evidence
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Item
+        name: item
+        widget: string
+  - label: Teacher
+    name: teacher
+    widget: object
+    collapsed: true
+    fields:
+    - label: Default Profile
+      name: default_profile
+      widget: select
+      options:
+      - essential
+      - standard
+      - extended
+    - label: Preparation Minutes
+      name: preparation_minutes
+      widget: number
+      value_type: int
+      min: 0
+      max: 90
+    - label: Zero Prep Card
+      name: zero_prep_card
+      widget: object
+      collapsed: true
+      fields:
+      - label: Objective
+        name: objective
+        widget: text
+      - label: Read
+        name: read
+        widget: text
+      - label: Opening
+        name: opening
+        widget: text
+      - label: Say
+        name: say
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 2
+        field:
+          label: Item
+          name: item
+          widget: text
+      - label: Ask
+        name: ask
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 2
+        field:
+          label: Item
+          name: item
+          widget: text
+      - label: Do
+        name: do
+        widget: text
+      - label: Close
+        name: close
+        widget: text
+      - label: Materials
+        name: materials
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Material
+          name: item
+          widget: string
+    - label: Preparation
+      name: preparation
+      widget: object
+      collapsed: true
+      fields:
+      - label: Passage Context
+        name: passage_context
+        widget: text
+      - label: Text Observations
+        name: text_observations
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 2
+        field:
+          label: Text Observation
+          name: item
+          widget: string
+      - label: Interpretation Notes
+        name: interpretation_notes
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Interpretation Note
+          name: item
+          widget: string
+      - label: Theological Guardrails
+        name: theological_guardrails
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Theological Guardrail
+          name: item
+          widget: string
+      - label: Likely Questions
+        name: likely_questions
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        summary: '{{fields.question_id}} - {{fields.question}}'
+        fields:
+        - label: Question ID
+          name: question_id
+          required: false
+          widget: string
+          pattern:
+          - ^Q[0-9]{2}$
+          - Question ID has an invalid format
+        - label: Question
+          name: question
+          widget: text
+        - label: Purpose
+          name: purpose
+          widget: text
+        - label: Foundation Prompt
+          name: foundation_prompt
+          required: false
+          widget: text
+        - label: Extension Prompt
+          name: extension_prompt
+          required: false
+          widget: text
+    - label: Discussion Questions
+      name: discussion_questions
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 3
+      summary: '{{fields.question_id}} - {{fields.question}}'
+      fields:
+      - label: Question ID
+        name: question_id
+        required: false
+        widget: string
+        pattern:
+        - ^Q[0-9]{2}$
+        - Question ID has an invalid format
+      - label: Question
+        name: question
+        widget: text
+      - label: Purpose
+        name: purpose
+        widget: text
+      - label: Foundation Prompt
+        name: foundation_prompt
+        required: false
+        widget: text
+      - label: Extension Prompt
+        name: extension_prompt
+        required: false
+        widget: text
+    - label: Activities
+      name: activities
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      summary: '{{fields.activity_id}} - {{fields.title}}'
+      fields:
+      - label: Activity ID
+        name: activity_id
+        widget: string
+        pattern:
+        - ^A[0-9]{2}$
+        - Activity ID has an invalid format
+      - label: Title
+        name: title
+        widget: string
+      - label: Duration Minutes
+        name: duration_minutes
+        widget: number
+        value_type: int
+        min: 1
+        max: 30
+      - label: Materials
+        name: materials
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Material
+          name: item
+          widget: string
+      - label: Steps
+        name: steps
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Step
+          name: item
+          widget: text
+      - label: Learning Link
+        name: learning_link
+        widget: text
+      - label: Low Resource Alternative
+        name: low_resource_alternative
+        required: false
+        widget: text
+    - label: Closing
+      name: closing
+      widget: object
+      collapsed: true
+      fields:
+      - label: Memory Reference
+        name: memory_reference
+        widget: string
+      - label: Prayer Prompt
+        name: prayer_prompt
+        widget: text
+      - label: Take Home Line
+        name: take_home_line
+        widget: text
+    - label: Printable Refs
+      name: printable_refs
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Printable Ref
+        name: item
+        widget: string
+    - label: Delivery Profiles
+      name: delivery_profiles
+      widget: object
+      collapsed: true
+      fields:
+      - label: Essential
+        name: essential
+        widget: object
+        collapsed: true
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Duration Minutes
+          name: duration_minutes
+          widget: select
+          options:
+          - 25
+          - 40
+          - 55
+        - label: Use Case
+          name: use_case
+          widget: text
+        - label: Outline
+          name: outline
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          min: 4
+          summary: '{{fields.step_id}} - {{fields.label}} ({{fields.minutes}} min)'
+          fields:
+          - label: Step ID
+            name: step_id
+            widget: string
+            pattern:
+            - ^[ESX][0-9]{2}$
+            - Step ID has an invalid format
+          - label: Minutes
+            name: minutes
+            widget: number
+            value_type: int
+            min: 1
+            max: 30
+          - label: Label
+            name: label
+            widget: string
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Question Refs
+            name: question_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Question Ref
+              name: item
+              widget: string
+          - label: Activity Refs
+            name: activity_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Activity Ref
+              name: item
+              widget: string
+          - label: Resource Refs
+            name: resource_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Resource Ref
+              name: item
+              widget: string
+      - label: Standard
+        name: standard
+        widget: object
+        collapsed: true
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Duration Minutes
+          name: duration_minutes
+          widget: select
+          options:
+          - 25
+          - 40
+          - 55
+        - label: Use Case
+          name: use_case
+          widget: text
+        - label: Outline
+          name: outline
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          min: 4
+          summary: '{{fields.step_id}} - {{fields.label}} ({{fields.minutes}} min)'
+          fields:
+          - label: Step ID
+            name: step_id
+            widget: string
+            pattern:
+            - ^[ESX][0-9]{2}$
+            - Step ID has an invalid format
+          - label: Minutes
+            name: minutes
+            widget: number
+            value_type: int
+            min: 1
+            max: 30
+          - label: Label
+            name: label
+            widget: string
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Question Refs
+            name: question_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Question Ref
+              name: item
+              widget: string
+          - label: Activity Refs
+            name: activity_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Activity Ref
+              name: item
+              widget: string
+          - label: Resource Refs
+            name: resource_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Resource Ref
+              name: item
+              widget: string
+      - label: Extended
+        name: extended
+        widget: object
+        collapsed: true
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Duration Minutes
+          name: duration_minutes
+          widget: select
+          options:
+          - 25
+          - 40
+          - 55
+        - label: Use Case
+          name: use_case
+          widget: text
+        - label: Outline
+          name: outline
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          min: 4
+          summary: '{{fields.step_id}} - {{fields.label}} ({{fields.minutes}} min)'
+          fields:
+          - label: Step ID
+            name: step_id
+            widget: string
+            pattern:
+            - ^[ESX][0-9]{2}$
+            - Step ID has an invalid format
+          - label: Minutes
+            name: minutes
+            widget: number
+            value_type: int
+            min: 1
+            max: 30
+          - label: Label
+            name: label
+            widget: string
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Question Refs
+            name: question_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Question Ref
+              name: item
+              widget: string
+          - label: Activity Refs
+            name: activity_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Activity Ref
+              name: item
+              widget: string
+          - label: Resource Refs
+            name: resource_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Resource Ref
+              name: item
+              widget: string
+  - label: Family
+    name: family
+    widget: object
+    collapsed: true
+    fields:
+    - label: Duration Minutes
+      name: duration_minutes
+      widget: hidden
+      default: 15
+    - label: Title
+      name: title
+      widget: string
+    - label: Parent Intro
+      name: parent_intro
+      widget: text
+    - label: Flow
+      name: flow
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 5
+      max: 5
+      summary: '{{fields.type}} - {{fields.duration_minutes}} min'
+      fields:
+      - label: Duration Minutes
+        name: duration_minutes
+        widget: number
+        value_type: int
+        min: 1
+        max: 10
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - connect
+        - read
+        - understand
+        - play
+        - respond
+      - label: Instructions
+        name: instructions
+        widget: text
+    - label: Questions
+      name: questions
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 2
+      field:
+        label: Question
+        name: item
+        widget: string
+    - label: Interactive
+      name: interactive
+      widget: object
+      collapsed: true
+      fields:
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - quiz
+        - puzzle
+        - discussion
+        - movement
+        - creative
+        - audit
+      - label: Title
+        name: title
+        widget: string
+      - label: Instructions
+        name: instructions
+        widget: text
+    - label: Weekly Action
+      name: weekly_action
+      widget: text
+    - label: Prayer
+      name: prayer
+      widget: text
+    - label: Parent Note
+      name: parent_note
+      widget: text
+  - label: Engagement
+    name: engagement
+    widget: object
+    collapsed: true
+    fields:
+    - label: Quiz
+      name: quiz
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 3
+      summary: '{{fields.question_id}} - {{fields.question}}'
+      fields:
+      - label: Question ID
+        name: question_id
+        widget: string
+      - label: Question
+        name: question
+        widget: text
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - multiple_choice
+        - true_false
+        - sequence
+        - scenario
+        - short_answer
+      - label: Options
+        name: options
+        required: false
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Option
+          name: item
+          widget: string
+      - label: Answer
+        name: answer
+        widget: object
+        collapsed: true
+        fields:
+        - label: Kind
+          name: kind
+          widget: select
+          options:
+          - text
+          - boolean
+          - ordered_list
+        - label: Text
+          name: text
+          required: false
+          widget: string
+        - label: Boolean
+          name: boolean
+          required: false
+          widget: boolean
+        - label: Items
+          name: items
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          field:
+            label: Item
+            name: item
+            widget: string
+      - label: Explanation
+        name: explanation
+        widget: text
+    - label: Puzzle
+      name: puzzle
+      widget: object
+      collapsed: true
+      fields:
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - sequence
+        - matching
+        - sort
+        - word_scramble
+        - case_grid
+      - label: Title
+        name: title
+        widget: string
+      - label: Instructions
+        name: instructions
+        widget: text
+      - label: Items
+        name: items
+        required: false
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Solution
+        name: solution
+        widget: object
+        collapsed: true
+        fields:
+        - label: Kind
+          name: kind
+          widget: select
+          options:
+          - text
+          - ordered_list
+          - pairs
+          - groups
+        - label: Text
+          name: text
+          required: false
+          widget: string
+        - label: Items
+          name: items
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          field:
+            label: Item
+            name: item
+            widget: string
+        - label: Pairs
+          name: pairs
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          summary: '{{fields.prompt}} -> {{fields.answer}}'
+          fields:
+          - label: Prompt
+            name: prompt
+            widget: string
+          - label: Answer
+            name: answer
+            widget: string
+        - label: Groups
+          name: groups
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          summary: '{{fields.label}}'
+          fields:
+          - label: Label
+            name: label
+            widget: string
+          - label: Items
+            name: items
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Item
+              name: item
+              widget: string
+      - label: Choices
+        name: choices
+        required: false
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Choice
+          name: item
+          widget: string
+    - label: Printables
+      name: printables
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      summary: '{{fields.resource_id}} - {{fields.title}}'
+      fields:
+      - label: Resource ID
+        name: resource_id
+        widget: string
+      - label: Title
+        name: title
+        widget: string
+      - label: Purpose
+        name: purpose
+        widget: text
+      - label: Format
+        name: format
+        widget: select
+        options:
+        - A4
+        - US Letter
+        - cards
+        - worksheet
+        - none
+      - label: Status
+        name: status
+        widget: select
+        options:
+        - placeholder
+        - content_source_draft
+        - ready
+  - label: Accessibility
+    name: accessibility
+    widget: object
+    collapsed: true
+    fields:
+    - label: Reading Level
+      name: reading_level
+      widget: text
+    - label: Plain Language Rule
+      name: plain_language_rule
+      widget: text
+    - label: Neurodiversity Supports
+      name: neurodiversity_supports
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Neurodiversity Support
+        name: item
+        widget: string
+    - label: Sensory Notes
+      name: sensory_notes
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Sensory Note
+        name: item
+        widget: string
+    - label: Non Reader Support
+      name: non_reader_support
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Item
+        name: item
+        widget: string
+  - label: Safeguarding
+    name: safeguarding
+    widget: object
+    collapsed: true
+    fields:
+    - label: Sensitivity Tags
+      name: sensitivity_tags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Sensitivity Tag
+        name: item
+        widget: string
+    - label: Do Not Ask
+      name: do_not_ask
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Teacher Response
+      name: teacher_response
+      widget: text
+    - label: Escalation Required
+      name: escalation_required
+      widget: boolean
+    - label: Escalation Note
+      name: escalation_note
+      required: false
+      widget: text
+  - label: Editorial
+    name: editorial
+    widget: object
+    collapsed: true
+    fields:
+    - label: Source Provenance
+      name: source_provenance
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: text
+    - label: Decision Register Refs
+      name: decision_register_refs
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Decision Register Ref
+        name: item
+        widget: string
+    - label: Review Flags
+      name: review_flags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Review Flag
+        name: item
+        widget: string
+    - label: Review State
+      name: review_state
+      widget: object
+      collapsed: true
+      fields:
+      - label: Exegetical
+        name: exegetical
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+        - not_required
+      - label: Developmental
+        name: developmental
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+        - not_required
+      - label: Pastoral
+        name: pastoral
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+        - not_required
+        - deferred_owner_managed
+      - label: Copy
+        name: copy
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+    - label: Scripture Text Policy
+      name: scripture_text_policy
+      widget: text
+    - label: Editor Notes
+      name: editor_notes
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Editor Note
+        name: item
+        widget: text
+- name: lessons_youths
+  label: Youths lessons
+  label_singular: Youths lesson
+  folder: src/content/lessons/youths
+  create: true
+  format: json
+  extension: json
+  identifier_field: lesson_id
+  slug: '{{fields.lesson_id}}'
+  summary: '{{lesson_id}} - {{status}}'
+  sortable_fields:
+  - lesson_id
+  - status
+  view_filters:
+  - label: In review
+    field: status
+    pattern: in_review
+  - label: Approved
+    field: status
+    pattern: approved
+  - label: Published
+    field: status
+    pattern: published
+  fields:
+  - label: Schema Version
+    name: schema_version
+    widget: hidden
+    default: 1.2.0
+  - label: Lesson ID
+    name: lesson_id
+    widget: string
+    pattern:
+    - ^[KYT][1-5]-L[0-9]{2}$
+    - Lesson ID has an invalid format
+    hint: Stable curriculum ID for Youths; do not change after creation.
+  - label: Content Version
+    name: content_version
+    widget: string
+    pattern:
+    - ^[0-9]+\.[0-9]+\.[0-9]+$
+    - Content Version has an invalid format
+    default: 0.1.0
+  - label: Status
+    name: status
+    widget: select
+    options:
+    - vertical_slice_draft
+    - in_review
+    - approved
+    - scheduled
+    - published
+    - retired
+    default: vertical_slice_draft
+  - label: Curriculum
+    name: curriculum
+    widget: object
+    collapsed: true
+    fields:
+    - label: Segment
+      name: segment
+      widget: hidden
+      default: Youths
+    - label: Age range
+      name: age_range
+      widget: hidden
+      default: 9-12
+    - label: Cycle ID
+      name: cycle_id
+      widget: select
+      options:
+      - Y1
+      - Y2
+      - Y3
+      - Y4
+    - label: Cycle Name
+      name: cycle_name
+      widget: string
+    - label: Sequence
+      name: sequence
+      widget: number
+      value_type: int
+      min: 1
+      max: 30
+    - label: Unit Type
+      name: unit_type
+      widget: select
+      options:
+      - Core
+      - Synthesis
+      - Flex
+    - label: Scheduling Priority
+      name: scheduling_priority
+      required: false
+      widget: select
+      options:
+      - Required
+      - Recommended
+      - Optional
+    - label: Title
+      name: title
+      widget: string
+    - label: Annual Anchor
+      name: annual_anchor
+      required: false
+      widget: string
+    - label: Thematic Unit
+      name: thematic_unit
+      required: false
+      widget: string
+  - label: Core
+    name: core
+    widget: object
+    collapsed: true
+    fields:
+    - label: Big Idea
+      name: big_idea
+      widget: text
+    - label: Passages
+      name: passages
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      summary: '{{fields.role}} - {{fields.reference}}'
+      fields:
+      - label: Reference
+        name: reference
+        widget: string
+      - label: Role
+        name: role
+        widget: select
+        options:
+        - primary
+        - supporting
+        - context
+        - comparison
+      - label: Reading Note
+        name: reading_note
+        required: false
+        widget: text
+    - label: Metanarrative Position
+      name: metanarrative_position
+      widget: string
+    - label: Biblical Genre
+      name: biblical_genre
+      widget: string
+    - label: Claims
+      name: claims
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 2
+      summary: '{{fields.claim_id}} - {{fields.statement}}'
+      fields:
+      - label: Claim ID
+        name: claim_id
+        widget: string
+        pattern:
+        - ^C[0-9]{2}$
+        - Claim ID has an invalid format
+      - label: Statement
+        name: statement
+        widget: text
+      - label: Classification
+        name: classification
+        widget: select
+        options:
+        - explicit_text
+        - canonical_synthesis
+        - strong_inference
+        - framework_position
+        - disputed
+        - historical_context
+        - prudential_judgment
+      - label: Evidence Refs
+        name: evidence_refs
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Evidence Ref
+          name: item
+          widget: string
+      - label: Confidence
+        name: confidence
+        widget: select
+        options:
+        - High
+        - Medium
+        - Low
+      - label: Review Status
+        name: review_status
+        widget: select
+        options:
+        - draft
+        - review_required
+        - approved
+      - label: Credible Alternative
+        name: credible_alternative
+        required: false
+        widget: text
+      - label: Interpretive Hinge
+        name: interpretive_hinge
+        required: false
+        widget: text
+      - label: Prohibited Overstatement
+        name: prohibited_overstatement
+        required: false
+        widget: text
+    - label: Doctrine Tags
+      name: doctrine_tags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Doctrine Tag
+        name: item
+        widget: string
+    - label: Formation Tags
+      name: formation_tags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Formation Tag
+        name: item
+        widget: string
+    - label: Interpretation Skill
+      name: interpretation_skill
+      required: false
+      widget: string
+    - label: Key Terms
+      name: key_terms
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Key Term
+        name: item
+        widget: string
+  - label: Learning
+    name: learning
+    widget: object
+    collapsed: true
+    fields:
+    - label: Foundation Objective
+      name: foundation_objective
+      widget: text
+    - label: Extension Objective
+      name: extension_objective
+      widget: text
+    - label: Know
+      name: know
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Understand
+      name: understand
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Practise
+      name: practise
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Become
+      name: become
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Success Evidence
+      name: success_evidence
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Item
+        name: item
+        widget: string
+  - label: Teacher
+    name: teacher
+    widget: object
+    collapsed: true
+    fields:
+    - label: Default Profile
+      name: default_profile
+      widget: select
+      options:
+      - essential
+      - standard
+      - extended
+    - label: Preparation Minutes
+      name: preparation_minutes
+      widget: number
+      value_type: int
+      min: 0
+      max: 90
+    - label: Zero Prep Card
+      name: zero_prep_card
+      widget: object
+      collapsed: true
+      fields:
+      - label: Objective
+        name: objective
+        widget: text
+      - label: Read
+        name: read
+        widget: text
+      - label: Opening
+        name: opening
+        widget: text
+      - label: Say
+        name: say
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 2
+        field:
+          label: Item
+          name: item
+          widget: text
+      - label: Ask
+        name: ask
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 2
+        field:
+          label: Item
+          name: item
+          widget: text
+      - label: Do
+        name: do
+        widget: text
+      - label: Close
+        name: close
+        widget: text
+      - label: Materials
+        name: materials
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Material
+          name: item
+          widget: string
+    - label: Preparation
+      name: preparation
+      widget: object
+      collapsed: true
+      fields:
+      - label: Passage Context
+        name: passage_context
+        widget: text
+      - label: Text Observations
+        name: text_observations
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 2
+        field:
+          label: Text Observation
+          name: item
+          widget: string
+      - label: Interpretation Notes
+        name: interpretation_notes
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Interpretation Note
+          name: item
+          widget: string
+      - label: Theological Guardrails
+        name: theological_guardrails
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Theological Guardrail
+          name: item
+          widget: string
+      - label: Likely Questions
+        name: likely_questions
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        summary: '{{fields.question_id}} - {{fields.question}}'
+        fields:
+        - label: Question ID
+          name: question_id
+          required: false
+          widget: string
+          pattern:
+          - ^Q[0-9]{2}$
+          - Question ID has an invalid format
+        - label: Question
+          name: question
+          widget: text
+        - label: Purpose
+          name: purpose
+          widget: text
+        - label: Foundation Prompt
+          name: foundation_prompt
+          required: false
+          widget: text
+        - label: Extension Prompt
+          name: extension_prompt
+          required: false
+          widget: text
+    - label: Discussion Questions
+      name: discussion_questions
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 3
+      summary: '{{fields.question_id}} - {{fields.question}}'
+      fields:
+      - label: Question ID
+        name: question_id
+        required: false
+        widget: string
+        pattern:
+        - ^Q[0-9]{2}$
+        - Question ID has an invalid format
+      - label: Question
+        name: question
+        widget: text
+      - label: Purpose
+        name: purpose
+        widget: text
+      - label: Foundation Prompt
+        name: foundation_prompt
+        required: false
+        widget: text
+      - label: Extension Prompt
+        name: extension_prompt
+        required: false
+        widget: text
+    - label: Activities
+      name: activities
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      summary: '{{fields.activity_id}} - {{fields.title}}'
+      fields:
+      - label: Activity ID
+        name: activity_id
+        widget: string
+        pattern:
+        - ^A[0-9]{2}$
+        - Activity ID has an invalid format
+      - label: Title
+        name: title
+        widget: string
+      - label: Duration Minutes
+        name: duration_minutes
+        widget: number
+        value_type: int
+        min: 1
+        max: 30
+      - label: Materials
+        name: materials
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Material
+          name: item
+          widget: string
+      - label: Steps
+        name: steps
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Step
+          name: item
+          widget: text
+      - label: Learning Link
+        name: learning_link
+        widget: text
+      - label: Low Resource Alternative
+        name: low_resource_alternative
+        required: false
+        widget: text
+    - label: Closing
+      name: closing
+      widget: object
+      collapsed: true
+      fields:
+      - label: Memory Reference
+        name: memory_reference
+        widget: string
+      - label: Prayer Prompt
+        name: prayer_prompt
+        widget: text
+      - label: Take Home Line
+        name: take_home_line
+        widget: text
+    - label: Printable Refs
+      name: printable_refs
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Printable Ref
+        name: item
+        widget: string
+    - label: Delivery Profiles
+      name: delivery_profiles
+      widget: object
+      collapsed: true
+      fields:
+      - label: Essential
+        name: essential
+        widget: object
+        collapsed: true
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Duration Minutes
+          name: duration_minutes
+          widget: select
+          options:
+          - 25
+          - 40
+          - 55
+        - label: Use Case
+          name: use_case
+          widget: text
+        - label: Outline
+          name: outline
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          min: 4
+          summary: '{{fields.step_id}} - {{fields.label}} ({{fields.minutes}} min)'
+          fields:
+          - label: Step ID
+            name: step_id
+            widget: string
+            pattern:
+            - ^[ESX][0-9]{2}$
+            - Step ID has an invalid format
+          - label: Minutes
+            name: minutes
+            widget: number
+            value_type: int
+            min: 1
+            max: 30
+          - label: Label
+            name: label
+            widget: string
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Question Refs
+            name: question_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Question Ref
+              name: item
+              widget: string
+          - label: Activity Refs
+            name: activity_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Activity Ref
+              name: item
+              widget: string
+          - label: Resource Refs
+            name: resource_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Resource Ref
+              name: item
+              widget: string
+      - label: Standard
+        name: standard
+        widget: object
+        collapsed: true
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Duration Minutes
+          name: duration_minutes
+          widget: select
+          options:
+          - 25
+          - 40
+          - 55
+        - label: Use Case
+          name: use_case
+          widget: text
+        - label: Outline
+          name: outline
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          min: 4
+          summary: '{{fields.step_id}} - {{fields.label}} ({{fields.minutes}} min)'
+          fields:
+          - label: Step ID
+            name: step_id
+            widget: string
+            pattern:
+            - ^[ESX][0-9]{2}$
+            - Step ID has an invalid format
+          - label: Minutes
+            name: minutes
+            widget: number
+            value_type: int
+            min: 1
+            max: 30
+          - label: Label
+            name: label
+            widget: string
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Question Refs
+            name: question_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Question Ref
+              name: item
+              widget: string
+          - label: Activity Refs
+            name: activity_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Activity Ref
+              name: item
+              widget: string
+          - label: Resource Refs
+            name: resource_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Resource Ref
+              name: item
+              widget: string
+      - label: Extended
+        name: extended
+        widget: object
+        collapsed: true
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Duration Minutes
+          name: duration_minutes
+          widget: select
+          options:
+          - 25
+          - 40
+          - 55
+        - label: Use Case
+          name: use_case
+          widget: text
+        - label: Outline
+          name: outline
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          min: 4
+          summary: '{{fields.step_id}} - {{fields.label}} ({{fields.minutes}} min)'
+          fields:
+          - label: Step ID
+            name: step_id
+            widget: string
+            pattern:
+            - ^[ESX][0-9]{2}$
+            - Step ID has an invalid format
+          - label: Minutes
+            name: minutes
+            widget: number
+            value_type: int
+            min: 1
+            max: 30
+          - label: Label
+            name: label
+            widget: string
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Question Refs
+            name: question_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Question Ref
+              name: item
+              widget: string
+          - label: Activity Refs
+            name: activity_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Activity Ref
+              name: item
+              widget: string
+          - label: Resource Refs
+            name: resource_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Resource Ref
+              name: item
+              widget: string
+  - label: Family
+    name: family
+    widget: object
+    collapsed: true
+    fields:
+    - label: Duration Minutes
+      name: duration_minutes
+      widget: hidden
+      default: 15
+    - label: Title
+      name: title
+      widget: string
+    - label: Parent Intro
+      name: parent_intro
+      widget: text
+    - label: Flow
+      name: flow
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 5
+      max: 5
+      summary: '{{fields.type}} - {{fields.duration_minutes}} min'
+      fields:
+      - label: Duration Minutes
+        name: duration_minutes
+        widget: number
+        value_type: int
+        min: 1
+        max: 10
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - connect
+        - read
+        - understand
+        - play
+        - respond
+      - label: Instructions
+        name: instructions
+        widget: text
+    - label: Questions
+      name: questions
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 2
+      field:
+        label: Question
+        name: item
+        widget: string
+    - label: Interactive
+      name: interactive
+      widget: object
+      collapsed: true
+      fields:
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - quiz
+        - puzzle
+        - discussion
+        - movement
+        - creative
+        - audit
+      - label: Title
+        name: title
+        widget: string
+      - label: Instructions
+        name: instructions
+        widget: text
+    - label: Weekly Action
+      name: weekly_action
+      widget: text
+    - label: Prayer
+      name: prayer
+      widget: text
+    - label: Parent Note
+      name: parent_note
+      widget: text
+  - label: Engagement
+    name: engagement
+    widget: object
+    collapsed: true
+    fields:
+    - label: Quiz
+      name: quiz
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 3
+      summary: '{{fields.question_id}} - {{fields.question}}'
+      fields:
+      - label: Question ID
+        name: question_id
+        widget: string
+      - label: Question
+        name: question
+        widget: text
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - multiple_choice
+        - true_false
+        - sequence
+        - scenario
+        - short_answer
+      - label: Options
+        name: options
+        required: false
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Option
+          name: item
+          widget: string
+      - label: Answer
+        name: answer
+        widget: object
+        collapsed: true
+        fields:
+        - label: Kind
+          name: kind
+          widget: select
+          options:
+          - text
+          - boolean
+          - ordered_list
+        - label: Text
+          name: text
+          required: false
+          widget: string
+        - label: Boolean
+          name: boolean
+          required: false
+          widget: boolean
+        - label: Items
+          name: items
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          field:
+            label: Item
+            name: item
+            widget: string
+      - label: Explanation
+        name: explanation
+        widget: text
+    - label: Puzzle
+      name: puzzle
+      widget: object
+      collapsed: true
+      fields:
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - sequence
+        - matching
+        - sort
+        - word_scramble
+        - case_grid
+      - label: Title
+        name: title
+        widget: string
+      - label: Instructions
+        name: instructions
+        widget: text
+      - label: Items
+        name: items
+        required: false
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Solution
+        name: solution
+        widget: object
+        collapsed: true
+        fields:
+        - label: Kind
+          name: kind
+          widget: select
+          options:
+          - text
+          - ordered_list
+          - pairs
+          - groups
+        - label: Text
+          name: text
+          required: false
+          widget: string
+        - label: Items
+          name: items
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          field:
+            label: Item
+            name: item
+            widget: string
+        - label: Pairs
+          name: pairs
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          summary: '{{fields.prompt}} -> {{fields.answer}}'
+          fields:
+          - label: Prompt
+            name: prompt
+            widget: string
+          - label: Answer
+            name: answer
+            widget: string
+        - label: Groups
+          name: groups
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          summary: '{{fields.label}}'
+          fields:
+          - label: Label
+            name: label
+            widget: string
+          - label: Items
+            name: items
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Item
+              name: item
+              widget: string
+      - label: Choices
+        name: choices
+        required: false
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Choice
+          name: item
+          widget: string
+    - label: Printables
+      name: printables
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      summary: '{{fields.resource_id}} - {{fields.title}}'
+      fields:
+      - label: Resource ID
+        name: resource_id
+        widget: string
+      - label: Title
+        name: title
+        widget: string
+      - label: Purpose
+        name: purpose
+        widget: text
+      - label: Format
+        name: format
+        widget: select
+        options:
+        - A4
+        - US Letter
+        - cards
+        - worksheet
+        - none
+      - label: Status
+        name: status
+        widget: select
+        options:
+        - placeholder
+        - content_source_draft
+        - ready
+  - label: Accessibility
+    name: accessibility
+    widget: object
+    collapsed: true
+    fields:
+    - label: Reading Level
+      name: reading_level
+      widget: text
+    - label: Plain Language Rule
+      name: plain_language_rule
+      widget: text
+    - label: Neurodiversity Supports
+      name: neurodiversity_supports
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Neurodiversity Support
+        name: item
+        widget: string
+    - label: Sensory Notes
+      name: sensory_notes
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Sensory Note
+        name: item
+        widget: string
+    - label: Non Reader Support
+      name: non_reader_support
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Item
+        name: item
+        widget: string
+  - label: Safeguarding
+    name: safeguarding
+    widget: object
+    collapsed: true
+    fields:
+    - label: Sensitivity Tags
+      name: sensitivity_tags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Sensitivity Tag
+        name: item
+        widget: string
+    - label: Do Not Ask
+      name: do_not_ask
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Teacher Response
+      name: teacher_response
+      widget: text
+    - label: Escalation Required
+      name: escalation_required
+      widget: boolean
+    - label: Escalation Note
+      name: escalation_note
+      required: false
+      widget: text
+  - label: Editorial
+    name: editorial
+    widget: object
+    collapsed: true
+    fields:
+    - label: Source Provenance
+      name: source_provenance
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: text
+    - label: Decision Register Refs
+      name: decision_register_refs
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Decision Register Ref
+        name: item
+        widget: string
+    - label: Review Flags
+      name: review_flags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Review Flag
+        name: item
+        widget: string
+    - label: Review State
+      name: review_state
+      widget: object
+      collapsed: true
+      fields:
+      - label: Exegetical
+        name: exegetical
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+        - not_required
+      - label: Developmental
+        name: developmental
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+        - not_required
+      - label: Pastoral
+        name: pastoral
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+        - not_required
+        - deferred_owner_managed
+      - label: Copy
+        name: copy
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+    - label: Scripture Text Policy
+      name: scripture_text_policy
+      widget: text
+    - label: Editor Notes
+      name: editor_notes
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Editor Note
+        name: item
+        widget: text
+- name: lessons_teens
+  label: Teens lessons
+  label_singular: Teens lesson
+  folder: src/content/lessons/teens
+  create: true
+  format: json
+  extension: json
+  identifier_field: lesson_id
+  slug: '{{fields.lesson_id}}'
+  summary: '{{lesson_id}} - {{status}}'
+  sortable_fields:
+  - lesson_id
+  - status
+  view_filters:
+  - label: In review
+    field: status
+    pattern: in_review
+  - label: Approved
+    field: status
+    pattern: approved
+  - label: Published
+    field: status
+    pattern: published
+  fields:
+  - label: Schema Version
+    name: schema_version
+    widget: hidden
+    default: 1.2.0
+  - label: Lesson ID
+    name: lesson_id
+    widget: string
+    pattern:
+    - ^[KYT][1-5]-L[0-9]{2}$
+    - Lesson ID has an invalid format
+    hint: Stable curriculum ID for Teens; do not change after creation.
+  - label: Content Version
+    name: content_version
+    widget: string
+    pattern:
+    - ^[0-9]+\.[0-9]+\.[0-9]+$
+    - Content Version has an invalid format
+    default: 0.1.0
+  - label: Status
+    name: status
+    widget: select
+    options:
+    - vertical_slice_draft
+    - in_review
+    - approved
+    - scheduled
+    - published
+    - retired
+    default: vertical_slice_draft
+  - label: Curriculum
+    name: curriculum
+    widget: object
+    collapsed: true
+    fields:
+    - label: Segment
+      name: segment
+      widget: hidden
+      default: Teens
+    - label: Age range
+      name: age_range
+      widget: hidden
+      default: 13-17
+    - label: Cycle ID
+      name: cycle_id
+      widget: select
+      options:
+      - T1
+      - T2
+      - T3
+      - T4
+      - T5
+    - label: Cycle Name
+      name: cycle_name
+      widget: string
+    - label: Sequence
+      name: sequence
+      widget: number
+      value_type: int
+      min: 1
+      max: 30
+    - label: Unit Type
+      name: unit_type
+      widget: select
+      options:
+      - Core
+      - Synthesis
+      - Flex
+    - label: Scheduling Priority
+      name: scheduling_priority
+      required: false
+      widget: select
+      options:
+      - Required
+      - Recommended
+      - Optional
+    - label: Title
+      name: title
+      widget: string
+    - label: Annual Anchor
+      name: annual_anchor
+      required: false
+      widget: string
+    - label: Thematic Unit
+      name: thematic_unit
+      required: false
+      widget: string
+  - label: Core
+    name: core
+    widget: object
+    collapsed: true
+    fields:
+    - label: Big Idea
+      name: big_idea
+      widget: text
+    - label: Passages
+      name: passages
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      summary: '{{fields.role}} - {{fields.reference}}'
+      fields:
+      - label: Reference
+        name: reference
+        widget: string
+      - label: Role
+        name: role
+        widget: select
+        options:
+        - primary
+        - supporting
+        - context
+        - comparison
+      - label: Reading Note
+        name: reading_note
+        required: false
+        widget: text
+    - label: Metanarrative Position
+      name: metanarrative_position
+      widget: string
+    - label: Biblical Genre
+      name: biblical_genre
+      widget: string
+    - label: Claims
+      name: claims
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 2
+      summary: '{{fields.claim_id}} - {{fields.statement}}'
+      fields:
+      - label: Claim ID
+        name: claim_id
+        widget: string
+        pattern:
+        - ^C[0-9]{2}$
+        - Claim ID has an invalid format
+      - label: Statement
+        name: statement
+        widget: text
+      - label: Classification
+        name: classification
+        widget: select
+        options:
+        - explicit_text
+        - canonical_synthesis
+        - strong_inference
+        - framework_position
+        - disputed
+        - historical_context
+        - prudential_judgment
+      - label: Evidence Refs
+        name: evidence_refs
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Evidence Ref
+          name: item
+          widget: string
+      - label: Confidence
+        name: confidence
+        widget: select
+        options:
+        - High
+        - Medium
+        - Low
+      - label: Review Status
+        name: review_status
+        widget: select
+        options:
+        - draft
+        - review_required
+        - approved
+      - label: Credible Alternative
+        name: credible_alternative
+        required: false
+        widget: text
+      - label: Interpretive Hinge
+        name: interpretive_hinge
+        required: false
+        widget: text
+      - label: Prohibited Overstatement
+        name: prohibited_overstatement
+        required: false
+        widget: text
+    - label: Doctrine Tags
+      name: doctrine_tags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Doctrine Tag
+        name: item
+        widget: string
+    - label: Formation Tags
+      name: formation_tags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Formation Tag
+        name: item
+        widget: string
+    - label: Interpretation Skill
+      name: interpretation_skill
+      required: false
+      widget: string
+    - label: Key Terms
+      name: key_terms
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Key Term
+        name: item
+        widget: string
+  - label: Learning
+    name: learning
+    widget: object
+    collapsed: true
+    fields:
+    - label: Foundation Objective
+      name: foundation_objective
+      widget: text
+    - label: Extension Objective
+      name: extension_objective
+      widget: text
+    - label: Know
+      name: know
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Understand
+      name: understand
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Practise
+      name: practise
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Become
+      name: become
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Success Evidence
+      name: success_evidence
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Item
+        name: item
+        widget: string
+  - label: Teacher
+    name: teacher
+    widget: object
+    collapsed: true
+    fields:
+    - label: Default Profile
+      name: default_profile
+      widget: select
+      options:
+      - essential
+      - standard
+      - extended
+    - label: Preparation Minutes
+      name: preparation_minutes
+      widget: number
+      value_type: int
+      min: 0
+      max: 90
+    - label: Zero Prep Card
+      name: zero_prep_card
+      widget: object
+      collapsed: true
+      fields:
+      - label: Objective
+        name: objective
+        widget: text
+      - label: Read
+        name: read
+        widget: text
+      - label: Opening
+        name: opening
+        widget: text
+      - label: Say
+        name: say
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 2
+        field:
+          label: Item
+          name: item
+          widget: text
+      - label: Ask
+        name: ask
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 2
+        field:
+          label: Item
+          name: item
+          widget: text
+      - label: Do
+        name: do
+        widget: text
+      - label: Close
+        name: close
+        widget: text
+      - label: Materials
+        name: materials
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Material
+          name: item
+          widget: string
+    - label: Preparation
+      name: preparation
+      widget: object
+      collapsed: true
+      fields:
+      - label: Passage Context
+        name: passage_context
+        widget: text
+      - label: Text Observations
+        name: text_observations
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 2
+        field:
+          label: Text Observation
+          name: item
+          widget: string
+      - label: Interpretation Notes
+        name: interpretation_notes
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Interpretation Note
+          name: item
+          widget: string
+      - label: Theological Guardrails
+        name: theological_guardrails
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Theological Guardrail
+          name: item
+          widget: string
+      - label: Likely Questions
+        name: likely_questions
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        summary: '{{fields.question_id}} - {{fields.question}}'
+        fields:
+        - label: Question ID
+          name: question_id
+          required: false
+          widget: string
+          pattern:
+          - ^Q[0-9]{2}$
+          - Question ID has an invalid format
+        - label: Question
+          name: question
+          widget: text
+        - label: Purpose
+          name: purpose
+          widget: text
+        - label: Foundation Prompt
+          name: foundation_prompt
+          required: false
+          widget: text
+        - label: Extension Prompt
+          name: extension_prompt
+          required: false
+          widget: text
+    - label: Discussion Questions
+      name: discussion_questions
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 3
+      summary: '{{fields.question_id}} - {{fields.question}}'
+      fields:
+      - label: Question ID
+        name: question_id
+        required: false
+        widget: string
+        pattern:
+        - ^Q[0-9]{2}$
+        - Question ID has an invalid format
+      - label: Question
+        name: question
+        widget: text
+      - label: Purpose
+        name: purpose
+        widget: text
+      - label: Foundation Prompt
+        name: foundation_prompt
+        required: false
+        widget: text
+      - label: Extension Prompt
+        name: extension_prompt
+        required: false
+        widget: text
+    - label: Activities
+      name: activities
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      summary: '{{fields.activity_id}} - {{fields.title}}'
+      fields:
+      - label: Activity ID
+        name: activity_id
+        widget: string
+        pattern:
+        - ^A[0-9]{2}$
+        - Activity ID has an invalid format
+      - label: Title
+        name: title
+        widget: string
+      - label: Duration Minutes
+        name: duration_minutes
+        widget: number
+        value_type: int
+        min: 1
+        max: 30
+      - label: Materials
+        name: materials
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Material
+          name: item
+          widget: string
+      - label: Steps
+        name: steps
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        min: 1
+        field:
+          label: Step
+          name: item
+          widget: text
+      - label: Learning Link
+        name: learning_link
+        widget: text
+      - label: Low Resource Alternative
+        name: low_resource_alternative
+        required: false
+        widget: text
+    - label: Closing
+      name: closing
+      widget: object
+      collapsed: true
+      fields:
+      - label: Memory Reference
+        name: memory_reference
+        widget: string
+      - label: Prayer Prompt
+        name: prayer_prompt
+        widget: text
+      - label: Take Home Line
+        name: take_home_line
+        widget: text
+    - label: Printable Refs
+      name: printable_refs
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Printable Ref
+        name: item
+        widget: string
+    - label: Delivery Profiles
+      name: delivery_profiles
+      widget: object
+      collapsed: true
+      fields:
+      - label: Essential
+        name: essential
+        widget: object
+        collapsed: true
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Duration Minutes
+          name: duration_minutes
+          widget: select
+          options:
+          - 25
+          - 40
+          - 55
+        - label: Use Case
+          name: use_case
+          widget: text
+        - label: Outline
+          name: outline
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          min: 4
+          summary: '{{fields.step_id}} - {{fields.label}} ({{fields.minutes}} min)'
+          fields:
+          - label: Step ID
+            name: step_id
+            widget: string
+            pattern:
+            - ^[ESX][0-9]{2}$
+            - Step ID has an invalid format
+          - label: Minutes
+            name: minutes
+            widget: number
+            value_type: int
+            min: 1
+            max: 30
+          - label: Label
+            name: label
+            widget: string
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Question Refs
+            name: question_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Question Ref
+              name: item
+              widget: string
+          - label: Activity Refs
+            name: activity_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Activity Ref
+              name: item
+              widget: string
+          - label: Resource Refs
+            name: resource_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Resource Ref
+              name: item
+              widget: string
+      - label: Standard
+        name: standard
+        widget: object
+        collapsed: true
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Duration Minutes
+          name: duration_minutes
+          widget: select
+          options:
+          - 25
+          - 40
+          - 55
+        - label: Use Case
+          name: use_case
+          widget: text
+        - label: Outline
+          name: outline
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          min: 4
+          summary: '{{fields.step_id}} - {{fields.label}} ({{fields.minutes}} min)'
+          fields:
+          - label: Step ID
+            name: step_id
+            widget: string
+            pattern:
+            - ^[ESX][0-9]{2}$
+            - Step ID has an invalid format
+          - label: Minutes
+            name: minutes
+            widget: number
+            value_type: int
+            min: 1
+            max: 30
+          - label: Label
+            name: label
+            widget: string
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Question Refs
+            name: question_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Question Ref
+              name: item
+              widget: string
+          - label: Activity Refs
+            name: activity_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Activity Ref
+              name: item
+              widget: string
+          - label: Resource Refs
+            name: resource_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Resource Ref
+              name: item
+              widget: string
+      - label: Extended
+        name: extended
+        widget: object
+        collapsed: true
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Duration Minutes
+          name: duration_minutes
+          widget: select
+          options:
+          - 25
+          - 40
+          - 55
+        - label: Use Case
+          name: use_case
+          widget: text
+        - label: Outline
+          name: outline
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          min: 4
+          summary: '{{fields.step_id}} - {{fields.label}} ({{fields.minutes}} min)'
+          fields:
+          - label: Step ID
+            name: step_id
+            widget: string
+            pattern:
+            - ^[ESX][0-9]{2}$
+            - Step ID has an invalid format
+          - label: Minutes
+            name: minutes
+            widget: number
+            value_type: int
+            min: 1
+            max: 30
+          - label: Label
+            name: label
+            widget: string
+          - label: Instructions
+            name: instructions
+            widget: text
+          - label: Question Refs
+            name: question_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Question Ref
+              name: item
+              widget: string
+          - label: Activity Refs
+            name: activity_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Activity Ref
+              name: item
+              widget: string
+          - label: Resource Refs
+            name: resource_refs
+            required: false
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Resource Ref
+              name: item
+              widget: string
+  - label: Family
+    name: family
+    widget: object
+    collapsed: true
+    fields:
+    - label: Duration Minutes
+      name: duration_minutes
+      widget: hidden
+      default: 15
+    - label: Title
+      name: title
+      widget: string
+    - label: Parent Intro
+      name: parent_intro
+      widget: text
+    - label: Flow
+      name: flow
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 5
+      max: 5
+      summary: '{{fields.type}} - {{fields.duration_minutes}} min'
+      fields:
+      - label: Duration Minutes
+        name: duration_minutes
+        widget: number
+        value_type: int
+        min: 1
+        max: 10
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - connect
+        - read
+        - understand
+        - play
+        - respond
+      - label: Instructions
+        name: instructions
+        widget: text
+    - label: Questions
+      name: questions
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 2
+      field:
+        label: Question
+        name: item
+        widget: string
+    - label: Interactive
+      name: interactive
+      widget: object
+      collapsed: true
+      fields:
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - quiz
+        - puzzle
+        - discussion
+        - movement
+        - creative
+        - audit
+      - label: Title
+        name: title
+        widget: string
+      - label: Instructions
+        name: instructions
+        widget: text
+    - label: Weekly Action
+      name: weekly_action
+      widget: text
+    - label: Prayer
+      name: prayer
+      widget: text
+    - label: Parent Note
+      name: parent_note
+      widget: text
+  - label: Engagement
+    name: engagement
+    widget: object
+    collapsed: true
+    fields:
+    - label: Quiz
+      name: quiz
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 3
+      summary: '{{fields.question_id}} - {{fields.question}}'
+      fields:
+      - label: Question ID
+        name: question_id
+        widget: string
+      - label: Question
+        name: question
+        widget: text
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - multiple_choice
+        - true_false
+        - sequence
+        - scenario
+        - short_answer
+      - label: Options
+        name: options
+        required: false
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Option
+          name: item
+          widget: string
+      - label: Answer
+        name: answer
+        widget: object
+        collapsed: true
+        fields:
+        - label: Kind
+          name: kind
+          widget: select
+          options:
+          - text
+          - boolean
+          - ordered_list
+        - label: Text
+          name: text
+          required: false
+          widget: string
+        - label: Boolean
+          name: boolean
+          required: false
+          widget: boolean
+        - label: Items
+          name: items
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          field:
+            label: Item
+            name: item
+            widget: string
+      - label: Explanation
+        name: explanation
+        widget: text
+    - label: Puzzle
+      name: puzzle
+      widget: object
+      collapsed: true
+      fields:
+      - label: Type
+        name: type
+        widget: select
+        options:
+        - sequence
+        - matching
+        - sort
+        - word_scramble
+        - case_grid
+      - label: Title
+        name: title
+        widget: string
+      - label: Instructions
+        name: instructions
+        widget: text
+      - label: Items
+        name: items
+        required: false
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Solution
+        name: solution
+        widget: object
+        collapsed: true
+        fields:
+        - label: Kind
+          name: kind
+          widget: select
+          options:
+          - text
+          - ordered_list
+          - pairs
+          - groups
+        - label: Text
+          name: text
+          required: false
+          widget: string
+        - label: Items
+          name: items
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          field:
+            label: Item
+            name: item
+            widget: string
+        - label: Pairs
+          name: pairs
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          summary: '{{fields.prompt}} -> {{fields.answer}}'
+          fields:
+          - label: Prompt
+            name: prompt
+            widget: string
+          - label: Answer
+            name: answer
+            widget: string
+        - label: Groups
+          name: groups
+          required: false
+          widget: list
+          collapsed: true
+          minimize_collapsed: true
+          summary: '{{fields.label}}'
+          fields:
+          - label: Label
+            name: label
+            widget: string
+          - label: Items
+            name: items
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            field:
+              label: Item
+              name: item
+              widget: string
+      - label: Choices
+        name: choices
+        required: false
+        widget: list
+        collapsed: true
+        minimize_collapsed: true
+        field:
+          label: Choice
+          name: item
+          widget: string
+    - label: Printables
+      name: printables
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      summary: '{{fields.resource_id}} - {{fields.title}}'
+      fields:
+      - label: Resource ID
+        name: resource_id
+        widget: string
+      - label: Title
+        name: title
+        widget: string
+      - label: Purpose
+        name: purpose
+        widget: text
+      - label: Format
+        name: format
+        widget: select
+        options:
+        - A4
+        - US Letter
+        - cards
+        - worksheet
+        - none
+      - label: Status
+        name: status
+        widget: select
+        options:
+        - placeholder
+        - content_source_draft
+        - ready
+  - label: Accessibility
+    name: accessibility
+    widget: object
+    collapsed: true
+    fields:
+    - label: Reading Level
+      name: reading_level
+      widget: text
+    - label: Plain Language Rule
+      name: plain_language_rule
+      widget: text
+    - label: Neurodiversity Supports
+      name: neurodiversity_supports
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Neurodiversity Support
+        name: item
+        widget: string
+    - label: Sensory Notes
+      name: sensory_notes
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Sensory Note
+        name: item
+        widget: string
+    - label: Non Reader Support
+      name: non_reader_support
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Item
+        name: item
+        widget: string
+  - label: Safeguarding
+    name: safeguarding
+    widget: object
+    collapsed: true
+    fields:
+    - label: Sensitivity Tags
+      name: sensitivity_tags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Sensitivity Tag
+        name: item
+        widget: string
+    - label: Do Not Ask
+      name: do_not_ask
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Teacher Response
+      name: teacher_response
+      widget: text
+    - label: Escalation Required
+      name: escalation_required
+      widget: boolean
+    - label: Escalation Note
+      name: escalation_note
+      required: false
+      widget: text
+  - label: Editorial
+    name: editorial
+    widget: object
+    collapsed: true
+    fields:
+    - label: Source Provenance
+      name: source_provenance
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      min: 1
+      field:
+        label: Item
+        name: item
+        widget: text
+    - label: Decision Register Refs
+      name: decision_register_refs
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Decision Register Ref
+        name: item
+        widget: string
+    - label: Review Flags
+      name: review_flags
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Review Flag
+        name: item
+        widget: string
+    - label: Review State
+      name: review_state
+      widget: object
+      collapsed: true
+      fields:
+      - label: Exegetical
+        name: exegetical
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+        - not_required
+      - label: Developmental
+        name: developmental
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+        - not_required
+      - label: Pastoral
+        name: pastoral
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+        - not_required
+        - deferred_owner_managed
+      - label: Copy
+        name: copy
+        widget: select
+        options:
+        - not_started
+        - in_review
+        - approved
+    - label: Scripture Text Policy
+      name: scripture_text_policy
+      widget: text
+    - label: Editor Notes
+      name: editor_notes
+      required: false
+      widget: list
+      collapsed: true
+      minimize_collapsed: true
+      field:
+        label: Editor Note
+        name: item
+        widget: text
+- name: schedule
+  label: Schedule entries
+  label_singular: Schedule entry
+  folder: src/content/schedule
+  create: true
+  format: json
+  extension: json
+  identifier_field: schedule_id
+  slug: '{{fields.date}}-{{fields.segment}}'
+  summary: '{{date}} - {{segment}} - {{entry_type}} - {{lesson_id}}'
+  fields:
+  - label: Schedule ID
+    name: schedule_id
+    widget: string
+    hint: Use YYYY-MM-DD-segment.
+  - label: Date
+    name: date
+    widget: datetime
+    date_format: YYYY-MM-DD
+    time_format: false
+    format: YYYY-MM-DD
+  - label: Segment
+    name: segment
+    widget: select
+    options:
+    - Kids
+    - Youths
+    - Teens
+  - label: Entry type
+    name: entry_type
+    widget: select
+    options:
+    - lesson
+    - break
+    - special
+  - label: Lesson ID
+    name: lesson_id
+    widget: string
+    required: false
+    hint: Required only when entry type is lesson.
+  - label: Title override
+    name: title_override
+    widget: string
+    required: false
+  - label: Message
+    name: message
+    widget: text
+    required: false
+  - label: Status
+    name: status
+    widget: select
+    options:
+    - draft
+    - approved
+    - cancelled
+    default: draft
+  - label: Notes
+    name: notes
+    widget: text
+    required: false
+- name: resources
+  label: Printable resources
+  label_singular: Printable resource
+  folder: src/content/resources
+  create: true
+  format: json
+  extension: json
+  identifier_field: resource_id
+  slug: '{{fields.resource_id}}'
+  summary: '{{resource_id}} - {{title}} - {{status}}'
+  fields:
+  - label: Resource ID
+    name: resource_id
+    widget: string
+  - label: Lesson ID
+    name: lesson_id
+    widget: string
+  - label: Title
+    name: title
+    widget: string
+  - label: Purpose
+    name: purpose
+    widget: text
+  - label: Format
+    name: format
+    widget: select
+    options:
+    - A4
+    - US Letter
+    - cards
+    - worksheet
+    - none
+  - label: Status
+    name: status
+    widget: select
+    options:
+    - placeholder
+    - content_source_draft
+    - ready
+  - label: Body
+    name: body_markdown
+    widget: text
+    hint: Markdown source used to render the printable.
+- name: settings
+  label: Settings
+  files:
+  - label: Site settings
+    name: site
+    file: src/content/settings/site.json
+    format: json
+    fields:
+    - label: Site name
+      name: site_name
+      widget: string
+    - label: Timezone
+      name: timezone
+      widget: string
+      default: Pacific/Auckland
+    - label: Default teacher profile
+      name: default_teacher_profile
+      widget: select
+      options:
+      - essential
+      - standard
+      - extended
+      default: standard
+    - label: Family duration minutes
+      name: family_duration_minutes
+      widget: number
+      value_type: int
+      default: 15
+    - label: Public teacher routes
+      name: public_teacher_routes
+      widget: boolean
+      default: true
+    - label: Show upcoming lessons
+      name: show_upcoming_lessons
+      widget: boolean
+      default: false

@@ -1,0 +1,639 @@
+{
+  "schema_version": "1.2.0",
+  "lesson_id": "K5-L13",
+  "content_version": "0.4.0",
+  "status": "vertical_slice_draft",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K5",
+    "cycle_name": "God's Family Lives the Story",
+    "sequence": 13,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Jesus Shares the Supper",
+    "annual_anchor": "jesus_lord_cross_resurrection",
+    "thematic_unit": "Remembering Jesus"
+  },
+  "core": {
+    "big_idea": "Jesus gave His followers a meal through which to remember Him.",
+    "passages": [
+      {
+        "reference": "Luke 22:14-23",
+        "role": "primary",
+        "reading_note": "Read selected verses. Keep the focus on what Jesus did and said."
+      },
+      {
+        "reference": "1 Corinthians 11:23-26",
+        "role": "supporting",
+        "reading_note": "Use for teacher background and an older-child extension on remembrance and proclamation."
+      }
+    ],
+    "metanarrative_position": "Jesus prepares His disciples for the cross and gives His church a meal through which to remember Him.",
+    "biblical_genre": "Gospel narrative with institution teaching",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Jesus shared the Passover meal with His apostles and took bread and a cup during the meal.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Luke 22:14-20"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Jesus connected the bread with His body and the cup with the new covenant in His blood, and He told His followers to remember Him.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Luke 22:19-20"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The Lord's Supper remembers and proclaims Jesus' death and points forward to His return.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Luke 22:19-20",
+          "1 Corinthians 11:23-26"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "This congregation uses unleavened bread and grape juice as its bread and fruit-of-the-vine elements.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Luke 22:7-20",
+          "Matthew 26:29",
+          "1 Corinthians 11:23-26"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "credible_alternative": "Other Christians use wine, leavened bread, or locally available equivalents.",
+        "interpretive_hinge": "The Passover setting, the Gospel phrase fruit of the vine, and the distinction between textual description and congregational practice.",
+        "prohibited_overstatement": "Do not tell children that the New Testament directly uses the term grape juice or turn the lesson into a debate over other congregations."
+      }
+    ],
+    "doctrine_tags": [
+      "christology",
+      "lord_supper",
+      "new_covenant"
+    ],
+    "formation_tags": [
+      "remembrance",
+      "gratitude",
+      "worship",
+      "unity"
+    ],
+    "interpretation_skill": "Retell the sequence, connect symbols to Jesus' own words, and avoid treating the elements as magic objects.",
+    "key_terms": [
+      "remember",
+      "bread",
+      "cup",
+      "body",
+      "blood",
+      "covenant"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell what Jesus did with the bread and cup and state that He gave His followers a meal through which to remember Him.",
+    "extension_objective": "Explain that the meal points to Jesus' coming death and that Christians continue to remember and proclaim Him.",
+    "know": [
+      "Jesus shared a final meal with His apostles before the cross.",
+      "Jesus used bread and a cup to help His followers remember Him."
+    ],
+    "understand": [
+      "The Lord's Supper is about Jesus and His completed sacrifice, not about an ordinary snack.",
+      "Remembering includes gratitude, attention, and living faithfully."
+    ],
+    "practise": [
+      "Place the meal actions in sequence.",
+      "Name one thing about Jesus for which to give thanks."
+    ],
+    "become": [
+      "A child who participates in congregational worship with growing attention, gratitude, and respect."
+    ],
+    "success_evidence": [
+      "The child places four meal events in order.",
+      "The child states that the meal helps Christians remember Jesus.",
+      "The child identifies the bread and cup without treating them as magical."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 12,
+    "zero_prep_card": {
+      "objective": "Children retell the meal and explain that Jesus gave His followers a way to remember Him.",
+      "read": "Luke 22:14-23",
+      "opening": "Show a safe everyday reminder, such as a calendar, photo, or note. Ask: What does this help someone remember?",
+      "say": [
+        "Jesus knew the cross was near, and He ate a special meal with His apostles.",
+        "He took bread and a cup and connected them to what He was about to do for them.",
+        "He told His followers to remember Him.",
+        "The church continues this meal with gratitude, respect, and hope."
+      ],
+      "ask": [
+        "Who was at the meal?",
+        "What two items did Jesus use?",
+        "What did Jesus want His followers to remember?",
+        "How can we show attention and gratitude during the Lord's Supper?"
+      ],
+      "do": "Put four meal cards in order, then match bread, cup, remember, and Jesus with their lesson meanings.",
+      "close": "Thank Jesus for giving Himself and ask for help to remember Him with gratitude.",
+      "materials": [
+        "Bible",
+        "Four sequence cards or blank paper",
+        "One ordinary reminder object"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Luke places the meal immediately before Jesus' betrayal, arrest, and crucifixion. The meal is rooted in Passover and interpreted by Jesus in relation to His approaching death and the new covenant.",
+      "text_observations": [
+        "Jesus deliberately shares the meal with the apostles and speaks about its future significance.",
+        "The bread and cup point beyond themselves to Jesus' body, blood, covenant, and sacrifice.",
+        "The command to remember directs attention to Jesus rather than to the food itself.",
+        "Luke also records betrayal and dispute in the same setting, showing that Jesus serves imperfect disciples."
+      ],
+      "interpretation_notes": [
+        "Keep the children's lesson on origin, meaning, gratitude, and worship participation.",
+        "Do not use the meal as a prop for speculative explanations of how Christ is present in the elements.",
+        "The weekly-frequency argument belongs in later Youth and Teen lessons, not in this Kids lesson."
+      ],
+      "theological_guardrails": [
+        "Do not describe the Lord's Supper as repeating Jesus' sacrifice.",
+        "Do not reduce it to a snack, magic ritual, or reward for being good.",
+        "Do not ask children publicly whether they participate or why they do not.",
+        "Do not stage a substitute congregational observance as a classroom game."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why do we have this meal at church?",
+          "purpose": "Connect Jesus' institution with present practice.",
+          "foundation_prompt": "Jesus gave it to His followers to remember Him.",
+          "extension_prompt": "Older children may note that Paul says the church proclaims Jesus' death and looks toward His return."
+        },
+        {
+          "question": "Why do we use bread and grape juice?",
+          "purpose": "Describe the congregation's practice without overclaiming.",
+          "foundation_prompt": "They are the items our congregation uses to follow Jesus' meal.",
+          "extension_prompt": "The Bible speaks of bread and fruit of the vine in a Passover setting; exact later practice requires careful inference."
+        },
+        {
+          "question": "Can I take the Lord's Supper?",
+          "purpose": "Avoid a public participation test.",
+          "foundation_prompt": "That is a private question for your parent or a trusted church leader.",
+          "extension_prompt": "This lesson teaches meaning; it does not determine individual participation in class."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Essential",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Show or name an ordinary object that helps someone remember an important person or event."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 7,
+            "label": "Read and retell",
+            "instructions": "Read Luke 22:14-23 and identify Jesus, the disciples, bread, cup, and remembrance.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Explain that Jesus gave His followers a meal through which to remember Him.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 7,
+            "label": "Do",
+            "instructions": "Order the meal sequence cards without pretending to conduct the Lord's Supper.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K5-L13-P01-meal-sequence"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and pray with gratitude for Jesus."
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 40,
+        "use_case": "Default Sunday session with reading, discussion, activity, and response.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Discuss how families and communities use signs or meals to remember."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 10,
+            "label": "Read",
+            "instructions": "Read Luke 22:14-23 and selected lines from 1 Corinthians 11:23-26."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 7,
+            "label": "Observe",
+            "instructions": "Identify what Jesus said and what Paul says the church proclaims.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Understand",
+            "instructions": "Connect remembrance, gratitude, proclamation, and hope without introducing adult disputes.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the sequence or symbol match.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K5-L13-P01-meal-sequence",
+              "K5-L13-P02-symbol-match"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Close",
+            "instructions": "Review, pray, and remind children to ask their family about the congregation's practice."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 55,
+        "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 5,
+            "label": "Connect",
+            "instructions": "Compare several safe examples of objects or meals used for remembrance."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 12,
+            "label": "Read in context",
+            "instructions": "Read Luke 22:14-23, briefly locate it before Jesus' arrest, and read 1 Corinthians 11:23-26."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 8,
+            "label": "Text observation",
+            "instructions": "List what is explicit: Jesus gave bread and cup, told His followers to remember, and connected the meal to His death."
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Meaning",
+            "instructions": "Discuss remembrance, proclamation, unity, self-examination at an age-appropriate level, and hope in Jesus' return.",
+            "question_refs": [
+              "Q01",
+              "Q02",
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 12,
+            "label": "Activities",
+            "instructions": "Use both the sequence cards and symbol match, making clear these are learning activities rather than a simulated observance.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K5-L13-P01-meal-sequence",
+              "K5-L13-P02-symbol-match"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Review",
+            "instructions": "Use the quiz to distinguish text, meaning, and local practice."
+          },
+          {
+            "step_id": "X07",
+            "minutes": 5,
+            "label": "Respond",
+            "instructions": "Invite gratitude and attentive participation in congregational worship without pressuring a child to take the elements."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What happened first, next, and last in the meal?",
+        "purpose": "Narrative sequence."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What did Jesus say the bread and cup were connected to?",
+        "purpose": "Text observation.",
+        "foundation_prompt": "His body and blood.",
+        "extension_prompt": "Connect to covenant and the approaching cross without technical atonement debate."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What is the difference between remembering Jesus and merely noticing food?",
+        "purpose": "Meaning and formation."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How can children participate respectfully while the church remembers Jesus?",
+        "purpose": "Age-appropriate worship participation."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Remembering Meal Sequence",
+        "duration_minutes": 10,
+        "materials": [
+          "Four sequence cards",
+          "Four meaning cards"
+        ],
+        "steps": [
+          "Place the meal sequence cards in order.",
+          "Match bread with body, cup with covenant blood, remember with Jesus, and hope with His return.",
+          "Retell the story using the cards.",
+          "Choose one quiet action that helps attention during congregational worship."
+        ],
+        "learning_link": "Makes the concrete sequence and Jesus-given meaning visible without simulating the observance.",
+        "low_resource_alternative": "Draw four simple symbols on a whiteboard and let children number them."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Luke 22:19",
+      "prayer_prompt": "Thank Jesus for giving Himself and ask for help to remember Him with gratitude and hope.",
+      "take_home_line": "Jesus gave His followers a meal to remember Him."
+    },
+    "printable_refs": [
+      "K5-L13-P01-meal-sequence",
+      "K5-L13-P02-symbol-match"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A Meal That Helps Us Remember Jesus",
+    "parent_intro": "This is a short study about the meaning of the Lord's Supper, not a substitute household observance or a test of participation.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Show one object that helps your household remember something important."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Luke 22:14-20 and listen for bread, cup, body, blood, covenant, and remember."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Explain in one sentence what Jesus wanted His followers to remember."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Put four meal events in order or match the four symbols to their meanings."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Name one reason to thank Jesus and pray together."
+      }
+    ],
+    "questions": [
+      "Why did Jesus give His followers this meal?",
+      "How can our family pay attention when the congregation remembers Jesus?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Bread, Cup, Remember, Hope",
+      "instructions": "Match each word to the lesson meaning and retell the meal in order."
+    },
+    "weekly_action": "Before the next assembly, choose one quiet sentence of thanks to think or pray during the Lord's Supper.",
+    "prayer": "Jesus, thank You for giving Yourself for us. Help us remember You with gratitude and hope.",
+    "parent_note": "Do not pressure a child to state whether they should participate. Handle participation questions privately within your congregation's pastoral practice."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Who shared the meal with Jesus?",
+        "type": "multiple_choice",
+        "options": [
+          "His apostles",
+          "Roman soldiers",
+          "A crowd at the sea"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "His apostles"
+        },
+        "explanation": "Luke places Jesus at the table with the apostles."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Which two items did Jesus use?",
+        "type": "multiple_choice",
+        "options": [
+          "Bread and a cup",
+          "Fish and water",
+          "Oil and salt"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Bread and a cup"
+        },
+        "explanation": "Jesus took bread and a cup during the meal."
+      },
+      {
+        "question_id": "Q3",
+        "question": "What was the meal meant to help followers do?",
+        "type": "multiple_choice",
+        "options": [
+          "Remember Jesus",
+          "Win a prize",
+          "Show who owns the most"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Remember Jesus"
+        },
+        "explanation": "Jesus directed the meal toward remembrance of Him."
+      },
+      {
+        "question_id": "Q4",
+        "question": "True or false: The Lord's Supper is merely an ordinary snack.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The bread and cup carry Jesus-given meaning connected to His sacrifice and covenant."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Symbol and Meaning",
+      "instructions": "Match each lesson word to its meaning.",
+      "items": [
+        "Bread",
+        "Cup",
+        "Remember",
+        "Hope"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Bread",
+            "answer": "Jesus' body"
+          },
+          {
+            "prompt": "Cup",
+            "answer": "New covenant in Jesus' blood"
+          },
+          {
+            "prompt": "Remember",
+            "answer": "Keep attention on Jesus"
+          },
+          {
+            "prompt": "Hope",
+            "answer": "Look toward His return"
+          }
+        ]
+      },
+      "choices": [
+        "Jesus' body",
+        "New covenant in Jesus' blood",
+        "Keep attention on Jesus",
+        "Look toward His return"
+      ]
+    },
+    "printables": [
+      {
+        "resource_id": "K5-L13-P01-meal-sequence",
+        "title": "Jesus Shares the Supper Sequence Cards",
+        "purpose": "Narrative sequencing without simulating the observance",
+        "format": "cards",
+        "status": "content_source_draft"
+      },
+      {
+        "resource_id": "K5-L13-P02-symbol-match",
+        "title": "Bread, Cup, Remember, Hope Match",
+        "purpose": "Connect concrete symbols with Jesus-given meaning",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Adult reads Scripture; child-facing language remains concrete and brief.",
+    "plain_language_rule": "Use remember, bread, cup, body, blood, promise, and Jesus before technical sacramental vocabulary.",
+    "neurodiversity_supports": [
+      "Show the complete visual sequence before asking for retelling.",
+      "Allow pointing or matching instead of speaking.",
+      "State clearly that no food tasting is required."
+    ],
+    "sensory_notes": [
+      "Do not require tasting, smelling, or handling food.",
+      "Offer nonverbal participation during discussion."
+    ],
+    "non_reader_support": [
+      "Use large icons for bread, cup, remembering, and hope.",
+      "Read every card aloud."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "religious participation",
+      "family practice"
+    ],
+    "do_not_ask": [
+      "Do not ask children publicly whether they take the Lord's Supper or why they do not.",
+      "Do not ask children to judge the practice of relatives or other congregations."
+    ],
+    "teacher_response": "Answer meaning questions from the passage. Route individual participation questions privately to parents or appointed church leaders.",
+    "escalation_required": false,
+    "escalation_note": ""
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3 - K5-L13: Jesus Shares the Supper",
+      "Theological Decision Register v0.3",
+      "Curriculum Research Adjudication v0.1",
+      "Uploaded double-pass curriculum research reports",
+      "Editorial synthesis for content-system validation"
+    ],
+    "decision_register_refs": [
+      "D006",
+      "D011",
+      "D012",
+      "D013",
+      "D019"
+    ],
+    "review_flags": [
+      "Elements wording and child participation language require exegetical and developmental review"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases in the prototype. Add licensed translation text only after permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "This is a vertical-slice draft designed to test schema, rendering, timing, resources, and review workflow rather than a final published lesson.",
+      "Teacher and Family experiences must render from this same canonical object.",
+      "All direct Bible quotations should be supplied from the approved translation only after licensing and attribution rules are confirmed.",
+      "Teacher timing is tested through Essential (25 minutes), Standard (40 minutes), and Extended (55 minutes) delivery profiles.",
+      "Schema 1.2 migration normalized interactive answer shapes for Decap CMS. No theological or pedagogical meaning changed."
+    ]
+  }
+}
