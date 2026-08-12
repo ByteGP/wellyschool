@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.local/schemas/lesson-content-v1.2.json",
+  "$id": "https://example.local/schemas/lesson-content-v1.2.1.json",
   "title": "Sunday School Canonical Lesson Content",
   "description": "CMS-neutral source object for Teacher and Family experiences rendered from one governed lesson. Version 1.2 normalizes quiz answers and puzzle solutions into typed objects so Git-based CMS editors do not need polymorphic fields.",
   "type": "object",
@@ -22,7 +22,7 @@
   ],
   "properties": {
     "schema_version": {
-      "const": "1.2.0"
+      "const": "1.2.1"
     },
     "lesson_id": {
       "type": "string",
@@ -1053,8 +1053,8 @@
         "duration_minutes": {
           "enum": [
             25,
-            40,
-            55
+            35,
+            45
           ]
         },
         "use_case": {

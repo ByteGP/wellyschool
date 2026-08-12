@@ -36,7 +36,7 @@ const defaultProfile = 'standard';
           data-profile-button={name}
           aria-pressed={name === defaultProfile ? 'true' : 'false'}
         >
-          {data.label} · {data.duration_minutes} min
+          {data.label} ({data.duration_minutes} min)
         </button>
       ))
     }
@@ -50,7 +50,6 @@ const defaultProfile = 'standard';
           <h3>
             {data.label} · {data.duration_minutes} minutes
           </h3>
-          <p class="lede">{data.use_case}</p>
           <OutlineList outline={data.outline} teacher={teacher} />
         </section>
       ) : (
@@ -59,7 +58,6 @@ const defaultProfile = 'standard';
             {data.label} · {data.duration_minutes} minutes
           </summary>
           <div class="section-body">
-            <p class="lede">{data.use_case}</p>
             <OutlineList outline={data.outline} teacher={teacher} />
           </div>
         </details>

@@ -109,7 +109,7 @@ for (const { file, value: lesson } of lessons) {
     ...lesson.teacher.preparation.likely_questions.map((q) => q.question_id).filter(Boolean),
   ]);
   const activities = new Set(lesson.teacher.activities.map((activity) => activity.activity_id));
-  const profileMinutes = { essential: 25, standard: 40, extended: 55 };
+  const profileMinutes = { essential: 25, standard: 35, extended: 45 };
   for (const [name, expected] of Object.entries(profileMinutes)) {
     const profile = lesson.teacher.delivery_profiles[name];
     const total = profile.outline.reduce((sum, step) => sum + step.minutes, 0);

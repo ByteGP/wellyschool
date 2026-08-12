@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.2.1",
   "lesson_id": "K1-L19",
-  "content_version": "0.4.0",
+  "content_version": "0.5.0",
   "status": "vertical_slice_draft",
   "curriculum": {
     "segment": "Kids",
@@ -171,7 +171,7 @@
     },
     "delivery_profiles": {
       "essential": {
-        "label": "Essential",
+        "label": "Short",
         "duration_minutes": 25,
         "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
         "outline": [
@@ -226,7 +226,7 @@
       },
       "standard": {
         "label": "Standard",
-        "duration_minutes": 40,
+        "duration_minutes": 35,
         "use_case": "Default Sunday session with reading, discussion, activity, and response.",
         "outline": [
           {
@@ -237,7 +237,7 @@
           },
           {
             "step_id": "S02",
-            "minutes": 9,
+            "minutes": 7,
             "label": "Read",
             "instructions": "Read Mark 4:35-41 with brief pauses for observation.",
             "question_refs": [
@@ -246,7 +246,7 @@
           },
           {
             "step_id": "S03",
-            "minutes": 7,
+            "minutes": 6,
             "label": "Observe",
             "instructions": "List what the disciples did, what Jesus did, and what the wind and sea did.",
             "question_refs": [
@@ -255,7 +255,7 @@
           },
           {
             "step_id": "S04",
-            "minutes": 7,
+            "minutes": 6,
             "label": "Discuss identity",
             "instructions": "Explore why the disciples asked who Jesus is and avoid promising a trouble-free life.",
             "question_refs": [
@@ -265,7 +265,7 @@
           },
           {
             "step_id": "S05",
-            "minutes": 9,
+            "minutes": 8,
             "label": "Activity",
             "instructions": "Order and act out the story events.",
             "activity_refs": [
@@ -285,18 +285,18 @@
       },
       "extended": {
         "label": "Extended",
-        "duration_minutes": 55,
+        "duration_minutes": 45,
         "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
         "outline": [
           {
             "step_id": "X01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Connect",
             "instructions": "Build a storm soundscape and establish classroom safety for discussing fear."
           },
           {
             "step_id": "X02",
-            "minutes": 10,
+            "minutes": 8,
             "label": "Dramatic reading",
             "instructions": "Read or retell the passage with assigned sound and movement roles.",
             "question_refs": [
@@ -305,7 +305,7 @@
           },
           {
             "step_id": "X03",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Text observation",
             "instructions": "Separate details stated in Mark from details the group imagined.",
             "question_refs": [
@@ -314,7 +314,7 @@
           },
           {
             "step_id": "X04",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Who is Jesus?",
             "instructions": "Discuss the disciples question and, for older children, note the canonical echo of God stilling storms without forcing technical terminology.",
             "question_refs": [
@@ -323,7 +323,7 @@
           },
           {
             "step_id": "X05",
-            "minutes": 12,
+            "minutes": 9,
             "label": "Sequence activity",
             "instructions": "Complete, explain, and repeat the story sequence.",
             "activity_refs": [
@@ -335,13 +335,13 @@
           },
           {
             "step_id": "X06",
-            "minutes": 7,
+            "minutes": 6,
             "label": "Review",
             "instructions": "Use the quiz and correct the false promise that Christians never face frightening situations."
           },
           {
             "step_id": "X07",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Respond",
             "instructions": "Practise naming prayer and trusted-adult support as safe responses to fear, then pray.",
             "question_refs": [

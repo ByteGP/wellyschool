@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.2.1",
   "lesson_id": "Y2-L12",
-  "content_version": "0.4.0",
+  "content_version": "0.5.0",
   "status": "vertical_slice_draft",
   "curriculum": {
     "segment": "Youths",
@@ -221,7 +221,7 @@
     },
     "delivery_profiles": {
       "essential": {
-        "label": "Essential",
+        "label": "Short",
         "duration_minutes": 25,
         "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
         "outline": [
@@ -275,18 +275,18 @@
       },
       "standard": {
         "label": "Standard",
-        "duration_minutes": 40,
+        "duration_minutes": 35,
         "use_case": "Default Sunday session with reading, discussion, activity, and response.",
         "outline": [
           {
             "step_id": "S01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Frame",
             "instructions": "Test the simple suffering-equals-personal-guilt formula."
           },
           {
             "step_id": "S02",
-            "minutes": 12,
+            "minutes": 11,
             "label": "Read",
             "instructions": "Read the selected passages and identify narrator, accuser, Job, friends, and God.",
             "question_refs": [
@@ -295,7 +295,7 @@
           },
           {
             "step_id": "S03",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Map speakers",
             "instructions": "Record each speaker's claim and whether the book endorses, corrects, or complicates it.",
             "question_refs": [
@@ -308,7 +308,7 @@
           },
           {
             "step_id": "S04",
-            "minutes": 10,
+            "minutes": 9,
             "label": "Response lab",
             "instructions": "Classify and improve responses to suffering.",
             "activity_refs": [
@@ -320,7 +320,7 @@
           },
           {
             "step_id": "S05",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Respond",
             "instructions": "Pray for wisdom and compassionate presence without demanding private disclosure.",
             "question_refs": [
@@ -332,18 +332,18 @@
       },
       "extended": {
         "label": "Extended",
-        "duration_minutes": 55,
+        "duration_minutes": 45,
         "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
         "outline": [
           {
             "step_id": "X01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Frame the wisdom question",
             "instructions": "Distinguish a proverb-like general pattern from a guaranteed formula."
           },
           {
             "step_id": "X02",
-            "minutes": 15,
+            "minutes": 12,
             "label": "Read and annotate",
             "instructions": "Read the selected passages and annotate speaker, claim, evidence, and evaluation.",
             "question_refs": [
@@ -353,7 +353,7 @@
           },
           {
             "step_id": "X03",
-            "minutes": 10,
+            "minutes": 8,
             "label": "Speaker map",
             "instructions": "Use the speaker map to see why quotation alone does not establish endorsement.",
             "resource_refs": [
@@ -365,7 +365,7 @@
           },
           {
             "step_id": "X04",
-            "minutes": 12,
+            "minutes": 10,
             "label": "Compassion case lab",
             "instructions": "Sort responses, rewrite harmful claims, and explain why certainty about another person's suffering can injure.",
             "activity_refs": [
@@ -377,7 +377,7 @@
           },
           {
             "step_id": "X05",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Synthesis",
             "instructions": "State what Job teaches clearly and what it leaves unresolved.",
             "question_refs": [
@@ -387,7 +387,7 @@
           },
           {
             "step_id": "X06",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Respond",
             "instructions": "Write a brief prayer or practical offer of help that does not diagnose someone's private life."
           }

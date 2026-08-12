@@ -8,7 +8,7 @@
  * CMS-neutral source object for Teacher and Family experiences rendered from one governed lesson. Version 1.2 normalizes quiz answers and puzzle solutions into typed objects so Git-based CMS editors do not need polymorphic fields.
  */
 export interface SundaySchoolCanonicalLessonContent {
-  schema_version: "1.2.0";
+  schema_version: "1.2.1";
   lesson_id: string;
   content_version: string;
   status: "vertical_slice_draft" | "in_review" | "approved" | "scheduled" | "published" | "retired";
@@ -174,7 +174,7 @@ export interface Activity {
 }
 export interface DeliveryProfile {
   label: string;
-  duration_minutes: 25 | 40 | 55;
+  duration_minutes: 25 | 35 | 45;
   use_case: string;
   /**
    * @minItems 4

@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.2.1",
   "lesson_id": "Y4-L20",
-  "content_version": "0.4.0",
+  "content_version": "0.5.0",
   "status": "vertical_slice_draft",
   "curriculum": {
     "segment": "Youths",
@@ -229,7 +229,7 @@
     },
     "delivery_profiles": {
       "essential": {
-        "label": "Essential",
+        "label": "Short",
         "duration_minutes": 25,
         "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
         "outline": [
@@ -282,18 +282,18 @@
       },
       "standard": {
         "label": "Standard",
-        "duration_minutes": 40,
+        "duration_minutes": 35,
         "use_case": "Default Sunday session with reading, discussion, activity, and response.",
         "outline": [
           {
             "step_id": "S01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Logic warm-up",
             "instructions": "Distinguish direct wording, reported practice, and inferred conclusion."
           },
           {
             "step_id": "S02",
-            "minutes": 10,
+            "minutes": 9,
             "label": "Read and observe",
             "instructions": "Read the two passages and list only what each text explicitly states.",
             "question_refs": [
@@ -302,7 +302,7 @@
           },
           {
             "step_id": "S03",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Define the method",
             "instructions": "Explain command, approved example, necessary inference, and the need for context and canonical coherence.",
             "question_refs": [
@@ -312,7 +312,7 @@
           },
           {
             "step_id": "S04",
-            "minutes": 12,
+            "minutes": 11,
             "label": "Card sort",
             "instructions": "Classify statements and test whether proposed inferences are necessary, possible, or invalid.",
             "activity_refs": [
@@ -328,7 +328,7 @@
           },
           {
             "step_id": "S05",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Reflect",
             "instructions": "Identify one overstatement and rewrite it with an accurate evidence label.",
             "question_refs": [
@@ -339,18 +339,18 @@
       },
       "extended": {
         "label": "Extended",
-        "duration_minutes": 55,
+        "duration_minutes": 45,
         "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
         "outline": [
           {
             "step_id": "X01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Logic warm-up",
             "instructions": "Use an everyday example to distinguish observation from conclusion."
           },
           {
             "step_id": "X02",
-            "minutes": 12,
+            "minutes": 10,
             "label": "Read in context",
             "instructions": "Read Acts 20 and 1 Corinthians 16 around the cited verses, noting genre and occasion.",
             "question_refs": [
@@ -359,7 +359,7 @@
           },
           {
             "step_id": "X03",
-            "minutes": 10,
+            "minutes": 8,
             "label": "Method and limits",
             "instructions": "Define the three traditional categories and explain why genre, context, and canonical coherence prevent mechanical use.",
             "question_refs": [
@@ -369,7 +369,7 @@
           },
           {
             "step_id": "X04",
-            "minutes": 15,
+            "minutes": 12,
             "label": "Evidence lab",
             "instructions": "Complete both the label-card sort and inference-strength worksheet.",
             "activity_refs": [
@@ -385,7 +385,7 @@
           },
           {
             "step_id": "X05",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Overstatement repair",
             "instructions": "Rewrite claims that confuse explicit command, inference, and tradition.",
             "question_refs": [
@@ -394,7 +394,7 @@
           },
           {
             "step_id": "X06",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Respond",
             "instructions": "Commit to saying both what the text states and how the congregation reasons from it."
           }

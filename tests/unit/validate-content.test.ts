@@ -70,7 +70,7 @@ describe('validate-content.mjs', () => {
     });
     const result = runValidator(dir);
     expect(result.ok).toBe(false);
-    expect(result.output).toContain('standard profile must total 40 minutes');
+    expect(result.output).toContain('standard profile must total 35 minutes');
   });
 
   it('fails when the family flow order is altered', () => {

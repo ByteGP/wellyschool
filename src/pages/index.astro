@@ -6,25 +6,36 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   title="Welcome"
   description="Sunday School lessons for teachers and parents: teacher notes for each class, and a 15-minute family devotional to reinforce the learning at home."
 >
-  <h1>Sunday School Lessons | Teachers and Parents</h1>
-  <p class="lede">
-    Teacher notes for each class, and a 15-minute parent and family devotional to reinforce the
-    learning at home.
-  </p>
+  <div class="hero">
+    <p class="hero-badge">Welly Church Kids</p>
+    <h1>Sunday School Lessons | Teachers and Parents</h1>
+    <p class="lede">
+      Teacher notes for each class, and a 15-minute parent and family devotional to reinforce the
+      learning at home.
+    </p>
+  </div>
+
+  <p class="eyebrow">Choose your path</p>
   <ul class="choice-list">
     <li>
       <a href="/teacher/">
-        <span class="choice-title">I'm teaching on Sunday</span>
-        <span class="choice-hint">
-          Lesson notes and timed outlines for 25, 40, or 55 minutes, with printables.
+        <span class="icon-tile" aria-hidden="true">📖</span>
+        <span class="choice-body">
+          <span class="choice-title">I'm teaching on Sunday</span>
+          <span class="choice-hint">
+            Lesson notes and timed outlines for 25, 35, or 45 minutes, with printables.
+          </span>
         </span>
       </a>
     </li>
     <li>
       <a href="/family/">
-        <span class="choice-title">I'm a parent</span>
-        <span class="choice-hint">
-          A guided 15-minute devotional to reinforce this week's lesson at home.
+        <span class="icon-tile" aria-hidden="true">🏠</span>
+        <span class="choice-body">
+          <span class="choice-title">I'm a parent</span>
+          <span class="choice-hint">
+            A guided 15-minute devotional to reinforce this week's lesson at home.
+          </span>
         </span>
       </a>
     </li>

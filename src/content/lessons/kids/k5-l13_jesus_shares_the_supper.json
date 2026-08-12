@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.2.1",
   "lesson_id": "K5-L13",
-  "content_version": "0.4.0",
+  "content_version": "0.5.0",
   "status": "vertical_slice_draft",
   "curriculum": {
     "segment": "Kids",
@@ -193,7 +193,7 @@
     },
     "delivery_profiles": {
       "essential": {
-        "label": "Essential",
+        "label": "Short",
         "duration_minutes": 25,
         "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
         "outline": [
@@ -244,7 +244,7 @@
       },
       "standard": {
         "label": "Standard",
-        "duration_minutes": 40,
+        "duration_minutes": 35,
         "use_case": "Default Sunday session with reading, discussion, activity, and response.",
         "outline": [
           {
@@ -255,13 +255,13 @@
           },
           {
             "step_id": "S02",
-            "minutes": 10,
+            "minutes": 8,
             "label": "Read",
             "instructions": "Read Luke 22:14-23 and selected lines from 1 Corinthians 11:23-26."
           },
           {
             "step_id": "S03",
-            "minutes": 7,
+            "minutes": 6,
             "label": "Observe",
             "instructions": "Identify what Jesus said and what Paul says the church proclaims.",
             "question_refs": [
@@ -271,7 +271,7 @@
           },
           {
             "step_id": "S04",
-            "minutes": 7,
+            "minutes": 6,
             "label": "Understand",
             "instructions": "Connect remembrance, gratitude, proclamation, and hope without introducing adult disputes.",
             "question_refs": [
@@ -281,7 +281,7 @@
           },
           {
             "step_id": "S05",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Activity",
             "instructions": "Complete the sequence or symbol match.",
             "activity_refs": [
@@ -302,30 +302,30 @@
       },
       "extended": {
         "label": "Extended",
-        "duration_minutes": 55,
+        "duration_minutes": 45,
         "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
         "outline": [
           {
             "step_id": "X01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Connect",
             "instructions": "Compare several safe examples of objects or meals used for remembrance."
           },
           {
             "step_id": "X02",
-            "minutes": 12,
+            "minutes": 9,
             "label": "Read in context",
             "instructions": "Read Luke 22:14-23, briefly locate it before Jesus' arrest, and read 1 Corinthians 11:23-26."
           },
           {
             "step_id": "X03",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Text observation",
             "instructions": "List what is explicit: Jesus gave bread and cup, told His followers to remember, and connected the meal to His death."
           },
           {
             "step_id": "X04",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Meaning",
             "instructions": "Discuss remembrance, proclamation, unity, self-examination at an age-appropriate level, and hope in Jesus' return.",
             "question_refs": [
@@ -337,7 +337,7 @@
           },
           {
             "step_id": "X05",
-            "minutes": 12,
+            "minutes": 10,
             "label": "Activities",
             "instructions": "Use both the sequence cards and symbol match, making clear these are learning activities rather than a simulated observance.",
             "activity_refs": [
@@ -350,13 +350,13 @@
           },
           {
             "step_id": "X06",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Review",
             "instructions": "Use the quiz to distinguish text, meaning, and local practice."
           },
           {
             "step_id": "X07",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Respond",
             "instructions": "Invite gratitude and attentive participation in congregational worship without pressuring a child to take the elements."
           }

@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.2.1",
   "lesson_id": "T4-L22",
-  "content_version": "0.4.0",
+  "content_version": "0.5.0",
   "status": "vertical_slice_draft",
   "curriculum": {
     "segment": "Teens",
@@ -218,7 +218,7 @@
     },
     "delivery_profiles": {
       "essential": {
-        "label": "Essential",
+        "label": "Short",
         "duration_minutes": 25,
         "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
         "outline": [
@@ -269,18 +269,18 @@
       },
       "standard": {
         "label": "Standard",
-        "duration_minutes": 40,
+        "duration_minutes": 35,
         "use_case": "Default Sunday session with reading, discussion, activity, and response.",
         "outline": [
           {
             "step_id": "S01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Frame",
             "instructions": "Distinguish a tool's capability from the incentives and habits surrounding its use."
           },
           {
             "step_id": "S02",
-            "minutes": 10,
+            "minutes": 9,
             "label": "Read",
             "instructions": "Read the selected passages and derive principles without pretending they directly name modern platforms or AI.",
             "question_refs": [
@@ -290,7 +290,7 @@
           },
           {
             "step_id": "S03",
-            "minutes": 7,
+            "minutes": 6,
             "label": "Build the grid",
             "instructions": "Apply truth, neighbour-love, stewardship, and accountability to digital choices.",
             "question_refs": [
@@ -299,7 +299,7 @@
           },
           {
             "step_id": "S04",
-            "minutes": 13,
+            "minutes": 12,
             "label": "Case lab",
             "instructions": "Analyse several cases involving recommendations, synthetic media, private data, and AI-assisted work.",
             "activity_refs": [
@@ -316,7 +316,7 @@
           },
           {
             "step_id": "S05",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Commit",
             "instructions": "Draft one prudential practice and explain which biblical principles support it."
           }
@@ -324,18 +324,18 @@
       },
       "extended": {
         "label": "Extended",
-        "duration_minutes": 55,
+        "duration_minutes": 45,
         "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
         "outline": [
           {
             "step_id": "X01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Frame the system",
             "instructions": "Map users, platforms, advertisers, creators, models, data, and incentives in a digital system."
           },
           {
             "step_id": "X02",
-            "minutes": 12,
+            "minutes": 10,
             "label": "Read and derive",
             "instructions": "Read the passages, name explicit teachings, and derive principles with evidence labels.",
             "question_refs": [
@@ -345,7 +345,7 @@
           },
           {
             "step_id": "X03",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Ethical grid",
             "instructions": "Define truth, love, stewardship, and accountability, including disclosure when AI materially contributes.",
             "question_refs": [
@@ -354,7 +354,7 @@
           },
           {
             "step_id": "X04",
-            "minutes": 18,
+            "minutes": 14,
             "label": "Case lab",
             "instructions": "Use both printable resources to evaluate multiple scenarios, competing goods, and unintended consequences.",
             "activity_refs": [
@@ -371,13 +371,13 @@
           },
           {
             "step_id": "X05",
-            "minutes": 7,
+            "minutes": 6,
             "label": "Policy versus wisdom",
             "instructions": "Separate direct moral boundaries from household, school, workplace, or congregational prudential rules."
           },
           {
             "step_id": "X06",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Commit",
             "instructions": "Write one personal or group practice, its rationale, and how it can be reviewed without surveillance or forced disclosure."
           }

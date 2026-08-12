@@ -1,0 +1,9 @@
+{
+  "schedule_id": "2026-10-04-youths",
+  "date": "2026-10-04",
+  "segment": "Youths",
+  "entry_type": "break",
+  "status": "draft",
+  "notes": "Placeholder pilot schedule aligned to Wellington school terms (Term 3 ends 25 Sep, Term 4 starts 12 Oct 2026). Replace via Decap as more lessons are approved (ADR-011).",
+  "message": "School holidays: no Sunday School classes this week. Classes run during Wellington school terms and start again on Sunday 18 October."
+}

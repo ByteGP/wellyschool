@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.2.1",
   "lesson_id": "T3-L18",
-  "content_version": "0.4.0",
+  "content_version": "0.5.0",
   "status": "vertical_slice_draft",
   "curriculum": {
     "segment": "Teens",
@@ -241,7 +241,7 @@
     },
     "delivery_profiles": {
       "essential": {
-        "label": "Essential",
+        "label": "Short",
         "duration_minutes": 25,
         "use_case": "Minimum viable lesson for a teacher with little preparation time or a shortened class.",
         "outline": [
@@ -292,18 +292,18 @@
       },
       "standard": {
         "label": "Standard",
-        "duration_minutes": 40,
+        "duration_minutes": 35,
         "use_case": "Default Sunday session with reading, discussion, activity, and response.",
         "outline": [
           {
             "step_id": "S01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Frame",
             "instructions": "Define the claim, burden of proof, and evidence classifications."
           },
           {
             "step_id": "S02",
-            "minutes": 10,
+            "minutes": 9,
             "label": "Text observations",
             "instructions": "Read both passages and record what each directly states.",
             "question_refs": [
@@ -313,7 +313,7 @@
           },
           {
             "step_id": "S03",
-            "minutes": 8,
+            "minutes": 7,
             "label": "Build the framework case",
             "instructions": "Combine the Supper's meaning, first-day assembly evidence, recurring first-day language, and pattern reasoning.",
             "question_refs": [
@@ -322,7 +322,7 @@
           },
           {
             "step_id": "S04",
-            "minutes": 12,
+            "minutes": 11,
             "label": "Steelman and test",
             "instructions": "Compare the weekly and flexible-frequency views and test the interpretive hinge.",
             "activity_refs": [
@@ -339,7 +339,7 @@
           },
           {
             "step_id": "S05",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Conclude and respond",
             "instructions": "Practise stating conviction with accuracy, humility, and no fellowship-boundary judgment."
           }
@@ -347,18 +347,18 @@
       },
       "extended": {
         "label": "Extended",
-        "duration_minutes": 55,
+        "duration_minutes": 45,
         "use_case": "Longer session with additional textual work, activity, comparison, or assessment.",
         "outline": [
           {
             "step_id": "X01",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Frame and define",
             "instructions": "Distinguish meaning, day, and frequency as separate questions."
           },
           {
             "step_id": "X02",
-            "minutes": 14,
+            "minutes": 11,
             "label": "Close reading",
             "instructions": "Read Acts 20:7 and 1 Corinthians 16:1-2 in context, noting narrative and epistolary differences.",
             "question_refs": [
@@ -368,7 +368,7 @@
           },
           {
             "step_id": "X03",
-            "minutes": 10,
+            "minutes": 8,
             "label": "Cumulative case",
             "instructions": "Build the strongest weekly-practice argument without using Acts 20:7 as a direct command.",
             "question_refs": [
@@ -377,7 +377,7 @@
           },
           {
             "step_id": "X04",
-            "minutes": 15,
+            "minutes": 13,
             "label": "Comparison lab",
             "instructions": "Complete the argument map and view comparison, then identify where each view places the burden of proof.",
             "activity_refs": [
@@ -394,13 +394,13 @@
           },
           {
             "step_id": "X05",
-            "minutes": 6,
+            "minutes": 5,
             "label": "Overstatement repair",
             "instructions": "Rewrite common claims so text, inference, framework position, and uncertainty are labelled correctly."
           },
           {
             "step_id": "X06",
-            "minutes": 5,
+            "minutes": 4,
             "label": "Respond",
             "instructions": "State the adopted practice and explain why conviction does not require caricaturing other Christians."
           }

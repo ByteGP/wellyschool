@@ -1,5 +1,5 @@
 ---
-// Segment chooser shared by the Teacher and Family hubs. Remembers the last
+// Segment chooser shared by the Teachers and Parents hubs. Remembers the last
 // chosen segment locally and offers a shortcut back to it.
 import { SEGMENT_AGE_RANGES, SEGMENTS, slugFromSegment } from '../../lib/content/segments';
 
@@ -8,6 +8,12 @@ interface Props {
 }
 
 const { role } = Astro.props;
+
+const SEGMENT_ICONS: Record<string, string> = {
+  Kids: '🧸',
+  Youths: '🎒',
+  Teens: '💬',
+};
 ---
 
 <div class="notice" data-segment-continue hidden>
@@ -21,8 +27,13 @@ const { role } = Astro.props;
     SEGMENTS.map((segment) => (
       <li>
         <a href={`/${role}/${slugFromSegment(segment)}/`}>
-          <span class="choice-title">{segment}</span>
-          <span class="choice-hint">{SEGMENT_AGE_RANGES[segment]}</span>
+          <span class="icon-tile" aria-hidden="true">
+            {SEGMENT_ICONS[segment]}
+          </span>
+          <span class="choice-body">
+            <span class="choice-title">{segment}</span>
+            <span class="choice-hint">{SEGMENT_AGE_RANGES[segment]}</span>
+          </span>
         </a>
       </li>
     ))

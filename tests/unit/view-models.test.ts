@@ -14,7 +14,7 @@ describe('toTeacherViewModel', () => {
     expect(vm.lessonId).toBe('K1-L19');
     expect(vm.bigIdea).toContain('authority');
     expect(vm.teacher.zero_prep_card.read).toBe('Mark 4:35-41');
-    expect(vm.teacher.delivery_profiles.standard.duration_minutes).toBe(40);
+    expect(vm.teacher.delivery_profiles.standard.duration_minutes).toBe(35);
     expect(vm.safeguarding.do_not_ask.length).toBeGreaterThan(0);
     expect(vm.accessibility.neurodiversity_supports.length).toBeGreaterThan(0);
   });

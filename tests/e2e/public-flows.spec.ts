@@ -1,7 +1,10 @@
 import { expect, test } from '@playwright/test';
 
-// The placeholder schedule (draft, preview mode) contains for every segment:
-//   2026-08-16 lesson, 2026-08-23 lesson, 2026-08-30 break, 2026-09-06 special.
+// The placeholder schedule (draft, preview mode) follows Wellington school
+// terms. Every segment has: 2026-08-16 lesson, 2026-08-23 lesson, then break
+// entries on the term-holiday Sundays 2026-09-27, 2026-10-04, and 2026-10-11
+// (Term 3 ends 25 Sep; Term 4 starts 12 Oct). Father's Day (6 Sep) is inside
+// Term 3, so it is a normal class day with no special entry.
 // The ?today= override only works in preview builds (ADR-011).
 
 test.describe('landing and navigation', () => {
@@ -30,13 +33,20 @@ test.describe('teacher current-entry selection (Pacific/Auckland)', () => {
     await expect(page.locator('[data-entry-card="2026-08-23-kids"]')).toBeHidden();
   });
 
-  test('break week shows the break message and next lesson date', async ({ page }) => {
-    await page.goto('/teacher/teens/?today=2026-08-25');
-    const card = page.locator('[data-entry-card="2026-08-30-teens"]');
+  test('term-holiday week shows the break message', async ({ page }) => {
+    await page.goto('/teacher/teens/?today=2026-09-22');
+    const card = page.locator('[data-entry-card="2026-09-27-teens"]');
     await expect(card).toBeVisible();
-    await expect(card).toContainText('school holidays');
-    // Next lesson after the break in the placeholder schedule does not exist
-    // (the special service is not a lesson), so no false promise is shown.
+    await expect(card).toContainText('School holidays');
+  });
+
+  test("Father's Day falls in term time, so no break interrupts the schedule", async ({
+    page,
+  }) => {
+    await page.goto('/teacher/kids/?today=2026-09-06');
+    await expect(page.locator('[data-entry-card="2026-09-06-kids"]')).toHaveCount(0);
+    // The next scheduled entry is simply the next term-break Sunday.
+    await expect(page.locator('[data-entry-card="2026-09-27-kids"]')).toBeVisible();
   });
 
   test('without JavaScript the schedule list is still usable', async ({ browser }) => {
@@ -57,13 +67,13 @@ test.describe('family current-entry selection', () => {
     await expect(card.getByRole('link', { name: /Start the 15-minute devotional/ })).toBeVisible();
   });
 
-  test('break week shows break message and a link to review the previous lesson', async ({
+  test('term-holiday week shows break message and a link to review the previous lesson', async ({
     page,
   }) => {
-    await page.goto('/family/kids/?today=2026-09-01');
-    const card = page.locator('[data-entry-card="2026-08-30-kids"]');
+    await page.goto('/family/kids/?today=2026-09-29');
+    const card = page.locator('[data-entry-card="2026-09-27-kids"]');
     await expect(card).toBeVisible();
-    await expect(card).toContainText('school holidays');
+    await expect(card).toContainText('School holidays');
     await expect(card.getByRole('link', { name: 'Review the previous lesson' })).toBeVisible();
   });
 
@@ -96,13 +106,15 @@ test.describe('teacher lesson page', () => {
   test('profile switching changes the outline and persists locally', async ({ page }) => {
     await page.goto('/teacher/kids/k1-l19/');
     // Standard outline visible by default.
-    await expect(page.getByRole('heading', { name: /Standard · 40 minutes/ })).toBeVisible();
-    await page.getByRole('button', { name: /Essential · 25 min/ }).click();
-    await expect(page.getByText('Minimum viable lesson', { exact: false })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Standard · 35 minutes/ })).toBeVisible();
+    await page.getByRole('button', { name: /Short \(25 min\)/ }).click();
+    // The Short outline replaces the Standard one ("Read and retell" is unique to it).
+    await expect(page.getByText('Read and retell')).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Standard · 35 minutes/ })).toBeHidden();
 
     // Preference persists across reloads via localStorage only.
     await page.reload();
-    await expect(page.getByRole('button', { name: /Essential · 25 min/ })).toHaveAttribute(
+    await expect(page.getByRole('button', { name: /Short \(25 min\)/ })).toHaveAttribute(
       'aria-pressed',
       'true',
     );
@@ -115,7 +127,7 @@ test.describe('teacher lesson page', () => {
     const page = await context.newPage();
     await page.goto('/teacher/kids/k1-l19/');
     await expect(page.getByRole('heading', { name: 'Teach the lesson' })).toBeVisible();
-    await expect(page.getByRole('heading', { name: /Standard · 40 minutes/ })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Standard · 35 minutes/ })).toBeVisible();
     // The suggested plan stays reachable without JavaScript via its collapsed section.
     await expect(page.getByText('Teaching suggestion: one way to run this lesson')).toBeVisible();
     // Other profiles remain reachable through collapsed details.
@@ -221,7 +233,7 @@ test.describe('print routes', () => {
   test('teacher print contains the card and outline and excludes navigation', async ({ page }) => {
     await page.goto('/print/teacher/k1-l19/standard/');
     await expect(page.getByRole('heading', { name: 'Teach now' })).toBeVisible();
-    await expect(page.getByRole('heading', { name: /Standard outline · 40 minutes/ })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Standard outline · 35 minutes/ })).toBeVisible();
     await expect(page.locator('nav')).toHaveCount(0);
     await expect(page.locator('.site-header')).toHaveCount(0);
   });
