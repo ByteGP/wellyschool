@@ -1,0 +1,10 @@
+{
+  "schedule_id": "2026-09-06-kids",
+  "date": "2026-09-06",
+  "segment": "Kids",
+  "entry_type": "special",
+  "status": "draft",
+  "notes": "Placeholder schedule for the pilot. Replace via Decap CMS once the church calendar is approved (ADR-011).",
+  "title_override": "Father's Day Family Service",
+  "message": "All ages join the Father's Day family service in the main hall. No separate classes today."
+}

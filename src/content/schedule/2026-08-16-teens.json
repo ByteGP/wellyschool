@@ -1,0 +1,9 @@
+{
+  "schedule_id": "2026-08-16-teens",
+  "date": "2026-08-16",
+  "segment": "Teens",
+  "entry_type": "lesson",
+  "status": "draft",
+  "notes": "Placeholder schedule for the pilot. Replace via Decap CMS once the church calendar is approved (ADR-011).",
+  "lesson_id": "T3-L18"
+}
