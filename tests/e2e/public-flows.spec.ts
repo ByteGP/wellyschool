@@ -94,10 +94,10 @@ test.describe('teacher lesson page', () => {
     // The in-class section is prominent and expanded.
     await expect(page.getByRole('heading', { name: 'Teach the lesson' })).toBeVisible();
     await expect(page.getByText('Mark 4:35-41').first()).toBeVisible();
-    // The suggested lesson plan is collapsed until the teacher opens it.
-    const suggestion = page.getByText('Teaching suggestion: one way to run this lesson');
-    await expect(suggestion).toBeVisible();
-    await suggestion.click();
+    // The full script and materials are collapsed until the teacher opens them.
+    const moreHelp = page.getByText('More help: full script, questions, and printables');
+    await expect(moreHelp).toBeVisible();
+    await moreHelp.click();
     await expect(page.getByRole('heading', { name: 'Teach now' })).toBeVisible();
     // Safeguarding content is not displayed on the page.
     await expect(page.getByRole('heading', { name: 'Safeguarding' })).toHaveCount(0);
@@ -120,6 +120,11 @@ test.describe('teacher lesson page', () => {
     );
     const stored = await page.evaluate(() => window.localStorage.getItem('wellyschool.teacher.profile'));
     expect(stored).toBe('essential');
+    // The single print button follows the selected length.
+    await expect(page.getByRole('link', { name: 'Print this lesson' })).toHaveAttribute(
+      'href',
+      '/print/teacher/k1-l19/essential/',
+    );
   });
 
   test('standard profile renders without JavaScript', async ({ browser }) => {
@@ -128,8 +133,8 @@ test.describe('teacher lesson page', () => {
     await page.goto('/teacher/kids/k1-l19/');
     await expect(page.getByRole('heading', { name: 'Teach the lesson' })).toBeVisible();
     await expect(page.getByRole('heading', { name: /Standard · 35 minutes/ })).toBeVisible();
-    // The suggested plan stays reachable without JavaScript via its collapsed section.
-    await expect(page.getByText('Teaching suggestion: one way to run this lesson')).toBeVisible();
+    // The full script stays reachable without JavaScript via its collapsed section.
+    await expect(page.getByText('More help: full script, questions, and printables')).toBeVisible();
     // Other profiles remain reachable through collapsed details.
     await expect(page.locator('details[data-profile-panel="essential"] summary')).toBeVisible();
     await context.close();

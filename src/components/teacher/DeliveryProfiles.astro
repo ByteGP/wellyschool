@@ -1,18 +1,20 @@
 ---
-// Profile selector with timed outlines.
+// The single in-class card: goal, lesson-length pills, the timed outline, and
+// the closing. This is everything a teacher needs during the class.
 //
 // Without JavaScript: the Standard outline is fully rendered and visible, and
-// Essential/Extended remain reachable inside collapsed <details> sections.
-// With JavaScript: a segmented control switches outlines and persists the
-// choice in localStorage only (no accounts, no server state).
+// Short/Extended remain reachable inside collapsed <details> sections.
+// With JavaScript: the pills switch outlines and persist the choice in
+// localStorage only. The print link follows the selected length.
 import type { Teacher } from '../../types';
 import OutlineList from './OutlineList.astro';
 
 interface Props {
   teacher: Teacher;
+  lessonId: string;
 }
 
-const { teacher } = Astro.props;
+const { teacher, lessonId } = Astro.props;
 const profiles = [
   { name: 'essential', data: teacher.delivery_profiles.essential },
   { name: 'standard', data: teacher.delivery_profiles.standard },
@@ -23,9 +25,9 @@ const defaultProfile = 'standard';
 
 <section class="card card--primary" aria-labelledby="profiles-heading" data-profile-switcher>
   <h2 id="profiles-heading">Teach the lesson</h2>
-  <p class="lede">
-    Use this outline during class. Pick the lesson length that fits how long you want to teach,
-    and the timed plan updates to match.
+  <p><strong>Goal:</strong> {teacher.zero_prep_card.objective}</p>
+  <p class="choice-hint" style="margin-bottom: var(--space-3);">
+    Pick how long you want to teach. The plan updates to fit.
   </p>
   <div class="segmented" role="group" aria-label="Choose lesson length" hidden data-profile-buttons>
     {
@@ -64,6 +66,11 @@ const defaultProfile = 'standard';
       ),
     )
   }
+
+  <h3 style="margin-top: var(--space-5);">Close the class</h3>
+  <p><strong>Memory verse:</strong> {teacher.closing.memory_reference}</p>
+  <p><strong>Prayer:</strong> {teacher.closing.prayer_prompt}</p>
+  <p style="margin-bottom: 0;"><strong>Take-home line:</strong> {teacher.closing.take_home_line}</p>
 </section>
 
 <script>
@@ -75,6 +82,7 @@ const defaultProfile = 'standard';
     const panels = [...root.querySelectorAll<HTMLElement>('[data-profile-panel]')];
     const announcer = root.querySelector<HTMLElement>('[data-profile-announcer]');
     const buttonBar = root.querySelector<HTMLElement>('[data-profile-buttons]');
+    const printLink = document.querySelector<HTMLAnchorElement>('[data-print-link]');
 
     const select = (profile: string, announce: boolean) => {
       for (const button of buttons) {
@@ -88,9 +96,13 @@ const defaultProfile = 'standard';
           panel.classList.add('js-controlled');
         }
       }
+      if (printLink) {
+        const base = printLink.dataset.printBase;
+        if (base) printLink.href = `${base}/${profile}/`;
+      }
       if (announce && announcer) {
         const label = buttons.find((b) => b.dataset.profileButton === profile)?.textContent ?? profile;
-        announcer.textContent = `Showing ${label.trim()} outline.`;
+        announcer.textContent = `Showing ${label.trim()} plan.`;
       }
     };
 
@@ -126,6 +138,7 @@ const defaultProfile = 'standard';
   details.js-controlled {
     border: none;
     background: none;
+    box-shadow: none;
   }
 
   details.js-controlled > .section-body {

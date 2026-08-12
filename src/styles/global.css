@@ -90,11 +90,11 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(58rem 40rem at 6% -8%, rgb(96 140 202 / 0.2), transparent 62%),
-    radial-gradient(52rem 38rem at 102% -4%, rgb(168 148 214 / 0.16), transparent 60%),
-    radial-gradient(48rem 36rem at -4% 104%, rgb(112 178 140 / 0.16), transparent 60%),
-    radial-gradient(52rem 38rem at 104% 102%, rgb(224 178 122 / 0.15), transparent 60%),
-    radial-gradient(40rem 30rem at 50% 30%, rgb(255 255 255 / 0.55), transparent 70%);
+    radial-gradient(58rem 42rem at 4% -10%, rgb(96 140 202 / 0.45), transparent 64%),
+    radial-gradient(54rem 40rem at 104% -6%, rgb(168 148 214 / 0.38), transparent 62%),
+    radial-gradient(50rem 38rem at -6% 106%, rgb(112 178 140 / 0.38), transparent 62%),
+    radial-gradient(54rem 40rem at 106% 104%, rgb(224 178 122 / 0.36), transparent 62%),
+    radial-gradient(44rem 32rem at 50% 34%, rgb(255 255 255 / 0.5), transparent 72%);
 }
 
 h1,
