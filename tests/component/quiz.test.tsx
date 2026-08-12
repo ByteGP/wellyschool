@@ -2,6 +2,7 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it } from 'vitest';
+import type { PreparedQuizQuestion } from '../../src/lib/view-models/engagement';
 import {
   MultipleChoiceQuestion,
   QuizList,
@@ -11,14 +12,14 @@ import {
 } from '../../src/components/engagement/quiz';
 
 describe('MultipleChoiceQuestion', () => {
-  const question = {
+  const question: Extract<PreparedQuizQuestion, { type: 'multiple_choice' }> = {
     type: 'multiple_choice',
     questionId: 'Q1',
     question: 'Where were they?',
     options: ['In a boat', 'In a field'],
     answerText: 'In a boat',
     explanation: 'They were crossing the lake.',
-  } as const;
+  };
 
   it('confirms a correct choice with the explanation', async () => {
     const user = userEvent.setup();
@@ -38,13 +39,13 @@ describe('MultipleChoiceQuestion', () => {
 });
 
 describe('TrueFalseQuestion', () => {
-  const question = {
+  const question: Extract<PreparedQuizQuestion, { type: 'true_false' }> = {
     type: 'true_false',
     questionId: 'Q2',
     question: 'True or false: it promises a trouble-free life.',
     answerBoolean: false,
     explanation: 'It shows authority and presence.',
-  } as const;
+  };
 
   it('marks the correct boolean', async () => {
     const user = userEvent.setup();
@@ -62,13 +63,13 @@ describe('TrueFalseQuestion', () => {
 });
 
 describe('SequenceQuestion', () => {
-  const question = {
+  const question: Extract<PreparedQuizQuestion, { type: 'sequence' }> = {
     type: 'sequence',
     questionId: 'Q3',
     question: 'Put the events in order.',
     answerItems: ['Crossing', 'Storm', 'Calm'],
     explanation: 'Narrative order.',
-  } as const;
+  };
 
   it('starts out of order and can be corrected with buttons only', async () => {
     const user = userEvent.setup();
@@ -86,13 +87,13 @@ describe('SequenceQuestion', () => {
 });
 
 describe('SelfCheckQuestion', () => {
-  const question = {
+  const question: Extract<PreparedQuizQuestion, { type: 'scenario' | 'short_answer' }> = {
     type: 'scenario',
     questionId: 'Q4',
     question: 'What would you say to a friend?',
     modelAnswer: 'Listen first, then point to hope.',
     explanation: 'Model answers are for comparing, not marking.',
-  } as const;
+  };
 
   it('shows a model answer for self-check without any scoring', async () => {
     const user = userEvent.setup();

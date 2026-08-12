@@ -53,7 +53,7 @@ const roleHeading = role === 'teacher' ? "This Sunday's lesson" : "This week's l
 <section class="current-entry" data-current-entry aria-labelledby={`current-${role}-heading`}>
   <h2 id={`current-${role}-heading`}>{roleHeading}</h2>
 
-  <script type="application/json" data-current-entry-config set:html={clientConfig} />
+  <script is:inline type="application/json" data-current-entry-config set:html={clientConfig} />
 
   {
     cards.map(({ entry, lesson, nextLesson, previousLesson }) => (
