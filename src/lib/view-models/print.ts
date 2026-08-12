@@ -1,5 +1,5 @@
 // Print view models contain only print-required data.
-import type { LessonContent, Teacher } from '../../types';
+import type { Activity, LessonContent, Teacher } from '../../types';
 import { activityById, questionById } from './teacher';
 
 export type ProfileName = 'essential' | 'standard' | 'extended';
@@ -27,7 +27,7 @@ export interface PrintTeacherViewModel {
   durationMinutes: number;
   zeroPrepCard: Teacher['zero_prep_card'];
   outline: PrintOutlineStep[];
-  activities: Teacher['activities'];
+  activities: Activity[];
   closing: Teacher['closing'];
 }
 

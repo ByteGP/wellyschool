@@ -5,7 +5,7 @@ import { toFamilyViewModel } from '../../src/lib/view-models/family';
 import { toTeacherViewModel } from '../../src/lib/view-models/teacher';
 import { toPrintFamilyViewModel, toPrintTeacherViewModel } from '../../src/lib/view-models/print';
 
-const lesson = lessonJson as LessonContent;
+const lesson = lessonJson as unknown as LessonContent;
 
 describe('toTeacherViewModel', () => {
   const vm = toTeacherViewModel(lesson);

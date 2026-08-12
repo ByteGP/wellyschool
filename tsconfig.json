@@ -8,7 +8,7 @@
       "@lib/*": ["src/lib/*"],
       "@components/*": ["src/components/*"]
     },
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "node"]
   },
   "include": [".astro/types.d.ts", "src/**/*", "tests/**/*", "scripts/**/*"],
   "exclude": ["dist", "node_modules"]

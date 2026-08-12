@@ -1,0 +1,89 @@
+---
+// Family lesson route. The client island receives only the sanitized Family
+// view model — never the full lesson object (brief §6, acceptance H).
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import FamilyStepper from '../../../components/family/FamilyStepper.tsx';
+import { getPublicLessons } from '../../../lib/content/loader';
+import { CONTENT_MODE } from '../../../lib/content/site';
+import { slugFromSegment } from '../../../lib/content/segments';
+import { toFamilyViewModel } from '../../../lib/view-models/family';
+import type { LessonContent } from '../../../types';
+
+export function getStaticPaths() {
+  return getPublicLessons(CONTENT_MODE).map((lesson) => ({
+    params: {
+      segment: slugFromSegment(lesson.curriculum.segment),
+      lessonId: lesson.lesson_id.toLowerCase(),
+    },
+    props: { lesson },
+  }));
+}
+
+interface Props {
+  lesson: LessonContent;
+}
+
+const { lesson } = Astro.props;
+const vm = toFamilyViewModel(lesson);
+const slug = slugFromSegment(vm.segment);
+const isDraft = !['approved', 'scheduled', 'published'].includes(lesson.status);
+const stepNames: Record<string, string> = {
+  connect: 'Connect',
+  read: 'Read',
+  understand: 'Understand',
+  play: 'Play',
+  respond: 'Respond',
+};
+---
+
+<BaseLayout title={`${vm.familyTitle} · Family`} section="family" description={vm.bigIdea}>
+  <nav aria-label="Breadcrumb">
+    <p class="meta-row" style="margin-bottom: var(--space-3);">
+      <a href={`/family/${slug}/`}>&larr; {vm.segment} family time</a>
+    </p>
+  </nav>
+
+  <header>
+    <p class="eyebrow">
+      {vm.segment} · About {vm.durationMinutes} minutes
+      {isDraft && <span class="badge badge--draft">Draft — not yet approved</span>}
+    </p>
+    <h1>{vm.familyTitle}</h1>
+    <p class="lede">{vm.parentIntro}</p>
+  </header>
+
+  <FamilyStepper client:load vm={vm} />
+
+  <noscript>
+    <section class="card" aria-label="Lesson steps">
+      <h2>The 15-minute flow</h2>
+      <ol class="outline">
+        {
+          vm.flow.map((step) => (
+            <li>
+              <span class="outline-minutes">{step.duration_minutes} min</span>
+              <div>
+                <span class="outline-label">{stepNames[step.type] ?? step.type}</span>
+                <p style="margin-bottom: 0;">{step.instructions}</p>
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+      <h3>Talk about it</h3>
+      <ul>
+        {vm.questions.map((question) => <li>{question}</li>)}
+      </ul>
+      <h3>This week</h3>
+      <p><strong>Action:</strong> {vm.weeklyAction}</p>
+      <p><strong>Prayer:</strong> {vm.prayer}</p>
+      <div class="notice"><strong>Note for parents:</strong> {vm.parentNote}</div>
+    </section>
+  </noscript>
+
+  <section class="actions" aria-label="Print">
+    <a class="button button--secondary" href={`/print/family/${vm.lessonId.toLowerCase()}/`}>
+      Print the family guide
+    </a>
+  </section>
+</BaseLayout>

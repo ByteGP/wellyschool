@@ -530,8 +530,7 @@ details.section > .section-body {
   background: var(--color-ok-bg);
 }
 
-.feedback--correct::before {
-  content: 'Correct. ';
+.feedback--correct .feedback-verdict {
   font-weight: 700;
   color: var(--color-ok);
 }
@@ -541,8 +540,7 @@ details.section > .section-body {
   background: var(--color-alert-bg);
 }
 
-.feedback--retry::before {
-  content: 'Not yet — try again. ';
+.feedback--retry .feedback-verdict {
   font-weight: 700;
   color: var(--color-accent);
 }
