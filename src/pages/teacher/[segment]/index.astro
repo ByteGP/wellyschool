@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CurrentEntryCard from '../../../components/shared/CurrentEntryCard.astro';
+import { SEGMENT_SLUGS, segmentFromSlug, type SegmentSlug } from '../../../lib/content/segments';
+
+export function getStaticPaths() {
+  return (Object.keys(SEGMENT_SLUGS) as SegmentSlug[]).map((segment) => ({
+    params: { segment },
+  }));
+}
+
+const { segment: slug } = Astro.params;
+const segment = segmentFromSlug(slug)!;
+---
+
+<BaseLayout title={`Teacher · ${segment}`} section="teacher" description={`This Sunday's ${segment} lesson.`}>
+  <h1>{segment} — Teacher</h1>
+  <CurrentEntryCard role="teacher" segment={segment} />
+</BaseLayout>
+
+<script>
+  // Remember the chosen segment locally (no accounts, no server state).
+  try {
+    const slug = window.location.pathname.split('/')[2];
+    if (['kids', 'youths', 'teens'].includes(slug)) {
+      window.localStorage.setItem('wellyschool.segment', slug);
+    }
+  } catch {
+    // Storage unavailable; nothing to do.
+  }
+</script>

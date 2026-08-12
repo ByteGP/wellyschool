@@ -1,0 +1,59 @@
+---
+// A timed outline for one delivery profile, with resolved question, activity,
+// and printable references shown inline.
+import type { OutlineStep, Teacher } from '../../types';
+import { activityById, questionById } from '../../lib/view-models/teacher';
+
+interface Props {
+  outline: OutlineStep[];
+  teacher: Teacher;
+}
+
+const { outline, teacher } = Astro.props;
+
+const resolveRefs = (step: OutlineStep) => ({
+  questions: (step.question_refs ?? [])
+    .map((ref) => questionById(teacher, ref)?.question)
+    .filter((question): question is string => Boolean(question)),
+  activities: (step.activity_refs ?? [])
+    .map((ref) => activityById(teacher, ref)?.title)
+    .filter((title): title is string => Boolean(title)),
+  resources: step.resource_refs ?? [],
+});
+---
+
+<ol class="outline">
+  {
+    outline.map((step) => {
+      const refs = resolveRefs(step);
+      return (
+        <li>
+          <span class="outline-minutes" aria-label={`${step.minutes} minutes`}>
+            {step.minutes} min
+          </span>
+          <div>
+            <span class="outline-label">{step.label}</span>
+            <p style="margin-bottom: 0;">{step.instructions}</p>
+            {refs.questions.length > 0 && (
+              <p class="outline-refs">Ask: {refs.questions.join(' · ')}</p>
+            )}
+            {refs.activities.length > 0 && (
+              <p class="outline-refs">Activity: {refs.activities.join(' · ')}</p>
+            )}
+            {refs.resources.length > 0 && (
+              <p class="outline-refs">
+                Printable:{' '}
+                {refs.resources.map((resourceId, index) => (
+                  <>
+                    {index > 0 && ' · '}
+                    <a href={`/print/resource/${resourceId.toLowerCase()}/`}>{resourceId}</a>
+                  </>
+                ))}
+              </p>
+            )}
+          </div>
+        </li>
+      );
+    })
+  }
+</ol>

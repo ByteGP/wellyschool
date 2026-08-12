@@ -1,0 +1,132 @@
+---
+// Profile selector with timed outlines.
+//
+// Without JavaScript: the Standard outline is fully rendered and visible, and
+// Essential/Extended remain reachable inside collapsed <details> sections.
+// With JavaScript: a segmented control switches outlines and persists the
+// choice in localStorage only (no accounts, no server state).
+import type { Teacher } from '../../types';
+import OutlineList from './OutlineList.astro';
+
+interface Props {
+  teacher: Teacher;
+}
+
+const { teacher } = Astro.props;
+const profiles = [
+  { name: 'essential', data: teacher.delivery_profiles.essential },
+  { name: 'standard', data: teacher.delivery_profiles.standard },
+  { name: 'extended', data: teacher.delivery_profiles.extended },
+] as const;
+const defaultProfile = 'standard';
+---
+
+<section class="card" aria-labelledby="profiles-heading" data-profile-switcher>
+  <h2 id="profiles-heading">Lesson length</h2>
+  <div class="segmented" role="group" aria-label="Choose lesson length" hidden data-profile-buttons>
+    {
+      profiles.map(({ name, data }) => (
+        <button
+          type="button"
+          class="button"
+          data-profile-button={name}
+          aria-pressed={name === defaultProfile ? 'true' : 'false'}
+        >
+          {data.label} · {data.duration_minutes} min
+        </button>
+      ))
+    }
+  </div>
+  <p class="visually-hidden" role="status" data-profile-announcer></p>
+
+  {
+    profiles.map(({ name, data }) =>
+      name === defaultProfile ? (
+        <section data-profile-panel={name} aria-label={`${data.label} outline`}>
+          <h3>
+            {data.label} · {data.duration_minutes} minutes
+          </h3>
+          <p class="lede">{data.use_case}</p>
+          <OutlineList outline={data.outline} teacher={teacher} />
+        </section>
+      ) : (
+        <details class="section" data-profile-panel={name}>
+          <summary>
+            {data.label} · {data.duration_minutes} minutes
+          </summary>
+          <div class="section-body">
+            <p class="lede">{data.use_case}</p>
+            <OutlineList outline={data.outline} teacher={teacher} />
+          </div>
+        </details>
+      ),
+    )
+  }
+</section>
+
+<script>
+  const STORAGE_KEY = 'wellyschool.teacher.profile';
+  const root = document.querySelector<HTMLElement>('[data-profile-switcher]');
+
+  if (root) {
+    const buttons = [...root.querySelectorAll<HTMLButtonElement>('[data-profile-button]')];
+    const panels = [...root.querySelectorAll<HTMLElement>('[data-profile-panel]')];
+    const announcer = root.querySelector<HTMLElement>('[data-profile-announcer]');
+    const buttonBar = root.querySelector<HTMLElement>('[data-profile-buttons]');
+
+    const select = (profile: string, announce: boolean) => {
+      for (const button of buttons) {
+        button.setAttribute('aria-pressed', String(button.dataset.profileButton === profile));
+      }
+      for (const panel of panels) {
+        const isSelected = panel.dataset.profilePanel === profile;
+        panel.hidden = !isSelected;
+        if (panel instanceof HTMLDetailsElement) {
+          panel.open = isSelected;
+          panel.classList.add('js-controlled');
+        }
+      }
+      if (announce && announcer) {
+        const label = buttons.find((b) => b.dataset.profileButton === profile)?.textContent ?? profile;
+        announcer.textContent = `Showing ${label.trim()} outline.`;
+      }
+    };
+
+    if (buttonBar) buttonBar.hidden = false;
+    let stored: string | null = null;
+    try {
+      stored = window.localStorage.getItem(STORAGE_KEY);
+    } catch {
+      // Storage unavailable (private browsing); fall back to the default.
+    }
+    const valid = buttons.some((button) => button.dataset.profileButton === stored);
+    select(valid && stored ? stored : 'standard', false);
+
+    for (const button of buttons) {
+      button.addEventListener('click', () => {
+        const profile = button.dataset.profileButton ?? 'standard';
+        select(profile, true);
+        try {
+          window.localStorage.setItem(STORAGE_KEY, profile);
+        } catch {
+          // Preference persistence is optional.
+        }
+      });
+    }
+  }
+</script>
+
+<style>
+  details.js-controlled > summary {
+    display: none;
+  }
+
+  details.js-controlled {
+    border: none;
+    background: none;
+  }
+
+  details.js-controlled > .section-body {
+    padding: 0;
+  }
+</style>

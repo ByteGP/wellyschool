@@ -1,0 +1,43 @@
+---
+// Printable resource route: renders the governed JSON resource body as
+// sanitized markdown (raw HTML is escaped, never rendered).
+import PrintLayout from '../../../layouts/PrintLayout.astro';
+import { getAllResources, getLessonById } from '../../../lib/content/loader';
+import { CONTENT_MODE } from '../../../lib/content/site';
+import { isLessonPublic } from '../../../lib/content/mode';
+import { slugFromSegment } from '../../../lib/content/segments';
+import { renderResourceMarkdown } from '../../../lib/content/markdown';
+import type { PrintableResource } from '../../../types';
+
+export function getStaticPaths() {
+  // A resource is public exactly when its lesson is public in this build mode.
+  return getAllResources()
+    .filter((resource) => {
+      const lesson = getLessonById(resource.lesson_id);
+      return lesson !== undefined && isLessonPublic(lesson, CONTENT_MODE);
+    })
+    .map((resource) => ({
+      params: { resourceId: resource.resource_id.toLowerCase() },
+      props: { resource },
+    }));
+}
+
+interface Props {
+  resource: PrintableResource;
+}
+
+const { resource } = Astro.props;
+const lesson = getLessonById(resource.lesson_id);
+const backHref = lesson
+  ? `/teacher/${slugFromSegment(lesson.curriculum.segment)}/${lesson.lesson_id.toLowerCase()}/`
+  : '/teacher/';
+const bodyHtml = renderResourceMarkdown(resource.body_markdown);
+---
+
+<PrintLayout title={`${resource.title} (printable)`} backHref={backHref} backLabel="Back to lesson">
+  <p class="print-meta">
+    {resource.resource_id} · {resource.format} · {resource.purpose}
+    {lesson && ` · ${lesson.curriculum.title}`}
+  </p>
+  <div set:html={bodyHtml} />
+</PrintLayout>

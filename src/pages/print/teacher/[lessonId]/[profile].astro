@@ -1,0 +1,110 @@
+---
+// Teacher print view. The zero-preparation card targets one A4 page; the
+// selected outline and activities may continue on further pages.
+import PrintLayout from '../../../../layouts/PrintLayout.astro';
+import { getPublicLessons } from '../../../../lib/content/loader';
+import { CONTENT_MODE } from '../../../../lib/content/site';
+import { slugFromSegment } from '../../../../lib/content/segments';
+import { PROFILE_NAMES, toPrintTeacherViewModel, type ProfileName } from '../../../../lib/view-models/print';
+import type { LessonContent } from '../../../../types';
+
+export function getStaticPaths() {
+  return getPublicLessons(CONTENT_MODE).flatMap((lesson) =>
+    PROFILE_NAMES.map((profile) => ({
+      params: { lessonId: lesson.lesson_id.toLowerCase(), profile },
+      props: { lesson, profile },
+    })),
+  );
+}
+
+interface Props {
+  lesson: LessonContent;
+  profile: ProfileName;
+}
+
+const { lesson, profile } = Astro.props;
+const vm = toPrintTeacherViewModel(lesson, profile);
+const backHref = `/teacher/${slugFromSegment(lesson.curriculum.segment)}/${vm.lessonId.toLowerCase()}/`;
+---
+
+<PrintLayout title={`${vm.title} — Teacher (${vm.profileLabel})`} backHref={backHref} backLabel="Back to lesson">
+  <h1>{vm.title}</h1>
+  <p class="print-meta">
+    {vm.segment} (ages {vm.ageRange}) · {vm.passages.join('; ')} · {vm.profileLabel} ·
+    {vm.durationMinutes} minutes
+  </p>
+
+  <section class="print-section">
+    <h2>Teach now</h2>
+    <p><strong>Objective:</strong> {vm.zeroPrepCard.objective}</p>
+    <p><strong>Read:</strong> {vm.zeroPrepCard.read}</p>
+    <p><strong>Opening:</strong> {vm.zeroPrepCard.opening}</p>
+    <p><strong>Say:</strong></p>
+    <ul>
+      {vm.zeroPrepCard.say.map((line) => <li>{line}</li>)}
+    </ul>
+    <p><strong>Ask:</strong></p>
+    <ul>
+      {vm.zeroPrepCard.ask.map((question) => <li>{question}</li>)}
+    </ul>
+    <p><strong>Do:</strong> {vm.zeroPrepCard.do}</p>
+    <p><strong>Close:</strong> {vm.zeroPrepCard.close}</p>
+    {
+      vm.zeroPrepCard.materials.length > 0 && (
+        <p>
+          <strong>Materials:</strong> {vm.zeroPrepCard.materials.join('; ')}
+        </p>
+      )
+    }
+  </section>
+
+  <section class="print-section page-break">
+    <h2>{vm.profileLabel} outline · {vm.durationMinutes} minutes</h2>
+    <ol class="print-outline">
+      {
+        vm.outline.map((step) => (
+          <li>
+            <span class="minutes">{step.minutes} min</span>
+            <span>
+              <strong>{step.label}.</strong> {step.instructions}
+              {step.questions.length > 0 && <> Ask: {step.questions.join(' ')}</>}
+              {step.activities.length > 0 && <> Activity: {step.activities.join('; ')}.</>}
+              {step.resources.length > 0 && <> Printable: {step.resources.join('; ')}.</>}
+            </span>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  {
+    vm.activities.length > 0 && (
+      <section class="print-section">
+        <h2>Activity details</h2>
+        {vm.activities.map((activity) => (
+          <div class="print-note">
+            <h3>
+              {activity.title} · {activity.duration_minutes} min
+            </h3>
+            {activity.materials.length > 0 && <p>Materials: {activity.materials.join('; ')}</p>}
+            <ol>
+              {activity.steps.map((step) => (
+                <li>{step}</li>
+              ))}
+            </ol>
+            {activity.low_resource_alternative && (
+              <p>Low-resource option: {activity.low_resource_alternative}</p>
+            )}
+          </div>
+        ))}
+      </section>
+    )
+  }
+
+  <section class="print-section">
+    <h2>Closing</h2>
+    <p><strong>Memory verse:</strong> {vm.closing.memory_reference}</p>
+    <p><strong>Prayer:</strong> {vm.closing.prayer_prompt}</p>
+    <p><strong>Take-home line:</strong> {vm.closing.take_home_line}</p>
+  </section>
+</PrintLayout>

@@ -1,0 +1,166 @@
+---
+// Server-renders one hidden card per schedule entry plus an always-visible
+// schedule list (the no-JS fallback). A small client script unhides the card
+// matching today's date in Pacific/Auckland using the shared selection rules.
+import { getLessonById, getScheduleEntries } from '../../lib/content/loader';
+import { CONTENT_MODE } from '../../lib/content/site';
+import { isScheduleEntryPublic } from '../../lib/content/mode';
+import type { Segment } from '../../lib/content/segments';
+import { slugFromSegment } from '../../lib/content/segments';
+import {
+  formatDisplayDate,
+  nextLessonEntryAfter,
+  previousLessonEntryBefore,
+} from '../../lib/schedule/date-selection';
+
+interface Props {
+  role: 'teacher' | 'family';
+  segment: Segment;
+}
+
+const { role, segment } = Astro.props;
+const slug = slugFromSegment(segment);
+const allEntries = getScheduleEntries();
+const entries = allEntries
+  .filter((entry) => entry.segment === segment && isScheduleEntryPublic(entry, CONTENT_MODE))
+  .sort((a, b) => a.date.localeCompare(b.date));
+
+const lessonUrl = (lessonId: string) => `/${role}/${slug}/${lessonId.toLowerCase()}/`;
+
+const cards = entries.map((entry) => {
+  const lesson = entry.lesson_id ? getLessonById(entry.lesson_id) : undefined;
+  const nextLesson = nextLessonEntryAfter(allEntries, segment, entry.date, CONTENT_MODE);
+  const previousLesson = previousLessonEntryBefore(allEntries, segment, entry.date, CONTENT_MODE);
+  return { entry, lesson, nextLesson, previousLesson };
+});
+
+const clientConfig = JSON.stringify({
+  role,
+  segment,
+  mode: CONTENT_MODE,
+  entries: entries.map(({ schedule_id, date, segment: entrySegment, entry_type, status }) => ({
+    schedule_id,
+    date,
+    segment: entrySegment,
+    entry_type,
+    status,
+  })),
+});
+
+const roleHeading = role === 'teacher' ? "This Sunday's lesson" : "This week's lesson";
+---
+
+<section class="current-entry" data-current-entry aria-labelledby={`current-${role}-heading`}>
+  <h2 id={`current-${role}-heading`}>{roleHeading}</h2>
+
+  <script type="application/json" data-current-entry-config set:html={clientConfig} />
+
+  {
+    cards.map(({ entry, lesson, nextLesson, previousLesson }) => (
+      <article class="card card--primary" data-entry-card={entry.schedule_id} hidden>
+        <p class="eyebrow">{formatDisplayDate(entry.date)}</p>
+        {entry.entry_type === 'lesson' && lesson && (
+          <>
+            <h3>{entry.title_override ?? lesson.curriculum.title}</h3>
+            <p class="lede">{lesson.core.big_idea}</p>
+            <p>
+              <a class="button" href={lessonUrl(lesson.lesson_id)}>
+                {role === 'teacher' ? 'Open the lesson' : 'Start the 15-minute lesson'}
+              </a>
+            </p>
+          </>
+        )}
+        {entry.entry_type === 'lesson' && !lesson && (
+          <p>This lesson is not yet available. Please check back soon.</p>
+        )}
+        {entry.entry_type === 'break' && (
+          <>
+            <h3>{entry.title_override ?? 'No Sunday School this week'}</h3>
+            {entry.message && <p>{entry.message}</p>}
+            {nextLesson && (
+              <p>
+                Next lesson: <strong>{formatDisplayDate(nextLesson.date)}</strong>
+              </p>
+            )}
+            {role === 'family' && previousLesson?.lesson_id && (
+              <p>
+                <a class="button button--secondary" href={lessonUrl(previousLesson.lesson_id)}>
+                  Review the previous lesson
+                </a>
+              </p>
+            )}
+          </>
+        )}
+        {entry.entry_type === 'special' && (
+          <>
+            <h3>{entry.title_override ?? 'Special Sunday'}</h3>
+            {entry.message && <p>{entry.message}</p>}
+            {nextLesson && (
+              <p>
+                Next lesson: <strong>{formatDisplayDate(nextLesson.date)}</strong>
+              </p>
+            )}
+          </>
+        )}
+      </article>
+    ))
+  }
+
+  <div class="notice" data-current-fallback>
+    {
+      entries.length === 0 ? (
+        <p>
+          No {role === 'teacher' ? 'upcoming lessons are scheduled' : 'lessons are available'} for{' '}
+          {segment} yet. Please check back once the term schedule is published.
+        </p>
+      ) : (
+        <p>Choose the correct Sunday from the schedule below.</p>
+      )
+    }
+  </div>
+
+  {
+    entries.length > 0 && (
+      <section aria-labelledby={`schedule-${role}-heading`}>
+        <h3 id={`schedule-${role}-heading`}>Schedule</h3>
+        <ul class="choice-list">
+          {cards.map(({ entry, lesson }) => (
+            <li data-entry-row={entry.schedule_id}>
+              {entry.entry_type === 'lesson' && lesson ? (
+                <a href={lessonUrl(lesson.lesson_id)}>
+                  <span class="choice-title">
+                    {entry.title_override ?? lesson.curriculum.title}
+                    <span data-current-marker hidden>
+                      {' '}
+                      (current)
+                    </span>
+                  </span>
+                  <span class="choice-hint">{formatDisplayDate(entry.date)}</span>
+                </a>
+              ) : (
+                <div class="notice" style="margin-bottom: 0;">
+                  <strong>
+                    {entry.title_override ??
+                      (entry.entry_type === 'break' ? 'No Sunday School' : 'Special Sunday')}
+                    <span data-current-marker hidden> (current)</span>
+                  </strong>
+                  <br />
+                  <span class="choice-hint">{formatDisplayDate(entry.date)}</span>
+                  {entry.message && <p style="margin: var(--space-2) 0 0;">{entry.message}</p>}
+                </div>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+</section>
+
+<script>
+  import { activateCurrentEntry } from '../../lib/schedule/current-entry-client';
+
+  for (const root of document.querySelectorAll<HTMLElement>('[data-current-entry]')) {
+    activateCurrentEntry(root);
+  }
+</script>

@@ -1,0 +1,71 @@
+---
+import PrintLayout from '../../../layouts/PrintLayout.astro';
+import { getPublicLessons } from '../../../lib/content/loader';
+import { CONTENT_MODE } from '../../../lib/content/site';
+import { slugFromSegment } from '../../../lib/content/segments';
+import { toPrintFamilyViewModel } from '../../../lib/view-models/print';
+import type { LessonContent } from '../../../types';
+
+export function getStaticPaths() {
+  return getPublicLessons(CONTENT_MODE).map((lesson) => ({
+    params: { lessonId: lesson.lesson_id.toLowerCase() },
+    props: { lesson },
+  }));
+}
+
+interface Props {
+  lesson: LessonContent;
+}
+
+const { lesson } = Astro.props;
+const vm = toPrintFamilyViewModel(lesson);
+const backHref = `/family/${slugFromSegment(lesson.curriculum.segment)}/${vm.lessonId.toLowerCase()}/`;
+const stepNames: Record<string, string> = {
+  connect: 'Connect',
+  read: 'Read',
+  understand: 'Understand',
+  play: 'Play',
+  respond: 'Respond',
+};
+---
+
+<PrintLayout title={`${vm.familyTitle} — Family guide`} backHref={backHref} backLabel="Back to lesson">
+  <h1>{vm.familyTitle}</h1>
+  <p class="print-meta">
+    Family guide · {vm.lessonTitle} · {vm.passages.join('; ')} · about {vm.durationMinutes} minutes
+  </p>
+  <p><strong>Big idea:</strong> {vm.bigIdea}</p>
+  <p>{vm.parentIntro}</p>
+
+  <section class="print-section">
+    <h2>The 15-minute flow</h2>
+    <ol class="print-outline">
+      {
+        vm.flow.map((step) => (
+          <li>
+            <span class="minutes">{step.durationMinutes} min</span>
+            <span>
+              <strong>{stepNames[step.type] ?? step.type}.</strong> {step.instructions}
+            </span>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <section class="print-section">
+    <h2>Talk about it</h2>
+    <ul>
+      {vm.questions.map((question) => <li>{question}</li>)}
+    </ul>
+  </section>
+
+  <section class="print-section">
+    <h2>This week</h2>
+    <p><strong>Action:</strong> {vm.weeklyAction}</p>
+    <p><strong>Prayer:</strong> {vm.prayer}</p>
+    <div class="print-note">
+      <strong>Note for parents:</strong> {vm.parentNote}
+    </div>
+  </section>
+</PrintLayout>

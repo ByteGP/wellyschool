@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+import { getSiteSettings } from '../lib/content/loader';
+import { CONTENT_MODE, NOINDEX } from '../lib/content/site';
+
+interface Props {
+  title: string;
+  description?: string;
+  /** 'teacher' | 'family' | undefined — highlights the section in the header. */
+  section?: 'teacher' | 'family';
+  noindex?: boolean;
+}
+
+const { title, description, section, noindex } = Astro.props;
+const settings = getSiteSettings();
+const blockIndexing = NOINDEX || noindex === true;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · {settings.site_name}</title>
+    {description && <meta name="description" content={description} />}
+    {blockIndexing && <meta name="robots" content="noindex,nofollow" />}
+    <meta name="theme-color" content="#14557b" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-header__name" href="/">{settings.site_name}</a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="/teacher/" aria-current={section === 'teacher' ? 'true' : undefined}>Teacher</a>
+          <a href="/family/" aria-current={section === 'family' ? 'true' : undefined}>Family</a>
+        </nav>
+      </div>
+    </header>
+    {
+      CONTENT_MODE === 'preview' && (
+        <div class="notice" role="note" style="max-width: var(--content-width); margin: var(--space-3) auto 0; padding-inline: var(--space-4);">
+          <strong>Preview build.</strong> Draft content is visible for the team pilot and is not
+          published to the production site.
+        </div>
+      )
+    }
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>
+          {settings.site_name} · No accounts, no tracking. Lessons are reviewed before publication.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

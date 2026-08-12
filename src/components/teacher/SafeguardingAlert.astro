@@ -1,0 +1,47 @@
+---
+import type { Safeguarding } from '../../types';
+
+interface Props {
+  safeguarding: Safeguarding;
+}
+
+const { safeguarding } = Astro.props;
+const hasContent =
+  safeguarding.do_not_ask.length > 0 ||
+  safeguarding.teacher_response.length > 0 ||
+  safeguarding.escalation_required;
+---
+
+{
+  hasContent && (
+    <aside class="alert" role="note" aria-labelledby="safeguarding-heading">
+      <h3 id="safeguarding-heading">Safeguarding</h3>
+      {safeguarding.do_not_ask.length > 0 && (
+        <>
+          <p>
+            <strong>Do not ask:</strong>
+          </p>
+          <ul>
+            {safeguarding.do_not_ask.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </>
+      )}
+      {safeguarding.teacher_response && (
+        <p>
+          <strong>If something comes up:</strong> {safeguarding.teacher_response}
+        </p>
+      )}
+      {safeguarding.escalation_required && (
+        <p>
+          <strong>Escalation is required for this lesson.</strong>{' '}
+          {safeguarding.escalation_note ?? 'Follow the church safeguarding policy.'}
+        </p>
+      )}
+      {!safeguarding.escalation_required && safeguarding.escalation_note && (
+        <p>{safeguarding.escalation_note}</p>
+      )}
+    </aside>
+  )
+}

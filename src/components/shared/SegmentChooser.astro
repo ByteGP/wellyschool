@@ -1,0 +1,48 @@
+---
+// Segment chooser shared by the Teacher and Family hubs. Remembers the last
+// chosen segment locally and offers a shortcut back to it.
+import { SEGMENT_AGE_RANGES, SEGMENTS, slugFromSegment } from '../../lib/content/segments';
+
+interface Props {
+  role: 'teacher' | 'family';
+}
+
+const { role } = Astro.props;
+---
+
+<div class="notice" data-segment-continue hidden>
+  <p style="margin-bottom: 0;">
+    Welcome back. <a data-segment-continue-link href="/">Continue with your group</a>.
+  </p>
+</div>
+
+<ul class="choice-list">
+  {
+    SEGMENTS.map((segment) => (
+      <li>
+        <a href={`/${role}/${slugFromSegment(segment)}/`}>
+          <span class="choice-title">{segment}</span>
+          <span class="choice-hint">{SEGMENT_AGE_RANGES[segment]}</span>
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
+<script>
+  const STORAGE_KEY = 'wellyschool.segment';
+  const container = document.querySelector<HTMLElement>('[data-segment-continue]');
+  const link = document.querySelector<HTMLAnchorElement>('[data-segment-continue-link]');
+  const role = window.location.pathname.split('/')[1];
+
+  try {
+    const stored = window.localStorage.getItem(STORAGE_KEY);
+    if (container && link && stored && ['kids', 'youths', 'teens'].includes(stored)) {
+      link.href = `/${role}/${stored}/`;
+      link.textContent = `Continue with ${stored.charAt(0).toUpperCase()}${stored.slice(1)}`;
+      container.hidden = false;
+    }
+  } catch {
+    // Storage unavailable; the full chooser is always rendered anyway.
+  }
+</script>

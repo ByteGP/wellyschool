@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SegmentChooser from '../../components/shared/SegmentChooser.astro';
+---
+
+<BaseLayout
+  title="Family"
+  section="family"
+  description="Choose your child's group for a guided 15-minute family lesson."
+>
+  <h1>Family time</h1>
+  <p class="lede">Choose your child's group. Each lesson takes about 15 minutes.</p>
+  <SegmentChooser role="family" />
+</BaseLayout>

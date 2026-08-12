@@ -1,7 +1,33 @@
 ---
-// Placeholder home page; replaced in Phase 3.
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<html lang="en">
-  <head><meta charset="utf-8" /><title>Sunday School</title></head>
-  <body><h1>Sunday School</h1></body>
-</html>
+
+<BaseLayout
+  title="Welcome"
+  description="Sunday School lessons for teachers and families: a zero-preparation teacher card and a guided 15-minute family time."
+>
+  <h1>Sunday School lessons for church and home</h1>
+  <p class="lede">
+    The same lesson, two ways: a ready-to-teach card for Sunday, and a guided 15-minute time for
+    families during the week.
+  </p>
+  <ul class="choice-list">
+    <li>
+      <a href="/teacher/">
+        <span class="choice-title">I'm teaching on Sunday</span>
+        <span class="choice-hint">
+          Zero-preparation lesson card, timed outlines for 25, 40, or 55 minutes, and printables.
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/family/">
+        <span class="choice-title">We're doing family time</span>
+        <span class="choice-hint">
+          A guided 15-minute flow: Connect, Read, Understand, Play, Respond.
+        </span>
+      </a>
+    </li>
+  </ul>
+  <p>No sign-in needed. Nothing you do here is tracked or sent anywhere.</p>
+</BaseLayout>

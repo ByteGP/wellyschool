@@ -1,0 +1,48 @@
+---
+// The zero-preparation card: everything a teacher needs with no prep, readable
+// on a phone held in one hand. Rendered fully in static HTML.
+import type { Teacher } from '../../types';
+
+interface Props {
+  card: Teacher['zero_prep_card'];
+}
+
+const { card } = Astro.props;
+---
+
+<section class="card card--primary" aria-labelledby="teach-now-heading">
+  <h2 id="teach-now-heading">Teach now</h2>
+  <p class="lede">{card.objective}</p>
+  <dl class="kv">
+    <dt>Read</dt>
+    <dd>{card.read}</dd>
+    <dt>Opening</dt>
+    <dd>{card.opening}</dd>
+    <dt>Say</dt>
+    <dd>
+      <ul class="stack-sm">
+        {card.say.map((line) => <li>{line}</li>)}
+      </ul>
+    </dd>
+    <dt>Ask</dt>
+    <dd>
+      <ul class="stack-sm">
+        {card.ask.map((question) => <li>{question}</li>)}
+      </ul>
+    </dd>
+    <dt>Do</dt>
+    <dd>{card.do}</dd>
+    <dt>Close</dt>
+    <dd>{card.close}</dd>
+    <dt>Materials</dt>
+    <dd>
+      {
+        card.materials.length > 0 ? (
+          <ul class="stack-sm">{card.materials.map((material) => <li>{material}</li>)}</ul>
+        ) : (
+          'None needed.'
+        )
+      }
+    </dd>
+  </dl>
+</section>

@@ -1,0 +1,28 @@
+---
+import '../styles/print.css';
+
+interface Props {
+  title: string;
+  backHref: string;
+  backLabel: string;
+}
+
+const { title, backHref, backLabel } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>{title} (print)</title>
+  </head>
+  <body>
+    <div class="print-toolbar no-print">
+      <a href={backHref}>{backLabel}</a>
+      <button type="button" onclick="window.print()">Print this page</button>
+    </div>
+    <slot />
+  </body>
+</html>
