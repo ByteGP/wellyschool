@@ -90,11 +90,11 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(58rem 42rem at 4% -10%, rgb(96 140 202 / 0.68), transparent 66%),
-    radial-gradient(54rem 40rem at 104% -6%, rgb(168 148 214 / 0.58), transparent 64%),
-    radial-gradient(50rem 38rem at -6% 106%, rgb(112 178 140 / 0.58), transparent 64%),
-    radial-gradient(54rem 40rem at 106% 104%, rgb(224 178 122 / 0.55), transparent 64%),
-    radial-gradient(44rem 32rem at 50% 34%, rgb(255 255 255 / 0.4), transparent 72%);
+    radial-gradient(58rem 42rem at 4% -10%, rgb(96 140 202 / 0.9), transparent 68%),
+    radial-gradient(54rem 40rem at 104% -6%, rgb(168 148 214 / 0.8), transparent 66%),
+    radial-gradient(50rem 38rem at -6% 106%, rgb(112 178 140 / 0.8), transparent 66%),
+    radial-gradient(54rem 40rem at 106% 104%, rgb(224 178 122 / 0.75), transparent 66%),
+    radial-gradient(44rem 32rem at 50% 34%, rgb(255 255 255 / 0.3), transparent 72%);
 }
 
 h1,
@@ -829,7 +829,39 @@ textarea.self-check {
   background: rgb(255 255 255 / 0.9);
 }
 
+/* Lesson browser search controls */
+.search-row {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-4);
+}
+
+.search-row input[type='search'] {
+  flex: 2 1 14rem;
+  font: inherit;
+  min-height: var(--tap-target);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  background: rgb(255 255 255 / 0.85);
+}
+
+.search-row select {
+  flex: 1 1 9rem;
+  font: inherit;
+  min-height: var(--tap-target);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  background: rgb(255 255 255 / 0.85);
+}
+
 /* Utility */
+[hidden] {
+  display: none !important;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -851,6 +883,79 @@ textarea.self-check {
   flex-wrap: wrap;
   gap: var(--space-3);
   margin: var(--space-4) 0;
+}
+
+/* Mobile: calmer chrome, full-width controls, no wasted space. */
+@media (max-width: 640px) {
+  .site-header {
+    position: static;
+  }
+
+  .site-header__inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .site-header__brand {
+    justify-content: center;
+  }
+
+  .site-nav {
+    width: 100%;
+  }
+
+  .site-nav a {
+    flex: 1;
+    justify-content: center;
+    background: rgb(255 255 255 / 0.55);
+  }
+
+  .site-nav a[aria-current='true'],
+  .site-nav a[aria-current='page'] {
+    background: var(--color-primary);
+    color: var(--color-primary-contrast);
+  }
+
+  main {
+    padding: var(--space-5) var(--space-3) var(--space-6);
+  }
+
+  .card {
+    padding: var(--space-4);
+  }
+
+  details.section > summary {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  details.section > .section-body {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .choice-list a {
+    padding: var(--space-3) var(--space-5) var(--space-3) var(--space-3);
+  }
+
+  .hero {
+    padding: var(--space-4) 0 var(--space-4);
+  }
+
+  .stepper-nav .button {
+    flex: 1;
+  }
+
+  .actions .button {
+    width: 100%;
+  }
+
+  .site-footer__inner {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-1);
+    padding: var(--space-4);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

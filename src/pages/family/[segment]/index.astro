@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import CurrentEntryCard from '../../../components/shared/CurrentEntryCard.astro';
+import LessonBrowser from '../../../components/shared/LessonBrowser.astro';
 import { SEGMENT_SLUGS, segmentFromSlug, type SegmentSlug } from '../../../lib/content/segments';
 
 export function getStaticPaths() {
@@ -24,6 +25,7 @@ const segment = segmentFromSlug(slug)!;
   <h1>{segment} | Parents</h1>
   <p class="lede">About 15 minutes, whenever suits your family this week.</p>
   <CurrentEntryCard role="family" segment={segment} />
+  <LessonBrowser role="family" segment={segment} />
 </BaseLayout>
 
 <script>

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import CurrentEntryCard from '../../../components/shared/CurrentEntryCard.astro';
+import LessonBrowser from '../../../components/shared/LessonBrowser.astro';
 import { SEGMENT_SLUGS, segmentFromSlug, type SegmentSlug } from '../../../lib/content/segments';
 
 export function getStaticPaths() {
@@ -19,6 +20,7 @@ const segment = segmentFromSlug(slug)!;
   </nav>
   <h1>{segment} | Teachers</h1>
   <CurrentEntryCard role="teacher" segment={segment} />
+  <LessonBrowser role="teacher" segment={segment} />
 </BaseLayout>
 
 <script>

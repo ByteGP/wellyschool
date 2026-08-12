@@ -54,7 +54,7 @@ test.describe('teacher current-entry selection (Pacific/Auckland)', () => {
     const page = await context.newPage();
     await page.goto('/teacher/kids/');
     await expect(page.getByText('Choose the correct Sunday from the schedule below.')).toBeVisible();
-    await expect(page.getByRole('link', { name: /Jesus Calms the Storm/ })).toBeVisible();
+    await expect(page.getByRole('link', { name: /Jesus Calms the Storm/ }).first()).toBeVisible();
     await context.close();
   });
 });

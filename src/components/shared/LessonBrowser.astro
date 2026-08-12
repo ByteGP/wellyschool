@@ -1,0 +1,127 @@
+---
+// Browse, search, and filter every public lesson for a segment. All lessons
+// render statically (works without JavaScript); a small script filters rows
+// client-side by text and series. Built to stay usable at 420 lessons.
+import { getPublicLessonsBySegment } from '../../lib/content/loader';
+import { CONTENT_MODE } from '../../lib/content/site';
+import type { Segment } from '../../lib/content/segments';
+import { slugFromSegment } from '../../lib/content/segments';
+
+interface Props {
+  role: 'teacher' | 'family';
+  segment: Segment;
+}
+
+const { role, segment } = Astro.props;
+const slug = slugFromSegment(segment);
+const lessons = getPublicLessonsBySegment(segment, CONTENT_MODE);
+
+const rows = lessons.map((lesson) => {
+  const passages = lesson.core.passages.map((passage) => passage.reference).join('; ');
+  const searchIndex = [
+    lesson.curriculum.title,
+    lesson.family.title,
+    passages,
+    lesson.core.big_idea,
+    lesson.curriculum.cycle_name,
+    ...(lesson.core.key_terms ?? []),
+    ...lesson.core.doctrine_tags,
+    ...lesson.core.formation_tags,
+  ]
+    .join(' ')
+    .toLowerCase();
+  return {
+    id: lesson.lesson_id,
+    url: `/${role}/${slug}/${lesson.lesson_id.toLowerCase()}/`,
+    title: lesson.curriculum.title,
+    passages,
+    sequence: lesson.curriculum.sequence,
+    cycleId: lesson.curriculum.cycle_id,
+    cycleName: lesson.curriculum.cycle_name,
+    searchIndex,
+  };
+});
+
+const cycles = [...new Map(rows.map((row) => [row.cycleId, row.cycleName])).entries()];
+---
+
+{
+  rows.length > 0 && (
+    <section aria-labelledby="all-lessons-heading" data-lesson-browser>
+      <h2 id="all-lessons-heading">All {segment} lessons</h2>
+      <div class="search-row" hidden data-lesson-controls>
+        <label class="visually-hidden" for="lesson-search">
+          Search lessons
+        </label>
+        <input
+          id="lesson-search"
+          type="search"
+          placeholder="Search by title, passage, or topic"
+          data-lesson-search
+        />
+        {cycles.length > 1 && (
+          <>
+            <label class="visually-hidden" for="lesson-cycle">
+              Filter by series
+            </label>
+            <select id="lesson-cycle" data-lesson-cycle>
+              <option value="">All series</option>
+              {cycles.map(([cycleId, cycleName]) => (
+                <option value={cycleId}>{cycleName}</option>
+              ))}
+            </select>
+          </>
+        )}
+      </div>
+      <ul class="choice-list" data-lesson-list>
+        {rows.map((row) => (
+          <li data-search={row.searchIndex} data-cycle={row.cycleId}>
+            <a href={row.url}>
+              <span class="choice-body">
+                <span class="choice-title">{row.title}</span>
+                <span class="choice-hint">
+                  {row.passages} · Lesson {row.sequence} · {row.cycleName}
+                </span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p class="notice" data-lesson-empty hidden aria-live="polite">
+        No lessons match. Try a different word, or clear the search.
+      </p>
+    </section>
+  )
+}
+
+<script>
+  const browser = document.querySelector<HTMLElement>('[data-lesson-browser]');
+
+  if (browser) {
+    const controls = browser.querySelector<HTMLElement>('[data-lesson-controls]');
+    const search = browser.querySelector<HTMLInputElement>('[data-lesson-search]');
+    const cycle = browser.querySelector<HTMLSelectElement>('[data-lesson-cycle]');
+    const rows = [...browser.querySelectorAll<HTMLLIElement>('[data-lesson-list] > li')];
+    const empty = browser.querySelector<HTMLElement>('[data-lesson-empty]');
+
+    const apply = () => {
+      const query = (search?.value ?? '').trim().toLowerCase();
+      const words = query.split(/\s+/).filter(Boolean);
+      const selectedCycle = cycle?.value ?? '';
+      let visible = 0;
+      for (const row of rows) {
+        const index = row.dataset.search ?? '';
+        const matchesText = words.every((word) => index.includes(word));
+        const matchesCycle = !selectedCycle || row.dataset.cycle === selectedCycle;
+        const show = matchesText && matchesCycle;
+        row.hidden = !show;
+        if (show) visible += 1;
+      }
+      if (empty) empty.hidden = visible > 0;
+    };
+
+    if (controls) controls.hidden = false;
+    search?.addEventListener('input', apply);
+    cycle?.addEventListener('change', apply);
+  }
+</script>
