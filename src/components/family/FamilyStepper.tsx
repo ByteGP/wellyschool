@@ -160,7 +160,7 @@ export default function FamilyStepper({ vm }: { vm: FamilyViewModel }) {
       ) : (
         <article className="card card--primary">
           <h2 tabIndex={-1} ref={headingRef}>
-            Well done — lesson complete
+            Well done! Lesson complete
           </h2>
           <p className="lede">{vm.bigIdea}</p>
           <dl className="kv">

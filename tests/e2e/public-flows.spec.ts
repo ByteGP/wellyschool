@@ -9,7 +9,7 @@ test.describe('landing and navigation', () => {
     await page.goto('/');
     await page.getByRole('link', { name: /I'm teaching on Sunday/ }).click();
     await expect(page).toHaveURL(/\/teacher\/$/);
-    await page.getByRole('link', { name: /Kids/ }).click();
+    await page.locator('main').getByRole('link', { name: /Kids/ }).click();
     await expect(page).toHaveURL(/\/teacher\/kids\/$/);
     await expect(page.getByRole('heading', { level: 1 })).toContainText('Kids');
   });
@@ -54,7 +54,7 @@ test.describe('family current-entry selection', () => {
     await page.goto('/family/kids/?today=2026-08-19');
     const card = page.locator('[data-entry-card="2026-08-16-kids"]');
     await expect(card).toBeVisible();
-    await expect(card.getByRole('link', { name: /Start the 15-minute lesson/ })).toBeVisible();
+    await expect(card.getByRole('link', { name: /Start the 15-minute devotional/ })).toBeVisible();
   });
 
   test('break week shows break message and a link to review the previous lesson', async ({
@@ -76,13 +76,21 @@ test.describe('family current-entry selection', () => {
 });
 
 test.describe('teacher lesson page', () => {
-  test('direct route renders the correct lesson with zero-prep card first', async ({ page }) => {
+  test('direct route renders the correct lesson with the teaching outline first', async ({
+    page,
+  }) => {
     await page.goto('/teacher/kids/k1-l19/');
     await expect(page.getByRole('heading', { level: 1 })).toContainText('Jesus Calms the Storm');
-    await expect(page.getByRole('heading', { name: 'Teach now' })).toBeVisible();
+    // The in-class section is prominent and expanded.
+    await expect(page.getByRole('heading', { name: 'Teach the lesson' })).toBeVisible();
     await expect(page.getByText('Mark 4:35-41').first()).toBeVisible();
-    // Safeguarding alert is visible, not collapsed.
-    await expect(page.getByRole('heading', { name: 'Safeguarding' })).toBeVisible();
+    // The suggested lesson plan is collapsed until the teacher opens it.
+    const suggestion = page.getByText('Teaching suggestion: one way to run this lesson');
+    await expect(suggestion).toBeVisible();
+    await suggestion.click();
+    await expect(page.getByRole('heading', { name: 'Teach now' })).toBeVisible();
+    // Safeguarding content is not displayed on the page.
+    await expect(page.getByRole('heading', { name: 'Safeguarding' })).toHaveCount(0);
   });
 
   test('profile switching changes the outline and persists locally', async ({ page }) => {
@@ -106,8 +114,10 @@ test.describe('teacher lesson page', () => {
     const context = await browser.newContext({ javaScriptEnabled: false });
     const page = await context.newPage();
     await page.goto('/teacher/kids/k1-l19/');
-    await expect(page.getByRole('heading', { name: 'Teach now' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Teach the lesson' })).toBeVisible();
     await expect(page.getByRole('heading', { name: /Standard · 40 minutes/ })).toBeVisible();
+    // The suggested plan stays reachable without JavaScript via its collapsed section.
+    await expect(page.getByText('Teaching suggestion: one way to run this lesson')).toBeVisible();
     // Other profiles remain reachable through collapsed details.
     await expect(page.locator('details[data-profile-panel="essential"] summary')).toBeVisible();
     await context.close();

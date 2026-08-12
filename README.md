@@ -117,8 +117,17 @@ reviews still apply.
 - E2E tests run locally (and can be added to CI later); the CI `quality` gate
   runs validation, type-check, unit tests, and build.
 - No offline support by design (ADR-010); no service worker.
-- Branding (name, colors, logo) is placeholder — change the CSS custom
-  properties in `src/styles/global.css` and `site.json` after the pilot.
+- Branding follows the Wellington Church of Christ visual identity (shared with
+  the church calendar app): warm canvas, steel-blue accent, church mark favicon.
+  Tokens live in `src/styles/global.css`.
+- Safeguarding guidance is present in the lesson data and validated, but is not
+  displayed on the public teacher page (owner decision, 2026-08-12). Restore the
+  `SafeguardingAlert` component on the lesson page if that changes.
+- Footer shows the release version from `package.json` (major.minor.patch).
+  Bump it with every user-visible change: patch for fixes and copy, minor for
+  features, major for content-contract or workflow changes.
+- A style rule (`scripts/check-style.mjs`, part of `validate:content`) bans em
+  dashes, en dashes, and ellipsis characters in all content and source.
 
 ## Release checklist
 

@@ -21,8 +21,12 @@ const profiles = [
 const defaultProfile = 'standard';
 ---
 
-<section class="card" aria-labelledby="profiles-heading" data-profile-switcher>
-  <h2 id="profiles-heading">Lesson length</h2>
+<section class="card card--primary" aria-labelledby="profiles-heading" data-profile-switcher>
+  <h2 id="profiles-heading">Teach the lesson</h2>
+  <p class="lede">
+    Use this outline during class. Pick the lesson length that fits how long you want to teach,
+    and the timed plan updates to match.
+  </p>
   <div class="segmented" role="group" aria-label="Choose lesson length" hidden data-profile-buttons>
     {
       profiles.map(({ name, data }) => (

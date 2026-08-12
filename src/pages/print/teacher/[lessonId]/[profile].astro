@@ -27,7 +27,7 @@ const vm = toPrintTeacherViewModel(lesson, profile);
 const backHref = `/teacher/${slugFromSegment(lesson.curriculum.segment)}/${vm.lessonId.toLowerCase()}/`;
 ---
 
-<PrintLayout title={`${vm.title} — Teacher (${vm.profileLabel})`} backHref={backHref} backLabel="Back to lesson">
+<PrintLayout title={`${vm.title} - Teacher (${vm.profileLabel})`} backHref={backHref} backLabel="Back to lesson">
   <h1>{vm.title}</h1>
   <p class="print-meta">
     {vm.segment} (ages {vm.ageRange}) · {vm.passages.join('; ')} · {vm.profileLabel} ·

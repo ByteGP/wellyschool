@@ -13,8 +13,11 @@ const { segment: slug } = Astro.params;
 const segment = segmentFromSlug(slug)!;
 ---
 
-<BaseLayout title={`Teacher · ${segment}`} section="teacher" description={`This Sunday's ${segment} lesson.`}>
-  <h1>{segment} — Teacher</h1>
+<BaseLayout title={`Teachers · ${segment}`} section="teacher" description={`This Sunday's ${segment} lesson.`}>
+  <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
+    <a class="back-link" href="/teacher/">&larr; Back to all groups</a>
+  </nav>
+  <h1>{segment} | Teachers</h1>
   <CurrentEntryCard role="teacher" segment={segment} />
 </BaseLayout>
 

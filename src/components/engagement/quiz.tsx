@@ -99,7 +99,7 @@ export function SequenceQuestion({ question }: { question: QuestionOf<'sequence'
 export function SelfCheckQuestion({ question }: { question: QuestionOf<'scenario' | 'short_answer'> }) {
   const [showModel, setShowModel] = useState(false);
 
-  // A model answer for self-comparison — deliberately not scored.
+  // A model answer for self-comparison - deliberately not scored.
   return (
     <fieldset className="card" style={{ padding: 'var(--space-4)' }}>
       <legend className="outline-label">{question.question}</legend>

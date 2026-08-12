@@ -74,7 +74,7 @@ function PairsPuzzle({
                 clearFeedback();
               }}
             >
-              <option value="">Choose…</option>
+              <option value="">Choose</option>
               {puzzle.choices.map((choice) => (
                 <option key={choice} value={choice}>
                   {choice}
@@ -136,7 +136,7 @@ export function SortPuzzle({ puzzle }: { puzzle: PuzzleOf<'sort'> }) {
                 clearFeedback();
               }}
             >
-              <option value="">Choose a group…</option>
+              <option value="">Choose a group</option>
               {puzzle.groups.map((group) => (
                 <option key={group.label} value={group.label}>
                   {group.label}

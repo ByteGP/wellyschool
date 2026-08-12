@@ -1,25 +1,34 @@
 /* Design system: restrained, accessible, mobile-first. Branding placeholder-ready:
    change the custom properties, not the components. */
 :root {
-  /* Palette — placeholder branding, WCAG AA contrast on white. */
-  --color-bg: #fafaf8;
+  /* Palette - Wellington Church of Christ visual identity (shared with the
+     church calendar app): warm off-white canvas, steel-blue accent, warm inks. */
+  --color-bg: #f7f6f3;
   --color-surface: #ffffff;
-  --color-text: #1f2933;
-  --color-muted: #52606d;
-  --color-primary: #14557b;
-  --color-primary-strong: #0e3f5c;
+  --color-surface-sunken: #f1efeb;
+  --color-text: #262522;
+  --color-muted: #524f49;
+  --color-muted-soft: #87837a;
+  --color-primary: #3b6391;
+  --color-primary-strong: #2a4a70;
+  --color-primary-soft: #c7d7e9;
   --color-primary-contrast: #ffffff;
-  --color-accent: #8a5a00;
-  --color-border: #d3d9de;
-  --color-focus: #b35c00;
-  --color-alert-bg: #fdf3e7;
-  --color-alert-border: #b35c00;
-  --color-ok: #1e6b40;
-  --color-ok-bg: #e9f5ee;
-  --color-info-bg: #eef4f8;
+  --color-accent: #855c15;
+  --color-border: #e6e3dd;
+  --color-border-strong: #d5d1c9;
+  --color-focus: #3b6391;
+  --color-alert-bg: #f8f0e1;
+  --color-alert-border: #c48a2f;
+  --color-ok: #35754d;
+  --color-ok-bg: #e9f3ed;
+  --color-info-bg: #edf2f8;
 
-  /* Type scale — large readable text. */
-  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  /* Elevation - soft layered shadows over the warm canvas. */
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.04), 0 8px 24px -12px rgb(0 0 0 / 0.12);
+  --shadow-raised: 0 4px 12px -2px rgb(0 0 0 / 0.08), 0 16px 40px -16px rgb(0 0 0 / 0.18);
+
+  /* Type scale - large readable text, SF Pro / Inter first. */
+  --font-body: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', system-ui, sans-serif;
   --text-sm: 0.875rem;
   --text-base: 1.0625rem;
   --text-lg: 1.25rem;
@@ -34,8 +43,8 @@
   --space-5: 1.5rem;
   --space-6: 2rem;
   --space-7: 3rem;
-  --radius: 10px;
-  --radius-sm: 6px;
+  --radius: 16px;
+  --radius-sm: 12px;
   --tap-target: 44px;
   --content-width: 46rem;
 }
@@ -58,6 +67,26 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   font-size: var(--text-base);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Ambient background: soft accent blooms behind the content, matching the
+   church calendar app. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(55rem 38rem at 12% -6%, rgb(59 99 145 / 0.1), transparent 60%),
+    radial-gradient(48rem 36rem at 104% 6%, rgb(59 99 145 / 0.07), transparent 58%);
+}
+
+::selection {
+  background-color: var(--color-primary-soft);
+  color: var(--color-text);
 }
 
 h1,
@@ -117,8 +146,25 @@ a:hover {
 }
 
 .site-header {
-  background: var(--color-surface);
-  border-bottom: 1px solid var(--color-border);
+  background: rgb(255 255 255 / 0.72);
+  backdrop-filter: blur(20px) saturate(155%);
+  -webkit-backdrop-filter: blur(20px) saturate(155%);
+  border-bottom: 1px solid rgb(230 227 221 / 0.7);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.site-header__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  text-decoration: none;
+}
+
+.site-header__brand svg {
+  flex-shrink: 0;
+  border-radius: 8px;
 }
 
 .site-header__inner {
@@ -185,10 +231,12 @@ main {
   border-radius: var(--radius);
   padding: var(--space-5);
   margin-bottom: var(--space-5);
+  box-shadow: var(--shadow-card);
 }
 
 .card--primary {
   border: 2px solid var(--color-primary);
+  box-shadow: var(--shadow-raised);
 }
 
 .eyebrow {
@@ -205,7 +253,7 @@ main {
   color: var(--color-muted);
 }
 
-/* Buttons and controls — generous tap targets everywhere. */
+/* Buttons and controls - generous tap targets everywhere. */
 .button,
 button {
   font: inherit;
@@ -346,12 +394,32 @@ button {
   margin-bottom: var(--space-4);
 }
 
+/* Prominent back link / breadcrumb */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--tap-target);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  border-color: var(--color-primary);
+}
+
 /* Details / expandable preparation sections */
 details.section {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   margin-bottom: var(--space-3);
+  box-shadow: var(--shadow-card);
 }
 
 details.section > summary {

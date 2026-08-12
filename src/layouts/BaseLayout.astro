@@ -1,12 +1,13 @@
 ---
 import '../styles/global.css';
 import { getSiteSettings } from '../lib/content/loader';
-import { CONTENT_MODE, NOINDEX } from '../lib/content/site';
+import { NOINDEX } from '../lib/content/site';
+import pkg from '../../package.json';
 
 interface Props {
   title: string;
   description?: string;
-  /** 'teacher' | 'family' | undefined — highlights the section in the header. */
+  /** 'teacher' | 'family' | undefined: highlights the section in the header. */
   section?: 'teacher' | 'family';
   noindex?: boolean;
 }
@@ -14,6 +15,7 @@ interface Props {
 const { title, description, section, noindex } = Astro.props;
 const settings = getSiteSettings();
 const blockIndexing = NOINDEX || noindex === true;
+const version = pkg.version;
 ---
 
 <!doctype html>
@@ -24,35 +26,44 @@ const blockIndexing = NOINDEX || noindex === true;
     <title>{title} · {settings.site_name}</title>
     {description && <meta name="description" content={description} />}
     {blockIndexing && <meta name="robots" content="noindex,nofollow" />}
-    <meta name="theme-color" content="#14557b" />
+    <meta name="theme-color" content="#f7f6f3" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="site-header__inner">
-        <a class="site-header__name" href="/">{settings.site_name}</a>
+        <a class="site-header__brand site-header__name" href="/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            width="28"
+            height="28"
+            aria-hidden="true"
+          >
+            <rect width="24" height="24" rx="6" fill="#3B6391"></rect>
+            <path
+              d="M12 4v5M9.5 6.5h5M5.5 20v-9L12 7l6.5 4v9M5.5 20h13M10 20v-4h4v4"
+              stroke="#FAFAF8"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+          <span>{settings.site_name}</span>
+        </a>
         <nav class="site-nav" aria-label="Main">
-          <a href="/teacher/" aria-current={section === 'teacher' ? 'true' : undefined}>Teacher</a>
-          <a href="/family/" aria-current={section === 'family' ? 'true' : undefined}>Family</a>
+          <a href="/teacher/" aria-current={section === 'teacher' ? 'true' : undefined}>Teachers</a>
+          <a href="/family/" aria-current={section === 'family' ? 'true' : undefined}>Parents</a>
         </nav>
       </div>
     </header>
-    {
-      CONTENT_MODE === 'preview' && (
-        <div class="notice" role="note" style="max-width: var(--content-width); margin: var(--space-3) auto 0; padding-inline: var(--space-4);">
-          <strong>Preview build.</strong> Draft content is visible for the team pilot and is not
-          published to the production site.
-        </div>
-      )
-    }
     <main id="main">
       <slot />
     </main>
     <footer class="site-footer">
       <div class="site-footer__inner">
-        <p>
-          {settings.site_name} · No accounts, no tracking. Lessons are reviewed before publication.
-        </p>
+        <p>Wellington Church of Christ | Sunday School Lessons | v{version}</p>
       </div>
     </footer>
   </body>

@@ -1,6 +1,6 @@
 ---
 // Family lesson route. The client island receives only the sanitized Family
-// view model — never the full lesson object (brief §6, acceptance H).
+// view model - never the full lesson object (brief §6, acceptance H).
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import FamilyStepper from '../../../components/family/FamilyStepper.tsx';
 import { getPublicLessons } from '../../../lib/content/loader';
@@ -36,17 +36,15 @@ const stepNames: Record<string, string> = {
 };
 ---
 
-<BaseLayout title={`${vm.familyTitle} · Family`} section="family" description={vm.bigIdea}>
-  <nav aria-label="Breadcrumb">
-    <p class="meta-row" style="margin-bottom: var(--space-3);">
-      <a href={`/family/${slug}/`}>&larr; {vm.segment} family time</a>
-    </p>
+<BaseLayout title={`${vm.familyTitle} · Parents`} section="family" description={vm.bigIdea}>
+  <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
+    <a class="back-link" href={`/family/${slug}/`}>&larr; Back to {vm.segment} devotionals</a>
   </nav>
 
   <header>
     <p class="eyebrow">
       {vm.segment} · About {vm.durationMinutes} minutes
-      {isDraft && <span class="badge badge--draft">Draft — not yet approved</span>}
+      {isDraft && <span class="badge badge--draft">Draft: not yet approved</span>}
     </p>
     <h1>{vm.familyTitle}</h1>
     <p class="lede">{vm.parentIntro}</p>
@@ -83,7 +81,7 @@ const stepNames: Record<string, string> = {
 
   <section class="actions" aria-label="Print">
     <a class="button button--secondary" href={`/print/family/${vm.lessonId.toLowerCase()}/`}>
-      Print the family guide
+      Print the parent guide
     </a>
   </section>
 </BaseLayout>

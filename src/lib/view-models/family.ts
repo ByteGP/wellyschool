@@ -1,5 +1,5 @@
 // Family view model: title, passage references, big idea, Family flow, quiz
-// and puzzle data, parent note, and family action — nothing else.
+// and puzzle data, parent note, and family action - nothing else.
 //
 // Explicitly excluded (brief section 6): Teacher preparation, review state,
 // claim alternatives, safeguarding internals, and source provenance. This

@@ -16,7 +16,7 @@ export function Feedback({ state }: { state: FeedbackState }) {
           className={`feedback ${state.verdict === 'correct' ? 'feedback--correct' : 'feedback--retry'}`}
         >
           <span className="feedback-verdict">
-            {state.verdict === 'correct' ? 'Correct. ' : 'Not yet — have another look. '}
+            {state.verdict === 'correct' ? 'Correct. ' : 'Not yet. Have another look. '}
           </span>
           {state.detail}
         </p>
@@ -33,7 +33,7 @@ interface OrderableListProps {
 
 /**
  * Reorderable list without drag: every item moves with Up/Down buttons
- * (WCAG 2.2 — no drag-only interaction).
+ * (WCAG 2.2 - no drag-only interaction).
  */
 export function OrderableList({ label, items, onChange }: OrderableListProps) {
   const baseId = useId();

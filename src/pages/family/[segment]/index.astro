@@ -14,11 +14,14 @@ const segment = segmentFromSlug(slug)!;
 ---
 
 <BaseLayout
-  title={`Family · ${segment}`}
+  title={`Parents · ${segment}`}
   section="family"
-  description={`This week's ${segment} family lesson — about 15 minutes.`}
+  description={`This week's ${segment} devotional for parents - about 15 minutes.`}
 >
-  <h1>{segment} — Family time</h1>
+  <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
+    <a class="back-link" href="/family/">&larr; Back to all groups</a>
+  </nav>
+  <h1>{segment} | Parents</h1>
   <p class="lede">About 15 minutes, whenever suits your family this week.</p>
   <CurrentEntryCard role="family" segment={segment} />
 </BaseLayout>
