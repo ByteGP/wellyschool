@@ -10,7 +10,7 @@
     "dev": "astro dev",
     "check": "astro check",
     "generate:types": "node scripts/generate-types.mjs",
-    "validate:content": "node scripts/validate-content.mjs && node scripts/check-style.mjs",
+    "validate:content": "node scripts/prune-content.mjs && node scripts/validate-content.mjs && node scripts/check-style.mjs",
     "test": "vitest run",
     "test:e2e": "playwright test",
     "build": "npm run validate:content && astro build",
