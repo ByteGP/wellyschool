@@ -2,11 +2,23 @@
   command = "npm run build"
   publish = "dist"
 
+[build.environment]
+  NODE_VERSION = "22.23.2"
+  # Production renders approved content only (ADR-011).
+  CONTENT_MODE = "production"
+
 [context.deploy-preview]
   command = "npm run build"
 
+[context.deploy-preview.environment]
+  # Deploy Previews render draft seed content for the team pilot (ADR-011).
+  CONTENT_MODE = "preview"
+
 [context.branch-deploy]
   command = "npm run build"
+
+[context.branch-deploy.environment]
+  CONTENT_MODE = "preview"
 
 [[headers]]
   for = "/*"

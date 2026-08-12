@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: __GITHUB_OWNER__/__REPOSITORY__
+  repo: ByteGP/wellyschool
   branch: main
   auth_scope: repo
   squash_merges: true
