@@ -11,14 +11,14 @@ import {
 } from '../../src/lib/content/loader';
 
 describe('content loader (real repository content)', () => {
-  it('loads the six seed lessons with unique ids', () => {
+  it('loads the twelve lessons with unique ids', () => {
     const lessons = getAllLessons();
-    expect(lessons).toHaveLength(6);
-    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(6);
+    expect(lessons).toHaveLength(12);
+    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(12);
   });
 
-  it('loads the eleven printable resources and resolves every printable reference', () => {
-    expect(getAllResources()).toHaveLength(11);
+  it('loads the seventeen printable resources and resolves every printable reference', () => {
+    expect(getAllResources()).toHaveLength(17);
     for (const lesson of getAllLessons()) {
       for (const printable of lesson.engagement.printables) {
         expect(getResourceById(printable.resource_id), printable.resource_id).toBeDefined();
@@ -27,14 +27,14 @@ describe('content loader (real repository content)', () => {
   });
 
   it('hides draft seed lessons from production mode (governance boundary)', () => {
-    // All six seeds ship as vertical_slice_draft; production must not render them.
+    // Seeds are vertical_slice_draft and batch 01 is in_review; production renders none.
     expect(getPublicLessons('production')).toHaveLength(0);
-    expect(getPublicLessons('preview')).toHaveLength(6);
+    expect(getPublicLessons('preview')).toHaveLength(12);
   });
 
   it('groups lessons by segment in sequence order for preview builds', () => {
     const kids = getPublicLessonsBySegment('Kids', 'preview');
-    expect(kids.map((lesson) => lesson.lesson_id)).toEqual(['K5-L13', 'K1-L19']);
+    expect(kids.map((lesson) => lesson.lesson_id)).toEqual(['K1-L01', 'K1-L02', 'K5-L13', 'K1-L19']);
     expect(kids[0].curriculum.sequence).toBeLessThan(kids[1].curriculum.sequence);
   });
 

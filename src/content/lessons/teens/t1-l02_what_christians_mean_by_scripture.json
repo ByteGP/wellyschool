@@ -1,0 +1,659 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L02",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 2,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "What Christians Mean by Scripture",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Bibliology"
+  },
+  "core": {
+    "big_idea": "Scripture's authority must be articulated from the texts themselves while recognising questions of canon and interpretation.",
+    "passages": [
+      {
+        "reference": "2 Timothy 3:14-17",
+        "role": "primary",
+        "reading_note": "Read the full paragraph and note the relationship among teachers, sacred writings, Christ, Scripture, formation, and good work."
+      },
+      {
+        "reference": "2 Peter 1:16-21",
+        "role": "primary",
+        "reading_note": "Read from the eyewitness discussion into the statement about prophecy."
+      },
+      {
+        "reference": "Acts 17:10-12",
+        "role": "supporting",
+        "reading_note": "Use as an example of receiving teaching eagerly while testing it."
+      }
+    ],
+    "metanarrative_position": "Method and doctrine: the apostolic writings describe Scripture as divine communication received, interpreted, and obeyed by accountable human communities.",
+    "biblical_genre": "Pastoral and general epistles with narrative comparison",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Second Timothy describes Scripture as God-breathed and useful for teaching, correction, training, and equipping.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Timothy 3:16-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Second Peter says prophecy did not arise from human will alone; people spoke from God as carried by the Holy Spirit.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Peter 1:20-21"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The curriculum treats canonical Scripture as the primary and final doctrinal authority while recognising that interpretation remains a human responsibility.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "2 Timothy 3:14-17",
+          "2 Peter 1:19-21",
+          "Acts 17:10-12"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "These passages do not by themselves identify every book in the later sixty-six-book canon or remove the need for historical study of canonical recognition.",
+        "classification": "historical_context",
+        "evidence_refs": [
+          "2 Timothy 3:14-17",
+          "2 Peter 1:19-21"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "prohibited_overstatement": "Do not claim that a later table of contents appears directly in these verses."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "This curriculum uses the sixty-six-book Protestant canon and may consult other ancient texts for context without allowing them independently to establish doctrine.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Luke 24:44",
+          "Romans 3:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Catholic and Orthodox traditions receive additional books with differing levels of authority.",
+        "interpretive_hinge": "The relationship among Jewish Scripture collections, apostolic use, canon lists, ecclesial reception, and doctrinal authority.",
+        "prohibited_overstatement": "Do not caricature other canons or pretend canon history is uncomplicated."
+      }
+    ],
+    "doctrine_tags": [
+      "scripture",
+      "inspiration",
+      "canon",
+      "authority"
+    ],
+    "formation_tags": [
+      "humility",
+      "study",
+      "obedience"
+    ],
+    "interpretation_skill": "Audit claims by direct text, canonical synthesis, historical evidence, and unresolved questions.",
+    "key_terms": [
+      "inspiration",
+      "authority",
+      "canon",
+      "prophecy",
+      "interpretation"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain what the two primary passages say about Scripture and prophecy without overstating what they settle.",
+    "extension_objective": "Defend the curriculum's authority framework while naming the distinct historical question of canon recognition and the ongoing responsibility of interpretation.",
+    "know": [
+      "Second Timothy describes Scripture as God-breathed and useful.",
+      "Second Peter links prophecy to the Holy Spirit rather than human will alone.",
+      "The curriculum uses a sixty-six-book canon."
+    ],
+    "understand": [
+      "Divine authority and human interpretation are not the same claim.",
+      "A doctrine of Scripture and a history of the canon overlap but are not identical questions.",
+      "Confidence should be proportionate to evidence."
+    ],
+    "practise": [
+      "Audit a claim for direct support and overstatement.",
+      "State one unresolved historical question without treating it as a threat."
+    ],
+    "become": [
+      "A student who receives Scripture as authoritative while handling interpretive and historical questions honestly."
+    ],
+    "success_evidence": [
+      "The student explains both primary passages in context.",
+      "The student distinguishes inspiration from canon-list history.",
+      "The student identifies one credible alternative without caricature."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 20,
+    "zero_prep_card": {
+      "objective": "Students explain what Christians mean by Scripture's authority and what the key passages do not settle by themselves.",
+      "read": "2 Timothy 3:14-17 and 2 Peter 1:16-21",
+      "opening": "Ask: What is the difference between saying a source has authority and saying that every reader interprets it correctly?",
+      "say": [
+        "Second Timothy calls Scripture God-breathed and useful for formation and good work.",
+        "Second Peter says prophecy did not originate merely in human will.",
+        "The curriculum receives canonical Scripture as final doctrinal authority.",
+        "Canon recognition and interpretation still require historical and exegetical work; authority is not a shortcut around careful reasoning."
+      ],
+      "ask": [
+        "What does each passage directly claim?",
+        "What does “God-breathed” contribute to the argument?",
+        "What questions about canon are not answered by these verses alone?",
+        "How can confidence and humility coexist?"
+      ],
+      "do": "Audit two claims using the Scripture Authority Claim Audit.",
+      "close": "Pray for receptive hearts, disciplined minds, and humility before God's word.",
+      "materials": [
+        "Bible",
+        "Scripture Authority Claim Audit",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Second Timothy links sacred writings to Timothy's upbringing, salvation through Christ, formation, and ministry equipment. Second Peter defends apostolic witness and prophetic reliability in a contested setting. Both passages make substantial claims but are not stand-alone canon-history manuals.",
+      "text_observations": [
+        "Second Timothy uses “all Scripture” within a paragraph that begins with Timothy's learned sacred writings.",
+        "Second Peter contrasts invented myths and private human production with eyewitness testimony and Spirit-carried prophecy.",
+        "Neither text gives a later canonical table of contents."
+      ],
+      "interpretation_notes": [
+        "Authority refers to Scripture's normative role; it does not make an interpreter or institution automatically infallible.",
+        "The sixty-six-book operative canon is a governed framework decision that requires historical defence elsewhere.",
+        "Noncanonical ancient sources can be useful evidence without becoming doctrinal authority."
+      ],
+      "theological_guardrails": [
+        "Do not rely on a later creed as the sole foundation for Scripture's authority.",
+        "Do not claim that all interpretive disputes are equally plausible.",
+        "Do not hide genuine canon-history questions from older students."
+      ],
+      "likely_questions": [
+        {
+          "question": "Does “all Scripture” include the New Testament?",
+          "purpose": "Explain the immediate reference and the wider process by which apostolic writings were recognised; do not pretend the verse alone supplies the final list."
+        },
+        {
+          "question": "Why do Catholic and Orthodox Bibles have more books?",
+          "purpose": "Name differing canon histories and say a later lesson should examine the evidence rather than mocking the difference."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read each passage in its full paragraph and list direct claims before discussing doctrine.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Distinguish inspiration, authority, canon, and interpretation; audit what the texts establish and leave open.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Scripture Authority Claim Audit.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L02-P01-authority-claim-audit"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker, audience, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read each passage in its full paragraph and list direct claims before discussing doctrine.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Distinguish inspiration, authority, canon, and interpretation; audit what the texts establish and leave open.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Scripture Authority Claim Audit.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L02-P01-authority-claim-audit"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Longer session with deeper observation, comparison, and assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read each passage in its full paragraph and list direct claims before discussing doctrine.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Distinguish inspiration, authority, canon, and interpretation; audit what the texts establish and leave open.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Scripture Authority Claim Audit.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L02-P01-authority-claim-audit"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Compare the framework summary and a credible alternative without caricature.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What direct claims does each primary passage make?",
+        "purpose": "Text observation",
+        "foundation_prompt": "List God-breathed, useful, not from human will, carried by Spirit.",
+        "extension_prompt": "Relate each claim to its paragraph."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What is the difference between inspiration, authority, canon, and interpretation?",
+        "purpose": "Conceptual distinction",
+        "foundation_prompt": "Define each simply.",
+        "extension_prompt": "Explain how they relate without collapsing them."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What does the passage not settle by itself?",
+        "purpose": "Epistemic restraint",
+        "foundation_prompt": "It does not list all sixty-six books.",
+        "extension_prompt": "Name the historical evidence still needed."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How should a curriculum present a framework position and a credible alternative?",
+        "purpose": "Fairness and method",
+        "foundation_prompt": "State both accurately.",
+        "extension_prompt": "Identify interpretive hinge and prohibited overstatement."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Scripture Authority Claim Audit",
+        "duration_minutes": 12,
+        "materials": [
+          "Audit worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Select two claims.",
+          "Record direct textual evidence.",
+          "Record wider synthesis.",
+          "Name what remains unresolved.",
+          "Write a careful conclusion."
+        ],
+        "learning_link": "Practises evidence-proportionate doctrinal reasoning.",
+        "low_resource_alternative": "Audit one claim together on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Canon Conversation Simulation",
+        "duration_minutes": 10,
+        "materials": [
+          "Two short position summaries supplied by teacher"
+        ],
+        "steps": [
+          "Read the sixty-six-book framework summary.",
+          "Read a concise credible alternative.",
+          "State each view without caricature.",
+          "Identify what evidence would need further study."
+        ],
+        "learning_link": "Builds honest comparison without requiring premature resolution of all canon-history evidence.",
+        "low_resource_alternative": "Teacher summarises both views orally and students identify shared and disputed claims."
+      }
+    ],
+    "closing": {
+      "memory_reference": "2 Timothy 3:16-17",
+      "prayer_prompt": "Ask to be taught, corrected, trained, and equipped by Scripture.",
+      "take_home_line": "Receive Scripture as authority; interpret it with evidence and humility."
+    },
+    "printable_refs": [
+      "T1-L02-P01-authority-claim-audit"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Authority and Humility",
+    "parent_intro": "This study separates what key passages directly say from broader questions of canon and interpretation.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read 2 Timothy 3:14-17 and 2 Peter 1:19-21 in their paragraphs."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "List direct claims, then name one question the passages do not answer by themselves."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Audit one statement: direct text, synthesis, historical claim, or overstatement."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What is Scripture useful for according to Paul?",
+      "Why does authority not eliminate the need for careful interpretation?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Claim Audit",
+      "instructions": "Choose one Christian claim and identify its evidence type and confidence level."
+    },
+    "weekly_action": "During one discussion this week, replace “the Bible clearly says” with the exact reference and a careful explanation.",
+    "prayer": "God, teach and correct us through Scripture. Give us courage to believe and humility to interpret carefully.",
+    "parent_note": "The family does not need to resolve canon history in 15 minutes; identifying the question honestly is enough."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Which phrase appears in 2 Timothy 3:16?",
+        "type": "multiple_choice",
+        "options": [
+          "God-breathed",
+          "Privately invented",
+          "Only emotionally useful"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God-breathed"
+        },
+        "explanation": "Paul uses this description while explaining Scripture's usefulness."
+      },
+      {
+        "question_id": "Q2",
+        "question": "According to 2 Peter 1:21, prophecy was not produced merely by what?",
+        "type": "multiple_choice",
+        "options": [
+          "Human will",
+          "Public reading",
+          "Historical study"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Human will"
+        },
+        "explanation": "The verse contrasts human will with people speaking from God as carried by the Holy Spirit."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: these two passages directly provide a complete sixty-six-book table of contents.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "They make major claims about Scripture and prophecy but do not list the later canon."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which statement best preserves authority and humility?",
+        "type": "multiple_choice",
+        "options": [
+          "Scripture is authoritative, so context and interpretation still matter",
+          "Every sincere reading is infallible",
+          "History and genre are irrelevant"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Scripture is authoritative, so context and interpretation still matter"
+        },
+        "explanation": "Authority does not remove the human responsibility to interpret carefully."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Four Related Questions",
+      "instructions": "Match each term with its question.",
+      "items": [
+        "Inspiration",
+        "Authority",
+        "Canon",
+        "Interpretation"
+      ],
+      "choices": [
+        "How is Scripture related to God's communication?",
+        "What norm governs doctrine and practice?",
+        "Which writings are received as Scripture?",
+        "How should a text be understood in context?"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Inspiration",
+            "answer": "How is Scripture related to God's communication?"
+          },
+          {
+            "prompt": "Authority",
+            "answer": "What norm governs doctrine and practice?"
+          },
+          {
+            "prompt": "Canon",
+            "answer": "Which writings are received as Scripture?"
+          },
+          {
+            "prompt": "Interpretation",
+            "answer": "How should a text be understood in context?"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L02-P01-authority-claim-audit",
+        "title": "Scripture Authority Claim Audit",
+        "purpose": "Evidence audit for inspiration, authority, canon, and interpretation",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen-level theological vocabulary with explicit definitions.",
+    "plain_language_rule": "Define inspiration, authority, canon, and interpretation separately before comparison.",
+    "neurodiversity_supports": [
+      "Provide the four-term grid visually.",
+      "Allow written claim audits.",
+      "Give position summaries in advance for extended discussion."
+    ],
+    "sensory_notes": [
+      "No required performance or sensory activity."
+    ],
+    "non_reader_support": [
+      "Read passages and position summaries aloud.",
+      "Use term-definition cards."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "religious_doubt",
+      "denominational_difference"
+    ],
+    "do_not_ask": [
+      "Do not require students to disclose family denominational background.",
+      "Do not shame a student for asking canon or interpretation questions."
+    ],
+    "teacher_response": "Model confident but bounded answers, name what requires further research, and stop ridicule of other Christian traditions.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L02",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 01 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D002",
+      "D003",
+      "D005"
+    ],
+    "review_flags": [
+      "TH-BIBLIOLOGY",
+      "TH-CANON"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Requires a later primary-source canon-history packet; this lesson deliberately limits historical claims."
+    ]
+  }
+}

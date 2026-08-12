@@ -40,13 +40,15 @@ test.describe('teacher current-entry selection (Pacific/Auckland)', () => {
     await expect(card).toContainText('School holidays');
   });
 
-  test("Father's Day falls in term time, so no break interrupts the schedule", async ({
+  test("Father's Day falls in term time, so a normal class runs that Sunday", async ({
     page,
   }) => {
     await page.goto('/teacher/kids/?today=2026-09-06');
-    await expect(page.locator('[data-entry-card="2026-09-06-kids"]')).toHaveCount(0);
-    // The next scheduled entry is simply the next term-break Sunday.
-    await expect(page.locator('[data-entry-card="2026-09-27-kids"]')).toBeVisible();
+    const card = page.locator('[data-entry-card="2026-09-06-kids"]');
+    await expect(card).toBeVisible();
+    // A lesson entry, not a break or special service.
+    await expect(card.getByRole('link', { name: 'Open the lesson' })).toBeVisible();
+    await expect(card).toContainText("People Bear God's Image");
   });
 
   test('without JavaScript the schedule list is still usable', async ({ browser }) => {

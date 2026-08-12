@@ -1,0 +1,641 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L02",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 2,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Creation and God's Good Rule",
+    "annual_anchor": "creation_and_rule",
+    "thematic_unit": "Creation"
+  },
+  "core": {
+    "big_idea": "Creation establishes God as sovereign Creator and humanity as His image-bearing stewards.",
+    "passages": [
+      {
+        "reference": "Genesis 1:1-31",
+        "role": "primary",
+        "reading_note": "Read the whole chapter in sections, assigning repeated phrases to different readers."
+      },
+      {
+        "reference": "Psalm 8:3-9",
+        "role": "supporting",
+        "reading_note": "Use to explore humanity's dignity and creaturely responsibility."
+      }
+    ],
+    "metanarrative_position": "Creation: God establishes His good rule, human dignity, and human responsibility at the beginning of the biblical story.",
+    "biblical_genre": "Structured creation narrative and Hebrew poetry",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis 1 presents God as sovereign Creator whose speech orders the world.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 1:1-31"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Humanity, male and female, bears God's image and receives responsibility within creation.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 1:26-28"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Creation is repeatedly called good, and the completed creation is called very good.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 1:4",
+          "Genesis 1:10",
+          "Genesis 1:31"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Human dominion should be understood as accountable stewardship under God rather than unrestricted exploitation.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 1:26-28",
+          "Genesis 2:15",
+          "Psalm 24:1"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Christians may compare creation chronologies and mechanisms without making one model a test of salvation or fellowship.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Genesis 1:1-31"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Young-earth, old-earth, literary-framework, and evolutionary-creation readings differ about chronology and mechanism.",
+        "interpretive_hinge": "Genre, sequence, scientific evidence, and the distinction between theological claims and models.",
+        "prohibited_overstatement": "Do not suggest that a student's salvation is determined by a creation chronology held in good faith."
+      }
+    ],
+    "doctrine_tags": [
+      "creation",
+      "image_of_god",
+      "providence",
+      "ethics"
+    ],
+    "formation_tags": [
+      "gratitude",
+      "stewardship",
+      "humility"
+    ],
+    "interpretation_skill": "Separate textual observation, canonical synthesis, and contemporary application.",
+    "key_terms": [
+      "sovereign",
+      "image of God",
+      "stewardship",
+      "genre"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain that Genesis 1 presents God as Creator and people as image-bearing stewards.",
+    "extension_objective": "Classify key claims as observation, synthesis, or application and explain why chronology debates are secondary.",
+    "know": [
+      "Genesis 1 repeatedly presents God speaking and creation responding.",
+      "Humanity bears God's image.",
+      "Creation is described as good."
+    ],
+    "understand": [
+      "Human dignity and responsibility are linked.",
+      "Responsible interpretation does not make Genesis answer questions it does not directly address."
+    ],
+    "practise": [
+      "Label a statement as observation, synthesis, or application.",
+      "Choose one stewardship practice for the week."
+    ],
+    "become": [
+      "A student who receives creation with gratitude, humility, and accountable care."
+    ],
+    "success_evidence": [
+      "The student identifies God as Creator and humanity as image-bearing.",
+      "The student classifies four statements correctly.",
+      "The student explains one responsible application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 20,
+    "zero_prep_card": {
+      "objective": "Students explain God's good rule and humanity's dignity and responsibility in Genesis 1.",
+      "read": "Genesis 1:1-31; Psalm 8:3-9 if time permits",
+      "opening": "Ask: What is the difference between owning something and being trusted to care for it?",
+      "say": [
+        "God speaks and creation responds.",
+        "The chapter repeatedly describes creation as good.",
+        "Human beings bear God's image and receive responsibility.",
+        "The text gives theological foundations; it does not turn every scientific model into a salvation issue."
+      ],
+      "ask": [
+        "What repeated pattern do you notice?",
+        "What does the text say about humans?",
+        "What is direct observation and what is application?",
+        "What would accountable care look like?"
+      ],
+      "do": "Complete the Observation-Inference-Application Grid.",
+      "close": "Pray for gratitude, humility, and responsible care for people and creation.",
+      "materials": [
+        "Bible",
+        "Observation-Inference-Application Grid",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 1 is highly structured and theological. It establishes who creates, the goodness and order of creation, and humanity's identity and vocation. Psalm 8 reflects on human dignity and responsibility under God.",
+      "text_observations": [
+        "God's speech drives the narrative.",
+        "The chapter uses recurring formulas and ordered categories.",
+        "Humanity receives both image-bearing dignity and a task."
+      ],
+      "interpretation_notes": [
+        "Do not assume “dominion” means permission for destructive exploitation.",
+        "Do not pretend the passage is silent about God, order, goodness, or human identity.",
+        "Do not pretend it resolves every modern scientific question in direct technical language."
+      ],
+      "theological_guardrails": [
+        "Affirm God as Creator and humanity as creaturely image-bearers.",
+        "Keep chronology and mechanism debates secondary and non-salvific.",
+        "Distinguish stewardship application from a direct quote."
+      ],
+      "likely_questions": [
+        {
+          "question": "Can someone believe in evolution and be a Christian?",
+          "purpose": "State that Christians hold several models and that the curriculum does not make the mechanism a salvation test."
+        },
+        {
+          "question": "Does dominion mean people can do anything to animals or the environment?",
+          "purpose": "Explain that humans remain accountable to the Creator and are later described as serving and keeping the garden."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 1 in sections, marking repeated actions, evaluations, and the image-bearing commission.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Classify major statements as direct text, canonical synthesis, or application.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Observation-Inference-Application Grid.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L02-P01-observation-inference-grid"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker, audience, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 1 in sections, marking repeated actions, evaluations, and the image-bearing commission.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Classify major statements as direct text, canonical synthesis, or application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Observation-Inference-Application Grid.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L02-P01-observation-inference-grid"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Longer session with deeper observation, comparison, and assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 1 in sections, marking repeated actions, evaluations, and the image-bearing commission.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Classify major statements as direct text, canonical synthesis, or application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Observation-Inference-Application Grid.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L02-P01-observation-inference-grid"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Work through one Stewardship Case and label the final action as prudential judgment.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What repeated actions and evaluations structure Genesis 1?",
+        "purpose": "Observation",
+        "foundation_prompt": "God speaks; it happens; God calls it good.",
+        "extension_prompt": "Explain how repetition communicates authority and order."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What does the text say about humanity?",
+        "purpose": "Observation",
+        "foundation_prompt": "Image, male and female, blessing, responsibility.",
+        "extension_prompt": "Relate identity and vocation without reducing image to one ability."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Which claims are direct, inferred, or applied?",
+        "purpose": "Interpretation",
+        "foundation_prompt": "Use the worksheet labels.",
+        "extension_prompt": "Defend classifications from the passage."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one stewardship practice that avoids either neglect or self-righteous display?",
+        "purpose": "Application",
+        "foundation_prompt": "Choose a small act of care.",
+        "extension_prompt": "Explain why it is prudential rather than a universal technical rule."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Observation-Inference-Application Grid",
+        "duration_minutes": 10,
+        "materials": [
+          "Grid worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Label each statement.",
+          "Find a verse for observations.",
+          "Explain the reasoning for synthesis.",
+          "Rewrite the overstatement more carefully."
+        ],
+        "learning_link": "Builds evidence classification and interpretive restraint.",
+        "low_resource_alternative": "Read statements aloud and vote O, I, or A."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Stewardship Case",
+        "duration_minutes": 8,
+        "materials": [
+          "No materials required"
+        ],
+        "steps": [
+          "Choose a case: food waste, litter, animal care, or shared resources.",
+          "Name the people and goods affected.",
+          "Propose two possible actions.",
+          "Choose one action and identify it as prudential judgment."
+        ],
+        "learning_link": "Applies creation theology without pretending one policy is directly quoted from Scripture.",
+        "low_resource_alternative": "Discuss one teacher-provided case as a group."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 1:27",
+      "prayer_prompt": "Thank God as Creator and ask for wisdom in caring for people and creation.",
+      "take_home_line": "God rules; people bear His image and serve under His authority."
+    },
+    "printable_refs": [
+      "Y1-L02-P01-observation-inference-grid"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Creator, Image, Responsibility",
+    "parent_intro": "Read Genesis 1 as a theological foundation for gratitude, dignity, and responsible care.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 1:1-5, 26-31 and Psalm 8:3-9."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Identify one direct statement, one synthesis, and one application."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Choose three statements and label them Text, Inference, or Application."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What gives people dignity in this passage?",
+      "What responsibility follows from belonging to the Creator?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Claim Check",
+      "instructions": "Take turns saying a claim and asking: Does the text say this directly, do several texts support it, or is this an application?"
+    },
+    "weekly_action": "Agree on one low-friction stewardship action for the week.",
+    "prayer": "Creator God, thank You for life and dignity. Give us wisdom to care for what belongs to You.",
+    "parent_note": "Do not turn family study into a test of one creation chronology."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What drives the creative actions in Genesis 1?",
+        "type": "multiple_choice",
+        "options": [
+          "God speaks",
+          "Human technology",
+          "A battle among gods"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God speaks"
+        },
+        "explanation": "The repeated pattern begins with God speaking."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What identity is given to humanity?",
+        "type": "multiple_choice",
+        "options": [
+          "Image-bearers",
+          "Owners independent of God",
+          "Accidental intruders"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Image-bearers"
+        },
+        "explanation": "Genesis 1:26-27 uses image language."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: “Care for creation responsibly” is a fitting application rather than a direct quotation from Genesis 1:1-31.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The application is grounded in human responsibility and wider canonical synthesis."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which statement overclaims the passage?",
+        "type": "multiple_choice",
+        "options": [
+          "God is Creator",
+          "Creation is good",
+          "Genesis 1 directly answers every scientific question"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Genesis 1 directly answers every scientific question"
+        },
+        "explanation": "The chapter makes major theological claims but is not a technical answer to every later question."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Text, Synthesis, or Application?",
+      "instructions": "Sort the claims into the best category.",
+      "items": [
+        "God created",
+        "Creation belongs to God",
+        "Reduce avoidable waste this week"
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Text observation",
+            "items": [
+              "God created"
+            ]
+          },
+          {
+            "label": "Canonical synthesis",
+            "items": [
+              "Creation belongs to God"
+            ]
+          },
+          {
+            "label": "Application",
+            "items": [
+              "Reduce avoidable waste this week"
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L02-P01-observation-inference-grid",
+        "title": "Creation Observation-Inference-Application Grid",
+        "purpose": "Evidence classification and application",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Ages 9-12 with teacher-supported close reading.",
+    "plain_language_rule": "Define sovereignty as “God has rightful authority as Creator.”",
+    "neurodiversity_supports": [
+      "Provide category definitions in writing.",
+      "Allow students to work in pairs.",
+      "Use consistent O/I/A symbols."
+    ],
+    "sensory_notes": [
+      "No required sensory activity."
+    ],
+    "non_reader_support": [
+      "Read claims aloud.",
+      "Use symbol cards for categories."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "worldview_disagreement"
+    ],
+    "do_not_ask": [
+      "Do not ask students to declare family scientific beliefs publicly.",
+      "Do not frame disagreement as evidence that a student is unsaved."
+    ],
+    "teacher_response": "Keep discussion focused on the passage, acknowledge multiple Christian models, and prevent ridicule.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L02",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 01 v0.1"
+    ],
+    "decision_register_refs": [
+      "D015",
+      "D026"
+    ],
+    "review_flags": [
+      "TH-CREATION"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Canonical matrix v0.3 appears to contain an erroneous TH-VIOLENCE/pastoral violence flag for Y1-L02. This lesson uses TH-CREATION instead; matrix correction recommended."
+    ]
+  }
+}

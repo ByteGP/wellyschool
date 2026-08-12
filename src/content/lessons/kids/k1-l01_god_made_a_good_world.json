@@ -1,0 +1,615 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L01",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 1,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Made a Good World",
+    "annual_anchor": "creation_and_rule",
+    "thematic_unit": "God Made"
+  },
+  "core": {
+    "big_idea": "God made and ordered a good world.",
+    "passages": [
+      {
+        "reference": "Genesis 1:1-25",
+        "role": "primary",
+        "reading_note": "Read selected sections or retell the ordered sequence for younger children."
+      },
+      {
+        "reference": "Genesis 1:31",
+        "role": "supporting",
+        "reading_note": "Use as the concluding summary that creation was very good."
+      }
+    ],
+    "metanarrative_position": "Creation: God begins the biblical story as the Maker and ruler of a good world.",
+    "biblical_genre": "Biblical narrative with highly structured repetition",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis presents God as the one who creates and orders the world.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 1:1-25"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The passage repeatedly describes what God made as good.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 1:4",
+          "Genesis 1:10",
+          "Genesis 1:12",
+          "Genesis 1:18",
+          "Genesis 1:21",
+          "Genesis 1:25"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Creation belongs to God and should be received with gratitude rather than treated as meaningless.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 1:1-31",
+          "Psalm 24:1"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "This lesson establishes God as Creator without making disputed chronology or mechanism questions a test of salvation.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Genesis 1:1-31"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Christians differ about the chronology and mechanisms described or implied by Genesis 1.",
+        "interpretive_hinge": "The theological claims of the passage must be distinguished from later scientific and chronological models.",
+        "prohibited_overstatement": "Do not tell a child that salvation depends on accepting one scientific chronology."
+      }
+    ],
+    "doctrine_tags": [
+      "creation",
+      "providence"
+    ],
+    "formation_tags": [
+      "wonder",
+      "gratitude",
+      "stewardship"
+    ],
+    "interpretation_skill": "Notice repetition and sequence; state what the passage says before adding explanations.",
+    "key_terms": [
+      "create",
+      "good",
+      "order",
+      "world"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell the main sequence of Genesis 1:1-25 and say that God made a good world.",
+    "extension_objective": "Identify repeated words in Genesis 1 and explain one reason creation should be treated with gratitude and care.",
+    "know": [
+      "God made the world.",
+      "Genesis 1 describes creation in an ordered sequence.",
+      "God called what He made good."
+    ],
+    "understand": [
+      "The world is not presented as an accident without meaning.",
+      "God is distinct from creation and rules over it."
+    ],
+    "practise": [
+      "Name something in creation for which to thank God.",
+      "Care for one part of the created world this week."
+    ],
+    "become": [
+      "A child who notices God's work with wonder and responds with gratitude and care."
+    ],
+    "success_evidence": [
+      "The child orders at least four creation categories sensibly.",
+      "The child states that God made the world.",
+      "The child names one grateful or caring response."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 20,
+    "zero_prep_card": {
+      "objective": "Children say that God made and ordered a good world.",
+      "read": "Genesis 1:1-25, with Genesis 1:31 as the conclusion",
+      "opening": "Ask each child to name one thing in the world that they are glad exists.",
+      "say": [
+        "Genesis begins with God, not with people.",
+        "God made light, sky, land, plants, lights, and living creatures.",
+        "The repeated words show order and purpose.",
+        "God called what He made good, so we respond with wonder, thanks, and care."
+      ],
+      "ask": [
+        "Who made the world?",
+        "What did God make first in the passage?",
+        "What word is repeated after God makes things?",
+        "How can we care for something God made?"
+      ],
+      "do": "Use the Creation Sort Cards to place the main creation categories in sequence.",
+      "close": "Pray: God, thank You for making a good world. Help us notice it, enjoy it, and care for it.",
+      "materials": [
+        "Bible",
+        "Creation Sort Cards or six blank sheets"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 1 opens the Bible by identifying God as Creator and by presenting creation through a carefully ordered, repeated pattern. The lesson focuses on the text's central theological claims rather than a scientific model.",
+      "text_observations": [
+        "God is the grammatical subject of the creative actions.",
+        "The passage uses repeated phrases such as “God said,” “it was so,” and “God saw that it was good.”",
+        "The sequence moves from forming environments to filling them with living things."
+      ],
+      "interpretation_notes": [
+        "Keep the lesson concrete for younger children: God made, ordered, and called creation good.",
+        "Do not turn the class into a debate about the length of the creation days.",
+        "Stewardship is a reasonable application of belonging to God, not the main explicit claim of Genesis 1:1-25."
+      ],
+      "theological_guardrails": [
+        "Do not describe creation as divine; God is Creator and creation is His work.",
+        "Do not imply that natural disasters or suffering mean creation was never good.",
+        "Do not make one chronology a salvation test."
+      ],
+      "likely_questions": [
+        {
+          "question": "Where did God come from?",
+          "purpose": "Acknowledge that Genesis begins with God already existing; do not invent a story before Genesis 1:1."
+        },
+        {
+          "question": "Were the days exactly like our days?",
+          "purpose": "State that Christians interpret the chronology differently and that this lesson focuses on God as Creator."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected parts of Genesis 1 slowly, tracking what God says and makes.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Identify the repeated pattern and state what it shows about God and creation.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Creation Sort activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L01-P01-creation-sort"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker, audience, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read selected parts of Genesis 1 slowly, tracking what God says and makes.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Identify the repeated pattern and state what it shows about God and creation.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Creation Sort activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L01-P01-creation-sort"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Longer session with deeper observation, comparison, and assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read selected parts of Genesis 1 slowly, tracking what God says and makes.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Identify the repeated pattern and state what it shows about God and creation.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Creation Sort activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L01-P01-creation-sort"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Good World Notice activity and distinguish observation from application.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What actions does God take in this passage?",
+        "purpose": "Observation",
+        "foundation_prompt": "Name two things God makes.",
+        "extension_prompt": "List the repeated action words."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What words or patterns repeat?",
+        "purpose": "Literary observation",
+        "foundation_prompt": "Listen for “God said” and “good.”",
+        "extension_prompt": "Explain how repetition shapes the passage."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What does the passage show about God?",
+        "purpose": "Theological understanding",
+        "foundation_prompt": "God is the Maker.",
+        "extension_prompt": "God creates with authority and order."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one fitting response to a world God made?",
+        "purpose": "Application",
+        "foundation_prompt": "Say thank You or care for something.",
+        "extension_prompt": "Distinguish a fitting application from a direct quotation."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Creation Sort",
+        "duration_minutes": 8,
+        "materials": [
+          "Creation Sort Cards"
+        ],
+        "steps": [
+          "Mix the cards.",
+          "Read each card aloud.",
+          "Place the cards in Genesis 1 order.",
+          "Retell the sequence together."
+        ],
+        "learning_link": "Builds narrative sequence and observation.",
+        "low_resource_alternative": "Name the categories orally and let children stand in order."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Good World Notice",
+        "duration_minutes": 8,
+        "materials": [
+          "Paper and pencils, optional"
+        ],
+        "steps": [
+          "Choose one created thing.",
+          "Describe one detail about it.",
+          "Name why it is useful or beautiful.",
+          "Offer one sentence of thanks to God."
+        ],
+        "learning_link": "Connects observation to gratitude without inventing doctrine.",
+        "low_resource_alternative": "Complete the activity orally in a circle."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 1:31",
+      "prayer_prompt": "Thank God for three parts of creation.",
+      "take_home_line": "God made and ordered a good world."
+    },
+    "printable_refs": [
+      "K1-L01-P01-creation-sort"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A Good World",
+    "parent_intro": "Spend 15 minutes noticing the order and goodness described in Genesis 1.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 1:1-5, 9-12, 20-25, and 31, or shorten further for a younger child."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask who acts throughout the passage and what word describes what God made."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use six household objects as creation-category markers and place them in sequence."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What does Genesis 1 show us about God?",
+      "What part of creation can our family care for this week?"
+    ],
+    "interactive": {
+      "type": "creative",
+      "title": "Creation Hunt",
+      "instructions": "Each person finds or names one created thing and says one detail they notice about it."
+    },
+    "weekly_action": "Choose one small act of care: pick up litter, water a plant, or avoid wasting food.",
+    "prayer": "God, thank You for making a good world. Help us care for what belongs to You.",
+    "parent_note": "The aim is gratitude and responsible care, not settling scientific chronology."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Who creates in Genesis 1?",
+        "type": "multiple_choice",
+        "options": [
+          "God",
+          "The animals",
+          "The first people"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God"
+        },
+        "explanation": "God is presented as Creator throughout the chapter."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Which word is repeatedly used about what God made?",
+        "type": "multiple_choice",
+        "options": [
+          "Good",
+          "Broken",
+          "Secret"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Good"
+        },
+        "explanation": "The passage repeatedly says that God saw that it was good."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: Genesis 1 begins with people creating God.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Genesis begins with God creating the heavens and the earth."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Put these in a sensible Genesis 1 order.",
+        "type": "sequence",
+        "answer": {
+          "kind": "ordered_list",
+          "items": [
+            "Light",
+            "Sky",
+            "Land and plants",
+            "Living creatures"
+          ]
+        },
+        "explanation": "The chapter presents an ordered sequence."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Creation Order",
+      "instructions": "Place the categories from earlier to later in the chapter.",
+      "items": [
+        "Living creatures",
+        "Land and plants",
+        "Light",
+        "Sky"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Light",
+          "Sky",
+          "Land and plants",
+          "Living creatures"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L01-P01-creation-sort",
+        "title": "Creation Sort Cards",
+        "purpose": "Sequence and retell Genesis 1",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teacher-read text; child-facing language suitable for ages 4-8.",
+    "plain_language_rule": "Use concrete nouns and verbs; explain “create” as “God made.”",
+    "neurodiversity_supports": [
+      "Show the lesson sequence visually.",
+      "Allow pointing, ordering, or drawing instead of verbal answers.",
+      "Give advance warning before changing activities."
+    ],
+    "sensory_notes": [
+      "No required loud sounds or unexpected touch.",
+      "A quiet observation option is available."
+    ],
+    "non_reader_support": [
+      "Use picture or object categories.",
+      "Retell aloud and accept gestures."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not test a child's worth or faith based on scientific knowledge."
+    ],
+    "teacher_response": "Receive unusual questions calmly, say when the class is not resolving them, and return to the passage.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L01",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 01 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D026"
+    ],
+    "review_flags": [
+      "TH-CREATION",
+      "DEV-KIDS-SCAFFOLD"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Passage-level exegetical and developmental review required before approval."
+    ]
+  }
+}

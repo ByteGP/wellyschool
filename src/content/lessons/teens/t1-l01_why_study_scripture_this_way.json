@@ -1,0 +1,645 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L01",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 1,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Why Study Scripture This Way?",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Method"
+  },
+  "core": {
+    "big_idea": "Faithful study requires disciplined reading rather than inherited slogans or isolated proof texts.",
+    "passages": [
+      {
+        "reference": "2 Timothy 2:14-15",
+        "role": "primary",
+        "reading_note": "Read within the warning against word battles and irreverent talk."
+      },
+      {
+        "reference": "2 Timothy 3:14-17",
+        "role": "primary",
+        "reading_note": "Read within Paul's appeal to Timothy's learning, teachers, and ministry."
+      },
+      {
+        "reference": "Acts 17:10-12",
+        "role": "supporting",
+        "reading_note": "Use as a canonical comparison for testing teaching through Scripture."
+      }
+    ],
+    "metanarrative_position": "Method: equipping disciples to receive, test, interpret, and obey Scripture responsibly within the church's mission.",
+    "biblical_genre": "Pastoral epistle with a supporting narrative example",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Paul charges Timothy to handle the word of truth rightly and to avoid destructive quarrels.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Timothy 2:14-15"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Paul describes Scripture as God-breathed and useful for forming an equipped servant.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Timothy 3:14-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Responsible study distinguishes textual observation, interpretation, theological synthesis, and contemporary application.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "2 Timothy 2:14-15",
+          "Acts 17:10-12"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Inherited teaching should be tested against Scripture, but responsible independence does not mean contempt for teachers, history, or the believing community.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "2 Timothy 3:14-15",
+          "Acts 17:10-12"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not replace inherited slogans with individualistic slogans that cannot be tested."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The phrase “rightly handling” occurs in a ministry and controversy context, not as a generic promise that sincere private study always produces an infallible interpretation.",
+        "classification": "historical_context",
+        "evidence_refs": [
+          "2 Timothy 2:14-18"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not imply that effort alone makes an interpreter incapable of error."
+      }
+    ],
+    "doctrine_tags": [
+      "scripture",
+      "church",
+      "discipleship"
+    ],
+    "formation_tags": [
+      "humility",
+      "diligence",
+      "truthfulness"
+    ],
+    "interpretation_skill": "Observe before interpreting; reconstruct context; label evidence and application.",
+    "key_terms": [
+      "observation",
+      "interpretation",
+      "application",
+      "context",
+      "proof text"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain why careful study requires context, disciplined handling, and resistance to destructive word battles.",
+    "extension_objective": "Analyse a claim by separating text, interpretation, synthesis, and application and identify one proof-texting risk.",
+    "know": [
+      "Second Timothy is a pastoral letter from Paul to Timothy.",
+      "The relevant commands occur amid warnings about false teaching and quarrels.",
+      "Scripture equips for faithful action, not merely information."
+    ],
+    "understand": [
+      "Sincerity and confidence do not make an interpretation infallible.",
+      "Testing inherited teaching can be faithful rather than rebellious.",
+      "Interpretive humility is compatible with conviction."
+    ],
+    "practise": [
+      "Write an observation before writing an application.",
+      "State when a conclusion is inference rather than direct quotation."
+    ],
+    "become": [
+      "A student who seeks truth diligently without quarrelsome arrogance."
+    ],
+    "success_evidence": [
+      "The student identifies the letter context.",
+      "The student completes a text/interpretation/application grid accurately.",
+      "The student revises one overclaimed statement."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 20,
+    "zero_prep_card": {
+      "objective": "Students distinguish text, interpretation, and application and explain why context matters.",
+      "read": "2 Timothy 2:14-15 and 3:14-17",
+      "opening": "Write a familiar slogan or isolated verse fragment and ask what information is missing before interpreting it.",
+      "say": [
+        "Paul calls Timothy to careful handling, not careless slogans.",
+        "The same passage warns about quarrels that damage hearers.",
+        "Observation asks what is there; interpretation asks what it means in context; application asks what faithful response follows.",
+        "Conviction should grow from accountable reasoning rather than inherited assertion alone."
+      ],
+      "ask": [
+        "What problem surrounds 2 Timothy 2:15?",
+        "What purposes does Paul give for Scripture?",
+        "What is the difference between observation and application?",
+        "How can humility improve conviction?"
+      ],
+      "do": "Complete one row of the Text-Interpretation-Application Lab together.",
+      "close": "Pray for honesty, patience, diligence, and humility in handling Scripture.",
+      "materials": [
+        "Bible",
+        "Text-Interpretation-Application Lab",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Second Timothy is a personal pastoral letter shaped by ministry succession, suffering, false teaching, and the need for endurance. The “rightly handling” instruction belongs within warnings about word battles and deviations from truth.",
+      "text_observations": [
+        "The command is directed to Timothy as a worker accountable to God.",
+        "The surrounding context contrasts faithful handling with quarrelling and irreverent talk.",
+        "Second Timothy 3:14-17 connects Scripture to Timothy's teachers, salvation through Christ, formation, and good work."
+      ],
+      "interpretation_notes": [
+        "Avoid using 2 Timothy 2:15 as a free-floating study motto divorced from false-teaching and ministry context.",
+        "The observation/interpretation/application framework is a pedagogical tool, not a phrase from the passage.",
+        "Community, teachers, and tradition may transmit truth but remain accountable to Scripture."
+      ],
+      "theological_guardrails": [
+        "Do not imply that every disagreement is caused by dishonesty.",
+        "Do not present private interpretation as automatically superior to communal learning.",
+        "Do not suppress genuine questions in the name of unity."
+      ],
+      "likely_questions": [
+        {
+          "question": "If Scripture is clear, why do Christians disagree?",
+          "purpose": "Distinguish clarity of central claims from human limits, context, genre, assumptions, and disputed inferences."
+        },
+        {
+          "question": "Can I disagree with a church teacher?",
+          "purpose": "Yes, respectfully and with textual reasons; disagreement should be accountable rather than performative."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the surrounding paragraphs and record observations before summarising Paul's instruction.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Separate text, interpretation, synthesis, and application; identify how quarrelsomeness distorts study.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Text-Interpretation-Application Lab.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L01-P01-text-interpretation-application-lab"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker, audience, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read the surrounding paragraphs and record observations before summarising Paul's instruction.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Separate text, interpretation, synthesis, and application; identify how quarrelsomeness distorts study.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Text-Interpretation-Application Lab.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L01-P01-text-interpretation-application-lab"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Longer session with deeper observation, comparison, and assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read the surrounding paragraphs and record observations before summarising Paul's instruction.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Separate text, interpretation, synthesis, and application; identify how quarrelsomeness distorts study.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Text-Interpretation-Application Lab.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L01-P01-text-interpretation-application-lab"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Repair one proof-texted claim using its paragraph context.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What problems and commands surround 2 Timothy 2:15?",
+        "purpose": "Context reconstruction",
+        "foundation_prompt": "Notice quarrels and word battles.",
+        "extension_prompt": "Explain how the context limits slogan use."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What sequence can we use from observation to application?",
+        "purpose": "Method",
+        "foundation_prompt": "Text, meaning, response.",
+        "extension_prompt": "Add synthesis and confidence level where needed."
+      },
+      {
+        "question_id": "Q03",
+        "question": "How can inherited conviction be both a gift and a risk?",
+        "purpose": "Critical reflection",
+        "foundation_prompt": "Teachers can pass on truth; slogans can remain untested.",
+        "extension_prompt": "Distinguish authority, testimony, and verification."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What makes a disagreement faithful rather than quarrelsome?",
+        "purpose": "Formation",
+        "foundation_prompt": "Truth, humility, listening.",
+        "extension_prompt": "Develop criteria from the passage and wider context."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Text-Interpretation-Application Lab",
+        "duration_minutes": 12,
+        "materials": [
+          "Lab worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record direct observations.",
+          "Write a contextual interpretation.",
+          "Write one application.",
+          "Label confidence and identify an overclaim."
+        ],
+        "learning_link": "Practises the core interpretive method.",
+        "low_resource_alternative": "Use the board and complete one shared example."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Proof-Text Repair",
+        "duration_minutes": 10,
+        "materials": [
+          "Prepared slogan or verse fragments"
+        ],
+        "steps": [
+          "Read an isolated claim.",
+          "Locate the surrounding paragraph.",
+          "Identify what changed.",
+          "Rewrite the claim with accurate scope."
+        ],
+        "learning_link": "Shows how context can correct confident but weak claims.",
+        "low_resource_alternative": "Use one teacher-provided example verbally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "2 Timothy 2:15",
+      "prayer_prompt": "Ask for diligence without pride and conviction without quarrelsomeness.",
+      "take_home_line": "Observe carefully, interpret in context, apply honestly."
+    },
+    "printable_refs": [
+      "T1-L01-P01-text-interpretation-application-lab"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Read Before You React",
+    "parent_intro": "This study gives the family a simple method for separating the verse, its meaning, and its application.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read 2 Timothy 2:14-18 and 3:14-17 rather than reading verse 15 alone."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what problem Paul addresses and what a faithful worker should do."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Choose one familiar verse and read the paragraph around it. Name one detail that context adds."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What is the difference between a verse and our interpretation of it?",
+      "How can we disagree without becoming quarrelsome?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Context Check",
+      "instructions": "For one statement, label Text, Interpretation, or Application."
+    },
+    "weekly_action": "During one family Bible reading, require everyone to state an observation before giving an application.",
+    "prayer": "God, make us diligent, honest, humble readers who seek truth and do not harm others with careless words.",
+    "parent_note": "Do not require anyone to disclose private doubts. A general reading example is sufficient."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What warning surrounds the instruction to handle the word rightly?",
+        "type": "multiple_choice",
+        "options": [
+          "Destructive word battles",
+          "Farming problems",
+          "Travel delays"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Destructive word battles"
+        },
+        "explanation": "The command appears amid warnings about quarrelling and false teaching."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Which comes first in the method?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "A slogan"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "We first ask what the text actually contains."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: careful effort makes every personal interpretation infallible.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Careful study is required, but human interpreters remain accountable and limited."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which statement is an application?",
+        "type": "multiple_choice",
+        "options": [
+          "Paul wrote to Timothy",
+          "Scripture is God-breathed",
+          "I should read the paragraph before quoting a verse"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "I should read the paragraph before quoting a verse"
+        },
+        "explanation": "That practice follows from the lesson but is not a direct sentence in the passage."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Method Match",
+      "instructions": "Match the term with its question.",
+      "items": [
+        "Observation",
+        "Interpretation",
+        "Application"
+      ],
+      "choices": [
+        "What does the text contain?",
+        "What does it mean in context?",
+        "What faithful response follows?"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Observation",
+            "answer": "What does the text contain?"
+          },
+          {
+            "prompt": "Interpretation",
+            "answer": "What does it mean in context?"
+          },
+          {
+            "prompt": "Application",
+            "answer": "What faithful response follows?"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L01-P01-text-interpretation-application-lab",
+        "title": "Text-Interpretation-Application Lab",
+        "purpose": "Interpretive method and proof-text repair",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with explicit technical-term definitions.",
+    "plain_language_rule": "Define each method term before using abbreviations.",
+    "neurodiversity_supports": [
+      "Provide the three-column method visually.",
+      "Allow written rather than spoken responses.",
+      "Use one worked example before independent practice."
+    ],
+    "sensory_notes": [
+      "No required role-play or public performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Use preprinted claim cards for classification."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "religious_doubt",
+      "authority"
+    ],
+    "do_not_ask": [
+      "Do not compel students to disclose private doubts or identify a leader they distrust.",
+      "Do not turn disagreement into a loyalty test."
+    ],
+    "teacher_response": "Welcome questions, require respectful evidence-based discussion, and refer serious personal conflict privately rather than debating it before the group.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L01",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 01 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D005"
+    ],
+    "review_flags": [
+      "TH-BIBLIOLOGY",
+      "TH-HERMENEUTICS"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Review all examples of proof-texting before publication to avoid attacking identifiable people or congregations."
+    ]
+  }
+}

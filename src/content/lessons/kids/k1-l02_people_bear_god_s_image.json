@@ -1,0 +1,624 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L02",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 2,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "People Bear God's Image",
+    "annual_anchor": "creation_and_rule",
+    "thematic_unit": "God Made"
+  },
+  "core": {
+    "big_idea": "Every person has God-given dignity because humanity bears God's image.",
+    "passages": [
+      {
+        "reference": "Genesis 1:26-31",
+        "role": "primary",
+        "reading_note": "Read the complete short section."
+      },
+      {
+        "reference": "James 3:9-10",
+        "role": "supporting",
+        "reading_note": "Use only for the extension link between God's likeness and speech about people."
+      }
+    ],
+    "metanarrative_position": "Creation: God gives humanity a distinctive identity and responsibility within the good world.",
+    "biblical_genre": "Biblical narrative with divine speech",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God made humanity in His image, male and female.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 1:26-27"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "God blessed humanity and entrusted people with responsibility within creation.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 1:28"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Every person has God-given dignity because humanity bears God's image.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 1:26-27",
+          "James 3:9-10"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Bearing God's image does not mean that God has the same physical body or appearance as a human person.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Genesis 1:26-27",
+          "John 4:24"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not use a mirror activity to imply that God physically looks like each child."
+      }
+    ],
+    "doctrine_tags": [
+      "creation",
+      "image_of_god",
+      "human_dignity"
+    ],
+    "formation_tags": [
+      "respect",
+      "kindness",
+      "responsibility"
+    ],
+    "interpretation_skill": "Read what the passage says about identity and distinguish it from physical resemblance.",
+    "key_terms": [
+      "image of God",
+      "dignity",
+      "blessing",
+      "responsibility"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "State that God made people in His image and that every person has God-given value.",
+    "extension_objective": "Explain one way the image of God should shape speech, inclusion, or care for another person.",
+    "know": [
+      "God made human beings in His image.",
+      "The passage names both male and female.",
+      "God gave people responsibility within creation."
+    ],
+    "understand": [
+      "Human worth is received from God, not earned by ability, popularity, appearance, or success.",
+      "God's image is not a claim that God has an ordinary human body."
+    ],
+    "practise": [
+      "Speak about another person with respect.",
+      "Include someone who might otherwise be left out."
+    ],
+    "become": [
+      "A child who treats people as valuable because they belong to God's created human family."
+    ],
+    "success_evidence": [
+      "The child says that people bear God's image.",
+      "The child rejects ability or popularity as the basis of human worth.",
+      "The child suggests one respectful action."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 20,
+    "zero_prep_card": {
+      "objective": "Children say that every person has God-given dignity because people bear God's image.",
+      "read": "Genesis 1:26-31",
+      "opening": "Show two very different everyday objects and ask whether being different makes one worthless.",
+      "say": [
+        "God made people in His image.",
+        "The passage names male and female as part of humanity.",
+        "Our value does not depend on being the fastest, smartest, strongest, or most popular.",
+        "Because people have God-given dignity, we use respectful words and include others."
+      ],
+      "ask": [
+        "Who made people?",
+        "What special phrase describes humanity?",
+        "Does a mistake remove a person's value?",
+        "What is one respectful action we can take?"
+      ],
+      "do": "Read two Dignity Scenario Cards and choose a respectful response.",
+      "close": "Pray: God, thank You for making people in Your image. Help us speak and act with respect.",
+      "materials": [
+        "Bible",
+        "Dignity Scenario Cards"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 1:26-31 places humanity within the creation account while giving people a distinctive identity and vocation. The text grounds dignity in God's action, not in human performance.",
+      "text_observations": [
+        "The plural “let us” and the phrase “our image” appear in divine speech; the lesson does not use this verse alone to prove a complete doctrine of the Trinity.",
+        "Male and female are both included in the image-bearing statement.",
+        "Blessing and responsibility follow identity."
+      ],
+      "interpretation_notes": [
+        "Avoid defining the image of God only as one human ability, such as intelligence, because that can exclude people with different capacities.",
+        "For Kids, the core is simple: God made people with special dignity and responsibility.",
+        "James 3:9-10 provides a later canonical application concerning speech about people."
+      ],
+      "theological_guardrails": [
+        "Do not turn the lesson into a comparison of children's abilities or bodies.",
+        "Do not imply that human beings are divine.",
+        "Do not use “made special” to teach self-centred superiority over the rest of creation."
+      ],
+      "likely_questions": [
+        {
+          "question": "Does God look like me?",
+          "purpose": "Explain that image means a God-given relationship and responsibility, not ordinary physical resemblance."
+        },
+        {
+          "question": "What if someone does something bad?",
+          "purpose": "A wrong action matters and may need correction, but the person still has God-given dignity."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 1:26-31 and underline or repeat the phrases about image, male and female, blessing, and responsibility.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Explain that dignity is given by God and is not a competition based on ability or popularity.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete two Dignity Scenario Cards.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L02-P01-dignity-scenario-cards"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker, audience, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 1:26-31 and underline or repeat the phrases about image, male and female, blessing, and responsibility.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Explain that dignity is given by God and is not a competition based on ability or popularity.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete two Dignity Scenario Cards.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L02-P01-dignity-scenario-cards"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Longer session with deeper observation, comparison, and assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 1:26-31 and underline or repeat the phrases about image, male and female, blessing, and responsibility.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Explain that dignity is given by God and is not a competition based on ability or popularity.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete two Dignity Scenario Cards.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L02-P01-dignity-scenario-cards"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete Worth Is Not a Competition and discuss one concrete practice.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does Genesis 1:26-27 say is distinctive about people?",
+        "purpose": "Observation",
+        "foundation_prompt": "People are made in God's image.",
+        "extension_prompt": "Notice that male and female are both named."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What responsibility follows in verse 28?",
+        "purpose": "Observation",
+        "foundation_prompt": "People care for and rule within creation.",
+        "extension_prompt": "Discuss responsibility rather than domination without limits."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What things do people sometimes wrongly use to decide who matters?",
+        "purpose": "Application analysis",
+        "foundation_prompt": "Being fastest or most popular.",
+        "extension_prompt": "Name performance, appearance, wealth, or power."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How should God-given dignity change one action this week?",
+        "purpose": "Application",
+        "foundation_prompt": "Include or speak kindly.",
+        "extension_prompt": "Name a specific practice and why it fits the passage."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Dignity Scenarios",
+        "duration_minutes": 9,
+        "materials": [
+          "Dignity Scenario Cards"
+        ],
+        "steps": [
+          "Read one scenario.",
+          "Name an unhelpful response.",
+          "Choose a respectful response.",
+          "Explain how the response fits the big idea."
+        ],
+        "learning_link": "Applies human dignity to concrete social situations.",
+        "low_resource_alternative": "Teacher reads scenarios orally and students respond with thumbs up/down before discussing."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Worth Is Not a Competition",
+        "duration_minutes": 8,
+        "materials": [
+          "Paper, optional"
+        ],
+        "steps": [
+          "List three abilities people may have.",
+          "Say together: abilities are gifts, not measures of human value.",
+          "Name one way different abilities can serve others."
+        ],
+        "learning_link": "Separates dignity from performance while affirming responsibility.",
+        "low_resource_alternative": "Complete orally without listing individual children."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 1:27",
+      "prayer_prompt": "Thank God for people and ask for respectful words and actions.",
+      "take_home_line": "Every person has God-given dignity."
+    },
+    "printable_refs": [
+      "K1-L02-P01-dignity-scenario-cards"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Made in God's Image",
+    "parent_intro": "This study grounds human value in God rather than in ability, success, or popularity.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 1:26-31. Older children may also read James 3:9-10."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the passage says about who made people and what responsibility follows."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Choose one scenario: someone new, someone embarrassed, or someone left out. Act out a respectful response."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What gives a person value in this lesson?",
+      "How can our family show respect in speech this week?"
+    ],
+    "interactive": {
+      "type": "discussion",
+      "title": "Dignity in Action",
+      "instructions": "Take turns completing: “Because people bear God's image, we can...”"
+    },
+    "weekly_action": "Choose one person to include, encourage, or speak about more carefully this week.",
+    "prayer": "God, thank You for making people in Your image. Help our family treat each person with dignity.",
+    "parent_note": "Do not pressure a child to disclose bullying or family conflict. General examples are enough."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Who made people?",
+        "type": "multiple_choice",
+        "options": [
+          "God",
+          "The animals",
+          "The first city"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God"
+        },
+        "explanation": "Genesis presents God as humanity's Creator."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What phrase describes humanity in Genesis 1:26-27?",
+        "type": "multiple_choice",
+        "options": [
+          "God's image",
+          "A secret accident",
+          "Only rulers"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God's image"
+        },
+        "explanation": "The text applies the statement to humanity, male and female."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: A person loses all value after making a mistake.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Wrong actions matter, but human dignity is not earned by perfect performance."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which response best fits the lesson?",
+        "type": "multiple_choice",
+        "options": [
+          "Include the new child",
+          "Mock someone who is slower",
+          "Only respect popular people"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Include the new child"
+        },
+        "explanation": "Inclusion is one concrete way to honour another person's dignity."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Honour or Harm?",
+      "instructions": "Sort each action into “Honours dignity” or “Harms others.”",
+      "items": [
+        "Listen patiently",
+        "Mock a mistake",
+        "Invite someone in",
+        "Spread an embarrassing story"
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Honours dignity",
+            "items": [
+              "Listen patiently",
+              "Invite someone in"
+            ]
+          },
+          {
+            "label": "Harms others",
+            "items": [
+              "Mock a mistake",
+              "Spread an embarrassing story"
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L02-P01-dignity-scenario-cards",
+        "title": "Dignity Scenario Cards",
+        "purpose": "Apply the image of God to concrete social choices",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teacher-read passage with concrete child-facing explanations.",
+    "plain_language_rule": "Explain dignity as “value God gives every person.”",
+    "neurodiversity_supports": [
+      "Allow scripted scenario responses.",
+      "Avoid vague social-performance demands.",
+      "Give processing time before asking for an answer."
+    ],
+    "sensory_notes": [
+      "No role-play requires touch.",
+      "Children may observe rather than act."
+    ],
+    "non_reader_support": [
+      "Use spoken scenarios.",
+      "Accept pointing to response choices."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "bullying",
+      "exclusion"
+    ],
+    "do_not_ask": [
+      "Do not ask children to name who is bullied, excluded, disabled, or unpopular.",
+      "Do not compare bodies, abilities, or family backgrounds."
+    ],
+    "teacher_response": "If a child discloses ongoing harm, listen calmly, do not investigate publicly, and follow the congregation's safeguarding process.",
+    "escalation_required": false,
+    "escalation_note": "Escalation becomes required if a child discloses abuse, threats, or ongoing unsafe treatment."
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L02",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 01 v0.1"
+    ],
+    "decision_register_refs": [
+      "D015",
+      "D018"
+    ],
+    "review_flags": [
+      "TH-IMAGE-OF-GOD",
+      "DEV-KIDS-SCAFFOLD"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Review wording so dignity is not reduced to one cognitive ability."
+    ]
+  }
+}

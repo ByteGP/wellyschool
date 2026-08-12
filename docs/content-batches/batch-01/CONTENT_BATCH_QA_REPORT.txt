@@ -1,0 +1,18 @@
+Content Production Batch 01 v0.1 — QA
+
+K1-L01: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=4 resources=1
+K1-L02: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=4 resources=1
+Y1-L01: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+Y1-L02: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+T1-L01: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+T1-L02: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+
+Lessons validated: 6
+Resources validated: 6
+Schema errors: 0
+Canonical identity errors: 0
+Cross-field failures: 0
+Overall: PASS
+
+Editorial observation:
+- Y1-L02 is tagged TH-VIOLENCE / Violence-war in Canonical Curriculum Matrix v0.3, but its subject is creation. Batch content uses TH-CREATION and recommends correcting the matrix flag.

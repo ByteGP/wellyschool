@@ -1,0 +1,654 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L01",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 1,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "A Library That Tells One Story",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Reading the Bible"
+  },
+  "core": {
+    "big_idea": "The Bible contains many books and genres that together tell God's connected story.",
+    "passages": [
+      {
+        "reference": "2 Timothy 3:14-17",
+        "role": "primary",
+        "reading_note": "Read in its letter context as Paul addresses Timothy."
+      },
+      {
+        "reference": "Luke 24:44-47",
+        "role": "supporting",
+        "reading_note": "Notice Jesus' broad description of Israel's Scriptures and the gospel-shaped fulfilment."
+      }
+    ],
+    "metanarrative_position": "Method: learning how the many biblical writings participate in one connected story centred on God's saving work in Christ.",
+    "biblical_genre": "Epistle and Gospel narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Timothy had known the sacred writings from childhood, and those writings could make him wise for salvation through faith in Christ Jesus.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Timothy 3:14-15"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The passage describes Scripture as God-breathed and useful for teaching, correction, and training.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "2 Timothy 3:16-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Jesus describes the Law of Moses, the Prophets, and the Psalms as converging on His suffering, resurrection, and the proclamation of repentance and forgiveness.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Luke 24:44-47"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The Bible is a library of different writings that together tell a connected story rather than a collection of unrelated moral tales.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "2 Timothy 3:14-17",
+          "Luke 24:44-47"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "These passages support confidence in Scripture but do not by themselves supply a complete list of the sixty-six books or eliminate the need to study canon history.",
+        "classification": "historical_context",
+        "evidence_refs": [
+          "2 Timothy 3:14-17",
+          "Luke 24:44"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "prohibited_overstatement": "Do not claim that either passage directly prints the later table of contents."
+      }
+    ],
+    "doctrine_tags": [
+      "scripture",
+      "christology",
+      "biblical_theology"
+    ],
+    "formation_tags": [
+      "study",
+      "humility",
+      "perseverance"
+    ],
+    "interpretation_skill": "Identify genre, speaker, audience, and the difference between a passage claim and a later synthesis.",
+    "key_terms": [
+      "Scripture",
+      "genre",
+      "canon",
+      "metanarrative",
+      "context"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain that the Bible contains many writings that together tell God's connected story and locate the two passages in their genres.",
+    "extension_objective": "Distinguish what 2 Timothy 3 and Luke 24 directly say from the broader inference that the whole canon functions as one library and story.",
+    "know": [
+      "The Bible contains different kinds of writing.",
+      "2 Timothy is a letter.",
+      "Luke is a Gospel narrative.",
+      "Jesus connected Israel's Scriptures to His work and mission."
+    ],
+    "understand": [
+      "Different genres require different reading habits.",
+      "A connected story does not mean every verse says exactly the same thing in the same way."
+    ],
+    "practise": [
+      "Identify a Bible book's broad section before interpreting a passage.",
+      "Ask who is speaking, to whom, and why."
+    ],
+    "become": [
+      "A student who approaches Scripture with confidence, care, and interpretive humility."
+    ],
+    "success_evidence": [
+      "The student places at least six sample books into broad sections.",
+      "The student identifies the genres of 2 Timothy and Luke.",
+      "The student states one direct claim and one synthesis without confusing them."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 20,
+    "zero_prep_card": {
+      "objective": "Students explain why the Bible is both a library and one connected story.",
+      "read": "2 Timothy 3:14-17 and Luke 24:44-47",
+      "opening": "Ask: How can a library contain many kinds of books but still have one subject area or purpose?",
+      "say": [
+        "The Bible is not one modern book written at one time.",
+        "Its writings include narrative, law, poetry, prophecy, Gospels, letters, and apocalyptic literature.",
+        "Paul describes Scripture as God-breathed and useful; Jesus connects the Scriptures to His work and the mission that follows.",
+        "Reading responsibly means respecting each book's genre while tracing the connected story."
+      ],
+      "ask": [
+        "What does Paul say Scripture does?",
+        "What broad sections does Jesus name?",
+        "What is the difference between a letter and a Gospel narrative?",
+        "Why can one-story reading still require context?"
+      ],
+      "do": "Complete the Bible Library Map with sample books and story anchors.",
+      "close": "Pray for patience, humility, and growing understanding when reading Scripture.",
+      "materials": [
+        "Bible",
+        "Bible Library Map",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Second Timothy presents Paul's charge to Timothy amid false teaching and ministry pressure. Luke 24 narrates the risen Jesus explaining the Scriptures and commissioning witnesses. Neither passage is a generic publishing statement detached from its context.",
+      "text_observations": [
+        "Second Timothy moves from Timothy's learned tradition and sacred writings to Scripture's usefulness and the equipped servant.",
+        "Luke 24 names Law, Prophets, and Psalms and connects fulfilment to suffering, resurrection, repentance, forgiveness, and mission.",
+        "The two passages have different genres and immediate purposes."
+      ],
+      "interpretation_notes": [
+        "“Library” and “one story” are teaching syntheses, not phrases directly quoted from either text.",
+        "One-story reading must not erase the distinctive argument of each biblical book.",
+        "Canon history belongs later; this lesson should not overclaim what the passages settle."
+      ],
+      "theological_guardrails": [
+        "Do not equate the teacher's interpretation with Scripture itself.",
+        "Do not teach that every narrative detail is a direct prediction of Jesus.",
+        "Do not present canon history as either irrelevant or simple."
+      ],
+      "likely_questions": [
+        {
+          "question": "Who decided which books are in the Bible?",
+          "purpose": "Say this is an important historical question that later lessons will examine; do not improvise a simplistic answer."
+        },
+        {
+          "question": "Does every Old Testament story predict Jesus?",
+          "purpose": "Explain that the whole story prepares for Christ, but not every detail is a prediction."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read both passages and mark direct statements about Scripture, fulfilment, and mission.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Compare genres and classify “library/one story” as a canonical synthesis rather than a direct quotation.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Bible Library Map.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L01-P01-bible-library-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker, audience, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read both passages and mark direct statements about Scripture, fulfilment, and mission.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Compare genres and classify “library/one story” as a canonical synthesis rather than a direct quotation.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Bible Library Map.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L01-P01-bible-library-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Longer session with deeper observation, comparison, and assessment.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read both passages and mark direct statements about Scripture, fulfilment, and mission.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Compare genres and classify “library/one story” as a canonical synthesis rather than a direct quotation.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Bible Library Map.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L01-P01-bible-library-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Genre Question Match and explain one limit of the library metaphor.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does 2 Timothy 3:14-17 directly say about Scripture?",
+        "purpose": "Text observation",
+        "foundation_prompt": "List its uses.",
+        "extension_prompt": "Connect the uses to the letter's ministry setting."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What sections and events appear in Luke 24:44-47?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Name Law, Prophets, Psalms, suffering, and resurrection.",
+        "extension_prompt": "Explain how mission follows fulfilment."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What changes when we know whether a passage is poetry, narrative, or a letter?",
+        "purpose": "Genre reasoning",
+        "foundation_prompt": "Different writing is read differently.",
+        "extension_prompt": "Give one example of a genre-sensitive question."
+      },
+      {
+        "question_id": "Q04",
+        "question": "Which statement is direct text and which is synthesis: “Scripture is God-breathed” and “The Bible is one library telling one story”?",
+        "purpose": "Evidence classification",
+        "foundation_prompt": "Label the first direct and the second a synthesis.",
+        "extension_prompt": "Explain why the synthesis may still be responsible."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Bible Library Map",
+        "duration_minutes": 10,
+        "materials": [
+          "Bible Library Map",
+          "Pens"
+        ],
+        "steps": [
+          "Sort the sample books into broad sections.",
+          "Connect each sample book to one-story anchors.",
+          "Check one placement using a Bible table of contents.",
+          "Discuss what the map helps and what it cannot prove."
+        ],
+        "learning_link": "Builds canonical orientation and genre awareness.",
+        "low_resource_alternative": "Write section headings on the board and sort orally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Genre Question Match",
+        "duration_minutes": 8,
+        "materials": [
+          "Board or paper"
+        ],
+        "steps": [
+          "Write narrative, poetry, and letter.",
+          "Match one reading question to each genre.",
+          "Explain why one question may not fit every genre."
+        ],
+        "learning_link": "Turns genre awareness into a reading habit.",
+        "low_resource_alternative": "Complete verbally with one example per genre."
+      }
+    ],
+    "closing": {
+      "memory_reference": "2 Timothy 3:16-17",
+      "prayer_prompt": "Ask for wisdom and humility in reading Scripture.",
+      "take_home_line": "Many writings, one connected story-read each part in context."
+    },
+    "printable_refs": [
+      "Y1-L01-P01-bible-library-map"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Many Books, One Story",
+    "parent_intro": "This study introduces the Bible as a library whose writings participate in one connected story.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read 2 Timothy 3:14-17 and Luke 24:44-47. Identify which passage is a letter and which is a Gospel narrative."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what each passage directly says before summarising the larger connection."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Place seven sample Bible books into broad sections using a table of contents."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What does Paul say Scripture is useful for?",
+      "Why should genre affect how we read?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Library Shelf",
+      "instructions": "Sort Genesis, Psalms, Isaiah, Matthew, Acts, Romans, and Revelation into broad sections."
+    },
+    "weekly_action": "Before family Bible reading this week, name the book's genre and ask who is speaking to whom.",
+    "prayer": "God, help us read Your word carefully, humbly, and faithfully.",
+    "parent_note": "It is acceptable to say that canon history is a later question rather than forcing a quick answer."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What kind of writing is 2 Timothy?",
+        "type": "multiple_choice",
+        "options": [
+          "A letter",
+          "A psalm",
+          "A proverb collection"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A letter"
+        },
+        "explanation": "Paul writes to Timothy in a ministry context."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Which broad sections does Jesus name in Luke 24?",
+        "type": "multiple_choice",
+        "options": [
+          "Law, Prophets, and Psalms",
+          "Only Proverbs",
+          "Only the Gospels"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Law, Prophets, and Psalms"
+        },
+        "explanation": "Jesus uses a broad description of Israel's Scriptures."
+      },
+      {
+        "question_id": "Q3",
+        "question": "True or false: every Bible book has the same genre.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The Bible contains multiple genres."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which statement is a broader synthesis?",
+        "type": "multiple_choice",
+        "options": [
+          "The Bible is a library telling one connected story",
+          "All Scripture is God-breathed",
+          "Timothy knew the sacred writings"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The Bible is a library telling one connected story"
+        },
+        "explanation": "That sentence summarises multiple texts rather than quoting one verse."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Book and Section",
+      "instructions": "Match each book with its broad section.",
+      "items": [
+        "Genesis",
+        "Psalms",
+        "Isaiah",
+        "Matthew",
+        "Romans",
+        "Revelation"
+      ],
+      "choices": [
+        "Law / Torah",
+        "Poetry and Wisdom",
+        "Prophets",
+        "Gospels",
+        "Letters",
+        "Apocalyptic"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Genesis",
+            "answer": "Law / Torah"
+          },
+          {
+            "prompt": "Psalms",
+            "answer": "Poetry and Wisdom"
+          },
+          {
+            "prompt": "Isaiah",
+            "answer": "Prophets"
+          },
+          {
+            "prompt": "Matthew",
+            "answer": "Gospels"
+          },
+          {
+            "prompt": "Romans",
+            "answer": "Letters"
+          },
+          {
+            "prompt": "Revelation",
+            "answer": "Apocalyptic"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L01-P01-bible-library-map",
+        "title": "Bible Library Map",
+        "purpose": "Canonical sections, genres, and metanarrative orientation",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Supported reading suitable for ages 9-12.",
+    "plain_language_rule": "Define genre as “a kind of writing” before using the technical term.",
+    "neurodiversity_supports": [
+      "Provide section labels before sorting.",
+      "Allow partner work.",
+      "Keep the one-story arc visible throughout."
+    ],
+    "sensory_notes": [
+      "No required performance or loud activity."
+    ],
+    "non_reader_support": [
+      "Use book-name cards and coloured section labels.",
+      "Read passages aloud."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "religious_doubt"
+    ],
+    "do_not_ask": [
+      "Do not require students to reveal private doubts or family disagreements about Scripture."
+    ],
+    "teacher_response": "Welcome questions, distinguish what this lesson addresses from what it defers, and avoid shaming uncertainty.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L01",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 01 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D002",
+      "D003"
+    ],
+    "review_flags": [
+      "TH-BIBLIOLOGY"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Canon-history claims remain intentionally limited in this introductory lesson."
+    ]
+  }
+}
