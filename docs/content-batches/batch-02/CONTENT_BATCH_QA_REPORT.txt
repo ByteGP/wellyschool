@@ -1,0 +1,19 @@
+Content Production Batch 02 v0.1 — QA
+
+K1-L03: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=4 resources=1
+K1-L04: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=4 resources=1
+K1-L05: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=4 resources=1
+K1-L06: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=4 resources=1
+Y1-L03: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+Y1-L04: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+Y1-L05: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+Y1-L06: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+T1-L03: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+T1-L04: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+T1-L05: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+T1-L06: schema=PASS canonical=PASS profiles=PASS(25/40/55) family=PASS(15) questions=4 activities=2 claims=5 resources=1
+
+Lessons validated: 12
+Resources validated: 12
+Schema or cross-field errors: 0
+Overall: PASS

@@ -1,0 +1,659 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L05",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 5,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Creation, Order, and the Image of God",
+    "annual_anchor": "creation_and_rule",
+    "thematic_unit": "Creation"
+  },
+  "core": {
+    "big_idea": "Creation establishes God's sovereignty and humanity's dignity, vocation, and creaturely limits.",
+    "passages": [
+      {
+        "reference": "Genesis 1:1-31",
+        "role": "primary",
+        "reading_note": "Track structure, divine speech, goodness, image, blessing, and vocation."
+      },
+      {
+        "reference": "Psalm 8",
+        "role": "primary",
+        "reading_note": "Observe wonder, creaturely smallness, honour, and delegated rule."
+      },
+      {
+        "reference": "Genesis 2:15-17",
+        "role": "supporting",
+        "reading_note": "Use to clarify vocation and creaturely limits."
+      }
+    ],
+    "metanarrative_position": "Creation and rule: God orders a good world and appoints image-bearing humans to responsible, bounded vocation.",
+    "biblical_genre": "Creation narrative and Hebrew poetry",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis 1 presents God as sovereign Creator whose speech orders the world and declares it good.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 1:1-31"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Humanity-male and female-is made in God’s image and given a vocation within creation.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 1:26-28"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Psalm 8 holds together human smallness within the cosmos and God-given honour and responsibility.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Psalm 8:3-8"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The image of God grounds equal human dignity without reducing worth to intelligence, independence, productivity, ethnicity, sex, or ability.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 1:26-28",
+          "Genesis 9:6",
+          "James 3:9"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "This curriculum does not make one chronology or creation mechanism a salvation or fellowship test.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Genesis 1-2",
+          "Psalm 104"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Young-earth, old-earth, literary-framework, and evolutionary-creation readings differ over chronology, genre, and mechanism.",
+        "interpretive_hinge": "How literary structure, Hebrew terms, ancient context, scientific evidence, and canonical theology relate.",
+        "prohibited_overstatement": "Do not present a scientific model as though it were a direct quotation from Genesis or question salvation on that basis."
+      }
+    ],
+    "doctrine_tags": [
+      "creation",
+      "image_of_god",
+      "humanity",
+      "providence"
+    ],
+    "formation_tags": [
+      "worship",
+      "stewardship",
+      "humility",
+      "dignity"
+    ],
+    "interpretation_skill": "Compare narrative and poetry; distinguish theological claims from chronology and mechanism models.",
+    "key_terms": [
+      "Creator",
+      "image of God",
+      "vocation",
+      "stewardship",
+      "creaturely limit"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse Genesis 1 and Psalm 8 and explain the relationship between God’s sovereignty, human dignity, and human vocation.",
+    "extension_objective": "Evaluate a creation claim by separating explicit text, canonical synthesis, scientific model, and prudential application.",
+    "know": [
+      "God creates and orders the world.",
+      "Humans are made in God’s image.",
+      "Humans receive responsibility within limits."
+    ],
+    "understand": [
+      "Dignity is received from God, not earned through capacity or achievement.",
+      "Creaturely limits are part of faithful humanity, not a defect to overcome."
+    ],
+    "practise": [
+      "Treat one overlooked person with image-bearing dignity.",
+      "Practise one bounded act of stewardship rather than fantasies of total control."
+    ],
+    "become": [
+      "A student who worships the Creator, honours people, and accepts responsible limits."
+    ],
+    "success_evidence": [
+      "The student distinguishes dignity from function.",
+      "The student compares Genesis 1 and Psalm 8 by genre.",
+      "The student labels a chronology claim as model rather than explicit text."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain how creation establishes God’s sovereignty, human dignity, vocation, and limits.",
+      "read": "Genesis 1:26-31; Psalm 8; Genesis 2:15-17",
+      "opening": "Ask: Is human worth something we earn, measure, or receive? List common modern answers before reading.",
+      "say": [
+        "Genesis begins with God as Creator and ruler.",
+        "Male and female humans bear God’s image and receive responsibility.",
+        "Psalm 8 combines humility before the cosmos with astonishing God-given honour.",
+        "Theological claims about Creator and image must be distinguished from disputed chronology and mechanism models."
+      ],
+      "ask": [
+        "What is said of all humanity in Genesis 1:26-28?",
+        "What tension does Psalm 8 hold together?",
+        "What vocation and limits appear in Genesis 2?",
+        "Which claims are explicit text and which belong to later models?"
+      ],
+      "do": "Complete the Creation Claim Audit and label each statement Text, Synthesis, Model, or Application.",
+      "close": "Pray for worship, equal regard for people, responsible work, and humility about limits.",
+      "materials": [
+        "Bible",
+        "Creation Claim Audit",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 1 is a highly structured creation account culminating in humanity and divine rest; Psalm 8 is worshipful poetry reflecting on human place and vocation. Genesis 2 supplies a complementary garden-scale scene.",
+      "text_observations": [
+        "Divine speech and evaluation structure Genesis 1.",
+        "Image language is applied to male and female humanity before any achievement.",
+        "Psalm 8 moves from cosmic scale to human honour and delegated dominion."
+      ],
+      "interpretation_notes": [
+        "Do not assume “image” is exhausted by one faculty such as rationality.",
+        "Dominion must be read under God’s ownership and the garden task of serving/keeping, not as licence for exploitation.",
+        "Discuss creation models only with accurate labels and charitable representation."
+      ],
+      "theological_guardrails": [
+        "Do not rank human dignity by ability, development, disability, productivity, ethnicity, or sex.",
+        "Do not make one scientific model a test of salvation or fidelity.",
+        "Do not make environmental stewardship into either political party loyalty or nature worship."
+      ],
+      "likely_questions": [
+        {
+          "question": "What exactly is the image of God?",
+          "purpose": "Present major proposals as partial dimensions-representation, relationship, vocation, moral/spiritual capacity-without reducing dignity to one capacity."
+        },
+        {
+          "question": "Does Genesis require six twenty-four-hour days?",
+          "purpose": "State the project’s non-salvific position and explain that genre, language, sequence, and scientific models require fuller study."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 1:26-31 and Psalm 8, marking words of divine action, human identity, honour, responsibility, and limit.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Audit claims into Explicit Text, Canonical Synthesis, Creation Model, or Application and justify each label.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Creation Claim Audit activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L05-P01-creation-claim-audit"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 1:26-31 and Psalm 8, marking words of divine action, human identity, honour, responsibility, and limit.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Audit claims into Explicit Text, Canonical Synthesis, Creation Model, or Application and justify each label.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Creation Claim Audit activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L05-P01-creation-claim-audit"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 1:26-31 and Psalm 8, marking words of divine action, human identity, honour, responsibility, and limit.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Audit claims into Explicit Text, Canonical Synthesis, Creation Model, or Application and justify each label.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Creation Claim Audit activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L05-P01-creation-claim-audit"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Dignity Without Ranking activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What is given to humanity before any achievement?",
+        "purpose": "Dignity",
+        "foundation_prompt": "Image, blessing, vocation.",
+        "extension_prompt": "Explain implications for disability and status."
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does Psalm 8 combine humility and honour?",
+        "purpose": "Genre comparison",
+        "foundation_prompt": "Humans are small yet crowned with honour.",
+        "extension_prompt": "Analyse poetic movement and theology."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What is the difference between dominion and domination?",
+        "purpose": "Ethics",
+        "foundation_prompt": "Responsible rule under God versus exploitative control.",
+        "extension_prompt": "Relate Genesis 1 and 2."
+      },
+      {
+        "question_id": "Q04",
+        "question": "Which creation claims require evidence beyond the explicit words of Genesis?",
+        "purpose": "Epistemic discipline",
+        "foundation_prompt": "Chronology and mechanism models.",
+        "extension_prompt": "State interpretive hinges fairly."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Creation Claim Audit",
+        "duration_minutes": 12,
+        "materials": [
+          "Claim-audit worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Read each statement.",
+          "Label Text, Synthesis, Model, or Application.",
+          "Cite support.",
+          "Rewrite any overclaim."
+        ],
+        "learning_link": "Prevents conflating theology, exegesis, science, and policy.",
+        "low_resource_alternative": "Audit four claims on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Dignity Without Ranking",
+        "duration_minutes": 10,
+        "materials": [
+          "Human-description cards"
+        ],
+        "steps": [
+          "Read descriptions varying age, ability, status, and achievement.",
+          "Identify ranking assumptions.",
+          "State the Genesis-grounded dignity claim.",
+          "Write one practical implication."
+        ],
+        "learning_link": "Tests whether image-of-God language actually resists performance-based worth.",
+        "low_resource_alternative": "Use two contrasting fictional profiles."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 1:27",
+      "prayer_prompt": "Worship the Creator and ask for humble, responsible, equal regard for people.",
+      "take_home_line": "Our dignity is received from God; our vocation is responsible; our power remains creaturely and limited."
+    },
+    "printable_refs": [
+      "T1-L05-P01-creation-claim-audit"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Worth We Receive",
+    "parent_intro": "This study asks what grounds human worth and how image-bearing responsibility should shape family life.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 1:26-31 and Psalm 8:3-8."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what humans receive from God and what responsibility follows."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Sort statements into Worth Received, Responsibility Given, or Model Debated."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why can no person’s dignity depend on intelligence or achievement?",
+      "What is one form of responsible dominion in our home?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Worth, Work, or Model?",
+      "instructions": "Sort claims into received dignity, assigned vocation, and disputed creation model."
+    },
+    "weekly_action": "Choose one person often overlooked and show concrete respect or service this week.",
+    "prayer": "Creator God, teach us to honour every person, care for Your world, and accept our limits with humility.",
+    "parent_note": "Keep creation-model debate separate from judgments about another person’s salvation."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Who bears God’s image in Genesis 1?",
+        "type": "multiple_choice",
+        "options": [
+          "Male and female humanity",
+          "Only kings",
+          "Only adults"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Male and female humanity"
+        },
+        "explanation": "The image claim precedes achievement and applies broadly."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What does Psalm 8 hold together?",
+        "type": "multiple_choice",
+        "options": [
+          "Human smallness and God-given honour",
+          "Human divinity and independence",
+          "Nature worship and fear"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Human smallness and God-given honour"
+        },
+        "explanation": "The psalm joins humility with vocation."
+      },
+      {
+        "question_id": "Q3",
+        "question": "A person’s image-bearing worth depends on intelligence and productivity.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Dignity is received from God rather than earned."
+      },
+      {
+        "question_id": "Q4",
+        "question": "How should creation chronology be classified in this curriculum?",
+        "type": "multiple_choice",
+        "options": [
+          "A debated interpretive model, not a salvation test",
+          "A direct test of salvation",
+          "A subject Scripture never touches at all"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A debated interpretive model, not a salvation test"
+        },
+        "explanation": "The project affirms core creation theology while allowing model comparison."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Text, Synthesis, Model, Application",
+      "instructions": "Sort each claim by evidence class.",
+      "items": [
+        "Humans are made in God’s image.",
+        "Human dignity must not be ranked by ability.",
+        "Genesis requires one specific modern scientific model.",
+        "We should reduce waste."
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Explicit text",
+            "items": [
+              "Humans are made in God’s image."
+            ]
+          },
+          {
+            "label": "Canonical synthesis",
+            "items": [
+              "Human dignity must not be ranked by ability."
+            ]
+          },
+          {
+            "label": "Model claim",
+            "items": [
+              "Genesis requires one specific modern scientific model."
+            ]
+          },
+          {
+            "label": "Application",
+            "items": [
+              "We should reduce waste."
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L05-P01-creation-claim-audit",
+        "title": "Creation Claim Audit",
+        "purpose": "Distinguish explicit creation theology, canonical synthesis, scientific or chronological models, and practical applications.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "disability",
+      "human_worth",
+      "identity",
+      "creation_debate"
+    ],
+    "do_not_ask": [
+      "Do not ask students to rank people by worth, intelligence, disability, sex, ethnicity, or productivity.",
+      "Do not require students to defend a family’s creation view publicly."
+    ],
+    "teacher_response": "Correct demeaning claims immediately, protect students from public identity debates, and keep model disagreement non-salvific.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L05",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D015",
+      "D026"
+    ],
+    "review_flags": [
+      "TH-CREATION",
+      "TH-ANTHROPOLOGY",
+      "DEV-TEEN-ETHICS"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Review image-of-God language with disability-inclusive expertise before publication."
+    ]
+  }
+}

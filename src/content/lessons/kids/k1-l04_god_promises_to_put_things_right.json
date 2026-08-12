@@ -1,0 +1,627 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L04",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 4,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Promises to Put Things Right",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "What Went Wrong"
+  },
+  "core": {
+    "big_idea": "God responded to rebellion with both judgment and the promise of rescue.",
+    "passages": [
+      {
+        "reference": "Genesis 3:14-15",
+        "role": "primary",
+        "reading_note": "Read the judgment against the serpent and introduce the promise in simple language."
+      },
+      {
+        "reference": "Romans 16:20",
+        "role": "supporting",
+        "reading_note": "Use only as a later canonical connection that evil will not win forever."
+      }
+    ],
+    "metanarrative_position": "Promise: immediately after rebellion, God announces judgment on evil and the beginning of a rescue hope.",
+    "biblical_genre": "Biblical narrative with promise language",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God pronounced judgment on the serpent after the rebellion.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 3:14-15"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Genesis 3:15 describes continuing conflict and a future crushing of the serpent.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 3:15"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Within the whole biblical story, Christians understand this promise as part of the hope fulfilled through Christ’s victory over evil.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 3:15",
+          "Romans 16:20",
+          "Hebrews 2:14-15"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Genesis 3:15 begins a rescue thread but does not by itself explain every later detail of the gospel.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Genesis 3:15"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Some interpreters treat the verse mainly as an explanation of human hostility toward serpents rather than a direct messianic prophecy.",
+        "interpretive_hinge": "Whether the verse is read only in its immediate narrative setting or also within later canonical patterns of conflict and victory.",
+        "prohibited_overstatement": "Do not claim that every element of the gospel is explicitly stated in this single verse."
+      }
+    ],
+    "doctrine_tags": [
+      "sin",
+      "promise",
+      "christology",
+      "biblical_theology"
+    ],
+    "formation_tags": [
+      "hope",
+      "trust",
+      "patience"
+    ],
+    "interpretation_skill": "Notice promise language; distinguish what Genesis 3:15 states from the later canonical connection to Christ.",
+    "key_terms": [
+      "judgment",
+      "promise",
+      "rescue",
+      "victory"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Say that God judged evil and promised that evil would not win forever.",
+    "extension_objective": "Explain the difference between the words in Genesis 3:15 and the wider Christian connection to Jesus.",
+    "know": [
+      "God did not ignore the rebellion.",
+      "God judged the serpent.",
+      "God announced a future defeat of evil."
+    ],
+    "understand": [
+      "God’s rescue plan begins while the damage of sin is still visible.",
+      "Later Scripture helps Christians see the promise within Christ’s victory."
+    ],
+    "practise": [
+      "Thank God that evil does not have the final word.",
+      "Wait with hope when a good ending is not immediate."
+    ],
+    "become": [
+      "A child who takes wrongdoing seriously while trusting God’s promised rescue."
+    ],
+    "success_evidence": [
+      "The child states both judgment and promise.",
+      "The child avoids saying the verse names Jesus directly.",
+      "The child names hope as a fitting response."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children say that God judged evil and promised rescue.",
+      "read": "Genesis 3:14-15; Romans 16:20",
+      "opening": "Show a knotted cord and ask: When something is badly tangled, does that mean it can never be put right?",
+      "say": [
+        "God did not pretend the rebellion did not matter.",
+        "God judged the serpent and announced that the serpent would be defeated.",
+        "The Bible’s rescue story begins here and grows clearer over time.",
+        "Christians see this hope fulfilled through Jesus, but Genesis 3:15 is only the beginning of the explanation."
+      ],
+      "ask": [
+        "Who receives judgment in these verses?",
+        "What future conflict does God describe?",
+        "Does evil win forever in God’s story?",
+        "How can hope change the way we face a hard situation?"
+      ],
+      "do": "Use the Promise Thread Card to connect Genesis 3:15 to later rescue passages without claiming they all say the same amount.",
+      "close": "Pray: God, thank You that evil will not win forever. Help us trust Your rescue and wait with hope.",
+      "materials": [
+        "Bible",
+        "Cord or ribbon",
+        "Promise Thread Card"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 3:14-15 is part of God’s judgments after the first rebellion. The verse contains conflict, injury, and a future crushing of the serpent.",
+      "text_observations": [
+        "The speech is addressed to the serpent.",
+        "The language includes conflict between the serpent’s offspring and the woman’s offspring.",
+        "One side is wounded; the serpent is crushed."
+      ],
+      "interpretation_notes": [
+        "Teach the immediate text before the Christian canonical synthesis.",
+        "For Kids, “evil will not win forever” is clearer than technical language such as protoevangelium.",
+        "Keep judgment and promise together; hope is not denial of wrongdoing."
+      ],
+      "theological_guardrails": [
+        "Do not say Genesis 3:15 explicitly narrates the cross or names Jesus.",
+        "Do not imply that God’s promise removes all present pain immediately.",
+        "Do not use frightening serpent imagery or graphic descriptions."
+      ],
+      "likely_questions": [
+        {
+          "question": "Is this verse about Jesus?",
+          "purpose": "Answer: Christians see it as the beginning of a promise thread fulfilled in Jesus, though the verse itself does not give every detail."
+        },
+        {
+          "question": "Why did God not fix everything immediately?",
+          "purpose": "Say that the Bible tells a long rescue story; do not invent a reason beyond the text."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 3:14-15 and mark the judgment words and the future-promise words.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Separate two ideas: God judges evil now, and God promises that evil will be defeated.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Promise Thread activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L04-P01-promise-thread"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 3:14-15 and mark the judgment words and the future-promise words.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Separate two ideas: God judges evil now, and God promises that evil will be defeated.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Promise Thread activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L04-P01-promise-thread"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 3:14-15 and mark the judgment words and the future-promise words.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Separate two ideas: God judges evil now, and God promises that evil will be defeated.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Promise Thread activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L04-P01-promise-thread"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Tangled and Untangled activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Who is God speaking to?",
+        "purpose": "Context",
+        "foundation_prompt": "The serpent.",
+        "extension_prompt": "Explain why audience matters for interpretation."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What does the passage say will happen in the future?",
+        "purpose": "Observation",
+        "foundation_prompt": "Conflict and the serpent’s defeat.",
+        "extension_prompt": "State the wording without importing later details."
+      },
+      {
+        "question_id": "Q03",
+        "question": "How does later Scripture connect this hope to Christ?",
+        "purpose": "Canonical connection",
+        "foundation_prompt": "Jesus defeats evil.",
+        "extension_prompt": "Distinguish synthesis from direct quotation."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What does hope look like while we still see wrongdoing?",
+        "purpose": "Formation",
+        "foundation_prompt": "Trust and keep doing good.",
+        "extension_prompt": "Explain why hope is not pretending harm is unimportant."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Promise Thread",
+        "duration_minutes": 8,
+        "materials": [
+          "Ribbon or string",
+          "Four passage cards"
+        ],
+        "steps": [
+          "Place Genesis 3:15 first.",
+          "Add one later promise or victory card at a time.",
+          "Say what each card contributes.",
+          "Name the thread: evil will not win forever."
+        ],
+        "learning_link": "Builds a canonical connection while keeping each passage distinct.",
+        "low_resource_alternative": "Draw a line on the board and write references along it."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Tangled and Untangled",
+        "duration_minutes": 8,
+        "materials": [
+          "Knotted cord"
+        ],
+        "steps": [
+          "Observe the knot.",
+          "Name what cannot be fixed by pretending.",
+          "Slowly loosen one section.",
+          "Connect patient repair with hope, not with a claim that every problem is easy."
+        ],
+        "learning_link": "Provides a concrete image for promise and patient hope.",
+        "low_resource_alternative": "Use a simple drawn tangle and path."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Romans 16:20",
+      "prayer_prompt": "Thank God that evil does not have the final word.",
+      "take_home_line": "God judges evil and promises rescue; evil will not win forever."
+    },
+    "printable_refs": [
+      "K1-L04-P01-promise-thread"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A Promise That Grows Clearer",
+    "parent_intro": "This study introduces the Bible’s rescue thread without forcing every later detail into Genesis 3:15.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 3:14-15 and Romans 16:20."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what Genesis says directly and what Romans adds later."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Lay down a piece of string. Put “Promise” at one end and “Victory” at the other; explain the connection in one sentence."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What does God promise about the serpent’s final victory?",
+      "Why should we distinguish the first promise from later explanations?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Promise Thread",
+      "instructions": "Place two labels along a string and state what each passage contributes."
+    },
+    "weekly_action": "When something is wrong this week, name it honestly and choose one hopeful, faithful action.",
+    "prayer": "God, thank You that evil will not win forever. Help us trust Jesus and keep doing what is right.",
+    "parent_note": "Avoid telling children that every present problem will end quickly; biblical hope can involve waiting."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Who is addressed in Genesis 3:14-15?",
+        "type": "multiple_choice",
+        "options": [
+          "The serpent",
+          "Noah",
+          "Abraham"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The serpent"
+        },
+        "explanation": "The judgment speech is directed to the serpent."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Genesis 3:15 gives every detail of Jesus’ life, death, and resurrection.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The verse begins a promise thread but does not state every later detail."
+      },
+      {
+        "question_id": "Q3",
+        "question": "What two ideas belong together in this lesson?",
+        "type": "multiple_choice",
+        "options": [
+          "Judgment and promise",
+          "Travel and weather",
+          "Food and farming"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Judgment and promise"
+        },
+        "explanation": "God addresses evil and announces future defeat."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What is a faithful response to God’s promise?",
+        "type": "multiple_choice",
+        "options": [
+          "Hopeful trust",
+          "Pretending evil is harmless",
+          "Giving up"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Hopeful trust"
+        },
+        "explanation": "Hope takes wrongdoing seriously and trusts God’s victory."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Text or Later Connection?",
+      "instructions": "Match each statement to Genesis 3:15 or Later Scripture.",
+      "items": [
+        "The serpent will be crushed.",
+        "Jesus defeats the power of evil."
+      ],
+      "choices": [
+        "Genesis 3:15",
+        "Later canonical connection"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "The serpent will be crushed.",
+            "answer": "Genesis 3:15"
+          },
+          {
+            "prompt": "Jesus defeats the power of evil.",
+            "answer": "Later canonical connection"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L04-P01-promise-thread",
+        "title": "Promise Thread Card",
+        "purpose": "Help children distinguish Genesis 3:15 from later passages that develop the rescue promise.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "judgment",
+      "evil",
+      "hope"
+    ],
+    "do_not_ask": [
+      "Do not ask children to describe frightening experiences.",
+      "Do not use graphic injury imagery."
+    ],
+    "teacher_response": "Use calm, non-graphic language and centre the lesson on honest hope.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L04",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D006",
+      "D019",
+      "D024"
+    ],
+    "review_flags": [
+      "TH-BIBLICAL-THEOLOGY",
+      "TH-CHRISTOLOGY",
+      "DEV-KIDS-SCAFFOLD"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Correct the canonical matrix’s TH-ESCHATOLOGY and Judgment/hell metadata; the lesson is promise and biblical theology, not a hell lesson."
+    ]
+  }
+}

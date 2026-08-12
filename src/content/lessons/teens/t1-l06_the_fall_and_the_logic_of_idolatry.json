@@ -1,0 +1,642 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L06",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 6,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "The Fall and the Logic of Idolatry",
+    "annual_anchor": "rebellion_and_need",
+    "thematic_unit": "Rebellion"
+  },
+  "core": {
+    "big_idea": "Sin exchanges trust in the Creator for autonomous desire and distorted worship.",
+    "passages": [
+      {
+        "reference": "Genesis 3:1-24",
+        "role": "primary",
+        "reading_note": "Trace distorted speech, desire, choice, shame, blame, judgment, and exile."
+      },
+      {
+        "reference": "Romans 1:18-25",
+        "role": "primary",
+        "reading_note": "Trace suppression, exchange, futile thinking, and worship of creation."
+      },
+      {
+        "reference": "James 1:13-16",
+        "role": "supporting",
+        "reading_note": "Use for application to desire, enticement, and responsibility without blaming God."
+      }
+    ],
+    "metanarrative_position": "Rebellion and idolatry: humanity exchanges grateful creaturely trust for autonomous judgment and worship of created things.",
+    "biblical_genre": "Primeval narrative and epistolary theological argument",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis 3 portrays temptation through distorted speech about God’s command, goodness, and consequences.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 3:1-5"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The humans see, desire, take, eat, hide, and blame, resulting in judgment and exile from the garden.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 3:6-24"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Romans 1 describes human rebellion as suppressing truth, refusing gratitude, exchanging God’s glory, and worshipping created things.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Romans 1:18-25"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Read canonically, Genesis 3 and Romans 1 portray sin as an exchange of Creator-trust for autonomous desire and distorted worship.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 3:1-24",
+          "Romans 1:18-25"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Functional-idol language is a prudential diagnostic tool, not permission to declare that every strong interest is idolatry or to read another person’s heart.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "Romans 1:21-25",
+          "Matthew 6:24"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "credible_alternative": "Some teachers use “idolatry” only for explicit religious worship of images, while others apply it broadly to ultimate loyalties and controlling desires.",
+        "interpretive_hinge": "How ancient worship language is analogically applied to modern loyalties, habits, and institutions.",
+        "prohibited_overstatement": "Do not label a student, hobby, diagnosis, or ordinary enjoyment an idol without careful evidence and pastoral restraint."
+      }
+    ],
+    "doctrine_tags": [
+      "sin",
+      "idolatry",
+      "worship",
+      "humanity"
+    ],
+    "formation_tags": [
+      "gratitude",
+      "repentance",
+      "discernment",
+      "worship"
+    ],
+    "interpretation_skill": "Compare narrative and epistle; trace the exchange pattern; distinguish direct idolatry language from modern analogical application.",
+    "key_terms": [
+      "idolatry",
+      "exchange",
+      "autonomy",
+      "desire",
+      "worship",
+      "gratitude"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse Genesis 3 and Romans 1 and explain the exchange from Creator-trust to autonomous desire and distorted worship.",
+    "extension_objective": "Evaluate a modern “functional idol” claim by identifying the biblical analogy, evidence, limits, and possible overreach.",
+    "know": [
+      "Genesis 3 distorts God’s word and motive.",
+      "Romans 1 repeatedly describes exchanges.",
+      "Ingratitude and worship disorder are central to Paul’s analysis."
+    ],
+    "understand": [
+      "Sin concerns worship and trust, not only isolated rule violations.",
+      "Created things are good as creatures but destructive when treated as ultimate."
+    ],
+    "practise": [
+      "Practise gratitude as resistance to self-made autonomy.",
+      "Audit one habit without public disclosure or dramatic self-labeling."
+    ],
+    "become": [
+      "A student who recognises worship-shaping exchanges and turns toward grateful trust in God."
+    ],
+    "success_evidence": [
+      "The student identifies the exchange pattern in both texts.",
+      "The student distinguishes ancient explicit idolatry from cautious modern analogy.",
+      "The student writes a non-shaming repentance response."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain sin as an exchange of Creator-trust for autonomous desire and distorted worship.",
+      "read": "Genesis 3:1-13; Romans 1:18-25",
+      "opening": "Ask: When does a good created thing begin to function like an ultimate thing? Keep answers general rather than personal.",
+      "say": [
+        "Genesis 3 begins by distorting God’s word and goodness.",
+        "The humans move from seeing and desiring to taking, hiding, and blaming.",
+        "Romans 1 describes an exchange: Creator for creation, gratitude for futility, truth for falsehood.",
+        "Modern idol language can expose controlling loyalties, but it must not become careless labeling of people or interests."
+      ],
+      "ask": [
+        "How is God represented by the serpent?",
+        "Which action sequence appears in Genesis 3:6-13?",
+        "What exchanges does Romans 1 name?",
+        "What evidence would be needed before calling a modern loyalty idolatrous?"
+      ],
+      "do": "Complete the Exchange Pattern Map, separating explicit text from modern analogy.",
+      "close": "Pray for gratitude, truthful self-examination, repentance, and rightly ordered love.",
+      "materials": [
+        "Bible",
+        "Exchange Pattern Map",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 3 narrates primal rebellion; Romans 1:18-32 is part of Paul’s larger argument that culminates in universal accountability and the gospel need. The selected section focuses on knowledge, gratitude, exchange, and worship.",
+      "text_observations": [
+        "The serpent modifies the command and denies the stated consequence.",
+        "Genesis 3:6 uses a see-desire-take pattern followed by hiding and blame.",
+        "Romans 1 repeatedly uses exchange language and contrasts Creator with creation."
+      ],
+      "interpretation_notes": [
+        "Do not isolate Romans 1 as a weapon against one group; Paul’s argument moves toward universal accountability in Romans 2-3.",
+        "Autonomy here means self-rule that rejects creaturely trust, not ordinary maturity or responsible agency.",
+        "Modern functional-idol analysis is analogical and should be used first for self-examination, not accusation."
+      ],
+      "theological_guardrails": [
+        "Do not teach inherited personal guilt to children or teens contrary to the project’s accountability position.",
+        "Do not equate mental-health symptoms, special interests, or ordinary pleasure with idolatry.",
+        "Do not use Romans 1 to invite public disclosure of sexual behaviour or other sensitive matters."
+      ],
+      "likely_questions": [
+        {
+          "question": "Is every strong desire an idol?",
+          "purpose": "No; examine whether it receives ultimate trust, loyalty, identity, or obedience that belongs to God, and avoid mind-reading."
+        },
+        {
+          "question": "Why does God judge people in Romans 1?",
+          "purpose": "Read the stated pattern of knowledge, suppression, ingratitude, exchange, and worship, then place it in Paul’s universal argument rather than isolating one group."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 3:1-13 and Romans 1:18-25, circling words of distortion, desire, exchange, gratitude, worship, hiding, and blame.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Map Original good gift → Distorted claim → Exchange → Consequence → Faithful response, and label modern examples as analogy.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Exchange Pattern Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L06-P01-exchange-pattern-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 3:1-13 and Romans 1:18-25, circling words of distortion, desire, exchange, gratitude, worship, hiding, and blame.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Map Original good gift → Distorted claim → Exchange → Consequence → Faithful response, and label modern examples as analogy.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Exchange Pattern Map activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L06-P01-exchange-pattern-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 3:1-13 and Romans 1:18-25, circling words of distortion, desire, exchange, gratitude, worship, hiding, and blame.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Map Original good gift → Distorted claim → Exchange → Consequence → Faithful response, and label modern examples as analogy.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Exchange Pattern Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L06-P01-exchange-pattern-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Ultimate-Loyalty Claim Audit activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "How does the serpent distort God’s command and character?",
+        "purpose": "Close reading",
+        "foundation_prompt": "Exaggeration, contradiction, suspicion.",
+        "extension_prompt": "Compare directly with Genesis 2:16-17."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What exchanges does Romans 1 explicitly name?",
+        "purpose": "Argument tracing",
+        "foundation_prompt": "Glory, truth, Creator worship.",
+        "extension_prompt": "Explain how ingratitude functions in the sequence."
+      },
+      {
+        "question_id": "Q03",
+        "question": "How are good created things turned into disordered objects of worship?",
+        "purpose": "Theological synthesis",
+        "foundation_prompt": "They are treated as ultimate.",
+        "extension_prompt": "Distinguish use, love, dependence, and worship."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What makes a modern idolatry diagnosis responsible?",
+        "purpose": "Ethical guardrail",
+        "foundation_prompt": "Evidence, humility, self-examination.",
+        "extension_prompt": "Develop criteria and identify overreach risks."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Exchange Pattern Map",
+        "duration_minutes": 12,
+        "materials": [
+          "Pattern worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "Record the good Creator-creature order.",
+          "Record the distorted claim.",
+          "Record the exchange in each passage.",
+          "Add consequence and a faithful counter-practice."
+        ],
+        "learning_link": "Connects the narrative and epistle without erasing genre differences.",
+        "low_resource_alternative": "Create the five-stage map on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Ultimate-Loyalty Claim Audit",
+        "duration_minutes": 10,
+        "materials": [
+          "General claim cards"
+        ],
+        "steps": [
+          "Read a claim such as “Technology is an idol.”",
+          "Ask what evidence is supplied.",
+          "Identify a careful analogy and a careless accusation.",
+          "Rewrite the claim as a self-examination question."
+        ],
+        "learning_link": "Applies idolatry language with epistemic and pastoral restraint.",
+        "low_resource_alternative": "Audit one neutral example together."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Romans 1:25",
+      "prayer_prompt": "Confess disordered worship generally and ask for gratitude and rightly ordered love.",
+      "take_home_line": "Sin exchanges grateful trust in the Creator for self-rule and worship of created things."
+    },
+    "printable_refs": [
+      "T1-L06-P01-exchange-pattern-map"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "The Exchange Pattern",
+    "parent_intro": "This study examines how good created things become destructive when treated as ultimate.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 3:1-7 and Romans 1:21-25."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "List the exchanges named in each passage and one faithful opposite such as truth, gratitude, or worship."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Choose one neutral example-money, popularity, sport, technology-and test whether a claim of idolatry has evidence or is merely a slogan."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What is the difference between enjoying a created thing and worshipping it?",
+      "How can gratitude help restore the Creator-creation order?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Gift-Exchange-Response",
+      "instructions": "Map a good gift, a possible disordered exchange, its effect, and a faithful response."
+    },
+    "weekly_action": "Practise one deliberate act of gratitude before using or enjoying a valued created thing.",
+    "prayer": "Creator God, forgive our distorted worship. Teach us gratitude, truth, and rightly ordered love.",
+    "parent_note": "Keep examples general; do not use the study to interrogate private behaviour or diagnose another family member."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What does the serpent first distort?",
+        "type": "multiple_choice",
+        "options": [
+          "God's command and goodness",
+          "The location of Egypt",
+          "The number of animals"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God's command and goodness"
+        },
+        "explanation": "Temptation begins with a false representation of God’s word and motive."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Which exchange does Romans 1 name?",
+        "type": "multiple_choice",
+        "options": [
+          "Creator for created things",
+          "Wisdom for education",
+          "Work for rest"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Creator for created things"
+        },
+        "explanation": "Paul’s worship analysis centres the Creator-creation exchange."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Every strong interest is automatically idolatry.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Modern idol language requires evidence and cautious analogy."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which practice directly counters the pattern in Romans 1:21?",
+        "type": "multiple_choice",
+        "options": [
+          "Gratitude",
+          "Public accusation",
+          "Pretending desire does not exist"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Gratitude"
+        },
+        "explanation": "Paul explicitly names failure to give thanks."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Exchange Pattern",
+      "instructions": "Place the stages in a logical order.",
+      "items": [
+        "Consequence and distortion",
+        "Good created gift",
+        "Treat creation as ultimate",
+        "Distort or suppress truth",
+        "Faithful repentance and gratitude"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Good created gift",
+          "Distort or suppress truth",
+          "Treat creation as ultimate",
+          "Consequence and distortion",
+          "Faithful repentance and gratitude"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L06-P01-exchange-pattern-map",
+        "title": "Exchange Pattern Map",
+        "purpose": "Compare Genesis 3 and Romans 1 while distinguishing explicit worship language from modern analogy.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "sin",
+      "shame",
+      "religious_doubt",
+      "compulsion",
+      "sexuality"
+    ],
+    "do_not_ask": [
+      "Do not require disclosure of private sexual behaviour, compulsions, diagnoses, or family conflict.",
+      "Do not label a student or their ordinary interests as idolatrous."
+    ],
+    "teacher_response": "Keep applications general and self-reflective. Follow safeguarding procedures for independent disclosures of harm, coercion, or abuse.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L06",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D020",
+      "D022"
+    ],
+    "review_flags": [
+      "TH-SIN",
+      "TH-IDOLATRY",
+      "PASTORAL-SENSITIVE"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Ensure Romans 1 is taught within Paul’s universal argument and never weaponised against one group."
+    ]
+  }
+}

@@ -1,0 +1,635 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L03",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 3,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Human Rebellion and Its Spread",
+    "annual_anchor": "rebellion_and_need",
+    "thematic_unit": "Rebellion"
+  },
+  "core": {
+    "big_idea": "Sin rejects God's rule and damages worship, relationships, and the world.",
+    "passages": [
+      {
+        "reference": "Genesis 3:1-24",
+        "role": "primary",
+        "reading_note": "Track mistrust, disobedience, shame, blame, and exile."
+      },
+      {
+        "reference": "Genesis 4:1-16",
+        "role": "primary",
+        "reading_note": "Track anger, warning, murder, denial, and consequence without graphic detail."
+      },
+      {
+        "reference": "Genesis 4:23-24",
+        "role": "supporting",
+        "reading_note": "Use for extension to show violence becoming boastful and escalating."
+      }
+    ],
+    "metanarrative_position": "Rebellion and spread: sin moves from distrust of God to damaged worship, family conflict, violence, and exile.",
+    "biblical_genre": "Primeval biblical narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis 3 portrays sin beginning with a challenge to God’s word and goodness.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 3:1-6"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The immediate results include shame, hiding, blame, fractured relationships, and expulsion from the garden.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 3:7-24"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Genesis 4 shows sin spreading into worship conflict, anger, murder, denial, and social alienation.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 4:1-16"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "God warns Cain before the murder, so the narrative presents desire as powerful but not as removing human responsibility.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Genesis 4:6-7"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Interpreters differ over the precise grammar and imagery of sin “crouching” and Cain’s ability to rule it.",
+        "interpretive_hinge": "How Genesis 4:7 describes the relation between sinful desire and responsible choice.",
+        "prohibited_overstatement": "Do not imply that strong emotion itself is sin or that a person cannot seek help before acting."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The two chapters together depict sin as rejection of God’s rule that damages worship, relationships, and the wider human world.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 3:1-24",
+          "Genesis 4:1-24"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "sin",
+      "humanity",
+      "worship"
+    ],
+    "formation_tags": [
+      "honesty",
+      "self_control",
+      "repentance"
+    ],
+    "interpretation_skill": "Create a cause-and-effect chain; distinguish the narrator’s statements from later doctrinal synthesis.",
+    "key_terms": [
+      "rebellion",
+      "desire",
+      "consequence",
+      "exile",
+      "worship"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain from Genesis 3-4 how rebellion spreads from mistrust of God into damaged worship and relationships, and place the events on the biblical timeline.",
+    "extension_objective": "Compare the two chapters, identify repeated patterns, and distinguish explicit narrative details from a canonical conclusion about sin.",
+    "know": [
+      "Genesis 3 begins with a challenge to God’s word.",
+      "Genesis 4 moves from anger to murder and denial.",
+      "God questions and warns before pronouncing consequences."
+    ],
+    "understand": [
+      "Sin is more than rule-breaking; it rejects God’s good rule.",
+      "Strong feelings do not remove responsibility, and warning creates an opportunity to turn."
+    ],
+    "practise": [
+      "Pause and seek help when anger begins to control attention.",
+      "Tell the truth and seek repair rather than hide or blame."
+    ],
+    "become": [
+      "A young person who recognises destructive patterns early and responds with honesty and self-control."
+    ],
+    "success_evidence": [
+      "The student produces a four-stage spread-of-sin chain.",
+      "The student separates emotion from harmful action.",
+      "The student identifies one point where a different response was possible."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain how rebellion spreads from mistrust of God into damaged worship, relationships, and violence.",
+      "read": "Genesis 3:1-13; 4:1-16",
+      "opening": "Ask: How can one false belief change several later choices? Use a fictional example, not a personal confession.",
+      "say": [
+        "Genesis 3 begins with questioning God’s word and goodness.",
+        "Hiding and blame follow the first disobedience.",
+        "Genesis 4 shows anger growing into violence after God warns Cain.",
+        "The narrative shows a spread: mistrust, choice, damage, denial, and consequence."
+      ],
+      "ask": [
+        "What claim about God does the serpent challenge?",
+        "Which effects appear immediately in Genesis 3?",
+        "What warning does Cain receive before he acts?",
+        "Where could the destructive chain have been interrupted?"
+      ],
+      "do": "Complete the Rebellion Spread Grid using events from Genesis 3 and 4.",
+      "close": "Pray for honesty, self-control, and courage to seek help before destructive choices.",
+      "materials": [
+        "Bible",
+        "Rebellion Spread Grid or board",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 3-4 moves from the first human rebellion to the first murder and a widening culture of violence. The chapters are connected narratively but should not be flattened into a simplistic psychology lesson.",
+      "text_observations": [
+        "The serpent distorts and contradicts God’s command.",
+        "Questions from God expose hiding and responsibility in both chapters.",
+        "Cain receives a warning before killing Abel, then denies responsibility afterward."
+      ],
+      "interpretation_notes": [
+        "Use a visual chain to support concrete-operational reasoning.",
+        "Distinguish anger as an emotion from murder as a chosen act; Ephesians 4 may support application but is not the primary text.",
+        "Avoid making Eve uniquely responsible or treating Abel’s death as a direct template for every conflict."
+      ],
+      "theological_guardrails": [
+        "Do not tell students that every difficult emotion is sinful.",
+        "Do not use the lesson to identify or shame a “Cain” in the group.",
+        "Do not imply that victims cause violence by provoking the offender."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why did God accept Abel’s offering and not Cain’s?",
+          "purpose": "State what the text says about regard for the persons and offerings, note that Hebrews 11:4 mentions faith, and admit that Genesis does not specify every criterion."
+        },
+        {
+          "question": "Could Cain have stopped?",
+          "purpose": "Genesis presents a warning and a command before the act; avoid claiming the verse resolves every philosophical question about free will."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 3:1-13 and 4:1-16 in sections, recording challenge, choice, warning, action, denial, and consequence.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build a cause-and-effect grid and mark which entries are explicit text, reasonable inference, and application.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Rebellion Spread Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L03-P01-rebellion-spread-grid"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 3:1-13 and 4:1-16 in sections, recording challenge, choice, warning, action, denial, and consequence.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build a cause-and-effect grid and mark which entries are explicit text, reasonable inference, and application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Rebellion Spread Grid activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L03-P01-rebellion-spread-grid"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 3:1-13 and 4:1-16 in sections, recording challenge, choice, warning, action, denial, and consequence.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build a cause-and-effect grid and mark which entries are explicit text, reasonable inference, and application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Rebellion Spread Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L03-P01-rebellion-spread-grid"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Interrupt the Chain activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "How does the serpent represent God’s command and motive?",
+        "purpose": "Close reading",
+        "foundation_prompt": "The serpent questions and contradicts.",
+        "extension_prompt": "Compare Genesis 2:16-17 with Genesis 3:1-5."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What repeated responses appear after wrongdoing?",
+        "purpose": "Pattern recognition",
+        "foundation_prompt": "Hiding, blame, denial.",
+        "extension_prompt": "Explain how repetition links the chapters."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What is explicit in God’s warning to Cain, and what remains interpretive?",
+        "purpose": "Text/inference discipline",
+        "foundation_prompt": "Sin desires; Cain is told to rule.",
+        "extension_prompt": "Analyse the difficult imagery and grammar cautiously."
+      },
+      {
+        "question_id": "Q04",
+        "question": "Where can a destructive chain be interrupted today?",
+        "purpose": "Formation",
+        "foundation_prompt": "Before acting; tell truth; seek help.",
+        "extension_prompt": "Develop a response plan without personal disclosure."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Rebellion Spread Grid",
+        "duration_minutes": 10,
+        "materials": [
+          "Grid worksheet",
+          "Pens"
+        ],
+        "steps": [
+          "List one event from Genesis 3.",
+          "Add its immediate effect.",
+          "List one parallel or escalation in Genesis 4.",
+          "Label Text, Inference, or Application."
+        ],
+        "learning_link": "Makes narrative development and evidence classification visible.",
+        "low_resource_alternative": "Create three columns on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Interrupt the Chain",
+        "duration_minutes": 10,
+        "materials": [
+          "Fictional scenario cards"
+        ],
+        "steps": [
+          "Read a fictional conflict.",
+          "Identify belief, emotion, choice, and effect.",
+          "Mark a safe interruption point.",
+          "Write a truthful, nonviolent response."
+        ],
+        "learning_link": "Practises self-control and help-seeking without inviting disclosure.",
+        "low_resource_alternative": "Use one shared scenario verbally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 4:7",
+      "prayer_prompt": "Ask for honest hearts, self-control, and willingness to seek help.",
+      "take_home_line": "Sin spreads when mistrust becomes destructive choice; truth and self-control can interrupt the chain."
+    },
+    "printable_refs": [
+      "Y1-L03-P01-rebellion-spread-grid"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Interrupt the Chain",
+    "parent_intro": "This study examines how one wrong belief can spread into hiding, blame, and harm.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 3:1-13 and 4:6-10."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what warning or question appears before each consequence."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Choose a fictional conflict and identify Belief, Feeling, Choice, and Result."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What pattern repeats across the two chapters?",
+      "At what point can someone seek help or choose truth?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Belief-Feeling-Choice-Result",
+      "instructions": "Fill the four boxes for a fictional scenario, then circle a safe interruption point."
+    },
+    "weekly_action": "Use a household pause phrase this week: “Stop, tell the truth, ask for help.”",
+    "prayer": "God, help us trust Your words, tell the truth, and stop harmful choices before they grow.",
+    "parent_note": "Do not use this study to investigate family incidents or compel disclosure."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What does the serpent challenge first?",
+        "type": "multiple_choice",
+        "options": [
+          "God's word and goodness",
+          "The weather",
+          "Cain’s farming"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God's word and goodness"
+        },
+        "explanation": "Genesis 3 begins with a distorted question about God’s command."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What does God do before Cain kills Abel?",
+        "type": "multiple_choice",
+        "options": [
+          "Warns him",
+          "Sends him away immediately",
+          "Says nothing"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Warns him"
+        },
+        "explanation": "Genesis 4:6-7 records questions and warning before the murder."
+      },
+      {
+        "question_id": "Q3",
+        "question": "Genesis teaches that feeling anger automatically makes someone a murderer.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The narrative distinguishes warning, desire, and chosen action."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which pattern appears after wrongdoing?",
+        "type": "multiple_choice",
+        "options": [
+          "Hiding or denial",
+          "Immediate celebration",
+          "Building a temple"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Hiding or denial"
+        },
+        "explanation": "Both chapters include attempts to avoid responsibility."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "How Rebellion Spreads",
+      "instructions": "Place the pattern in a defensible order.",
+      "items": [
+        "Damaged relationship",
+        "Mistrust of God",
+        "Hiding or denial",
+        "Disobedient action"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Mistrust of God",
+          "Disobedient action",
+          "Damaged relationship",
+          "Hiding or denial"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L03-P01-rebellion-spread-grid",
+        "title": "Rebellion Spread Grid",
+        "purpose": "Help students compare Genesis 3 and 4 through cause, effect, escalation, and evidence class.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "violence",
+      "anger",
+      "shame",
+      "family_conflict"
+    ],
+    "do_not_ask": [
+      "Do not ask students to disclose violence or family conflict publicly.",
+      "Do not equate anger itself with murder or shame a student for strong feelings."
+    ],
+    "teacher_response": "Use fictional cases, explicitly support safe help-seeking, and follow safeguarding procedures if a student independently discloses current harm.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L03",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D020",
+      "D027"
+    ],
+    "review_flags": [
+      "TH-SIN",
+      "DEV-YOUTH-SCAFFOLD",
+      "PASTORAL-SENSITIVE"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Review violence wording and safeguarding response before publication."
+    ]
+  }
+}

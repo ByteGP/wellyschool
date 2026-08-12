@@ -1,0 +1,628 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L06",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 6,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Calls Abraham",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "God Cares"
+  },
+  "core": {
+    "big_idea": "God called Abraham and began a family through whom the nations would be blessed.",
+    "passages": [
+      {
+        "reference": "Genesis 12:1-9",
+        "role": "primary",
+        "reading_note": "Track God’s call, promises, Abraham’s journey, and worship."
+      },
+      {
+        "reference": "Genesis 15:1-6",
+        "role": "supporting",
+        "reading_note": "Use for older children to show Abraham trusting the promise."
+      }
+    ],
+    "metanarrative_position": "Covenant promise: God calls one family so that blessing will eventually reach all families of the earth.",
+    "biblical_genre": "Biblical narrative with divine promise",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God called Abram to leave his land and go to a land God would show him.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 12:1"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "God promised to make Abram a great nation, bless him, and bless all families of the earth through him.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 12:2-3"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Abram went as the Lord had told him and built altars to worship God.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 12:4-9"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The promise to Abraham becomes a major thread in the biblical story leading toward blessing for the nations through Christ.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 12:1-3",
+          "Galatians 3:8",
+          "Galatians 3:16"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "mission",
+      "promise"
+    ],
+    "formation_tags": [
+      "trust",
+      "obedience",
+      "worship"
+    ],
+    "interpretation_skill": "Track call, promise, response, and worship; place Abraham after creation, rebellion, and flood.",
+    "key_terms": [
+      "call",
+      "promise",
+      "blessing",
+      "nation"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell that God called Abraham, Abraham went, and God promised blessing for all families.",
+    "extension_objective": "Place Abraham on the Bible timeline and explain that God’s blessing was meant to reach beyond one family.",
+    "know": [
+      "God called Abram to go.",
+      "God made promises about land, family, and blessing.",
+      "Abram travelled and worshipped God."
+    ],
+    "understand": [
+      "God’s plan uses one family for the good of many nations.",
+      "Trust can involve obeying before every detail is known."
+    ],
+    "practise": [
+      "Follow one clear good instruction this week.",
+      "Pray for a family or people group beyond our own household."
+    ],
+    "become": [
+      "A child who trusts God’s words and sees blessing as something to share."
+    ],
+    "success_evidence": [
+      "The child retells call, promise, response.",
+      "The child identifies “all families” as wider than Abraham’s household.",
+      "The child names one shared-blessing action."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children retell God’s call and promises to Abraham and say that the blessing was for all families.",
+      "read": "Genesis 12:1-9",
+      "opening": "Show a simple map or draw a starting point and ask: How would you feel beginning a journey when you do not know every stop?",
+      "say": [
+        "God called Abram to leave and go where God would show him.",
+        "God promised land, a family, a great name, and blessing.",
+        "The promise was not only for Abram; all families of the earth were included.",
+        "Abram went and worshipped God along the journey."
+      ],
+      "ask": [
+        "What did God call Abram to do?",
+        "What promises did God make?",
+        "Who was meant to receive blessing?",
+        "How did Abram respond?"
+      ],
+      "do": "Use the Journey and Promise Map to move a marker and place the promise symbols.",
+      "close": "Pray: God, help us trust Your words and use Your gifts for the good of others.",
+      "materials": [
+        "Bible",
+        "Journey and Promise Map or blank paper",
+        "Small marker"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 12 begins the patriarchal story after creation, rebellion, flood, and Babel. God’s call of Abram narrows the story to one family while widening the purpose to all families of the earth.",
+      "text_observations": [
+        "God gives commands and promises in Genesis 12:1-3.",
+        "The blessing language repeats and culminates in all families of the earth.",
+        "Abram travels, builds altars, and calls on the Lord’s name."
+      ],
+      "interpretation_notes": [
+        "Keep promise categories concrete: place, family, blessing, purpose.",
+        "Do not portray blessing as guaranteed comfort or wealth.",
+        "For extension, show that later Scripture connects the nations promise to the gospel."
+      ],
+      "theological_guardrails": [
+        "Do not teach that obedience earns God’s promise.",
+        "Do not promise that following God makes every journey easy.",
+        "Do not reduce blessing to possessions; the passage gives a missional purpose."
+      ],
+      "likely_questions": [
+        {
+          "question": "Why did God choose only Abraham?",
+          "purpose": "Say that God chose Abraham’s family as the path through which blessing would reach all families; avoid speculation beyond the text."
+        },
+        {
+          "question": "Did Abraham know exactly where he was going?",
+          "purpose": "The passage says God would show him; trust preceded complete information."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 12:1-9 and mark God’s call, God’s promises, Abram’s movement, and Abram’s worship.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Create four columns-Call, Promise, Response, Worship-and place passage details correctly.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Journey and Promise Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L06-P01-journey-promise-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 12:1-9 and mark God’s call, God’s promises, Abram’s movement, and Abram’s worship.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Create four columns-Call, Promise, Response, Worship-and place passage details correctly.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Journey and Promise Map activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L06-P01-journey-promise-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 12:1-9 and mark God’s call, God’s promises, Abram’s movement, and Abram’s worship.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Create four columns-Call, Promise, Response, Worship-and place passage details correctly.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Journey and Promise Map activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L06-P01-journey-promise-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Blessing That Travels activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What did God ask Abram to leave?",
+        "purpose": "Observation",
+        "foundation_prompt": "Land and family setting.",
+        "extension_prompt": "Discuss the cost without romanticising it."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What promises appear in verses 2-3?",
+        "purpose": "Text structure",
+        "foundation_prompt": "Nation, name, blessing.",
+        "extension_prompt": "Explain the repeated blessing language."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Who is included in the final purpose?",
+        "purpose": "Mission",
+        "foundation_prompt": "All families of the earth.",
+        "extension_prompt": "Connect cautiously to Galatians 3."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How does Abram respond in the passage?",
+        "purpose": "Formation",
+        "foundation_prompt": "He goes and worships.",
+        "extension_prompt": "Distinguish faith-filled obedience from earning favour."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Journey and Promise Map",
+        "duration_minutes": 8,
+        "materials": [
+          "Map sheet",
+          "Marker",
+          "Promise symbols"
+        ],
+        "steps": [
+          "Place the marker at Haran.",
+          "Read the call and move toward Canaan.",
+          "Place land, family, and blessing symbols.",
+          "Add an “all families” circle around the map."
+        ],
+        "learning_link": "Makes geography and widening purpose concrete.",
+        "low_resource_alternative": "Draw a route and symbols on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Blessing That Travels",
+        "duration_minutes": 8,
+        "materials": [
+          "Small paper arrows"
+        ],
+        "steps": [
+          "Name one gift or opportunity.",
+          "Draw an arrow from self to another person.",
+          "Write or draw a shared-good action.",
+          "Connect the idea to “all families.”"
+        ],
+        "learning_link": "Prevents blessing from becoming self-centred prosperity language.",
+        "low_resource_alternative": "Complete one example verbally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 12:3",
+      "prayer_prompt": "Ask for trust and for God’s gifts to benefit others.",
+      "take_home_line": "God called Abraham, made a promise, and planned blessing for all families."
+    },
+    "printable_refs": [
+      "K1-L06-P01-journey-promise-map"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "A Blessing Meant to Travel",
+    "parent_intro": "This study follows the call, promises, journey, and wider purpose in Genesis 12.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 12:1-9; an older child may also read Genesis 15:1-6."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what God promised and who was meant to be blessed."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Draw a route from “start” to “new place,” then add arrows pointing outward to “all families.”"
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What did Abraham know, and what did he still have to trust God about?",
+      "How can a gift to our family become good for someone else?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Promise Journey",
+      "instructions": "Draw a journey line and three promise symbols, then add an arrow toward all families."
+    },
+    "weekly_action": "Share one practical blessing this week-time, food, encouragement, or help.",
+    "prayer": "God, thank You for Your promises. Help our family trust You and share good things with others.",
+    "parent_note": "Do not frame blessing as a guarantee of wealth or an easy life."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What did God call Abram to do?",
+        "type": "multiple_choice",
+        "options": [
+          "Go to a land God would show him",
+          "Build an ark",
+          "Become a king"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Go to a land God would show him"
+        },
+        "explanation": "Genesis 12 begins with a call to go."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Who was meant to be blessed through Abram?",
+        "type": "multiple_choice",
+        "options": [
+          "All families of the earth",
+          "Only one household",
+          "Only travellers"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "All families of the earth"
+        },
+        "explanation": "The promise has a worldwide purpose."
+      },
+      {
+        "question_id": "Q3",
+        "question": "The passage promises that Abram’s journey will always be easy.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The promise does not remove difficulty or uncertainty."
+      },
+      {
+        "question_id": "Q4",
+        "question": "How did Abram respond in Genesis 12?",
+        "type": "multiple_choice",
+        "options": [
+          "He went and worshipped",
+          "He refused to move",
+          "He hid in a garden"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "He went and worshipped"
+        },
+        "explanation": "The narrative records travel and altar-building."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Call, Promise, or Response?",
+      "instructions": "Match each phrase to its category.",
+      "items": [
+        "Go to the land I will show you.",
+        "I will make of you a great nation.",
+        "Abram went."
+      ],
+      "choices": [
+        "Call",
+        "Promise",
+        "Response"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Go to the land I will show you.",
+            "answer": "Call"
+          },
+          {
+            "prompt": "I will make of you a great nation.",
+            "answer": "Promise"
+          },
+          {
+            "prompt": "Abram went.",
+            "answer": "Response"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L06-P01-journey-promise-map",
+        "title": "Journey and Promise Map",
+        "purpose": "Help children see Abraham’s movement and the promise’s widening purpose.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "family",
+      "migration",
+      "trust"
+    ],
+    "do_not_ask": [
+      "Do not require children to discuss distressing moves, displacement, or family separation.",
+      "Do not imply that a difficult family circumstance shows lack of faith."
+    ],
+    "teacher_response": "Use the biblical journey and fictional examples; allow children to pass on personal questions.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L06",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D006",
+      "D019"
+    ],
+    "review_flags": [
+      "TH-COVENANT",
+      "TH-MISSION"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Verify canonical connections to Galatians remain in preparation/extension rather than being forced into every Kids explanation."
+    ]
+  }
+}

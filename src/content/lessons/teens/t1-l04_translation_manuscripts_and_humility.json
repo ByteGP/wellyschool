@@ -1,0 +1,663 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L04",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 4,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Translation, Manuscripts, and Humility",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Bibliology"
+  },
+  "core": {
+    "big_idea": "Translation and textual study involve evidence-based judgments that should be explained without panic or overclaiming.",
+    "passages": [
+      {
+        "reference": "Nehemiah 8:1-8",
+        "role": "primary",
+        "reading_note": "Observe public reading, explanation, and the goal of understanding."
+      },
+      {
+        "reference": "Mark 16:9-20",
+        "role": "comparison",
+        "reading_note": "Use the translation’s own footnote as a case study; do not settle the passage’s textual history from memory."
+      },
+      {
+        "reference": "John 7:53-8:11",
+        "role": "comparison",
+        "reading_note": "Use the translation’s own footnote as a second case study in transparent editorial notice."
+      }
+    ],
+    "metanarrative_position": "Scripture received and understood: communities read inherited texts, translate or explain them, and evaluate manuscript evidence responsibly.",
+    "biblical_genre": "Post-exilic narrative with textual-transmission and translation method",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Nehemiah 8 depicts the law being read publicly and explained so that the people could understand.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Nehemiah 8:1-8"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Translation is the act of representing a source-language text in another language; interpretation is unavoidable but should be disciplined and transparent.",
+        "classification": "historical_context",
+        "evidence_refs": [
+          "Translation methodology; source review required"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "How lexical, grammatical, literary, and audience factors are weighed in a translation choice.",
+        "prohibited_overstatement": "Do not describe any English translation as interpretation-free."
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Textual criticism compares manuscript evidence to make reasoned judgments about earlier recoverable wording.",
+        "classification": "historical_context",
+        "evidence_refs": [
+          "Selected manuscript evidence; source review required"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The age, quality, geographical distribution, and relationships of manuscripts and readings.",
+        "prohibited_overstatement": "Do not claim that scholars simply vote, guess, or alter the Bible according to preference."
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Visible translation footnotes about textual variants are evidence of transparency rather than proof that Scripture cannot be studied responsibly.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Mark 16:9-20 translation footnotes",
+          "John 7:53-8:11 translation footnotes"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Critics may see prominent variants as evidence of uncertainty severe enough to weaken confidence, while some defenders minimise them too aggressively.",
+        "interpretive_hinge": "Whether transparent uncertainty in particular readings undermines or supports confidence in responsible textual study.",
+        "prohibited_overstatement": "Do not say there are no meaningful variants, and do not say the entire text is therefore unknowable."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Students should calibrate confidence claim by claim and avoid both panic and inflated apologetic slogans.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Nehemiah 8:8",
+          "Selected textual examples"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Some teaching strategies avoid textual questions until advanced study; others use maximal-certainty claims to protect confidence.",
+        "interpretive_hinge": "Whether resilience is better formed by managed transparency or by withholding complexity.",
+        "prohibited_overstatement": "Do not tell students that every textual question has a simple answer or that one footnote destroys Christian faith."
+      }
+    ],
+    "doctrine_tags": [
+      "scripture",
+      "translation",
+      "textual_criticism",
+      "apologetics"
+    ],
+    "formation_tags": [
+      "humility",
+      "study",
+      "truthfulness"
+    ],
+    "interpretation_skill": "Distinguish translation choice, manuscript variant, textual judgment, and theological conclusion; calibrate confidence.",
+    "key_terms": [
+      "manuscript",
+      "translation",
+      "textual variant",
+      "footnote",
+      "textual criticism"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain the difference between translation and manuscript comparison and identify why both require disciplined judgment.",
+    "extension_objective": "Evaluate a real translation footnote, identify the evidence needed, and state a confidence level without panic or overclaiming.",
+    "know": [
+      "Nehemiah 8 links reading and explanation with understanding.",
+      "Translations represent source-language texts in another language.",
+      "Manuscripts sometimes preserve different readings that require evaluation."
+    ],
+    "understand": [
+      "Human judgment in transmission study does not mean arbitrary invention.",
+      "Transparent footnotes can strengthen responsible trust by showing where evidence is discussed."
+    ],
+    "practise": [
+      "Read translation notes rather than ignore them.",
+      "Say “I do not know” when the evidence has not been studied."
+    ],
+    "become": [
+      "A student who responds to textual questions with curiosity, method, and proportionate confidence."
+    ],
+    "success_evidence": [
+      "The student defines translation and textual criticism separately.",
+      "The student audits one footnote without claiming more than it says.",
+      "The student identifies both a panic claim and an overconfident claim."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students distinguish translation from textual criticism and practise calibrated confidence using Bible footnotes.",
+      "read": "Nehemiah 8:1-8; selected footnotes at Mark 16 and John 7-8",
+      "opening": "Display two English translations of one ordinary sentence. Ask what can change while the same event is represented.",
+      "say": [
+        "Nehemiah 8 joins reading, explanation, and understanding.",
+        "Translation asks how to represent words and meaning in another language.",
+        "Textual criticism asks which reading is best supported when manuscripts differ.",
+        "Honest footnotes are not a reason for panic, and confident claims still need evidence."
+      ],
+      "ask": [
+        "What actions lead to understanding in Nehemiah 8?",
+        "How is translation different from manuscript comparison?",
+        "What does the footnote actually claim?",
+        "Which response is more responsible than denial or panic?"
+      ],
+      "do": "Complete the Translation and Manuscript Decision Lab using one selected footnote from the Bibles available.",
+      "close": "Pray for courage to ask questions, patience with evidence, and honesty about uncertainty.",
+      "materials": [
+        "Several Bible translations if available",
+        "Translation and Manuscript Decision Lab",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Nehemiah 8 concerns post-exilic public Torah reading and explanation, not modern textual criticism. It supplies a theological starting point: understanding requires faithful reading and explanation. Modern manuscript examples require external historical study.",
+      "text_observations": [
+        "The people gather and ask for the book of the law.",
+        "The text is read publicly and attention is emphasised.",
+        "Verse 8 joins clear reading or interpretation with giving the sense so people understand."
+      ],
+      "interpretation_notes": [
+        "Do not use Nehemiah 8 as direct proof of one modern translation philosophy.",
+        "Use the actual footnotes in the edition present; do not reproduce long copyrighted translation text.",
+        "Mark 16:9-20 and John 7:53-8:11 are teaching cases, not permission to make unsourced claims about every manuscript."
+      ],
+      "theological_guardrails": [
+        "Do not claim the original manuscripts are currently available for inspection.",
+        "Do not say variants never affect meaning; discuss scope case by case.",
+        "Do not build or destroy a doctrine solely on an unreviewed disputed reading."
+      ],
+      "likely_questions": [
+        {
+          "question": "Has the Bible been changed?",
+          "purpose": "Distinguish copying variation from deliberate wholesale rewriting; say specific claims require examination of manuscript evidence."
+        },
+        {
+          "question": "Which English translation is perfect?",
+          "purpose": "No translation is interpretation-free; compare purpose, method, and notes rather than declaring one infallible English edition."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Nehemiah 8:1-8, then inspect one textual footnote exactly as printed in the available translation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Use the lab to separate observation, manuscript question, translation decision, confidence, and theological consequence.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Translation and Manuscript Decision Lab activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L04-P01-translation-manuscript-decision-lab"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Nehemiah 8:1-8, then inspect one textual footnote exactly as printed in the available translation.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Use the lab to separate observation, manuscript question, translation decision, confidence, and theological consequence.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Translation and Manuscript Decision Lab activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L04-P01-translation-manuscript-decision-lab"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Nehemiah 8:1-8, then inspect one textual footnote exactly as printed in the available translation.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Use the lab to separate observation, manuscript question, translation decision, confidence, and theological consequence.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Translation and Manuscript Decision Lab activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L04-P01-translation-manuscript-decision-lab"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Panic-Denial-Disciplined Response activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does Nehemiah 8 say happens between reading and understanding?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Explanation or giving the sense.",
+        "extension_prompt": "Discuss translation/interpretation analogy without making it identical."
+      },
+      {
+        "question_id": "Q02",
+        "question": "How is a translation choice different from a textual variant?",
+        "purpose": "Technical distinction",
+        "foundation_prompt": "Language representation versus differing manuscript readings.",
+        "extension_prompt": "Give an example of each."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What does the selected footnote actually say-and not say?",
+        "purpose": "Evidence discipline",
+        "foundation_prompt": "Quote its scope accurately.",
+        "extension_prompt": "Identify what external data would be needed."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What does calibrated confidence sound like?",
+        "purpose": "Formation",
+        "foundation_prompt": "Confident where evidence is strong; open where uncertain.",
+        "extension_prompt": "Rewrite denial and panic claims responsibly."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Translation and Manuscript Decision Lab",
+        "duration_minutes": 12,
+        "materials": [
+          "Worksheet",
+          "Two translations",
+          "Bible footnotes"
+        ],
+        "steps": [
+          "Compare one short verse across translations.",
+          "Identify a translation difference.",
+          "Read one manuscript footnote.",
+          "Record claim, evidence available, confidence, and limits."
+        ],
+        "learning_link": "Separates two often-confused fields and forces proportionate claims.",
+        "low_resource_alternative": "Project or read two short paraphrased examples supplied by the teacher."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Panic-Denial-Disciplined Response",
+        "duration_minutes": 10,
+        "materials": [
+          "Three response cards"
+        ],
+        "steps": [
+          "Read a textual-variant claim.",
+          "Identify the panic response.",
+          "Identify the denial response.",
+          "Write a disciplined response that asks for evidence and states limits."
+        ],
+        "learning_link": "Forms emotional and intellectual resilience.",
+        "low_resource_alternative": "Complete one response together on the board."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Nehemiah 8:8",
+      "prayer_prompt": "Ask for understanding, evidence-based judgment, and humility.",
+      "take_home_line": "Textual questions deserve evidence, not panic, denial, or inflated certainty."
+    },
+    "printable_refs": [
+      "T1-L04-P01-translation-manuscript-decision-lab"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Read the Footnote",
+    "parent_intro": "This study treats translation notes as opportunities for careful learning rather than fear.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Nehemiah 8:5-8, then inspect one textual footnote in a family Bible."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the footnote states, what it does not state, and what further evidence would be needed."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Compare one short verse in two translations and list wording that changes and meaning that remains."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What is the difference between translation and manuscript comparison?",
+      "Why can transparency build rather than destroy trust?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Footnote Audit",
+      "instructions": "Record the footnote’s exact claim, available evidence, missing evidence, and a calibrated conclusion."
+    },
+    "weekly_action": "Read one Bible footnote this week and write one honest question for later study.",
+    "prayer": "God, give us understanding, patience with evidence, and humility when we do not yet know.",
+    "parent_note": "Do not make a teenager defend the Bible under pressure; the goal is method and resilience, not winning a debate."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What is translation?",
+        "type": "multiple_choice",
+        "options": [
+          "Representing a source-language text in another language",
+          "Comparing manuscript readings only",
+          "Inventing a new story"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Representing a source-language text in another language"
+        },
+        "explanation": "Translation and textual criticism are related but distinct."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What is textual criticism?",
+        "type": "multiple_choice",
+        "options": [
+          "Comparing manuscript evidence to evaluate readings",
+          "Criticising the Bible’s morality",
+          "Choosing a favourite translation by style alone"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Comparing manuscript evidence to evaluate readings"
+        },
+        "explanation": "The discipline evaluates textual evidence."
+      },
+      {
+        "question_id": "Q3",
+        "question": "A transparent footnote automatically proves the entire Bible is unreliable.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "A footnote identifies a bounded question that should be assessed."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which response is most responsible?",
+        "type": "multiple_choice",
+        "options": [
+          "Ask what evidence supports the reading",
+          "Deny that variants exist",
+          "Panic before examining the claim"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Ask what evidence supports the reading"
+        },
+        "explanation": "Method begins with evidence and scope."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Term and Task",
+      "instructions": "Match each term with its main task.",
+      "items": [
+        "Translation",
+        "Textual criticism",
+        "Footnote",
+        "Interpretation"
+      ],
+      "choices": [
+        "Represent across languages",
+        "Compare manuscript readings",
+        "Disclose an editorial or textual issue",
+        "Explain meaning in context"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Translation",
+            "answer": "Represent across languages"
+          },
+          {
+            "prompt": "Textual criticism",
+            "answer": "Compare manuscript readings"
+          },
+          {
+            "prompt": "Footnote",
+            "answer": "Disclose an editorial or textual issue"
+          },
+          {
+            "prompt": "Interpretation",
+            "answer": "Explain meaning in context"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L04-P01-translation-manuscript-decision-lab",
+        "title": "Translation and Manuscript Decision Lab",
+        "purpose": "Separate translation choices, manuscript questions, evidence, confidence, and theological consequence.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "religious_doubt",
+      "authority",
+      "academic_pressure"
+    ],
+    "do_not_ask": [
+      "Do not require a student to reveal private doubts or publicly defend family beliefs.",
+      "Do not shame students for using a different translation."
+    ],
+    "teacher_response": "Normalise questions, separate evidence from loyalty, and provide a path for later research rather than forcing instant resolution.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L04",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D002",
+      "D003"
+    ],
+    "review_flags": [
+      "TH-BIBLIOLOGY",
+      "TH-TEXTUAL-CRITICISM"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Correct the canonical matrix’s TH-ESCHATOLOGY and Judgment/hell metadata; this is a bibliology and textual-method lesson.",
+      "Externally verify every manuscript-history example before publication."
+    ]
+  }
+}

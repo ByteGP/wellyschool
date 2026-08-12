@@ -1,0 +1,615 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L05",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 5,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Cares for Noah",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "God Cares"
+  },
+  "core": {
+    "big_idea": "God remembered Noah and preserved life through judgment.",
+    "passages": [
+      {
+        "reference": "Genesis 6:9-22",
+        "role": "primary",
+        "reading_note": "Focus on God’s instructions and Noah’s response."
+      },
+      {
+        "reference": "Genesis 8:1-19",
+        "role": "primary",
+        "reading_note": "Emphasise “God remembered Noah” and the safe exit from the ark."
+      }
+    ],
+    "metanarrative_position": "Judgment and preservation: violence fills the earth, yet God preserves Noah’s family and living creatures.",
+    "biblical_genre": "Biblical narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis describes widespread corruption and violence before the flood.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 6:5",
+          "Genesis 6:11-13"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "God instructed Noah to build an ark and preserve his household and living creatures.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 6:13-22"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "God remembered Noah and caused the waters to recede.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 8:1-5"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The story presents both serious judgment and God’s preservation; it does not promise that faithful people will never experience danger.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 6:5-22",
+          "Genesis 8:1-19"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not promise children that God will always prevent physical harm in the same way He preserved Noah."
+      }
+    ],
+    "doctrine_tags": [
+      "judgment",
+      "providence",
+      "preservation"
+    ],
+    "formation_tags": [
+      "trust",
+      "obedience",
+      "care"
+    ],
+    "interpretation_skill": "Retell before, during, and after; identify what God does and what Noah does.",
+    "key_terms": [
+      "ark",
+      "remember",
+      "preserve",
+      "judgment"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell how God told Noah to build the ark and remembered him after the flood.",
+    "extension_objective": "Hold together judgment and preservation without saying faithful people never suffer.",
+    "know": [
+      "The earth had become violent.",
+      "God told Noah how to build the ark.",
+      "God remembered Noah and preserved life."
+    ],
+    "understand": [
+      "God’s judgment is serious.",
+      "“God remembered” means God acted faithfully, not that He had forgotten."
+    ],
+    "practise": [
+      "Follow a good instruction step by step.",
+      "Care for living things entrusted to us."
+    ],
+    "become": [
+      "A child who trusts God’s faithfulness and follows wise instructions."
+    ],
+    "success_evidence": [
+      "The child orders ark events.",
+      "The child explains “remembered” as faithful action.",
+      "The child does not claim the story promises safety from every harm."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children retell how God preserved Noah and living creatures through the flood.",
+      "read": "Genesis 6:9-22; 8:1-19",
+      "opening": "Ask: What helps you follow a long set of instructions one step at a time?",
+      "say": [
+        "The earth had become violent and corrupt.",
+        "God gave Noah specific instructions for an ark.",
+        "Noah followed the instructions, and God preserved people and animals.",
+        "When Genesis says God remembered Noah, it means God acted faithfully for him."
+      ],
+      "ask": [
+        "Why did God tell Noah to build the ark?",
+        "What did Noah do with God’s instructions?",
+        "What did God do when the waters began to go down?",
+        "What does the story show about caring for life?"
+      ],
+      "do": "Use the Ark Story Sequence Cards to arrange Before, Build, Wait, and Leave.",
+      "close": "Pray: God, thank You for remembering Your promises. Help us listen carefully and care for life.",
+      "materials": [
+        "Bible",
+        "Ark Story Sequence Cards or four labelled sheets"
+      ]
+    },
+    "preparation": {
+      "passage_context": "The flood narrative responds to the corruption and violence described in Genesis 6. This lesson selects the building and exit scenes rather than narrating every death detail to young children.",
+      "text_observations": [
+        "Noah is described as walking with God.",
+        "The ark instructions repeatedly include preservation of household and animal life.",
+        "Genesis 8:1 marks the narrative turn with “God remembered Noah.”"
+      ],
+      "interpretation_notes": [
+        "In biblical language, God remembering often means acting faithfully toward a person or covenant.",
+        "Avoid turning Noah into a generic “be good and nothing bad happens” moral.",
+        "The story’s judgment element should be acknowledged but not graphically elaborated for ages 4-8."
+      ],
+      "theological_guardrails": [
+        "Do not claim the flood story guarantees rescue from every physical danger.",
+        "Do not tell children that disasters are direct punishments for particular people.",
+        "Do not make the lesson primarily about cute animals while ignoring judgment and preservation."
+      ],
+      "likely_questions": [
+        {
+          "question": "Did lots of people die?",
+          "purpose": "Acknowledge that the flood is a judgment story and redirect to the text’s age-appropriate focus on preservation; do not give graphic detail."
+        },
+        {
+          "question": "Did God forget Noah?",
+          "purpose": "Explain that “remembered” means God turned to act faithfully, not that information left His mind."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected parts of Genesis 6:9-22 and 8:1-19, tracking instruction, obedience, waiting, and release.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Use a before/during/after chart to show judgment, preservation, and God’s faithful action.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Ark Story Sequence activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L05-P01-ark-story-sequence"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read selected parts of Genesis 6:9-22 and 8:1-19, tracking instruction, obedience, waiting, and release.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Use a before/during/after chart to show judgment, preservation, and God’s faithful action.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Ark Story Sequence activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L05-P01-ark-story-sequence"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read selected parts of Genesis 6:9-22 and 8:1-19, tracking instruction, obedience, waiting, and release.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Use a before/during/after chart to show judgment, preservation, and God’s faithful action.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Ark Story Sequence activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L05-P01-ark-story-sequence"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Care for What Is Entrusted activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What problem does Genesis describe before the ark?",
+        "purpose": "Context",
+        "foundation_prompt": "Violence and corruption.",
+        "extension_prompt": "Explain why this prevents a merely cute-animal reading."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What repeated actions does Noah take?",
+        "purpose": "Observation",
+        "foundation_prompt": "He follows God’s instructions.",
+        "extension_prompt": "Distinguish obedience from earning God’s grace."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What does “God remembered Noah” mean in the story?",
+        "purpose": "Language",
+        "foundation_prompt": "God acted for Noah.",
+        "extension_prompt": "Compare biblical remembering with human forgetfulness."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What claim should we not make from this story?",
+        "purpose": "Guardrail",
+        "foundation_prompt": "That faithful people never face danger.",
+        "extension_prompt": "Explain narrative particularity."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Ark Story Sequence",
+        "duration_minutes": 8,
+        "materials": [
+          "Four sequence cards"
+        ],
+        "steps": [
+          "Read each card.",
+          "Arrange Before, Build, Wait, Leave.",
+          "Retell one sentence per card.",
+          "Name what God and Noah do."
+        ],
+        "learning_link": "Makes the long narrative manageable and shows divine and human actions.",
+        "low_resource_alternative": "Draw four boxes on the board."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Care for What Is Entrusted",
+        "duration_minutes": 8,
+        "materials": [
+          "Picture cards of animals, plants, people, objects"
+        ],
+        "steps": [
+          "Choose one card.",
+          "Name a concrete care action.",
+          "Distinguish care from control.",
+          "Pray one sentence of thanks."
+        ],
+        "learning_link": "Applies preservation through responsible care without claiming the activity is the narrative’s main meaning.",
+        "low_resource_alternative": "Name examples verbally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 8:1",
+      "prayer_prompt": "Thank God for faithful care and ask for patient obedience.",
+      "take_home_line": "God remembered Noah and preserved life; we listen and care faithfully."
+    },
+    "printable_refs": [
+      "K1-L05-P01-ark-story-sequence"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "God Remembered Noah",
+    "parent_intro": "This study keeps the flood story serious but non-graphic and focuses on God’s faithful preservation.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 6:13-22 and 8:1-5, 15-19."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what God instructed, what Noah did, and what “remembered” shows."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Arrange four labels: Before, Build, Wait, Leave; retell the story."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What does “God remembered Noah” mean?",
+      "What living thing can our family care for this week?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Ark in Four Parts",
+      "instructions": "Arrange four labels and retell the story with one sentence each."
+    },
+    "weekly_action": "Choose one care task for a pet, plant, neighbour, or shared place.",
+    "prayer": "God, thank You for acting faithfully. Help us listen, wait, and care for what You entrust to us.",
+    "parent_note": "Do not use the story to promise immunity from disasters or to explain a family’s suffering as punishment."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What problem filled the earth before the flood?",
+        "type": "multiple_choice",
+        "options": [
+          "Violence and corruption",
+          "Not enough buildings",
+          "A food shortage"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Violence and corruption"
+        },
+        "explanation": "Genesis 6 gives the moral context."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What did Noah do with God’s instructions?",
+        "type": "multiple_choice",
+        "options": [
+          "He followed them",
+          "He ignored them",
+          "He changed them secretly"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "He followed them"
+        },
+        "explanation": "The narrative repeatedly records Noah doing what God commanded."
+      },
+      {
+        "question_id": "Q3",
+        "question": "“God remembered Noah” means God had forgotten Noah existed.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The phrase marks God’s faithful action for Noah."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which claim goes beyond the passage?",
+        "type": "multiple_choice",
+        "options": [
+          "God preserved Noah in this story",
+          "Faithful people will never face physical danger",
+          "Noah built an ark"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Faithful people will never face physical danger"
+        },
+        "explanation": "The narrative does not give that universal guarantee."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Ark Story Order",
+      "instructions": "Place the four stages in order.",
+      "items": [
+        "Leave the ark",
+        "Build the ark",
+        "Violence fills the earth",
+        "Wait while waters recede"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Violence fills the earth",
+          "Build the ark",
+          "Wait while waters recede",
+          "Leave the ark"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L05-P01-ark-story-sequence",
+        "title": "Ark Story Sequence Cards",
+        "purpose": "Help children hold together the context, instructions, waiting, and preservation in the flood narrative.",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "judgment",
+      "death",
+      "disaster"
+    ],
+    "do_not_ask": [
+      "Do not ask children to connect a personal disaster to divine punishment.",
+      "Do not give graphic descriptions of death."
+    ],
+    "teacher_response": "Acknowledge that the flood is a difficult judgment narrative, use the selected text, and redirect personal disaster questions to a safe private conversation with caregivers.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L05",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D024",
+      "D026"
+    ],
+    "review_flags": [
+      "TH-JUDGMENT",
+      "DEV-KIDS-SCAFFOLD",
+      "PASTORAL-SENSITIVE"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Review judgment vocabulary carefully; preserve the story’s seriousness without graphic fear."
+    ]
+  }
+}

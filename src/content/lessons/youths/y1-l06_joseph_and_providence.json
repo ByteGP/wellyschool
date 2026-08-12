@@ -1,0 +1,654 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L06",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 6,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Joseph and Providence",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Patriarchs"
+  },
+  "core": {
+    "big_idea": "God's purposes continued through human wrongdoing without making wrongdoing good.",
+    "passages": [
+      {
+        "reference": "Genesis 37:18-36",
+        "role": "primary",
+        "reading_note": "Read the brothers’ plot and Joseph’s sale with age-appropriate restraint."
+      },
+      {
+        "reference": "Genesis 45:1-15",
+        "role": "supporting",
+        "reading_note": "Observe recognition, emotion, and provision."
+      },
+      {
+        "reference": "Genesis 50:15-21",
+        "role": "primary",
+        "reading_note": "Compare human intention and God’s providential purpose."
+      }
+    ],
+    "metanarrative_position": "Patriarchs and providence: family wrongdoing threatens the promise line, yet God preserves life and continues His purposes.",
+    "biblical_genre": "Patriarchal narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Joseph’s brothers act from hatred, plot harm, sell him, and deceive their father.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 37:18-35"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Joseph later distinguishes the brothers’ evil intention from God’s good purpose of preserving life.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 50:19-21"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "God’s providence in the story does not redefine the brothers’ act as morally good.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Genesis 50:20"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The verse explicitly names both evil human intention and a good divine purpose.",
+        "prohibited_overstatement": "Do not tell a harmed person that the harm itself was good or that reconciliation erases accountability."
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Joseph provides for the family and speaks reassurance, but the narrative includes fear, testing, confession, and changed circumstances before this ending.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 42-45",
+          "Genesis 50:15-21"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Providence describes God continuing His purposes through and despite human wrongdoing; it must not become an excuse for passivity toward harm.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Genesis 50:20",
+          "Romans 12:21"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Christians differ over how comprehensively divine sovereignty determines particular harmful events.",
+        "interpretive_hinge": "How divine purpose relates to genuine human agency and moral responsibility.",
+        "prohibited_overstatement": "Do not claim exhaustive knowledge of why a specific modern harm occurred."
+      }
+    ],
+    "doctrine_tags": [
+      "providence",
+      "sovereignty",
+      "sin",
+      "forgiveness"
+    ],
+    "formation_tags": [
+      "forgiveness",
+      "wisdom",
+      "truth"
+    ],
+    "interpretation_skill": "Compare human intent and divine purpose; trace the long narrative before drawing an application.",
+    "key_terms": [
+      "providence",
+      "intention",
+      "preserve",
+      "forgive",
+      "accountability"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain that Joseph’s brothers intended evil while God continued a good purpose of preserving life.",
+    "extension_objective": "Trace the narrative conditions surrounding reconciliation and state why providence does not make evil good or remove responsibility.",
+    "know": [
+      "The brothers sell Joseph and deceive Jacob.",
+      "Joseph rises to responsibility in Egypt.",
+      "Joseph later names both evil intention and God’s life-preserving purpose."
+    ],
+    "understand": [
+      "Two intentions can operate in the same history without being morally equal.",
+      "Forgiveness, reconciliation, trust, and consequences are related but not identical."
+    ],
+    "practise": [
+      "Refuse to excuse harm with spiritual slogans.",
+      "Seek truthful repair and safe help where relationships are damaged."
+    ],
+    "become": [
+      "A student who trusts God’s purposes while naming wrongdoing truthfully and responding wisely."
+    ],
+    "success_evidence": [
+      "The student completes an intent/outcome comparison.",
+      "The student rejects “evil became good” as a reading.",
+      "The student distinguishes forgiveness from automatic restoration of trust."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain Genesis 50:20 without calling the brothers’ wrongdoing good.",
+      "read": "Genesis 37:18-36; 50:15-21",
+      "opening": "Write two headings: What they intended / What God brought about. Ask why those are not the same moral claim.",
+      "say": [
+        "The brothers’ hatred, sale, and deception are named as wrongdoing.",
+        "Joseph’s life in Egypt becomes the means by which many lives are preserved.",
+        "Genesis 50:20 keeps both truths: human evil intention and God’s good purpose.",
+        "Providence is not permission to excuse harm or pretend trust repairs instantly."
+      ],
+      "ask": [
+        "What did the brothers intend?",
+        "What outcome does Joseph identify?",
+        "Does the good outcome make the original act good?",
+        "How are forgiveness and restored trust different?"
+      ],
+      "do": "Complete the Intention, Action, Outcome Grid using Genesis 37 and 50.",
+      "close": "Pray for trust in God, truth about wrongdoing, and wisdom in forgiveness and repair.",
+      "materials": [
+        "Bible",
+        "Intention, Action, Outcome Grid",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "The Joseph story spans Genesis 37-50. Genesis 50:20 is a retrospective interpretation after slavery, false accusation, imprisonment, famine, family testing, confession, and provision.",
+      "text_observations": [
+        "Genesis 37 repeatedly reports hatred and deception.",
+        "Genesis 45 and 50 contain intense emotion and material provision.",
+        "Genesis 50:20 grammatically contrasts the brothers’ intended evil with God’s intended good."
+      ],
+      "interpretation_notes": [
+        "Do not isolate Genesis 50:20 from the long narrative.",
+        "Providence can affirm God’s continuing purpose without claiming the harmful act was morally good.",
+        "Reconciliation in Genesis cannot be mechanically applied to unsafe relationships today."
+      ],
+      "theological_guardrails": [
+        "Do not tell a victim that God wanted abuse or that they must immediately trust an offender.",
+        "Do not use providence to erase human responsibility, law, consequences, or safeguarding.",
+        "Do not claim to know the hidden purpose behind every modern tragedy."
+      ],
+      "likely_questions": [
+        {
+          "question": "Did God make the brothers do it?",
+          "purpose": "State that the text holds the brothers responsible and also names God’s purpose; acknowledge larger sovereignty debates without pretending this lesson settles them."
+        },
+        {
+          "question": "Do we have to reconcile with anyone who hurts us?",
+          "purpose": "Distinguish forgiveness from access, trust, and safety; personal cases require safe adult support."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 37:18-36 and 50:15-21, making separate notes for intention, action, consequence, and later outcome.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Compare the two intentions in Genesis 50:20 and test applications against the whole narrative.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Intention, Action, Outcome Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L06-P01-intention-action-outcome-grid"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 37:18-36 and 50:15-21, making separate notes for intention, action, consequence, and later outcome.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Compare the two intentions in Genesis 50:20 and test applications against the whole narrative.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Intention, Action, Outcome Grid activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L06-P01-intention-action-outcome-grid"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 37:18-36 and 50:15-21, making separate notes for intention, action, consequence, and later outcome.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Compare the two intentions in Genesis 50:20 and test applications against the whole narrative.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Intention, Action, Outcome Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L06-P01-intention-action-outcome-grid"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Slogan Audit activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "Which words and actions show the brothers’ intention?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Plot, sell, deceive.",
+        "extension_prompt": "Trace responsibility through the chapter."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What good purpose does Joseph identify later?",
+        "purpose": "Providence",
+        "foundation_prompt": "Preserving many lives.",
+        "extension_prompt": "Locate the statement in famine and family context."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Why does a good outcome not make an evil act good?",
+        "purpose": "Moral reasoning",
+        "foundation_prompt": "The text still calls the intention evil.",
+        "extension_prompt": "Distinguish outcome, intention, and action ethics."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What must be considered before trust is restored?",
+        "purpose": "Pastoral wisdom",
+        "foundation_prompt": "Truth, change, safety.",
+        "extension_prompt": "Distinguish forgiveness, reconciliation, trust, and consequences."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Intention, Action, Outcome Grid",
+        "duration_minutes": 10,
+        "materials": [
+          "Grid",
+          "Pens"
+        ],
+        "steps": [
+          "Record the brothers’ intention.",
+          "Record their actions.",
+          "Record harmful consequences.",
+          "Record the life-preserving outcome Joseph identifies."
+        ],
+        "learning_link": "Prevents moral collapse between human evil and divine purpose.",
+        "low_resource_alternative": "Use four board columns."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Slogan Audit",
+        "duration_minutes": 10,
+        "materials": [
+          "Prepared statements"
+        ],
+        "steps": [
+          "Read a providence slogan.",
+          "Identify what is true.",
+          "Identify what it could wrongly excuse.",
+          "Rewrite it with truth, safety, and humility."
+        ],
+        "learning_link": "Builds resistance to spiritual bypassing.",
+        "low_resource_alternative": "Audit one statement together: “Everything happens for a reason.”"
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 50:20",
+      "prayer_prompt": "Ask for trust in God, moral clarity, and wisdom in forgiveness and safety.",
+      "take_home_line": "God can continue His good purposes through human evil without making the evil good."
+    },
+    "printable_refs": [
+      "Y1-L06-P01-intention-action-outcome-grid"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Two Intentions, One History",
+    "parent_intro": "This study distinguishes the brothers’ evil intention from God’s good purpose without using providence to excuse harm.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 37:18-28 and 50:15-21."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the brothers intended, what God brought about, and why the two are not morally equal."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Fold a page into Human Intention / God’s Purpose and place details from the text."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Does the good ending make the brothers’ act good?",
+      "What is the difference between forgiveness and immediate trust?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Intention and Purpose",
+      "instructions": "Divide details into human intention, human action, consequence, and God’s life-preserving purpose."
+    },
+    "weekly_action": "Replace one careless slogan with a truthful sentence: “I do not know every reason, but God remains faithful and wrongdoing still matters.”",
+    "prayer": "God, help us trust Your faithfulness, name wrongdoing truthfully, forgive wisely, and seek safety when needed.",
+    "parent_note": "Do not apply the story to pressure family reconciliation or disclose harm during the activity."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "How does Joseph describe the brothers’ intention?",
+        "type": "multiple_choice",
+        "options": [
+          "Evil",
+          "Accidental",
+          "Unimportant"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Evil"
+        },
+        "explanation": "Genesis 50:20 does not rename their intention."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What good purpose does Joseph name?",
+        "type": "multiple_choice",
+        "options": [
+          "Preserving many lives",
+          "Making him famous",
+          "Avoiding all hardship"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Preserving many lives"
+        },
+        "explanation": "The famine context centres preservation."
+      },
+      {
+        "question_id": "Q3",
+        "question": "A good later outcome makes the original wrongdoing morally good.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "The verse maintains the moral difference."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which distinction is important?",
+        "type": "multiple_choice",
+        "options": [
+          "Forgiveness and automatic trust are identical",
+          "Forgiveness and restored trust are related but distinct",
+          "Safety never matters"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Forgiveness and restored trust are related but distinct"
+        },
+        "explanation": "Repair may require truth, change, time, and safety."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Intention, Action, or Outcome?",
+      "instructions": "Sort each phrase into its category.",
+      "items": [
+        "The brothers hated Joseph.",
+        "They sold him.",
+        "Many lives were preserved.",
+        "They deceived their father."
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Intention",
+            "items": [
+              "The brothers hated Joseph."
+            ]
+          },
+          {
+            "label": "Action",
+            "items": [
+              "They sold him.",
+              "They deceived their father."
+            ]
+          },
+          {
+            "label": "Outcome",
+            "items": [
+              "Many lives were preserved."
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L06-P01-intention-action-outcome-grid",
+        "title": "Intention, Action, Outcome Grid",
+        "purpose": "Distinguish human wrongdoing, consequences, and God’s providential purpose in the Joseph narrative.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "family_conflict",
+      "violence",
+      "abuse",
+      "forgiveness"
+    ],
+    "do_not_ask": [
+      "Do not ask students to identify a family member who harmed them.",
+      "Do not pressure reconciliation, access, or trust in an unsafe relationship."
+    ],
+    "teacher_response": "Use the biblical case and fictional slogans. Follow safeguarding procedures if a student independently discloses current harm.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L06",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D022",
+      "D023",
+      "D027"
+    ],
+    "review_flags": [
+      "TH-PROVIDENCE",
+      "PASTORAL-SENSITIVE"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Review all forgiveness language against safeguarding principles before publication."
+    ]
+  }
+}

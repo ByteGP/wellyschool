@@ -1,0 +1,662 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L03",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 3,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Canon, Ancient Sources, and Authority",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Bibliology"
+  },
+  "core": {
+    "big_idea": "The canonical books function as doctrinal authority while other ancient sources may illuminate context and reception history.",
+    "passages": [
+      {
+        "reference": "Luke 24:44-47",
+        "role": "primary",
+        "reading_note": "Observe Jesus’ three-part reference to Israel’s Scriptures and His reading of their story."
+      },
+      {
+        "reference": "Romans 3:1-2",
+        "role": "primary",
+        "reading_note": "Examine Paul’s statement that the Jews were entrusted with the oracles of God."
+      },
+      {
+        "reference": "Jude 14-15",
+        "role": "comparison",
+        "reading_note": "Use cautiously to show that citing a source does not automatically settle its canonical status."
+      }
+    ],
+    "metanarrative_position": "Scripture and authority: the biblical story arrives through recognised sacred writings, while other ancient literature can clarify the world around those writings.",
+    "biblical_genre": "Gospel narrative and epistolary argument, with canon-history application",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Jesus refers to the Law of Moses, the Prophets, and the Psalms as an authoritative scriptural framework for understanding His mission.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Luke 24:44-47"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Paul states that the Jewish people were entrusted with the oracles of God.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Romans 3:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "These passages support the authority of Israel’s Scriptures but do not by themselves provide a complete table of contents for the later 66-book Protestant canon.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Luke 24:44-47",
+          "Romans 3:1-2"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The difference between evidence for a recognised scriptural corpus and evidence for each boundary decision in canon history.",
+        "prohibited_overstatement": "Do not claim that either passage independently lists or proves all sixty-six books."
+      },
+      {
+        "claim_id": "C04",
+        "statement": "This curriculum uses the 66-book Protestant canon as its operative doctrinal canon.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Luke 24:44-47",
+          "Romans 3:1-2",
+          "Canon-history evidence"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Catholic and Orthodox communions recognise additional books or different canonical boundaries.",
+        "interpretive_hinge": "How Hebrew collections, Septuagint manuscripts, apostolic use, early canon lists, and ecclesial reception are weighed.",
+        "prohibited_overstatement": "Do not imply that the canon’s historical recognition was effortless, uniform, or detached from evidence and community reception."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Noncanonical ancient writings can provide historical, linguistic, and reception context without independently establishing doctrine for this curriculum.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Jude 14-15",
+          "Historical source review"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "credible_alternative": "Some Christian traditions recognise particular Deuterocanonical books as Scripture rather than merely contextual sources.",
+        "interpretive_hinge": "The distinction between quotation, usefulness, historical witness, and canonical authority.",
+        "prohibited_overstatement": "Do not call every cited or useful ancient text Scripture, and do not dismiss it as worthless merely because it is noncanonical."
+      }
+    ],
+    "doctrine_tags": [
+      "scripture",
+      "canon",
+      "church_history"
+    ],
+    "formation_tags": [
+      "study",
+      "humility",
+      "discernment"
+    ],
+    "interpretation_skill": "Distinguish internal biblical evidence, canon-history evidence, curriculum framework, and contextual source use.",
+    "key_terms": [
+      "canon",
+      "authority",
+      "oracle",
+      "Septuagint",
+      "Apocrypha",
+      "context"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse Luke 24 and Romans 3 and explain why the curriculum distinguishes canonical authority from contextual usefulness.",
+    "extension_objective": "Evaluate a source claim by identifying whether it rests on explicit text, canonical synthesis, historical evidence, or a framework decision.",
+    "know": [
+      "Jesus names Law, Prophets, and Psalms.",
+      "Paul describes the oracles of God as entrusted to the Jews.",
+      "Christian traditions differ over some canonical boundaries."
+    ],
+    "understand": [
+      "A canon is a recognised collection functioning as Scripture, not simply a list of useful books.",
+      "Quotation or historical usefulness does not automatically equal canonical authority."
+    ],
+    "practise": [
+      "Label the evidence class behind a canon claim.",
+      "Use noncanonical sources with both openness and clear limits."
+    ],
+    "become": [
+      "A student who can hold conviction about Scripture without pretending canon history is simple."
+    ],
+    "success_evidence": [
+      "The student distinguishes canon from context source.",
+      "The student identifies what Luke 24 does and does not establish.",
+      "The student accurately states one credible alternative canon position."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students distinguish canonical doctrinal authority from the contextual use of other ancient sources.",
+      "read": "Luke 24:44-47; Romans 3:1-2; Jude 14-15",
+      "opening": "Place three labels on the board: Scripture, Historical Witness, Useful Context. Ask whether one source can be useful without occupying the same authority category.",
+      "say": [
+        "Luke 24 shows Jesus reading His mission through Israel’s recognised Scriptures.",
+        "Romans 3 says the Jewish people were entrusted with God’s oracles.",
+        "Neither passage is a complete sixty-six-book table of contents.",
+        "The project uses the Protestant canon for doctrine while allowing other ancient sources to clarify history, language, and reception."
+      ],
+      "ask": [
+        "What three scriptural divisions does Jesus name?",
+        "What does Paul say was entrusted to the Jews?",
+        "Why does a quotation not automatically make a whole source canonical?",
+        "Which parts of a canon argument require historical evidence beyond one verse?"
+      ],
+      "do": "Complete the Authority and Context Source Ladder with sample claims.",
+      "close": "Pray for confidence in Scripture, historical honesty, and humility about evidence.",
+      "materials": [
+        "Bible",
+        "Authority and Context Source Ladder",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Luke 24 presents the risen Jesus interpreting the Scriptures to His disciples. Romans 3 begins a larger argument about Jewish privilege, unfaithfulness, and God’s faithfulness. Neither text is a standalone canon-history treatise.",
+      "text_observations": [
+        "Luke 24:44 names Law, Prophets, and Psalms in a three-part formulation.",
+        "Jesus says the Scriptures concern His suffering, resurrection, repentance, and mission to the nations.",
+        "Romans 3:2 identifies the oracles of God as a distinctive Jewish trust."
+      ],
+      "interpretation_notes": [
+        "Separate theological authority claims from the historical question of exact boundaries.",
+        "Jude’s citation is a useful case for discussing quotation without assuming whole-book canonisation.",
+        "A mature lesson should state the operative canon openly while representing Catholic and Orthodox alternatives accurately."
+      ],
+      "theological_guardrails": [
+        "Do not use “Scripture alone” as a substitute for explaining which writings are Scripture and why.",
+        "Do not caricature other traditions as simply adding random books.",
+        "Do not elevate a contextual source to doctrinal authority within this curriculum."
+      ],
+      "likely_questions": [
+        {
+          "question": "Did Jesus use the exact same Old Testament table of contents we use?",
+          "purpose": "Say Luke 24 supports a recognised Jewish scriptural structure, while exact boundary history requires further historical evidence."
+        },
+        {
+          "question": "Why does Jude quote a noncanonical source?",
+          "purpose": "Explain that authors can cite true or useful material without declaring every part of the source canonical."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the three passages and record what each explicitly says before discussing canon history.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Use four columns-Explicit Text, Canonical Synthesis, Historical Evidence, Framework Position-to classify claims.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Authority and Context Source Ladder activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L03-P01-authority-context-source-ladder"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read the three passages and record what each explicitly says before discussing canon history.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Use four columns-Explicit Text, Canonical Synthesis, Historical Evidence, Framework Position-to classify claims.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Authority and Context Source Ladder activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L03-P01-authority-context-source-ladder"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read the three passages and record what each explicitly says before discussing canon history.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Use four columns-Explicit Text, Canonical Synthesis, Historical Evidence, Framework Position-to classify claims.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Authority and Context Source Ladder activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L03-P01-authority-context-source-ladder"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Canon Claim Audit activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What exactly does Luke 24:44-47 establish?",
+        "purpose": "Scope control",
+        "foundation_prompt": "Jesus recognises and interprets Israel’s Scriptures.",
+        "extension_prompt": "Discuss the three-part division and its limits as a table-of-contents argument."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What role does Romans 3:1-2 assign to Israel?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Entrusted with God’s oracles.",
+        "extension_prompt": "Place the claim within Paul’s larger argument."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Why is quotation different from canonisation?",
+        "purpose": "Category distinction",
+        "foundation_prompt": "A writer can cite useful material.",
+        "extension_prompt": "Analyse Jude and other ancient citation practices."
+      },
+      {
+        "question_id": "Q04",
+        "question": "How can conviction and historical humility coexist?",
+        "purpose": "Formation",
+        "foundation_prompt": "State the project canon and admit evidence boundaries.",
+        "extension_prompt": "Distinguish confidence, certainty level, and overclaim."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Authority and Context Source Ladder",
+        "duration_minutes": 12,
+        "materials": [
+          "Source-ladder worksheet",
+          "Claim cards"
+        ],
+        "steps": [
+          "Read each claim.",
+          "Place it under Explicit Text, Historical Evidence, Framework Position, or Context Source.",
+          "Explain why it belongs there.",
+          "Identify one overstatement to reject."
+        ],
+        "learning_link": "Makes authority categories and evidence types visible.",
+        "low_resource_alternative": "Use four board headings and place verbal examples."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Canon Claim Audit",
+        "duration_minutes": 10,
+        "materials": [
+          "Three prepared canon claims"
+        ],
+        "steps": [
+          "Underline the conclusion.",
+          "Circle the evidence supplied.",
+          "Identify missing evidence.",
+          "Rewrite the claim with an accurate confidence level."
+        ],
+        "learning_link": "Practises intellectual honesty without abandoning the operative canon.",
+        "low_resource_alternative": "Audit one claim as a class."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Luke 24:44",
+      "prayer_prompt": "Ask for confidence in God’s word, honest historical study, and humility toward other readers.",
+      "take_home_line": "Canonical books govern doctrine; other ancient sources may inform context without carrying the same authority here."
+    },
+    "printable_refs": [
+      "T1-L03-P01-authority-context-source-ladder"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Authority and Useful Context",
+    "parent_intro": "This study distinguishes a source that governs doctrine from a source that helps explain history or language.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Luke 24:44-47 and Romans 3:1-2."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what each passage directly says and what canon questions still require historical evidence."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Choose three household sources-rulebook, history, commentary-and match them to authority, witness, or explanation."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why is a useful source not automatically the final authority?",
+      "How should we speak about Christians who recognise a different canon?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Source Roles",
+      "instructions": "Match rulebook, historical record, and commentary to different functions, then discuss why the analogy is limited."
+    },
+    "weekly_action": "When making one Bible claim this week, name whether its support is direct text, synthesis, or historical context.",
+    "prayer": "God, teach us to receive Your word faithfully, study history honestly, and speak with humility.",
+    "parent_note": "The exercise is about source roles, not mocking Catholic, Orthodox, or Jewish communities."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "Which three divisions does Jesus name in Luke 24:44?",
+        "type": "multiple_choice",
+        "options": [
+          "Law of Moses, Prophets, Psalms",
+          "Gospels, Acts, Epistles",
+          "History, Science, Poetry"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Law of Moses, Prophets, Psalms"
+        },
+        "explanation": "The verse uses a three-part scriptural formulation."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Luke 24:44 independently lists every book in the Protestant canon.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "It names broad divisions, not a complete book list."
+      },
+      {
+        "question_id": "Q3",
+        "question": "What does Romans 3 say was entrusted to the Jews?",
+        "type": "multiple_choice",
+        "options": [
+          "The oracles of God",
+          "Roman law",
+          "The New Testament letters"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The oracles of God"
+        },
+        "explanation": "Paul names a distinctive scriptural trust."
+      },
+      {
+        "question_id": "Q4",
+        "question": "What can a noncanonical ancient source do in this curriculum?",
+        "type": "multiple_choice",
+        "options": [
+          "Illuminate context",
+          "Independently create doctrine",
+          "Replace the biblical text"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Illuminate context"
+        },
+        "explanation": "Contextual usefulness and doctrinal authority are distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Authority Category Sort",
+      "instructions": "Sort each statement by the kind of support it needs.",
+      "items": [
+        "Jesus names Law, Prophets, and Psalms.",
+        "The project uses sixty-six books.",
+        "A Second Temple text explains a cultural practice.",
+        "An early canon list records reception history."
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Explicit text",
+            "items": [
+              "Jesus names Law, Prophets, and Psalms."
+            ]
+          },
+          {
+            "label": "Framework position",
+            "items": [
+              "The project uses sixty-six books."
+            ]
+          },
+          {
+            "label": "Context source",
+            "items": [
+              "A Second Temple text explains a cultural practice."
+            ]
+          },
+          {
+            "label": "Historical evidence",
+            "items": [
+              "An early canon list records reception history."
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L03-P01-authority-context-source-ladder",
+        "title": "Authority and Context Source Ladder",
+        "purpose": "Classify canon claims by explicit text, synthesis, historical evidence, framework position, and contextual use.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen discussion with technical terms defined and claims tested against context.",
+    "plain_language_rule": "Use precise language; define specialist terms and separate evidence from conclusion.",
+    "neurodiversity_supports": [
+      "Provide the reasoning structure visually.",
+      "Allow written rather than spoken responses.",
+      "Give processing time before discussion."
+    ],
+    "sensory_notes": [
+      "No required role-play, public disclosure, or competitive performance."
+    ],
+    "non_reader_support": [
+      "Read passages aloud.",
+      "Provide concise claim cards or summaries without replacing the biblical text."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "religious_identity",
+      "denominational_difference"
+    ],
+    "do_not_ask": [
+      "Do not require students to criticise a family member’s tradition publicly.",
+      "Do not turn canon differences into a salvation ranking exercise."
+    ],
+    "teacher_response": "Require accurate description, distinguish project governance from judgments about individuals, and redirect personal conflict privately.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: T1-L03",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D002",
+      "D003"
+    ],
+    "review_flags": [
+      "TH-BIBLIOLOGY",
+      "TH-CHURCH-HISTORY"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Full publication requires a primary-source canon-history packet; this lesson deliberately marks where the biblical passages stop."
+    ]
+  }
+}

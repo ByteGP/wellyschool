@@ -1,0 +1,649 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y1-L04",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 4,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Noah: Judgment, Mercy, and Covenant",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "Promise"
+  },
+  "core": {
+    "big_idea": "The flood story holds together divine judgment, preservation, and covenant promise.",
+    "passages": [
+      {
+        "reference": "Genesis 6:5-22",
+        "role": "primary",
+        "reading_note": "Read the corruption, judgment announcement, and ark instructions."
+      },
+      {
+        "reference": "Genesis 8:20-22; 9:8-17",
+        "role": "primary",
+        "reading_note": "Read the post-flood worship and covenant sign."
+      }
+    ],
+    "metanarrative_position": "Judgment, preservation, and covenant: God responds to pervasive violence, preserves life, and binds the future with a promise.",
+    "biblical_genre": "Primeval biblical narrative with covenant speech",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis attributes the flood judgment to pervasive human wickedness and violence.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 6:5",
+          "Genesis 6:11-13"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "God provides the ark as the means by which Noah’s household and animal life are preserved.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 6:13-22",
+          "Genesis 7:1-5"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "After the flood, God establishes a covenant with Noah, his descendants, and every living creature.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 9:8-11"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "The rainbow is named as the sign of that covenant.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 9:12-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The story holds together judgment and mercy but does not authorize explaining each later disaster as direct punishment for its victims.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 6:5-22",
+          "Genesis 9:8-17",
+          "Luke 13:1-5"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not use the flood to claim that a modern disaster identifies its victims as more sinful than others."
+      }
+    ],
+    "doctrine_tags": [
+      "judgment",
+      "covenant",
+      "mercy",
+      "creation"
+    ],
+    "formation_tags": [
+      "trust",
+      "worship",
+      "stewardship"
+    ],
+    "interpretation_skill": "Read the narrative in three lenses-judgment, preservation, covenant-and distinguish ancient narrative from modern disaster explanation.",
+    "key_terms": [
+      "violence",
+      "preserve",
+      "covenant",
+      "sign",
+      "rainbow"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain that the flood narrative includes judgment on violence, preservation through the ark, and a covenant promise, and place it on the timeline.",
+    "extension_objective": "Analyse the covenant recipients and sign, then state what the passage does and does not permit us to claim about later disasters.",
+    "know": [
+      "Genesis links the flood to violence and corruption.",
+      "The ark preserves human and animal life.",
+      "The covenant includes Noah, descendants, and living creatures."
+    ],
+    "understand": [
+      "Covenant is a binding promise initiated by God.",
+      "Judgment and mercy are not opposites in the narrative; both are present."
+    ],
+    "practise": [
+      "Reject violence rather than normalise it.",
+      "Treat creation as belonging within God’s covenant concern."
+    ],
+    "become": [
+      "A student who reads difficult judgment narratives carefully and responds with humility rather than accusation."
+    ],
+    "success_evidence": [
+      "The student fills all three lenses with textual evidence.",
+      "The student identifies the covenant recipients and sign.",
+      "The student rejects simplistic disaster blame."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Students explain the flood through judgment, preservation, and covenant promise.",
+      "read": "Genesis 6:5-22; 9:8-17",
+      "opening": "Write Judgment, Preservation, and Promise. Ask whether one story can contain all three.",
+      "say": [
+        "Genesis describes a world filled with corruption and violence.",
+        "God announces judgment and provides an ark that preserves life.",
+        "After the flood, God makes a covenant with Noah, future descendants, and living creatures.",
+        "The rainbow is a sign of God’s covenant, not a charm that prevents every disaster."
+      ],
+      "ask": [
+        "What reason for judgment does Genesis give?",
+        "Who and what are preserved?",
+        "Who receives the covenant promise?",
+        "What claim about modern disasters would go beyond the text?"
+      ],
+      "do": "Complete the Three-Lens Flood Grid with direct evidence for judgment, preservation, and covenant.",
+      "close": "Pray for humility before difficult texts, rejection of violence, and care for living things.",
+      "materials": [
+        "Bible",
+        "Three-Lens Flood Grid",
+        "Pens"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 6-9 is an extended narrative framed by human violence, divine judgment, preservation, sacrifice, covenant, and renewed commission. This lesson does not attempt to resolve scientific flood models.",
+      "text_observations": [
+        "“Violence” and “corrupt” are repeated in the judgment rationale.",
+        "The ark instructions repeatedly concern preservation and continuation of life.",
+        "The covenant explicitly includes future generations and every living creature."
+      ],
+      "interpretation_notes": [
+        "Covenant should be defined as a binding promise or committed relationship, not merely a casual agreement.",
+        "Keep questions about flood extent and chronology separate from the passage’s theological claims unless deliberately researched later.",
+        "Use Luke 13 only as a canonical guardrail against victim-blaming; do not make it the primary passage."
+      ],
+      "theological_guardrails": [
+        "Do not soften the judgment into a harmless animal story.",
+        "Do not use graphic descriptions or invite speculation about individual victims.",
+        "Do not claim every rainbow is a new covenant or a magical protective object."
+      ],
+      "likely_questions": [
+        {
+          "question": "Was the flood global?",
+          "purpose": "Say Christians and scholars debate geographical and scientific models; this lesson focuses on the claims the narrative clearly makes."
+        },
+        {
+          "question": "Why would God judge so severely?",
+          "purpose": "Return to the text’s portrayal of pervasive evil and violence, acknowledge the difficulty, and avoid pretending the emotional problem disappears."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 6:5-22 and 9:8-17, recording evidence under Judgment, Preservation, and Covenant.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Compare the three lenses and identify which claims are explicit text and which are cautious application.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Three-Lens Flood Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L04-P01-three-lens-flood-grid"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 6:5-22 and 9:8-17, recording evidence under Judgment, Preservation, and Covenant.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Compare the three lenses and identify which claims are explicit text and which are cautious application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Three-Lens Flood Grid activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L04-P01-three-lens-flood-grid"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 6:5-22 and 9:8-17, recording evidence under Judgment, Preservation, and Covenant.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Compare the three lenses and identify which claims are explicit text and which are cautious application.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Three-Lens Flood Grid activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y1-L04-P01-three-lens-flood-grid"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Covenant Recipients Map activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What words describe the world before the flood?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Wickedness, corruption, violence.",
+        "extension_prompt": "Trace repetition across Genesis 6."
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does the ark function in the narrative?",
+        "purpose": "Narrative logic",
+        "foundation_prompt": "Means of preservation.",
+        "extension_prompt": "Distinguish God’s provision from Noah earning salvation."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Who are the covenant partners and what is the sign?",
+        "purpose": "Covenant literacy",
+        "foundation_prompt": "Noah, descendants, living creatures; rainbow.",
+        "extension_prompt": "Discuss the ecological breadth of the covenant."
+      },
+      {
+        "question_id": "Q04",
+        "question": "Why is it wrong to call every disaster a direct punishment of its victims?",
+        "purpose": "Application boundary",
+        "foundation_prompt": "The flood gives its own stated reason; later events need their own evidence.",
+        "extension_prompt": "Use Luke 13 cautiously as a canonical check."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Three-Lens Flood Grid",
+        "duration_minutes": 10,
+        "materials": [
+          "Grid",
+          "Bibles",
+          "Pens"
+        ],
+        "steps": [
+          "Find two details for Judgment.",
+          "Find two details for Preservation.",
+          "Find two details for Covenant.",
+          "Label any application that is not a direct narrative statement."
+        ],
+        "learning_link": "Prevents the story from collapsing into either terror or a cute-animal account.",
+        "low_resource_alternative": "Use three board columns."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Covenant Recipients Map",
+        "duration_minutes": 10,
+        "materials": [
+          "Concentric-circle sheet"
+        ],
+        "steps": [
+          "Write Noah in the centre.",
+          "Add descendants.",
+          "Add every living creature.",
+          "Explain what the expanding circles reveal."
+        ],
+        "learning_link": "Makes the covenant’s breadth concrete.",
+        "low_resource_alternative": "Draw circles on the board."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 9:11",
+      "prayer_prompt": "Ask for humility, gratitude for mercy, and commitment to reject violence.",
+      "take_home_line": "The flood story holds together judgment, preservation, and covenant promise."
+    },
+    "printable_refs": [
+      "Y1-L04-P01-three-lens-flood-grid"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Three Lenses on the Flood",
+    "parent_intro": "This study reads the flood as a serious account of violence, judgment, preservation, and promise.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 6:11-22 and 9:8-17."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Find one detail for each heading: Judgment, Preservation, Covenant."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Draw three circles labelled Noah, Descendants, Living Creatures and place the rainbow sign around them."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "What reason does Genesis give for judgment?",
+      "Who is included in the covenant?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Judgment-Preservation-Covenant",
+      "instructions": "Place passage details under the three headings and identify the covenant sign."
+    },
+    "weekly_action": "Choose one action that protects life or reduces harm in your household or neighbourhood.",
+    "prayer": "God, teach us to reject violence, receive mercy with gratitude, and care for life.",
+    "parent_note": "Do not use a modern disaster or family tragedy as an example of direct divine punishment."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What condition does Genesis repeatedly name before the flood?",
+        "type": "multiple_choice",
+        "options": [
+          "Violence and corruption",
+          "Too much travel",
+          "A lack of kings"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Violence and corruption"
+        },
+        "explanation": "The narrative gives a moral rationale for judgment."
+      },
+      {
+        "question_id": "Q2",
+        "question": "Who is included in the covenant?",
+        "type": "multiple_choice",
+        "options": [
+          "Noah, descendants, and living creatures",
+          "Only Noah",
+          "Only animals"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Noah, descendants, and living creatures"
+        },
+        "explanation": "Genesis 9 explicitly widens the covenant recipients."
+      },
+      {
+        "question_id": "Q3",
+        "question": "The rainbow is named as the covenant sign.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "Genesis 9 identifies the bow as the sign."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which claim goes beyond the lesson’s evidence?",
+        "type": "multiple_choice",
+        "options": [
+          "The flood includes judgment",
+          "The ark preserves life",
+          "Every modern disaster proves its victims were worse sinners"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Every modern disaster proves its victims were worse sinners"
+        },
+        "explanation": "The narrative does not authorize universal victim-blaming."
+      }
+    ],
+    "puzzle": {
+      "type": "sort",
+      "title": "Three-Lens Sort",
+      "instructions": "Sort each phrase into Judgment, Preservation, or Covenant.",
+      "items": [
+        "The earth was filled with violence.",
+        "Bring living creatures into the ark.",
+        "Never again shall all flesh be cut off by flood.",
+        "The rainbow is the sign."
+      ],
+      "solution": {
+        "kind": "groups",
+        "groups": [
+          {
+            "label": "Judgment",
+            "items": [
+              "The earth was filled with violence."
+            ]
+          },
+          {
+            "label": "Preservation",
+            "items": [
+              "Bring living creatures into the ark."
+            ]
+          },
+          {
+            "label": "Covenant",
+            "items": [
+              "Never again shall all flesh be cut off by flood.",
+              "The rainbow is the sign."
+            ]
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y1-L04-P01-three-lens-flood-grid",
+        "title": "Three-Lens Flood Grid",
+        "purpose": "Organise explicit evidence for judgment, preservation, and covenant in Genesis 6-9.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary discussion with concrete anchors before abstract explanation.",
+    "plain_language_rule": "Define covenant, genre, inference, and other technical terms before expecting use.",
+    "neurodiversity_supports": [
+      "Use a visible timeline or comparison grid.",
+      "Allow written, drawn, or spoken responses.",
+      "Model one completed example before independent work."
+    ],
+    "sensory_notes": [
+      "Offer a seated alternative to movement activities."
+    ],
+    "non_reader_support": [
+      "Read passages aloud in sections.",
+      "Use prepared cards so participation does not depend on fluent reading."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "judgment",
+      "violence",
+      "death",
+      "disaster"
+    ],
+    "do_not_ask": [
+      "Do not ask students to connect personal disasters with divine punishment.",
+      "Do not invite graphic descriptions of flood deaths or violence."
+    ],
+    "teacher_response": "Acknowledge the narrative’s severity, use selected passages, and route personal grief questions privately and safely.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: Y1-L04",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D024",
+      "D026"
+    ],
+    "review_flags": [
+      "TH-JUDGMENT",
+      "TH-COVENANT",
+      "DEV-YOUTH-SCAFFOLD",
+      "PASTORAL-SENSITIVE"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_started",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Retain the distinction between narrative theology and scientific flood models."
+    ]
+  }
+}

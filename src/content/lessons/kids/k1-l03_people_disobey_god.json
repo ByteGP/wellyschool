@@ -1,0 +1,612 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L03",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 3,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "People Disobey God",
+    "annual_anchor": "rebellion_and_need",
+    "thematic_unit": "What Went Wrong"
+  },
+  "core": {
+    "big_idea": "Human disobedience damaged the good relationship God intended.",
+    "passages": [
+      {
+        "reference": "Genesis 3:1-13",
+        "role": "primary",
+        "reading_note": "Read selected verses slowly; name the choices and consequences without graphic or shaming language."
+      },
+      {
+        "reference": "Genesis 2:15-17",
+        "role": "context",
+        "reading_note": "Recall the good instruction God had already given."
+      }
+    ],
+    "metanarrative_position": "Rebellion: people mistrust God, disobey His good instruction, and hide from Him.",
+    "biblical_genre": "Biblical narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God gave the first humans a clear instruction before their disobedience.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 2:15-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The serpent contradicted God, and the humans chose to eat what God had forbidden.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 3:1-6"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "After disobeying, the humans experienced shame, fear, hiding, and blame.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 3:7-13"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Human sin involves mistrusting God and choosing our own way, not merely making an accidental mistake.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 3:1-13",
+          "Romans 1:21-25"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "creation",
+      "sin",
+      "humanity"
+    ],
+    "formation_tags": [
+      "trust",
+      "honesty",
+      "repentance"
+    ],
+    "interpretation_skill": "Retell the sequence; distinguish temptation, choice, and consequence; avoid adding details not in the passage.",
+    "key_terms": [
+      "instruction",
+      "temptation",
+      "disobey",
+      "hide"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell the main action in Genesis 3:1-13 and say that the people disobeyed God.",
+    "extension_objective": "Explain how mistrust led to disobedience and name one truthful response when we do wrong.",
+    "know": [
+      "God had given a good instruction.",
+      "The serpent questioned God’s word.",
+      "The people chose to disobey and then hid."
+    ],
+    "understand": [
+      "Sin damages trust and relationships.",
+      "Hiding and blame do not repair wrongdoing."
+    ],
+    "practise": [
+      "Tell the truth when something has gone wrong.",
+      "Ask God and people for forgiveness instead of shifting blame."
+    ],
+    "become": [
+      "A child who trusts God, tells the truth, and accepts responsibility."
+    ],
+    "success_evidence": [
+      "The child places four story events in order.",
+      "The child identifies disobedience rather than fruit as the core problem.",
+      "The child names a truthful response to wrongdoing."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Children retell the first disobedience and explain that mistrusting God damaged a good relationship.",
+      "read": "Genesis 2:15-17; 3:1-13",
+      "opening": "Ask: What is the difference between making a mistake and choosing to ignore a clear instruction?",
+      "say": [
+        "God had given one clear instruction.",
+        "The serpent tried to make God seem untrustworthy.",
+        "The people chose their own way and then hid and blamed.",
+        "When we do wrong, God wants truth rather than hiding or blame."
+      ],
+      "ask": [
+        "What instruction had God given?",
+        "What did the serpent say about God’s words?",
+        "What happened after the people ate?",
+        "What can we do instead of hiding or blaming?"
+      ],
+      "do": "Use the Choice, Action, Consequence Cards to retell the story in order.",
+      "close": "Pray: God, help us trust Your words, tell the truth, and turn back when we do wrong.",
+      "materials": [
+        "Bible",
+        "Choice, Action, Consequence Cards or four blank sheets"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Genesis 3 follows a good creation and a clear boundary in Genesis 2. The narrative describes temptation, human choice, shame, fear, hiding, and blame.",
+      "text_observations": [
+        "The serpent reframes God’s command and questions its truthfulness.",
+        "The woman and man both participate in the disobedience.",
+        "God questions the humans, and each response shifts responsibility."
+      ],
+      "interpretation_notes": [
+        "Keep the focus on mistrust and disobedience, not on identifying the fruit.",
+        "Do not make Eve the sole cause; the text holds both humans accountable.",
+        "For younger children, use “choosing against God’s good instruction” before technical theories of sin."
+      ],
+      "theological_guardrails": [
+        "Do not teach that every hardship is direct punishment for a child’s particular sin.",
+        "Do not ask children to disclose private wrongdoing publicly.",
+        "Do not present God as unable or unwilling to seek people who hide."
+      ],
+      "likely_questions": [
+        {
+          "question": "What kind of fruit was it?",
+          "purpose": "State that the passage does not name the fruit; the important point is the forbidden choice."
+        },
+        {
+          "question": "Does God stop loving people when they do wrong?",
+          "purpose": "Say that sin is serious, but the wider story shows God seeking, judging, and promising rescue."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening prompt from the Teach Now card."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Genesis 2:15-17 and 3:1-13, pausing after temptation, choice, hiding, and blame.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Build a four-part sequence: God’s instruction, the serpent’s challenge, human choice, and damaged relationship.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the Choice, Action, Consequence Sort activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L03-P01-choice-action-consequence"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Repeat the take-home line and close in prayer.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite two or three brief responses."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Introduce the passage setting, speaker or main characters, and genre in age-appropriate language."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Genesis 2:15-17 and 3:1-13, pausing after temptation, choice, hiding, and blame.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Build a four-part sequence: God’s instruction, the serpent’s challenge, human choice, and damaged relationship.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete the Choice, Action, Consequence Sort activity and review what it demonstrates.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L03-P01-choice-action-consequence"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Review the objective, repeat the take-home line, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and identify the question the lesson will answer."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Genesis 2:15-17 and 3:1-13, pausing after temptation, choice, hiding, and blame.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Interpret",
+            "instructions": "Build a four-part sequence: God’s instruction, the serpent’s challenge, human choice, and damaged relationship.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 7,
+            "label": "Activity one",
+            "instructions": "Complete the Choice, Action, Consequence Sort activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L03-P01-choice-action-consequence"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Activity two",
+            "instructions": "Complete the Truth Instead of Blame activity and compare the results.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond and assess",
+            "instructions": "Use one quiz item orally, repeat the take-home line, and pray."
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What had God actually said before the serpent spoke?",
+        "purpose": "Text observation",
+        "foundation_prompt": "Find the instruction.",
+        "extension_prompt": "Compare the command with the serpent’s version."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What choice did the humans make?",
+        "purpose": "Responsibility",
+        "foundation_prompt": "They ate what God forbade.",
+        "extension_prompt": "Explain why temptation did not remove responsibility."
+      },
+      {
+        "question_id": "Q03",
+        "question": "What changed immediately after the choice?",
+        "purpose": "Cause and effect",
+        "foundation_prompt": "Shame, fear, hiding, blame.",
+        "extension_prompt": "Separate explicit consequences from later synthesis."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is a truthful response when we do wrong?",
+        "purpose": "Formation",
+        "foundation_prompt": "Tell the truth and ask forgiveness.",
+        "extension_prompt": "Explain why responsibility differs from shame-based self-condemnation."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Choice, Action, Consequence Sort",
+        "duration_minutes": 8,
+        "materials": [
+          "Four story cards",
+          "Floor or table space"
+        ],
+        "steps": [
+          "Place God’s instruction first.",
+          "Add the serpent’s challenge.",
+          "Add the human choice.",
+          "Add hiding and blame; retell the sequence."
+        ],
+        "learning_link": "Makes cause and effect concrete without reducing sin to an accidental mistake.",
+        "low_resource_alternative": "Write four headings on the board and let children point."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Truth Instead of Blame",
+        "duration_minutes": 8,
+        "materials": [
+          "Simple scenario cards"
+        ],
+        "steps": [
+          "Read a low-stakes scenario.",
+          "Identify hiding or blame.",
+          "Practise a truthful sentence.",
+          "Name one repairing action."
+        ],
+        "learning_link": "Connects the story to honest responsibility without inviting private disclosure.",
+        "low_resource_alternative": "Use one fictional scenario verbally."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 3:9",
+      "prayer_prompt": "Ask for trust, truthfulness, and courage to turn back when wrong.",
+      "take_home_line": "God’s way is good; when we do wrong, we tell the truth and turn back."
+    },
+    "printable_refs": [
+      "K1-L03-P01-choice-action-consequence"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Truth Instead of Hiding",
+    "parent_intro": "Use this study to talk about trust and responsibility without asking for private confessions.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Use the opening prompt to connect the lesson to ordinary family life."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read Genesis 3:1-13, or retell it in four short parts for a younger child."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what God said, what the people chose, and what they did next."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use four objects to mark Instruction, Temptation, Choice, and Hiding; place them in order."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action, then pray together."
+      }
+    ],
+    "questions": [
+      "Why did the people hide?",
+      "What can we say when we have done something wrong?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Four-Part Story",
+      "instructions": "Place four household objects in story order and retell one sentence for each."
+    },
+    "weekly_action": "Use one truthful repair sentence this week: “I did it. I am sorry. How can I help put it right?”",
+    "prayer": "God, help us trust You, tell the truth, and turn back when we do wrong.",
+    "parent_note": "Keep examples ordinary and fictional; do not turn family study into an interrogation."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Q1",
+        "question": "What had God given before the disobedience?",
+        "type": "multiple_choice",
+        "options": [
+          "A clear instruction",
+          "A secret riddle",
+          "No guidance"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "A clear instruction"
+        },
+        "explanation": "Genesis 2 records a clear boundary."
+      },
+      {
+        "question_id": "Q2",
+        "question": "What did the people do after disobeying?",
+        "type": "multiple_choice",
+        "options": [
+          "They hid",
+          "They built an ark",
+          "They travelled"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "They hid"
+        },
+        "explanation": "Genesis 3 describes hiding and fear."
+      },
+      {
+        "question_id": "Q3",
+        "question": "The passage says the fruit was an apple.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Genesis does not name the fruit."
+      },
+      {
+        "question_id": "Q4",
+        "question": "Which is a truthful response to wrongdoing?",
+        "type": "multiple_choice",
+        "options": [
+          "Blame someone else",
+          "Hide it",
+          "Tell the truth and seek repair"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Tell the truth and seek repair"
+        },
+        "explanation": "Truth and responsibility oppose hiding and blame."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "What Happened Next?",
+      "instructions": "Put the four events in story order.",
+      "items": [
+        "The people hid and blamed.",
+        "God gave an instruction.",
+        "The people ate.",
+        "The serpent questioned God’s word."
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "God gave an instruction.",
+          "The serpent questioned God’s word.",
+          "The people ate.",
+          "The people hid and blamed."
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L03-P01-choice-action-consequence",
+        "title": "Choice, Action, Consequence Cards",
+        "purpose": "Help children retell Genesis 3 as a sequence of instruction, temptation, choice, and consequence.",
+        "format": "cards",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Short concrete sentences suitable for teacher-led reading with ages 4-8.",
+    "plain_language_rule": "Use concrete verbs and define every abstract term through the story.",
+    "neurodiversity_supports": [
+      "Show the sequence visually.",
+      "Allow pointing, drawing, or one-word responses.",
+      "Give one direction at a time."
+    ],
+    "sensory_notes": [
+      "Participation must not require loud noise, touch, or public performance."
+    ],
+    "non_reader_support": [
+      "Read all Scripture aloud.",
+      "Use pictures, objects, or gesture-supported retelling."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "sin",
+      "shame",
+      "responsibility"
+    ],
+    "do_not_ask": [
+      "Do not ask children to confess private wrongdoing before the group.",
+      "Do not label a child as bad or compare children publicly."
+    ],
+    "teacher_response": "Use fictional, low-stakes examples and distinguish responsible confession from humiliating disclosure.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Canonical Curriculum Matrix v0.3: K1-L03",
+      "Curriculum Research Adjudication v0.1",
+      "Theological Decision Register v0.3",
+      "Editorial synthesis for Content Production Batch 02 v0.1"
+    ],
+    "decision_register_refs": [
+      "D020"
+    ],
+    "review_flags": [
+      "TH-SIN",
+      "DEV-KIDS-SCAFFOLD"
+    ],
+    "review_state": {
+      "exegetical": "not_started",
+      "developmental": "not_started",
+      "pastoral": "not_required",
+      "copy": "not_started"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
+    "editor_notes": [
+      "Confirm wording about sin and accountability remains capacity-sensitive."
+    ]
+  }
+}
