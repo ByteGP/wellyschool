@@ -12,14 +12,14 @@ import {
 } from '../../src/lib/content/loader';
 
 describe('content loader (real repository content)', () => {
-  it('loads the one hundred and eighty-four lessons with unique ids', () => {
+  it('loads the two hundred and two lessons with unique ids', () => {
     const lessons = getAllLessons();
-    expect(lessons).toHaveLength(184);
-    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(184);
+    expect(lessons).toHaveLength(202);
+    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(202);
   });
 
-  it('loads the one hundred and ninety-one printable resources and resolves every printable reference', () => {
-    expect(getAllResources()).toHaveLength(191);
+  it('loads the two hundred and nine printable resources and resolves every printable reference', () => {
+    expect(getAllResources()).toHaveLength(209);
     for (const lesson of getAllLessons()) {
       for (const printable of lesson.engagement.printables) {
         expect(getResourceById(printable.resource_id), printable.resource_id).toBeDefined();
@@ -30,7 +30,7 @@ describe('content loader (real repository content)', () => {
   it('hides draft seed lessons from production mode (governance boundary)', () => {
     // Seeds are vertical_slice_draft and batch 01 is in_review; production renders none.
     expect(getPublicLessons('production')).toHaveLength(0);
-    expect(getPublicLessons('preview')).toHaveLength(184);
+    expect(getPublicLessons('preview')).toHaveLength(202);
   });
 
   it('groups lessons by segment as contiguous cycle blocks, sequenced within each', () => {
