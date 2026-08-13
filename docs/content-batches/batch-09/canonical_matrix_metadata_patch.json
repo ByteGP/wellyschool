@@ -1,0 +1,44 @@
+{
+  "version": "0.1",
+  "patches": [
+    {
+      "lesson_id": "Y2-L01",
+      "issue": "Remove unrelated TH-VIOLENCE / Violence-war metadata.",
+      "suggested_change": {
+        "theological_review_flag": "",
+        "pastoral_sensitivity": ""
+      }
+    },
+    {
+      "lesson_id": "Y2-L03",
+      "issue": "Remove unrelated TH-CHURCH-HISTORY and TH-VIOLENCE from Genesis covenant comparison.",
+      "suggested_change": {
+        "theological_review_flag": "",
+        "pastoral_sensitivity": ""
+      }
+    },
+    {
+      "lesson_id": "Y2-L05",
+      "issue": "Remove unrelated TH-VIOLENCE / Violence-war metadata.",
+      "suggested_change": {
+        "theological_review_flag": "",
+        "pastoral_sensitivity": ""
+      }
+    },
+    {
+      "lesson_id": "T2-L02",
+      "issue": "Remove unrelated lord_supper doctrine tag and TH-LORDS-SUPPER.",
+      "suggested_change": {
+        "doctrine_tags": "sin, salvation",
+        "theological_review_flag": "TH-SALVATION"
+      }
+    },
+    {
+      "lesson_id": "K2-L03",
+      "issue": "Remove hell-specific pastoral sensitivity from early Genesis hope lesson.",
+      "suggested_change": {
+        "pastoral_sensitivity": ""
+      }
+    }
+  ]
+}

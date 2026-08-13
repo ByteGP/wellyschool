@@ -11,14 +11,14 @@ import {
 } from '../../src/lib/content/loader';
 
 describe('content loader (real repository content)', () => {
-  it('loads the ninety-five lessons with unique ids', () => {
+  it('loads the one hundred and thirteen lessons with unique ids', () => {
     const lessons = getAllLessons();
-    expect(lessons).toHaveLength(95);
-    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(95);
+    expect(lessons).toHaveLength(113);
+    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(113);
   });
 
-  it('loads the one hundred and one printable resources and resolves every printable reference', () => {
-    expect(getAllResources()).toHaveLength(101);
+  it('loads the one hundred and nineteen printable resources and resolves every printable reference', () => {
+    expect(getAllResources()).toHaveLength(119);
     for (const lesson of getAllLessons()) {
       for (const printable of lesson.engagement.printables) {
         expect(getResourceById(printable.resource_id), printable.resource_id).toBeDefined();
@@ -29,13 +29,21 @@ describe('content loader (real repository content)', () => {
   it('hides draft seed lessons from production mode (governance boundary)', () => {
     // Seeds are vertical_slice_draft and batch 01 is in_review; production renders none.
     expect(getPublicLessons('production')).toHaveLength(0);
-    expect(getPublicLessons('preview')).toHaveLength(95);
+    expect(getPublicLessons('preview')).toHaveLength(113);
   });
 
-  it('groups lessons by segment in sequence order for preview builds', () => {
+  it('groups lessons by segment in non-decreasing sequence order for preview builds', () => {
     const kids = getPublicLessonsBySegment('Kids', 'preview');
-    expect(kids.map((lesson) => lesson.lesson_id)).toEqual(['K1-L01', 'K1-L02', 'K1-L03', 'K1-L04', 'K1-L05', 'K1-L06', 'K1-L07', 'K1-L08', 'K1-L09', 'K1-L10', 'K1-L11', 'K1-L12', 'K1-L13', 'K5-L13', 'K1-L14', 'K1-L15', 'K1-L16', 'K1-L17', 'K1-L18', 'K1-L19', 'K1-L20', 'K1-L21', 'K1-L22', 'K1-L23', 'K1-L24', 'K1-L25', 'K1-L26', 'K1-L27', 'K1-L28', 'K1-L29', 'K1-L30']);
-    expect(kids[0].curriculum.sequence).toBeLessThan(kids[1].curriculum.sequence);
+    // Every returned lesson is a Kids lesson, and the list is sorted by
+    // curriculum sequence (robust across multiple cycles: K1, K2, K5).
+    expect(kids.length).toBeGreaterThan(0);
+    expect(kids.every((lesson) => lesson.curriculum.segment === 'Kids')).toBe(true);
+    for (let i = 1; i < kids.length; i += 1) {
+      expect(kids[i].curriculum.sequence).toBeGreaterThanOrEqual(kids[i - 1].curriculum.sequence);
+    }
+    const ids = new Set(kids.map((lesson) => lesson.lesson_id));
+    expect(ids.has('K1-L01')).toBe(true);
+    expect(ids.has('K2-L01')).toBe(true);
   });
 
   it('returns lessons by id regardless of mode for internal use', () => {

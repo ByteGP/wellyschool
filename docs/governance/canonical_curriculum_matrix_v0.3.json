@@ -1127,11 +1127,11 @@
       "family_connection": "Read a short selection, ask two concrete questions, complete one simple activity, and pray in about 15 minutes.",
       "theological_review_flag": "TH-ESCHATOLOGY",
       "developmental_review_flag": "DEV-KIDS-SCAFFOLD",
-      "pastoral_sensitivity": "Judgment/hell",
+      "pastoral_sensitivity": "",
       "source_provenance": "Kids Research A and B; Curriculum Research Adjudication v0.1 sections 5.1 and 6-8; editorial synthesis",
       "status": "Architecture Draft",
       "content_version": "0.1",
-      "review_notes": ""
+      "review_notes": "Metadata corrected per Content Batch 09 note (2026-08-13)."
     },
     {
       "lesson_id": "K2-L04",
@@ -5713,13 +5713,13 @@
       "formation_tags": "trust, worship",
       "interpretation_skill": "Locate on timeline; read immediate context; identify genre; separate observation and application",
       "family_connection": "Read the key verses, place the lesson on a simple timeline, discuss one reason and one practice, then pray.",
-      "theological_review_flag": "TH-VIOLENCE",
+      "theological_review_flag": "",
       "developmental_review_flag": "",
-      "pastoral_sensitivity": "Violence/war",
+      "pastoral_sensitivity": "",
       "source_provenance": "Youths Research A and B; Curriculum Research Adjudication v0.1 sections 5.2 and 6-8; editorial synthesis",
       "status": "Architecture Draft",
       "content_version": "0.1",
-      "review_notes": ""
+      "review_notes": "Metadata corrected per Content Batch 09 note (2026-08-13)."
     },
     {
       "lesson_id": "Y2-L02",
@@ -5775,13 +5775,13 @@
       "formation_tags": "worship, service, mission",
       "interpretation_skill": "Locate on timeline; read immediate context; identify genre; separate observation and application",
       "family_connection": "Read the key verses, place the lesson on a simple timeline, discuss one reason and one practice, then pray.",
-      "theological_review_flag": "TH-CHURCH-HISTORY, TH-VIOLENCE",
+      "theological_review_flag": "",
       "developmental_review_flag": "",
-      "pastoral_sensitivity": "Violence/war",
+      "pastoral_sensitivity": "",
       "source_provenance": "Youths Research A and B; Curriculum Research Adjudication v0.1 sections 5.2 and 6-8; editorial synthesis",
       "status": "Architecture Draft",
       "content_version": "0.1",
-      "review_notes": ""
+      "review_notes": "Metadata corrected per Content Batch 09 note (2026-08-13)."
     },
     {
       "lesson_id": "Y2-L04",
@@ -5837,13 +5837,13 @@
       "formation_tags": "worship",
       "interpretation_skill": "Locate on timeline; read immediate context; identify genre; separate observation and application",
       "family_connection": "Read the key verses, place the lesson on a simple timeline, discuss one reason and one practice, then pray.",
-      "theological_review_flag": "TH-VIOLENCE",
+      "theological_review_flag": "",
       "developmental_review_flag": "",
-      "pastoral_sensitivity": "Violence/war",
+      "pastoral_sensitivity": "",
       "source_provenance": "Youths Research A and B; Curriculum Research Adjudication v0.1 sections 5.2 and 6-8; editorial synthesis",
       "status": "Architecture Draft",
       "content_version": "0.1",
-      "review_notes": ""
+      "review_notes": "Metadata corrected per Content Batch 09 note (2026-08-13)."
     },
     {
       "lesson_id": "Y2-L06",
@@ -9460,17 +9460,17 @@
       "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
       "biblical_era": "Creation and Patriarchs",
       "biblical_genre": "Biblical narrative / law",
-      "doctrine_tags": "sin, salvation, lord_supper",
+      "doctrine_tags": "sin, salvation",
       "formation_tags": "attention, response",
       "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, synthesis, inference, and application",
       "family_connection": "Read the central passage, compare the principal claims, discuss one application and one unresolved question, then pray.",
-      "theological_review_flag": "TH-LORDS-SUPPER, TH-SALVATION",
+      "theological_review_flag": "TH-SALVATION",
       "developmental_review_flag": "",
       "pastoral_sensitivity": "Death/grief",
       "source_provenance": "Teens Research A and B; Curriculum Research Adjudication v0.1 sections 5.3 and 6-8; editorial synthesis",
       "status": "Architecture Draft",
       "content_version": "0.1",
-      "review_notes": ""
+      "review_notes": "Metadata corrected per Content Batch 09 note (2026-08-13)."
     },
     {
       "lesson_id": "T2-L03",
