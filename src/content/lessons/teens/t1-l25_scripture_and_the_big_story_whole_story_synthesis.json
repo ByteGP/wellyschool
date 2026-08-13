@@ -1,0 +1,638 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L25",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 25,
+    "unit_type": "Synthesis",
+    "scheduling_priority": "Recommended",
+    "title": "Scripture and the Big Story: Whole-Story Synthesis",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Synthesis"
+  },
+  "core": {
+    "big_idea": "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation.",
+    "passages": [
+      {
+        "reference": "Genesis 1:26-31",
+        "role": "primary",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Genesis 12:1-3",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Exodus 19:3-6",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "2 Samuel 7:12-16",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Jeremiah 31:31-34",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Luke 24:44-49",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Acts 2:36-47",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Revelation 21:1-5",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Capstone synthesis of Scripture and the big story.",
+    "biblical_genre": "Whole-Bible synthesis / study method",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Creation, covenant, kingdom, new-covenant promise, Messiah, church, and new creation form major connected movements in the canonical story.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 1:26-31",
+          "Genesis 12:1-3",
+          "2 Samuel 7:12-16",
+          "Jeremiah 31:31-34",
+          "Luke 24:44-49",
+          "Acts 2:36-47",
+          "Revelation 21:1-5"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Luke 24 presents Jesus’ suffering, resurrection, and the proclamation of repentance as the climactic interpretive centre of Israel’s Scriptures.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Luke 24:44-49"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "A responsible metanarrative must preserve the distinctive voice and historical setting of individual passages rather than making every text say the same thing.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Luke 24:44-49"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "interpretive_hinge": "How the immediate context, genre, and wider canonical evidence support the conclusion.",
+        "prohibited_overstatement": "Do not present this conclusion as a direct quotation if the passage does not directly state it."
+      }
+    ],
+    "doctrine_tags": [
+      "creation",
+      "sin",
+      "covenant",
+      "christology",
+      "resurrection",
+      "church",
+      "scripture"
+    ],
+    "formation_tags": [
+      "community",
+      "hope"
+    ],
+    "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, synthesis, inference, and application",
+    "key_terms": [
+      "metanarrative",
+      "covenant",
+      "kingdom",
+      "Messiah",
+      "church",
+      "new creation"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse the relevant text and explain the case that students can locate the cycle theme within creation, rebellion, promise, jesus, church, and new creation.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
+    "know": [
+      "The principal passage is Genesis 1:26-31.",
+      "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation.",
+      "The lesson belongs within the wider biblical storyline."
+    ],
+    "understand": [
+      "Meaning depends on immediate context, genre, and the evidence actually available.",
+      "Direct textual observation should remain distinguishable from synthesis, inference, and application."
+    ],
+    "practise": [
+      "State at least one observation before giving an interpretation.",
+      "Explain the biblical metanarrative to someone in under three minutes, then identify one place where your summary depends on synthesis rather than a single verse."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with trust, wisdom, courage, worship, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the central passage or synthesis.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish at least one observation from one interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Analyse the relevant text and explain the case that students can locate the cycle theme within creation, rebellion, promise, jesus, church, and new creation.",
+      "read": "Selected passages from the cycle",
+      "opening": "Ask: What does the passage actually say before we explain what it means?",
+      "say": [
+        "Creation, covenant, kingdom, new-covenant promise, Messiah, church, and new creation form major connected movements in the canonical story.",
+        "Luke 24 presents Jesus’ suffering, resurrection, and the proclamation of repentance as the climactic interpretive centre of Israel’s Scriptures.",
+        "A responsible metanarrative must preserve the distinctive voice and historical setting of individual passages rather than making every text say the same thing."
+      ],
+      "ask": [
+        "What can you point to directly in the passage?",
+        "How does the big idea arise from the evidence?",
+        "What would be an overstatement?",
+        "What response fits the passage?"
+      ],
+      "do": "Complete the Metanarrative Evidence Map activity.",
+      "close": "Pray using one truth from the passage and one faithful response.",
+      "materials": [
+        "Bible",
+        "Metanarrative Evidence Map"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Capstone synthesis of Scripture and the big story.",
+      "text_observations": [
+        "Luke 24 presents Jesus’ suffering, resurrection, and the proclamation of repentance as the climactic interpretive centre of Israel’s Scriptures.",
+        "Creation, covenant, kingdom, new-covenant promise, Messiah, church, and new creation form major connected movements in the canonical story.",
+        "Luke 24 presents Jesus’ suffering, resurrection, and the proclamation of repentance as the climactic interpretive centre of Israel’s Scriptures."
+      ],
+      "interpretation_notes": [
+        "Start with the principal passage before moving to canonical synthesis.",
+        "Keep genre, audience, historical setting, and literary context visible.",
+        "Label synthesis, inference, historical context, and framework conclusions rather than presenting them as quotations."
+      ],
+      "theological_guardrails": [
+        "Do not use “one story” to erase covenantal, genre, or historical differences.",
+        "Do not force typology where the canonical text does not warrant it.",
+        "Allow students to identify unresolved questions rather than rewarding overconfidence."
+      ],
+      "likely_questions": [
+        {
+          "question": "What does this passage directly settle?",
+          "purpose": "Identify the strongest direct textual evidence."
+        },
+        {
+          "question": "What still requires synthesis, inference, or humility?",
+          "purpose": "Prevent overclaiming and invite responsible questions."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within the biblical storyline and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the principal passage and name direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the lesson big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L25-P01-metanarrative-evidence-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within the biblical storyline and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, setting, and immediate literary context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read the principal passage and distinguish observation from explanation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the passage and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L25-P01-metanarrative-evidence-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within the biblical storyline and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, setting, and immediate literary context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read the principal passage closely, noting structure, repeated words, and major claims.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the passage and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L25-P01-metanarrative-evidence-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say or depict?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one thing you can point to in the text.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does the big idea arise from the passage or synthesis?",
+        "purpose": "Connect evidence to conclusion.",
+        "foundation_prompt": "Which verse or passage best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "What should we avoid claiming?",
+        "purpose": "Practice interpretive restraint.",
+        "foundation_prompt": "Name one detail the passage does not say.",
+        "extension_prompt": "Which claims require additional canonical, historical, or interpretive evidence?"
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one faithful response to this lesson?",
+        "purpose": "Move from understanding to formation.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the text rather than merely sounding religious."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Metanarrative Evidence Map",
+        "duration_minutes": 10,
+        "materials": [
+          "Metanarrative Evidence Map",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read the designated passages and record direct observations.",
+          "Place each observation or claim into the resource categories.",
+          "Discuss which conclusions require synthesis or inference.",
+          "Write one careful application that follows from the evidence."
+        ],
+        "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
+        "low_resource_alternative": "Draw the same categories on blank paper or complete the exercise verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Observation, Interpretation, or Application?",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read several statements connected to the lesson.",
+          "Classify each statement as observation, interpretation/synthesis, or application.",
+          "Return to the passage and justify each classification."
+        ],
+        "learning_link": "Reinforces honest evidence classification.",
+        "low_resource_alternative": "Use verbal responses instead of written cards."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 1:26-31",
+      "prayer_prompt": "Thank God for what the passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation."
+    },
+    "printable_refs": [
+      "T1-L25-P01-metanarrative-evidence-map"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Scripture and the Big Story: Whole-Story Synthesis",
+    "parent_intro": "Start with the text, distinguish evidence classes, and leave room for genuine questions.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect the theme to something already learned in the biblical storyline."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read selected portions of Selected passages from the cycle and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Metanarrative Evidence Map idea verbally, on paper, or with the provided resource."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Explain the biblical metanarrative to someone in under three minutes, then identify one place where your summary depends on synthesis rather than a single verse."
+      }
+    ],
+    "questions": [
+      "What does the passage directly say?",
+      "What does it show about God, Jesus, people, or the biblical story?",
+      "What is one response we can practise this week?"
+    ],
+    "interactive": {
+      "type": "audit",
+      "title": "Metanarrative Evidence Map",
+      "instructions": "Use the resource categories to separate observation, interpretation, and response in an age-appropriate way."
+    },
+    "weekly_action": "Explain the biblical metanarrative to someone in under three minutes, then identify one place where your summary depends on synthesis rather than a single verse.",
+    "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, or a public religious decision. Sensitive concerns should be handled calmly with appropriate trusted adults."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which passage is central to Scripture and the Big Story: Whole-Story Synthesis?",
+        "type": "multiple_choice",
+        "options": [
+          "Genesis 1:26-31",
+          "Genesis 1:1",
+          "Psalm 23:1",
+          "Revelation 22:21"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Genesis 1:26-31"
+        },
+        "explanation": "The lesson is governed by its principal passage or first representative passage."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which comes first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "Guessing background",
+          "Modern analogy"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe what the text says before moving to interpretation or application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Creation, covenant, kingdom, new-covenant promise, Messiah, church, and new creation form major connected movements in the canonical story.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This statement is supported by the evidence listed in the lesson claim."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should a human interpretation be presented as a direct quotation when the text does not directly say it?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Interpretation, synthesis, and inference should be labelled honestly."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Responsible Reading Order",
+      "instructions": "Put the reading process in a responsible order.",
+      "items": [
+        "Read the passage",
+        "Observe what it says",
+        "Interpret in context",
+        "Apply carefully"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Read the passage",
+          "Observe what it says",
+          "Interpret in context",
+          "Apply carefully"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L25-P01-metanarrative-evidence-map",
+        "title": "Metanarrative Evidence Map",
+        "purpose": "Support the primary activity for Scripture and the Big Story: Whole-Story Synthesis.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen independent or guided close reading",
+    "plain_language_rule": "Define unfamiliar terms from the passage before using theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written response options.",
+      "Preview the activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read the passage aloud and use icons, sequence cards, oral choices, or a scribe where helpful."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism or another public response."
+    ],
+    "teacher_response": "Answer from the passage, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults rather than attempting to solve them in class.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Selected passages from the cycle",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 07"
+    ],
+    "decision_register_refs": [],
+    "review_flags": [
+      "TH-BIBLIOLOGY"
+    ],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review. Publication requires passage-level exegetical, developmental, pastoral where applicable, and copy approval."
+    ]
+  }
+}

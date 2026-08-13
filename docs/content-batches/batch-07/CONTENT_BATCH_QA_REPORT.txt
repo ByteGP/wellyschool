@@ -1,0 +1,22 @@
+Content Production Batch 07 QA Report
+
+Schema: /mnt/data/claude_code_web_mvp_build_pack_v1_0/starter/src/schemas/lesson.schema.json
+Validator: Draft 2020-12
+
+K1-L23: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+K1-L24: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+K1-L25: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+K1-L26: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+Y1-L23: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+Y1-L24: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+Y1-L25: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+Y1-L26: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+T1-L23: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+T1-L24: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+T1-L25: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+T1-L26: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS overall=PASS
+
+Lessons validated: 12
+Schema errors: 0
+Cross-field failures: 0
+Overall: PASS
