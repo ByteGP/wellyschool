@@ -49,8 +49,8 @@ test.describe('keyboard support', () => {
   });
 
   test('sequence puzzle needs no dragging', async ({ page }) => {
-    await page.goto('/family/kids/k5-l13/');
-    // K5-L13's family interactive is the matching puzzle; play step renders selects.
+    await page.goto('/family/kids/k1-l04/');
+    // K1-L04's family interactive is the matching puzzle; play step renders selects.
     for (let i = 0; i < 3; i += 1) await page.getByRole('button', { name: 'Next' }).click();
     await expect(page.getByRole('heading', { name: 'Play' })).toBeVisible();
     const selects = page.locator('select');

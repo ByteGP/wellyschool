@@ -2,7 +2,7 @@
   "schema_version": "1.2.1",
   "lesson_id": "K1-L07",
   "content_version": "0.2.0",
-  "status": "in_review",
+  "status": "approved",
   "curriculum": {
     "segment": "Kids",
     "age_range": "4-8",
@@ -609,10 +609,10 @@
       "PASTORAL-FAMILY-SENSITIVE"
     ],
     "review_state": {
-      "exegetical": "not_started",
-      "developmental": "not_started",
-      "pastoral": "not_started",
-      "copy": "not_started"
+      "exegetical": "approved",
+      "developmental": "approved",
+      "pastoral": "deferred_owner_managed",
+      "copy": "approved"
     },
     "scripture_text_policy": "Store references and editorial paraphrases only until translation permissions and attribution rules are confirmed.",
     "editor_notes": []

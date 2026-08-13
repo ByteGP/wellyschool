@@ -128,6 +128,11 @@ describe('validate-content.mjs', () => {
 
   it('fails when an approved schedule override references a draft lesson', () => {
     const dir = makeContentCopy();
+    // Force the referenced lesson to a draft so the rule has something to catch
+    // (the real curriculum is all approved post go-live, ADR-015).
+    corruptLesson(dir, (lesson) => {
+      lesson.status = 'in_review';
+    });
     writeFileSync(
       path.join(dir, 'src/content/schedule/2026-08-16-kids.json'),
       JSON.stringify(overrideEntry({ status: 'approved' }), null, 2),
@@ -156,6 +161,14 @@ describe('validate-content.mjs', () => {
     const dir = makeContentCopy();
     corruptLesson(dir, (lesson) => {
       lesson.status = 'approved';
+      // Reopen the review gate so approved status is unjustified (the real
+      // lessons carry completed sign-offs post go-live, ADR-015).
+      lesson.editorial.review_state = {
+        exegetical: 'in_review',
+        developmental: 'in_review',
+        pastoral: 'not_required',
+        copy: 'in_review',
+      };
     });
     const result = runValidator(dir);
     expect(result.ok).toBe(false);
