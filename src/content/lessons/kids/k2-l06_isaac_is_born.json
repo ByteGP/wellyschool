@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K2-L06",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K2",
+    "cycle_name": "God Keeps His Promises",
+    "sequence": 6,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Isaac Is Born",
+    "annual_anchor": "promise_and_story",
+    "thematic_unit": "Abraham's Family"
+  },
+  "core": {
+    "big_idea": "Isaac's birth showed that God keeps His word in His own time.",
+    "passages": [
+      {
+        "reference": "Genesis 21:1-7",
+        "role": "primary",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Isaac’s birth gives a concrete example of a long-awaited promise fulfilled",
+    "biblical_genre": "Patriarchal narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Genesis says the LORD did for Sarah what He had promised and Isaac was born at the appointed time.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Genesis 21:1-7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Isaac’s birth advances the specific covenant promise to Abraham and Sarah.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 17:15-21",
+          "Genesis 21:1-7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "This supports trust in God’s stated promises, not a guarantee that every prayer for a child or desired outcome will be answered the same way.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Genesis 21:1-7"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "interpretive_hinge": "This conclusion depends on the approved curriculum framework and its distinction between direct text, synthesis, inference, and age-appropriate application; Scripture does not directly mandate this exact curriculum formulation.",
+        "prohibited_overstatement": "Do not present this framework conclusion as an explicit biblical command or quotation."
+      }
+    ],
+    "doctrine_tags": [
+      "christology"
+    ],
+    "formation_tags": [
+      "attention",
+      "response"
+    ],
+    "interpretation_skill": "Retell sequence; identify cause and effect; connect to the big story without forced symbolism",
+    "key_terms": [
+      "Isaac",
+      "waiting",
+      "promise",
+      "faithful"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell the main action in Genesis 21:1-7 and state in simple language that isaac's birth showed that god keeps his word in his own time.",
+    "extension_objective": "Place this event in the Bible's big story and name one concrete way to trust, thank, obey, or care for others in response.",
+    "know": [
+      "The principal passage is Genesis 21:1-7.",
+      "Isaac's birth showed that God keeps His word in His own time.",
+      "The lesson belongs within Cycle 2."
+    ],
+    "understand": [
+      "Meaning depends on immediate context, genre, and available evidence.",
+      "Direct observation should remain distinct from synthesis, inference, framework position, prudential judgment, and application."
+    ],
+    "practise": [
+      "State at least one observation before interpretation.",
+      "Identify one promise God actually makes in Scripture and distinguish it from something you simply hope will happen."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with trust, wisdom, worship, service, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Retell the main action in Genesis 21:1-7 and state in simple language that isaac's birth showed that god keeps his word in his own time.",
+      "read": "Genesis 21:1-7",
+      "opening": "Ask: What does the passage actually say before we explain what it means?",
+      "say": [
+        "Genesis says the LORD did for Sarah what He had promised and Isaac was born at the appointed time.",
+        "Isaac’s birth advances the specific covenant promise to Abraham and Sarah.",
+        "This supports trust in God’s stated promises, not a guarantee that every prayer for a child or desired outcome will be answered the same way."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires synthesis or inference?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete Promise / Waiting / Fulfilment Timeline.",
+      "close": "Restate the big idea and pray.",
+      "materials": [
+        "Bible",
+        "Promise / Waiting / Fulfilment Timeline"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Isaac’s birth gives a concrete example of a long-awaited promise fulfilled",
+      "text_observations": [
+        "Genesis says the LORD did for Sarah what He had promised and Isaac was born at the appointed time.",
+        "Genesis says the LORD did for Sarah what He had promised and Isaac was born at the appointed time.",
+        "Isaac’s birth advances the specific covenant promise to Abraham and Sarah."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis or application.",
+        "Keep genre, audience, historical setting, and literary context visible.",
+        "Distinguish direct text, synthesis, inference, framework positions, prudential judgments, and application."
+      ],
+      "theological_guardrails": [
+        "Do not promise pregnancy, healing, or another desired outcome by analogy with Sarah.",
+        "Be sensitive to infertility, miscarriage, adoption, blended families, and grief.",
+        "Do not imply waiting proves weak faith."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the principal passage and name direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K2-L06-P01-promise-waiting-fulfilment-timeline"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read the principal passage and distinguish observation from explanation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K2-L06-P01-promise-waiting-fulfilment-timeline"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read closely, noting structure, repeated language, and major claims.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K2-L06-P01-promise-waiting-fulfilment-timeline"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly state or narrate?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does the evidence support the lesson’s big idea?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "Which claim requires synthesis, inference, framework position, or prudential judgment?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one faithful response that follows from this passage?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Promise / Waiting / Fulfilment Timeline",
+        "duration_minutes": 10,
+        "materials": [
+          "Promise / Waiting / Fulfilment Timeline",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read the selected evidence and record direct observations.",
+          "Place observations and interpretations into the resource categories.",
+          "Discuss which conclusions require more than direct textual wording.",
+          "Write one careful response that follows from the evidence."
+        ],
+        "learning_link": "Makes evidence classification and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Evidence Class Check",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read several lesson statements.",
+          "Classify each as text observation, synthesis, inference, framework position, prudential judgment, or application.",
+          "Return to the evidence and justify each classification."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 21:1-7",
+      "prayer_prompt": "Thank God for what the passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "Isaac's birth showed that God keeps His word in His own time."
+    },
+    "printable_refs": [
+      "K2-L06-P01-promise-waiting-fulfilment-timeline"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Isaac Is Born",
+    "parent_intro": "Start with the passage and keep text, explanation, and application distinct.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect this lesson to something already learned in Cycle 2."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read selected portions of Genesis 21:1-7 and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: Isaac's birth showed that God keeps His word in His own time."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Promise / Waiting / Fulfilment Timeline resource verbally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Identify one promise God actually makes in Scripture and distinguish it from something you simply hope will happen."
+      }
+    ],
+    "questions": [
+      "What does the passage directly say?",
+      "What meaning follows from it?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Promise / Waiting / Fulfilment Timeline",
+      "instructions": "Use the resource to separate evidence, meaning, and response."
+    },
+    "weekly_action": "Identify one promise God actually makes in Scripture and distinguish it from something you simply hope will happen.",
+    "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "What principal evidence governs Isaac Is Born?",
+        "type": "multiple_choice",
+        "options": [
+          "Genesis 21:1-7",
+          "A favourite slogan",
+          "A local custom by itself",
+          "The teacher’s preference"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Genesis 21:1-7"
+        },
+        "explanation": "The lesson is governed by its passage."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which comes first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "Modern analogy",
+          "A preferred conclusion"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe before interpretation or application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Genesis says the LORD did for Sarah what He had promised and Isaac was born at the appointed time.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This statement is supported by the lesson evidence."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference be described as an explicit quotation when the text does not say it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Inference and direct wording must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Responsible Reading Order",
+      "instructions": "Put the reading process in a responsible order.",
+      "items": [
+        "Read the passage",
+        "Observe what it says",
+        "Interpret in context",
+        "Apply carefully"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Read the passage",
+          "Observe what it says",
+          "Interpret in context",
+          "Apply carefully"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K2-L06-P01-promise-waiting-fulfilment-timeline",
+        "title": "Promise / Waiting / Fulfilment Timeline",
+        "purpose": "Support the primary activity for Isaac Is Born.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teacher-read with short child responses",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Answer from the evidence, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Genesis 21:1-7",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 09"
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates: matching puzzle choices required; framework_position interpretive_hinge required."
+    ]
+  }
+}

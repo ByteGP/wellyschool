@@ -1,0 +1,30 @@
+Content Production Batch 09 QA Report
+
+Schema: /mnt/data/claude_code_web_mvp_build_pack_v1_0/starter/src/schemas/lesson.schema.json
+Validator: Draft 2020-12
+Custom gates: matching=>choices; framework_position=>interpretive_hinge
+
+K2-L01: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+K2-L02: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+K2-L03: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+K2-L04: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+K2-L05: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+K2-L06: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+Y2-L01: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+Y2-L02: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+Y2-L03: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+Y2-L04: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+Y2-L05: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+Y2-L06: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+T2-L01: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+T2-L02: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+T2-L03: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+T2-L04: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+T2-L05: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+T2-L06: schema=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) matching_choices=PASS framework_hinges=PASS overall=PASS
+
+Lessons validated: 18
+Schema errors: 0
+Custom regression failures: 0
+Cross-field failures: 0
+Overall: PASS
