@@ -1,0 +1,95 @@
+---
+// Term planner + shared teaching log for one segment and term (ADR-013, Phase B).
+// Static page per segment x term; the interactive log island reads/writes the
+// shared Netlify Blobs store.
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import TeachingLog from '../../../../components/teacher/TeachingLog.tsx';
+import type { PlannedSunday } from '../../../../components/teacher/TeachingLog.tsx';
+import { getEffectiveSchedule, getLessonById, getPublicLessonsBySegment, getTermSettings } from '../../../../lib/content/loader';
+import { CONTENT_MODE } from '../../../../lib/content/site';
+import { SEGMENT_SLUGS, segmentFromSlug, slugFromSegment, type SegmentSlug } from '../../../../lib/content/segments';
+import { formatDisplayDate } from '../../../../lib/schedule/date-selection';
+
+export function getStaticPaths() {
+  const terms = getTermSettings().terms;
+  return (Object.keys(SEGMENT_SLUGS) as SegmentSlug[]).flatMap((segment) =>
+    terms.map((term) => ({ params: { segment, term: term.term_id } })),
+  );
+}
+
+const { segment: slug, term: termId } = Astro.params;
+const segment = segmentFromSlug(slug)!;
+const settings = getTermSettings();
+const term = settings.terms.find((t) => t.term_id === termId)!;
+const otherTerms = settings.terms
+  .slice()
+  .sort((a, b) => a.start.localeCompare(b.start));
+
+const schedule = getEffectiveSchedule(CONTENT_MODE)
+  .filter((entry) => entry.segment === segment && entry.date >= term.start && entry.date <= term.end)
+  .sort((a, b) => a.date.localeCompare(b.date));
+
+const sundays: PlannedSunday[] = schedule.map((entry) => {
+  const lesson = entry.lesson_id ? getLessonById(entry.lesson_id) : undefined;
+  return {
+    date: entry.date,
+    displayDate: formatDisplayDate(entry.date),
+    entryType: entry.entry_type,
+    ...(lesson
+      ? {
+          plannedLessonId: lesson.lesson_id,
+          plannedTitle: lesson.curriculum.title,
+          lessonUrl: `/teacher/${slug}/${lesson.lesson_id.toLowerCase()}/`,
+        }
+      : {}),
+  };
+});
+
+const lessonOptions = getPublicLessonsBySegment(segment, CONTENT_MODE).map((lesson) => ({
+  id: lesson.lesson_id,
+  title: lesson.curriculum.title,
+}));
+---
+
+<BaseLayout
+  title={`${segment} planner · ${term.term_id}`}
+  section="teacher"
+  description={`Plan and record what was taught for ${segment} in ${term.term_id}.`}
+  noindex={true}
+>
+  <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
+    <a class="back-link" href={`/teacher/${slug}/`}>&larr; Back to {segment}</a>
+  </nav>
+
+  <header style="margin-bottom: var(--space-4);">
+    <p class="eyebrow">{segment} · Term planner</p>
+    <h1>{term.term_id} teaching log</h1>
+    <p class="lede">
+      What ran each Sunday this term. Mark lessons taught, not taught, or record a different lesson
+      you taught instead.
+    </p>
+  </header>
+
+  <nav aria-label="Terms" class="segmented" style="flex-wrap: wrap;">
+    {
+      otherTerms.map((other) => (
+        <a
+          class="button"
+          href={`/teacher/${slug}/planner/${other.term_id}/`}
+          aria-pressed={other.term_id === term.term_id ? 'true' : 'false'}
+          style={other.term_id === term.term_id ? '' : 'background: rgb(255 255 255 / 0.8); color: var(--color-primary);'}
+        >
+          {other.term_id}
+        </a>
+      ))
+    }
+  </nav>
+
+  {
+    sundays.length === 0 ? (
+      <p class="notice">No class Sundays fall in this term for {segment}.</p>
+    ) : (
+      <TeachingLog client:load segment={segment} sundays={sundays} lessonOptions={lessonOptions} />
+    )
+  }
+</BaseLayout>

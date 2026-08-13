@@ -2,6 +2,8 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import CurrentEntryCard from '../../../components/shared/CurrentEntryCard.astro';
 import LessonBrowser from '../../../components/shared/LessonBrowser.astro';
+import { getTermSettings } from '../../../lib/content/loader';
+import { dateInTimeZone } from '../../../lib/schedule/date-selection';
 import { SEGMENT_SLUGS, segmentFromSlug, type SegmentSlug } from '../../../lib/content/segments';
 
 export function getStaticPaths() {
@@ -12,6 +14,14 @@ export function getStaticPaths() {
 
 const { segment: slug } = Astro.params;
 const segment = segmentFromSlug(slug)!;
+
+// Link the planner to the current or nearest-upcoming term at build time.
+const today = dateInTimeZone(new Date());
+const terms = getTermSettings().terms.slice().sort((a, b) => a.start.localeCompare(b.start));
+const currentTerm =
+  terms.find((term) => today >= term.start && today <= term.end) ??
+  terms.find((term) => term.start > today) ??
+  terms[terms.length - 1];
 ---
 
 <BaseLayout title={`Teachers · ${segment}`} section="teacher" description={`This Sunday's ${segment} lesson.`}>
@@ -20,6 +30,15 @@ const segment = segmentFromSlug(slug)!;
   </nav>
   <h1>{segment} | Teachers</h1>
   <CurrentEntryCard role="teacher" segment={segment} />
+  {
+    currentTerm && (
+      <p class="actions">
+        <a class="button button--secondary" href={`/teacher/${slug}/planner/${currentTerm.term_id}/`}>
+          Plan &amp; log this term
+        </a>
+      </p>
+    )
+  }
   <LessonBrowser role="teacher" segment={segment} />
 </BaseLayout>
 
