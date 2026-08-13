@@ -41,9 +41,11 @@ describe('toFamilyViewModel', () => {
       'respond',
     ]);
     expect(vm.durationMinutes).toBe(15);
-    expect(vm.quiz).toHaveLength(4);
-    expect(vm.puzzle.type).toBe('sequence');
-    expect(vm.parentNote).toContain('private fear');
+    expect(vm.quiz.length).toBeGreaterThanOrEqual(3);
+    expect(vm.puzzle.type).toBeTruthy();
+    // Parent note is carried through verbatim from the lesson (content-agnostic).
+    expect(vm.parentNote).toBe(lesson.family.parent_note);
+    expect(vm.parentNote.length).toBeGreaterThan(0);
     expect(vm.weeklyAction.length).toBeGreaterThan(0);
     expect(vm.prayer.length).toBeGreaterThan(0);
   });

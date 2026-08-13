@@ -1,95 +1,107 @@
 {
   "schema_version": "1.2.1",
-  "lesson_id": "K1-L19",
+  "lesson_id": "T1-L20",
   "content_version": "0.2.0",
   "status": "in_review",
   "curriculum": {
-    "segment": "Kids",
-    "age_range": "4-8",
-    "cycle_id": "K1",
-    "cycle_name": "God Made and Cares",
-    "sequence": 19,
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 20,
     "unit_type": "Core",
     "scheduling_priority": "Required",
-    "title": "Jesus Calms the Storm",
+    "title": "The Resurrection as Historical and Theological Claim",
     "annual_anchor": "jesus_lord_cross_resurrection",
-    "thematic_unit": "Jesus Cares"
+    "thematic_unit": "Resurrection"
   },
   "core": {
-    "big_idea": "Jesus has authority over creation and is present with frightened disciples.",
+    "big_idea": "The resurrection is both a claim about an event and the beginning of God's promised defeat of death.",
     "passages": [
       {
-        "reference": "Mark 4:35-41",
+        "reference": "1 Corinthians 15:1-28",
         "role": "primary",
         "reading_note": "Read the central passage in context; select age-appropriate portions when needed."
       }
     ],
-    "metanarrative_position": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
-    "biblical_genre": "Gospel narrative / teaching",
+    "metanarrative_position": "Apostolic churches: The resurrection is both a claim about an event and the beginning of God's promised defeat of death.",
+    "biblical_genre": "Epistle",
     "claims": [
       {
         "claim_id": "C01",
-        "statement": "Jesus and His disciples crossed the lake in a boat.",
+        "statement": "Paul summarizes a received proclamation that Christ died, was buried, was raised, and appeared to witnesses.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:35-36"
+          "1 Corinthians 15:3-8"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C02",
-        "statement": "A severe storm arose while Jesus was asleep.",
+        "statement": "Paul treats Christ’s resurrection as essential to Christian proclamation and faith.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:37-38"
+          "1 Corinthians 15:12-19"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C03",
-        "statement": "Jesus rebuked the wind and sea, and there was a great calm.",
+        "statement": "Paul calls Christ the firstfruits of those who have fallen asleep.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:39"
+          "1 Corinthians 15:20"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C04",
-        "statement": "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him.",
+        "statement": "Paul connects Christ’s resurrection with a future resurrection and the defeat of death.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:40-41"
+          "1 Corinthians 15:20-28"
         ],
         "confidence": "High",
         "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Historical arguments about the resurrection must distinguish Paul’s testimony from modern assessments of what that testimony establishes.",
+        "classification": "historical_context",
+        "evidence_refs": [
+          "1 Corinthians 15:1-11"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "prohibited_overstatement": "Do not state this claim more strongly than its evidence classification allows."
       }
     ],
     "doctrine_tags": [
-      "creation",
-      "christology"
+      "christology",
+      "resurrection",
+      "new_creation"
     ],
     "formation_tags": [
-      "trust",
-      "prayer"
+      "hope",
+      "reasoning"
     ],
-    "interpretation_skill": "Retell sequence; identify cause and effect; distinguish what the passage says from application.",
+    "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, canonical synthesis, inference, historical context, and application.",
     "key_terms": [
-      "storm",
-      "boat",
-      "fear",
-      "authority"
+      "resurrection",
+      "witness",
+      "firstfruits",
+      "death"
     ]
   },
   "learning": {
-    "foundation_objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-    "extension_objective": "Place the event in the Bible’s big story and name one concrete response.",
+    "foundation_objective": "Analyse 1 Corinthians 15:1-28 and explain the case that the resurrection is both a claim about an event and the beginning of God's promised defeat of death.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
     "know": [
-      "The central passage is Mark 4:35-41.",
-      "Jesus has authority over creation and is present with frightened disciples.",
+      "The central passage is 1 Corinthians 15:1-28.",
+      "The resurrection is both a claim about an event and the beginning of God's promised defeat of death.",
       "The lesson belongs within the wider biblical storyline."
     ],
     "understand": [
@@ -98,7 +110,7 @@
     ],
     "practise": [
       "State one observation before giving an interpretation.",
-      "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+      "Classify four statements from 1 Corinthians 15 as event claim, testimony claim, theological implication, or later historical argument."
     ],
     "become": [
       "A learner who reads Scripture carefully and responds with trust, wisdom, and love."
@@ -113,14 +125,14 @@
     "default_profile": "standard",
     "preparation_minutes": 25,
     "zero_prep_card": {
-      "objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-      "read": "Mark 4:35-41",
+      "objective": "Analyse 1 Corinthians 15:1-28 and explain the case that the resurrection is both a claim about an event and the beginning of God's promised defeat of death.",
+      "read": "1 Corinthians 15:1-28",
       "opening": "Ask: What do you notice first in this passage before we explain what it means?",
       "say": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "Jesus has authority over creation and is present with frightened disciples."
+        "Paul summarizes a received proclamation that Christ died, was buried, was raised, and appeared to witnesses.",
+        "Paul treats Christ’s resurrection as essential to Christian proclamation and faith.",
+        "Paul calls Christ the firstfruits of those who have fallen asleep.",
+        "The resurrection is both a claim about an event and the beginning of God's promised defeat of death."
       ],
       "ask": [
         "What happens or is said in the passage?",
@@ -128,20 +140,20 @@
         "Which statement is directly in the text?",
         "What is one careful response for us?"
       ],
-      "do": "Complete the Storm Story Sequence Cards activity.",
+      "do": "Complete the Resurrection Historical/Theological Claim Audit activity.",
       "close": "Pray using one truth from the passage and one faithful response.",
       "materials": [
         "Bible",
-        "Storm Story Sequence Cards"
+        "Resurrection Historical/Theological Claim Audit"
       ]
     },
     "preparation": {
-      "passage_context": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+      "passage_context": "Apostolic churches: The resurrection is both a claim about an event and the beginning of God's promised defeat of death.",
       "text_observations": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him."
+        "Paul summarizes a received proclamation that Christ died, was buried, was raised, and appeared to witnesses.",
+        "Paul treats Christ’s resurrection as essential to Christian proclamation and faith.",
+        "Paul calls Christ the firstfruits of those who have fallen asleep.",
+        "Paul connects Christ’s resurrection with a future resurrection and the defeat of death."
       ],
       "interpretation_notes": [
         "Start with the principal passage before moving to broader synthesis.",
@@ -149,18 +161,18 @@
         "Label synthesis, inference, historical context, and application rather than presenting them as quotations."
       ],
       "theological_guardrails": [
-        "Do not promise children that following Jesus prevents frightening events.",
-        "Do not shame fear; the disciples themselves were frightened.",
-        "Keep the focus on Jesus’ authority and presence rather than turning the story into a technique for controlling anxiety."
+        "Do not claim historical method can prove resurrection in exactly the same way as a repeatable laboratory event.",
+        "Do not overstate consensus about dates, source formulas, or the scope of historical conclusions without external verification.",
+        "Permit students to distinguish theological conviction from narrower historical claims."
       ],
       "likely_questions": [
         {
-          "question": "Does trusting Jesus mean storms will stop for me?",
-          "purpose": "No. This passage shows Jesus’ authority; it does not promise that every frightening situation will end immediately."
+          "question": "Is Paul giving history or theology?",
+          "purpose": "He is doing both: he rehearses claims about events and witnesses, then argues for their theological significance."
         },
         {
-          "question": "Is it wrong to feel scared?",
-          "purpose": "No. Fear is a normal response. We can bring fear to God and seek help from trusted people."
+          "question": "Does 1 Corinthians 15 by itself prove the resurrection to everyone?",
+          "purpose": "It is major primary evidence for early Christian proclamation. Assessing the full historical case requires additional sources and arguments."
         }
       ]
     },
@@ -199,12 +211,12 @@
             "step_id": "E04",
             "minutes": 6,
             "label": "Do",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Resurrection Historical/Theological Claim Audit.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "T1-L20-P01-resurrection-claim-audit"
             ]
           },
           {
@@ -258,12 +270,12 @@
             "step_id": "S05",
             "minutes": 7,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Resurrection Historical/Theological Claim Audit.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "T1-L20-P01-resurrection-claim-audit"
             ]
           },
           {
@@ -317,12 +329,12 @@
             "step_id": "X05",
             "minutes": 8,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Resurrection Historical/Theological Claim Audit.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "T1-L20-P01-resurrection-claim-audit"
             ]
           },
           {
@@ -380,10 +392,10 @@
     "activities": [
       {
         "activity_id": "A01",
-        "title": "Storm Story Sequence Cards",
+        "title": "Resurrection Historical/Theological Claim Audit",
         "duration_minutes": 8,
         "materials": [
-          "Storm Story Sequence Cards",
+          "Resurrection Historical/Theological Claim Audit",
           "Pens or pencils"
         ],
         "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
@@ -411,17 +423,17 @@
       }
     ],
     "closing": {
-      "memory_reference": "Mark 4:35-41",
+      "memory_reference": "1 Corinthians 15:1-28",
       "prayer_prompt": "Thank God for the truth in this passage and ask for wisdom to respond faithfully.",
-      "take_home_line": "Jesus has authority over creation and is present with frightened disciples."
+      "take_home_line": "The resurrection is both a claim about an event and the beginning of God's promised defeat of death."
     },
     "printable_refs": [
-      "K1-L19-P01-storm-sequence"
+      "T1-L20-P01-resurrection-claim-audit"
     ]
   },
   "family": {
     "duration_minutes": 15,
-    "title": "Jesus Calms the Storm",
+    "title": "The Resurrection as Historical and Theological Claim",
     "parent_intro": "Use the passage itself first. Keep the conversation concrete, honest, and free from pressure.",
     "flow": [
       {
@@ -432,22 +444,22 @@
       {
         "duration_minutes": 5,
         "type": "read",
-        "instructions": "Read selected portions of Mark 4:35-41. Ask what everyone notices."
+        "instructions": "Read selected portions of 1 Corinthians 15:1-28. Ask what everyone notices."
       },
       {
         "duration_minutes": 3,
         "type": "understand",
-        "instructions": "Say the big idea in your own words: Jesus has authority over creation and is present with frightened disciples."
+        "instructions": "Say the big idea in your own words: The resurrection is both a claim about an event and the beginning of God's promised defeat of death."
       },
       {
         "duration_minutes": 3,
         "type": "play",
-        "instructions": "Use the Storm Story Sequence Cards idea verbally or on paper."
+        "instructions": "Use the Resurrection Historical/Theological Claim Audit idea verbally or on paper."
       },
       {
         "duration_minutes": 2,
         "type": "respond",
-        "instructions": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+        "instructions": "Classify four statements from 1 Corinthians 15 as event claim, testimony claim, theological implication, or later historical argument."
       }
     ],
     "questions": [
@@ -456,11 +468,11 @@
       "What is one response we can practise this week?"
     ],
     "interactive": {
-      "type": "puzzle",
-      "title": "Storm Story Sequence Cards",
+      "type": "audit",
+      "title": "Resurrection Historical/Theological Claim Audit",
       "instructions": "Sort or classify the lesson statements using the passage as evidence."
     },
-    "weekly_action": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help.",
+    "weekly_action": "Classify four statements from 1 Corinthians 15 as event claim, testimony claim, theological implication, or later historical argument.",
     "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
     "parent_note": "Questions are welcome. Do not force disclosure, certainty, or a public religious decision. If a sensitive concern emerges, respond calmly and involve an appropriate trusted adult."
   },
@@ -468,17 +480,17 @@
     "quiz": [
       {
         "question_id": "Z01",
-        "question": "What is the principal passage for Jesus Calms the Storm?",
+        "question": "What is the principal passage for The Resurrection as Historical and Theological Claim?",
         "type": "multiple_choice",
         "options": [
-          "Mark 4:35-41",
+          "1 Corinthians 15:1-28",
           "Genesis 1:1",
           "Psalm 23:1",
           "Revelation 22:21"
         ],
         "answer": {
           "kind": "text",
-          "text": "Mark 4:35-41"
+          "text": "1 Corinthians 15:1-28"
         },
         "explanation": "The lesson is governed by its principal passage."
       },
@@ -500,7 +512,7 @@
       },
       {
         "question_id": "Z03",
-        "question": "Jesus and His disciples crossed the lake in a boat.",
+        "question": "Paul summarizes a received proclamation that Christ died, was buried, was raised, and appeared to witnesses.",
         "type": "true_false",
         "answer": {
           "kind": "boolean",
@@ -541,16 +553,16 @@
     },
     "printables": [
       {
-        "resource_id": "K1-L19-P01-storm-sequence",
-        "title": "Storm Story Sequence Cards",
-        "purpose": "Support the primary activity for Jesus Calms the Storm.",
+        "resource_id": "T1-L20-P01-resurrection-claim-audit",
+        "title": "Resurrection Historical/Theological Claim Audit",
+        "purpose": "Support the primary activity for The Resurrection as Historical and Theological Claim.",
         "format": "worksheet",
         "status": "content_source_draft"
       }
     ]
   },
   "accessibility": {
-    "reading_level": "Teacher-read with short child responses",
+    "reading_level": "Teen reading with explicit interpretive scaffolding",
     "plain_language_rule": "Define unfamiliar terms from the passage before using theological shorthand.",
     "neurodiversity_supports": [
       "Offer verbal or written response options.",
@@ -565,7 +577,9 @@
     ]
   },
   "safeguarding": {
-    "sensitivity_tags": [],
+    "sensitivity_tags": [
+      "death_grief"
+    ],
     "do_not_ask": [
       "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
       "Do not pressure a child or young person toward baptism or another public response."
@@ -575,7 +589,7 @@
   },
   "editorial": {
     "source_provenance": [
-      "Mark 4:35-41",
+      "1 Corinthians 15:1-28",
       "Canonical Curriculum Matrix v0.2",
       "Approved theological decision register",
       "Editorial synthesis for Content Production Batch 06"
@@ -585,7 +599,7 @@
     "review_state": {
       "exegetical": "in_review",
       "developmental": "in_review",
-      "pastoral": "not_required",
+      "pastoral": "in_review",
       "copy": "in_review"
     },
     "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",

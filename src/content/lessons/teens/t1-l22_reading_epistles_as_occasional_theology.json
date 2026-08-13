@@ -1,95 +1,111 @@
 {
   "schema_version": "1.2.1",
-  "lesson_id": "K1-L19",
+  "lesson_id": "T1-L22",
   "content_version": "0.2.0",
   "status": "in_review",
   "curriculum": {
-    "segment": "Kids",
-    "age_range": "4-8",
-    "cycle_id": "K1",
-    "cycle_name": "God Made and Cares",
-    "sequence": 19,
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 22,
     "unit_type": "Core",
     "scheduling_priority": "Required",
-    "title": "Jesus Calms the Storm",
-    "annual_anchor": "jesus_lord_cross_resurrection",
-    "thematic_unit": "Jesus Cares"
+    "title": "Reading Epistles as Occasional Theology",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Epistles"
   },
   "core": {
-    "big_idea": "Jesus has authority over creation and is present with frightened disciples.",
+    "big_idea": "Epistles address real situations and require reconstruction of context before generalisation.",
     "passages": [
       {
-        "reference": "Mark 4:35-41",
+        "reference": "1 Corinthians 1:1-17; Philemon 1-25",
         "role": "primary",
         "reading_note": "Read the central passage in context; select age-appropriate portions when needed."
       }
     ],
-    "metanarrative_position": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
-    "biblical_genre": "Gospel narrative / teaching",
+    "metanarrative_position": "Apostolic churches: Epistles address real situations and require reconstruction of context before generalisation.",
+    "biblical_genre": "Epistle",
     "claims": [
       {
         "claim_id": "C01",
-        "statement": "Jesus and His disciples crossed the lake in a boat.",
+        "statement": "1 Corinthians addresses a particular church and names concrete divisions among its members.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:35-36"
+          "1 Corinthians 1:1-17"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C02",
-        "statement": "A severe storm arose while Jesus was asleep.",
+        "statement": "Philemon addresses named people concerning Onesimus and a specific relational situation.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:37-38"
+          "Philemon 1-25"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C03",
-        "statement": "Jesus rebuked the wind and sea, and there was a great calm.",
-        "classification": "explicit_text",
+        "statement": "Epistles communicate authoritative apostolic teaching through communication to real historical recipients.",
+        "classification": "canonical_synthesis",
         "evidence_refs": [
-          "Mark 4:39"
+          "1 Corinthians 1:1-17",
+          "Philemon 1-25",
+          "Colossians 4:7-9"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C04",
-        "statement": "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him.",
-        "classification": "explicit_text",
+        "statement": "Responsible application requires reconstructing as much of the occasion as the text and reliable historical evidence permit.",
+        "classification": "strong_inference",
         "evidence_refs": [
-          "Mark 4:40-41"
+          "1 Corinthians 1:1-17",
+          "Philemon 1-25"
         ],
-        "confidence": "High",
-        "review_status": "draft"
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "prohibited_overstatement": "Do not state this claim more strongly than its evidence classification allows."
+      },
+      {
+        "claim_id": "C05",
+        "statement": "Reconstruction must remain probabilistic where the evidence does not settle a detail.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "1 Corinthians 1:1-17",
+          "Philemon 1-25"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "prohibited_overstatement": "Do not state this claim more strongly than its evidence classification allows."
       }
     ],
     "doctrine_tags": [
-      "creation",
-      "christology"
+      "scripture",
+      "hermeneutics"
     ],
     "formation_tags": [
-      "trust",
-      "prayer"
+      "study",
+      "humility"
     ],
-    "interpretation_skill": "Retell sequence; identify cause and effect; distinguish what the passage says from application.",
+    "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, canonical synthesis, inference, historical context, and application.",
     "key_terms": [
-      "storm",
-      "boat",
-      "fear",
-      "authority"
+      "epistle",
+      "occasion",
+      "audience",
+      "context"
     ]
   },
   "learning": {
-    "foundation_objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-    "extension_objective": "Place the event in the Bible’s big story and name one concrete response.",
+    "foundation_objective": "Analyse 1 Corinthians 1:1-17; Philemon 1-25 and explain the case that epistles address real situations and require reconstruction of context before generalisation.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
     "know": [
-      "The central passage is Mark 4:35-41.",
-      "Jesus has authority over creation and is present with frightened disciples.",
+      "The central passage is 1 Corinthians 1:1-17; Philemon 1-25.",
+      "Epistles address real situations and require reconstruction of context before generalisation.",
       "The lesson belongs within the wider biblical storyline."
     ],
     "understand": [
@@ -98,7 +114,7 @@
     ],
     "practise": [
       "State one observation before giving an interpretation.",
-      "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+      "Choose one instruction from either passage and write down: original recipient, immediate problem, textual principle, and one cautious modern application."
     ],
     "become": [
       "A learner who reads Scripture carefully and responds with trust, wisdom, and love."
@@ -113,14 +129,14 @@
     "default_profile": "standard",
     "preparation_minutes": 25,
     "zero_prep_card": {
-      "objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-      "read": "Mark 4:35-41",
+      "objective": "Analyse 1 Corinthians 1:1-17; Philemon 1-25 and explain the case that epistles address real situations and require reconstruction of context before generalisation.",
+      "read": "1 Corinthians 1:1-17; Philemon 1-25",
       "opening": "Ask: What do you notice first in this passage before we explain what it means?",
       "say": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "Jesus has authority over creation and is present with frightened disciples."
+        "1 Corinthians addresses a particular church and names concrete divisions among its members.",
+        "Philemon addresses named people concerning Onesimus and a specific relational situation.",
+        "Epistles communicate authoritative apostolic teaching through communication to real historical recipients.",
+        "Epistles address real situations and require reconstruction of context before generalisation."
       ],
       "ask": [
         "What happens or is said in the passage?",
@@ -128,20 +144,20 @@
         "Which statement is directly in the text?",
         "What is one careful response for us?"
       ],
-      "do": "Complete the Storm Story Sequence Cards activity.",
+      "do": "Complete the Epistle Context Reconstruction Worksheet activity.",
       "close": "Pray using one truth from the passage and one faithful response.",
       "materials": [
         "Bible",
-        "Storm Story Sequence Cards"
+        "Epistle Context Reconstruction Worksheet"
       ]
     },
     "preparation": {
-      "passage_context": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+      "passage_context": "Apostolic churches: Epistles address real situations and require reconstruction of context before generalisation.",
       "text_observations": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him."
+        "1 Corinthians addresses a particular church and names concrete divisions among its members.",
+        "Philemon addresses named people concerning Onesimus and a specific relational situation.",
+        "Epistles communicate authoritative apostolic teaching through communication to real historical recipients.",
+        "Responsible application requires reconstructing as much of the occasion as the text and reliable historical evidence permit."
       ],
       "interpretation_notes": [
         "Start with the principal passage before moving to broader synthesis.",
@@ -149,18 +165,18 @@
         "Label synthesis, inference, historical context, and application rather than presenting them as quotations."
       ],
       "theological_guardrails": [
-        "Do not promise children that following Jesus prevents frightening events.",
-        "Do not shame fear; the disciples themselves were frightened.",
-        "Keep the focus on Jesus’ authority and presence rather than turning the story into a technique for controlling anxiety."
+        "Do not invent a historical background merely because it makes an interpretation convenient.",
+        "Do not assume every instruction in an epistle applies identically across every circumstance without examining context and canonical coherence.",
+        "Do not use “context” as an excuse to neutralize clear teaching."
       ],
       "likely_questions": [
         {
-          "question": "Does trusting Jesus mean storms will stop for me?",
-          "purpose": "No. This passage shows Jesus’ authority; it does not promise that every frightening situation will end immediately."
+          "question": "If letters were written to specific people, why do Christians read them as Scripture?",
+          "purpose": "The letters address real recipients while also functioning within the canonical witness received by the church. Specific application still requires interpretation."
         },
         {
-          "question": "Is it wrong to feel scared?",
-          "purpose": "No. Fear is a normal response. We can bring fear to God and seek help from trusted people."
+          "question": "How much background can we know?",
+          "purpose": "Sometimes a great deal from the letter itself and related evidence; sometimes only a little. Good interpretation states the level of confidence."
         }
       ]
     },
@@ -199,12 +215,12 @@
             "step_id": "E04",
             "minutes": 6,
             "label": "Do",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Epistle Context Reconstruction Worksheet.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "T1-L22-P01-epistle-context-reconstruction"
             ]
           },
           {
@@ -258,12 +274,12 @@
             "step_id": "S05",
             "minutes": 7,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Epistle Context Reconstruction Worksheet.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "T1-L22-P01-epistle-context-reconstruction"
             ]
           },
           {
@@ -317,12 +333,12 @@
             "step_id": "X05",
             "minutes": 8,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Epistle Context Reconstruction Worksheet.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "T1-L22-P01-epistle-context-reconstruction"
             ]
           },
           {
@@ -380,10 +396,10 @@
     "activities": [
       {
         "activity_id": "A01",
-        "title": "Storm Story Sequence Cards",
+        "title": "Epistle Context Reconstruction Worksheet",
         "duration_minutes": 8,
         "materials": [
-          "Storm Story Sequence Cards",
+          "Epistle Context Reconstruction Worksheet",
           "Pens or pencils"
         ],
         "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
@@ -411,17 +427,17 @@
       }
     ],
     "closing": {
-      "memory_reference": "Mark 4:35-41",
+      "memory_reference": "1 Corinthians 1:1-17",
       "prayer_prompt": "Thank God for the truth in this passage and ask for wisdom to respond faithfully.",
-      "take_home_line": "Jesus has authority over creation and is present with frightened disciples."
+      "take_home_line": "Epistles address real situations and require reconstruction of context before generalisation."
     },
     "printable_refs": [
-      "K1-L19-P01-storm-sequence"
+      "T1-L22-P01-epistle-context-reconstruction"
     ]
   },
   "family": {
     "duration_minutes": 15,
-    "title": "Jesus Calms the Storm",
+    "title": "Reading Epistles as Occasional Theology",
     "parent_intro": "Use the passage itself first. Keep the conversation concrete, honest, and free from pressure.",
     "flow": [
       {
@@ -432,22 +448,22 @@
       {
         "duration_minutes": 5,
         "type": "read",
-        "instructions": "Read selected portions of Mark 4:35-41. Ask what everyone notices."
+        "instructions": "Read selected portions of 1 Corinthians 1:1-17; Philemon 1-25. Ask what everyone notices."
       },
       {
         "duration_minutes": 3,
         "type": "understand",
-        "instructions": "Say the big idea in your own words: Jesus has authority over creation and is present with frightened disciples."
+        "instructions": "Say the big idea in your own words: Epistles address real situations and require reconstruction of context before generalisation."
       },
       {
         "duration_minutes": 3,
         "type": "play",
-        "instructions": "Use the Storm Story Sequence Cards idea verbally or on paper."
+        "instructions": "Use the Epistle Context Reconstruction Worksheet idea verbally or on paper."
       },
       {
         "duration_minutes": 2,
         "type": "respond",
-        "instructions": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+        "instructions": "Choose one instruction from either passage and write down: original recipient, immediate problem, textual principle, and one cautious modern application."
       }
     ],
     "questions": [
@@ -456,11 +472,11 @@
       "What is one response we can practise this week?"
     ],
     "interactive": {
-      "type": "puzzle",
-      "title": "Storm Story Sequence Cards",
+      "type": "audit",
+      "title": "Epistle Context Reconstruction Worksheet",
       "instructions": "Sort or classify the lesson statements using the passage as evidence."
     },
-    "weekly_action": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help.",
+    "weekly_action": "Choose one instruction from either passage and write down: original recipient, immediate problem, textual principle, and one cautious modern application.",
     "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
     "parent_note": "Questions are welcome. Do not force disclosure, certainty, or a public religious decision. If a sensitive concern emerges, respond calmly and involve an appropriate trusted adult."
   },
@@ -468,17 +484,17 @@
     "quiz": [
       {
         "question_id": "Z01",
-        "question": "What is the principal passage for Jesus Calms the Storm?",
+        "question": "What is the principal passage for Reading Epistles as Occasional Theology?",
         "type": "multiple_choice",
         "options": [
-          "Mark 4:35-41",
+          "1 Corinthians 1:1-17; Philemon 1-25",
           "Genesis 1:1",
           "Psalm 23:1",
           "Revelation 22:21"
         ],
         "answer": {
           "kind": "text",
-          "text": "Mark 4:35-41"
+          "text": "1 Corinthians 1:1-17; Philemon 1-25"
         },
         "explanation": "The lesson is governed by its principal passage."
       },
@@ -500,7 +516,7 @@
       },
       {
         "question_id": "Z03",
-        "question": "Jesus and His disciples crossed the lake in a boat.",
+        "question": "1 Corinthians addresses a particular church and names concrete divisions among its members.",
         "type": "true_false",
         "answer": {
           "kind": "boolean",
@@ -541,16 +557,16 @@
     },
     "printables": [
       {
-        "resource_id": "K1-L19-P01-storm-sequence",
-        "title": "Storm Story Sequence Cards",
-        "purpose": "Support the primary activity for Jesus Calms the Storm.",
+        "resource_id": "T1-L22-P01-epistle-context-reconstruction",
+        "title": "Epistle Context Reconstruction Worksheet",
+        "purpose": "Support the primary activity for Reading Epistles as Occasional Theology.",
         "format": "worksheet",
         "status": "content_source_draft"
       }
     ]
   },
   "accessibility": {
-    "reading_level": "Teacher-read with short child responses",
+    "reading_level": "Teen reading with explicit interpretive scaffolding",
     "plain_language_rule": "Define unfamiliar terms from the passage before using theological shorthand.",
     "neurodiversity_supports": [
       "Offer verbal or written response options.",
@@ -575,7 +591,7 @@
   },
   "editorial": {
     "source_provenance": [
-      "Mark 4:35-41",
+      "1 Corinthians 1:1-17; Philemon 1-25",
       "Canonical Curriculum Matrix v0.2",
       "Approved theological decision register",
       "Editorial synthesis for Content Production Batch 06"

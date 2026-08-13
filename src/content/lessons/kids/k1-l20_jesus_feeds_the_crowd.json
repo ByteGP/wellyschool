@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2.1",
-  "lesson_id": "K1-L19",
+  "lesson_id": "K1-L20",
   "content_version": "0.2.0",
   "status": "in_review",
   "curriculum": {
@@ -8,88 +8,88 @@
     "age_range": "4-8",
     "cycle_id": "K1",
     "cycle_name": "God Made and Cares",
-    "sequence": 19,
+    "sequence": 20,
     "unit_type": "Core",
     "scheduling_priority": "Required",
-    "title": "Jesus Calms the Storm",
+    "title": "Jesus Feeds the Crowd",
     "annual_anchor": "jesus_lord_cross_resurrection",
     "thematic_unit": "Jesus Cares"
   },
   "core": {
-    "big_idea": "Jesus has authority over creation and is present with frightened disciples.",
+    "big_idea": "Jesus showed compassion and provided for a hungry crowd.",
     "passages": [
       {
-        "reference": "Mark 4:35-41",
+        "reference": "John 6:1-14",
         "role": "primary",
         "reading_note": "Read the central passage in context; select age-appropriate portions when needed."
       }
     ],
-    "metanarrative_position": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+    "metanarrative_position": "Jesus' ministry: Jesus showed compassion and provided for a hungry crowd.",
     "biblical_genre": "Gospel narrative / teaching",
     "claims": [
       {
         "claim_id": "C01",
-        "statement": "Jesus and His disciples crossed the lake in a boat.",
+        "statement": "A large crowd followed Jesus.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:35-36"
+          "John 6:1-2"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C02",
-        "statement": "A severe storm arose while Jesus was asleep.",
+        "statement": "Jesus asked Philip about feeding the crowd.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:37-38"
+          "John 6:5-6"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C03",
-        "statement": "Jesus rebuked the wind and sea, and there was a great calm.",
+        "statement": "A boy had five barley loaves and two fish.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:39"
+          "John 6:8-9"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C04",
-        "statement": "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him.",
+        "statement": "Jesus gave thanks and distributed food, and the people had enough.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:40-41"
+          "John 6:10-13"
         ],
         "confidence": "High",
         "review_status": "draft"
       }
     ],
     "doctrine_tags": [
-      "creation",
-      "christology"
+      "christology",
+      "providence"
     ],
     "formation_tags": [
-      "trust",
-      "prayer"
+      "generosity",
+      "gratitude"
     ],
     "interpretation_skill": "Retell sequence; identify cause and effect; distinguish what the passage says from application.",
     "key_terms": [
-      "storm",
-      "boat",
-      "fear",
-      "authority"
+      "crowd",
+      "bread",
+      "fish",
+      "thanks"
     ]
   },
   "learning": {
-    "foundation_objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
+    "foundation_objective": "Retell the main action in John 6:1-14 and explain in simple language that jesus showed compassion and provided for a hungry crowd.",
     "extension_objective": "Place the event in the Bible’s big story and name one concrete response.",
     "know": [
-      "The central passage is Mark 4:35-41.",
-      "Jesus has authority over creation and is present with frightened disciples.",
+      "The central passage is John 6:1-14.",
+      "Jesus showed compassion and provided for a hungry crowd.",
       "The lesson belongs within the wider biblical storyline."
     ],
     "understand": [
@@ -98,7 +98,7 @@
     ],
     "practise": [
       "State one observation before giving an interpretation.",
-      "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+      "Choose one practical way to share food or another useful resource with someone this week."
     ],
     "become": [
       "A learner who reads Scripture carefully and responds with trust, wisdom, and love."
@@ -113,14 +113,14 @@
     "default_profile": "standard",
     "preparation_minutes": 25,
     "zero_prep_card": {
-      "objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-      "read": "Mark 4:35-41",
+      "objective": "Retell the main action in John 6:1-14 and explain in simple language that jesus showed compassion and provided for a hungry crowd.",
+      "read": "John 6:1-14",
       "opening": "Ask: What do you notice first in this passage before we explain what it means?",
       "say": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "Jesus has authority over creation and is present with frightened disciples."
+        "A large crowd followed Jesus.",
+        "Jesus asked Philip about feeding the crowd.",
+        "A boy had five barley loaves and two fish.",
+        "Jesus showed compassion and provided for a hungry crowd."
       ],
       "ask": [
         "What happens or is said in the passage?",
@@ -128,20 +128,20 @@
         "Which statement is directly in the text?",
         "What is one careful response for us?"
       ],
-      "do": "Complete the Storm Story Sequence Cards activity.",
+      "do": "Complete the Loaves and Fish Count-and-Share Sheet activity.",
       "close": "Pray using one truth from the passage and one faithful response.",
       "materials": [
         "Bible",
-        "Storm Story Sequence Cards"
+        "Loaves and Fish Count-and-Share Sheet"
       ]
     },
     "preparation": {
-      "passage_context": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+      "passage_context": "Jesus' ministry: Jesus showed compassion and provided for a hungry crowd.",
       "text_observations": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him."
+        "A large crowd followed Jesus.",
+        "Jesus asked Philip about feeding the crowd.",
+        "A boy had five barley loaves and two fish.",
+        "Jesus gave thanks and distributed food, and the people had enough."
       ],
       "interpretation_notes": [
         "Start with the principal passage before moving to broader synthesis.",
@@ -149,18 +149,18 @@
         "Label synthesis, inference, historical context, and application rather than presenting them as quotations."
       ],
       "theological_guardrails": [
-        "Do not promise children that following Jesus prevents frightening events.",
-        "Do not shame fear; the disciples themselves were frightened.",
-        "Keep the focus on Jesus’ authority and presence rather than turning the story into a technique for controlling anxiety."
+        "Do not teach that every shortage will be resolved by a miracle.",
+        "Do not shame children whose families face food insecurity.",
+        "Do not exaggerate the boy’s motives beyond what John states."
       ],
       "likely_questions": [
         {
-          "question": "Does trusting Jesus mean storms will stop for me?",
-          "purpose": "No. This passage shows Jesus’ authority; it does not promise that every frightening situation will end immediately."
+          "question": "Will Jesus always multiply food for us?",
+          "purpose": "This passage records a particular sign. Today Christians still pray, work, share, and help people who need food."
         },
         {
-          "question": "Is it wrong to feel scared?",
-          "purpose": "No. Fear is a normal response. We can bring fear to God and seek help from trusted people."
+          "question": "Why did Jesus ask Philip if He already knew what He would do?",
+          "purpose": "John says Jesus asked to test him; the passage does not explain every detail of that purpose."
         }
       ]
     },
@@ -199,12 +199,12 @@
             "step_id": "E04",
             "minutes": 6,
             "label": "Do",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Loaves and Fish Count-and-Share Sheet.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "K1-L20-P01-loaves-fish-count"
             ]
           },
           {
@@ -258,12 +258,12 @@
             "step_id": "S05",
             "minutes": 7,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Loaves and Fish Count-and-Share Sheet.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "K1-L20-P01-loaves-fish-count"
             ]
           },
           {
@@ -317,12 +317,12 @@
             "step_id": "X05",
             "minutes": 8,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Loaves and Fish Count-and-Share Sheet.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "K1-L20-P01-loaves-fish-count"
             ]
           },
           {
@@ -380,10 +380,10 @@
     "activities": [
       {
         "activity_id": "A01",
-        "title": "Storm Story Sequence Cards",
+        "title": "Loaves and Fish Count-and-Share Sheet",
         "duration_minutes": 8,
         "materials": [
-          "Storm Story Sequence Cards",
+          "Loaves and Fish Count-and-Share Sheet",
           "Pens or pencils"
         ],
         "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
@@ -411,17 +411,17 @@
       }
     ],
     "closing": {
-      "memory_reference": "Mark 4:35-41",
+      "memory_reference": "John 6:1-14",
       "prayer_prompt": "Thank God for the truth in this passage and ask for wisdom to respond faithfully.",
-      "take_home_line": "Jesus has authority over creation and is present with frightened disciples."
+      "take_home_line": "Jesus showed compassion and provided for a hungry crowd."
     },
     "printable_refs": [
-      "K1-L19-P01-storm-sequence"
+      "K1-L20-P01-loaves-fish-count"
     ]
   },
   "family": {
     "duration_minutes": 15,
-    "title": "Jesus Calms the Storm",
+    "title": "Jesus Feeds the Crowd",
     "parent_intro": "Use the passage itself first. Keep the conversation concrete, honest, and free from pressure.",
     "flow": [
       {
@@ -432,22 +432,22 @@
       {
         "duration_minutes": 5,
         "type": "read",
-        "instructions": "Read selected portions of Mark 4:35-41. Ask what everyone notices."
+        "instructions": "Read selected portions of John 6:1-14. Ask what everyone notices."
       },
       {
         "duration_minutes": 3,
         "type": "understand",
-        "instructions": "Say the big idea in your own words: Jesus has authority over creation and is present with frightened disciples."
+        "instructions": "Say the big idea in your own words: Jesus showed compassion and provided for a hungry crowd."
       },
       {
         "duration_minutes": 3,
         "type": "play",
-        "instructions": "Use the Storm Story Sequence Cards idea verbally or on paper."
+        "instructions": "Use the Loaves and Fish Count-and-Share Sheet idea verbally or on paper."
       },
       {
         "duration_minutes": 2,
         "type": "respond",
-        "instructions": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+        "instructions": "Choose one practical way to share food or another useful resource with someone this week."
       }
     ],
     "questions": [
@@ -457,10 +457,10 @@
     ],
     "interactive": {
       "type": "puzzle",
-      "title": "Storm Story Sequence Cards",
+      "title": "Loaves and Fish Count-and-Share Sheet",
       "instructions": "Sort or classify the lesson statements using the passage as evidence."
     },
-    "weekly_action": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help.",
+    "weekly_action": "Choose one practical way to share food or another useful resource with someone this week.",
     "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
     "parent_note": "Questions are welcome. Do not force disclosure, certainty, or a public religious decision. If a sensitive concern emerges, respond calmly and involve an appropriate trusted adult."
   },
@@ -468,17 +468,17 @@
     "quiz": [
       {
         "question_id": "Z01",
-        "question": "What is the principal passage for Jesus Calms the Storm?",
+        "question": "What is the principal passage for Jesus Feeds the Crowd?",
         "type": "multiple_choice",
         "options": [
-          "Mark 4:35-41",
+          "John 6:1-14",
           "Genesis 1:1",
           "Psalm 23:1",
           "Revelation 22:21"
         ],
         "answer": {
           "kind": "text",
-          "text": "Mark 4:35-41"
+          "text": "John 6:1-14"
         },
         "explanation": "The lesson is governed by its principal passage."
       },
@@ -500,7 +500,7 @@
       },
       {
         "question_id": "Z03",
-        "question": "Jesus and His disciples crossed the lake in a boat.",
+        "question": "A large crowd followed Jesus.",
         "type": "true_false",
         "answer": {
           "kind": "boolean",
@@ -541,9 +541,9 @@
     },
     "printables": [
       {
-        "resource_id": "K1-L19-P01-storm-sequence",
-        "title": "Storm Story Sequence Cards",
-        "purpose": "Support the primary activity for Jesus Calms the Storm.",
+        "resource_id": "K1-L20-P01-loaves-fish-count",
+        "title": "Loaves and Fish Count-and-Share Sheet",
+        "purpose": "Support the primary activity for Jesus Feeds the Crowd.",
         "format": "worksheet",
         "status": "content_source_draft"
       }
@@ -575,7 +575,7 @@
   },
   "editorial": {
     "source_provenance": [
-      "Mark 4:35-41",
+      "John 6:1-14",
       "Canonical Curriculum Matrix v0.2",
       "Approved theological decision register",
       "Editorial synthesis for Content Production Batch 06"

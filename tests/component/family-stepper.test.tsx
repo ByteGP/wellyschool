@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it } from 'vitest';
 import FamilyStepper from '../../src/components/family/FamilyStepper';
 import lessonJson from '../../src/content/lessons/kids/k1-l19_jesus_calms_the_storm.json';
+import offlineLessonJson from '../../src/content/lessons/kids/k1-l01_god_made_a_good_world.json';
 import type { LessonContent } from '../../src/types';
 import { toFamilyViewModel } from '../../src/lib/view-models/family';
 
@@ -69,12 +70,15 @@ describe('FamilyStepper', () => {
     expect(screen.getByRole('heading', { name: 'Understand' })).toBeInTheDocument();
   });
 
-  it('offers the quiz and puzzle as extras when the interactive is offline (movement)', async () => {
+  it('offers the quiz and puzzle as extras when the interactive is offline', async () => {
+    // K1-L01's family interactive is "creative" (not quiz/puzzle), so the
+    // completion screen offers both quiz and puzzle as collapsible extras.
+    const offlineVm = toFamilyViewModel(offlineLessonJson as unknown as LessonContent);
+    expect(['quiz', 'puzzle']).not.toContain(offlineVm.interactive.type);
     const user = userEvent.setup();
-    window.sessionStorage.setItem(STORAGE_KEY, '5');
-    render(<FamilyStepper vm={vm} />);
-    expect(vm.interactive.type).toBe('movement');
+    window.sessionStorage.setItem(`wellyschool.family.${offlineVm.lessonId}`, '5');
+    render(<FamilyStepper vm={offlineVm} />);
     await user.click(screen.getByText('Extra: quick quiz'));
-    expect(screen.getByText(vm.quiz[0].question)).toBeInTheDocument();
+    expect(screen.getByText(offlineVm.quiz[0].question)).toBeInTheDocument();
   });
 });

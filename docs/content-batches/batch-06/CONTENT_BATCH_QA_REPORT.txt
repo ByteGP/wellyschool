@@ -1,0 +1,21 @@
+Content Production Batch 06 v0.2 - Repository Schema Re-export QA
+
+Schema source: /mnt/data/claude_code_web_mvp_build_pack_v1_0/starter/src/schemas/lesson.schema.json
+
+K1-L19: schema=PASS
+K1-L20: schema=PASS
+K1-L21: schema=PASS
+K1-L22: schema=PASS
+T1-L19: schema=PASS
+T1-L20: schema=PASS
+T1-L21: schema=PASS
+T1-L22: schema=PASS
+Y1-L19: schema=PASS
+Y1-L20: schema=PASS
+Y1-L21: schema=PASS
+Y1-L22: schema=PASS
+
+Lessons validated: 12
+Schema errors: 0
+Owner-reported incompatibility checks: PASS
+Overall: PASS

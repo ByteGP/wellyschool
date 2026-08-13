@@ -1,95 +1,107 @@
 {
   "schema_version": "1.2.1",
-  "lesson_id": "K1-L19",
+  "lesson_id": "Y1-L19",
   "content_version": "0.2.0",
   "status": "in_review",
   "curriculum": {
-    "segment": "Kids",
-    "age_range": "4-8",
-    "cycle_id": "K1",
-    "cycle_name": "God Made and Cares",
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
     "sequence": 19,
     "unit_type": "Core",
     "scheduling_priority": "Required",
-    "title": "Jesus Calms the Storm",
+    "title": "Why Four Gospels?",
     "annual_anchor": "jesus_lord_cross_resurrection",
-    "thematic_unit": "Jesus Cares"
+    "thematic_unit": "Jesus"
   },
   "core": {
-    "big_idea": "Jesus has authority over creation and is present with frightened disciples.",
+    "big_idea": "The four Gospels provide complementary, purposeful witnesses to Jesus.",
     "passages": [
       {
-        "reference": "Mark 4:35-41",
+        "reference": "Luke 1:1-4; John 20:30-31",
         "role": "primary",
         "reading_note": "Read the central passage in context; select age-appropriate portions when needed."
       }
     ],
-    "metanarrative_position": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+    "metanarrative_position": "Jesus' ministry: The four Gospels provide complementary, purposeful witnesses to Jesus.",
     "biblical_genre": "Gospel narrative / teaching",
     "claims": [
       {
         "claim_id": "C01",
-        "statement": "Jesus and His disciples crossed the lake in a boat.",
+        "statement": "Luke says he investigated matters and wrote an orderly account.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:35-36"
+          "Luke 1:1-4"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C02",
-        "statement": "A severe storm arose while Jesus was asleep.",
+        "statement": "Luke addresses a named reader, Theophilus, and states a purpose of certainty regarding what he had been taught.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:37-38"
+          "Luke 1:3-4"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C03",
-        "statement": "Jesus rebuked the wind and sea, and there was a great calm.",
+        "statement": "John says Jesus did many other signs not written in his book.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:39"
+          "John 20:30"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C04",
-        "statement": "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him.",
+        "statement": "John states that his selected signs were written so readers may believe that Jesus is the Christ, the Son of God.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:40-41"
+          "John 20:31"
         ],
         "confidence": "High",
         "review_status": "draft"
+      },
+      {
+        "claim_id": "C05",
+        "statement": "The four canonical Gospels can be read as complementary witnesses, but these two passages alone do not explain every difference among them.",
+        "classification": "strong_inference",
+        "evidence_refs": [
+          "Luke 1:1-4",
+          "John 20:30-31"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "prohibited_overstatement": "Do not state this claim more strongly than its evidence classification allows."
       }
     ],
     "doctrine_tags": [
-      "creation",
+      "scripture",
       "christology"
     ],
     "formation_tags": [
-      "trust",
-      "prayer"
+      "study",
+      "curiosity"
     ],
-    "interpretation_skill": "Retell sequence; identify cause and effect; distinguish what the passage says from application.",
+    "interpretation_skill": "Identify author/audience/genre; observe context; distinguish direct statement, inference, and application.",
     "key_terms": [
-      "storm",
-      "boat",
-      "fear",
-      "authority"
+      "Gospel",
+      "witness",
+      "purpose",
+      "account"
     ]
   },
   "learning": {
-    "foundation_objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-    "extension_objective": "Place the event in the Bible’s big story and name one concrete response.",
+    "foundation_objective": "Explain from Luke 1:1-4; John 20:30-31 that the four Gospels provide complementary, purposeful witnesses to Jesus.",
+    "extension_objective": "Identify context and genre, then distinguish what the text directly states from reasonable inference and application.",
     "know": [
-      "The central passage is Mark 4:35-41.",
-      "Jesus has authority over creation and is present with frightened disciples.",
+      "The central passage is Luke 1:1-4; John 20:30-31.",
+      "The four Gospels provide complementary, purposeful witnesses to Jesus.",
       "The lesson belongs within the wider biblical storyline."
     ],
     "understand": [
@@ -98,7 +110,7 @@
     ],
     "practise": [
       "State one observation before giving an interpretation.",
-      "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+      "Compare the opening or closing purpose statements of two Gospels and note one similarity and one difference."
     ],
     "become": [
       "A learner who reads Scripture carefully and responds with trust, wisdom, and love."
@@ -113,14 +125,14 @@
     "default_profile": "standard",
     "preparation_minutes": 25,
     "zero_prep_card": {
-      "objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-      "read": "Mark 4:35-41",
+      "objective": "Explain from Luke 1:1-4; John 20:30-31 that the four Gospels provide complementary, purposeful witnesses to Jesus.",
+      "read": "Luke 1:1-4; John 20:30-31",
       "opening": "Ask: What do you notice first in this passage before we explain what it means?",
       "say": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "Jesus has authority over creation and is present with frightened disciples."
+        "Luke says he investigated matters and wrote an orderly account.",
+        "Luke addresses a named reader, Theophilus, and states a purpose of certainty regarding what he had been taught.",
+        "John says Jesus did many other signs not written in his book.",
+        "The four Gospels provide complementary, purposeful witnesses to Jesus."
       ],
       "ask": [
         "What happens or is said in the passage?",
@@ -128,20 +140,20 @@
         "Which statement is directly in the text?",
         "What is one careful response for us?"
       ],
-      "do": "Complete the Storm Story Sequence Cards activity.",
+      "do": "Complete the Gospel Purpose Observation Grid activity.",
       "close": "Pray using one truth from the passage and one faithful response.",
       "materials": [
         "Bible",
-        "Storm Story Sequence Cards"
+        "Gospel Purpose Observation Grid"
       ]
     },
     "preparation": {
-      "passage_context": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+      "passage_context": "Jesus' ministry: The four Gospels provide complementary, purposeful witnesses to Jesus.",
       "text_observations": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him."
+        "Luke says he investigated matters and wrote an orderly account.",
+        "Luke addresses a named reader, Theophilus, and states a purpose of certainty regarding what he had been taught.",
+        "John says Jesus did many other signs not written in his book.",
+        "John states that his selected signs were written so readers may believe that Jesus is the Christ, the Son of God."
       ],
       "interpretation_notes": [
         "Start with the principal passage before moving to broader synthesis.",
@@ -149,18 +161,18 @@
         "Label synthesis, inference, historical context, and application rather than presenting them as quotations."
       ],
       "theological_guardrails": [
-        "Do not promise children that following Jesus prevents frightening events.",
-        "Do not shame fear; the disciples themselves were frightened.",
-        "Keep the focus on Jesus’ authority and presence rather than turning the story into a technique for controlling anxiety."
+        "Do not claim these verses by themselves prove every traditional claim about Gospel authorship.",
+        "Do not force every difference among Gospel accounts into an artificial harmonisation.",
+        "Distinguish what Luke and John explicitly say from later historical information."
       ],
       "likely_questions": [
         {
-          "question": "Does trusting Jesus mean storms will stop for me?",
-          "purpose": "No. This passage shows Jesus’ authority; it does not promise that every frightening situation will end immediately."
+          "question": "Why are some stories different in different Gospels?",
+          "purpose": "Different authors can select and arrange material for different purposes. Specific differences should be studied passage by passage rather than explained away in advance."
         },
         {
-          "question": "Is it wrong to feel scared?",
-          "purpose": "No. Fear is a normal response. We can bring fear to God and seek help from trusted people."
+          "question": "Does “different” mean “contradictory”?",
+          "purpose": "Not automatically. A difference can be complementary, but each alleged contradiction should be examined on its own evidence."
         }
       ]
     },
@@ -199,12 +211,12 @@
             "step_id": "E04",
             "minutes": 6,
             "label": "Do",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Gospel Purpose Observation Grid.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "Y1-L19-P01-gospel-purpose-grid"
             ]
           },
           {
@@ -258,12 +270,12 @@
             "step_id": "S05",
             "minutes": 7,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Gospel Purpose Observation Grid.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "Y1-L19-P01-gospel-purpose-grid"
             ]
           },
           {
@@ -317,12 +329,12 @@
             "step_id": "X05",
             "minutes": 8,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Gospel Purpose Observation Grid.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "Y1-L19-P01-gospel-purpose-grid"
             ]
           },
           {
@@ -380,10 +392,10 @@
     "activities": [
       {
         "activity_id": "A01",
-        "title": "Storm Story Sequence Cards",
+        "title": "Gospel Purpose Observation Grid",
         "duration_minutes": 8,
         "materials": [
-          "Storm Story Sequence Cards",
+          "Gospel Purpose Observation Grid",
           "Pens or pencils"
         ],
         "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
@@ -411,17 +423,17 @@
       }
     ],
     "closing": {
-      "memory_reference": "Mark 4:35-41",
+      "memory_reference": "Luke 1:1-4",
       "prayer_prompt": "Thank God for the truth in this passage and ask for wisdom to respond faithfully.",
-      "take_home_line": "Jesus has authority over creation and is present with frightened disciples."
+      "take_home_line": "The four Gospels provide complementary, purposeful witnesses to Jesus."
     },
     "printable_refs": [
-      "K1-L19-P01-storm-sequence"
+      "Y1-L19-P01-gospel-purpose-grid"
     ]
   },
   "family": {
     "duration_minutes": 15,
-    "title": "Jesus Calms the Storm",
+    "title": "Why Four Gospels?",
     "parent_intro": "Use the passage itself first. Keep the conversation concrete, honest, and free from pressure.",
     "flow": [
       {
@@ -432,22 +444,22 @@
       {
         "duration_minutes": 5,
         "type": "read",
-        "instructions": "Read selected portions of Mark 4:35-41. Ask what everyone notices."
+        "instructions": "Read selected portions of Luke 1:1-4; John 20:30-31. Ask what everyone notices."
       },
       {
         "duration_minutes": 3,
         "type": "understand",
-        "instructions": "Say the big idea in your own words: Jesus has authority over creation and is present with frightened disciples."
+        "instructions": "Say the big idea in your own words: The four Gospels provide complementary, purposeful witnesses to Jesus."
       },
       {
         "duration_minutes": 3,
         "type": "play",
-        "instructions": "Use the Storm Story Sequence Cards idea verbally or on paper."
+        "instructions": "Use the Gospel Purpose Observation Grid idea verbally or on paper."
       },
       {
         "duration_minutes": 2,
         "type": "respond",
-        "instructions": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+        "instructions": "Compare the opening or closing purpose statements of two Gospels and note one similarity and one difference."
       }
     ],
     "questions": [
@@ -457,10 +469,10 @@
     ],
     "interactive": {
       "type": "puzzle",
-      "title": "Storm Story Sequence Cards",
+      "title": "Gospel Purpose Observation Grid",
       "instructions": "Sort or classify the lesson statements using the passage as evidence."
     },
-    "weekly_action": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help.",
+    "weekly_action": "Compare the opening or closing purpose statements of two Gospels and note one similarity and one difference.",
     "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
     "parent_note": "Questions are welcome. Do not force disclosure, certainty, or a public religious decision. If a sensitive concern emerges, respond calmly and involve an appropriate trusted adult."
   },
@@ -468,17 +480,17 @@
     "quiz": [
       {
         "question_id": "Z01",
-        "question": "What is the principal passage for Jesus Calms the Storm?",
+        "question": "What is the principal passage for Why Four Gospels??",
         "type": "multiple_choice",
         "options": [
-          "Mark 4:35-41",
+          "Luke 1:1-4; John 20:30-31",
           "Genesis 1:1",
           "Psalm 23:1",
           "Revelation 22:21"
         ],
         "answer": {
           "kind": "text",
-          "text": "Mark 4:35-41"
+          "text": "Luke 1:1-4; John 20:30-31"
         },
         "explanation": "The lesson is governed by its principal passage."
       },
@@ -500,7 +512,7 @@
       },
       {
         "question_id": "Z03",
-        "question": "Jesus and His disciples crossed the lake in a boat.",
+        "question": "Luke says he investigated matters and wrote an orderly account.",
         "type": "true_false",
         "answer": {
           "kind": "boolean",
@@ -541,16 +553,16 @@
     },
     "printables": [
       {
-        "resource_id": "K1-L19-P01-storm-sequence",
-        "title": "Storm Story Sequence Cards",
-        "purpose": "Support the primary activity for Jesus Calms the Storm.",
+        "resource_id": "Y1-L19-P01-gospel-purpose-grid",
+        "title": "Gospel Purpose Observation Grid",
+        "purpose": "Support the primary activity for Why Four Gospels?.",
         "format": "worksheet",
         "status": "content_source_draft"
       }
     ]
   },
   "accessibility": {
-    "reading_level": "Teacher-read with short child responses",
+    "reading_level": "Age-appropriate Bible reading with scaffolded discussion",
     "plain_language_rule": "Define unfamiliar terms from the passage before using theological shorthand.",
     "neurodiversity_supports": [
       "Offer verbal or written response options.",
@@ -575,7 +587,7 @@
   },
   "editorial": {
     "source_provenance": [
-      "Mark 4:35-41",
+      "Luke 1:1-4; John 20:30-31",
       "Canonical Curriculum Matrix v0.2",
       "Approved theological decision register",
       "Editorial synthesis for Content Production Batch 06"

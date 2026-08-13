@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2.1",
-  "lesson_id": "K1-L19",
+  "lesson_id": "K1-L21",
   "content_version": "0.2.0",
   "status": "in_review",
   "curriculum": {
@@ -8,88 +8,89 @@
     "age_range": "4-8",
     "cycle_id": "K1",
     "cycle_name": "God Made and Cares",
-    "sequence": 19,
+    "sequence": 21,
     "unit_type": "Core",
     "scheduling_priority": "Required",
-    "title": "Jesus Calms the Storm",
+    "title": "Jesus Dies and Rises",
     "annual_anchor": "jesus_lord_cross_resurrection",
-    "thematic_unit": "Jesus Cares"
+    "thematic_unit": "Jesus Saves"
   },
   "core": {
-    "big_idea": "Jesus has authority over creation and is present with frightened disciples.",
+    "big_idea": "Jesus died and was raised, bringing the centre of God's rescue story into view.",
     "passages": [
       {
-        "reference": "Mark 4:35-41",
+        "reference": "Luke 23:44-49; 24:1-12",
         "role": "primary",
         "reading_note": "Read the central passage in context; select age-appropriate portions when needed."
       }
     ],
-    "metanarrative_position": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+    "metanarrative_position": "Jesus' ministry: Jesus died and was raised, bringing the centre of God's rescue story into view.",
     "biblical_genre": "Gospel narrative / teaching",
     "claims": [
       {
         "claim_id": "C01",
-        "statement": "Jesus and His disciples crossed the lake in a boat.",
+        "statement": "Jesus died on the cross.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:35-36"
+          "Luke 23:44-49"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C02",
-        "statement": "A severe storm arose while Jesus was asleep.",
+        "statement": "Jesus’ body was placed in a tomb.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:37-38"
+          "Luke 23:50-56"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C03",
-        "statement": "Jesus rebuked the wind and sea, and there was a great calm.",
+        "statement": "The women found the tomb open and did not find Jesus’ body.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:39"
+          "Luke 24:1-3"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C04",
-        "statement": "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him.",
+        "statement": "The messengers told them that Jesus had risen.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:40-41"
+          "Luke 24:4-8"
         ],
         "confidence": "High",
         "review_status": "draft"
       }
     ],
     "doctrine_tags": [
-      "creation",
-      "christology"
+      "christology",
+      "resurrection",
+      "salvation"
     ],
     "formation_tags": [
-      "trust",
-      "prayer"
+      "hope",
+      "gratitude"
     ],
     "interpretation_skill": "Retell sequence; identify cause and effect; distinguish what the passage says from application.",
     "key_terms": [
-      "storm",
-      "boat",
-      "fear",
-      "authority"
+      "cross",
+      "tomb",
+      "alive",
+      "resurrection"
     ]
   },
   "learning": {
-    "foundation_objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
+    "foundation_objective": "Retell the main action in Luke 23:44-49; 24:1-12 and explain in simple language that jesus died and was raised, bringing the centre of God's rescue story into view.",
     "extension_objective": "Place the event in the Bible’s big story and name one concrete response.",
     "know": [
-      "The central passage is Mark 4:35-41.",
-      "Jesus has authority over creation and is present with frightened disciples.",
+      "The central passage is Luke 23:44-49; 24:1-12.",
+      "Jesus died and was raised, bringing the centre of God's rescue story into view.",
       "The lesson belongs within the wider biblical storyline."
     ],
     "understand": [
@@ -98,7 +99,7 @@
     ],
     "practise": [
       "State one observation before giving an interpretation.",
-      "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+      "Say one sentence of thanks to Jesus together and name one reason the resurrection gives Christians hope."
     ],
     "become": [
       "A learner who reads Scripture carefully and responds with trust, wisdom, and love."
@@ -113,14 +114,14 @@
     "default_profile": "standard",
     "preparation_minutes": 25,
     "zero_prep_card": {
-      "objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-      "read": "Mark 4:35-41",
+      "objective": "Retell the main action in Luke 23:44-49; 24:1-12 and explain in simple language that jesus died and was raised, bringing the centre of God's rescue story into view.",
+      "read": "Luke 23:44-49; 24:1-12",
       "opening": "Ask: What do you notice first in this passage before we explain what it means?",
       "say": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "Jesus has authority over creation and is present with frightened disciples."
+        "Jesus died on the cross.",
+        "Jesus’ body was placed in a tomb.",
+        "The women found the tomb open and did not find Jesus’ body.",
+        "Jesus died and was raised, bringing the centre of God's rescue story into view."
       ],
       "ask": [
         "What happens or is said in the passage?",
@@ -128,20 +129,20 @@
         "Which statement is directly in the text?",
         "What is one careful response for us?"
       ],
-      "do": "Complete the Storm Story Sequence Cards activity.",
+      "do": "Complete the Cross and Empty Tomb Sequence activity.",
       "close": "Pray using one truth from the passage and one faithful response.",
       "materials": [
         "Bible",
-        "Storm Story Sequence Cards"
+        "Cross and Empty Tomb Sequence"
       ]
     },
     "preparation": {
-      "passage_context": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+      "passage_context": "Jesus' ministry: Jesus died and was raised, bringing the centre of God's rescue story into view.",
       "text_observations": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him."
+        "Jesus died on the cross.",
+        "Jesus’ body was placed in a tomb.",
+        "The women found the tomb open and did not find Jesus’ body.",
+        "The messengers told them that Jesus had risen."
       ],
       "interpretation_notes": [
         "Start with the principal passage before moving to broader synthesis.",
@@ -149,18 +150,18 @@
         "Label synthesis, inference, historical context, and application rather than presenting them as quotations."
       ],
       "theological_guardrails": [
-        "Do not promise children that following Jesus prevents frightening events.",
-        "Do not shame fear; the disciples themselves were frightened.",
-        "Keep the focus on Jesus’ authority and presence rather than turning the story into a technique for controlling anxiety."
+        "Use non-graphic language about crucifixion for this age group.",
+        "Do not tell a grieving child that resurrection means current grief should disappear.",
+        "Do not pressure children toward baptism or a public conversion response in this lesson."
       ],
       "likely_questions": [
         {
-          "question": "Does trusting Jesus mean storms will stop for me?",
-          "purpose": "No. This passage shows Jesus’ authority; it does not promise that every frightening situation will end immediately."
+          "question": "Did Jesus really die?",
+          "purpose": "Luke presents Jesus’ death as a real event and then presents His resurrection as a real event."
         },
         {
-          "question": "Is it wrong to feel scared?",
-          "purpose": "No. Fear is a normal response. We can bring fear to God and seek help from trusted people."
+          "question": "Will people we love come back tomorrow like Jesus did?",
+          "purpose": "No. Jesus’ resurrection is unique in this story. Christian hope about resurrection belongs to God’s future promise, not an expectation that someone returns tomorrow."
         }
       ]
     },
@@ -199,12 +200,12 @@
             "step_id": "E04",
             "minutes": 6,
             "label": "Do",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Cross and Empty Tomb Sequence.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "K1-L21-P01-cross-empty-tomb-sequence"
             ]
           },
           {
@@ -258,12 +259,12 @@
             "step_id": "S05",
             "minutes": 7,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Cross and Empty Tomb Sequence.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "K1-L21-P01-cross-empty-tomb-sequence"
             ]
           },
           {
@@ -317,12 +318,12 @@
             "step_id": "X05",
             "minutes": 8,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Cross and Empty Tomb Sequence.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "K1-L21-P01-cross-empty-tomb-sequence"
             ]
           },
           {
@@ -380,10 +381,10 @@
     "activities": [
       {
         "activity_id": "A01",
-        "title": "Storm Story Sequence Cards",
+        "title": "Cross and Empty Tomb Sequence",
         "duration_minutes": 8,
         "materials": [
-          "Storm Story Sequence Cards",
+          "Cross and Empty Tomb Sequence",
           "Pens or pencils"
         ],
         "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
@@ -411,17 +412,17 @@
       }
     ],
     "closing": {
-      "memory_reference": "Mark 4:35-41",
+      "memory_reference": "Luke 23:44-49",
       "prayer_prompt": "Thank God for the truth in this passage and ask for wisdom to respond faithfully.",
-      "take_home_line": "Jesus has authority over creation and is present with frightened disciples."
+      "take_home_line": "Jesus died and was raised, bringing the centre of God's rescue story into view."
     },
     "printable_refs": [
-      "K1-L19-P01-storm-sequence"
+      "K1-L21-P01-cross-empty-tomb-sequence"
     ]
   },
   "family": {
     "duration_minutes": 15,
-    "title": "Jesus Calms the Storm",
+    "title": "Jesus Dies and Rises",
     "parent_intro": "Use the passage itself first. Keep the conversation concrete, honest, and free from pressure.",
     "flow": [
       {
@@ -432,22 +433,22 @@
       {
         "duration_minutes": 5,
         "type": "read",
-        "instructions": "Read selected portions of Mark 4:35-41. Ask what everyone notices."
+        "instructions": "Read selected portions of Luke 23:44-49; 24:1-12. Ask what everyone notices."
       },
       {
         "duration_minutes": 3,
         "type": "understand",
-        "instructions": "Say the big idea in your own words: Jesus has authority over creation and is present with frightened disciples."
+        "instructions": "Say the big idea in your own words: Jesus died and was raised, bringing the centre of God's rescue story into view."
       },
       {
         "duration_minutes": 3,
         "type": "play",
-        "instructions": "Use the Storm Story Sequence Cards idea verbally or on paper."
+        "instructions": "Use the Cross and Empty Tomb Sequence idea verbally or on paper."
       },
       {
         "duration_minutes": 2,
         "type": "respond",
-        "instructions": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+        "instructions": "Say one sentence of thanks to Jesus together and name one reason the resurrection gives Christians hope."
       }
     ],
     "questions": [
@@ -457,10 +458,10 @@
     ],
     "interactive": {
       "type": "puzzle",
-      "title": "Storm Story Sequence Cards",
+      "title": "Cross and Empty Tomb Sequence",
       "instructions": "Sort or classify the lesson statements using the passage as evidence."
     },
-    "weekly_action": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help.",
+    "weekly_action": "Say one sentence of thanks to Jesus together and name one reason the resurrection gives Christians hope.",
     "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
     "parent_note": "Questions are welcome. Do not force disclosure, certainty, or a public religious decision. If a sensitive concern emerges, respond calmly and involve an appropriate trusted adult."
   },
@@ -468,17 +469,17 @@
     "quiz": [
       {
         "question_id": "Z01",
-        "question": "What is the principal passage for Jesus Calms the Storm?",
+        "question": "What is the principal passage for Jesus Dies and Rises?",
         "type": "multiple_choice",
         "options": [
-          "Mark 4:35-41",
+          "Luke 23:44-49; 24:1-12",
           "Genesis 1:1",
           "Psalm 23:1",
           "Revelation 22:21"
         ],
         "answer": {
           "kind": "text",
-          "text": "Mark 4:35-41"
+          "text": "Luke 23:44-49; 24:1-12"
         },
         "explanation": "The lesson is governed by its principal passage."
       },
@@ -500,7 +501,7 @@
       },
       {
         "question_id": "Z03",
-        "question": "Jesus and His disciples crossed the lake in a boat.",
+        "question": "Jesus died on the cross.",
         "type": "true_false",
         "answer": {
           "kind": "boolean",
@@ -541,9 +542,9 @@
     },
     "printables": [
       {
-        "resource_id": "K1-L19-P01-storm-sequence",
-        "title": "Storm Story Sequence Cards",
-        "purpose": "Support the primary activity for Jesus Calms the Storm.",
+        "resource_id": "K1-L21-P01-cross-empty-tomb-sequence",
+        "title": "Cross and Empty Tomb Sequence",
+        "purpose": "Support the primary activity for Jesus Dies and Rises.",
         "format": "worksheet",
         "status": "content_source_draft"
       }
@@ -575,7 +576,7 @@
   },
   "editorial": {
     "source_provenance": [
-      "Mark 4:35-41",
+      "Luke 23:44-49; 24:1-12",
       "Canonical Curriculum Matrix v0.2",
       "Approved theological decision register",
       "Editorial synthesis for Content Production Batch 06"

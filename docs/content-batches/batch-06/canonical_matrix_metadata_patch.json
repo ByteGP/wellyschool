@@ -1,0 +1,14 @@
+{
+  "K1-L19": {
+    "formation_tags": [
+      "trust",
+      "prayer"
+    ],
+    "note": "Replace unrelated mission-only formation tag with trust/prayer appropriate to the storm narrative."
+  },
+  "Y1-L21": {
+    "theological_review_flag": "",
+    "pastoral_sensitivity": "Death/grief",
+    "note": "Remove violence/war categorisation; crucifixion requires death/grief and age-sensitive violence handling, but this is not a war-ethics lesson."
+  }
+}

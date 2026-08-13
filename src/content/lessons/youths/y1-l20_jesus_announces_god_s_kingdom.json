@@ -1,95 +1,95 @@
 {
   "schema_version": "1.2.1",
-  "lesson_id": "K1-L19",
+  "lesson_id": "Y1-L20",
   "content_version": "0.2.0",
   "status": "in_review",
   "curriculum": {
-    "segment": "Kids",
-    "age_range": "4-8",
-    "cycle_id": "K1",
-    "cycle_name": "God Made and Cares",
-    "sequence": 19,
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 20,
     "unit_type": "Core",
     "scheduling_priority": "Required",
-    "title": "Jesus Calms the Storm",
+    "title": "Jesus Announces God's Kingdom",
     "annual_anchor": "jesus_lord_cross_resurrection",
-    "thematic_unit": "Jesus Cares"
+    "thematic_unit": "Jesus"
   },
   "core": {
-    "big_idea": "Jesus has authority over creation and is present with frightened disciples.",
+    "big_idea": "Jesus entered Israel's story announcing God's reign and calling people to follow.",
     "passages": [
       {
-        "reference": "Mark 4:35-41",
+        "reference": "Mark 1:14-20",
         "role": "primary",
         "reading_note": "Read the central passage in context; select age-appropriate portions when needed."
       }
     ],
-    "metanarrative_position": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+    "metanarrative_position": "Jesus' ministry: Jesus entered Israel's story announcing God's reign and calling people to follow.",
     "biblical_genre": "Gospel narrative / teaching",
     "claims": [
       {
         "claim_id": "C01",
-        "statement": "Jesus and His disciples crossed the lake in a boat.",
+        "statement": "Jesus came into Galilee proclaiming the gospel of God.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:35-36"
+          "Mark 1:14"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C02",
-        "statement": "A severe storm arose while Jesus was asleep.",
+        "statement": "Jesus announced that the time was fulfilled and the kingdom of God had drawn near.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:37-38"
+          "Mark 1:15"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C03",
-        "statement": "Jesus rebuked the wind and sea, and there was a great calm.",
+        "statement": "Jesus called hearers to repent and believe the gospel.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:39"
+          "Mark 1:15"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C04",
-        "statement": "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him.",
+        "statement": "Jesus called Simon and Andrew to follow Him, and they responded.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:40-41"
+          "Mark 1:16-18"
         ],
         "confidence": "High",
         "review_status": "draft"
       }
     ],
     "doctrine_tags": [
-      "creation",
-      "christology"
+      "christology",
+      "kingdom"
     ],
     "formation_tags": [
-      "trust",
-      "prayer"
+      "discipleship",
+      "response"
     ],
-    "interpretation_skill": "Retell sequence; identify cause and effect; distinguish what the passage says from application.",
+    "interpretation_skill": "Identify author/audience/genre; observe context; distinguish direct statement, inference, and application.",
     "key_terms": [
-      "storm",
-      "boat",
-      "fear",
-      "authority"
+      "kingdom",
+      "repent",
+      "believe",
+      "follow"
     ]
   },
   "learning": {
-    "foundation_objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-    "extension_objective": "Place the event in the Bible’s big story and name one concrete response.",
+    "foundation_objective": "Explain from Mark 1:14-20 that jesus entered Israel's story announcing God's reign and calling people to follow.",
+    "extension_objective": "Identify context and genre, then distinguish what the text directly states from reasonable inference and application.",
     "know": [
-      "The central passage is Mark 4:35-41.",
-      "Jesus has authority over creation and is present with frightened disciples.",
+      "The central passage is Mark 1:14-20.",
+      "Jesus entered Israel's story announcing God's reign and calling people to follow.",
       "The lesson belongs within the wider biblical storyline."
     ],
     "understand": [
@@ -98,7 +98,7 @@
     ],
     "practise": [
       "State one observation before giving an interpretation.",
-      "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+      "Name one ordinary situation this week where following Jesus should affect a choice, then pray for wisdom to act faithfully."
     ],
     "become": [
       "A learner who reads Scripture carefully and responds with trust, wisdom, and love."
@@ -113,14 +113,14 @@
     "default_profile": "standard",
     "preparation_minutes": 25,
     "zero_prep_card": {
-      "objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-      "read": "Mark 4:35-41",
+      "objective": "Explain from Mark 1:14-20 that jesus entered Israel's story announcing God's reign and calling people to follow.",
+      "read": "Mark 1:14-20",
       "opening": "Ask: What do you notice first in this passage before we explain what it means?",
       "say": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "Jesus has authority over creation and is present with frightened disciples."
+        "Jesus came into Galilee proclaiming the gospel of God.",
+        "Jesus announced that the time was fulfilled and the kingdom of God had drawn near.",
+        "Jesus called hearers to repent and believe the gospel.",
+        "Jesus entered Israel's story announcing God's reign and calling people to follow."
       ],
       "ask": [
         "What happens or is said in the passage?",
@@ -128,20 +128,20 @@
         "Which statement is directly in the text?",
         "What is one careful response for us?"
       ],
-      "do": "Complete the Storm Story Sequence Cards activity.",
+      "do": "Complete the Kingdom and Following Observation Map activity.",
       "close": "Pray using one truth from the passage and one faithful response.",
       "materials": [
         "Bible",
-        "Storm Story Sequence Cards"
+        "Kingdom and Following Observation Map"
       ]
     },
     "preparation": {
-      "passage_context": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+      "passage_context": "Jesus' ministry: Jesus entered Israel's story announcing God's reign and calling people to follow.",
       "text_observations": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him."
+        "Jesus came into Galilee proclaiming the gospel of God.",
+        "Jesus announced that the time was fulfilled and the kingdom of God had drawn near.",
+        "Jesus called hearers to repent and believe the gospel.",
+        "Jesus called Simon and Andrew to follow Him, and they responded."
       ],
       "interpretation_notes": [
         "Start with the principal passage before moving to broader synthesis.",
@@ -149,18 +149,18 @@
         "Label synthesis, inference, historical context, and application rather than presenting them as quotations."
       ],
       "theological_guardrails": [
-        "Do not promise children that following Jesus prevents frightening events.",
-        "Do not shame fear; the disciples themselves were frightened.",
-        "Keep the focus on Jesus’ authority and presence rather than turning the story into a technique for controlling anxiety."
+        "Do not reduce the kingdom of God to a modern nation, party, or political program.",
+        "Do not turn the disciples’ immediate vocational response into a universal command that every student abandon ordinary responsibilities.",
+        "Teach repentance as turning toward God, not as public humiliation."
       ],
       "likely_questions": [
         {
-          "question": "Does trusting Jesus mean storms will stop for me?",
-          "purpose": "No. This passage shows Jesus’ authority; it does not promise that every frightening situation will end immediately."
+          "question": "What is the kingdom of God?",
+          "purpose": "In this passage it is God’s reign arriving decisively in Jesus’ announcement and ministry. Later passages add more detail."
         },
         {
-          "question": "Is it wrong to feel scared?",
-          "purpose": "No. Fear is a normal response. We can bring fear to God and seek help from trusted people."
+          "question": "Do I have to leave my family or school to follow Jesus?",
+          "purpose": "This passage records a specific call to these disciples. Following Jesus shapes every part of life, but the exact form of their call is not a universal script for every student."
         }
       ]
     },
@@ -199,12 +199,12 @@
             "step_id": "E04",
             "minutes": 6,
             "label": "Do",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Kingdom and Following Observation Map.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "Y1-L20-P01-kingdom-following-map"
             ]
           },
           {
@@ -258,12 +258,12 @@
             "step_id": "S05",
             "minutes": 7,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Kingdom and Following Observation Map.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "Y1-L20-P01-kingdom-following-map"
             ]
           },
           {
@@ -317,12 +317,12 @@
             "step_id": "X05",
             "minutes": 8,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Kingdom and Following Observation Map.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "Y1-L20-P01-kingdom-following-map"
             ]
           },
           {
@@ -380,10 +380,10 @@
     "activities": [
       {
         "activity_id": "A01",
-        "title": "Storm Story Sequence Cards",
+        "title": "Kingdom and Following Observation Map",
         "duration_minutes": 8,
         "materials": [
-          "Storm Story Sequence Cards",
+          "Kingdom and Following Observation Map",
           "Pens or pencils"
         ],
         "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
@@ -411,17 +411,17 @@
       }
     ],
     "closing": {
-      "memory_reference": "Mark 4:35-41",
+      "memory_reference": "Mark 1:14-20",
       "prayer_prompt": "Thank God for the truth in this passage and ask for wisdom to respond faithfully.",
-      "take_home_line": "Jesus has authority over creation and is present with frightened disciples."
+      "take_home_line": "Jesus entered Israel's story announcing God's reign and calling people to follow."
     },
     "printable_refs": [
-      "K1-L19-P01-storm-sequence"
+      "Y1-L20-P01-kingdom-following-map"
     ]
   },
   "family": {
     "duration_minutes": 15,
-    "title": "Jesus Calms the Storm",
+    "title": "Jesus Announces God's Kingdom",
     "parent_intro": "Use the passage itself first. Keep the conversation concrete, honest, and free from pressure.",
     "flow": [
       {
@@ -432,22 +432,22 @@
       {
         "duration_minutes": 5,
         "type": "read",
-        "instructions": "Read selected portions of Mark 4:35-41. Ask what everyone notices."
+        "instructions": "Read selected portions of Mark 1:14-20. Ask what everyone notices."
       },
       {
         "duration_minutes": 3,
         "type": "understand",
-        "instructions": "Say the big idea in your own words: Jesus has authority over creation and is present with frightened disciples."
+        "instructions": "Say the big idea in your own words: Jesus entered Israel's story announcing God's reign and calling people to follow."
       },
       {
         "duration_minutes": 3,
         "type": "play",
-        "instructions": "Use the Storm Story Sequence Cards idea verbally or on paper."
+        "instructions": "Use the Kingdom and Following Observation Map idea verbally or on paper."
       },
       {
         "duration_minutes": 2,
         "type": "respond",
-        "instructions": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+        "instructions": "Name one ordinary situation this week where following Jesus should affect a choice, then pray for wisdom to act faithfully."
       }
     ],
     "questions": [
@@ -457,10 +457,10 @@
     ],
     "interactive": {
       "type": "puzzle",
-      "title": "Storm Story Sequence Cards",
+      "title": "Kingdom and Following Observation Map",
       "instructions": "Sort or classify the lesson statements using the passage as evidence."
     },
-    "weekly_action": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help.",
+    "weekly_action": "Name one ordinary situation this week where following Jesus should affect a choice, then pray for wisdom to act faithfully.",
     "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
     "parent_note": "Questions are welcome. Do not force disclosure, certainty, or a public religious decision. If a sensitive concern emerges, respond calmly and involve an appropriate trusted adult."
   },
@@ -468,17 +468,17 @@
     "quiz": [
       {
         "question_id": "Z01",
-        "question": "What is the principal passage for Jesus Calms the Storm?",
+        "question": "What is the principal passage for Jesus Announces God's Kingdom?",
         "type": "multiple_choice",
         "options": [
-          "Mark 4:35-41",
+          "Mark 1:14-20",
           "Genesis 1:1",
           "Psalm 23:1",
           "Revelation 22:21"
         ],
         "answer": {
           "kind": "text",
-          "text": "Mark 4:35-41"
+          "text": "Mark 1:14-20"
         },
         "explanation": "The lesson is governed by its principal passage."
       },
@@ -500,7 +500,7 @@
       },
       {
         "question_id": "Z03",
-        "question": "Jesus and His disciples crossed the lake in a boat.",
+        "question": "Jesus came into Galilee proclaiming the gospel of God.",
         "type": "true_false",
         "answer": {
           "kind": "boolean",
@@ -541,16 +541,16 @@
     },
     "printables": [
       {
-        "resource_id": "K1-L19-P01-storm-sequence",
-        "title": "Storm Story Sequence Cards",
-        "purpose": "Support the primary activity for Jesus Calms the Storm.",
+        "resource_id": "Y1-L20-P01-kingdom-following-map",
+        "title": "Kingdom and Following Observation Map",
+        "purpose": "Support the primary activity for Jesus Announces God's Kingdom.",
         "format": "worksheet",
         "status": "content_source_draft"
       }
     ]
   },
   "accessibility": {
-    "reading_level": "Teacher-read with short child responses",
+    "reading_level": "Age-appropriate Bible reading with scaffolded discussion",
     "plain_language_rule": "Define unfamiliar terms from the passage before using theological shorthand.",
     "neurodiversity_supports": [
       "Offer verbal or written response options.",
@@ -575,7 +575,7 @@
   },
   "editorial": {
     "source_provenance": [
-      "Mark 4:35-41",
+      "Mark 1:14-20",
       "Canonical Curriculum Matrix v0.2",
       "Approved theological decision register",
       "Editorial synthesis for Content Production Batch 06"

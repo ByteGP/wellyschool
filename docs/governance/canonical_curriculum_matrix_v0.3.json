@@ -688,7 +688,7 @@
       "biblical_era": "Jesus' ministry",
       "biblical_genre": "Gospel narrative / teaching",
       "doctrine_tags": "creation, christology",
-      "formation_tags": "mission",
+      "formation_tags": "trust, prayer",
       "interpretation_skill": "Retell sequence; identify cause and effect; connect to the big story without forced symbolism",
       "family_connection": "Read a short selection, ask two concrete questions, complete one simple activity, and pray in about 15 minutes.",
       "theological_review_flag": "",
@@ -697,7 +697,7 @@
       "source_provenance": "Kids Research A and B; Curriculum Research Adjudication v0.1 sections 5.1 and 6-8; editorial synthesis",
       "status": "Architecture Draft",
       "content_version": "0.1",
-      "review_notes": ""
+      "review_notes": "Metadata corrected per Content Batch 06 note (2026-08-13)."
     },
     {
       "lesson_id": "K1-L20",
@@ -5403,13 +5403,13 @@
       "formation_tags": "attention, response",
       "interpretation_skill": "Locate on timeline; read immediate context; identify genre; separate observation and application",
       "family_connection": "Read the key verses, place the lesson on a simple timeline, discuss one reason and one practice, then pray.",
-      "theological_review_flag": "TH-VIOLENCE",
+      "theological_review_flag": "",
       "developmental_review_flag": "",
-      "pastoral_sensitivity": "Death/grief, Violence/war",
+      "pastoral_sensitivity": "Death/grief",
       "source_provenance": "Youths Research A and B; Curriculum Research Adjudication v0.1 sections 5.2 and 6-8; editorial synthesis",
       "status": "Architecture Draft",
       "content_version": "0.1",
-      "review_notes": ""
+      "review_notes": "Metadata corrected per Content Batch 06 note (2026-08-13)."
     },
     {
       "lesson_id": "Y1-L22",

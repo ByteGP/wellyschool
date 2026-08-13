@@ -1,95 +1,98 @@
 {
   "schema_version": "1.2.1",
-  "lesson_id": "K1-L19",
+  "lesson_id": "Y1-L21",
   "content_version": "0.2.0",
   "status": "in_review",
   "curriculum": {
-    "segment": "Kids",
-    "age_range": "4-8",
-    "cycle_id": "K1",
-    "cycle_name": "God Made and Cares",
-    "sequence": 19,
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y1",
+    "cycle_name": "One Bible, One Story",
+    "sequence": 21,
     "unit_type": "Core",
     "scheduling_priority": "Required",
-    "title": "Jesus Calms the Storm",
+    "title": "The Cross in the Story",
     "annual_anchor": "jesus_lord_cross_resurrection",
-    "thematic_unit": "Jesus Cares"
+    "thematic_unit": "Cross and Resurrection"
   },
   "core": {
-    "big_idea": "Jesus has authority over creation and is present with frightened disciples.",
+    "big_idea": "Jesus' death is the decisive covenant and rescue event toward which the story moves.",
     "passages": [
       {
-        "reference": "Mark 4:35-41",
+        "reference": "Luke 22:14-23; 23:44-49",
         "role": "primary",
         "reading_note": "Read the central passage in context; select age-appropriate portions when needed."
       }
     ],
-    "metanarrative_position": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+    "metanarrative_position": "Jesus' ministry: Jesus' death is the decisive covenant and rescue event toward which the story moves.",
     "biblical_genre": "Gospel narrative / teaching",
     "claims": [
       {
         "claim_id": "C01",
-        "statement": "Jesus and His disciples crossed the lake in a boat.",
+        "statement": "At the meal Jesus identified the cup with the new covenant in His blood.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:35-36"
+          "Luke 22:20"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C02",
-        "statement": "A severe storm arose while Jesus was asleep.",
+        "statement": "Jesus told His disciples to remember Him in the meal.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:37-38"
+          "Luke 22:19"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C03",
-        "statement": "Jesus rebuked the wind and sea, and there was a great calm.",
+        "statement": "Luke narrates Jesus’ death on the cross.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Mark 4:39"
+          "Luke 23:44-49"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C04",
-        "statement": "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him.",
-        "classification": "explicit_text",
+        "statement": "Reading the meal and the death together supports treating the cross as central to the New Covenant rescue story.",
+        "classification": "canonical_synthesis",
         "evidence_refs": [
-          "Mark 4:40-41"
+          "Luke 22:14-23",
+          "Luke 23:44-49"
         ],
         "confidence": "High",
         "review_status": "draft"
       }
     ],
     "doctrine_tags": [
-      "creation",
-      "christology"
+      "covenant",
+      "christology",
+      "cross",
+      "salvation"
     ],
     "formation_tags": [
-      "trust",
-      "prayer"
+      "gratitude",
+      "reflection"
     ],
-    "interpretation_skill": "Retell sequence; identify cause and effect; distinguish what the passage says from application.",
+    "interpretation_skill": "Identify author/audience/genre; observe context; distinguish direct statement, inference, and application.",
     "key_terms": [
-      "storm",
-      "boat",
-      "fear",
-      "authority"
+      "covenant",
+      "Supper",
+      "cross",
+      "remember"
     ]
   },
   "learning": {
-    "foundation_objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-    "extension_objective": "Place the event in the Bible’s big story and name one concrete response.",
+    "foundation_objective": "Explain from Luke 22:14-23; 23:44-49 that jesus' death is the decisive covenant and rescue event toward which the story moves.",
+    "extension_objective": "Identify context and genre, then distinguish what the text directly states from reasonable inference and application.",
     "know": [
-      "The central passage is Mark 4:35-41.",
-      "Jesus has authority over creation and is present with frightened disciples.",
+      "The central passage is Luke 22:14-23; 23:44-49.",
+      "Jesus' death is the decisive covenant and rescue event toward which the story moves.",
       "The lesson belongs within the wider biblical storyline."
     ],
     "understand": [
@@ -98,7 +101,7 @@
     ],
     "practise": [
       "State one observation before giving an interpretation.",
-      "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+      "At a meal this week, read Luke 22:19-20 and name one thing Christians remember about Jesus."
     ],
     "become": [
       "A learner who reads Scripture carefully and responds with trust, wisdom, and love."
@@ -113,14 +116,14 @@
     "default_profile": "standard",
     "preparation_minutes": 25,
     "zero_prep_card": {
-      "objective": "Retell the main action in Mark 4:35-41 and explain in simple language that jesus has authority over creation and is present with frightened disciples.",
-      "read": "Mark 4:35-41",
+      "objective": "Explain from Luke 22:14-23; 23:44-49 that jesus' death is the decisive covenant and rescue event toward which the story moves.",
+      "read": "Luke 22:14-23; 23:44-49",
       "opening": "Ask: What do you notice first in this passage before we explain what it means?",
       "say": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "Jesus has authority over creation and is present with frightened disciples."
+        "At the meal Jesus identified the cup with the new covenant in His blood.",
+        "Jesus told His disciples to remember Him in the meal.",
+        "Luke narrates Jesus’ death on the cross.",
+        "Jesus' death is the decisive covenant and rescue event toward which the story moves."
       ],
       "ask": [
         "What happens or is said in the passage?",
@@ -128,20 +131,20 @@
         "Which statement is directly in the text?",
         "What is one careful response for us?"
       ],
-      "do": "Complete the Storm Story Sequence Cards activity.",
+      "do": "Complete the Supper and Cross Connection Grid activity.",
       "close": "Pray using one truth from the passage and one faithful response.",
       "materials": [
         "Bible",
-        "Storm Story Sequence Cards"
+        "Supper and Cross Connection Grid"
       ]
     },
     "preparation": {
-      "passage_context": "Jesus' ministry: Jesus has authority over creation and is present with frightened disciples.",
+      "passage_context": "Jesus' ministry: Jesus' death is the decisive covenant and rescue event toward which the story moves.",
       "text_observations": [
-        "Jesus and His disciples crossed the lake in a boat.",
-        "A severe storm arose while Jesus was asleep.",
-        "Jesus rebuked the wind and sea, and there was a great calm.",
-        "The disciples were afraid and asked who Jesus was because even the wind and sea obeyed Him."
+        "At the meal Jesus identified the cup with the new covenant in His blood.",
+        "Jesus told His disciples to remember Him in the meal.",
+        "Luke narrates Jesus’ death on the cross.",
+        "Reading the meal and the death together supports treating the cross as central to the New Covenant rescue story."
       ],
       "interpretation_notes": [
         "Start with the principal passage before moving to broader synthesis.",
@@ -149,18 +152,18 @@
         "Label synthesis, inference, historical context, and application rather than presenting them as quotations."
       ],
       "theological_guardrails": [
-        "Do not promise children that following Jesus prevents frightening events.",
-        "Do not shame fear; the disciples themselves were frightened.",
-        "Keep the focus on Jesus’ authority and presence rather than turning the story into a technique for controlling anxiety."
+        "Use restrained, non-graphic language about crucifixion.",
+        "Do not tell students that one later atonement model exhausts everything Scripture says about the cross.",
+        "Do not use the lesson to pressure a student into a public religious decision."
       ],
       "likely_questions": [
         {
-          "question": "Does trusting Jesus mean storms will stop for me?",
-          "purpose": "No. This passage shows Jesus’ authority; it does not promise that every frightening situation will end immediately."
+          "question": "Why did Jesus have to die?",
+          "purpose": "This lesson establishes the connection among Jesus’ death, covenant, remembrance, and rescue. Other lessons build out biblical images such as sacrifice, redemption, reconciliation, and victory."
         },
         {
-          "question": "Is it wrong to feel scared?",
-          "purpose": "No. Fear is a normal response. We can bring fear to God and seek help from trusted people."
+          "question": "Is the Lord’s Supper the same as Passover?",
+          "purpose": "Jesus’ meal occurs in Passover context, but the Christian Supper remembers and proclaims Jesus. The relationship should be described carefully rather than treated as identical."
         }
       ]
     },
@@ -199,12 +202,12 @@
             "step_id": "E04",
             "minutes": 6,
             "label": "Do",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Supper and Cross Connection Grid.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "Y1-L21-P01-supper-cross-connection"
             ]
           },
           {
@@ -258,12 +261,12 @@
             "step_id": "S05",
             "minutes": 7,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Supper and Cross Connection Grid.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "Y1-L21-P01-supper-cross-connection"
             ]
           },
           {
@@ -317,12 +320,12 @@
             "step_id": "X05",
             "minutes": 8,
             "label": "Activity",
-            "instructions": "Complete Storm Story Sequence Cards.",
+            "instructions": "Complete Supper and Cross Connection Grid.",
             "activity_refs": [
               "A01"
             ],
             "resource_refs": [
-              "K1-L19-P01-storm-sequence"
+              "Y1-L21-P01-supper-cross-connection"
             ]
           },
           {
@@ -380,10 +383,10 @@
     "activities": [
       {
         "activity_id": "A01",
-        "title": "Storm Story Sequence Cards",
+        "title": "Supper and Cross Connection Grid",
         "duration_minutes": 8,
         "materials": [
-          "Storm Story Sequence Cards",
+          "Supper and Cross Connection Grid",
           "Pens or pencils"
         ],
         "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
@@ -411,17 +414,17 @@
       }
     ],
     "closing": {
-      "memory_reference": "Mark 4:35-41",
+      "memory_reference": "Luke 22:14-23",
       "prayer_prompt": "Thank God for the truth in this passage and ask for wisdom to respond faithfully.",
-      "take_home_line": "Jesus has authority over creation and is present with frightened disciples."
+      "take_home_line": "Jesus' death is the decisive covenant and rescue event toward which the story moves."
     },
     "printable_refs": [
-      "K1-L19-P01-storm-sequence"
+      "Y1-L21-P01-supper-cross-connection"
     ]
   },
   "family": {
     "duration_minutes": 15,
-    "title": "Jesus Calms the Storm",
+    "title": "The Cross in the Story",
     "parent_intro": "Use the passage itself first. Keep the conversation concrete, honest, and free from pressure.",
     "flow": [
       {
@@ -432,22 +435,22 @@
       {
         "duration_minutes": 5,
         "type": "read",
-        "instructions": "Read selected portions of Mark 4:35-41. Ask what everyone notices."
+        "instructions": "Read selected portions of Luke 22:14-23; 23:44-49. Ask what everyone notices."
       },
       {
         "duration_minutes": 3,
         "type": "understand",
-        "instructions": "Say the big idea in your own words: Jesus has authority over creation and is present with frightened disciples."
+        "instructions": "Say the big idea in your own words: Jesus' death is the decisive covenant and rescue event toward which the story moves."
       },
       {
         "duration_minutes": 3,
         "type": "play",
-        "instructions": "Use the Storm Story Sequence Cards idea verbally or on paper."
+        "instructions": "Use the Supper and Cross Connection Grid idea verbally or on paper."
       },
       {
         "duration_minutes": 2,
         "type": "respond",
-        "instructions": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help."
+        "instructions": "At a meal this week, read Luke 22:19-20 and name one thing Christians remember about Jesus."
       }
     ],
     "questions": [
@@ -457,10 +460,10 @@
     ],
     "interactive": {
       "type": "puzzle",
-      "title": "Storm Story Sequence Cards",
+      "title": "Supper and Cross Connection Grid",
       "instructions": "Sort or classify the lesson statements using the passage as evidence."
     },
-    "weekly_action": "When something feels frightening this week, name the fear, tell a trusted adult, and pray together for wisdom and help.",
+    "weekly_action": "At a meal this week, read Luke 22:19-20 and name one thing Christians remember about Jesus.",
     "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
     "parent_note": "Questions are welcome. Do not force disclosure, certainty, or a public religious decision. If a sensitive concern emerges, respond calmly and involve an appropriate trusted adult."
   },
@@ -468,17 +471,17 @@
     "quiz": [
       {
         "question_id": "Z01",
-        "question": "What is the principal passage for Jesus Calms the Storm?",
+        "question": "What is the principal passage for The Cross in the Story?",
         "type": "multiple_choice",
         "options": [
-          "Mark 4:35-41",
+          "Luke 22:14-23; 23:44-49",
           "Genesis 1:1",
           "Psalm 23:1",
           "Revelation 22:21"
         ],
         "answer": {
           "kind": "text",
-          "text": "Mark 4:35-41"
+          "text": "Luke 22:14-23; 23:44-49"
         },
         "explanation": "The lesson is governed by its principal passage."
       },
@@ -500,7 +503,7 @@
       },
       {
         "question_id": "Z03",
-        "question": "Jesus and His disciples crossed the lake in a boat.",
+        "question": "At the meal Jesus identified the cup with the new covenant in His blood.",
         "type": "true_false",
         "answer": {
           "kind": "boolean",
@@ -541,16 +544,16 @@
     },
     "printables": [
       {
-        "resource_id": "K1-L19-P01-storm-sequence",
-        "title": "Storm Story Sequence Cards",
-        "purpose": "Support the primary activity for Jesus Calms the Storm.",
+        "resource_id": "Y1-L21-P01-supper-cross-connection",
+        "title": "Supper and Cross Connection Grid",
+        "purpose": "Support the primary activity for The Cross in the Story.",
         "format": "worksheet",
         "status": "content_source_draft"
       }
     ]
   },
   "accessibility": {
-    "reading_level": "Teacher-read with short child responses",
+    "reading_level": "Age-appropriate Bible reading with scaffolded discussion",
     "plain_language_rule": "Define unfamiliar terms from the passage before using theological shorthand.",
     "neurodiversity_supports": [
       "Offer verbal or written response options.",
@@ -565,7 +568,9 @@
     ]
   },
   "safeguarding": {
-    "sensitivity_tags": [],
+    "sensitivity_tags": [
+      "death_grief"
+    ],
     "do_not_ask": [
       "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
       "Do not pressure a child or young person toward baptism or another public response."
@@ -575,7 +580,7 @@
   },
   "editorial": {
     "source_provenance": [
-      "Mark 4:35-41",
+      "Luke 22:14-23; 23:44-49",
       "Canonical Curriculum Matrix v0.2",
       "Approved theological decision register",
       "Editorial synthesis for Content Production Batch 06"
@@ -585,7 +590,7 @@
     "review_state": {
       "exegetical": "in_review",
       "developmental": "in_review",
-      "pastoral": "not_required",
+      "pastoral": "in_review",
       "copy": "in_review"
     },
     "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",

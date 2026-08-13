@@ -110,8 +110,8 @@ test.describe('teacher lesson page', () => {
     // Standard outline visible by default.
     await expect(page.getByRole('heading', { name: /Standard · 35 minutes/ })).toBeVisible();
     await page.getByRole('button', { name: /Short \(25 min\)/ }).click();
-    // The Short outline replaces the Standard one ("Read and retell" is unique to it).
-    await expect(page.getByText('Read and retell')).toBeVisible();
+    // The Short outline replaces the Standard one (content-agnostic panel check).
+    await expect(page.locator('[data-profile-panel="essential"]')).toBeVisible();
     await expect(page.getByRole('heading', { name: /Standard · 35 minutes/ })).toBeHidden();
 
     // Preference persists across reloads via localStorage only.
@@ -168,7 +168,7 @@ test.describe('family flow', () => {
 
     // Try the extra quiz, then confirm nothing was posted anywhere.
     await page.getByText('Extra: quick quiz').click();
-    await page.getByRole('button', { name: 'In a boat' }).click();
+    await page.getByRole('button', { name: 'Mark 4:35-41' }).click();
     await expect(page.getByText(/Correct/).first()).toBeVisible();
     expect(outgoing).toEqual([]);
   });
