@@ -811,7 +811,7 @@
       "extension_objective": "Place this event in the Bible's big story and name one concrete way to trust, thank, obey, or care for others in response.",
       "biblical_era": "Apostolic churches",
       "biblical_genre": "Epistle",
-      "doctrine_tags": "sin, worship",
+      "doctrine_tags": "worship, prayer",
       "formation_tags": "prayer, worship, community",
       "interpretation_skill": "Concrete language; identify prayer or song; locate in the big story",
       "family_connection": "Read a short selection, ask two concrete questions, complete one simple activity, and pray in about 15 minutes.",
@@ -821,7 +821,7 @@
       "source_provenance": "Kids Research A and B; Curriculum Research Adjudication v0.1 sections 5.1 and 6-8; editorial synthesis",
       "status": "Architecture Draft",
       "content_version": "0.1",
-      "review_notes": ""
+      "review_notes": "Metadata corrected per Content Batch 07 note (2026-08-13)."
     },
     {
       "lesson_id": "K1-L24",
@@ -9216,13 +9216,13 @@
       "formation_tags": "hope",
       "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, synthesis, inference, and application",
       "family_connection": "Read the central passage, compare the principal claims, discuss one application and one unresolved question, then pray.",
-      "theological_review_flag": "TH-BIBLIOLOGY",
+      "theological_review_flag": "TH-ESCHATOLOGY",
       "developmental_review_flag": "",
       "pastoral_sensitivity": "Death/grief",
       "source_provenance": "Teens Research A and B; Curriculum Research Adjudication v0.1 sections 5.3 and 6-8; editorial synthesis",
       "status": "Architecture Draft",
       "content_version": "0.1",
-      "review_notes": ""
+      "review_notes": "Metadata corrected per Content Batch 07 note (2026-08-13)."
     },
     {
       "lesson_id": "T1-L25",

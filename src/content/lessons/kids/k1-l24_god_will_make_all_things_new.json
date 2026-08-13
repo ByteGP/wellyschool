@@ -1,0 +1,588 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L24",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 24,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "God Will Make All Things New",
+    "annual_anchor": "resurrection_and_new_creation",
+    "thematic_unit": "God's Future"
+  },
+  "core": {
+    "big_idea": "God's story ends with His people dwelling with Him in a renewed creation.",
+    "passages": [
+      {
+        "reference": "Revelation 21:1-5",
+        "role": "primary",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "The Bible closes with God dwelling with His people and making all things new.",
+    "biblical_genre": "Apocalyptic literature",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "John sees a new heaven and new earth and hears that God will dwell with His people.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Revelation 21:1-3"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The vision says death, mourning, crying, and pain will no longer define the future God brings.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Revelation 21:4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "God declares that He is making all things new.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Revelation 21:5"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "creation",
+      "eschatology"
+    ],
+    "formation_tags": [
+      "attention",
+      "response"
+    ],
+    "interpretation_skill": "Retell sequence; identify cause and effect; connect to the big story without forced symbolism",
+    "key_terms": [
+      "new creation",
+      "God with us",
+      "hope",
+      "Revelation"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell the main action in Revelation 21:1-5 and state in simple language that god's story ends with his people dwelling with him in a renewed creation.",
+    "extension_objective": "Place this event in the Bible's big story and name one concrete way to trust, thank, obey, or care for others in response.",
+    "know": [
+      "The principal passage is Revelation 21:1-5.",
+      "God's story ends with His people dwelling with Him in a renewed creation.",
+      "The lesson belongs within the wider biblical storyline."
+    ],
+    "understand": [
+      "Meaning depends on immediate context, genre, and the evidence actually available.",
+      "Direct textual observation should remain distinguishable from synthesis, inference, and application."
+    ],
+    "practise": [
+      "State at least one observation before giving an interpretation.",
+      "Notice one broken or sad thing in the world and pray, “God, thank You that Your story ends with making things new.”"
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with trust, wisdom, courage, worship, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the central passage or synthesis.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish at least one observation from one interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Retell the main action in Revelation 21:1-5 and state in simple language that god's story ends with his people dwelling with him in a renewed creation.",
+      "read": "Revelation 21:1-5",
+      "opening": "Ask: What does the passage actually say before we explain what it means?",
+      "say": [
+        "John sees a new heaven and new earth and hears that God will dwell with His people.",
+        "The vision says death, mourning, crying, and pain will no longer define the future God brings.",
+        "God declares that He is making all things new."
+      ],
+      "ask": [
+        "What can you point to directly in the passage?",
+        "How does the big idea arise from the evidence?",
+        "What would be an overstatement?",
+        "What response fits the passage?"
+      ],
+      "do": "Complete the New Creation Picture Sort activity.",
+      "close": "Pray using one truth from the passage and one faithful response.",
+      "materials": [
+        "Bible",
+        "New Creation Picture Sort"
+      ]
+    },
+    "preparation": {
+      "passage_context": "The Bible closes with God dwelling with His people and making all things new.",
+      "text_observations": [
+        "John sees a new heaven and new earth and hears that God will dwell with His people.",
+        "The vision says death, mourning, crying, and pain will no longer define the future God brings.",
+        "God declares that He is making all things new."
+      ],
+      "interpretation_notes": [
+        "Start with the principal passage before moving to canonical synthesis.",
+        "Keep genre, audience, historical setting, and literary context visible.",
+        "Label synthesis, inference, historical context, and framework conclusions rather than presenting them as quotations."
+      ],
+      "theological_guardrails": [
+        "Explain that Revelation uses picture-rich language; do not make young children decode every symbol.",
+        "Do not use this lesson to tell grieving children they should stop being sad now. Christian hope can coexist with present grief.",
+        "Avoid speculative maps of heaven or timelines not stated in the passage."
+      ],
+      "likely_questions": [
+        {
+          "question": "What does this passage directly settle?",
+          "purpose": "Identify the strongest direct textual evidence."
+        },
+        {
+          "question": "What still requires synthesis, inference, or humility?",
+          "purpose": "Prevent overclaiming and invite responsible questions."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within the biblical storyline and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the principal passage and name direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the lesson big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L24-P01-new-creation-picture-sort"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within the biblical storyline and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, setting, and immediate literary context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read the principal passage and distinguish observation from explanation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the passage and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L24-P01-new-creation-picture-sort"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within the biblical storyline and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, setting, and immediate literary context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read the principal passage closely, noting structure, repeated words, and major claims.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the passage and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L24-P01-new-creation-picture-sort"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say or depict?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one thing you can point to in the text.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does the big idea arise from the passage or synthesis?",
+        "purpose": "Connect evidence to conclusion.",
+        "foundation_prompt": "Which verse or passage best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "What should we avoid claiming?",
+        "purpose": "Practice interpretive restraint.",
+        "foundation_prompt": "Name one detail the passage does not say.",
+        "extension_prompt": "Which claims require additional canonical, historical, or interpretive evidence?"
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one faithful response to this lesson?",
+        "purpose": "Move from understanding to formation.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the text rather than merely sounding religious."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "New Creation Picture Sort",
+        "duration_minutes": 10,
+        "materials": [
+          "New Creation Picture Sort",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read the designated passages and record direct observations.",
+          "Place each observation or claim into the resource categories.",
+          "Discuss which conclusions require synthesis or inference.",
+          "Write one careful application that follows from the evidence."
+        ],
+        "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
+        "low_resource_alternative": "Draw the same categories on blank paper or complete the exercise verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Observation, Interpretation, or Application?",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read several statements connected to the lesson.",
+          "Classify each statement as observation, interpretation/synthesis, or application.",
+          "Return to the passage and justify each classification."
+        ],
+        "learning_link": "Reinforces honest evidence classification.",
+        "low_resource_alternative": "Use verbal responses instead of written cards."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Revelation 21:1-5",
+      "prayer_prompt": "Thank God for what the passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "God's story ends with His people dwelling with Him in a renewed creation."
+    },
+    "printable_refs": [
+      "K1-L24-P01-new-creation-picture-sort"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "God Will Make All Things New",
+    "parent_intro": "Read the passage first and keep the conversation concrete, short, and pressure-free.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect the theme to something already learned in the biblical storyline."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read selected portions of Revelation 21:1-5 and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: God's story ends with His people dwelling with Him in a renewed creation."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the New Creation Picture Sort idea verbally, on paper, or with the provided resource."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Notice one broken or sad thing in the world and pray, “God, thank You that Your story ends with making things new.”"
+      }
+    ],
+    "questions": [
+      "What does the passage directly say?",
+      "What does it show about God, Jesus, people, or the biblical story?",
+      "What is one response we can practise this week?"
+    ],
+    "interactive": {
+      "type": "creative",
+      "title": "New Creation Picture Sort",
+      "instructions": "Use the resource categories to separate observation, interpretation, and response in an age-appropriate way."
+    },
+    "weekly_action": "Notice one broken or sad thing in the world and pray, “God, thank You that Your story ends with making things new.”",
+    "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, or a public religious decision. Sensitive concerns should be handled calmly with appropriate trusted adults."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which passage is central to God Will Make All Things New?",
+        "type": "multiple_choice",
+        "options": [
+          "Revelation 21:1-5",
+          "Genesis 1:1",
+          "Psalm 23:1",
+          "Revelation 22:21"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Revelation 21:1-5"
+        },
+        "explanation": "The lesson is governed by its principal passage or first representative passage."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which comes first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "Guessing background",
+          "Modern analogy"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe what the text says before moving to interpretation or application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "John sees a new heaven and new earth and hears that God will dwell with His people.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This statement is supported by the evidence listed in the lesson claim."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should a human interpretation be presented as a direct quotation when the text does not directly say it?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Interpretation, synthesis, and inference should be labelled honestly."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Responsible Reading Order",
+      "instructions": "Put the reading process in a responsible order.",
+      "items": [
+        "Read the passage",
+        "Observe what it says",
+        "Interpret in context",
+        "Apply carefully"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Read the passage",
+          "Observe what it says",
+          "Interpret in context",
+          "Apply carefully"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L24-P01-new-creation-picture-sort",
+        "title": "New Creation Picture Sort",
+        "purpose": "Support the primary activity for God Will Make All Things New.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teacher-read with short child responses",
+    "plain_language_rule": "Define unfamiliar terms from the passage before using theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written response options.",
+      "Preview the activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read the passage aloud and use icons, sequence cards, oral choices, or a scribe where helpful."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism or another public response."
+    ],
+    "teacher_response": "Answer from the passage, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults rather than attempting to solve them in class.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Revelation 21:1-5",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 07"
+    ],
+    "decision_register_refs": [
+      "D025"
+    ],
+    "review_flags": [],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review. Publication requires passage-level exegetical, developmental, pastoral where applicable, and copy approval."
+    ]
+  }
+}

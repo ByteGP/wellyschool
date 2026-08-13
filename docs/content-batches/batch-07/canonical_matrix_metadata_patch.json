@@ -1,0 +1,24 @@
+{
+  "version": "0.1",
+  "patches": [
+    {
+      "lesson_id": "K1-L23",
+      "issue": "The canonical matrix includes doctrine tag `sin`, but the lesson is about prayer and singing.",
+      "suggested_change": {
+        "doctrine_tags": [
+          "worship",
+          "prayer"
+        ]
+      },
+      "identity_fields_changed": false
+    },
+    {
+      "lesson_id": "T1-L24",
+      "issue": "The canonical matrix flags TH-BIBLIOLOGY although the controlling review concern is eschatology/new creation.",
+      "suggested_change": {
+        "theological_review_flag": "TH-ESCHATOLOGY"
+      },
+      "identity_fields_changed": false
+    }
+  ]
+}
