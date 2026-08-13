@@ -129,6 +129,22 @@ reviews still apply.
 - A style rule (`scripts/check-style.mjs`, part of `validate:content`) bans em
   dashes, en dashes, and ellipsis characters in all content and source.
 
+## Teaching log (Netlify Blobs, ADR-013)
+
+Teachers record what was taught each Sunday on the per-term planner
+(`/teacher/<segment>/planner/<term>/`). The shared log lives in a Netlify Blobs
+store, read/written through `netlify/functions/teaching-log.mts` (path
+`/api/teaching-log`). Reads are open; writes require the shared teacher passcode.
+
+**Required Netlify setup (owner):** set a site environment variable
+`TEACHING_LOG_PASSCODE` to the shared passcode (never commit it). Without it,
+writes are refused. Blobs and Functions are included in the Netlify plan.
+
+**Local development:** run `npx netlify dev` (instead of `npm run dev`) so the
+function and Blobs store are available locally; set `TEACHING_LOG_PASSCODE` in a
+local `.env` (gitignored). The static test server used by Playwright does not run
+functions, so the E2E tests mock `/api/teaching-log`.
+
 ## Release checklist
 
 See `docs/RELEASE_CHECKLIST.md`.
