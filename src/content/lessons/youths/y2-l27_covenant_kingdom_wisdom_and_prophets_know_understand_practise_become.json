@@ -1,0 +1,610 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y2-L27",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y2",
+    "cycle_name": "Covenant, Kingdom, Wisdom, and Prophets",
+    "sequence": 27,
+    "unit_type": "Synthesis",
+    "scheduling_priority": "Recommended",
+    "title": "Covenant, Kingdom, Wisdom, and Prophets: Know, Understand, Practise, Become",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Synthesis"
+  },
+  "core": {
+    "big_idea": "Learning is integrated with worship, character, relationships, service, and continued growth.",
+    "passages": [
+      {
+        "reference": "Psalm 1:1-6",
+        "role": "primary",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Job 1:1-12; 38:1-7",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Jeremiah 31:31-34",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Daniel 7:13-14",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Cycle 2 synthesis integrates biblical literacy, interpretation, worship, character, relationships, service, and continued growth.",
+    "biblical_genre": "Whole-Bible synthesis / formation review",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Biblical learning aims at understanding that shapes worship, character, relationships, service, and continued growth.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Canonical Curriculum Matrix v0.2"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "interpretive_hinge": "This is the curriculum’s formation architecture, drawing together recurring biblical aims rather than quoting a single passage that specifies the four-stage model.",
+        "prohibited_overstatement": "Do not claim the Know-Understand-Practise-Become model is itself a biblical command."
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Review should reconnect knowledge with concrete faithful practices rather than treating recall alone as spiritual maturity.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Canonical Curriculum Matrix v0.2"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "interpretive_hinge": "The curriculum distinguishes content mastery from formation and uses review to reconnect the two.",
+        "prohibited_overstatement": "Do not equate lesson completion with spiritual maturity."
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "worship"
+    ],
+    "formation_tags": [
+      "worship",
+      "service",
+      "wisdom"
+    ],
+    "interpretation_skill": "Locate on timeline; read immediate context; identify genre; separate observation and application",
+    "key_terms": [
+      "metanarrative",
+      "know",
+      "understand",
+      "practise",
+      "become"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Learning is integrated with worship, character, relationships, service, and continued growth.",
+    "extension_objective": "Support the big idea with evidence, label the reasoning used, and identify one faithful response without overstating the text.",
+    "know": [
+      "The lesson belongs to Covenant, Kingdom, Wisdom, and Prophets Cycle 2.",
+      "Learning is integrated with worship, character, relationships, service, and continued growth.",
+      "The lesson belongs within the wider biblical storyline."
+    ],
+    "understand": [
+      "Meaning depends on immediate context, genre, and the evidence actually available.",
+      "Direct textual observation should remain distinguishable from synthesis, inference, framework position, and application."
+    ],
+    "practise": [
+      "State at least one observation before giving an interpretation.",
+      "Use the lesson resource to connect evidence, meaning, and response."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with trust, wisdom, worship, service, courage, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage or synthesis.",
+      "Student can support the big idea with the appropriate evidence class.",
+      "Student can distinguish at least one observation from one interpretation, framework choice, prudential decision, or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Learning is integrated with worship, character, relationships, service, and continued growth.",
+      "read": "Selected passages from the cycle",
+      "opening": "Ask: What evidence governs this lesson, and what must the editor or student not pretend the evidence says?",
+      "say": [
+        "Biblical learning aims at understanding that shapes worship, character, relationships, service, and continued growth.",
+        "Review should reconnect knowledge with concrete faithful practices rather than treating recall alone as spiritual maturity."
+      ],
+      "ask": [
+        "What can you point to directly in the passage or curriculum record?",
+        "How does the big idea arise from the evidence?",
+        "What would be an overstatement?",
+        "What response fits the evidence?"
+      ],
+      "do": "Complete the Know Understand Practise Become Review activity.",
+      "close": "Pray using one truth from the selected passage and one faithful response.",
+      "materials": [
+        "Bible",
+        "Know Understand Practise Become Review"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Cycle 2 synthesis/review drawing on selected approved passages.",
+      "text_observations": [
+        "Biblical learning aims at understanding that shapes worship, character, relationships, service, and continued growth.",
+        "Review should reconnect knowledge with concrete faithful practices rather than treating recall alone as spiritual maturity."
+      ],
+      "interpretation_notes": [
+        "Label direct text, synthesis, inference, framework position, and prudential application accurately.",
+        "Do not let a review or local calendar purpose override the context of a selected passage."
+      ],
+      "theological_guardrails": [
+        "Keep historical context visible and distinguish wisdom generalizations, prophetic claims, and later canonical synthesis. Questions and uncertainty are permitted."
+      ],
+      "likely_questions": [
+        {
+          "question": "What does this evidence directly settle?",
+          "purpose": "Identify the strongest direct textual or curriculum evidence."
+        },
+        {
+          "question": "What still requires selection, synthesis, inference, prudence, or humility?",
+          "purpose": "Prevent overclaiming and keep flex use governed."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the principal passage and name direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y2-L27-P01-know-understand-practise-become-review"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read the principal passage and distinguish observation from explanation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y2-L27-P01-know-understand-practise-become-review"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read closely, noting structure, repeated language, and major claims.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y2-L27-P01-know-understand-practise-become-review"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage or curriculum record directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one thing you can point to in the evidence.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does the big idea arise from the evidence?",
+        "purpose": "Connect evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "What should we avoid claiming?",
+        "purpose": "Practice interpretive restraint.",
+        "foundation_prompt": "Name one detail the evidence does not say.",
+        "extension_prompt": "Which claims require passage selection, canonical synthesis, historical evidence, or prudential judgment?"
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one faithful response to this lesson?",
+        "purpose": "Move from understanding to formation.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence rather than merely sounding religious."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Know Understand Practise Become Review",
+        "duration_minutes": 10,
+        "materials": [
+          "Know Understand Practise Become Review",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read the selected evidence and record direct observations.",
+          "Place observations, interpretations, framework choices, or prudential applications into the resource categories.",
+          "Discuss which conclusions require more than direct textual wording.",
+          "Write one careful response that follows from the evidence."
+        ],
+        "learning_link": "Makes the lesson’s evidence classification and formation aim visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete the exercise verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Evidence Class Check",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read several statements connected to the lesson.",
+          "Classify each as text observation, synthesis, framework choice, prudential judgment, or application.",
+          "Return to the evidence and justify each classification."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses instead of written cards."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 1:26-31",
+      "prayer_prompt": "Thank God for what the selected passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "Learning is integrated with worship, character, relationships, service, and continued growth."
+    },
+    "printable_refs": [
+      "Y2-L27-P01-know-understand-practise-become-review"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Covenant, Kingdom, Wisdom, and Prophets: Know, Understand, Practise, Become",
+    "parent_intro": "Read the selected passages first, keep the discussion evidence-based, and leave room for questions.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect this lesson to something already learned in Cycle 2."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read selected portions of the Cycle 2 passages and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: Learning is integrated with worship, character, relationships, service, and continued growth."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Know Understand Practise Become Review verbally, on paper, or with the provided worksheet."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Name one careful response that follows from the evidence without claiming more than the text supports."
+      }
+    ],
+    "questions": [
+      "What does the passage or lesson evidence directly say?",
+      "What meaning or principle follows from it?",
+      "What is one response we can practise this week?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Know Understand Practise Become Review",
+      "instructions": "Use the resource to separate evidence, meaning, and response."
+    },
+    "weekly_action": "Revisit one Cycle 2 passage and explain what it says, what it means, and one faithful response.",
+    "prayer": "Thank God for what the selected passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, giving, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "What should come first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "A modern analogy",
+          "A guess about motives"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe what the text says before moving to interpretation or application."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which statement best fits this lesson?",
+        "type": "multiple_choice",
+        "options": [
+          "Learning is integrated with worship, character, relationships, service, and continued growth.",
+          "Every detail has only one possible modern application.",
+          "Review removes the need to read passages in context.",
+          "A local tradition should control the text."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Learning is integrated with worship, character, relationships, service, and continued growth."
+        },
+        "explanation": "The canonical matrix big idea governs this lesson."
+      },
+      {
+        "question_id": "Z03",
+        "question": "A synthesis or framework conclusion should be labelled honestly rather than presented as a direct quotation.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The curriculum distinguishes evidence classifications."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Can a flex lesson be published before an editor selects and reviews its biblical passage?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Flex placeholders require editorial completion; fixed lessons still require normal review."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Text, Meaning, Practice Match",
+      "instructions": "Match each label to the best description.",
+      "items": [
+        "Text",
+        "Meaning",
+        "Practice"
+      ],
+      "choices": [
+        "What the passage directly says",
+        "What the evidence supports us concluding",
+        "A faithful response to the text"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Text",
+            "answer": "What the passage directly says"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports us concluding"
+          },
+          {
+            "prompt": "Practice",
+            "answer": "A faithful response to the text"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y2-L27-P01-know-understand-practise-become-review",
+        "title": "Know Understand Practise Become Review",
+        "purpose": "Support the primary activity for Covenant, Kingdom, Wisdom, and Prophets: Know, Understand, Practise, Become.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary guided reading with concrete supports",
+    "plain_language_rule": "Define unfamiliar terms before using theological or curriculum shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written response options.",
+      "Preview the activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read the passage aloud and use icons, sequence cards, oral choices, or a scribe where helpful."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, giving amounts, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, giving, or another public response."
+    ],
+    "teacher_response": "Answer from the selected evidence, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Selected passages from the cycle",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 13"
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
+      "Cycle 2 synthesis/flex closeout; flex placeholders require editor-selected passage before publication.",
+      "Keep historical context visible and distinguish wisdom generalizations, prophetic claims, and later canonical synthesis. Questions and uncertainty are permitted.",
+      "Editorial import fix (mechanical): realigned 4 stale teacher printable reference(s) (outline.resource_refs, teacher.printable_refs) to the lesson's canonical engagement.printables id 'Y2-L27-P01-know-understand-practise-become-review' (the shipped resource). The generator had emitted an alternate slug that did not resolve. Please verify on review."
+    ]
+  }
+}
