@@ -1,0 +1,601 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L30",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 30,
+    "unit_type": "Flex",
+    "scheduling_priority": "Optional",
+    "title": "Scripture and the Big Story: Local or Seasonal Flex",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Flex"
+  },
+  "core": {
+    "big_idea": "A flexible unit may address a local congregational event or season without altering the canonical core.",
+    "passages": [
+      {
+        "reference": "Editor-selected approved passage",
+        "role": "primary",
+        "reading_note": "Read in context. Flex placeholders must be replaced by an approved passage before publication."
+      }
+    ],
+    "metanarrative_position": "Optional local or seasonal module governed by the same evidence-classification and review rules as core lessons.",
+    "biblical_genre": "Flex template / local application",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "This slot may address a local congregational event or season without altering the canonical Cycle 1 core.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Canonical Curriculum Matrix v0.2"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "interpretive_hinge": "This is a curriculum-framework conclusion: it follows from the canonical matrix design and the project rule that approved biblical content remains governed by Scripture and review, rather than from a verse explicitly commanding this scheduling structure.",
+        "prohibited_overstatement": "Do not present this curriculum-design conclusion as though Scripture directly commands this particular lesson architecture or calendar slot."
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The selected passage must be interpreted in its own context before it is applied to the local situation.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Canonical Curriculum Matrix v0.2",
+          "D001 Scripture as final doctrinal authority"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "interpretive_hinge": "This is a curriculum-framework conclusion: it follows from the canonical matrix design and the project rule that approved biblical content remains governed by Scripture and review, rather than from a verse explicitly commanding this scheduling structure.",
+        "prohibited_overstatement": "Do not present this curriculum-design conclusion as though Scripture directly commands this particular lesson architecture or calendar slot."
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Most decisions about how to respond to a particular local circumstance will involve prudential judgment even when the underlying biblical principle is clear.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "Canonical Curriculum Matrix v0.2"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "interpretive_hinge": "The underlying biblical or curriculum principle is distinguishable from the specific modern implementation, which requires contextual wisdom rather than a direct one-to-one command.",
+        "prohibited_overstatement": "Do not present the chosen modern implementation as the only biblically faithful option unless the evidence actually requires it."
+      }
+    ],
+    "doctrine_tags": [
+      "christology",
+      "church",
+      "scripture"
+    ],
+    "formation_tags": [
+      "attention",
+      "response"
+    ],
+    "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, synthesis, inference, and application",
+    "key_terms": [
+      "local issue",
+      "evidence",
+      "principle",
+      "prudence",
+      "confidence"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse the relevant text and explain the case that a flexible unit may address a local congregational event or season without altering the canonical core.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
+    "know": [
+      "The principal passage or required editor selection is Editor-selected approved passage.",
+      "A flexible unit may address a local congregational event or season without altering the canonical core.",
+      "The lesson belongs within the wider Cycle 1 structure."
+    ],
+    "understand": [
+      "Meaning depends on immediate context, genre, and the evidence actually available.",
+      "Direct textual observation should remain distinguishable from synthesis, inference, framework design, prudential judgment, and application."
+    ],
+    "practise": [
+      "State at least one observation before giving an interpretation.",
+      "Take one local issue and write: what the passage says, the principle you infer, the prudential choice proposed, and what remains uncertain."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with trust, wisdom, worship, service, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage or synthesis.",
+      "Student can support the big idea with the appropriate evidence class.",
+      "Student can distinguish at least one observation from one interpretation, framework choice, prudential decision, or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Analyse the relevant text and explain the case that a flexible unit may address a local congregational event or season without altering the canonical core.",
+      "read": "To be selected by curriculum editor",
+      "opening": "Ask: What evidence governs this lesson, and what must the editor or student not pretend the evidence says?",
+      "say": [
+        "This slot may address a local congregational event or season without altering the canonical Cycle 1 core.",
+        "The selected passage must be interpreted in its own context before it is applied to the local situation.",
+        "Most decisions about how to respond to a particular local circumstance will involve prudential judgment even when the underlying biblical principle is clear."
+      ],
+      "ask": [
+        "What can you point to directly in the passage or curriculum record?",
+        "How does the big idea arise from the evidence?",
+        "What would be an overstatement?",
+        "What response fits the evidence?"
+      ],
+      "do": "Complete the Local Issue Evidence and Prudence Grid activity.",
+      "close": "Pray using one truth from the selected passage and one faithful response.",
+      "materials": [
+        "Bible",
+        "Local Issue Evidence and Prudence Grid"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Optional local or seasonal module governed by the same evidence-classification and review rules as core lessons.",
+      "text_observations": [
+        "This slot may address a local congregational event or season without altering the canonical Cycle 1 core.",
+        "The selected passage must be interpreted in its own context before it is applied to the local situation."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis or application.",
+        "Keep genre, audience, historical setting, and literary context visible.",
+        "For flex templates, distinguish curriculum-framework decisions from biblical claims.",
+        "Label framework positions and prudential judgments rather than presenting them as quotations from Scripture."
+      ],
+      "theological_guardrails": [
+        "Do not publish until topic, passage, claims, and application have received normal review.",
+        "Do not baptise partisan politics, nationalism, institutional preference, or local custom as though it were direct biblical teaching.",
+        "If evidence is inconclusive, explicitly say that the evidence does not settle the question."
+      ],
+      "likely_questions": [
+        {
+          "question": "What does this evidence directly settle?",
+          "purpose": "Identify the strongest direct textual or curriculum evidence."
+        },
+        {
+          "question": "What still requires selection, synthesis, inference, prudence, or humility?",
+          "purpose": "Prevent overclaiming and keep flex use governed."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 1 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the principal passage and name direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L30-P01-local-issue-evidence-and-prudence-grid"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 1 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read the principal passage and distinguish observation from explanation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L30-P01-local-issue-evidence-and-prudence-grid"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 1 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read closely, noting structure, repeated language, and major claims.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L30-P01-local-issue-evidence-and-prudence-grid"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage or curriculum record directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one thing you can point to in the evidence.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does the big idea arise from the evidence?",
+        "purpose": "Connect evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "What should we avoid claiming?",
+        "purpose": "Practice interpretive restraint.",
+        "foundation_prompt": "Name one detail the evidence does not say.",
+        "extension_prompt": "Which claims require passage selection, canonical synthesis, historical evidence, or prudential judgment?"
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one faithful response to this lesson?",
+        "purpose": "Move from understanding to formation.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence rather than merely sounding religious."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Local Issue Evidence and Prudence Grid",
+        "duration_minutes": 10,
+        "materials": [
+          "Local Issue Evidence and Prudence Grid",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read the selected evidence and record direct observations.",
+          "Place observations, interpretations, framework choices, or prudential applications into the resource categories.",
+          "Discuss which conclusions require more than direct textual wording.",
+          "Write one careful response that follows from the evidence."
+        ],
+        "learning_link": "Makes the lesson’s evidence classification and formation aim visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete the exercise verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Evidence Class Check",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read several statements connected to the lesson.",
+          "Classify each as text observation, synthesis, framework choice, prudential judgment, or application.",
+          "Return to the evidence and justify each classification."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses instead of written cards."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Editor-selected approved passage",
+      "prayer_prompt": "Thank God for what the selected passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "A flexible unit may address a local congregational event or season without altering the canonical core."
+    },
+    "printable_refs": [
+      "T1-L30-P01-local-issue-evidence-and-prudence-grid"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Scripture and the Big Story: Local or Seasonal Flex",
+    "parent_intro": "Start with the selected passage. For a flex template, do not use the lesson until the editor has selected and reviewed the passage.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect this lesson to something already learned in Cycle 1."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read selected portions of Editor-selected approved passage and name direct observations. If this is a flex template, the editor must replace the placeholder with the approved passage before publication."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: A flexible unit may address a local congregational event or season without altering the canonical core."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Local Issue Evidence and Prudence Grid resource verbally, on paper, or with the provided worksheet."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Take one local issue and write: what the passage says, the principle you infer, the prudential choice proposed, and what remains uncertain."
+      }
+    ],
+    "questions": [
+      "What does the passage or lesson evidence directly say?",
+      "What meaning or principle follows from it?",
+      "What is one response we can practise this week?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Local Issue Evidence and Prudence Grid",
+      "instructions": "Use the resource to separate evidence, meaning, and response in an age-appropriate way."
+    },
+    "weekly_action": "Take one local issue and write: what the passage says, the principle you infer, the prudential choice proposed, and what remains uncertain.",
+    "prayer": "Thank God for what the selected passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, giving, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "What evidence governs Scripture and the Big Story: Local or Seasonal Flex?",
+        "type": "multiple_choice",
+        "options": [
+          "Editor-selected approved passage",
+          "A favourite slogan",
+          "A local custom by itself",
+          "The teacher’s preference"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Editor-selected approved passage"
+        },
+        "explanation": "The lesson is governed by its selected passage or explicit curriculum-design evidence."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which comes first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "Modern analogy",
+          "A preferred conclusion"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe what the evidence says before moving to interpretation or application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "This slot may address a local congregational event or season without altering the canonical Cycle 1 core.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This statement is supported by the evidence and classification listed in the lesson."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should a curriculum framework choice be described as an explicit Bible command when Scripture does not directly command that framework?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Framework choices and prudential judgments must be labelled honestly."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Responsible Reading Order",
+      "instructions": "Put the reading process in a responsible order.",
+      "items": [
+        "Read the passage",
+        "Observe what it says",
+        "Interpret in context",
+        "Apply carefully"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Read the passage",
+          "Observe what it says",
+          "Interpret in context",
+          "Apply carefully"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L30-P01-local-issue-evidence-and-prudence-grid",
+        "title": "Local Issue Evidence and Prudence Grid",
+        "purpose": "Support the primary activity for Scripture and the Big Story: Local or Seasonal Flex.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen independent or guided close reading",
+    "plain_language_rule": "Define unfamiliar terms before using theological or curriculum shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written response options.",
+      "Preview the activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read the passage aloud and use icons, sequence cards, oral choices, or a scribe where helpful."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, giving amounts, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, giving, or another public response."
+    ],
+    "teacher_response": "Answer from the selected evidence, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "To be selected by curriculum editor",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 08"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D005"
+    ],
+    "review_flags": [
+      "TH-BIBLIOLOGY"
+    ],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review. Flex templates must not be published until the editor-selected passage/topic is completed and reviewed.",
+      "Regression gates: matching puzzle choices required; framework_position interpretive_hinge required."
+    ]
+  }
+}
