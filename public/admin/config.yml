@@ -3772,3 +3772,53 @@ collections:
       name: show_upcoming_lessons
       widget: boolean
       default: false
+  - label: School term dates
+    name: terms
+    file: src/content/settings/terms.json
+    format: json
+    description: >-
+      School term start and end dates. The site auto-fills the teaching schedule
+      by placing lessons on term-time Sundays and marking holiday Sundays as
+      breaks. Add each new year's four terms here.
+    fields:
+    - label: Timezone
+      name: timezone
+      widget: hidden
+      default: Pacific/Auckland
+    - label: Break message
+      name: break_message
+      widget: string
+      required: false
+      default: 'School holidays: no Sunday School classes this week.'
+    - label: Terms
+      name: terms
+      widget: list
+      summary: '{{fields.term_id}} ({{fields.start}} to {{fields.end}})'
+      fields:
+      - label: Term ID
+        name: term_id
+        widget: string
+        hint: 'Year and term, e.g. 2027-T1'
+        pattern: ['^20[0-9]{2}-T[1-4]$', 'Use the form 2027-T1']
+      - label: Year
+        name: year
+        widget: number
+        value_type: int
+      - label: Term number
+        name: term
+        widget: number
+        value_type: int
+        min: 1
+        max: 4
+      - label: Start date
+        name: start
+        widget: date
+        format: 'YYYY-MM-DD'
+      - label: End date
+        name: end
+        widget: date
+        format: 'YYYY-MM-DD'
+      - label: Notes
+        name: notes
+        widget: string
+        required: false

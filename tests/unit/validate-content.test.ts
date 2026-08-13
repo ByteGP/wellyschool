@@ -114,24 +114,38 @@ describe('validate-content.mjs', () => {
     expect(result.output).toContain('curriculum.title mismatch');
   });
 
-  it('fails when an approved schedule entry references a draft lesson', () => {
+  // The schedule is auto-generated (ADR-013); explicit override files are still
+  // validated. These tests author an override file to exercise those rules.
+  const overrideEntry = (overrides: Record<string, unknown>) => ({
+    schedule_id: '2026-08-16-kids',
+    date: '2026-08-16',
+    segment: 'Kids',
+    entry_type: 'lesson',
+    lesson_id: 'K1-L19',
+    status: 'draft',
+    ...overrides,
+  });
+
+  it('fails when an approved schedule override references a draft lesson', () => {
     const dir = makeContentCopy();
-    const file = path.join(dir, 'src/content/schedule/2026-08-16-kids.json');
-    const entry = JSON.parse(readFileSync(file, 'utf8'));
-    entry.status = 'approved';
-    writeFileSync(file, JSON.stringify(entry, null, 2));
+    writeFileSync(
+      path.join(dir, 'src/content/schedule/2026-08-16-kids.json'),
+      JSON.stringify(overrideEntry({ status: 'approved' }), null, 2),
+    );
     const result = runValidator(dir);
     expect(result.ok).toBe(false);
     expect(result.output).toContain('approved schedule cannot reference lesson status');
   });
 
-  it('fails on duplicate date-and-segment schedule entries', () => {
+  it('fails on duplicate date-and-segment schedule overrides', () => {
     const dir = makeContentCopy();
-    const file = path.join(dir, 'src/content/schedule/2026-08-16-kids.json');
-    const entry = JSON.parse(readFileSync(file, 'utf8'));
+    writeFileSync(
+      path.join(dir, 'src/content/schedule/2026-08-16-kids.json'),
+      JSON.stringify(overrideEntry({}), null, 2),
+    );
     writeFileSync(
       path.join(dir, 'src/content/schedule/2026-08-16-kids-duplicate.json'),
-      JSON.stringify(entry, null, 2),
+      JSON.stringify(overrideEntry({}), null, 2),
     );
     const result = runValidator(dir);
     expect(result.ok).toBe(false);

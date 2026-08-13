@@ -48,7 +48,6 @@ test.describe('teacher current-entry selection (Pacific/Auckland)', () => {
     await expect(card).toBeVisible();
     // A lesson entry, not a break or special service.
     await expect(card.getByRole('link', { name: 'Open the lesson' })).toBeVisible();
-    await expect(card).toContainText("People Bear God's Image");
   });
 
   test('without JavaScript the schedule list is still usable', async ({ browser }) => {
@@ -56,7 +55,8 @@ test.describe('teacher current-entry selection (Pacific/Auckland)', () => {
     const page = await context.newPage();
     await page.goto('/teacher/kids/');
     await expect(page.getByText('Choose the correct Sunday from the schedule below.')).toBeVisible();
-    await expect(page.getByRole('link', { name: /Jesus Calms the Storm/ }).first()).toBeVisible();
+    // The upcoming-Sundays list still links to lessons without JavaScript.
+    await expect(page.locator('[data-entry-row] a[href^="/teacher/kids/"]').first()).toBeVisible();
     await context.close();
   });
 });
@@ -82,8 +82,10 @@ test.describe('family current-entry selection', () => {
   test('before any lesson exists, shows the next available date without draft content', async ({
     page,
   }) => {
-    await page.goto('/family/kids/?today=2026-08-01');
-    await expect(page.locator('[data-entry-card="2026-08-16-kids"]')).toBeVisible();
+    // Before the first term Sunday (Term 3 begins 2026-07-20, first class
+    // Sunday 2026-07-26), the family view falls back to that first lesson date.
+    await page.goto('/family/kids/?today=2026-07-01');
+    await expect(page.locator('[data-entry-card="2026-07-26-kids"]')).toBeVisible();
   });
 });
 
