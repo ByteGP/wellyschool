@@ -35,9 +35,16 @@ export function getPublicLessons(mode: ContentMode): LessonContent[] {
 }
 
 export function getPublicLessonsBySegment(segment: Segment, mode: ContentMode): LessonContent[] {
+  // Group by curriculum cycle first, then order by sequence within the cycle,
+  // so a segment spanning multiple cycles (e.g. Kids K1, K2, K5) reads as
+  // contiguous cycle blocks rather than interleaving lesson numbers.
   return getPublicLessons(mode)
     .filter((lesson) => lesson.curriculum.segment === segment)
-    .sort((a, b) => a.curriculum.sequence - b.curriculum.sequence);
+    .sort(
+      (a, b) =>
+        a.curriculum.cycle_id.localeCompare(b.curriculum.cycle_id) ||
+        a.curriculum.sequence - b.curriculum.sequence,
+    );
 }
 
 export function getLessonById(lessonId: string): LessonContent | undefined {

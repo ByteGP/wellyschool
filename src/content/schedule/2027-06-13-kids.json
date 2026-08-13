@@ -1,0 +1,9 @@
+{
+  "schedule_id": "2027-06-13-kids",
+  "date": "2027-06-13",
+  "segment": "Kids",
+  "entry_type": "lesson",
+  "status": "draft",
+  "notes": "Placeholder pilot schedule aligned to Wellington school terms. Replace via Decap / term-date settings once the church calendar is approved (ADR-011).",
+  "lesson_id": "K2-L05"
+}
