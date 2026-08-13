@@ -2,7 +2,7 @@
   "schema_version": "1.2.1",
   "lesson_id": "K2-L20",
   "content_version": "0.2.0",
-  "status": "in_review",
+  "status": "approved",
   "curriculum": {
     "segment": "Kids",
     "age_range": "4-8",
@@ -584,10 +584,10 @@
     ],
     "review_flags": [],
     "review_state": {
-      "exegetical": "in_review",
-      "developmental": "in_review",
+      "exegetical": "approved",
+      "developmental": "approved",
       "pastoral": "not_required",
-      "copy": "in_review"
+      "copy": "approved"
     },
     "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
     "editor_notes": [

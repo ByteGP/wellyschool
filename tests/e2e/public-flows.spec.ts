@@ -208,8 +208,11 @@ test.describe('privacy hardening', () => {
   test('family page HTML never contains teacher preparation or editorial internals', async ({
     request,
   }) => {
-    for (const path of ['/family/kids/k1-l19/', '/family/teens/t4-l22/']) {
+    for (const path of ['/family/kids/k1-l19/', '/family/teens/t2-l19/']) {
       const response = await request.get(path);
+      // Guard: a deleted/renamed lesson would 404, and the banned-field checks
+      // below would then pass vacuously. Require a real page first.
+      expect(response.ok(), `${path} should serve a real family page`).toBe(true);
       const html = await response.text();
       for (const banned of [
         'passage_context',

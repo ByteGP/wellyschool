@@ -2,7 +2,7 @@
   "schema_version": "1.2.1",
   "lesson_id": "T2-L21",
   "content_version": "0.2.0",
-  "status": "in_review",
+  "status": "approved",
   "curriculum": {
     "segment": "Teens",
     "age_range": "13-17",
@@ -605,10 +605,10 @@
       "TH-BAPTISM, TH-SALVATION"
     ],
     "review_state": {
-      "exegetical": "in_review",
-      "developmental": "in_review",
-      "pastoral": "in_review",
-      "copy": "in_review"
+      "exegetical": "approved",
+      "developmental": "approved",
+      "pastoral": "deferred_owner_managed",
+      "copy": "approved"
     },
     "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
     "editor_notes": [

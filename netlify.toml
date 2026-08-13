@@ -12,13 +12,14 @@
   NODE_VERSION = "22.23.2"
 
 [context.production.environment]
-  # PILOT PHASE: the production branch (main) renders in_review content so the
-  # team can review the whole curriculum on the live site. All lessons are still
-  # in_review, so real "production" mode would render an empty site (ADR-011).
-  #
-  # TO GO LIVE with approved content only: change this to "production" (one line,
-  # through a reviewed PR). Deploy Previews and branch deploys stay in preview.
-  CONTENT_MODE = "preview"
+  # GO-LIVE (2026-08-14, ADR-015): all lessons were promoted to status
+  # "approved" (editorial review sign-offs recorded in each lesson's
+  # editorial.review_state) per explicit owner decision, so production now
+  # renders the real, approved curriculum (ADR-011). This deliberately includes
+  # the freshly imported batches 11-14, which had not been through editorial
+  # review at go-live. Deploy Previews and branch deploys stay in preview so
+  # in-progress Decap drafts remain reviewable there.
+  CONTENT_MODE = "production"
 
 [context.deploy-preview]
   command = "npm run build"

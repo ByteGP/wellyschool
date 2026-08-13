@@ -37,7 +37,7 @@ describe('dateInTimeZone', () => {
 describe('teacherEntry', () => {
   const schedule: ScheduleEntry[] = [
     entry({ date: '2026-08-09' }),
-    entry({ date: '2026-08-16', lesson_id: 'K5-L13' }),
+    entry({ date: '2026-08-16', lesson_id: 'K1-L04' }),
     entry({ date: '2026-08-23', entry_type: 'break', lesson_id: undefined, message: 'Holidays' }),
     entry({ date: '2026-08-30', lesson_id: 'K1-L19' }),
   ];
@@ -82,7 +82,7 @@ describe('teacherEntry', () => {
 describe('familyEntry', () => {
   const schedule: ScheduleEntry[] = [
     entry({ date: '2026-08-09' }),
-    entry({ date: '2026-08-16', lesson_id: 'K5-L13' }),
+    entry({ date: '2026-08-16', lesson_id: 'K1-L04' }),
     entry({ date: '2026-08-23', entry_type: 'break', lesson_id: undefined, message: 'Holidays' }),
   ];
 
@@ -92,13 +92,13 @@ describe('familyEntry', () => {
   });
 
   it('keeps the lesson active during the following week', () => {
-    expect(familyEntry(schedule, 'Kids', '2026-08-22')?.lesson_id).toBe('K5-L13');
+    expect(familyEntry(schedule, 'Kids', '2026-08-22')?.lesson_id).toBe('K1-L04');
   });
 
   it('returns the break entry during a break week with a previous-lesson link available', () => {
     const selected = familyEntry(schedule, 'Kids', '2026-08-25');
     expect(selected?.entry_type).toBe('break');
-    expect(previousLessonEntryBefore(schedule, 'Kids', selected!.date)?.lesson_id).toBe('K5-L13');
+    expect(previousLessonEntryBefore(schedule, 'Kids', selected!.date)?.lesson_id).toBe('K1-L04');
   });
 
   it('falls back to the next upcoming entry when no prior lesson exists', () => {
