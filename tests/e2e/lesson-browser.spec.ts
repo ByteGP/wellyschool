@@ -6,7 +6,7 @@ test.describe('lesson browser', () => {
   }) => {
     await page.goto('/teacher/kids/');
     const list = page.locator('[data-lesson-list] > li');
-    await expect(list).toHaveCount(55);
+    await expect(list).toHaveCount(61);
     await expect(page.getByRole('heading', { name: 'All Kids lessons' })).toBeVisible();
     await expect(page.getByPlaceholder('Search by title, passage, or topic')).toBeVisible();
   });
@@ -25,7 +25,7 @@ test.describe('lesson browser', () => {
     await search.fill('mark 4');
     const passageMatches = await visibleRows.count();
     expect(passageMatches).toBeGreaterThan(0);
-    expect(passageMatches).toBeLessThan(55);
+    expect(passageMatches).toBeLessThan(61);
     await expect(visibleRows.filter({ hasText: 'Jesus Calms the Storm' })).toHaveCount(1);
 
     // No match shows the empty state, clearing restores everything.
@@ -33,7 +33,7 @@ test.describe('lesson browser', () => {
     await expect(visibleRows).toHaveCount(0);
     await expect(page.getByText('No lessons match')).toBeVisible();
     await search.fill('');
-    await expect(visibleRows).toHaveCount(55);
+    await expect(visibleRows).toHaveCount(61);
   });
 
   test('series filter narrows by cycle', async ({ page }) => {
@@ -47,18 +47,18 @@ test.describe('lesson browser', () => {
   test('parents get the same browser linking to devotional routes', async ({ page }) => {
     await page.goto('/family/youths/');
     await expect(page.getByRole('heading', { name: 'All Youths lessons' })).toBeVisible();
-    await page.getByPlaceholder('Search by title, passage, or topic').fill('job');
+    await page.getByPlaceholder('Search by title, passage, or topic').fill('ecclesiastes');
     const visibleRows = page.locator('[data-lesson-list] > li:not([hidden])');
     await expect(visibleRows).toHaveCount(1);
     await visibleRows.first().getByRole('link').click();
-    await expect(page).toHaveURL(/\/family\/youths\/y2-l12\/$/);
+    await expect(page).toHaveURL(/\/family\/youths\/y2-l13\/$/);
   });
 
   test('all lessons remain visible and reachable without JavaScript', async ({ browser }) => {
     const context = await browser.newContext({ javaScriptEnabled: false });
     const page = await context.newPage();
     await page.goto('/teacher/teens/');
-    await expect(page.locator('[data-lesson-list] > li')).toHaveCount(56);
+    await expect(page.locator('[data-lesson-list] > li')).toHaveCount(62);
     // Search controls stay hidden without JS instead of rendering dead inputs.
     await expect(page.getByPlaceholder('Search by title, passage, or topic')).toBeHidden();
     await context.close();

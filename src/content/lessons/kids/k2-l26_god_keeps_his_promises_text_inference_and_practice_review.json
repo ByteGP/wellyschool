@@ -1,0 +1,610 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K2-L26",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K2",
+    "cycle_name": "God Keeps His Promises",
+    "sequence": 26,
+    "unit_type": "Synthesis",
+    "scheduling_priority": "Recommended",
+    "title": "God Keeps His Promises: Text, Inference, and Practice Review",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Synthesis"
+  },
+  "core": {
+    "big_idea": "Responsible Bible study distinguishes textual observation, canonical synthesis, inference, local framework, and application.",
+    "passages": [
+      {
+        "reference": "Genesis 12:1-3",
+        "role": "primary",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Exodus 12:1-14",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "2 Samuel 7:8-16",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Isaiah 9:1-7",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "A simple introduction to noticing what a passage says before explaining or applying it.",
+    "biblical_genre": "Study method",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "A careful reader separates direct observation from interpretation, synthesis, inference, framework position, and application.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Canonical Curriculum Matrix v0.2",
+          "D001 Scripture as final doctrinal authority"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "This curriculum method follows from the project commitment to let Scripture govern doctrine while labeling the reasoning used to move from text to conclusion.",
+        "prohibited_overstatement": "Do not claim Scripture uses the curriculum’s exact evidence-label vocabulary."
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The same passage can support a strong conclusion while still requiring honesty about which reasoning step is inferential rather than explicit.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Selected passages from Cycle 2"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "Cycle 2 contains examples where claims depend on context and canonical synthesis rather than a single sentence stating the final doctrine.",
+        "prohibited_overstatement": "Do not present synthesis or inference as a direct quotation."
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Application should follow the meaning of the text rather than replacing it with a preferred modern concern.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "D001 Scripture as final doctrinal authority"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "If Scripture is the governing authority, modern application must remain accountable to what the text actually supports.",
+        "prohibited_overstatement": "Do not present one prudential application as universally commanded unless the evidence requires it."
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "scripture"
+    ],
+    "formation_tags": [
+      "study"
+    ],
+    "interpretation_skill": "Retell sequence; identify cause and effect; connect to the big story without forced symbolism",
+    "key_terms": [
+      "observation",
+      "meaning",
+      "response"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Responsible Bible study distinguishes textual observation, canonical synthesis, inference, local framework, and application.",
+    "extension_objective": "Support the big idea with evidence, label the reasoning used, and identify one faithful response without overstating the text.",
+    "know": [
+      "The lesson belongs to God Keeps His Promises Cycle 2.",
+      "Responsible Bible study distinguishes textual observation, canonical synthesis, inference, local framework, and application.",
+      "The lesson belongs within the wider biblical storyline."
+    ],
+    "understand": [
+      "Meaning depends on immediate context, genre, and the evidence actually available.",
+      "Direct textual observation should remain distinguishable from synthesis, inference, framework position, and application."
+    ],
+    "practise": [
+      "State at least one observation before giving an interpretation.",
+      "Use the lesson resource to connect evidence, meaning, and response."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with trust, wisdom, worship, service, courage, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the central passage or synthesis.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish at least one observation from one interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Responsible Bible study distinguishes textual observation, canonical synthesis, inference, local framework, and application.",
+      "read": "Selected passages from the cycle",
+      "opening": "Ask: What does the passage actually say before we explain what it means?",
+      "say": [
+        "A careful reader separates direct observation from interpretation, synthesis, inference, framework position, and application.",
+        "The same passage can support a strong conclusion while still requiring honesty about which reasoning step is inferential rather than explicit.",
+        "Application should follow the meaning of the text rather than replacing it with a preferred modern concern."
+      ],
+      "ask": [
+        "What can you point to directly in the passage?",
+        "How does the big idea arise from the evidence?",
+        "What would be an overstatement?",
+        "What response fits the passage?"
+      ],
+      "do": "Complete the Evidence Label Lab activity.",
+      "close": "Pray using one truth from the passage and one faithful response.",
+      "materials": [
+        "Bible",
+        "Evidence Label Lab"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Cycle 2 synthesis/review drawing on selected approved passages.",
+      "text_observations": [
+        "A careful reader separates direct observation from interpretation, synthesis, inference, framework position, and application.",
+        "The same passage can support a strong conclusion while still requiring honesty about which reasoning step is inferential rather than explicit."
+      ],
+      "interpretation_notes": [
+        "Label direct text, synthesis, inference, framework position, and prudential application accurately.",
+        "Do not let a review or local calendar purpose override the context of a selected passage."
+      ],
+      "theological_guardrails": [
+        "Keep synthesis concrete and story-shaped. Do not pressure children toward baptism or turn promises into guarantees of comfort, wealth, health, or immediate rescue."
+      ],
+      "likely_questions": [
+        {
+          "question": "What does this passage directly settle?",
+          "purpose": "Identify the strongest direct textual evidence."
+        },
+        {
+          "question": "What still requires synthesis, inference, or humility?",
+          "purpose": "Prevent overclaiming and invite responsible questions."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within the biblical storyline and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the principal passage and name direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the lesson big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K2-L26-P01-evidence-label-lab"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within the biblical storyline and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, setting, and immediate literary context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read the principal passage and distinguish observation from explanation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the passage and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K2-L26-P01-evidence-label-lab"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within the biblical storyline and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, setting, and immediate literary context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read the principal passage closely, noting structure, repeated words, and major claims.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the passage and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K2-L26-P01-evidence-label-lab"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say or depict?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one thing you can point to in the text.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does the big idea arise from the passage or synthesis?",
+        "purpose": "Connect evidence to conclusion.",
+        "foundation_prompt": "Which verse or passage best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "What should we avoid claiming?",
+        "purpose": "Practice interpretive restraint.",
+        "foundation_prompt": "Name one detail the passage does not say.",
+        "extension_prompt": "Which claims require additional canonical, historical, or interpretive evidence?"
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one faithful response to this lesson?",
+        "purpose": "Move from understanding to formation.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the text rather than merely sounding religious."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Evidence Label Lab",
+        "duration_minutes": 10,
+        "materials": [
+          "Evidence Label Lab",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read the designated passages and record direct observations.",
+          "Place each observation or claim into the resource categories.",
+          "Discuss which conclusions require synthesis or inference.",
+          "Write one careful application that follows from the evidence."
+        ],
+        "learning_link": "Makes the lesson’s interpretation skill visible and concrete.",
+        "low_resource_alternative": "Draw the same categories on blank paper or complete the exercise verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Observation, Interpretation, or Application?",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read several statements connected to the lesson.",
+          "Classify each statement as observation, interpretation/synthesis, or application.",
+          "Return to the passage and justify each classification."
+        ],
+        "learning_link": "Reinforces honest evidence classification.",
+        "low_resource_alternative": "Use verbal responses instead of written cards."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Mark 4:35-41",
+      "prayer_prompt": "Thank God for what the passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "Responsible Bible study distinguishes textual observation, canonical synthesis, inference, local framework, and application."
+    },
+    "printable_refs": [
+      "K2-L26-P01-evidence-label-lab"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "God Keeps His Promises: Text, Inference, and Practice Review",
+    "parent_intro": "Read the selected passages first, keep the discussion evidence-based, and leave room for questions.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect this lesson to something already learned in Cycle 2."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read selected portions of the Cycle 2 passages and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: Responsible Bible study distinguishes textual observation, canonical synthesis, inference, local framework, and application."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Evidence Label Lab verbally, on paper, or with the provided worksheet."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Name one careful response that follows from the evidence without claiming more than the text supports."
+      }
+    ],
+    "questions": [
+      "What does the passage directly say?",
+      "What does it show about God, Jesus, people, or the biblical story?",
+      "What is one response we can practise this week?"
+    ],
+    "interactive": {
+      "type": "creative",
+      "title": "Evidence Label Lab",
+      "instructions": "Use the resource to separate evidence, meaning, and response."
+    },
+    "weekly_action": "Revisit one Cycle 2 passage and explain what it says, what it means, and one faithful response.",
+    "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, giving, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "What should come first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "A modern analogy",
+          "A guess about motives"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe what the text says before moving to interpretation or application."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which statement best fits this lesson?",
+        "type": "multiple_choice",
+        "options": [
+          "Responsible Bible study distinguishes textual observation, canonical synthesis, inference, local framework, and application.",
+          "Every detail has only one possible modern application.",
+          "Review removes the need to read passages in context.",
+          "A local tradition should control the text."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Responsible Bible study distinguishes textual observation, canonical synthesis, inference, local framework, and application."
+        },
+        "explanation": "The canonical matrix big idea governs this lesson."
+      },
+      {
+        "question_id": "Z03",
+        "question": "A synthesis or framework conclusion should be labelled honestly rather than presented as a direct quotation.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The curriculum distinguishes evidence classifications."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Can a flex lesson be published before an editor selects and reviews its biblical passage?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Flex placeholders require editorial completion; fixed lessons still require normal review."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Responsible Reading Order",
+      "instructions": "Put the reading process in a responsible order.",
+      "items": [
+        "Read the passage",
+        "Observe what it says",
+        "Interpret in context",
+        "Apply carefully"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Read the passage",
+          "Observe what it says",
+          "Interpret in context",
+          "Apply carefully"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K2-L26-P01-evidence-label-lab",
+        "title": "Evidence Label Lab",
+        "purpose": "Support the primary activity for God Keeps His Promises: Text, Inference, and Practice Review.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teacher-read with short child responses",
+    "plain_language_rule": "Define unfamiliar terms from the passage before using theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written response options.",
+      "Preview the activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read the passage aloud and use icons, sequence cards, oral choices, or a scribe where helpful."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism or another public response."
+    ],
+    "teacher_response": "Answer from the passage, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults rather than attempting to solve them in class.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Selected passages from the cycle",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 13"
+    ],
+    "decision_register_refs": [
+      "D005"
+    ],
+    "review_flags": [
+      "TH-BIBLIOLOGY"
+    ],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
+      "Cycle 2 synthesis/flex closeout; flex placeholders require editor-selected passage before publication.",
+      "Keep synthesis concrete and story-shaped. Do not pressure children toward baptism or turn promises into guarantees of comfort, wealth, health, or immediate rescue.",
+      "Editorial import fix (mechanical): realigned 4 stale teacher printable reference(s) (outline.resource_refs, teacher.printable_refs) to the lesson's canonical engagement.printables id 'K2-L26-P01-evidence-label-lab' (the shipped resource). The generator had emitted an alternate slug that did not resolve. Please verify on review."
+    ]
+  }
+}

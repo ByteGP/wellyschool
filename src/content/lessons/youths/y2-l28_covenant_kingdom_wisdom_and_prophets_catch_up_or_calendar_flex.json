@@ -1,0 +1,583 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y2-L28",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y2",
+    "cycle_name": "Covenant, Kingdom, Wisdom, and Prophets",
+    "sequence": 28,
+    "unit_type": "Flex",
+    "scheduling_priority": "Optional",
+    "title": "Covenant, Kingdom, Wisdom, and Prophets: Catch-up or Calendar Flex",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Flex"
+  },
+  "core": {
+    "big_idea": "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+    "passages": [
+      {
+        "reference": "Editor-selected approved Y2 passage",
+        "role": "primary",
+        "reading_note": "Read in context. Flex placeholders must be replaced by an approved passage before publication."
+      }
+    ],
+    "metanarrative_position": "Optional catch-up template requiring selection of an approved Y2 passage or lesson before publication.",
+    "biblical_genre": "Flex template / study method",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "This optional Cycle 2 slot may be used for catch-up, a holiday, or a congregation-specific teaching need without altering the canonical core.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Canonical Curriculum Matrix v0.2"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "interpretive_hinge": "This is a curriculum scheduling conclusion from the canonical matrix, not a verse commanding this lesson architecture.",
+        "prohibited_overstatement": "Do not present this scheduling structure as a direct biblical command."
+      },
+      {
+        "claim_id": "C02",
+        "statement": "If the slot is used for biblical teaching, the editor-selected passage must govern the claims and application.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "D001 Scripture as final doctrinal authority"
+        ],
+        "confidence": "High",
+        "review_status": "review_required",
+        "interpretive_hinge": "The project’s authority rule requires the selected biblical text to govern the lesson rather than the calendar need or local agenda.",
+        "prohibited_overstatement": "Do not publish the flex lesson until the passage and claims have been reviewed."
+      }
+    ],
+    "doctrine_tags": [
+      "covenant",
+      "church"
+    ],
+    "formation_tags": [
+      "wisdom"
+    ],
+    "interpretation_skill": "Locate on timeline; read immediate context; identify genre; separate observation and application",
+    "key_terms": [
+      "context",
+      "genre",
+      "observation",
+      "interpretation",
+      "application"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+    "extension_objective": "Support the big idea with evidence, label the reasoning used, and identify one faithful response without overstating the text.",
+    "know": [
+      "The lesson belongs to Covenant, Kingdom, Wisdom, and Prophets Cycle 2.",
+      "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+      "The lesson belongs within the wider biblical storyline."
+    ],
+    "understand": [
+      "Meaning depends on immediate context, genre, and the evidence actually available.",
+      "Direct textual observation should remain distinguishable from synthesis, inference, framework position, and application."
+    ],
+    "practise": [
+      "State at least one observation before giving an interpretation.",
+      "Use the lesson resource to connect evidence, meaning, and response."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with trust, wisdom, worship, service, courage, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage or synthesis.",
+      "Student can support the big idea with the appropriate evidence class.",
+      "Student can distinguish at least one observation from one interpretation, framework choice, prudential decision, or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+      "read": "To be selected by curriculum editor",
+      "opening": "Ask: What evidence governs this lesson, and what must the editor or student not pretend the evidence says?",
+      "say": [
+        "This optional Cycle 2 slot may be used for catch-up, a holiday, or a congregation-specific teaching need without altering the canonical core.",
+        "If the slot is used for biblical teaching, the editor-selected passage must govern the claims and application."
+      ],
+      "ask": [
+        "What can you point to directly in the passage or curriculum record?",
+        "How does the big idea arise from the evidence?",
+        "What would be an overstatement?",
+        "What response fits the evidence?"
+      ],
+      "do": "Complete the Catch-up Choice Board activity.",
+      "close": "Pray using one truth from the selected passage and one faithful response.",
+      "materials": [
+        "Bible",
+        "Catch-up Choice Board"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Optional Cycle 2 flex template. The editor must select and review the passage before publication.",
+      "text_observations": [
+        "This optional Cycle 2 slot may be used for catch-up, a holiday, or a congregation-specific teaching need without altering the canonical core.",
+        "If the slot is used for biblical teaching, the editor-selected passage must govern the claims and application."
+      ],
+      "interpretation_notes": [
+        "Label direct text, synthesis, inference, framework position, and prudential application accurately.",
+        "Do not let a review or local calendar purpose override the context of a selected passage."
+      ],
+      "theological_guardrails": [
+        "Keep historical context visible and distinguish wisdom generalizations, prophetic claims, and later canonical synthesis. Questions and uncertainty are permitted.",
+        "Flex templates must not be published with placeholder passages."
+      ],
+      "likely_questions": [
+        {
+          "question": "What does this evidence directly settle?",
+          "purpose": "Identify the strongest direct textual or curriculum evidence."
+        },
+        {
+          "question": "What still requires selection, synthesis, inference, prudence, or humility?",
+          "purpose": "Prevent overclaiming and keep flex use governed."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the principal passage and name direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y2-L28-P01-catch-up-choice-board"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read the principal passage and distinguish observation from explanation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y2-L28-P01-catch-up-choice-board"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read closely, noting structure, repeated language, and major claims.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y2-L28-P01-catch-up-choice-board"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage or curriculum record directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one thing you can point to in the evidence.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does the big idea arise from the evidence?",
+        "purpose": "Connect evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "What should we avoid claiming?",
+        "purpose": "Practice interpretive restraint.",
+        "foundation_prompt": "Name one detail the evidence does not say.",
+        "extension_prompt": "Which claims require passage selection, canonical synthesis, historical evidence, or prudential judgment?"
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one faithful response to this lesson?",
+        "purpose": "Move from understanding to formation.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence rather than merely sounding religious."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Catch-up Choice Board",
+        "duration_minutes": 10,
+        "materials": [
+          "Catch-up Choice Board",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read the selected evidence and record direct observations.",
+          "Place observations, interpretations, framework choices, or prudential applications into the resource categories.",
+          "Discuss which conclusions require more than direct textual wording.",
+          "Write one careful response that follows from the evidence."
+        ],
+        "learning_link": "Makes the lesson’s evidence classification and formation aim visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete the exercise verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Evidence Class Check",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read several statements connected to the lesson.",
+          "Classify each as text observation, synthesis, framework choice, prudential judgment, or application.",
+          "Return to the evidence and justify each classification."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses instead of written cards."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Editor-selected approved Y2 passage",
+      "prayer_prompt": "Thank God for what the selected passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need."
+    },
+    "printable_refs": [
+      "Y2-L28-P01-catch-up-choice-board"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Covenant, Kingdom, Wisdom, and Prophets: Catch-up or Calendar Flex",
+    "parent_intro": "Start with the selected passage. Do not use this flex template until the editor has selected and reviewed the passage.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect this lesson to something already learned in Cycle 2."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read the editor-selected approved passage and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Catch-up Choice Board verbally, on paper, or with the provided worksheet."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Name one careful response that follows from the evidence without claiming more than the text supports."
+      }
+    ],
+    "questions": [
+      "What does the passage or lesson evidence directly say?",
+      "What meaning or principle follows from it?",
+      "What is one response we can practise this week?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Catch-up Choice Board",
+      "instructions": "Use the resource to separate evidence, meaning, and response."
+    },
+    "weekly_action": "Revisit one Cycle 2 passage and explain what it says, what it means, and one faithful response.",
+    "prayer": "Thank God for what the selected passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, giving, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "What should come first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "A modern analogy",
+          "A guess about motives"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe what the text says before moving to interpretation or application."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which statement best fits this lesson?",
+        "type": "multiple_choice",
+        "options": [
+          "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+          "Every detail has only one possible modern application.",
+          "Review removes the need to read passages in context.",
+          "A local tradition should control the text."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need."
+        },
+        "explanation": "The canonical matrix big idea governs this lesson."
+      },
+      {
+        "question_id": "Z03",
+        "question": "A synthesis or framework conclusion should be labelled honestly rather than presented as a direct quotation.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "The curriculum distinguishes evidence classifications."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Can a flex lesson be published before an editor selects and reviews its biblical passage?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Flex placeholders require editorial completion; fixed lessons still require normal review."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Responsible Reading Order",
+      "instructions": "Put the reading process in a responsible order.",
+      "items": [
+        "Read the passage",
+        "Observe what it says",
+        "Interpret in context",
+        "Apply carefully"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Read the passage",
+          "Observe what it says",
+          "Interpret in context",
+          "Apply carefully"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y2-L28-P01-catch-up-choice-board",
+        "title": "Catch-up Choice Board",
+        "purpose": "Support the primary activity for Covenant, Kingdom, Wisdom, and Prophets: Catch-up or Calendar Flex.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary guided reading with concrete supports",
+    "plain_language_rule": "Define unfamiliar terms before using theological or curriculum shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written response options.",
+      "Preview the activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read the passage aloud and use icons, sequence cards, oral choices, or a scribe where helpful."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, giving amounts, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, giving, or another public response."
+    ],
+    "teacher_response": "Answer from the selected evidence, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "To be selected by curriculum editor",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 13"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D005"
+    ],
+    "review_flags": [],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
+      "Cycle 2 synthesis/flex closeout; flex placeholders require editor-selected passage before publication.",
+      "Keep historical context visible and distinguish wisdom generalizations, prophetic claims, and later canonical synthesis. Questions and uncertainty are permitted.",
+      "Editorial import fix (mechanical): realigned 4 stale teacher printable reference(s) (outline.resource_refs, teacher.printable_refs) to the lesson's canonical engagement.printables id 'Y2-L28-P01-catch-up-choice-board' (the shipped resource). The generator had emitted an alternate slug that did not resolve. Please verify on review."
+    ]
+  }
+}
