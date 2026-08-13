@@ -1,0 +1,628 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K1-L17",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K1",
+    "cycle_name": "God Made and Cares",
+    "sequence": 17,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Jesus Is Born",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Foundations and Promise"
+  },
+  "core": {
+    "big_idea": "God sent Jesus into the world as promised.",
+    "passages": [
+      {
+        "reference": "Luke 2:1-20",
+        "role": "primary",
+        "reading_note": "Read the central passage with attention to context and age-appropriate scope."
+      },
+      {
+        "reference": "Luke 1:26-38",
+        "role": "supporting",
+        "reading_note": "Use only where it directly clarifies the central lesson."
+      },
+      {
+        "reference": "Micah 5:2",
+        "role": "supporting",
+        "reading_note": "Use only where it directly clarifies the central lesson."
+      }
+    ],
+    "metanarrative_position": "Gospel: the promised Messiah enters history in humility.",
+    "biblical_genre": "Gospel narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Jesus was born in Bethlehem during the time of Caesar Augustus.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Luke 2:1-7"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "An angel announced good news of a Savior, Christ the Lord.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Luke 2:10-11"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The shepherds went to see the child and then praised God.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Luke 2:15-20"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Luke presents Jesus’ birth as good news with significance for God’s people.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Luke 1:31-33",
+          "Luke 2:10-14"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "incarnation",
+      "christology",
+      "promise"
+    ],
+    "formation_tags": [
+      "wonder",
+      "gratitude",
+      "worship"
+    ],
+    "interpretation_skill": "Identify genre and context, separate direct observation from synthesis or inference, and connect the passage to the whole-Bible story without forced symbolism.",
+    "key_terms": [
+      "Jesus",
+      "Messiah",
+      "Savior",
+      "Bethlehem"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain in age-appropriate language that god sent Jesus into the world as promised.",
+    "extension_objective": "Locate the lesson in the whole-Bible story and distinguish direct textual claims from later synthesis or application.",
+    "know": [
+      "The central passage is Luke 2:1-20.",
+      "God sent Jesus into the world as promised.",
+      "The lesson belongs within the wider biblical storyline."
+    ],
+    "understand": [
+      "Biblical meaning depends on context and genre.",
+      "Application should follow what the text supports rather than replace it."
+    ],
+    "practise": [
+      "Use one observation question before giving an interpretation.",
+      "Retell the birth story in five steps and thank God for sending Jesus."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with trust, wisdom, and love."
+    ],
+    "success_evidence": [
+      "Student can retell or summarize the central passage.",
+      "Student can state the big idea without adding unsupported details.",
+      "Student can name one appropriate response."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 25,
+    "zero_prep_card": {
+      "objective": "Explain in age-appropriate language that god sent Jesus into the world as promised.",
+      "read": "Luke 2:1-20",
+      "opening": "Ask: What do you notice first in this passage, before we explain what it means?",
+      "say": [
+        "Jesus was born in Bethlehem during the time of Caesar Augustus.",
+        "An angel announced good news of a Savior, Christ the Lord.",
+        "God sent Jesus into the world as promised.",
+        "We will separate what the passage says from what we infer or apply."
+      ],
+      "ask": [
+        "What happens or is said in the passage?",
+        "What does this show about God, people, or the biblical story?",
+        "Which statement is directly in the text?",
+        "What is one careful response for us?"
+      ],
+      "do": "Complete the Good News Sequence activity.",
+      "close": "Pray using one truth from the passage and one faithful response.",
+      "materials": [
+        "Bible",
+        "Good News Story Sequence"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Gospel: the promised Messiah enters history in humility.",
+      "text_observations": [
+        "Jesus was born in Bethlehem during the time of Caesar Augustus.",
+        "An angel announced good news of a Savior, Christ the Lord.",
+        "The shepherds went to see the child and then praised God.",
+        "Luke presents Jesus’ birth as good news with significance for God’s people."
+      ],
+      "interpretation_notes": [
+        "Start with the principal passage before moving to supporting texts.",
+        "Keep genre and original audience visible.",
+        "Label synthesis, historical context, and application rather than presenting them as quotations."
+      ],
+      "theological_guardrails": [
+        "Do not add traditional details that Luke does not state as though they were in the passage.",
+        "Do not reduce the lesson to sentimentality; keep Jesus’ identity central.",
+        "Avoid pressuring children to perform emotion or public devotion."
+      ],
+      "likely_questions": [
+        {
+          "question": "Were there three wise men at the stable?",
+          "purpose": "Matthew mentions magi but does not state there were three or place them in Luke’s shepherd scene."
+        },
+        {
+          "question": "Why was Jesus born in such a simple place?",
+          "purpose": "Luke shows the Savior entering ordinary human life without worldly status."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Use the opening observation question."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read Luke 2:1-20 with selected age-appropriate portions.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "State the big idea and distinguish direct text from inference.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete Good News Sequence.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L17-P01-good-news-sequence"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one careful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Use the opening prompt and invite brief observations."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Locate the passage in its biblical and literary setting."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 8,
+            "label": "Read and observe",
+            "instructions": "Read Luke 2:1-20 closely.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the passage.",
+            "question_refs": [
+              "Q03",
+              "Q04"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete Good News Sequence and review its evidence.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L17-P01-good-news-sequence"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Summarize, apply carefully, and pray."
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Frame the central interpretive question."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Review setting, genre, and whole-Bible location."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 9,
+            "label": "Read closely",
+            "instructions": "Read Luke 2:1-20 and mark textual evidence.",
+            "question_refs": [
+              "Q01",
+              "Q02"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 7,
+            "label": "Interpret",
+            "instructions": "Classify claims as text, synthesis, context, or inference.",
+            "question_refs": [
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 8,
+            "label": "Activity",
+            "instructions": "Complete Good News Sequence in greater depth.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K1-L17-P01-good-news-sequence"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 7,
+            "label": "Extend",
+            "instructions": "Use one supporting passage or unresolved question without adding unreviewed doctrine.",
+            "activity_refs": [
+              "A02"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "State the strongest supported conclusion and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say or narrate?",
+        "purpose": "Observation",
+        "foundation_prompt": "Point to a word, action, or verse that helps answer.",
+        "extension_prompt": "State the evidence class and explain the interpretive hinge."
+      },
+      {
+        "question_id": "Q02",
+        "question": "What details in the context or genre affect meaning?",
+        "purpose": "Context",
+        "foundation_prompt": "Point to a word, action, or verse that helps answer.",
+        "extension_prompt": "State the evidence class and explain the interpretive hinge."
+      },
+      {
+        "question_id": "Q03",
+        "question": "Which conclusion is direct text, synthesis, historical context, or inference?",
+        "purpose": "Evidence classification",
+        "foundation_prompt": "Point to a word, action, or verse that helps answer.",
+        "extension_prompt": "State the evidence class and explain the interpretive hinge."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What response follows without claiming more than the text supports?",
+        "purpose": "Application",
+        "foundation_prompt": "Point to a word, action, or verse that helps answer.",
+        "extension_prompt": "State the evidence class and explain the interpretive hinge."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Good News Sequence",
+        "duration_minutes": 10,
+        "materials": [
+          "Bible",
+          "Good News Story Sequence"
+        ],
+        "steps": [
+          "Read the central text.",
+          "Record direct observations.",
+          "Complete the resource task.",
+          "Review which conclusions are direct and which are inferred."
+        ],
+        "learning_link": "Makes textual evidence visible before application.",
+        "low_resource_alternative": "Draw the same structure on plain paper or a whiteboard."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Claim Check",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible",
+          "paper"
+        ],
+        "steps": [
+          "Choose one lesson claim.",
+          "Find its evidence reference.",
+          "Name its classification.",
+          "Rewrite it if it overstates the evidence."
+        ],
+        "learning_link": "Builds disciplined interpretation.",
+        "low_resource_alternative": "Do verbally as a group."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Luke 2:1-20",
+      "prayer_prompt": "Thank God for the truth in the passage and ask for wisdom to live it faithfully.",
+      "take_home_line": "God sent Jesus into the world as promised."
+    },
+    "printable_refs": [
+      "K1-L17-P01-good-news-sequence"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Jesus Is Born",
+    "parent_intro": "This short study follows the same big idea as Sunday and is designed for about 15 minutes.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Ask one simple opening question connected to the lesson."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read a manageable selection from Luke 2:1-20."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Answer the two family questions from the text."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Good News Sequence idea or the short puzzle."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose the weekly action and pray together."
+      }
+    ],
+    "questions": [
+      "What is one thing the passage clearly says?",
+      "How should that truth shape one action this week?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Good News Sequence",
+      "instructions": "Use the lesson resource idea verbally or on paper."
+    },
+    "weekly_action": "Retell the birth story in five steps and thank God for sending Jesus.",
+    "prayer": "God, help us understand Your word and respond faithfully.",
+    "parent_note": "Do not force disclosure or a predetermined emotional response. Let the passage lead the conversation."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which source should control the main lesson?",
+        "type": "multiple_choice",
+        "options": [
+          "The principal biblical passage",
+          "A memory of the story",
+          "A popular saying"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "The principal biblical passage"
+        },
+        "explanation": "The curriculum is text-first."
+      },
+      {
+        "question_id": "Z02",
+        "question": "What is the lesson big idea?",
+        "type": "multiple_choice",
+        "options": [
+          "God sent Jesus into the world as promised.",
+          "Every detail is a command for today",
+          "The passage has no context"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "God sent Jesus into the world as promised."
+        },
+        "explanation": "This is the governed summary."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Should inference be labelled as inference?",
+        "type": "multiple_choice",
+        "options": [
+          "Yes",
+          "No",
+          "Only for adults"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Yes"
+        },
+        "explanation": "The curriculum distinguishes text from interpretation."
+      },
+      {
+        "question_id": "Z04",
+        "question": "What is one faithful next step?",
+        "type": "multiple_choice",
+        "options": [
+          "Read carefully and respond wisely",
+          "Invent missing details",
+          "Ignore context"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Read carefully and respond wisely"
+        },
+        "explanation": "Application follows interpretation."
+      }
+    ],
+    "puzzle": {
+      "type": "sequence",
+      "title": "Evidence Order",
+      "instructions": "Put these steps in a responsible order.",
+      "items": [
+        "Read the passage",
+        "Observe details",
+        "Identify context and genre",
+        "State the supported conclusion",
+        "Apply carefully"
+      ],
+      "solution": {
+        "kind": "ordered_list",
+        "items": [
+          "Read the passage",
+          "Observe details",
+          "Identify context and genre",
+          "State the supported conclusion",
+          "Apply carefully"
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K1-L17-P01-good-news-sequence",
+        "title": "Good News Story Sequence",
+        "purpose": "Support the lesson activity and evidence classification.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "4-8",
+    "plain_language_rule": "Prefer short sentences, define unfamiliar biblical terms, and do not require independent reading beyond the segment.",
+    "neurodiversity_supports": [
+      "Give instructions one step at a time.",
+      "Allow verbal, written, or pointing responses.",
+      "Preview transitions and allow a pass option."
+    ],
+    "sensory_notes": [
+      "No activity requires loud sound, forced touch, or competitive speed."
+    ],
+    "non_reader_support": [
+      "Teacher or parent may read aloud.",
+      "Use sequence cards, symbols, or oral responses."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "none_specific"
+    ],
+    "do_not_ask": [
+      "Do not require disclosure of private family circumstances.",
+      "Do not require public confession or religious decision.",
+      "Do not use physical touch without consent."
+    ],
+    "teacher_response": "If a child discloses harm, danger, abuse, severe distress, or unmet basic needs, follow the congregation safeguarding process rather than trying to investigate in class.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Luke 2:1-20",
+      "Canonical Curriculum Matrix v0.2",
+      "Theological Decision Register v0.2",
+      "Editorial synthesis for Batch 05"
+    ],
+    "decision_register_refs": [
+      "D001",
+      "D005"
+    ],
+    "review_flags": [
+      "passage_level_exegesis",
+      "developmental_review"
+    ],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial summaries; add licensed translation text only after permissions are confirmed.",
+    "editor_notes": [
+      "Draft production content. Human review required before publication."
+    ]
+  }
+}

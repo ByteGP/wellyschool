@@ -1,0 +1,19 @@
+Content Production Batch 05 QA v0.1
+
+K1-L15: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+K1-L16: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+K1-L17: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+K1-L18: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+Y1-L15: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+Y1-L16: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+Y1-L17: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+Y1-L18: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+T1-L15: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+T1-L16: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+T1-L17: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+T1-L18: schema=PASS profiles={'essential': 25, 'standard': 40, 'extended': 55} family=15/15 claims=4 quiz=4 resources=1 overall=PASS
+
+Schema validation errors: 0
+Lessons validated: 12
+Resources resolved: 12
+Overall: PASS
