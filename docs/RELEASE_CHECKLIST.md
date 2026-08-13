@@ -5,8 +5,15 @@ operational steps around it.
 
 ## One-time setup (owner)
 
-- [ ] Netlify site imported from `ByteGP/wellyschool`, build `npm run build`, publish `dist`.
+- [ ] Netlify site linked to `ByteGP/wellyschool` for continuous deploys
+      (Project configuration > Build & deploy > Link repository; install the
+      Netlify GitHub App and grant it access to the repo). Build `npm run build`,
+      publish `dist` (these come from `netlify.toml`).
 - [ ] Deploy Previews enabled for pull requests.
+- [ ] To GO LIVE with approved content only: change
+      `[context.production.environment]` `CONTENT_MODE` in `netlify.toml` from
+      `preview` to `production` through a reviewed PR. During the pilot it stays
+      `preview` so the in_review curriculum is visible on the live site.
 - [ ] GitHub OAuth app created (callback `https://api.netlify.com/auth/done`).
 - [ ] Netlify GitHub auth provider configured with the OAuth Client ID/Secret (never committed).
 - [ ] `astro.config.mjs` `site` updated to the real Netlify URL.
