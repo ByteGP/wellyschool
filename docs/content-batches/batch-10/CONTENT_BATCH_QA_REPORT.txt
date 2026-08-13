@@ -1,0 +1,13 @@
+Content Production Batch 10 v0.1 QA
+Lessons validated: 18
+Repository schema errors: 0
+Custom regression failures: 0
+
+Regression gates:
+- matching puzzle choices required
+- framework_position interpretive_hinge required
+- family flow = 15 minutes
+- teacher profiles = 25 / 40 / 55 minutes
+
+
+OVERALL: PASS

@@ -11,14 +11,14 @@ import {
 } from '../../src/lib/content/loader';
 
 describe('content loader (real repository content)', () => {
-  it('loads the one hundred and thirteen lessons with unique ids', () => {
+  it('loads the one hundred and thirty lessons with unique ids', () => {
     const lessons = getAllLessons();
-    expect(lessons).toHaveLength(113);
-    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(113);
+    expect(lessons).toHaveLength(130);
+    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(130);
   });
 
-  it('loads the one hundred and nineteen printable resources and resolves every printable reference', () => {
-    expect(getAllResources()).toHaveLength(119);
+  it('loads the one hundred and thirty-seven printable resources and resolves every printable reference', () => {
+    expect(getAllResources()).toHaveLength(137);
     for (const lesson of getAllLessons()) {
       for (const printable of lesson.engagement.printables) {
         expect(getResourceById(printable.resource_id), printable.resource_id).toBeDefined();
@@ -29,21 +29,34 @@ describe('content loader (real repository content)', () => {
   it('hides draft seed lessons from production mode (governance boundary)', () => {
     // Seeds are vertical_slice_draft and batch 01 is in_review; production renders none.
     expect(getPublicLessons('production')).toHaveLength(0);
-    expect(getPublicLessons('preview')).toHaveLength(113);
+    expect(getPublicLessons('preview')).toHaveLength(130);
   });
 
-  it('groups lessons by segment in non-decreasing sequence order for preview builds', () => {
+  it('groups lessons by segment as contiguous cycle blocks, sequenced within each', () => {
     const kids = getPublicLessonsBySegment('Kids', 'preview');
-    // Every returned lesson is a Kids lesson, and the list is sorted by
-    // curriculum sequence (robust across multiple cycles: K1, K2, K5).
     expect(kids.length).toBeGreaterThan(0);
     expect(kids.every((lesson) => lesson.curriculum.segment === 'Kids')).toBe(true);
-    for (let i = 1; i < kids.length; i += 1) {
-      expect(kids[i].curriculum.sequence).toBeGreaterThanOrEqual(kids[i - 1].curriculum.sequence);
+    // Cycles form contiguous blocks (each cycle_id appears in one run), and
+    // within a block the sequence is non-decreasing.
+    const seenCycles = new Set<string>();
+    for (let i = 0; i < kids.length; i += 1) {
+      const cycle = kids[i].curriculum.cycle_id;
+      if (i > 0) {
+        const prev = kids[i - 1].curriculum;
+        if (prev.cycle_id === cycle) {
+          expect(kids[i].curriculum.sequence).toBeGreaterThanOrEqual(prev.sequence);
+        } else {
+          // New cycle starting: it must not have appeared earlier (contiguous).
+          expect(seenCycles.has(cycle)).toBe(false);
+        }
+      }
+      seenCycles.add(cycle);
     }
-    const ids = new Set(kids.map((lesson) => lesson.lesson_id));
-    expect(ids.has('K1-L01')).toBe(true);
-    expect(ids.has('K2-L01')).toBe(true);
+    // K1 block precedes the K2 block (localeCompare on cycle_id).
+    const firstK1 = kids.findIndex((l) => l.curriculum.cycle_id === 'K1');
+    const firstK2 = kids.findIndex((l) => l.curriculum.cycle_id === 'K2');
+    expect(firstK1).toBeGreaterThanOrEqual(0);
+    expect(firstK2).toBeGreaterThan(firstK1);
   });
 
   it('returns lessons by id regardless of mode for internal use', () => {

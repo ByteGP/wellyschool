@@ -1,70 +1,64 @@
 {
   "schema_version": "1.2.1",
-  "lesson_id": "Y2-L12",
+  "lesson_id": "K2-L12",
   "content_version": "0.2.0",
   "status": "in_review",
   "curriculum": {
-    "segment": "Youths",
-    "age_range": "9-12",
-    "cycle_id": "Y2",
-    "cycle_name": "Covenant, Kingdom, Wisdom, and Prophets",
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K2",
+    "cycle_name": "God Keeps His Promises",
     "sequence": 12,
     "unit_type": "Core",
     "scheduling_priority": "Required",
-    "title": "Job: Suffering Is Not a Simple Formula",
+    "title": "God Makes a Covenant at Sinai",
     "annual_anchor": "thematic_development",
-    "thematic_unit": "Wisdom Literature"
+    "thematic_unit": "Covenant People"
   },
   "core": {
-    "big_idea": "Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
+    "big_idea": "God formed rescued Israel into a covenant people with a way of life.",
     "passages": [
       {
-        "reference": "Job 1:1-12",
+        "reference": "Exodus 19:1-8",
         "role": "primary",
         "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
       },
       {
-        "reference": "38:1-18",
-        "role": "supporting",
-        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
-      },
-      {
-        "reference": "42:1-6",
+        "reference": "20:1-17",
         "role": "supporting",
         "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
       }
     ],
-    "metanarrative_position": "Wisdom and Worship: Wisdom Literature within the Covenant, Kingdom, Wisdom, and Prophets cycle",
-    "biblical_genre": "Wisdom literature",
+    "metanarrative_position": "Exodus and Wilderness: Covenant People within the God Keeps His Promises cycle",
+    "biblical_genre": "Biblical narrative / law",
     "claims": [
       {
         "claim_id": "C01",
-        "statement": "The opening of Job explicitly presents Job as upright while also showing that his suffering is not explained to him as punishment for a secret sin.",
+        "statement": "God reminds Israel that He brought them out of Egypt before calling them to covenant obedience.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Job 1:1-12"
+          "Exodus 19:3-6"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C02",
-        "statement": "God’s speeches widen Job’s perspective without giving him a simple causal formula for his suffering.",
+        "statement": "The Ten Commandments begin with God’s act of rescue and then set out covenant obligations.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Job 38:1-18; 42:1-6"
+          "Exodus 20:1-17"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C03",
-        "statement": "Taken together, these passages support the lesson’s big idea: Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
+        "statement": "Taken together, these passages support the lesson’s big idea: God formed rescued Israel into a covenant people with a way of life.",
         "classification": "canonical_synthesis",
         "evidence_refs": [
-          "Job 1:1-12",
-          "38:1-18",
-          "42:1-6"
+          "Exodus 19:1-8",
+          "20:1-17"
         ],
         "confidence": "High",
         "review_status": "draft"
@@ -72,34 +66,35 @@
     ],
     "doctrine_tags": [
       "sin",
-      "christology"
+      "covenant",
+      "salvation"
     ],
     "formation_tags": [
       "attention",
       "response"
     ],
-    "interpretation_skill": "Locate on timeline; read immediate context; identify genre; separate observation and application",
+    "interpretation_skill": "Retell sequence; identify cause and effect; connect to the big story without forced symbolism",
     "key_terms": [
-      "Suffering",
-      "Simple",
-      "Formula"
+      "Makes",
+      "Covenant",
+      "Sinai"
     ]
   },
   "learning": {
-    "foundation_objective": "Explain from the passage that job rejects the claim that every instance of suffering is direct punishment for personal sin and locate the lesson on the whole-Bible timeline.",
-    "extension_objective": "Identify the immediate context and genre, then distinguish what the text directly states from a reasonable inference and application.",
+    "foundation_objective": "Retell the main action in Exodus 19:1-8; 20:1-17 and state in simple language that god formed rescued israel into a covenant people with a way of life.",
+    "extension_objective": "Place this event in the Bible's big story and name one concrete way to trust, thank, obey, or care for others in response.",
     "know": [
-      "The principal passage is Job 1:1-12.",
-      "Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
-      "The lesson belongs in Wisdom and Worship."
+      "The principal passage is Exodus 19:1-8.",
+      "God formed rescued Israel into a covenant people with a way of life.",
+      "The lesson belongs in Exodus and Wilderness."
     ],
     "understand": [
-      "Genre matters: Wisdom literature.",
+      "Genre matters: Biblical narrative / law.",
       "Direct observation must remain distinct from interpretation, synthesis, and application."
     ],
     "practise": [
       "State at least one observation before interpretation.",
-      "Write one observation, one supported meaning, and one wise response from the passage."
+      "Name one way to trust God’s promise or care for someone this week."
     ],
     "become": [
       "A learner who reads Scripture carefully and responds with faithful trust, wisdom, worship, service, and love."
@@ -114,13 +109,13 @@
     "default_profile": "standard",
     "preparation_minutes": 30,
     "zero_prep_card": {
-      "objective": "Explain from the passage that job rejects the claim that every instance of suffering is direct punishment for personal sin and locate the lesson on the whole-Bible timeline.",
-      "read": "Job 1:1-12; 38:1-18; 42:1-6",
+      "objective": "Retell the main action in Exodus 19:1-8; 20:1-17 and state in simple language that god formed rescued israel into a covenant people with a way of life.",
+      "read": "Exodus 19:1-8; 20:1-17",
       "opening": "Ask: What does this passage actually say before we explain what it means?",
       "say": [
-        "The opening of Job explicitly presents Job as upright while also showing that his suffering is not explained to him as punishment for a secret sin.",
-        "God’s speeches widen Job’s perspective without giving him a simple causal formula for his suffering.",
-        "Taken together, these passages support the lesson’s big idea: Job rejects the claim that every instance of suffering is direct punishment for personal sin."
+        "God reminds Israel that He brought them out of Egypt before calling them to covenant obedience.",
+        "The Ten Commandments begin with God’s act of rescue and then set out covenant obligations.",
+        "Taken together, these passages support the lesson’s big idea: God formed rescued Israel into a covenant people with a way of life."
       ],
       "ask": [
         "What does the text directly say?",
@@ -128,26 +123,26 @@
         "What should we avoid overstating?",
         "What is one faithful response?"
       ],
-      "do": "Complete Job: Suffering Is Not a Simple Formula Evidence Grid.",
+      "do": "Complete God Makes a Covenant at Sinai Story Path.",
       "close": "Restate the big idea, name one faithful response, and pray.",
       "materials": [
         "Bible",
-        "Job: Suffering Is Not a Simple Formula Evidence Grid"
+        "God Makes a Covenant at Sinai Story Path"
       ]
     },
     "preparation": {
-      "passage_context": "Wisdom and Worship: Wisdom Literature within the Covenant, Kingdom, Wisdom, and Prophets cycle",
+      "passage_context": "Exodus and Wilderness: Covenant People within the God Keeps His Promises cycle",
       "text_observations": [
-        "The opening of Job explicitly presents Job as upright while also showing that his suffering is not explained to him as punishment for a secret sin.",
-        "God’s speeches widen Job’s perspective without giving him a simple causal formula for his suffering."
+        "God reminds Israel that He brought them out of Egypt before calling them to covenant obedience.",
+        "The Ten Commandments begin with God’s act of rescue and then set out covenant obligations."
       ],
       "interpretation_notes": [
         "Start with the selected passage before moving to synthesis or application.",
-        "Read this as Wisdom literature and account for its immediate literary setting.",
+        "Read this as Biblical narrative / law and account for its immediate literary setting.",
         "Distinguish direct text, canonical synthesis, inference, and application."
       ],
       "theological_guardrails": [
-        "Do not infer that suffering proves personal guilt or that a suffering student needs a hidden spiritual explanation.",
+        "Present obedience as response to God’s rescue, not a way to earn love. Do not teach children that every adult command must be obeyed when it is unsafe or wrong.",
         "Questions and disagreement may be expressed without embarrassment or coercion."
       ],
       "likely_questions": [
@@ -177,7 +172,7 @@
             "step_id": "E02",
             "minutes": 8,
             "label": "Read",
-            "instructions": "Read selected portions of Job 1:1-12 and identify direct observations.",
+            "instructions": "Read selected portions of Exodus 19:1-8 and identify direct observations.",
             "question_refs": [
               "Q01"
             ]
@@ -201,7 +196,7 @@
               "A01"
             ],
             "resource_refs": [
-              "Y2-L02-P01-command-choice-consequence-flow"
+              "K2-L05-P01-abraham-promise-map"
             ]
           },
           {
@@ -236,7 +231,7 @@
             "step_id": "S03",
             "minutes": 9,
             "label": "Read and observe",
-            "instructions": "Read selected portions of Job 1:1-12 and identify direct observations.",
+            "instructions": "Read selected portions of Exodus 19:1-8 and identify direct observations.",
             "question_refs": [
               "Q01"
             ]
@@ -260,7 +255,7 @@
               "A01"
             ],
             "resource_refs": [
-              "Y2-L02-P01-command-choice-consequence-flow"
+              "K2-L05-P01-abraham-promise-map"
             ]
           },
           {
@@ -295,7 +290,7 @@
             "step_id": "X03",
             "minutes": 10,
             "label": "Read closely",
-            "instructions": "Read selected portions of Job 1:1-12 and identify direct observations.",
+            "instructions": "Read selected portions of Exodus 19:1-8 and identify direct observations.",
             "question_refs": [
               "Q01"
             ]
@@ -319,7 +314,7 @@
               "A01"
             ],
             "resource_refs": [
-              "Y2-L02-P01-command-choice-consequence-flow"
+              "K2-L05-P01-abraham-promise-map"
             ]
           },
           {
@@ -377,16 +372,16 @@
     "activities": [
       {
         "activity_id": "A01",
-        "title": "Job: Suffering Is Not a Simple Formula Evidence Grid",
+        "title": "God Makes a Covenant at Sinai Story Path",
         "duration_minutes": 10,
         "materials": [
-          "Command / Choice / Consequence Flow",
+          "Abraham Promise Map",
           "Bible",
           "Pens or pencils"
         ],
         "steps": [
-          "Read Job 1:1-12 and record two direct observations.",
-          "Connect the observations to this big idea: Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
+          "Read Exodus 19:1-8 and record two direct observations.",
+          "Connect the observations to this big idea: God formed rescued Israel into a covenant people with a way of life.",
           "Name one faithful response without claiming more than the passage supports."
         ],
         "learning_link": "Makes evidence classification and formation visible.",
@@ -394,14 +389,14 @@
       },
       {
         "activity_id": "A02",
-        "title": "Job: Suffering Is Not a Simple Formula Evidence Grid",
+        "title": "God Makes a Covenant at Sinai Story Path",
         "duration_minutes": 8,
         "materials": [
           "Bible"
         ],
         "steps": [
-          "Read Job 1:1-12 and record two direct observations.",
-          "Connect the observations to this big idea: Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
+          "Read Exodus 19:1-8 and record two direct observations.",
+          "Connect the observations to this big idea: God formed rescued Israel into a covenant people with a way of life.",
           "Name one faithful response without claiming more than the passage supports."
         ],
         "learning_link": "Reinforces honest claim classification.",
@@ -409,43 +404,43 @@
       }
     ],
     "closing": {
-      "memory_reference": "Genesis 2:15-17",
+      "memory_reference": "Genesis 12:1-7",
       "prayer_prompt": "Thank God for what this passage reveals and ask for wisdom to respond faithfully.",
-      "take_home_line": "Job rejects the claim that every instance of suffering is direct punishment for personal sin."
+      "take_home_line": "God formed rescued Israel into a covenant people with a way of life."
     },
     "printable_refs": [
-      "Y2-L12-P01-job-suffering-is-not-a-simple-formula-evidence-grid"
+      "K2-L12-P01-god-makes-a-covenant-at-sinai-story-path"
     ]
   },
   "family": {
     "duration_minutes": 15,
-    "title": "Job: Suffering Is Not a Simple Formula",
+    "title": "God Makes a Covenant at Sinai",
     "parent_intro": "Start with the passage and keep direct text, explanation, and application distinct.",
     "flow": [
       {
         "duration_minutes": 2,
         "type": "connect",
-        "instructions": "Connect Job: Suffering Is Not a Simple Formula to the story already learned in Covenant, Kingdom, Wisdom, and Prophets."
+        "instructions": "Connect God Makes a Covenant at Sinai to the story already learned in God Keeps His Promises."
       },
       {
         "duration_minutes": 5,
         "type": "read",
-        "instructions": "Read selected portions of Job 1:1-12 and name direct observations."
+        "instructions": "Read selected portions of Exodus 19:1-8 and name direct observations."
       },
       {
         "duration_minutes": 3,
         "type": "understand",
-        "instructions": "Restate the big idea in your own words: Job rejects the claim that every instance of suffering is direct punishment for personal sin."
+        "instructions": "Restate the big idea in your own words: God formed rescued Israel into a covenant people with a way of life."
       },
       {
         "duration_minutes": 3,
         "type": "play",
-        "instructions": "Use Job: Suffering Is Not a Simple Formula Evidence Grid verbally or on paper."
+        "instructions": "Use God Makes a Covenant at Sinai Story Path verbally or on paper."
       },
       {
         "duration_minutes": 2,
         "type": "respond",
-        "instructions": "Write one observation, one supported meaning, and one wise response from the passage."
+        "instructions": "Name one way to trust God’s promise or care for someone this week."
       }
     ],
     "questions": [
@@ -455,10 +450,10 @@
     ],
     "interactive": {
       "type": "puzzle",
-      "title": "Job: Suffering Is Not a Simple Formula Evidence Grid",
+      "title": "God Makes a Covenant at Sinai Story Path",
       "instructions": "Use the resource to separate evidence, meaning, and response."
     },
-    "weekly_action": "Write one observation, one supported meaning, and one wise response from the passage.",
+    "weekly_action": "Name one way to trust God’s promise or care for someone this week.",
     "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
     "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
   },
@@ -466,17 +461,17 @@
     "quiz": [
       {
         "question_id": "Z01",
-        "question": "What principal evidence governs Job: Suffering Is Not a Simple Formula?",
+        "question": "What principal evidence governs God Makes a Covenant at Sinai?",
         "type": "multiple_choice",
         "options": [
-          "Job 1:1-12",
+          "Exodus 19:1-8",
           "A favourite slogan",
           "A local custom by itself",
           "The teacher’s preference"
         ],
         "answer": {
           "kind": "text",
-          "text": "Job 1:1-12"
+          "text": "Exodus 19:1-8"
         },
         "explanation": "The lesson is governed by its passage."
       },
@@ -498,7 +493,7 @@
       },
       {
         "question_id": "Z03",
-        "question": "The opening of Job explicitly presents Job as upright while also showing that his suffering is not explained to him as punishment for a secret sin.",
+        "question": "God reminds Israel that He brought them out of Egypt before calling them to covenant obedience.",
         "type": "true_false",
         "answer": {
           "kind": "boolean",
@@ -551,16 +546,16 @@
     },
     "printables": [
       {
-        "resource_id": "Y2-L12-P01-job-suffering-is-not-a-simple-formula-evidence-grid",
-        "title": "Job: Suffering Is Not a Simple Formula Evidence Grid",
-        "purpose": "Support the primary activity for Job: Suffering Is Not a Simple Formula.",
+        "resource_id": "K2-L12-P01-god-makes-a-covenant-at-sinai-story-path",
+        "title": "God Makes a Covenant at Sinai Story Path",
+        "purpose": "Support the primary activity for God Makes a Covenant at Sinai.",
         "format": "worksheet",
         "status": "content_source_draft"
       }
     ]
   },
   "accessibility": {
-    "reading_level": "Upper-primary guided reading with concrete supports",
+    "reading_level": "Teacher-read with short child responses",
     "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
     "neurodiversity_supports": [
       "Offer verbal or written responses.",
@@ -585,7 +580,7 @@
   },
   "editorial": {
     "source_provenance": [
-      "Job 1:1-12; 38:1-18; 42:1-6",
+      "Exodus 19:1-8; 20:1-17",
       "Canonical Curriculum Matrix v0.2",
       "Approved theological decision register",
       "Editorial synthesis for Content Production Batch 10"
@@ -594,7 +589,7 @@
       "D001"
     ],
     "review_flags": [
-      "DEV-YOUTH-SCAFFOLD"
+      "DEV-KIDS-SCAFFOLD"
     ],
     "review_state": {
       "exegetical": "in_review",
@@ -606,7 +601,7 @@
     "editor_notes": [
       "Draft for human review.",
       "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
-      "Do not infer that suffering proves personal guilt or that a suffering student needs a hidden spiritual explanation."
+      "Present obedience as response to God’s rescue, not a way to earn love. Do not teach children that every adult command must be obeyed when it is unsafe or wrong."
     ]
   }
 }

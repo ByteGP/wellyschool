@@ -1,105 +1,97 @@
 {
   "schema_version": "1.2.1",
-  "lesson_id": "Y2-L12",
+  "lesson_id": "T2-L08",
   "content_version": "0.2.0",
   "status": "in_review",
   "curriculum": {
-    "segment": "Youths",
-    "age_range": "9-12",
-    "cycle_id": "Y2",
-    "cycle_name": "Covenant, Kingdom, Wisdom, and Prophets",
-    "sequence": 12,
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T2",
+    "cycle_name": "Jesus, Gospel, and Salvation",
+    "sequence": 8,
     "unit_type": "Core",
     "scheduling_priority": "Required",
-    "title": "Job: Suffering Is Not a Simple Formula",
+    "title": "Reading Parables Responsibly",
     "annual_anchor": "thematic_development",
-    "thematic_unit": "Wisdom Literature"
+    "thematic_unit": "Reading Jesus"
   },
   "core": {
-    "big_idea": "Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
+    "big_idea": "Parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory.",
     "passages": [
       {
-        "reference": "Job 1:1-12",
+        "reference": "Matthew 13:1-23",
         "role": "primary",
         "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
       },
       {
-        "reference": "38:1-18",
-        "role": "supporting",
-        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
-      },
-      {
-        "reference": "42:1-6",
+        "reference": "Luke 15:1-32",
         "role": "supporting",
         "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
       }
     ],
-    "metanarrative_position": "Wisdom and Worship: Wisdom Literature within the Covenant, Kingdom, Wisdom, and Prophets cycle",
-    "biblical_genre": "Wisdom literature",
+    "metanarrative_position": "Jesus' ministry: Reading Jesus within the Jesus, Gospel, and Salvation cycle",
+    "biblical_genre": "Gospel narrative / teaching",
     "claims": [
       {
         "claim_id": "C01",
-        "statement": "The opening of Job explicitly presents Job as upright while also showing that his suffering is not explained to him as punishment for a secret sin.",
+        "statement": "Jesus gives the seed-and-soils parable in a setting where hearing and response are central, and He explains key elements to His disciples.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Job 1:1-12"
+          "Matthew 13:1-23"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C02",
-        "statement": "God’s speeches widen Job’s perspective without giving him a simple causal formula for his suffering.",
+        "statement": "Luke 15 addresses critics of Jesus welcoming sinners through a sequence of lost-and-found stories that culminates in the two sons.",
         "classification": "explicit_text",
         "evidence_refs": [
-          "Job 38:1-18; 42:1-6"
+          "Luke 15:1-32"
         ],
         "confidence": "High",
         "review_status": "draft"
       },
       {
         "claim_id": "C03",
-        "statement": "Taken together, these passages support the lesson’s big idea: Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
+        "statement": "Taken together, these passages support the lesson’s big idea: Parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory.",
         "classification": "canonical_synthesis",
         "evidence_refs": [
-          "Job 1:1-12",
-          "38:1-18",
-          "42:1-6"
+          "Matthew 13:1-23",
+          "Luke 15:1-32"
         ],
         "confidence": "High",
         "review_status": "draft"
       }
     ],
     "doctrine_tags": [
-      "sin",
-      "christology"
+      "eschatology"
     ],
     "formation_tags": [
-      "attention",
-      "response"
+      "study"
     ],
-    "interpretation_skill": "Locate on timeline; read immediate context; identify genre; separate observation and application",
+    "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, synthesis, inference, and application",
     "key_terms": [
-      "Suffering",
-      "Simple",
-      "Formula"
+      "Reading",
+      "Parables",
+      "Responsibly"
     ]
   },
   "learning": {
-    "foundation_objective": "Explain from the passage that job rejects the claim that every instance of suffering is direct punishment for personal sin and locate the lesson on the whole-Bible timeline.",
-    "extension_objective": "Identify the immediate context and genre, then distinguish what the text directly states from a reasonable inference and application.",
+    "foundation_objective": "Analyse the relevant text and explain the case that parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
     "know": [
-      "The principal passage is Job 1:1-12.",
-      "Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
-      "The lesson belongs in Wisdom and Worship."
+      "The principal passage is Matthew 13:1-23.",
+      "Parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory.",
+      "The lesson belongs in Jesus' ministry."
     ],
     "understand": [
-      "Genre matters: Wisdom literature.",
+      "Genre matters: Gospel narrative / teaching.",
       "Direct observation must remain distinct from interpretation, synthesis, and application."
     ],
     "practise": [
       "State at least one observation before interpretation.",
-      "Write one observation, one supported meaning, and one wise response from the passage."
+      "State one direct textual claim, one interpretive conclusion, and one responsible application from the lesson."
     ],
     "become": [
       "A learner who reads Scripture carefully and responds with faithful trust, wisdom, worship, service, and love."
@@ -114,13 +106,13 @@
     "default_profile": "standard",
     "preparation_minutes": 30,
     "zero_prep_card": {
-      "objective": "Explain from the passage that job rejects the claim that every instance of suffering is direct punishment for personal sin and locate the lesson on the whole-Bible timeline.",
-      "read": "Job 1:1-12; 38:1-18; 42:1-6",
+      "objective": "Analyse the relevant text and explain the case that parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory.",
+      "read": "Matthew 13:1-23; Luke 15:1-32",
       "opening": "Ask: What does this passage actually say before we explain what it means?",
       "say": [
-        "The opening of Job explicitly presents Job as upright while also showing that his suffering is not explained to him as punishment for a secret sin.",
-        "God’s speeches widen Job’s perspective without giving him a simple causal formula for his suffering.",
-        "Taken together, these passages support the lesson’s big idea: Job rejects the claim that every instance of suffering is direct punishment for personal sin."
+        "Jesus gives the seed-and-soils parable in a setting where hearing and response are central, and He explains key elements to His disciples.",
+        "Luke 15 addresses critics of Jesus welcoming sinners through a sequence of lost-and-found stories that culminates in the two sons.",
+        "Taken together, these passages support the lesson’s big idea: Parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory."
       ],
       "ask": [
         "What does the text directly say?",
@@ -128,26 +120,26 @@
         "What should we avoid overstating?",
         "What is one faithful response?"
       ],
-      "do": "Complete Job: Suffering Is Not a Simple Formula Evidence Grid.",
+      "do": "Complete Reading Parables Responsibly Claim Audit.",
       "close": "Restate the big idea, name one faithful response, and pray.",
       "materials": [
         "Bible",
-        "Job: Suffering Is Not a Simple Formula Evidence Grid"
+        "Reading Parables Responsibly Claim Audit"
       ]
     },
     "preparation": {
-      "passage_context": "Wisdom and Worship: Wisdom Literature within the Covenant, Kingdom, Wisdom, and Prophets cycle",
+      "passage_context": "Jesus' ministry: Reading Jesus within the Jesus, Gospel, and Salvation cycle",
       "text_observations": [
-        "The opening of Job explicitly presents Job as upright while also showing that his suffering is not explained to him as punishment for a secret sin.",
-        "God’s speeches widen Job’s perspective without giving him a simple causal formula for his suffering."
+        "Jesus gives the seed-and-soils parable in a setting where hearing and response are central, and He explains key elements to His disciples.",
+        "Luke 15 addresses critics of Jesus welcoming sinners through a sequence of lost-and-found stories that culminates in the two sons."
       ],
       "interpretation_notes": [
         "Start with the selected passage before moving to synthesis or application.",
-        "Read this as Wisdom literature and account for its immediate literary setting.",
+        "Read this as Gospel narrative / teaching and account for its immediate literary setting.",
         "Distinguish direct text, canonical synthesis, inference, and application."
       ],
       "theological_guardrails": [
-        "Do not infer that suffering proves personal guilt or that a suffering student needs a hidden spiritual explanation.",
+        "Do not force every narrative detail into an allegorical code. Judgment themes should be taught without speculative or graphic embellishment.",
         "Questions and disagreement may be expressed without embarrassment or coercion."
       ],
       "likely_questions": [
@@ -177,7 +169,7 @@
             "step_id": "E02",
             "minutes": 8,
             "label": "Read",
-            "instructions": "Read selected portions of Job 1:1-12 and identify direct observations.",
+            "instructions": "Read selected portions of Matthew 13:1-23 and identify direct observations.",
             "question_refs": [
               "Q01"
             ]
@@ -201,7 +193,7 @@
               "A01"
             ],
             "resource_refs": [
-              "Y2-L02-P01-command-choice-consequence-flow"
+              "T2-L02-P01-adam-christ-argument-map"
             ]
           },
           {
@@ -236,7 +228,7 @@
             "step_id": "S03",
             "minutes": 9,
             "label": "Read and observe",
-            "instructions": "Read selected portions of Job 1:1-12 and identify direct observations.",
+            "instructions": "Read selected portions of Matthew 13:1-23 and identify direct observations.",
             "question_refs": [
               "Q01"
             ]
@@ -260,7 +252,7 @@
               "A01"
             ],
             "resource_refs": [
-              "Y2-L02-P01-command-choice-consequence-flow"
+              "T2-L02-P01-adam-christ-argument-map"
             ]
           },
           {
@@ -295,7 +287,7 @@
             "step_id": "X03",
             "minutes": 10,
             "label": "Read closely",
-            "instructions": "Read selected portions of Job 1:1-12 and identify direct observations.",
+            "instructions": "Read selected portions of Matthew 13:1-23 and identify direct observations.",
             "question_refs": [
               "Q01"
             ]
@@ -319,7 +311,7 @@
               "A01"
             ],
             "resource_refs": [
-              "Y2-L02-P01-command-choice-consequence-flow"
+              "T2-L02-P01-adam-christ-argument-map"
             ]
           },
           {
@@ -377,16 +369,16 @@
     "activities": [
       {
         "activity_id": "A01",
-        "title": "Job: Suffering Is Not a Simple Formula Evidence Grid",
+        "title": "Reading Parables Responsibly Claim Audit",
         "duration_minutes": 10,
         "materials": [
-          "Command / Choice / Consequence Flow",
+          "Adam / Christ Argument Map",
           "Bible",
           "Pens or pencils"
         ],
         "steps": [
-          "Read Job 1:1-12 and record two direct observations.",
-          "Connect the observations to this big idea: Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
+          "Read Matthew 13:1-23 and record two direct observations.",
+          "Connect the observations to this big idea: Parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory.",
           "Name one faithful response without claiming more than the passage supports."
         ],
         "learning_link": "Makes evidence classification and formation visible.",
@@ -394,14 +386,14 @@
       },
       {
         "activity_id": "A02",
-        "title": "Job: Suffering Is Not a Simple Formula Evidence Grid",
+        "title": "Reading Parables Responsibly Claim Audit",
         "duration_minutes": 8,
         "materials": [
           "Bible"
         ],
         "steps": [
-          "Read Job 1:1-12 and record two direct observations.",
-          "Connect the observations to this big idea: Job rejects the claim that every instance of suffering is direct punishment for personal sin.",
+          "Read Matthew 13:1-23 and record two direct observations.",
+          "Connect the observations to this big idea: Parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory.",
           "Name one faithful response without claiming more than the passage supports."
         ],
         "learning_link": "Reinforces honest claim classification.",
@@ -409,43 +401,43 @@
       }
     ],
     "closing": {
-      "memory_reference": "Genesis 2:15-17",
+      "memory_reference": "Genesis 3:1-24",
       "prayer_prompt": "Thank God for what this passage reveals and ask for wisdom to respond faithfully.",
-      "take_home_line": "Job rejects the claim that every instance of suffering is direct punishment for personal sin."
+      "take_home_line": "Parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory."
     },
     "printable_refs": [
-      "Y2-L12-P01-job-suffering-is-not-a-simple-formula-evidence-grid"
+      "T2-L08-P01-reading-parables-responsibly-claim-audit"
     ]
   },
   "family": {
     "duration_minutes": 15,
-    "title": "Job: Suffering Is Not a Simple Formula",
+    "title": "Reading Parables Responsibly",
     "parent_intro": "Start with the passage and keep direct text, explanation, and application distinct.",
     "flow": [
       {
         "duration_minutes": 2,
         "type": "connect",
-        "instructions": "Connect Job: Suffering Is Not a Simple Formula to the story already learned in Covenant, Kingdom, Wisdom, and Prophets."
+        "instructions": "Connect Reading Parables Responsibly to the story already learned in Jesus, Gospel, and Salvation."
       },
       {
         "duration_minutes": 5,
         "type": "read",
-        "instructions": "Read selected portions of Job 1:1-12 and name direct observations."
+        "instructions": "Read selected portions of Matthew 13:1-23 and name direct observations."
       },
       {
         "duration_minutes": 3,
         "type": "understand",
-        "instructions": "Restate the big idea in your own words: Job rejects the claim that every instance of suffering is direct punishment for personal sin."
+        "instructions": "Restate the big idea in your own words: Parables address particular hearers, provoke judgment, and resist simplistic one-to-one allegory."
       },
       {
         "duration_minutes": 3,
         "type": "play",
-        "instructions": "Use Job: Suffering Is Not a Simple Formula Evidence Grid verbally or on paper."
+        "instructions": "Use Reading Parables Responsibly Claim Audit verbally or on paper."
       },
       {
         "duration_minutes": 2,
         "type": "respond",
-        "instructions": "Write one observation, one supported meaning, and one wise response from the passage."
+        "instructions": "State one direct textual claim, one interpretive conclusion, and one responsible application from the lesson."
       }
     ],
     "questions": [
@@ -455,10 +447,10 @@
     ],
     "interactive": {
       "type": "puzzle",
-      "title": "Job: Suffering Is Not a Simple Formula Evidence Grid",
+      "title": "Reading Parables Responsibly Claim Audit",
       "instructions": "Use the resource to separate evidence, meaning, and response."
     },
-    "weekly_action": "Write one observation, one supported meaning, and one wise response from the passage.",
+    "weekly_action": "State one direct textual claim, one interpretive conclusion, and one responsible application from the lesson.",
     "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
     "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
   },
@@ -466,17 +458,17 @@
     "quiz": [
       {
         "question_id": "Z01",
-        "question": "What principal evidence governs Job: Suffering Is Not a Simple Formula?",
+        "question": "What principal evidence governs Reading Parables Responsibly?",
         "type": "multiple_choice",
         "options": [
-          "Job 1:1-12",
+          "Matthew 13:1-23",
           "A favourite slogan",
           "A local custom by itself",
           "The teacher’s preference"
         ],
         "answer": {
           "kind": "text",
-          "text": "Job 1:1-12"
+          "text": "Matthew 13:1-23"
         },
         "explanation": "The lesson is governed by its passage."
       },
@@ -498,7 +490,7 @@
       },
       {
         "question_id": "Z03",
-        "question": "The opening of Job explicitly presents Job as upright while also showing that his suffering is not explained to him as punishment for a secret sin.",
+        "question": "Jesus gives the seed-and-soils parable in a setting where hearing and response are central, and He explains key elements to His disciples.",
         "type": "true_false",
         "answer": {
           "kind": "boolean",
@@ -551,16 +543,16 @@
     },
     "printables": [
       {
-        "resource_id": "Y2-L12-P01-job-suffering-is-not-a-simple-formula-evidence-grid",
-        "title": "Job: Suffering Is Not a Simple Formula Evidence Grid",
-        "purpose": "Support the primary activity for Job: Suffering Is Not a Simple Formula.",
+        "resource_id": "T2-L08-P01-reading-parables-responsibly-claim-audit",
+        "title": "Reading Parables Responsibly Claim Audit",
+        "purpose": "Support the primary activity for Reading Parables Responsibly.",
         "format": "worksheet",
         "status": "content_source_draft"
       }
     ]
   },
   "accessibility": {
-    "reading_level": "Upper-primary guided reading with concrete supports",
+    "reading_level": "Teen independent or guided close reading",
     "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
     "neurodiversity_supports": [
       "Offer verbal or written responses.",
@@ -575,7 +567,9 @@
     ]
   },
   "safeguarding": {
-    "sensitivity_tags": [],
+    "sensitivity_tags": [
+      "Judgment/hell"
+    ],
     "do_not_ask": [
       "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
       "Do not pressure a child or young person toward baptism, public prayer, or another public response."
@@ -585,7 +579,7 @@
   },
   "editorial": {
     "source_provenance": [
-      "Job 1:1-12; 38:1-18; 42:1-6",
+      "Matthew 13:1-23; Luke 15:1-32",
       "Canonical Curriculum Matrix v0.2",
       "Approved theological decision register",
       "Editorial synthesis for Content Production Batch 10"
@@ -594,19 +588,19 @@
       "D001"
     ],
     "review_flags": [
-      "DEV-YOUTH-SCAFFOLD"
+      "TH-ESCHATOLOGY"
     ],
     "review_state": {
       "exegetical": "in_review",
       "developmental": "in_review",
-      "pastoral": "not_required",
+      "pastoral": "in_review",
       "copy": "in_review"
     },
     "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
     "editor_notes": [
       "Draft for human review.",
       "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
-      "Do not infer that suffering proves personal guilt or that a suffering student needs a hidden spiritual explanation."
+      "Do not force every narrative detail into an allegorical code. Judgment themes should be taught without speculative or graphic embellishment."
     ]
   }
 }
