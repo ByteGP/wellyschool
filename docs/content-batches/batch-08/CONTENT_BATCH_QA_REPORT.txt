@@ -1,0 +1,24 @@
+Content Production Batch 08 QA Report
+
+Schema: /mnt/data/claude_code_web_mvp_build_pack_v1_0/starter/src/schemas/lesson.schema.json
+Validator: Draft 2020-12
+Custom regression gates: matching=>choices required; framework_position=>interpretive_hinge required
+
+K1-L27: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(1 claims) overall=PASS
+K1-L28: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(2 claims) overall=PASS
+K1-L29: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(0 claims) overall=PASS
+K1-L30: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(2 claims) overall=PASS
+Y1-L27: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(1 claims) overall=PASS
+Y1-L28: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(2 claims) overall=PASS
+Y1-L29: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(0 claims) overall=PASS
+Y1-L30: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(2 claims) overall=PASS
+T1-L27: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(1 claims) overall=PASS
+T1-L28: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(2 claims) overall=PASS
+T1-L29: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(0 claims) overall=PASS
+T1-L30: schema=PASS custom=PASS profiles=PASS(25/25,40/40,55/55) family=PASS(15/15) resource_ref=PASS matching_choices=PASS framework_hinges=PASS(2 claims) overall=PASS
+
+Lessons validated: 12
+Schema errors: 0
+Custom regression failures: 0
+Cross-field failures: 0
+Overall: PASS

@@ -1,0 +1,45 @@
+{
+  "version": "0.1",
+  "patches": [
+    {
+      "lesson_id": "K1-L30",
+      "issue": "TH-BIBLIOLOGY is attached to a generic local/seasonal flex template before any passage is selected; review should be assigned after the actual local lesson topic/passage is chosen.",
+      "suggested_change": {
+        "theological_review_flag": ""
+      },
+      "identity_fields_changed": false
+    },
+    {
+      "lesson_id": "Y1-L30",
+      "issue": "TH-BIBLIOLOGY is attached to a generic local/seasonal flex template before any passage is selected; review should follow the actual selected content.",
+      "suggested_change": {
+        "theological_review_flag": ""
+      },
+      "identity_fields_changed": false
+    },
+    {
+      "lesson_id": "T1-L28",
+      "issue": "TH-BIBLIOLOGY is preassigned to a catch-up flex template even though the actual review domain depends on the lesson selected for catch-up.",
+      "suggested_change": {
+        "theological_review_flag": ""
+      },
+      "identity_fields_changed": false
+    },
+    {
+      "lesson_id": "T1-L29",
+      "issue": "TH-BIBLIOLOGY is preassigned to a prayer/service flex despite the default content being formation/ethics rather than bibliology.",
+      "suggested_change": {
+        "theological_review_flag": ""
+      },
+      "identity_fields_changed": false
+    },
+    {
+      "lesson_id": "T1-L30",
+      "issue": "TH-BIBLIOLOGY is preassigned to a local/seasonal flex before its passage/topic exists.",
+      "suggested_change": {
+        "theological_review_flag": ""
+      },
+      "identity_fields_changed": false
+    }
+  ]
+}

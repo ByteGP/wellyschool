@@ -1,0 +1,638 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T1-L27",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T1",
+    "cycle_name": "Scripture and the Big Story",
+    "sequence": 27,
+    "unit_type": "Synthesis",
+    "scheduling_priority": "Recommended",
+    "title": "Scripture and the Big Story: Know, Understand, Practise, Become",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Synthesis"
+  },
+  "core": {
+    "big_idea": "Learning is integrated with worship, character, relationships, service, and continued growth.",
+    "passages": [
+      {
+        "reference": "Genesis 1:26-31",
+        "role": "primary",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Genesis 12:1-3",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Jeremiah 31:31-34",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Luke 24:44-49",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Acts 2:42-47",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Revelation 21:1-5",
+        "role": "supporting",
+        "reading_note": "Read in context; use age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Cycle 1 capstone integrates biblical interpretation with worship, character, relationships, service, and ongoing independent growth.",
+    "biblical_genre": "Whole-Bible synthesis / formation review",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Creation, promise, new-covenant hope, Messiah, church, and new creation are connected movements in the canonical story.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Genesis 1:26-31",
+          "Genesis 12:1-3",
+          "Jeremiah 31:31-34",
+          "Luke 24:44-49",
+          "Acts 2:42-47",
+          "Revelation 21:1-5"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Luke 24 explicitly connects the Scriptures with the Messiah’s suffering, resurrection, and proclamation to the nations.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Luke 24:44-49"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The project’s Know / Understand / Practise / Become framework is a pedagogical synthesis intended to connect learning with formation; it is not itself an inspired biblical formula.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Canonical Curriculum Matrix v0.2",
+          "Acts 2:42-47"
+        ],
+        "confidence": "Medium",
+        "review_status": "review_required",
+        "interpretive_hinge": "This is a curriculum-framework conclusion: it follows from the canonical matrix design and the project rule that approved biblical content remains governed by Scripture and review, rather than from a verse explicitly commanding this scheduling structure.",
+        "prohibited_overstatement": "Do not present this curriculum-design conclusion as though Scripture directly commands this particular lesson architecture or calendar slot."
+      }
+    ],
+    "doctrine_tags": [
+      "worship",
+      "scripture"
+    ],
+    "formation_tags": [
+      "worship",
+      "service"
+    ],
+    "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, synthesis, inference, and application",
+    "key_terms": [
+      "metanarrative",
+      "evidence",
+      "formation",
+      "interpretation",
+      "application"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse the relevant text and explain the case that learning is integrated with worship, character, relationships, service, and continued growth.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
+    "know": [
+      "The principal passage or required editor selection is Genesis 1:26-31.",
+      "Learning is integrated with worship, character, relationships, service, and continued growth.",
+      "The lesson belongs within the wider Cycle 1 structure."
+    ],
+    "understand": [
+      "Meaning depends on immediate context, genre, and the evidence actually available.",
+      "Direct textual observation should remain distinguishable from synthesis, inference, framework design, prudential judgment, and application."
+    ],
+    "practise": [
+      "State at least one observation before giving an interpretation.",
+      "Write a short Cycle 1 reflection naming one conviction strengthened by evidence, one practice to continue, and one question still worth studying."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with trust, wisdom, worship, service, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage or synthesis.",
+      "Student can support the big idea with the appropriate evidence class.",
+      "Student can distinguish at least one observation from one interpretation, framework choice, prudential decision, or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Analyse the relevant text and explain the case that learning is integrated with worship, character, relationships, service, and continued growth.",
+      "read": "Selected passages from the cycle",
+      "opening": "Ask: What evidence governs this lesson, and what must the editor or student not pretend the evidence says?",
+      "say": [
+        "Creation, promise, new-covenant hope, Messiah, church, and new creation are connected movements in the canonical story.",
+        "Luke 24 explicitly connects the Scriptures with the Messiah’s suffering, resurrection, and proclamation to the nations.",
+        "The project’s Know / Understand / Practise / Become framework is a pedagogical synthesis intended to connect learning with formation; it is not itself an inspired biblical formula."
+      ],
+      "ask": [
+        "What can you point to directly in the passage or curriculum record?",
+        "How does the big idea arise from the evidence?",
+        "What would be an overstatement?",
+        "What response fits the evidence?"
+      ],
+      "do": "Complete the Cycle 1 Capstone Evidence Map activity.",
+      "close": "Pray using one truth from the selected passage and one faithful response.",
+      "materials": [
+        "Bible",
+        "Cycle 1 Capstone Evidence Map"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Cycle 1 capstone integrates biblical interpretation with worship, character, relationships, service, and ongoing independent growth.",
+      "text_observations": [
+        "Luke 24 explicitly connects the Scriptures with the Messiah’s suffering, resurrection, and proclamation to the nations.",
+        "Creation, promise, new-covenant hope, Messiah, church, and new creation are connected movements in the canonical story.",
+        "Luke 24 explicitly connects the Scriptures with the Messiah’s suffering, resurrection, and proclamation to the nations."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis or application.",
+        "Keep genre, audience, historical setting, and literary context visible.",
+        "For flex templates, distinguish curriculum-framework decisions from biblical claims.",
+        "Label framework positions and prudential judgments rather than presenting them as quotations from Scripture."
+      ],
+      "theological_guardrails": [
+        "Do not reward students for overstating certainty.",
+        "Do not present the pedagogical framework as biblical terminology.",
+        "Make room for unresolved questions and identify what evidence would be needed to investigate them."
+      ],
+      "likely_questions": [
+        {
+          "question": "What does this evidence directly settle?",
+          "purpose": "Identify the strongest direct textual or curriculum evidence."
+        },
+        {
+          "question": "What still requires selection, synthesis, inference, prudence, or humility?",
+          "purpose": "Prevent overclaiming and keep flex use governed."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 1 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read the principal passage and name direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L27-P01-cycle-1-capstone-evidence-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 1 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read the principal passage and distinguish observation from explanation.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L27-P01-cycle-1-capstone-evidence-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 1 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read closely, noting structure, repeated language, and major claims.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T1-L27-P01-cycle-1-capstone-evidence-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage or curriculum record directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one thing you can point to in the evidence.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "How does the big idea arise from the evidence?",
+        "purpose": "Connect evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "What should we avoid claiming?",
+        "purpose": "Practice interpretive restraint.",
+        "foundation_prompt": "Name one detail the evidence does not say.",
+        "extension_prompt": "Which claims require passage selection, canonical synthesis, historical evidence, or prudential judgment?"
+      },
+      {
+        "question_id": "Q04",
+        "question": "What is one faithful response to this lesson?",
+        "purpose": "Move from understanding to formation.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence rather than merely sounding religious."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Cycle 1 Capstone Evidence Map",
+        "duration_minutes": 10,
+        "materials": [
+          "Cycle 1 Capstone Evidence Map",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read the selected evidence and record direct observations.",
+          "Place observations, interpretations, framework choices, or prudential applications into the resource categories.",
+          "Discuss which conclusions require more than direct textual wording.",
+          "Write one careful response that follows from the evidence."
+        ],
+        "learning_link": "Makes the lesson’s evidence classification and formation aim visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete the exercise verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Evidence Class Check",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read several statements connected to the lesson.",
+          "Classify each as text observation, synthesis, framework choice, prudential judgment, or application.",
+          "Return to the evidence and justify each classification."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses instead of written cards."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 1:26-31",
+      "prayer_prompt": "Thank God for what the selected passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "Learning is integrated with worship, character, relationships, service, and continued growth."
+    },
+    "printable_refs": [
+      "T1-L27-P01-cycle-1-capstone-evidence-map"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Scripture and the Big Story: Know, Understand, Practise, Become",
+    "parent_intro": "Start with the selected passage. For a flex template, do not use the lesson until the editor has selected and reviewed the passage.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect this lesson to something already learned in Cycle 1."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read selected portions of Genesis 1:26-31 and name direct observations. If this is a flex template, the editor must replace the placeholder with the approved passage before publication."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: Learning is integrated with worship, character, relationships, service, and continued growth."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Cycle 1 Capstone Evidence Map resource verbally, on paper, or with the provided worksheet."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Write a short Cycle 1 reflection naming one conviction strengthened by evidence, one practice to continue, and one question still worth studying."
+      }
+    ],
+    "questions": [
+      "What does the passage or lesson evidence directly say?",
+      "What meaning or principle follows from it?",
+      "What is one response we can practise this week?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Cycle 1 Capstone Evidence Map",
+      "instructions": "Use the resource to separate evidence, meaning, and response in an age-appropriate way."
+    },
+    "weekly_action": "Write a short Cycle 1 reflection naming one conviction strengthened by evidence, one practice to continue, and one question still worth studying.",
+    "prayer": "Thank God for what the selected passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, giving, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "What evidence governs Scripture and the Big Story: Know, Understand, Practise, Become?",
+        "type": "multiple_choice",
+        "options": [
+          "Genesis 1:26-31",
+          "A favourite slogan",
+          "A local custom by itself",
+          "The teacher’s preference"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Genesis 1:26-31"
+        },
+        "explanation": "The lesson is governed by its selected passage or explicit curriculum-design evidence."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which comes first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "Modern analogy",
+          "A preferred conclusion"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe what the evidence says before moving to interpretation or application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Creation, promise, new-covenant hope, Messiah, church, and new creation are connected movements in the canonical story.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This statement is supported by the evidence and classification listed in the lesson."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should a curriculum framework choice be described as an explicit Bible command when Scripture does not directly command that framework?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Framework choices and prudential judgments must be labelled honestly."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Text, Meaning, Practice Match",
+      "instructions": "Match each label to the best description.",
+      "items": [
+        "Text",
+        "Meaning",
+        "Practice"
+      ],
+      "choices": [
+        "What the passage directly says",
+        "What the evidence supports us concluding",
+        "A faithful response to the text"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Text",
+            "answer": "What the passage directly says"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports us concluding"
+          },
+          {
+            "prompt": "Practice",
+            "answer": "A faithful response to the text"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T1-L27-P01-cycle-1-capstone-evidence-map",
+        "title": "Cycle 1 Capstone Evidence Map",
+        "purpose": "Support the primary activity for Scripture and the Big Story: Know, Understand, Practise, Become.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen independent or guided close reading",
+    "plain_language_rule": "Define unfamiliar terms before using theological or curriculum shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written response options.",
+      "Preview the activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read the passage aloud and use icons, sequence cards, oral choices, or a scribe where helpful."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, giving amounts, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, giving, or another public response."
+    ],
+    "teacher_response": "Answer from the selected evidence, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Selected passages from the cycle",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 08"
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [
+      "TH-BIBLIOLOGY"
+    ],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review. Flex templates must not be published until the editor-selected passage/topic is completed and reviewed.",
+      "Regression gates: matching puzzle choices required; framework_position interpretive_hinge required."
+    ]
+  }
+}
