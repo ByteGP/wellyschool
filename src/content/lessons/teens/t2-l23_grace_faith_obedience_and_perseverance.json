@@ -1,0 +1,611 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T2-L23",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T2",
+    "cycle_name": "Jesus, Gospel, and Salvation",
+    "sequence": 23,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Grace, Faith, Obedience, and Perseverance",
+    "annual_anchor": "gospel_response_and_church",
+    "thematic_unit": "Christian Life"
+  },
+  "core": {
+    "big_idea": "Salvation is God's gift that creates obedient life and calls believers to enduring faithfulness.",
+    "passages": [
+      {
+        "reference": "Ephesians 2:1-10",
+        "role": "primary",
+        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "James 2:14-26",
+        "role": "supporting",
+        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "Hebrews 10:19-39",
+        "role": "supporting",
+        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Apostolic churches: Christian Life within the Jesus, Gospel, and Salvation cycle",
+    "biblical_genre": "Epistle",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Ephesians describes salvation as God’s gracious gift received through faith and says believers are created in Christ for good works.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Ephesians 2:1-10"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "James rejects a claim to faith that produces no works, while Hebrews calls believers to confidence, endurance, and continued faithfulness.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "James 2:14-26; Hebrews 10:19-39"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Taken together, these passages support the lesson’s big idea: Salvation is God's gift that creates obedient life and calls believers to enduring faithfulness.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Ephesians 2:1-10",
+          "James 2:14-26",
+          "Hebrews 10:19-39"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "salvation"
+    ],
+    "formation_tags": [
+      "trust"
+    ],
+    "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, synthesis, inference, and application",
+    "key_terms": [
+      "Grace",
+      "Faith",
+      "Obedience",
+      "Perseverance"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse the relevant text and explain the case that salvation is god's gift that creates obedient life and calls believers to enduring faithfulness.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
+    "know": [
+      "The principal passage is Ephesians 2:1-10.",
+      "Salvation is God's gift that creates obedient life and calls believers to enduring faithfulness.",
+      "The lesson belongs in Apostolic churches."
+    ],
+    "understand": [
+      "Genre matters: Epistle.",
+      "Direct observation must remain distinct from interpretation, synthesis, and application."
+    ],
+    "practise": [
+      "State at least one observation before interpretation.",
+      "State one direct textual claim, one interpretive conclusion, and one responsible application from the lesson."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with faithful trust, wisdom, worship, service, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Analyse the relevant text and explain the case that salvation is god's gift that creates obedient life and calls believers to enduring faithfulness.",
+      "read": "Ephesians 2:1-10; James 2:14-26; Hebrews 10:19-39",
+      "opening": "Ask: What does this passage actually say before we explain what it means?",
+      "say": [
+        "Ephesians describes salvation as God’s gracious gift received through faith and says believers are created in Christ for good works.",
+        "James rejects a claim to faith that produces no works, while Hebrews calls believers to confidence, endurance, and continued faithfulness.",
+        "Taken together, these passages support the lesson’s big idea: Salvation is God's gift that creates obedient life and calls believers to enduring faithfulness."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires synthesis or inference?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete Grace, Faith, Obedience, and Perseverance Claim Audit.",
+      "close": "Restate the big idea, name one faithful response, and pray.",
+      "materials": [
+        "Bible",
+        "Grace, Faith, Obedience, and Perseverance Claim Audit"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Apostolic churches: Christian Life within the Jesus, Gospel, and Salvation cycle",
+      "text_observations": [
+        "Ephesians describes salvation as God’s gracious gift received through faith and says believers are created in Christ for good works.",
+        "James rejects a claim to faith that produces no works, while Hebrews calls believers to confidence, endurance, and continued faithfulness."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis or application.",
+        "Read this as Epistle and account for its immediate literary setting.",
+        "Distinguish direct text, canonical synthesis, inference, and application."
+      ],
+      "theological_guardrails": [
+        "Hold grace, living faith, obedience, assurance, warnings, and perseverance together. Do not teach salvation as earned performance or use warning passages to create chronic fear in conscientious students.",
+        "Questions and disagreement may be expressed without embarrassment or coercion."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of Ephesians 2:1-10 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T2-L02-P01-adam-christ-argument-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read selected portions of Ephesians 2:1-10 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T2-L02-P01-adam-christ-argument-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read selected portions of Ephesians 2:1-10 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T2-L02-P01-adam-christ-argument-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say, what conclusion follows, and what should we avoid overstating?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "What does the passage directly say, what conclusion follows, and what should we avoid overstating?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "What does the passage directly say, what conclusion follows, and what should we avoid overstating?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What does the passage directly say, what conclusion follows, and what should we avoid overstating?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Grace, Faith, Obedience, and Perseverance Claim Audit",
+        "duration_minutes": 10,
+        "materials": [
+          "Adam / Christ Argument Map",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read Ephesians 2:1-10 and record two direct observations.",
+          "Connect the observations to this big idea: Salvation is God's gift that creates obedient life and calls believers to enduring faithfulness.",
+          "Name one faithful response without claiming more than the passage supports."
+        ],
+        "learning_link": "Makes evidence classification and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Grace, Faith, Obedience, and Perseverance Claim Audit",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read Ephesians 2:1-10 and record two direct observations.",
+          "Connect the observations to this big idea: Salvation is God's gift that creates obedient life and calls believers to enduring faithfulness.",
+          "Name one faithful response without claiming more than the passage supports."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 3:1-24",
+      "prayer_prompt": "Thank God for what this passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "Salvation is God's gift that creates obedient life and calls believers to enduring faithfulness."
+    },
+    "printable_refs": [
+      "T2-L23-P01-grace-faith-obedience-and-perseverance-claim-audit"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Grace, Faith, Obedience, and Perseverance",
+    "parent_intro": "Start with the passage and keep direct text, explanation, and application distinct.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect Grace, Faith, Obedience, and Perseverance to the story already learned in Jesus, Gospel, and Salvation."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read selected portions of Ephesians 2:1-10 and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: Salvation is God's gift that creates obedient life and calls believers to enduring faithfulness."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use Grace, Faith, Obedience, and Perseverance Claim Audit verbally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "State one direct textual claim, one interpretive conclusion, and one responsible application from the lesson."
+      }
+    ],
+    "questions": [
+      "What does the passage directly say?",
+      "What meaning follows from it?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Grace, Faith, Obedience, and Perseverance Claim Audit",
+      "instructions": "Use the resource to separate evidence, meaning, and response."
+    },
+    "weekly_action": "State one direct textual claim, one interpretive conclusion, and one responsible application from the lesson.",
+    "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "What principal evidence governs Grace, Faith, Obedience, and Perseverance?",
+        "type": "multiple_choice",
+        "options": [
+          "Ephesians 2:1-10",
+          "A favourite slogan",
+          "A local custom by itself",
+          "The teacher’s preference"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Ephesians 2:1-10"
+        },
+        "explanation": "The lesson is governed by its passage."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which comes first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "Modern analogy",
+          "A preferred conclusion"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe before interpretation or application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Ephesians describes salvation as God’s gracious gift received through faith and says believers are created in Christ for good works.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This statement is supported by the lesson evidence."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference be described as explicit text when the passage does not state it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Inference and direct wording must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Text, Meaning, Practice Match",
+      "instructions": "Match each label to the best description.",
+      "items": [
+        "Text",
+        "Meaning",
+        "Practice"
+      ],
+      "choices": [
+        "What the passage directly says",
+        "What the evidence supports us concluding",
+        "A faithful response to the text"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Text",
+            "answer": "What the passage directly says"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports us concluding"
+          },
+          {
+            "prompt": "Practice",
+            "answer": "A faithful response to the text"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T2-L23-P01-grace-faith-obedience-and-perseverance-claim-audit",
+        "title": "Grace, Faith, Obedience, and Perseverance Claim Audit",
+        "purpose": "Support the primary activity for Grace, Faith, Obedience, and Perseverance.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen independent or guided close reading",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Answer from the evidence, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Ephesians 2:1-10; James 2:14-26; Hebrews 10:19-39",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 12"
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [
+      "TH-SALVATION"
+    ],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
+      "Hold grace, living faith, obedience, assurance, warnings, and perseverance together. Do not teach salvation as earned performance or use warning passages to create chronic fear in conscientious students."
+    ]
+  }
+}
