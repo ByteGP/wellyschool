@@ -129,7 +129,7 @@ const primaryPassages = vm.passages.map((passage) => passage.reference).join('; 
     </div>
   </details>
 
-  <details class="section">
+  <details class="section" id="prepare">
     <summary>Prepare before class (optional, about {vm.teacher.preparation_minutes} minutes)</summary>
     <div class="section-body">
       <h3>Passage context</h3>
@@ -189,4 +189,19 @@ const primaryPassages = vm.passages.map((passage) => passage.reference).join('; 
       Print this lesson
     </a>
   </section>
+
+  <script>
+    // Deep link support: a calendar reminder can link straight to the Prepare
+    // section with #prepare. Open the (collapsed) details and scroll to it.
+    function revealPrepareFromHash() {
+      if (window.location.hash !== '#prepare') return;
+      const section = document.getElementById('prepare');
+      if (section instanceof HTMLDetailsElement) {
+        section.open = true;
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+    revealPrepareFromHash();
+    window.addEventListener('hashchange', revealPrepareFromHash);
+  </script>
 </BaseLayout>
