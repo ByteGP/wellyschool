@@ -6,6 +6,7 @@ import {
   getPublicLessons,
   getPublicLessonsBySegment,
   getResourceById,
+  getEffectiveSchedule,
   getScheduleEntries,
   getSiteSettings,
 } from '../../src/lib/content/loader';
@@ -63,10 +64,22 @@ describe('content loader (real repository content)', () => {
     expect(getLessonById('Y2-L12')?.curriculum.segment).toBe('Youths');
   });
 
-  it('loads placeholder schedule entries as drafts only', () => {
-    const entries = getScheduleEntries();
-    expect(entries.length).toBeGreaterThan(0);
-    expect(entries.every((entry) => entry.status === 'draft')).toBe(true);
+  it('has no explicit schedule override files by default (schedule is generated)', () => {
+    // Term dates auto-generate the schedule (ADR-013); explicit entries are only
+    // for special Sundays / manual swaps, of which there are none in the repo.
+    expect(getScheduleEntries()).toHaveLength(0);
+  });
+
+  it('generates a term-driven schedule that assigns lessons and marks breaks', () => {
+    const entries = getEffectiveSchedule('preview');
+    const kidsLessons = entries.filter((e) => e.segment === 'Kids' && e.entry_type === 'lesson');
+    const kidsBreaks = entries.filter((e) => e.segment === 'Kids' && e.entry_type === 'break');
+    // Every Kids lesson is placed on a Sunday, and holiday Sundays become breaks.
+    expect(kidsLessons.length).toBeGreaterThan(0);
+    expect(kidsBreaks.length).toBeGreaterThan(0);
+    expect(entries.every((e) => /^\d{4}-\d{2}-\d{2}$/.test(e.date))).toBe(true);
+    // Generated entries are approved so they drive selection in both modes.
+    expect(entries.every((e) => e.status === 'approved')).toBe(true);
   });
 
   it('loads site settings with the locked timezone', () => {

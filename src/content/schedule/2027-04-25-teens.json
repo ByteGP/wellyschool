@@ -1,9 +1,0 @@
-{
-  "schedule_id": "2027-04-25-teens",
-  "date": "2027-04-25",
-  "segment": "Teens",
-  "entry_type": "lesson",
-  "status": "draft",
-  "notes": "Placeholder pilot schedule aligned to Wellington school terms. Replace via Decap once the church calendar is approved (ADR-011).",
-  "lesson_id": "T1-L25"
-}

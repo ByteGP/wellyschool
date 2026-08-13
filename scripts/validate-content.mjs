@@ -170,6 +170,31 @@ else {
   if (!validateSettingsSchema(settings)) add(`${rel(settingsFile)}: ${ajv.errorsText(validateSettingsSchema.errors, { separator: '; ' })}`);
 }
 
+// Term settings (ADR-013): school terms drive the auto-generated schedule.
+const termSchema = readJson(path.join(root, 'src/schemas/term-settings.schema.json'));
+const validateTermSchema = ajv.compile(termSchema);
+const termsFile = path.join(root, 'src/content/settings/terms.json');
+if (!fs.existsSync(termsFile)) add('src/content/settings/terms.json is missing');
+else {
+  const terms = readJson(termsFile);
+  if (!validateTermSchema(terms)) {
+    add(`${rel(termsFile)}: ${ajv.errorsText(validateTermSchema.errors, { separator: '; ' })}`);
+  } else {
+    const seenTermIds = new Set();
+    const sorted = [...terms.terms].sort((a, b) => a.start.localeCompare(b.start));
+    for (const term of terms.terms) {
+      if (term.start >= term.end) add(`terms.json: ${term.term_id} start must be before end`);
+      if (seenTermIds.has(term.term_id)) add(`terms.json: duplicate term_id ${term.term_id}`);
+      seenTermIds.add(term.term_id);
+    }
+    for (let i = 1; i < sorted.length; i += 1) {
+      if (sorted[i].start <= sorted[i - 1].end) {
+        add(`terms.json: ${sorted[i].term_id} overlaps ${sorted[i - 1].term_id}`);
+      }
+    }
+  }
+}
+
 if (fail.length > 0) {
   console.error(`Content validation failed with ${fail.length} error(s):`);
   for (const error of fail) console.error(`- ${error}`);
