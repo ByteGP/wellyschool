@@ -1,0 +1,640 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T3-L06",
+  "content_version": "0.2.0",
+  "status": "in_review",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T3",
+    "cycle_name": "Church, Worship, and Mission",
+    "sequence": 6,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Conversion Accounts Compared",
+    "annual_anchor": "gospel_response_and_church",
+    "thematic_unit": "The Church Begins"
+  },
+  "core": {
+    "big_idea": "Comparison reveals recurring gospel-response elements without forcing every narrative into an identical script.",
+    "passages": [
+      {
+        "reference": "Acts 2:36-41",
+        "role": "primary",
+        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "8:26-39",
+        "role": "supporting",
+        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "9:1-19",
+        "role": "supporting",
+        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "10:34-48",
+        "role": "supporting",
+        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
+      },
+      {
+        "reference": "16:25-34",
+        "role": "supporting",
+        "reading_note": "Read in immediate context; use age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Apostolic mission: The Church Begins within the Church, Worship, and Mission cycle",
+    "biblical_genre": "Narrative history",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Acts 2 presents hearers responding to Peter’s gospel preaching with repentance and baptism.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Acts 2:36-41"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Other Acts narratives repeatedly connect gospel proclamation with faith and baptism, while the ordering and narrated details vary across individuals and households.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Acts 8:26-39; 9:1-19; 10:34-48; 16:25-34"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Taken together, these passages support the lesson’s big idea: Comparison reveals recurring gospel-response elements without forcing every narrative into an identical script.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Acts 2:36-41",
+          "8:26-39",
+          "9:1-19",
+          "10:34-48",
+          "16:25-34"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Within this curriculum framework, comparison of Acts supports believer response to the gospel that includes faith, repentance, confession where explicit, and water baptism, without requiring every account to narrate every element in the same order.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Acts 2:36-41",
+          "Acts 8:26-39",
+          "Acts 9:1-19",
+          "Acts 10:34-48",
+          "Acts 16:25-34"
+        ],
+        "interpretive_hinge": "The conclusion is a canonical synthesis across multiple conversion narratives: recurring elements are treated cumulatively rather than demanding that a single narrative contain an exhaustive conversion formula.",
+        "confidence": "Medium",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not present this framework conclusion as an explicit biblical command or quotation."
+      }
+    ],
+    "doctrine_tags": [
+      "christology",
+      "salvation"
+    ],
+    "formation_tags": [
+      "mission"
+    ],
+    "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, synthesis, inference, and application",
+    "key_terms": [
+      "Conversion",
+      "Accounts",
+      "Compared"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse the relevant text and explain the case that comparison reveals recurring gospel-response elements without forcing every narrative into an identical script.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
+    "know": [
+      "The principal passage is Acts 2:36-41.",
+      "Comparison reveals recurring gospel-response elements without forcing every narrative into an identical script.",
+      "The lesson belongs in Apostolic mission."
+    ],
+    "understand": [
+      "Genre matters: Narrative history.",
+      "Direct observation must remain distinct from interpretation, synthesis, and application."
+    ],
+    "practise": [
+      "State at least one observation before interpretation.",
+      "State one direct textual claim, one interpretive conclusion, and one responsible application from the lesson."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with faithful trust, wisdom, worship, service, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Analyse the relevant text and explain the case that comparison reveals recurring gospel-response elements without forcing every narrative into an identical script.",
+      "read": "Acts 2:36-41; 8:26-39; 9:1-19; 10:34-48; 16:25-34",
+      "opening": "Ask: What does this passage actually say before we explain what it means?",
+      "say": [
+        "Acts 2 presents hearers responding to Peter’s gospel preaching with repentance and baptism.",
+        "Other Acts narratives repeatedly connect gospel proclamation with faith and baptism, while the ordering and narrated details vary across individuals and households.",
+        "Taken together, these passages support the lesson’s big idea: Comparison reveals recurring gospel-response elements without forcing every narrative into an identical script."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires synthesis or inference?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete Conversion Accounts Compared Claim Audit.",
+      "close": "Restate the big idea, name one faithful response, and pray.",
+      "materials": [
+        "Bible",
+        "Conversion Accounts Compared Claim Audit"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Apostolic mission: The Church Begins within the Church, Worship, and Mission cycle",
+      "text_observations": [
+        "Acts 2 presents hearers responding to Peter’s gospel preaching with repentance and baptism.",
+        "Other Acts narratives repeatedly connect gospel proclamation with faith and baptism, while the ordering and narrated details vary across individuals and households."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis or application.",
+        "Read this as Narrative history and account for its immediate literary setting.",
+        "Distinguish direct text, canonical synthesis, inference, and application."
+      ],
+      "theological_guardrails": [
+        "Comparison should reveal recurring elements without manufacturing an identical script. Represent alternative Christian readings fairly, distinguish narrative sequence from normative synthesis, and do not use the lesson as a baptism-pressure exercise.",
+        "Questions and disagreement may be expressed without embarrassment or coercion."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of Acts 2:36-41 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T2-L02-P01-adam-christ-argument-map"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read selected portions of Acts 2:36-41 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T2-L02-P01-adam-christ-argument-map"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read selected portions of Acts 2:36-41 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T2-L02-P01-adam-christ-argument-map"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say, what conclusion follows, and what should we avoid overstating?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "What does the passage directly say, what conclusion follows, and what should we avoid overstating?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "What does the passage directly say, what conclusion follows, and what should we avoid overstating?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What does the passage directly say, what conclusion follows, and what should we avoid overstating?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Conversion Accounts Compared Claim Audit",
+        "duration_minutes": 10,
+        "materials": [
+          "Adam / Christ Argument Map",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read Acts 2:36-41 and record two direct observations.",
+          "Connect the observations to this big idea: Comparison reveals recurring gospel-response elements without forcing every narrative into an identical script.",
+          "Name one faithful response without claiming more than the passage supports."
+        ],
+        "learning_link": "Makes evidence classification and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Conversion Accounts Compared Claim Audit",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read Acts 2:36-41 and record two direct observations.",
+          "Connect the observations to this big idea: Comparison reveals recurring gospel-response elements without forcing every narrative into an identical script.",
+          "Name one faithful response without claiming more than the passage supports."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 3:1-24",
+      "prayer_prompt": "Thank God for what this passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "Comparison reveals recurring gospel-response elements without forcing every narrative into an identical script."
+    },
+    "printable_refs": [
+      "T3-L06-P01-conversion-accounts-compared-claim-audit"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Conversion Accounts Compared",
+    "parent_intro": "Start with the passage and keep direct text, explanation, and application distinct.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect Conversion Accounts Compared to the story already learned in Church, Worship, and Mission."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read selected portions of Acts 2:36-41 and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: Comparison reveals recurring gospel-response elements without forcing every narrative into an identical script."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use Conversion Accounts Compared Claim Audit verbally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "State one direct textual claim, one interpretive conclusion, and one responsible application from the lesson."
+      }
+    ],
+    "questions": [
+      "What does the passage directly say?",
+      "What meaning follows from it?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Conversion Accounts Compared Claim Audit",
+      "instructions": "Use the resource to separate evidence, meaning, and response."
+    },
+    "weekly_action": "State one direct textual claim, one interpretive conclusion, and one responsible application from the lesson.",
+    "prayer": "Thank God for what the passage reveals and ask for help to respond faithfully.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "What principal evidence governs Conversion Accounts Compared?",
+        "type": "multiple_choice",
+        "options": [
+          "Acts 2:36-41",
+          "A favourite slogan",
+          "A local custom by itself",
+          "The teacher’s preference"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Acts 2:36-41"
+        },
+        "explanation": "The lesson is governed by its passage."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which comes first in careful Bible reading?",
+        "type": "multiple_choice",
+        "options": [
+          "Observation",
+          "Application",
+          "Modern analogy",
+          "A preferred conclusion"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observation"
+        },
+        "explanation": "Observe before interpretation or application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Acts 2 presents hearers responding to Peter’s gospel preaching with repentance and baptism.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This statement is supported by the lesson evidence."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference be described as explicit text when the passage does not state it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Inference and direct wording must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Text, Meaning, Practice Match",
+      "instructions": "Match each label to the best description.",
+      "items": [
+        "Text",
+        "Meaning",
+        "Practice"
+      ],
+      "choices": [
+        "What the passage directly says",
+        "What the evidence supports us concluding",
+        "A faithful response to the text"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Text",
+            "answer": "What the passage directly says"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports us concluding"
+          },
+          {
+            "prompt": "Practice",
+            "answer": "A faithful response to the text"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T3-L06-P01-conversion-accounts-compared-claim-audit",
+        "title": "Conversion Accounts Compared Claim Audit",
+        "purpose": "Support the primary activity for Conversion Accounts Compared.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen independent or guided close reading",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Answer from the evidence, acknowledge uncertainty where needed, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Acts 2:36-41; 8:26-39; 9:1-19; 10:34-48; 16:25-34",
+      "Canonical Curriculum Matrix v0.2",
+      "Approved theological decision register",
+      "Editorial synthesis for Content Production Batch 14"
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [
+      "TH-SALVATION"
+    ],
+    "review_state": {
+      "exegetical": "in_review",
+      "developmental": "in_review",
+      "pastoral": "not_required",
+      "copy": "in_review"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
+      "Comparison should reveal recurring elements without manufacturing an identical script. Represent alternative Christian readings fairly, distinguish narrative sequence from normative synthesis, and do not use the lesson as a baptism-pressure exercise.",
+      "Editorial import fix (mechanical): added the required prohibited_overstatement to framework_position claim C04 using the corpus-standard phrasing for framework conclusions ('Do not present this framework conclusion as an explicit biblical command or quotation.'); interpretive_hinge was already present. Please verify on review."
+    ]
+  }
+}
