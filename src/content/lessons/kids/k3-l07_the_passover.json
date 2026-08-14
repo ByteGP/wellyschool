@@ -1,0 +1,610 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K3-L07",
+  "content_version": "0.2.0",
+  "status": "approved",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K3",
+    "cycle_name": "God Rescues",
+    "sequence": 7,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "The Passover",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Rescue from Egypt"
+  },
+  "core": {
+    "big_idea": "God provided protection and prepared Israel to leave slavery.",
+    "passages": [
+      {
+        "reference": "Exodus 12:1-32",
+        "role": "primary",
+        "reading_note": "Read in immediate context; select age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Exodus and Wilderness: Rescue from Egypt within the God Rescues cycle",
+    "biblical_genre": "Biblical narrative / law",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "God gives Israel detailed Passover instructions involving a lamb, blood on the houses, and a meal eaten in readiness to leave Egypt.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 12:1-11"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The blood-marked houses are passed over while judgment falls on Egypt, and Israel is told to remember the event.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Exodus 12:12-28"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "The story presents God as providing protection and preparing Israel to leave slavery.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Exodus 12:1-32"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "biblical_theology"
+    ],
+    "formation_tags": [
+      "attention",
+      "response"
+    ],
+    "interpretation_skill": "Retell sequence; identify cause and effect; connect to the big story without forced symbolism",
+    "key_terms": [
+      "Passover"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell the main action in Exodus 12:1-32 and state in simple language that god provided protection and prepared israel to leave slavery.",
+    "extension_objective": "Place this event in the Bible's big story and name one concrete way to trust, thank, obey, or care for others in response.",
+    "know": [
+      "The principal passage is Exodus 12:1-32.",
+      "God provided protection and prepared Israel to leave slavery.",
+      "The lesson belongs in Exodus and Wilderness."
+    ],
+    "understand": [
+      "Genre matters: Biblical narrative / law.",
+      "Direct observation must remain distinct from interpretation, synthesis, framework position, and application."
+    ],
+    "practise": [
+      "Retell the sequence using the activity resource.",
+      "Name one concrete response of trust, gratitude, obedience, prayer, or care."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with faithful trust, wisdom, worship, service, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Retell the main action in Exodus 12:1-32 and state in simple language that god provided protection and prepared israel to leave slavery.",
+      "read": "Exodus 12:1-32",
+      "opening": "Ask: What does this passage actually say before we explain what it means?",
+      "say": [
+        "God gives Israel detailed Passover instructions involving a lamb, blood on the houses, and a meal eaten in readiness to leave Egypt.",
+        "The blood-marked houses are passed over while judgment falls on Egypt, and Israel is told to remember the event.",
+        "The story presents God as providing protection and preparing Israel to leave slavery."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires synthesis or inference?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete The Passover Story Path.",
+      "close": "Restate the big idea, name one faithful response, and pray.",
+      "materials": [
+        "Bible",
+        "The Passover Story Path"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Exodus and Wilderness: Rescue from Egypt within the God Rescues cycle",
+      "text_observations": [
+        "God gives Israel detailed Passover instructions involving a lamb, blood on the houses, and a meal eaten in readiness to leave Egypt.",
+        "The blood-marked houses are passed over while judgment falls on Egypt, and Israel is told to remember the event."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis or application.",
+        "Read this as Biblical narrative / law and account for its immediate literary setting.",
+        "Distinguish explicit text, synthesis, inference, framework position, and prudential application."
+      ],
+      "theological_guardrails": [
+        "Teach the Passover as a rescue-and-judgment narrative without graphic detail. Do not imply children should tolerate harmful authority; Pharaoh is an oppressor, not a model for ordinary adult authority.",
+        "Do not force every Passover detail into a Christian symbol; later connections should be text-led.",
+        "Questions and disagreement may be expressed without embarrassment or coercion."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of Exodus 12:1-32 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K3-L07-P01-the-passover-story-path"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read selected portions of Exodus 12:1-32 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K3-L07-P01-the-passover-story-path"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read selected portions of Exodus 3:1-12 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K3-L07-P01-the-passover-story-path"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "What conclusion can we support from those observations?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "Where could someone overstate or misapply this passage?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What faithful response fits the text?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "The Passover Story Path",
+        "duration_minutes": 10,
+        "materials": [
+          "The Passover Story Path",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read or review Exodus 12:1-32.",
+          "Record at least two direct observations.",
+          "State the supported meaning without adding details the text does not supply.",
+          "Name one faithful response and one interpretive limit."
+        ],
+        "learning_link": "Makes evidence classification and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "The Passover Story Path Discussion",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read Exodus 12:1-32 and name two observations.",
+          "Test the big idea against the text.",
+          "Name one interpretive limit and one faithful response."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 12:1-7",
+      "prayer_prompt": "Thank God for what this passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "God called Moses to participate in His rescue of Israel."
+    },
+    "printable_refs": [
+      "K3-L06-P01-god-calls-moses-to-help-story-path"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "God Calls Moses to Help",
+    "parent_intro": "This week we are revisiting The Passover. Keep the focus on what Exodus 12:1-32 actually says and one faithful response.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect The Passover to the story already learned in God Rescues."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read a manageable selection from Exodus 12:1-32 and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: God provided protection and prepared Israel to leave slavery."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use The Passover Story Path verbally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Name one concrete faithful response for this week."
+      }
+    ],
+    "questions": [
+      "What does the passage directly say?",
+      "What meaning follows from it?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "God Calls Moses to Help Story Path",
+      "instructions": "Use the The Passover Story Path orally or on paper to sort direct observations from interpretations and responses."
+    },
+    "weekly_action": "Choose one concrete response connected to god provided protection and prepared israel to leave slavery and practise it this week.",
+    "prayer": "Thank God for what is clear in the passage; ask for wisdom to respond faithfully without claiming more than the text supports.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which passage is central to The Passover?",
+        "type": "multiple_choice",
+        "options": [
+          "Exodus 12:1-32",
+          "A verse chosen without context",
+          "A later tradition only",
+          "No biblical text"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Exodus 12:1-32"
+        },
+        "explanation": "The lesson is governed by its principal passage."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which reading habit is most responsible?",
+        "type": "multiple_choice",
+        "options": [
+          "Observe context and genre before concluding.",
+          "Start with the application you want.",
+          "Ignore disagreement.",
+          "Treat every narrative detail as a command."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observe context and genre before concluding."
+        },
+        "explanation": "Observation and context precede synthesis and application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "God gives Israel detailed Passover instructions involving a lamb, blood on the houses, and a meal eaten in readiness to leave Egypt.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This statement is supported directly by the lesson evidence."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference be described as explicit text when the passage does not state it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Inference and direct wording must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "The Passover Evidence Match",
+      "instructions": "Match each reading move with its purpose.",
+      "items": [
+        "Observation",
+        "Context",
+        "Meaning",
+        "Response"
+      ],
+      "choices": [
+        "What the text says",
+        "What surrounds the text",
+        "What the evidence supports",
+        "How faithfulness follows"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Observation",
+            "answer": "What the text says"
+          },
+          {
+            "prompt": "Context",
+            "answer": "What surrounds the text"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports"
+          },
+          {
+            "prompt": "Response",
+            "answer": "How faithfulness follows"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K3-L07-P01-the-passover-story-path",
+        "title": "The Passover Story Path",
+        "purpose": "Support the primary activity for The Passover.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teacher-read with short child responses",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "Abuse/power"
+    ],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Use the lesson guardrails in the review sheet; answer from the evidence, avoid coercion, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Kids Research A and B; Curriculum Research Adjudication v0.1 sections 5.1 and 6-8; editorial synthesis",
+      "Canonical Curriculum Matrix v0.2",
+      "Batch 15 editorial synthesis; no verse text reproduced pending translation licensing."
+    ],
+    "decision_register_refs": [
+      "D001",
+      "TH-VIOLENCE"
+    ],
+    "review_flags": [
+      "TH-VIOLENCE",
+      "Abuse/power"
+    ],
+    "review_state": {
+      "exegetical": "approved",
+      "developmental": "approved",
+      "pastoral": "deferred_owner_managed",
+      "copy": "approved"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
+      "Matrix review flags: theological=TH-VIOLENCE; pastoral=Abuse/power.",
+      "Teach the Passover as a rescue-and-judgment narrative without graphic detail. Do not imply children should tolerate harmful authority; Pharaoh is an oppressor, not a model for ordinary adult authority.",
+      "Do not force every Passover detail into a Christian symbol; later connections should be text-led."
+    ]
+  }
+}

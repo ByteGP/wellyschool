@@ -1,0 +1,627 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T3-L12",
+  "content_version": "0.2.0",
+  "status": "approved",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T3",
+    "cycle_name": "Church, Worship, and Mission",
+    "sequence": 12,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Elders and Oversight",
+    "annual_anchor": "gospel_response_and_church",
+    "thematic_unit": "Leadership"
+  },
+  "core": {
+    "big_idea": "New Testament elders are described through character, teaching ability, household credibility, and shepherding responsibility.",
+    "passages": [
+      {
+        "reference": "Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9",
+        "role": "primary",
+        "reading_note": "Read in immediate context; select age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Apostolic churches: Leadership within the Church, Worship, and Mission cycle",
+    "biblical_genre": "Epistle",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "Paul summons the Ephesian elders and describes their responsibility to watch themselves and shepherd the flock.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Acts 20:17-35"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "1 Timothy 3 and Titus 1 emphasize character, household credibility, self-control, hospitality, and ability to teach among elder qualifications.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "1 Timothy 3:1-7",
+          "Titus 1:5-9"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Across these passages, New Testament oversight is characterized by qualified character, teaching responsibility, and shepherding rather than status or celebrity.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Acts 20:17-35",
+          "1 Timothy 3:1-7",
+          "Titus 1:5-9"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C04",
+        "statement": "Within this curriculum framework, the elder/overseer office is reserved for qualified men while women serve broadly in other ministries.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "1 Timothy 3:1-7",
+          "Titus 1:5-9"
+        ],
+        "confidence": "Medium",
+        "interpretive_hinge": "The masculine qualification language, household requirements, and wider New Testament synthesis are read together as restricting the elder office while not restricting women from broad Christian service.",
+        "review_status": "draft",
+        "prohibited_overstatement": "Do not present this framework conclusion as an explicit biblical command or quotation."
+      }
+    ],
+    "doctrine_tags": [
+      "church_leadership"
+    ],
+    "formation_tags": [
+      "attention",
+      "response"
+    ],
+    "interpretation_skill": "Observe text; reconstruct context; account for genre; distinguish text, synthesis, inference, and application",
+    "key_terms": [
+      "Elders",
+      "Oversight"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse the relevant text and explain the case that new testament elders are described through character, teaching ability, household credibility, and shepherding responsibility.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
+    "know": [
+      "The principal passage is Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9.",
+      "New Testament elders are described through character, teaching ability, household credibility, and shepherding responsibility.",
+      "The lesson belongs in Apostolic churches."
+    ],
+    "understand": [
+      "Genre matters: Epistle.",
+      "Direct observation must remain distinct from interpretation, synthesis, framework position, and application."
+    ],
+    "practise": [
+      "Classify each major claim by evidence type.",
+      "State one credible interpretive limit or alternative before application."
+    ],
+    "become": [
+      "A learner who reads Scripture carefully and responds with faithful trust, wisdom, worship, service, and love."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Analyse the relevant text and explain the case that new testament elders are described through character, teaching ability, household credibility, and shepherding responsibility.",
+      "read": "Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9",
+      "opening": "Ask: What does this passage actually say before we explain what it means?",
+      "say": [
+        "Paul summons the Ephesian elders and describes their responsibility to watch themselves and shepherd the flock.",
+        "1 Timothy 3 and Titus 1 emphasize character, household credibility, self-control, hospitality, and ability to teach among elder qualifications.",
+        "Across these passages, New Testament oversight is characterized by qualified character, teaching responsibility, and shepherding rather than status or celebrity."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires synthesis or inference?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete Elders and Oversight Claim Audit.",
+      "close": "Restate the big idea, name one faithful response, and pray.",
+      "materials": [
+        "Bible",
+        "Elders and Oversight Claim Audit"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Apostolic churches: Leadership within the Church, Worship, and Mission cycle",
+      "text_observations": [
+        "Paul summons the Ephesian elders and describes their responsibility to watch themselves and shepherd the flock.",
+        "1 Timothy 3 and Titus 1 emphasize character, household credibility, self-control, hospitality, and ability to teach among elder qualifications."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis or application.",
+        "Read this as Epistle and account for its immediate literary setting.",
+        "Distinguish explicit text, synthesis, inference, framework position, and prudential application."
+      ],
+      "theological_guardrails": [
+        "State the local framework plainly: elder office is reserved for qualified men. Label that conclusion as a framework/canonical synthesis rather than pretending every component is contained in one verse.",
+        "Qualifications are not a celebrity-leadership checklist; emphasize character, teaching, household credibility, and shepherding accountability.",
+        "Questions and disagreement may be expressed without embarrassment or coercion."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T3-L12-P01-elders-and-oversight-claim-audit"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read selected portions of Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T3-L12-P01-elders-and-oversight-claim-audit"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read selected portions of Acts 2:1-47 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T3-L12-P01-elders-and-oversight-claim-audit"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "What conclusion can we support from those observations?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "Where could someone overstate or misapply this passage?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What faithful response fits the text?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Elders and Oversight Claim Audit",
+        "duration_minutes": 10,
+        "materials": [
+          "Elders and Oversight Claim Audit",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read or review Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9.",
+          "Record at least two direct observations.",
+          "State the supported meaning without adding details the text does not supply.",
+          "Name one faithful response and one interpretive limit."
+        ],
+        "learning_link": "Makes evidence classification and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Elders and Oversight Claim Audit Discussion",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9 and name two observations.",
+          "Test the big idea against the text.",
+          "Name one interpretive limit and one faithful response."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Genesis 3:1-24",
+      "prayer_prompt": "Thank God for what this passage reveals and ask for wisdom to respond faithfully.",
+      "take_home_line": "The Spirit's coming, apostolic proclamation, baptism, and shared life mark the church's public beginning."
+    },
+    "printable_refs": [
+      "T3-L05-P01-pentecost-and-the-church-s-public-beginning-claim-audit"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Pentecost and the Church's Public Beginning",
+    "parent_intro": "This week we are revisiting Elders and Oversight. Keep the focus on what Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9 actually says and one faithful response.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Connect Elders and Oversight to the story already learned in Church, Worship, and Mission."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read a manageable selection from Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9 and name direct observations."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Restate the big idea in your own words: New Testament elders are described through character, teaching ability, household credibility, and shepherding responsibility."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use Elders and Oversight Claim Audit verbally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Name one concrete faithful response for this week."
+      }
+    ],
+    "questions": [
+      "What does the passage directly say?",
+      "What meaning follows from it?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Pentecost and the Church's Public Beginning Claim Audit",
+      "instructions": "Use the Elders and Oversight Claim Audit orally or on paper to sort direct observations from interpretations and responses."
+    },
+    "weekly_action": "Choose one concrete response connected to new testament elders are described through character, teaching ability, household credibility, and shepherding responsibility and practise it this week.",
+    "prayer": "Thank God for what is clear in the passage; ask for wisdom to respond faithfully without claiming more than the text supports.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which passage is central to Elders and Oversight?",
+        "type": "multiple_choice",
+        "options": [
+          "Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9",
+          "A verse chosen without context",
+          "A later tradition only",
+          "No biblical text"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Acts 20:17-35; 1 Timothy 3:1-7; Titus 1:5-9"
+        },
+        "explanation": "The lesson is governed by its principal passage."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which reading habit is most responsible?",
+        "type": "multiple_choice",
+        "options": [
+          "Observe context and genre before concluding.",
+          "Start with the application you want.",
+          "Ignore disagreement.",
+          "Treat every narrative detail as a command."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observe context and genre before concluding."
+        },
+        "explanation": "Observation and context precede synthesis and application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Paul summons the Ephesian elders and describes their responsibility to watch themselves and shepherd the flock.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This statement is supported directly by the lesson evidence."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference be described as explicit text when the passage does not state it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Inference and direct wording must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Elders and Oversight Evidence Match",
+      "instructions": "Match each reading move with its purpose.",
+      "items": [
+        "Observation",
+        "Context",
+        "Meaning",
+        "Response"
+      ],
+      "choices": [
+        "What the text says",
+        "What surrounds the text",
+        "What the evidence supports",
+        "How faithfulness follows"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Observation",
+            "answer": "What the text says"
+          },
+          {
+            "prompt": "Context",
+            "answer": "What surrounds the text"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports"
+          },
+          {
+            "prompt": "Response",
+            "answer": "How faithfulness follows"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T3-L12-P01-elders-and-oversight-claim-audit",
+        "title": "Elders and Oversight Claim Audit",
+        "purpose": "Support the primary activity for Elders and Oversight.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen independent or guided close reading",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "Baptism pressure"
+    ],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Use the lesson guardrails in the review sheet; answer from the evidence, avoid coercion, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Teens Research A and B; Curriculum Research Adjudication v0.1 sections 5.3 and 6-8; editorial synthesis",
+      "Canonical Curriculum Matrix v0.2",
+      "Batch 15 editorial synthesis; no verse text reproduced pending translation licensing."
+    ],
+    "decision_register_refs": [
+      "D001",
+      "TH-CHURCH-ORDER"
+    ],
+    "review_flags": [
+      "TH-CHURCH-ORDER"
+    ],
+    "review_state": {
+      "exegetical": "approved",
+      "developmental": "approved",
+      "pastoral": "deferred_owner_managed",
+      "copy": "approved"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
+      "Matrix review flags: theological=TH-CHURCH-ORDER; pastoral=none.",
+      "State the local framework plainly: elder office is reserved for qualified men. Label that conclusion as a framework/canonical synthesis rather than pretending every component is contained in one verse.",
+      "Qualifications are not a celebrity-leadership checklist; emphasize character, teaching, household credibility, and shepherding accountability.",
+      "Editorial import fix (mechanical): added required prohibited_overstatement to framework_position claim C04 using the corpus-standard phrasing for framework_position. Please verify on review."
+    ]
+  }
+}
