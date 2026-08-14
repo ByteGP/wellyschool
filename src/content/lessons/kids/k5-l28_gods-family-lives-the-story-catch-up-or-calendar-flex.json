@@ -1,0 +1,594 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K5-L28",
+  "content_version": "0.2.0",
+  "status": "approved",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K5",
+    "cycle_name": "God's Family Lives the Story",
+    "sequence": 28,
+    "unit_type": "Flex",
+    "scheduling_priority": "Optional",
+    "title": "God's Family Lives the Story: Catch-up or Calendar Flex",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Flex"
+  },
+  "core": {
+    "big_idea": "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+    "passages": [
+      {
+        "reference": "To be selected by curriculum editor",
+        "role": "primary",
+        "reading_note": "Read in immediate context; select age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Whole-Bible synthesis: Flex within the God's Family Lives the Story cycle",
+    "biblical_genre": "Study method",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "The selected passage supplies the main textual evidence central to God's Family Lives the Story: Catch-up or Calendar Flex.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "To be selected by curriculum editor"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+        "classification": "prudential_judgment",
+        "evidence_refs": [
+          "To be selected by curriculum editor"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "church"
+    ],
+    "formation_tags": [
+      "attention",
+      "response"
+    ],
+    "interpretation_skill": "Retell sequence; identify cause and effect; connect to the big story without forced symbolism",
+    "key_terms": [
+      "God",
+      "s",
+      "Family",
+      "Lives",
+      "Story"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell the main action in To be selected by curriculum editor and state in simple language that the operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+    "extension_objective": "Place this event in the Bible's big story and name one concrete way to trust, thank, obey, or care for others in response.",
+    "know": [
+      "The principal passage is To be selected by curriculum editor.",
+      "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+      "The lesson belongs in Whole-Bible synthesis."
+    ],
+    "understand": [
+      "Genre matters: Study method.",
+      "Direct observation must remain distinct from interpretation, synthesis, framework position, historical context, and application."
+    ],
+    "practise": [
+      "Retell or analyse the passage using evidence from the text.",
+      "Name one faithful response without claiming more than the evidence supports."
+    ],
+    "become": [
+      "A learner who responds to Scripture with trust, wisdom, worship, service, repentance, love, courage, or humility as appropriate."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation, history, or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Retell the main action in To be selected by curriculum editor and state in simple language that the operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+      "read": "To be selected by curriculum editor",
+      "opening": "Ask one observation question before explaining the lesson.",
+      "say": [
+        "The selected passage supplies the main textual evidence central to God's Family Lives the Story: Catch-up or Calendar Flex.",
+        "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires interpretation, synthesis, or historical evidence?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete God's Family Lives the Story: Catch-up or Calendar Flex Story Path.",
+      "close": "Restate the big idea, name one faithful response, and pray.",
+      "materials": [
+        "Bible",
+        "God's Family Lives the Story: Catch-up or Calendar Flex Story Path"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Whole-Bible synthesis: Flex within the God's Family Lives the Story cycle",
+      "text_observations": [
+        "The selected passage supplies the main textual evidence central to God's Family Lives the Story: Catch-up or Calendar Flex.",
+        "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis, historical context, or application.",
+        "Read this as Study method and account for its immediate literary setting.",
+        "Distinguish explicit text, synthesis, inference, historical context, framework position, and prudential application."
+      ],
+      "theological_guardrails": [
+        "This is a true flex slot; the editor must select the actual passage before publication.",
+        "Do not inherit doctrine or review flags from the placeholder topic without reviewing the selected content."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within God's Family Lives the Story and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of To be selected by curriculum editor and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K5-L28-P01-gods-family-lives-the-story-catch-up-or-calendar-flex-story-path"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within God's Family Lives the Story and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read selected portions of To be selected by curriculum editor and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K5-L28-P01-gods-family-lives-the-story-catch-up-or-calendar-flex-story-path"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within God's Family Lives the Story and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read selected portions of To be selected by curriculum editor and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K5-L28-P01-gods-family-lives-the-story-catch-up-or-calendar-flex-story-path"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "What conclusion can we support from those observations?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "Where could someone overstate or misapply this passage?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What faithful response fits the text?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Read and Notice: God's Family Lives the Story: Catch-up or Calendar Flex",
+        "duration_minutes": 10,
+        "materials": [
+          "God's Family Lives the Story: Catch-up or Calendar Flex Story Path",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read or retell To be selected by curriculum editor in context.",
+          "Name two details the text directly states.",
+          "Restate this big idea in your own words: The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need."
+        ],
+        "learning_link": "Makes textual evidence, interpretation, and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "God's Family Lives the Story: Catch-up or Calendar Flex Story Path",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Sort statements into observation, interpretation/synthesis or historical context, and response.",
+          "Check each conclusion against the passage and any required source evidence.",
+          "Name one limit or caution that prevents overclaiming."
+        ],
+        "learning_link": "Reinforces honest claim classification and source use.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "To be selected by curriculum editor",
+      "prayer_prompt": "Thank God for what the passage shows and ask for wisdom to respond faithfully.",
+      "take_home_line": "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need."
+    },
+    "printable_refs": [
+      "K5-L28-P01-gods-family-lives-the-story-catch-up-or-calendar-flex-story-path"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Family Bible Time: God's Family Lives the Story: Catch-up or Calendar Flex",
+    "parent_intro": "In about 15 minutes, read To be selected by curriculum editor and explore this big idea: The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Recall where God's Family Lives the Story: Catch-up or Calendar Flex fits in the Bible story."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read or retell To be selected by curriculum editor and notice two details."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the passage directly says and what meaning follows from it."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the God's Family Lives the Story: Catch-up or Calendar Flex Story Path orally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose one voluntary response and pray together."
+      }
+    ],
+    "questions": [
+      "What happened or what was taught?",
+      "What does this show us about God, Jesus, or faithful life?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "God's Family Lives the Story: Catch-up or Calendar Flex Story Path",
+      "instructions": "Use the companion resource to separate direct observations from interpretations, historical context, and responses."
+    },
+    "weekly_action": "Choose one concrete response connected to this lesson and practise it this week.",
+    "prayer": "Thank God for what is clear; ask for wisdom to respond faithfully without claiming more than the evidence supports.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which passage is central to God's Family Lives the Story: Catch-up or Calendar Flex?",
+        "type": "multiple_choice",
+        "options": [
+          "To be selected by curriculum editor",
+          "A verse chosen without context",
+          "A later tradition only",
+          "No biblical text"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "To be selected by curriculum editor"
+        },
+        "explanation": "The lesson is governed by its principal passage and stated source boundaries."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which reading habit is most responsible?",
+        "type": "multiple_choice",
+        "options": [
+          "Observe context and genre before concluding.",
+          "Start with the application you want.",
+          "Ignore disagreement.",
+          "Treat every narrative detail as a command."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observe context and genre before concluding."
+        },
+        "explanation": "Observation and context precede synthesis and application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "The operating calendar may use this slot for catch-up, holidays, or a congregation-specific teaching need.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This is the governed big idea for the lesson."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference, historical reconstruction, or framework conclusion be described as explicit text when the passage does not state it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Evidence types must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "God's Family Lives the Story: Catch-up or Calendar Flex Evidence Match",
+      "instructions": "Match each reading move with its purpose.",
+      "items": [
+        "Observation",
+        "Context",
+        "Meaning",
+        "Response"
+      ],
+      "choices": [
+        "What the text says",
+        "What surrounds the text",
+        "What the evidence supports",
+        "How faithfulness follows"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Observation",
+            "answer": "What the text says"
+          },
+          {
+            "prompt": "Context",
+            "answer": "What surrounds the text"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports"
+          },
+          {
+            "prompt": "Response",
+            "answer": "How faithfulness follows"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K5-L28-P01-gods-family-lives-the-story-catch-up-or-calendar-flex-story-path",
+        "title": "God's Family Lives the Story: Catch-up or Calendar Flex Story Path",
+        "purpose": "Support the primary activity for K5-L28 - God's Family Lives the Story: Catch-up or Calendar Flex.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teacher-read with short child responses",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, abuse, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Use the lesson guardrails in the review sheet; answer from the evidence, avoid coercion, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Kids Research A and B; Curriculum Research Adjudication v0.1 sections 5.1 and 6-8; editorial synthesis",
+      "Canonical Curriculum Matrix v0.2",
+      "Batch 28 editorial synthesis; no verse text reproduced pending translation licensing."
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [],
+    "review_state": {
+      "exegetical": "approved",
+      "developmental": "approved",
+      "pastoral": "deferred_owner_managed",
+      "copy": "approved"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required; resource current-schema and printable-reference gates required.",
+      "This is a true flex slot; the editor must select the actual passage before publication.",
+      "Do not inherit doctrine or review flags from the placeholder topic without reviewing the selected content."
+    ]
+  }
+}
