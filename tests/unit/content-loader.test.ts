@@ -12,14 +12,14 @@ import {
 } from '../../src/lib/content/loader';
 
 describe('content loader (real repository content)', () => {
-  it('loads the two hundred and sixteen lessons with unique ids', () => {
+  it('loads the two hundred and thirty-four lessons with unique ids', () => {
     const lessons = getAllLessons();
-    expect(lessons).toHaveLength(216);
-    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(216);
+    expect(lessons).toHaveLength(234);
+    expect(new Set(lessons.map((lesson) => lesson.lesson_id)).size).toBe(234);
   });
 
-  it('loads the two hundred and nineteen printable resources and resolves every printable reference', () => {
-    expect(getAllResources()).toHaveLength(219);
+  it('loads the two hundred and thirty-seven printable resources and resolves every printable reference', () => {
+    expect(getAllResources()).toHaveLength(237);
     for (const lesson of getAllLessons()) {
       for (const printable of lesson.engagement.printables) {
         expect(getResourceById(printable.resource_id), printable.resource_id).toBeDefined();
@@ -30,8 +30,8 @@ describe('content loader (real repository content)', () => {
   it('renders the approved curriculum in production mode (ADR-015 go-live)', () => {
     // Post go-live (ADR-015) every lesson is status "approved" and content
     // batches now import approved, so production and preview see the same set.
-    expect(getPublicLessons('production')).toHaveLength(216);
-    expect(getPublicLessons('preview')).toHaveLength(216);
+    expect(getPublicLessons('production')).toHaveLength(234);
+    expect(getPublicLessons('preview')).toHaveLength(234);
   });
 
   it('groups lessons by segment as contiguous cycle blocks, sequenced within each', () => {
