@@ -1,0 +1,600 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K5-L25",
+  "content_version": "0.2.0",
+  "status": "approved",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K5",
+    "cycle_name": "God's Family Lives the Story",
+    "sequence": 25,
+    "unit_type": "Synthesis",
+    "scheduling_priority": "Recommended",
+    "title": "God's Family Lives the Story: Whole-Story Synthesis",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Synthesis"
+  },
+  "core": {
+    "big_idea": "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation.",
+    "passages": [
+      {
+        "reference": "Selected passages from the cycle",
+        "role": "primary",
+        "reading_note": "Read in immediate context; select age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Whole-Bible synthesis: Synthesis within the God's Family Lives the Story cycle",
+    "biblical_genre": "Study method",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "The selected passage supplies the main textual evidence central to God's Family Lives the Story: Whole-Story Synthesis.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Selected passages from the cycle"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Selected passages from the cycle"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "creation",
+      "sin",
+      "covenant",
+      "christology",
+      "resurrection",
+      "church",
+      "eschatology"
+    ],
+    "formation_tags": [
+      "community",
+      "hope"
+    ],
+    "interpretation_skill": "Retell sequence; identify cause and effect; connect to the big story without forced symbolism",
+    "key_terms": [
+      "God",
+      "s",
+      "Family",
+      "Lives",
+      "Story"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell the main action in Selected passages from the cycle and state in simple language that students can locate the cycle theme within creation, rebellion, promise, jesus, church, and new creation.",
+    "extension_objective": "Place this event in the Bible's big story and name one concrete way to trust, thank, obey, or care for others in response.",
+    "know": [
+      "The principal passage is Selected passages from the cycle.",
+      "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation.",
+      "The lesson belongs in Whole-Bible synthesis."
+    ],
+    "understand": [
+      "Genre matters: Study method.",
+      "Direct observation must remain distinct from interpretation, synthesis, framework position, historical context, and application."
+    ],
+    "practise": [
+      "Retell or analyse the passage using evidence from the text.",
+      "Name one faithful response without claiming more than the evidence supports."
+    ],
+    "become": [
+      "A learner who responds to Scripture with trust, wisdom, worship, service, repentance, love, courage, or humility as appropriate."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation, history, or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Retell the main action in Selected passages from the cycle and state in simple language that students can locate the cycle theme within creation, rebellion, promise, jesus, church, and new creation.",
+      "read": "Selected passages from the cycle",
+      "opening": "Ask one observation question before explaining the lesson.",
+      "say": [
+        "The selected passage supplies the main textual evidence central to God's Family Lives the Story: Whole-Story Synthesis.",
+        "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires interpretation, synthesis, or historical evidence?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete God's Family Lives the Story: Whole-Story Synthesis Story Path.",
+      "close": "Restate the big idea, name one faithful response, and pray.",
+      "materials": [
+        "Bible",
+        "God's Family Lives the Story: Whole-Story Synthesis Story Path"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Whole-Bible synthesis: Synthesis within the God's Family Lives the Story cycle",
+      "text_observations": [
+        "The selected passage supplies the main textual evidence central to God's Family Lives the Story: Whole-Story Synthesis.",
+        "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis, historical context, or application.",
+        "Read this as Study method and account for its immediate literary setting.",
+        "Distinguish explicit text, synthesis, inference, historical context, framework position, and prudential application."
+      ],
+      "theological_guardrails": [
+        "Keep whole-story synthesis concrete and age-appropriate; do not turn the review into abstract doctrinal examination.",
+        "Do not use curriculum recall as a proxy for faithfulness, salvation, intelligence, or family support."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within God's Family Lives the Story and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of Selected passages from the cycle and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K5-L25-P01-gods-family-lives-the-story-whole-story-synthesis-story-path"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within God's Family Lives the Story and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read selected portions of Selected passages from the cycle and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K5-L25-P01-gods-family-lives-the-story-whole-story-synthesis-story-path"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within God's Family Lives the Story and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read selected portions of Selected passages from the cycle and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K5-L25-P01-gods-family-lives-the-story-whole-story-synthesis-story-path"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "What conclusion can we support from those observations?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "Where could someone overstate or misapply this passage?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What faithful response fits the text?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Read and Notice: God's Family Lives the Story: Whole-Story Synthesis",
+        "duration_minutes": 10,
+        "materials": [
+          "God's Family Lives the Story: Whole-Story Synthesis Story Path",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read or retell Selected passages from the cycle in context.",
+          "Name two details the text directly states.",
+          "Restate this big idea in your own words: Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation."
+        ],
+        "learning_link": "Makes textual evidence, interpretation, and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "God's Family Lives the Story: Whole-Story Synthesis Story Path",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Sort statements into observation, interpretation/synthesis or historical context, and response.",
+          "Check each conclusion against the passage and any required source evidence.",
+          "Name one limit or caution that prevents overclaiming."
+        ],
+        "learning_link": "Reinforces honest claim classification and source use.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Selected passages from the cycle",
+      "prayer_prompt": "Thank God for what the passage shows and ask for wisdom to respond faithfully.",
+      "take_home_line": "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation."
+    },
+    "printable_refs": [
+      "K5-L25-P01-gods-family-lives-the-story-whole-story-synthesis-story-path"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Family Bible Time: God's Family Lives the Story: Whole-Story Synthesis",
+    "parent_intro": "In about 15 minutes, read Selected passages from the cycle and explore this big idea: Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Recall where God's Family Lives the Story: Whole-Story Synthesis fits in the Bible story."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read or retell Selected passages from the cycle and notice two details."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the passage directly says and what meaning follows from it."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the God's Family Lives the Story: Whole-Story Synthesis Story Path orally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose one voluntary response and pray together."
+      }
+    ],
+    "questions": [
+      "What happened or what was taught?",
+      "What does this show us about God, Jesus, or faithful life?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "God's Family Lives the Story: Whole-Story Synthesis Story Path",
+      "instructions": "Use the companion resource to separate direct observations from interpretations, historical context, and responses."
+    },
+    "weekly_action": "Choose one concrete response connected to this lesson and practise it this week.",
+    "prayer": "Thank God for what is clear; ask for wisdom to respond faithfully without claiming more than the evidence supports.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which passage is central to God's Family Lives the Story: Whole-Story Synthesis?",
+        "type": "multiple_choice",
+        "options": [
+          "Selected passages from the cycle",
+          "A verse chosen without context",
+          "A later tradition only",
+          "No biblical text"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Selected passages from the cycle"
+        },
+        "explanation": "The lesson is governed by its principal passage and stated source boundaries."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which reading habit is most responsible?",
+        "type": "multiple_choice",
+        "options": [
+          "Observe context and genre before concluding.",
+          "Start with the application you want.",
+          "Ignore disagreement.",
+          "Treat every narrative detail as a command."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observe context and genre before concluding."
+        },
+        "explanation": "Observation and context precede synthesis and application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Students can locate the cycle theme within Creation, rebellion, promise, Jesus, church, and new creation.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This is the governed big idea for the lesson."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference, historical reconstruction, or framework conclusion be described as explicit text when the passage does not state it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Evidence types must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "God's Family Lives the Story: Whole-Story Synthesis Evidence Match",
+      "instructions": "Match each reading move with its purpose.",
+      "items": [
+        "Observation",
+        "Context",
+        "Meaning",
+        "Response"
+      ],
+      "choices": [
+        "What the text says",
+        "What surrounds the text",
+        "What the evidence supports",
+        "How faithfulness follows"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Observation",
+            "answer": "What the text says"
+          },
+          {
+            "prompt": "Context",
+            "answer": "What surrounds the text"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports"
+          },
+          {
+            "prompt": "Response",
+            "answer": "How faithfulness follows"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K5-L25-P01-gods-family-lives-the-story-whole-story-synthesis-story-path",
+        "title": "God's Family Lives the Story: Whole-Story Synthesis Story Path",
+        "purpose": "Support the primary activity for K5-L25 - God's Family Lives the Story: Whole-Story Synthesis.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teacher-read with short child responses",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, abuse, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Use the lesson guardrails in the review sheet; answer from the evidence, avoid coercion, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Kids Research A and B; Curriculum Research Adjudication v0.1 sections 5.1 and 6-8; editorial synthesis",
+      "Canonical Curriculum Matrix v0.2",
+      "Batch 28 editorial synthesis; no verse text reproduced pending translation licensing."
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [],
+    "review_state": {
+      "exegetical": "approved",
+      "developmental": "approved",
+      "pastoral": "deferred_owner_managed",
+      "copy": "approved"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required; resource current-schema and printable-reference gates required.",
+      "Keep whole-story synthesis concrete and age-appropriate; do not turn the review into abstract doctrinal examination.",
+      "Do not use curriculum recall as a proxy for faithfulness, salvation, intelligence, or family support."
+    ]
+  }
+}
