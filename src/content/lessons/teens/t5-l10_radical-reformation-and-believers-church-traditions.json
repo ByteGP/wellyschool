@@ -1,0 +1,619 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "T5-L10",
+  "content_version": "0.2.0",
+  "status": "approved",
+  "curriculum": {
+    "segment": "Teens",
+    "age_range": "13-17",
+    "cycle_id": "T5",
+    "cycle_name": "History, Hope, and Independent Faith",
+    "sequence": 10,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Radical Reformation and Believers' Church Traditions",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Reformation"
+  },
+  "core": {
+    "big_idea": "Radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure.",
+    "passages": [
+      {
+        "reference": "Matthew 28:18-20; selected Anabaptist texts",
+        "role": "primary",
+        "reading_note": "Read in immediate context; select age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Jesus' ministry: Reformation within the History, Hope, and Independent Faith cycle",
+    "biblical_genre": "Gospel narrative / teaching",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "The selected passage supplies the main textual evidence central to Radical Reformation and Believers' Church Traditions.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Matthew 28:18-20; selected Anabaptist texts"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure.",
+        "classification": "historical_context",
+        "evidence_refs": [
+          "Matthew 28:18-20; selected Anabaptist texts"
+        ],
+        "confidence": "Medium",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C03",
+        "statement": "Believer’s baptism is the curriculum’s framework position, while Radical Reformation history is used to study how some Christians recovered or defended that conviction under particular historical conditions.",
+        "classification": "framework_position",
+        "evidence_refs": [
+          "Matthew 28:18-20; selected Anabaptist texts"
+        ],
+        "confidence": "High",
+        "review_status": "draft",
+        "interpretive_hinge": "The baptism conclusion is argued from New Testament conversion texts; historical Anabaptist evidence shows later belief and practice but does not independently prove the doctrine.",
+        "prohibited_overstatement": "Do not present this framework conclusion as an explicit biblical command or quotation."
+      }
+    ],
+    "doctrine_tags": [
+      "baptism",
+      "church",
+      "church_history"
+    ],
+    "formation_tags": [
+      "courage",
+      "community",
+      "mission"
+    ],
+    "interpretation_skill": "Evaluate sources and arguments; identify assumptions; compare credible positions; state uncertainty precisely",
+    "key_terms": [
+      "Radical",
+      "Reformation",
+      "Believers",
+      "Church",
+      "Traditions"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Analyse the relevant text and explain the case that radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure.",
+    "extension_objective": "Test the claim against context, genre, canonical synthesis, credible alternatives, and the limits of the available evidence.",
+    "know": [
+      "The principal passage is Matthew 28:18-20; selected Anabaptist texts.",
+      "Radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure.",
+      "The lesson belongs in Jesus' ministry."
+    ],
+    "understand": [
+      "Genre matters: Gospel narrative / teaching.",
+      "Direct observation must remain distinct from interpretation, synthesis, framework position, historical context, and application."
+    ],
+    "practise": [
+      "Retell or analyse the passage using evidence from the text.",
+      "Name one faithful response without claiming more than the evidence supports."
+    ],
+    "become": [
+      "A learner who responds to Scripture with trust, wisdom, worship, service, repentance, love, courage, or humility as appropriate."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation, history, or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Analyse the relevant text and explain the case that radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure.",
+      "read": "Matthew 28:18-20; selected Anabaptist texts",
+      "opening": "Ask one observation question before explaining the lesson.",
+      "say": [
+        "The selected passage supplies the main textual evidence central to Radical Reformation and Believers' Church Traditions.",
+        "Radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires interpretation, synthesis, or historical evidence?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete Radical Reformation and Believers' Church Traditions Claim Audit.",
+      "close": "Restate the big idea, name one faithful response, and pray.",
+      "materials": [
+        "Bible",
+        "Radical Reformation and Believers' Church Traditions Claim Audit"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Jesus' ministry: Reformation within the History, Hope, and Independent Faith cycle",
+      "text_observations": [
+        "The selected passage supplies the main textual evidence central to Radical Reformation and Believers' Church Traditions.",
+        "Radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis, historical context, or application.",
+        "Read this as Gospel narrative / teaching and account for its immediate literary setting.",
+        "Distinguish explicit text, synthesis, inference, historical context, framework position, and prudential application."
+      ],
+      "theological_guardrails": [
+        "Publication requires verified Anabaptist/Radical Reformation sources and careful distinction among movements that were not institutionally identical.",
+        "Believer’s baptism is this curriculum’s framework position, but persecution of dissenters must never be used to romanticise suffering or pressure students toward baptism.",
+        "Church-state separation claims should be historically sourced and not projected uniformly onto every Radical Reformation group."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within History, Hope, and Independent Faith and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of Matthew 28:18-20; selected Anabaptist texts and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T5-L10-P01-radical-reformation-and-believers-church-traditions-claim-audit"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within History, Hope, and Independent Faith and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read selected portions of Matthew 28:18-20; selected Anabaptist texts and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T5-L10-P01-radical-reformation-and-believers-church-traditions-claim-audit"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within History, Hope, and Independent Faith and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read selected portions of Matthew 28:18-20; selected Anabaptist texts and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "T5-L10-P01-radical-reformation-and-believers-church-traditions-claim-audit"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "What conclusion can we support from those observations?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "Where could someone overstate or misapply this passage?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What faithful response fits the text?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Read and Notice: Radical Reformation and Believers' Church Traditions",
+        "duration_minutes": 10,
+        "materials": [
+          "Radical Reformation and Believers' Church Traditions Claim Audit",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read or retell Matthew 28:18-20; selected Anabaptist texts in context.",
+          "Name two details the text directly states.",
+          "Restate this big idea in your own words: Radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure."
+        ],
+        "learning_link": "Makes textual evidence, interpretation, and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Radical Reformation and Believers' Church Traditions Claim Audit",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Sort statements into observation, interpretation/synthesis or historical context, and response.",
+          "Check each conclusion against the passage and any required source evidence.",
+          "Name one limit or caution that prevents overclaiming."
+        ],
+        "learning_link": "Reinforces honest claim classification and source use.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Matthew 28:18-20; selected Anabaptist texts",
+      "prayer_prompt": "Thank God for what the passage shows and ask for wisdom to respond faithfully.",
+      "take_home_line": "Radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure."
+    },
+    "printable_refs": [
+      "T5-L10-P01-radical-reformation-and-believers-church-traditions-claim-audit"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Family Bible Time: Radical Reformation and Believers' Church Traditions",
+    "parent_intro": "In about 15 minutes, read Matthew 28:18-20; selected Anabaptist texts and explore this big idea: Radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Recall where Radical Reformation and Believers' Church Traditions fits in the Bible story."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read or retell Matthew 28:18-20; selected Anabaptist texts and notice two details."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the passage directly says and what meaning follows from it."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Radical Reformation and Believers' Church Traditions Claim Audit orally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose one voluntary response and pray together."
+      }
+    ],
+    "questions": [
+      "What happened or what was taught?",
+      "What does this show us about God, Jesus, or faithful life?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Radical Reformation and Believers' Church Traditions Claim Audit",
+      "instructions": "Use the companion resource to separate direct observations from interpretations, historical context, and responses."
+    },
+    "weekly_action": "Choose one concrete response connected to this lesson and practise it this week.",
+    "prayer": "Thank God for what is clear; ask for wisdom to respond faithfully without claiming more than the evidence supports.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which passage is central to Radical Reformation and Believers' Church Traditions?",
+        "type": "multiple_choice",
+        "options": [
+          "Matthew 28:18-20; selected Anabaptist texts",
+          "A verse chosen without context",
+          "A later tradition only",
+          "No biblical text"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Matthew 28:18-20; selected Anabaptist texts"
+        },
+        "explanation": "The lesson is governed by its principal passage and stated source boundaries."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which reading habit is most responsible?",
+        "type": "multiple_choice",
+        "options": [
+          "Observe context and genre before concluding.",
+          "Start with the application you want.",
+          "Ignore disagreement.",
+          "Treat every narrative detail as a command."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observe context and genre before concluding."
+        },
+        "explanation": "Observation and context precede synthesis and application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Radical reform movements emphasised believer's baptism, discipleship, and church-state separation under severe pressure.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This is the governed big idea for the lesson."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference, historical reconstruction, or framework conclusion be described as explicit text when the passage does not state it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Evidence types must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Radical Reformation and Believers' Church Traditions Evidence Match",
+      "instructions": "Match each reading move with its purpose.",
+      "items": [
+        "Observation",
+        "Context",
+        "Meaning",
+        "Response"
+      ],
+      "choices": [
+        "What the text says",
+        "What surrounds the text",
+        "What the evidence supports",
+        "How faithfulness follows"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Observation",
+            "answer": "What the text says"
+          },
+          {
+            "prompt": "Context",
+            "answer": "What surrounds the text"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports"
+          },
+          {
+            "prompt": "Response",
+            "answer": "How faithfulness follows"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "T5-L10-P01-radical-reformation-and-believers-church-traditions-claim-audit",
+        "title": "Radical Reformation and Believers' Church Traditions Claim Audit",
+        "purpose": "Support the primary activity for T5-L10 - Radical Reformation and Believers' Church Traditions.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teen independent or guided close reading",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "Baptism pressure",
+      "Persecution"
+    ],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, abuse, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Use the lesson guardrails in the review sheet; answer from the evidence, avoid coercion, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Teens Research A and B; Curriculum Research Adjudication v0.1 sections 5.3 and 6-8; editorial synthesis",
+      "Canonical Curriculum Matrix v0.2",
+      "Batch 25 editorial synthesis; no verse text reproduced pending translation licensing."
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [
+      "TH-BAPTISM, TH-CHURCH-HISTORY",
+      "Baptism pressure"
+    ],
+    "review_state": {
+      "exegetical": "approved",
+      "developmental": "approved",
+      "pastoral": "deferred_owner_managed",
+      "copy": "approved"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required; resource current-schema and printable-reference gates required.",
+      "Publication requires verified Anabaptist/Radical Reformation sources and careful distinction among movements that were not institutionally identical.",
+      "Believer’s baptism is this curriculum’s framework position, but persecution of dissenters must never be used to romanticise suffering or pressure students toward baptism.",
+      "Church-state separation claims should be historically sourced and not projected uniformly onto every Radical Reformation group.",
+      "BLOCK PUBLICATION of post-biblical historical claims until the relevant primary/local source packet is verified and cited.",
+      "Editorial import fix (mechanical): added required prohibited_overstatement to framework_position claim C03 (corpus-standard phrasing). Please verify on review."
+    ]
+  }
+}
