@@ -1,0 +1,595 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "K3-L14",
+  "content_version": "0.2.0",
+  "status": "approved",
+  "curriculum": {
+    "segment": "Kids",
+    "age_range": "4-8",
+    "cycle_id": "K3",
+    "cycle_name": "God Rescues",
+    "sequence": 14,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Ruth Finds a New Home",
+    "annual_anchor": "thematic_development",
+    "thematic_unit": "Rescue and Belonging"
+  },
+  "core": {
+    "big_idea": "God cared for Ruth and Naomi through loyal people and a new family.",
+    "passages": [
+      {
+        "reference": "Ruth 1:15-18; 2:8-12; 4:13-17",
+        "role": "primary",
+        "reading_note": "Read in immediate context; select age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Conquest and Judges: Rescue and Belonging within the God Rescues cycle",
+    "biblical_genre": "Biblical narrative / law",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "The selected passage tells the main events of Ruth Finds a New Home.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Ruth 1:15-18; 2:8-12; 4:13-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "God cared for Ruth and Naomi through loyal people and a new family.",
+        "classification": "canonical_synthesis",
+        "evidence_refs": [
+          "Ruth 1:15-18; 2:8-12; 4:13-17"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "biblical_theology"
+    ],
+    "formation_tags": [
+      "service"
+    ],
+    "interpretation_skill": "Retell sequence; identify cause and effect; connect to the big story without forced symbolism",
+    "key_terms": [
+      "Ruth",
+      "Finds",
+      "Home"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Retell the main action in Ruth 1:15-18; 2:8-12; 4:13-17 and state in simple language that god cared for ruth and naomi through loyal people and a new family.",
+    "extension_objective": "Place this event in the Bible's big story and name one concrete way to trust, thank, obey, or care for others in response.",
+    "know": [
+      "The principal passage is Ruth 1:15-18; 2:8-12; 4:13-17.",
+      "God cared for Ruth and Naomi through loyal people and a new family.",
+      "The lesson belongs in Conquest and Judges."
+    ],
+    "understand": [
+      "Genre matters: Biblical narrative / law.",
+      "Direct observation must remain distinct from interpretation, synthesis, framework position, and application."
+    ],
+    "practise": [
+      "Retell or analyse the passage using evidence from the text.",
+      "Name one faithful response without claiming more than the passage supports."
+    ],
+    "become": [
+      "A learner who responds to Scripture with trust, wisdom, worship, service, repentance, or love as appropriate."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Retell the main action in Ruth 1:15-18; 2:8-12; 4:13-17 and state in simple language that god cared for ruth and naomi through loyal people and a new family.",
+      "read": "Ruth 1:15-18; 2:8-12; 4:13-17",
+      "opening": "Ask one observation question before explaining the lesson.",
+      "say": [
+        "The selected passage tells the main events of Ruth Finds a New Home.",
+        "God cared for Ruth and Naomi through loyal people and a new family."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires interpretation or synthesis?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete Ruth Finds a New Home Story Path.",
+      "close": "Restate the big idea, name one faithful response, and pray.",
+      "materials": [
+        "Bible",
+        "Ruth Finds a New Home Story Path"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Conquest and Judges: Rescue and Belonging within the God Rescues cycle",
+      "text_observations": [
+        "The selected passage tells the main events of Ruth Finds a New Home.",
+        "God cared for Ruth and Naomi through loyal people and a new family."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis or application.",
+        "Read this as Biblical narrative / law and account for its immediate literary setting.",
+        "Distinguish explicit text, synthesis, inference, framework position, and prudential application."
+      ],
+      "theological_guardrails": [
+        "Do not imply every displaced, widowed, or economically vulnerable family will receive the same material outcome as Ruth and Naomi.",
+        "Present Ruth and Boaz as part of God’s covenant story without romanticising bereavement or economic dependence."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of Exodus 12:1-32 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K3-L07-P01-the-passover-story-path"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read selected portions of Exodus 12:1-32 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K3-L07-P01-the-passover-story-path"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read selected portions of Exodus 3:1-12 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "K3-L07-P01-the-passover-story-path"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "What conclusion can we support from those observations?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "Where could someone overstate or misapply this passage?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What faithful response fits the text?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Read and Notice: Ruth Finds a New Home",
+        "duration_minutes": 10,
+        "materials": [
+          "The Passover Story Path",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read or retell Ruth 1:15-18; 2:8-12; 4:13-17 in context.",
+          "Name two details the text directly states.",
+          "Restate the big idea in your own words."
+        ],
+        "learning_link": "Makes evidence classification and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Ruth Finds a New Home Story Path",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Sort statements into observation, interpretation/synthesis, and response.",
+          "Check each conclusion against the passage.",
+          "Name one limit or caution that prevents overclaiming."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Ruth 1:15-18; 2:8-12; 4:13-17",
+      "prayer_prompt": "Thank God for what the passage shows and ask for wisdom to respond faithfully.",
+      "take_home_line": "God cared for Ruth and Naomi through loyal people and a new family."
+    },
+    "printable_refs": [
+      "K3-L14-P01-ruth-finds-a-new-home-story-path"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Family Bible Time: Ruth Finds a New Home",
+    "parent_intro": "In about 15 minutes, read Ruth 1:15-18; 2:8-12; 4:13-17 and explore this big idea: God cared for Ruth and Naomi through loyal people and a new family.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Recall where Ruth Finds a New Home fits in the Bible story."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read or retell Ruth 1:15-18; 2:8-12; 4:13-17 and notice two details."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the passage directly says and what meaning follows from it."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Ruth Finds a New Home Story Path orally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose one voluntary response and pray together."
+      }
+    ],
+    "questions": [
+      "What happened or what was taught?",
+      "What does this show us about God, Jesus, or faithful life?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Ruth Finds a New Home Story Path",
+      "instructions": "Use the companion resource to sort direct observations from interpretations and responses."
+    },
+    "weekly_action": "Choose one concrete response connected to this lesson and practise it this week.",
+    "prayer": "Thank God for what is clear in the passage; ask for wisdom to respond faithfully without claiming more than the text supports.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which passage is central to Ruth Finds a New Home?",
+        "type": "multiple_choice",
+        "options": [
+          "Ruth 1:15-18; 2:8-12; 4:13-17",
+          "A verse chosen without context",
+          "A later tradition only",
+          "No biblical text"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Ruth 1:15-18; 2:8-12; 4:13-17"
+        },
+        "explanation": "The lesson is governed by its principal passage."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which reading habit is most responsible?",
+        "type": "multiple_choice",
+        "options": [
+          "Observe context and genre before concluding.",
+          "Start with the application you want.",
+          "Ignore disagreement.",
+          "Treat every narrative detail as a command."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observe context and genre before concluding."
+        },
+        "explanation": "Observation and context precede synthesis and application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "God cared for Ruth and Naomi through loyal people and a new family.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This is the governed big idea for the lesson."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference be described as explicit text when the passage does not state it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Inference and direct wording must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Ruth Finds a New Home Evidence Match",
+      "instructions": "Match each reading move with its purpose.",
+      "items": [
+        "Observation",
+        "Context",
+        "Meaning",
+        "Response"
+      ],
+      "choices": [
+        "What the text says",
+        "What surrounds the text",
+        "What the evidence supports",
+        "How faithfulness follows"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Observation",
+            "answer": "What the text says"
+          },
+          {
+            "prompt": "Context",
+            "answer": "What surrounds the text"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports"
+          },
+          {
+            "prompt": "Response",
+            "answer": "How faithfulness follows"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "K3-L14-P01-ruth-finds-a-new-home-story-path",
+        "title": "Ruth Finds a New Home Story Path",
+        "purpose": "Support the primary activity for Ruth Finds a New Home.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Teacher-read with short child responses",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "None identified"
+    ],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, abuse, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Use the lesson guardrails in the review sheet; answer from the evidence, avoid coercion, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Kids Research A and B; Curriculum Research Adjudication v0.1 sections 5.1 and 6-8; editorial synthesis",
+      "Canonical Curriculum Matrix v0.2",
+      "Batch 16 editorial synthesis; no verse text reproduced pending translation licensing."
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [],
+    "review_state": {
+      "exegetical": "approved",
+      "developmental": "approved",
+      "pastoral": "deferred_owner_managed",
+      "copy": "approved"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
+      "Matrix review flags: theological=none; pastoral=none.",
+      "Do not imply every displaced, widowed, or economically vulnerable family will receive the same material outcome as Ruth and Naomi.",
+      "Present Ruth and Boaz as part of God’s covenant story without romanticising bereavement or economic dependence.",
+      "Editorial import fix (mechanical): this lesson's printable resource shipped with an illegal 'description' field and a boilerplate 'purpose' naming the wrong lesson (batch-wide generator bug). Removed 'description' and reset 'purpose' to the repo-standard 'Support the primary activity for Ruth Finds a New Home.'. Please verify on review."
+    ]
+  }
+}
