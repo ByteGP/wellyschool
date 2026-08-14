@@ -1,0 +1,601 @@
+{
+  "schema_version": "1.2.1",
+  "lesson_id": "Y4-L08",
+  "content_version": "0.2.0",
+  "status": "approved",
+  "curriculum": {
+    "segment": "Youths",
+    "age_range": "9-12",
+    "cycle_id": "Y4",
+    "cycle_name": "Church, Scripture, and Christian Hope",
+    "sequence": 8,
+    "unit_type": "Core",
+    "scheduling_priority": "Required",
+    "title": "Stephen and the Gospel Beyond Jerusalem",
+    "annual_anchor": "gospel_response_and_church",
+    "thematic_unit": "The Church Begins"
+  },
+  "core": {
+    "big_idea": "Opposition did not stop the witness to Jesus and helped carry the gospel outward.",
+    "passages": [
+      {
+        "reference": "Acts 6:8-8:4",
+        "role": "primary",
+        "reading_note": "Read in immediate context; select age-appropriate portions without changing the claim."
+      }
+    ],
+    "metanarrative_position": "Acts and the expanding church within Church, Scripture and Christian Hope",
+    "biblical_genre": "Acts narrative",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "statement": "The selected passage supplies the principal textual evidence for Stephen and the Gospel Beyond Jerusalem.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Acts 6:8-8:4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      },
+      {
+        "claim_id": "C02",
+        "statement": "Opposition did not stop the witness to Jesus and helped carry the gospel outward.",
+        "classification": "explicit_text",
+        "evidence_refs": [
+          "Acts 6:8-8:4"
+        ],
+        "confidence": "High",
+        "review_status": "draft"
+      }
+    ],
+    "doctrine_tags": [
+      "christology",
+      "ethics"
+    ],
+    "formation_tags": [
+      "courage",
+      "mission"
+    ],
+    "interpretation_skill": "Identify context and sequence; distinguish direct description from inference and application",
+    "key_terms": [
+      "Stephen",
+      "Gospel",
+      "Beyond",
+      "Jerusalem"
+    ]
+  },
+  "learning": {
+    "foundation_objective": "Explain from the passage that opposition did not stop the witness to jesus and helped carry the gospel outward and locate the lesson on the whole-Bible timeline.",
+    "extension_objective": "Identify the immediate context and genre, then distinguish what the text directly states from a reasonable inference and application.",
+    "know": [
+      "The principal passage is Acts 6:8-8:4.",
+      "Opposition did not stop the witness to Jesus and helped carry the gospel outward.",
+      "The lesson belongs in Acts and the expanding church within Church, Scripture and Christian Hope."
+    ],
+    "understand": [
+      "Genre matters: Acts narrative.",
+      "Direct observation must remain distinct from interpretation, synthesis, framework position, and application."
+    ],
+    "practise": [
+      "Retell or analyse the passage using evidence from the text.",
+      "Name one faithful response without claiming more than the passage supports."
+    ],
+    "become": [
+      "A learner who responds to Scripture with trust, wisdom, worship, service, repentance, or love as appropriate."
+    ],
+    "success_evidence": [
+      "Student can summarize the selected passage.",
+      "Student can support the big idea with evidence.",
+      "Student can distinguish observation from interpretation or application."
+    ]
+  },
+  "teacher": {
+    "default_profile": "standard",
+    "preparation_minutes": 30,
+    "zero_prep_card": {
+      "objective": "Explain from the passage that opposition did not stop the witness to jesus and helped carry the gospel outward and locate the lesson on the whole-Bible timeline.",
+      "read": "Acts 6:8-8:4",
+      "opening": "Ask one observation question before explaining the lesson.",
+      "say": [
+        "The selected passage supplies the principal textual evidence for Stephen and the Gospel Beyond Jerusalem.",
+        "Opposition did not stop the witness to Jesus and helped carry the gospel outward."
+      ],
+      "ask": [
+        "What does the text directly say?",
+        "What conclusion requires interpretation or synthesis?",
+        "What should we avoid overstating?",
+        "What is one faithful response?"
+      ],
+      "do": "Complete Stephen and the Gospel Beyond Jerusalem Evidence Grid.",
+      "close": "Restate the big idea, name one faithful response, and pray.",
+      "materials": [
+        "Bible",
+        "Stephen and the Gospel Beyond Jerusalem Evidence Grid"
+      ]
+    },
+    "preparation": {
+      "passage_context": "Acts and the expanding church within Church, Scripture and Christian Hope",
+      "text_observations": [
+        "The selected passage supplies the principal textual evidence for Stephen and the Gospel Beyond Jerusalem.",
+        "Opposition did not stop the witness to Jesus and helped carry the gospel outward."
+      ],
+      "interpretation_notes": [
+        "Start with the selected passage before moving to synthesis or application.",
+        "Read this as Acts narrative and account for its immediate literary setting.",
+        "Distinguish explicit text, synthesis, inference, framework position, and prudential application."
+      ],
+      "theological_guardrails": [
+        "Do not romanticise persecution or imply suffering proves spiritual superiority.",
+        "Keep Stephen's death age-appropriate and avoid graphic detail."
+      ],
+      "likely_questions": [
+        {
+          "question": "How sure are we about this conclusion?",
+          "purpose": "Check the claim classification and evidence before stating certainty."
+        },
+        {
+          "question": "What if Christians disagree?",
+          "purpose": "Represent credible alternatives fairly and identify what the evidence does or does not settle."
+        }
+      ]
+    },
+    "delivery_profiles": {
+      "essential": {
+        "label": "Short",
+        "duration_minutes": 25,
+        "use_case": "Minimum viable lesson and zero-preparation fallback.",
+        "outline": [
+          {
+            "step_id": "E01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "E02",
+            "minutes": 8,
+            "label": "Read",
+            "instructions": "Read selected portions of Acts 6:8-8:4 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "E03",
+            "minutes": 5,
+            "label": "Understand",
+            "instructions": "Connect observations to the big idea without adding unsupported details.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "E04",
+            "minutes": 6,
+            "label": "Do",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y4-L08-P01-stephen-and-the-gospel-beyond-jerusalem-evidence-grid"
+            ]
+          },
+          {
+            "step_id": "E05",
+            "minutes": 3,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "standard": {
+        "label": "Standard",
+        "duration_minutes": 35,
+        "use_case": "Default Sunday teaching profile.",
+        "outline": [
+          {
+            "step_id": "S01",
+            "minutes": 4,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "S02",
+            "minutes": 4,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "S03",
+            "minutes": 9,
+            "label": "Read and observe",
+            "instructions": "Read selected portions of Acts 6:8-8:4 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "S04",
+            "minutes": 7,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "S05",
+            "minutes": 7,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y4-L08-P01-stephen-and-the-gospel-beyond-jerusalem-evidence-grid"
+            ]
+          },
+          {
+            "step_id": "S06",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      },
+      "extended": {
+        "label": "Extended",
+        "duration_minutes": 45,
+        "use_case": "Added textual, comparative, activity, or assessment depth.",
+        "outline": [
+          {
+            "step_id": "X01",
+            "minutes": 3,
+            "label": "Connect",
+            "instructions": "Locate the lesson within Cycle 2 and activate prior knowledge."
+          },
+          {
+            "step_id": "X02",
+            "minutes": 6,
+            "label": "Context",
+            "instructions": "Identify genre, audience, setting, and immediate context before making claims."
+          },
+          {
+            "step_id": "X03",
+            "minutes": 10,
+            "label": "Read closely",
+            "instructions": "Read selected portions of Acts 6:8-8:4 and identify direct observations.",
+            "question_refs": [
+              "Q01"
+            ]
+          },
+          {
+            "step_id": "X04",
+            "minutes": 8,
+            "label": "Discuss",
+            "instructions": "Test the big idea against the evidence and identify interpretive limits.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X05",
+            "minutes": 9,
+            "label": "Activity",
+            "instructions": "Complete the primary evidence-based activity.",
+            "activity_refs": [
+              "A01"
+            ],
+            "resource_refs": [
+              "Y4-L08-P01-stephen-and-the-gospel-beyond-jerusalem-evidence-grid"
+            ]
+          },
+          {
+            "step_id": "X06",
+            "minutes": 5,
+            "label": "Extension",
+            "instructions": "Compare another passage or claim classification and state what additional evidence contributes.",
+            "question_refs": [
+              "Q02",
+              "Q03"
+            ]
+          },
+          {
+            "step_id": "X07",
+            "minutes": 4,
+            "label": "Respond",
+            "instructions": "Name one faithful response and pray.",
+            "question_refs": [
+              "Q04"
+            ]
+          }
+        ]
+      }
+    },
+    "discussion_questions": [
+      {
+        "question_id": "Q01",
+        "question": "What does the passage directly say?",
+        "purpose": "Observation before interpretation.",
+        "foundation_prompt": "Name one concrete detail from the passage.",
+        "extension_prompt": "Which observations carry the most interpretive weight?"
+      },
+      {
+        "question_id": "Q02",
+        "question": "What conclusion can we support from those observations?",
+        "purpose": "Reason from evidence to conclusion.",
+        "foundation_prompt": "Which evidence best supports the big idea?",
+        "extension_prompt": "What reasoning connects the evidence to the conclusion?"
+      },
+      {
+        "question_id": "Q03",
+        "question": "Where could someone overstate or misapply this passage?",
+        "purpose": "Calibrate confidence.",
+        "foundation_prompt": "Name one statement that goes beyond direct quotation.",
+        "extension_prompt": "Explain the interpretive hinge and what would be an overstatement."
+      },
+      {
+        "question_id": "Q04",
+        "question": "What faithful response fits the text?",
+        "purpose": "Integrate formation without pressure.",
+        "foundation_prompt": "Choose one concrete response.",
+        "extension_prompt": "Explain why the response follows from the evidence."
+      }
+    ],
+    "activities": [
+      {
+        "activity_id": "A01",
+        "title": "Stephen and the Gospel Beyond Jerusalem Evidence Grid",
+        "duration_minutes": 10,
+        "materials": [
+          "Prayer, Wealth, and Trust Evidence Grid",
+          "Bible",
+          "Pens or pencils"
+        ],
+        "steps": [
+          "Read the selected text in Acts 6:8-8:4.",
+          "Record two direct observations from the passage.",
+          "Test the lesson big idea: Opposition did not stop the witness to Jesus and helped carry the gospel outward.",
+          "Name one conclusion that would go beyond the evidence and should therefore be avoided."
+        ],
+        "learning_link": "Makes evidence classification and formation visible.",
+        "low_resource_alternative": "Draw the categories on blank paper or complete verbally."
+      },
+      {
+        "activity_id": "A02",
+        "title": "Stephen and the Gospel Beyond Jerusalem Evidence Grid",
+        "duration_minutes": 8,
+        "materials": [
+          "Bible"
+        ],
+        "steps": [
+          "Read the selected text in Acts 6:8-8:4.",
+          "Record two direct observations from the passage.",
+          "Test the lesson big idea: Opposition did not stop the witness to Jesus and helped carry the gospel outward.",
+          "Name one conclusion that would go beyond the evidence and should therefore be avoided."
+        ],
+        "learning_link": "Reinforces honest claim classification.",
+        "low_resource_alternative": "Use verbal responses."
+      }
+    ],
+    "closing": {
+      "memory_reference": "Acts 6:8-8:4",
+      "prayer_prompt": "Thank God for what the passage shows and ask for wisdom to respond faithfully.",
+      "take_home_line": "Opposition did not stop the witness to Jesus and helped carry the gospel outward."
+    },
+    "printable_refs": [
+      "Y4-L08-P01-stephen-and-the-gospel-beyond-jerusalem-evidence-grid"
+    ]
+  },
+  "family": {
+    "duration_minutes": 15,
+    "title": "Family Bible Time: Stephen and the Gospel Beyond Jerusalem",
+    "parent_intro": "In about 15 minutes, read Acts 6:8-8:4 and explore this big idea: Opposition did not stop the witness to Jesus and helped carry the gospel outward.",
+    "flow": [
+      {
+        "duration_minutes": 2,
+        "type": "connect",
+        "instructions": "Recall where Stephen and the Gospel Beyond Jerusalem fits in the Bible story."
+      },
+      {
+        "duration_minutes": 5,
+        "type": "read",
+        "instructions": "Read or retell Acts 6:8-8:4 and notice two details."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "understand",
+        "instructions": "Ask what the passage directly says and what meaning follows from it."
+      },
+      {
+        "duration_minutes": 3,
+        "type": "play",
+        "instructions": "Use the Stephen and the Gospel Beyond Jerusalem Evidence Grid orally or on paper."
+      },
+      {
+        "duration_minutes": 2,
+        "type": "respond",
+        "instructions": "Choose one voluntary response and pray together."
+      }
+    ],
+    "questions": [
+      "What happened or what was taught?",
+      "What does this show us about God, Jesus, or faithful life?",
+      "What is one response we can practise?"
+    ],
+    "interactive": {
+      "type": "puzzle",
+      "title": "Stephen and the Gospel Beyond Jerusalem Evidence Grid",
+      "instructions": "Use the companion resource to sort direct observations from interpretations and responses."
+    },
+    "weekly_action": "Choose one concrete response connected to this lesson and practise it this week.",
+    "prayer": "Thank God for what is clear in the passage; ask for wisdom to respond faithfully without claiming more than the text supports.",
+    "parent_note": "Questions are welcome. Do not force disclosure, certainty, public prayer, baptism, or another public religious decision."
+  },
+  "engagement": {
+    "quiz": [
+      {
+        "question_id": "Z01",
+        "question": "Which passage is central to Stephen and the Gospel Beyond Jerusalem?",
+        "type": "multiple_choice",
+        "options": [
+          "Acts 6:8-8:4",
+          "A verse chosen without context",
+          "A later tradition only",
+          "No biblical text"
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Acts 6:8-8:4"
+        },
+        "explanation": "The lesson is governed by its principal passage."
+      },
+      {
+        "question_id": "Z02",
+        "question": "Which reading habit is most responsible?",
+        "type": "multiple_choice",
+        "options": [
+          "Observe context and genre before concluding.",
+          "Start with the application you want.",
+          "Ignore disagreement.",
+          "Treat every narrative detail as a command."
+        ],
+        "answer": {
+          "kind": "text",
+          "text": "Observe context and genre before concluding."
+        },
+        "explanation": "Observation and context precede synthesis and application."
+      },
+      {
+        "question_id": "Z03",
+        "question": "Opposition did not stop the witness to Jesus and helped carry the gospel outward.",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": true
+        },
+        "explanation": "This is the governed big idea for the lesson."
+      },
+      {
+        "question_id": "Z04",
+        "question": "Should an inference be described as explicit text when the passage does not state it directly?",
+        "type": "true_false",
+        "answer": {
+          "kind": "boolean",
+          "boolean": false
+        },
+        "explanation": "Inference and direct wording must remain distinct."
+      }
+    ],
+    "puzzle": {
+      "type": "matching",
+      "title": "Stephen and the Gospel Beyond Jerusalem Evidence Match",
+      "instructions": "Match each reading move with its purpose.",
+      "items": [
+        "Observation",
+        "Context",
+        "Meaning",
+        "Response"
+      ],
+      "choices": [
+        "What the text says",
+        "What surrounds the text",
+        "What the evidence supports",
+        "How faithfulness follows"
+      ],
+      "solution": {
+        "kind": "pairs",
+        "pairs": [
+          {
+            "prompt": "Observation",
+            "answer": "What the text says"
+          },
+          {
+            "prompt": "Context",
+            "answer": "What surrounds the text"
+          },
+          {
+            "prompt": "Meaning",
+            "answer": "What the evidence supports"
+          },
+          {
+            "prompt": "Response",
+            "answer": "How faithfulness follows"
+          }
+        ]
+      }
+    },
+    "printables": [
+      {
+        "resource_id": "Y4-L08-P01-stephen-and-the-gospel-beyond-jerusalem-evidence-grid",
+        "title": "Stephen and the Gospel Beyond Jerusalem Evidence Grid",
+        "purpose": "Support the primary activity for Stephen and the Gospel Beyond Jerusalem.",
+        "format": "worksheet",
+        "status": "content_source_draft"
+      }
+    ]
+  },
+  "accessibility": {
+    "reading_level": "Upper-primary guided reading with concrete supports",
+    "plain_language_rule": "Define unfamiliar terms before theological shorthand.",
+    "neurodiversity_supports": [
+      "Offer verbal or written responses.",
+      "Preview activity sequence.",
+      "Allow students to pass on personal-sharing questions."
+    ],
+    "sensory_notes": [
+      "No sensory simulation is required."
+    ],
+    "non_reader_support": [
+      "Read aloud and use icons, sequence cards, oral choices, or a scribe."
+    ]
+  },
+  "safeguarding": {
+    "sensitivity_tags": [
+      "Baptism pressure"
+    ],
+    "do_not_ask": [
+      "Do not require disclosure of trauma, family finances, grief, abuse, or private spiritual decisions.",
+      "Do not pressure a child or young person toward baptism, public prayer, or another public response."
+    ],
+    "teacher_response": "Use the lesson guardrails in the review sheet; answer from the evidence, avoid coercion, and route personal or safety concerns to appropriate adults.",
+    "escalation_required": false
+  },
+  "editorial": {
+    "source_provenance": [
+      "Youths Research A and B; Curriculum Research Adjudication v0.1; editorial synthesis",
+      "Canonical Curriculum Matrix v0.2",
+      "Batch 20 editorial synthesis; no verse text reproduced pending translation licensing."
+    ],
+    "decision_register_refs": [
+      "D001"
+    ],
+    "review_flags": [
+      "TH-BAPTISM",
+      "pastoral_review"
+    ],
+    "review_state": {
+      "exegetical": "approved",
+      "developmental": "approved",
+      "pastoral": "deferred_owner_managed",
+      "copy": "approved"
+    },
+    "scripture_text_policy": "Store references and editorial paraphrase only until translation licensing and attribution rules are confirmed.",
+    "editor_notes": [
+      "Draft for human review.",
+      "Regression gates enforced: matching puzzle choices required; framework_position interpretive_hinge required.",
+      "Do not romanticise persecution or imply suffering proves spiritual superiority.",
+      "Keep Stephen's death age-appropriate and avoid graphic detail."
+    ]
+  }
+}
