@@ -55,10 +55,9 @@ function lessonRedirects() {
   };
 }
 
-// Site URL is a placeholder until the Netlify site exists.
-// Replace after completing MANUAL_SETUP_NETLIFY_GITHUB.md.
+// Production canonical URL: the lesson site's custom domain (TLS live 2026-08).
 export default defineConfig({
-  site: 'https://example.netlify.app',
+  site: 'https://sundayschool.wellingtoncoc.com',
   output: 'static',
   integrations: [react(), lessonRedirects()],
 });
