@@ -27,6 +27,17 @@ const resources = Object.values(resourceModules) as PrintableResource[];
 const scheduleEntries = Object.values(scheduleModules) as ScheduleEntry[];
 
 const lessonById = new Map(lessons.map((lesson) => [lesson.lesson_id, lesson]));
+
+// Repository-relative source path of each lesson file (e.g.
+// "src/content/lessons/kids/k1-l01_god_made_a_good_world.json"). The glob keys
+// are root-absolute ("/src/..."), so strip the leading slash to get the path
+// as it appears in the git repository.
+const lessonRepoPathById = new Map(
+  Object.entries(lessonModules).map(([modulePath, module]) => [
+    (module as LessonContent).lesson_id,
+    modulePath.replace(/^\//, ''),
+  ]),
+);
 const resourceById = new Map(resources.map((resource) => [resource.resource_id, resource]));
 
 export function getAllLessons(): LessonContent[] {
@@ -57,6 +68,15 @@ export function getLessonById(lessonId: string): LessonContent | undefined {
 export function getPublicLessonById(lessonId: string, mode: ContentMode): LessonContent | undefined {
   const lesson = lessonById.get(lessonId);
   return lesson && isLessonPublic(lesson, mode) ? lesson : undefined;
+}
+
+/**
+ * Where a lesson lives in the repository, relative to the repo root. Lets an
+ * external editor (the calendar app's lesson editor) read and commit the exact
+ * source file without guessing the title slug in the filename.
+ */
+export function getLessonRepoPath(lessonId: string): string | undefined {
+  return lessonRepoPathById.get(lessonId);
 }
 
 export function getAllResources(): PrintableResource[] {
