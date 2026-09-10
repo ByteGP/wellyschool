@@ -3,6 +3,7 @@ import {
   getAllLessons,
   getAllResources,
   getLessonById,
+  getLessonRepoPath,
   getPublicLessons,
   getPublicLessonsBySegment,
   getResourceById,
@@ -63,6 +64,23 @@ describe('content loader (real repository content)', () => {
 
   it('returns lessons by id regardless of mode for internal use', () => {
     expect(getLessonById('Y2-L12')?.curriculum.segment).toBe('Youths');
+  });
+
+  it('knows the repository path of every lesson file, under its segment folder', () => {
+    expect(getLessonRepoPath('K1-L01')).toBe(
+      'src/content/lessons/kids/k1-l01_god_made_a_good_world.json',
+    );
+    expect(getLessonRepoPath('NOPE-L99')).toBeUndefined();
+    const folderFor = { Kids: 'kids', Youths: 'youths', Teens: 'teens' } as const;
+    for (const lesson of getAllLessons()) {
+      const repoPath = getLessonRepoPath(lesson.lesson_id);
+      const folder = folderFor[lesson.curriculum.segment];
+      // Repo-relative (no leading slash), in the right segment folder, and the
+      // filename starts with the lower-cased lesson id.
+      expect(repoPath, lesson.lesson_id).toMatch(
+        new RegExp(`^src/content/lessons/${folder}/${lesson.lesson_id.toLowerCase()}[_-].*\\.json$`),
+      );
+    }
   });
 
   it('has no explicit schedule override files by default (schedule is generated)', () => {
