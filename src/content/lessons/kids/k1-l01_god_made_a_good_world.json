@@ -203,7 +203,7 @@
             "step_id": "E03",
             "minutes": 5,
             "label": "Understand",
-            "instructions": "Identify the repeated pattern and state what it shows about God and creation.",
+            "instructions": "Identify the repeated pattern (\"God said... and it was so.\" ) and state what it shows about God and creation.",
             "question_refs": [
               "Q02",
               "Q03"
@@ -263,7 +263,7 @@
             "step_id": "S04",
             "minutes": 7,
             "label": "Discuss",
-            "instructions": "Identify the repeated pattern and state what it shows about God and creation.",
+            "instructions": "Identify the repeated pattern (\"God said... and it was so.\" ) and state what it shows about God and creation.",
             "question_refs": [
               "Q03",
               "Q04"
