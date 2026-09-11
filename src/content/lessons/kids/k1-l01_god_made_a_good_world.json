@@ -247,7 +247,7 @@
             "step_id": "S02",
             "minutes": 4,
             "label": "Context",
-            "instructions": "Introduce the passage setting, speaker, audience, and genre in age-appropriate language."
+            "instructions": "Ask them to find the very first book of the Bible with you. Tell them that Genesis means Beginning."
           },
           {
             "step_id": "S03",
