@@ -26,7 +26,7 @@
       {
         "reference": "Genesis 1:31",
         "role": "supporting",
-        "reading_note": "Use as the concluding summary that creation was very good."
+        "reading_note": "Use as the concluding verse that creation was very good."
       }
     ],
     "metanarrative_position": "Creation: God begins the biblical story as the Maker and ruler of a good world.",
@@ -304,7 +304,7 @@
             "step_id": "X02",
             "minutes": 6,
             "label": "Context",
-            "instructions": "Locate the passage in the whole-Bible story and explain its literary setting."
+            "instructions": "Locate the passage in the whole-Bible story, ask them to find the very first book of the Bible with you. Tell them that Genesis means Beginning."
           },
           {
             "step_id": "X03",
@@ -320,7 +320,7 @@
             "step_id": "X04",
             "minutes": 8,
             "label": "Interpret",
-            "instructions": "Identify the repeated pattern and state what it shows about God and creation.",
+            "instructions": "Identify the repeated pattern (\"God said... and it was so.\" ) State what it shows about God and creation.",
             "question_refs": [
               "Q03",
               "Q04"
@@ -342,7 +342,7 @@
             "step_id": "X06",
             "minutes": 7,
             "label": "Activity two",
-            "instructions": "Complete the Good World Notice activity and distinguish observation from application.",
+            "instructions": "Complete the Good World Notice activity and distinguish if it something to appreciate, or if it has an application for us (eg, cows give us milk and meat (application), or Mt. Taranaki is beautiful scenery.)",
             "activity_refs": [
               "A02"
             ]
