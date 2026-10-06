@@ -27,8 +27,8 @@
   --sage: #5a6a5b; /* Sage: line art, quiet icons */
   --notice: #7a4e0e; /* "Changed" / needs attention only */
   --notice-bg: #f3e6cc;
-  --ok: #35674a; /* Positive learning feedback (correct) */
-  --ok-bg: #e6efe8;
+  --ok: #2f5e3b; /* Positive learning feedback (correct); shared with the website */
+  --ok-bg: #e3eee4;
   --field: #6b6057; /* Field borders */
 
   /* Type */
@@ -97,8 +97,8 @@
     --sage: #9db09e;
     --notice: #e8b867;
     --notice-bg: #3a2e1a;
-    --ok: #8bc0a0;
-    --ok-bg: #1e2b23;
+    --ok: #9ccfa6;
+    --ok-bg: #1f3324;
     --field: #8a847c;
     --foot: #0f0f11;
     --foot-text: #eeeae3;
@@ -127,8 +127,8 @@
   --sage: #9db09e;
   --notice: #e8b867;
   --notice-bg: #3a2e1a;
-  --ok: #8bc0a0;
-  --ok-bg: #1e2b23;
+  --ok: #9ccfa6;
+  --ok-bg: #1f3324;
   --field: #8a847c;
   --foot: #0f0f11;
   --foot-text: #eeeae3;
