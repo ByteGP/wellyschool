@@ -1,0 +1,38 @@
+/*
+ * Metric-matched fallbacks so a late web font swap does not reflow the page (CLS).
+ * Overrides computed from the fonts' own metrics against Georgia and Arial, copied
+ * verbatim from the church website (WellyWebsite: src/styles/fonts.css).
+ * Instrument Sans Variable and Newsreader Variable themselves load from
+ * @fontsource-variable in BaseLayout.astro. Noto Serif TC is omitted: this site
+ * renders no Chinese characters.
+ */
+
+@font-face {
+  font-family: 'Newsreader Fallback';
+  font-style: normal;
+  src: local('Georgia');
+  size-adjust: 91.32%;
+  ascent-override: 80.49%;
+  descent-override: 29.02%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Newsreader Fallback';
+  font-style: italic;
+  src: local('Georgia Italic'), local('Georgia-Italic');
+  size-adjust: 87%;
+  ascent-override: 84.5%;
+  descent-override: 30.5%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Instrument Sans Fallback';
+  font-style: normal;
+  src: local('Arial');
+  size-adjust: 106.4%;
+  ascent-override: 91.16%;
+  descent-override: 23.5%;
+  line-gap-override: 0%;
+}

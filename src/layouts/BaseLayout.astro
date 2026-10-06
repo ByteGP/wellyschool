@@ -1,5 +1,13 @@
 ---
+import '@fontsource-variable/instrument-sans/wght.css';
+import '@fontsource-variable/newsreader/opsz.css';
+import '@fontsource-variable/newsreader/opsz-italic.css';
+import '../styles/fonts.css';
+import '../styles/tokens.css';
 import '../styles/global.css';
+import newsreaderUrl from '@fontsource-variable/newsreader/files/newsreader-latin-opsz-normal.woff2?url';
+import newsreaderItalicUrl from '@fontsource-variable/newsreader/files/newsreader-latin-opsz-italic.woff2?url';
+import instrumentSansUrl from '@fontsource-variable/instrument-sans/files/instrument-sans-latin-wght-normal.woff2?url';
 import { getSiteSettings } from '../lib/content/loader';
 import { NOINDEX } from '../lib/content/site';
 import pkg from '../../package.json';
@@ -22,12 +30,27 @@ const version = pkg.version;
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <script is:inline>
+      // Appearance: apply the saved theme before first paint to avoid a flash.
+      try {
+        const t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch {
+        /* storage unavailable */
+      }
+    </script>
     <title>{title} · {settings.site_name}</title>
     {description && <meta name="description" content={description} />}
     {blockIndexing && <meta name="robots" content="noindex,nofollow" />}
-    <meta name="theme-color" content="#f7f6f3" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F7F6F3" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#17171A" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="preload" as="font" type="font/woff2" crossorigin href={newsreaderUrl} />
+    <link rel="preload" as="font" type="font/woff2" crossorigin href={newsreaderItalicUrl} />
+    <link rel="preload" as="font" type="font/woff2" crossorigin href={instrumentSansUrl} />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -36,19 +59,19 @@ const version = pkg.version;
         <a class="site-header__brand site-header__name" href="/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
+            viewBox="0 0 240 210"
+            width="30"
+            height="26"
             fill="none"
-            width="28"
-            height="28"
+            stroke="currentColor"
+            stroke-width="12"
+            stroke-linecap="round"
+            stroke-linejoin="round"
             aria-hidden="true"
           >
-            <rect width="24" height="24" rx="6" fill="#3B6391"></rect>
-            <path
-              d="M12 4v5M9.5 6.5h5M5.5 20v-9L12 7l6.5 4v9M5.5 20h13M10 20v-4h4v4"
-              stroke="#FAFAF8"
-              stroke-width="1.7"
-              stroke-linecap="round"
-              stroke-linejoin="round"></path>
+            <path d="M120 22v138"></path>
+            <path d="M72 70h96"></path>
+            <path d="M18 196c36-26 66-38 102-38s66 12 102 38"></path>
           </svg>
           <span>{settings.site_name}</span>
         </a>
@@ -64,8 +87,55 @@ const version = pkg.version;
     <footer class="site-footer">
       <div class="site-footer__inner">
         <p>Wellington Church of Christ | Sunday School Lessons</p>
-        <p>v{version}</p>
+        <form class="theme" data-theme-switch>
+          <fieldset class="theme-set">
+            <legend class="visually-hidden">Appearance</legend>
+            <span class="theme-label" aria-hidden="true">Appearance</span>
+            <label class="theme-opt">
+              <input type="radio" name="theme" value="system" checked /><span>Auto</span>
+            </label>
+            <label class="theme-opt">
+              <input type="radio" name="theme" value="light" /><span>Light</span>
+            </label>
+            <label class="theme-opt">
+              <input type="radio" name="theme" value="dark" /><span>Dark</span>
+            </label>
+          </fieldset>
+        </form>
+        <p class="site-footer__meta">v{version}</p>
       </div>
     </footer>
+    <script>
+      // Appearance: Auto follows the device; Light and Dark are remembered on this device.
+      const KEY = 'theme';
+      const root = document.documentElement;
+      const read = (): string => {
+        try {
+          return localStorage.getItem(KEY) ?? 'system';
+        } catch {
+          return 'system';
+        }
+      };
+      const apply = (value: string) => {
+        if (value === 'light' || value === 'dark') root.dataset.theme = value;
+        else delete root.dataset.theme;
+        try {
+          if (value === 'system') localStorage.removeItem(KEY);
+          else localStorage.setItem(KEY, value);
+        } catch {
+          /* private mode: the choice lasts for this page only */
+        }
+      };
+      for (const form of document.querySelectorAll<HTMLFormElement>('[data-theme-switch]')) {
+        const current = read();
+        const radio = form.querySelector<HTMLInputElement>(`input[value="${current}"]`);
+        if (radio) radio.checked = true;
+        form.addEventListener('change', (event) => {
+          const input = event.target as HTMLInputElement;
+          if (input.name === 'theme') apply(input.value);
+        });
+        form.addEventListener('submit', (event) => event.preventDefault());
+      }
+    </script>
   </body>
 </html>
