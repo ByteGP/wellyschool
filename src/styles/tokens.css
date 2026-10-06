@@ -1,0 +1,181 @@
+/*
+ * Design tokens for the Wellington Church of Christ Sunday School site.
+ * Adopts the church website's visual identity (WellyWebsite: src/styles/tokens.css)
+ * as the canonical Wellington Church of Christ system: warm paper ground, petrol
+ * accent, Instrument Sans + Newsreader, soft radius, no shadows.
+ * Light by default; dark follows the device and can be pinned with
+ * <html data-theme="light|dark">. Older component class names are kept as aliases
+ * at the bottom so existing markup re-skins without edits.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* Colour: light / daytime (shared with the website) */
+  --bg: #f7f6f3; /* Paper: page ground */
+  --surface: #fff; /* Raised rows, cards, fields */
+  --band: #ece9e2; /* Quiet secondary sections, chips */
+  --rule: #dcd6cc; /* Dividers and control edges */
+  --rule-strong: #cfc8bc;
+  --text: #2a211c; /* Ink: headings, body */
+  --text2: #5b4e44; /* Ink soft: secondary text, meta */
+  --text3: #6b6057; /* Ink muted: captions */
+  --accent: #1f4a52; /* Petrol: actions, links, focus */
+  --accent-h: #163940; /* Petrol deep: hover and pressed */
+  --on-accent: #f7f6f3; /* Paper on petrol */
+  --tint: #dce7e6; /* Petrol tint: selected, one-off chips */
+  --sage: #5a6a5b; /* Sage: line art, quiet icons */
+  --notice: #7a4e0e; /* "Changed" / needs attention only */
+  --notice-bg: #f3e6cc;
+  --ok: #35674a; /* Positive learning feedback (correct) */
+  --ok-bg: #e6efe8;
+  --field: #6b6057; /* Field borders */
+
+  /* Type */
+  --font-sans:
+    'Instrument Sans Variable', 'Instrument Sans Fallback', ui-sans-serif, system-ui, -apple-system,
+    'Segoe UI', sans-serif;
+  --font-serif: 'Newsreader Variable', 'Newsreader Fallback', georgia, serif;
+
+  --text-sm: 0.9375rem; /* 15px captions and meta (never below 14px) */
+  --text-base: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem); /* 17-18px body */
+  --text-lg: clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem); /* h3 */
+  --text-xl: clamp(1.625rem, 1.3rem + 1.6vw, 2.375rem); /* h2 */
+  --text-2xl: clamp(1.875rem, 1.4rem + 2.4vw, 3.375rem); /* h1 */
+  --text-display: clamp(2.375rem, 1.6rem + 3.6vw, 3.75rem); /* hero */
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --content-width: 48rem;
+
+  /* Shape: soft, never bubbly. No shadows anywhere. */
+  --radius: 20px; /* panels, cards, photos */
+  --radius-sm: 10px; /* fields, alerts, tiles */
+  --radius-xs: 6px; /* small chips, focus */
+  --radius-pill: 999px; /* buttons, chips, nav */
+  --tap-target: 44px;
+
+  /* Controls */
+  --btn-h: 52px;
+  --btn-h-mobile: 48px;
+
+  /* Motion */
+  --d-hover: 150ms;
+  --ease-calm: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  /* Footer (petrol-dark band, as on the website) */
+  --foot: #2a211c;
+  --foot-text: #f7f6f3;
+  --foot-2: #cfc3b3;
+  --foot-link: #9cc3c8;
+  --foot-rule: #4a3f38;
+}
+
+/* Dark: follows the device unless light is pinned */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+
+    --bg: #17171a;
+    --surface: #1f1f23;
+    --band: #26262b;
+    --rule: #34343a;
+    --rule-strong: #46464d;
+    --text: #eeeae3;
+    --text2: #c4bdb3;
+    --text3: #a39c93;
+    --accent: #8cc2c9;
+    --accent-h: #b3d8dd;
+    --on-accent: #17171a;
+    --tint: #1e3639;
+    --sage: #9db09e;
+    --notice: #e8b867;
+    --notice-bg: #3a2e1a;
+    --ok: #8bc0a0;
+    --ok-bg: #1e2b23;
+    --field: #8a847c;
+    --foot: #0f0f11;
+    --foot-text: #eeeae3;
+    --foot-2: #a39c93;
+    --foot-link: #8cc2c9;
+    --foot-rule: #34343a;
+  }
+}
+
+/* Dark: pinned by the Appearance control */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #17171a;
+  --surface: #1f1f23;
+  --band: #26262b;
+  --rule: #34343a;
+  --rule-strong: #46464d;
+  --text: #eeeae3;
+  --text2: #c4bdb3;
+  --text3: #a39c93;
+  --accent: #8cc2c9;
+  --accent-h: #b3d8dd;
+  --on-accent: #17171a;
+  --tint: #1e3639;
+  --sage: #9db09e;
+  --notice: #e8b867;
+  --notice-bg: #3a2e1a;
+  --ok: #8bc0a0;
+  --ok-bg: #1e2b23;
+  --field: #8a847c;
+  --foot: #0f0f11;
+  --foot-text: #eeeae3;
+  --foot-2: #a39c93;
+  --foot-link: #8cc2c9;
+  --foot-rule: #34343a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --d-hover: 0ms;
+  }
+}
+
+/*
+ * Back-compat aliases: the Sunday School components were written against an
+ * earlier token set. Map those names onto the new system so existing markup and
+ * any component-scoped styles re-skin with no edits. Prefer the names above for
+ * new work.
+ */
+:root {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-sunken: var(--band);
+  --color-text: var(--text);
+  --color-muted: var(--text2);
+  --color-muted-soft: var(--text3);
+  --color-primary: var(--accent);
+  --color-primary-strong: var(--accent-h);
+  --color-primary-soft: var(--tint);
+  --color-primary-contrast: var(--on-accent);
+  --color-accent: var(--notice);
+  --color-border: var(--rule);
+  --color-border-strong: var(--rule-strong);
+  --color-focus: var(--accent);
+  --color-alert-bg: var(--notice-bg);
+  --color-alert-border: var(--notice);
+  --color-ok: var(--ok);
+  --color-ok-bg: var(--ok-bg);
+  --color-info-bg: var(--tint);
+
+  /* Flattened: the identity has no glass or shadow */
+  --glass-bg: var(--surface);
+  --glass-border: var(--rule);
+  --glass-highlight: var(--rule);
+  --shadow-card: none;
+  --shadow-raised: none;
+
+  --font-body: var(--font-sans);
+}
