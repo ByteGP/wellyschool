@@ -49,10 +49,14 @@ function lessonRedirects() {
         let proxyRules = '';
         if (base !== '/') {
           const b = base.replace(/\/$/, '');
+          // The teaching-log function registers its own path (/api/teaching-log
+          // via config.path), so route the base path to that, not to
+          // /.netlify/functions/. Catch-all serves the flat dist and must stay
+          // last.
           proxyRules = [
             '',
             '# Members proxy: serve this app under the base path.',
-            `${b}/api/teaching-log\t/.netlify/functions/teaching-log\t200`,
+            `${b}/api/teaching-log\t/api/teaching-log\t200`,
             `${b}/*\t/:splat\t200`,
             '',
           ].join('\n');
