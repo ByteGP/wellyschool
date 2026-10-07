@@ -12,6 +12,7 @@
 import type { ContentMode } from '../content/mode';
 import { getEffectiveSchedule, getPublicLessonById } from '../content/loader';
 import { slugFromSegment, type SegmentSlug } from '../content/segments';
+import { withBase } from '../base';
 
 export interface LessonLink {
   /** ISO date (YYYY-MM-DD), the civil Sunday in Pacific/Auckland. */
@@ -41,7 +42,7 @@ export function getLessonLinks(mode: ContentMode): LessonLink[] {
     const lesson = getPublicLessonById(entry.lesson_id, mode);
     if (!lesson) continue;
     const slug = slugFromSegment(lesson.curriculum.segment);
-    const lessonPath = `/teacher/${slug}/${lesson.lesson_id.toLowerCase()}/`;
+    const lessonPath = withBase(`/teacher/${slug}/${lesson.lesson_id.toLowerCase()}/`);
     links.push({
       date: entry.date,
       class: slug,

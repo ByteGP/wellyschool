@@ -16,10 +16,16 @@ export const FALLBACK_SLUGS = ['kids', 'youths', 'teens'];
  *      scheduled lesson still resolves to that class's landing page instead of
  *      404ing. This keeps every reminder URL safe even before a lesson exists.
  *
+ * The lesson targets in `entries` already carry the base path (they come from
+ * withBase), so only the `/l/...` sources and the per-class fallback targets are
+ * prefixed here.
+ *
  * @param {Array<{date:string,class:string,lessonPath:string,preparePath:string}>} entries
+ * @param {string} [base] Site base path, '/' (default) or e.g. '/members/sunday-school'.
  * @returns {string}
  */
-export function buildRedirects(entries) {
+export function buildRedirects(entries, base = '/') {
+  const b = base === '/' ? '' : base.replace(/\/$/, '');
   const sorted = [...entries].sort(
     (a, b) => a.date.localeCompare(b.date) || a.class.localeCompare(b.class),
   );
@@ -32,14 +38,14 @@ export function buildRedirects(entries) {
   ];
 
   for (const entry of sorted) {
-    lines.push(`/l/${entry.date}/${entry.class}\t${entry.lessonPath}\t301`);
-    lines.push(`/l/${entry.date}/${entry.class}/prepare\t${entry.preparePath}\t301`);
+    lines.push(`${b}/l/${entry.date}/${entry.class}\t${entry.lessonPath}\t301`);
+    lines.push(`${b}/l/${entry.date}/${entry.class}/prepare\t${entry.preparePath}\t301`);
   }
 
   lines.push('');
   for (const slug of FALLBACK_SLUGS) {
-    lines.push(`/l/:date/${slug}\t/teacher/${slug}/\t302`);
-    lines.push(`/l/:date/${slug}/prepare\t/teacher/${slug}/\t302`);
+    lines.push(`${b}/l/:date/${slug}\t${b}/teacher/${slug}/\t302`);
+    lines.push(`${b}/l/:date/${slug}/prepare\t${b}/teacher/${slug}/\t302`);
   }
   lines.push('');
 

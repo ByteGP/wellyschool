@@ -10,6 +10,8 @@ import newsreaderItalicUrl from '@fontsource-variable/newsreader/files/newsreade
 import instrumentSansUrl from '@fontsource-variable/instrument-sans/files/instrument-sans-latin-wght-normal.woff2?url';
 import { getSiteSettings } from '../lib/content/loader';
 import { NOINDEX } from '../lib/content/site';
+import { withBase } from '../lib/base';
+import MembersShell from '../components/members/MembersShell.astro';
 import pkg from '../../package.json';
 
 interface Props {
@@ -24,6 +26,9 @@ const { title, description, section, noindex } = Astro.props;
 const settings = getSiteSettings();
 const blockIndexing = NOINDEX || noindex === true;
 const version = pkg.version;
+// Under the members proxy (base path set) render the website's shared header and
+// members sub-nav; standalone keeps the app's own compact header.
+const membersShell = (import.meta.env.BASE_URL || '/') !== '/';
 ---
 
 <!doctype html>
@@ -45,18 +50,20 @@ const version = pkg.version;
     {blockIndexing && <meta name="robots" content="noindex,nofollow" />}
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F7F6F3" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#17171A" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
+    <link rel="apple-touch-icon" href={withBase('/icons/apple-touch-icon.png')} />
+    <link rel="manifest" href={withBase('/manifest.webmanifest')} />
     <link rel="preload" as="font" type="font/woff2" crossorigin href={newsreaderUrl} />
     <link rel="preload" as="font" type="font/woff2" crossorigin href={newsreaderItalicUrl} />
     <link rel="preload" as="font" type="font/woff2" crossorigin href={instrumentSansUrl} />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
+    {membersShell && <MembersShell />}
+    {!membersShell && (
     <header class="site-header">
       <div class="site-header__inner">
-        <a class="site-header__brand site-header__name" href="/">
+        <a class="site-header__brand site-header__name" href={withBase('/')}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 240 210"
@@ -76,11 +83,12 @@ const version = pkg.version;
           <span>{settings.site_name}</span>
         </a>
         <nav class="site-nav" aria-label="Main">
-          <a href="/teacher/" aria-current={section === 'teacher' ? 'true' : undefined}>Teachers</a>
-          <a href="/family/" aria-current={section === 'family' ? 'true' : undefined}>Parents</a>
+          <a href={withBase('/teacher/')} aria-current={section === 'teacher' ? 'true' : undefined}>Teachers</a>
+          <a href={withBase('/family/')} aria-current={section === 'family' ? 'true' : undefined}>Parents</a>
         </nav>
       </div>
     </header>
+    )}
     <main id="main">
       <slot />
     </main>

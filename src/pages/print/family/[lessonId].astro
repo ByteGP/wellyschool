@@ -4,6 +4,7 @@ import { getPublicLessons } from '../../../lib/content/loader';
 import { CONTENT_MODE } from '../../../lib/content/site';
 import { slugFromSegment } from '../../../lib/content/segments';
 import { toPrintFamilyViewModel } from '../../../lib/view-models/print';
+import { withBase } from '../../../lib/base';
 import type { LessonContent } from '../../../types';
 
 export function getStaticPaths() {
@@ -19,7 +20,9 @@ interface Props {
 
 const { lesson } = Astro.props;
 const vm = toPrintFamilyViewModel(lesson);
-const backHref = `/family/${slugFromSegment(lesson.curriculum.segment)}/${vm.lessonId.toLowerCase()}/`;
+const backHref = withBase(
+  `/family/${slugFromSegment(lesson.curriculum.segment)}/${vm.lessonId.toLowerCase()}/`,
+);
 const stepNames: Record<string, string> = {
   connect: 'Connect',
   read: 'Read',

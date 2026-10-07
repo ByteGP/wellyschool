@@ -7,6 +7,7 @@ import { CONTENT_MODE } from '../../../lib/content/site';
 import { isLessonPublic } from '../../../lib/content/mode';
 import { slugFromSegment } from '../../../lib/content/segments';
 import { renderResourceMarkdown } from '../../../lib/content/markdown';
+import { withBase } from '../../../lib/base';
 import type { PrintableResource } from '../../../types';
 
 export function getStaticPaths() {
@@ -28,9 +29,11 @@ interface Props {
 
 const { resource } = Astro.props;
 const lesson = getLessonById(resource.lesson_id);
-const backHref = lesson
-  ? `/teacher/${slugFromSegment(lesson.curriculum.segment)}/${lesson.lesson_id.toLowerCase()}/`
-  : '/teacher/';
+const backHref = withBase(
+  lesson
+    ? `/teacher/${slugFromSegment(lesson.curriculum.segment)}/${lesson.lesson_id.toLowerCase()}/`
+    : '/teacher/',
+);
 const bodyHtml = renderResourceMarkdown(resource.body_markdown);
 ---
 

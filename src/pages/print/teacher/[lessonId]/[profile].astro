@@ -6,6 +6,7 @@ import { getPublicLessons } from '../../../../lib/content/loader';
 import { CONTENT_MODE } from '../../../../lib/content/site';
 import { slugFromSegment } from '../../../../lib/content/segments';
 import { PROFILE_NAMES, toPrintTeacherViewModel, type ProfileName } from '../../../../lib/view-models/print';
+import { withBase } from '../../../../lib/base';
 import type { LessonContent } from '../../../../types';
 
 export function getStaticPaths() {
@@ -24,7 +25,9 @@ interface Props {
 
 const { lesson, profile } = Astro.props;
 const vm = toPrintTeacherViewModel(lesson, profile);
-const backHref = `/teacher/${slugFromSegment(lesson.curriculum.segment)}/${vm.lessonId.toLowerCase()}/`;
+const backHref = withBase(
+  `/teacher/${slugFromSegment(lesson.curriculum.segment)}/${vm.lessonId.toLowerCase()}/`,
+);
 ---
 
 <PrintLayout title={`${vm.title} - Teacher (${vm.profileLabel})`} backHref={backHref} backLabel="Back to lesson">

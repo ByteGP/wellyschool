@@ -65,6 +65,17 @@
   --btn-h: 52px;
   --btn-h-mobile: 48px;
 
+  /* Website shared-shell aliases (used by the members header under the proxy) */
+  --container: 1280px;
+  --gutter: clamp(20px, 5vw, 64px);
+  --tap: var(--tap-target);
+  --fs-nav: 16px;
+  --fs-ui: 17px;
+  --r-pill: var(--radius-pill);
+  --ease-out: ease-out;
+  --focus-ring: 3px solid var(--accent);
+  --focus-offset: 3px;
+
   /* Motion */
   --d-hover: 150ms;
   --ease-calm: cubic-bezier(0.2, 0.7, 0.2, 1);

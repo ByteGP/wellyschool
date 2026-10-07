@@ -7,6 +7,7 @@ import type { APIRoute } from 'astro';
 import { getLessonRepoPath, getPublicLessons } from '../lib/content/loader';
 import { CONTENT_MODE } from '../lib/content/site';
 import { slugFromSegment } from '../lib/content/segments';
+import { withBase } from '../lib/base';
 
 export const GET: APIRoute = () => {
   const lessons = getPublicLessons(CONTENT_MODE)
@@ -20,7 +21,7 @@ export const GET: APIRoute = () => {
         cycleName: lesson.curriculum.cycle_name,
         sequence: lesson.curriculum.sequence,
         title: lesson.curriculum.title,
-        teacherPath: `/teacher/${slug}/${lesson.lesson_id.toLowerCase()}/`,
+        teacherPath: withBase(`/teacher/${slug}/${lesson.lesson_id.toLowerCase()}/`),
         repoPath: getLessonRepoPath(lesson.lesson_id),
       };
     })

@@ -9,6 +9,7 @@ import { getEffectiveSchedule, getLessonById, getPublicLessonsBySegment, getTerm
 import { CONTENT_MODE } from '../../../../lib/content/site';
 import { SEGMENT_SLUGS, segmentFromSlug, slugFromSegment, type SegmentSlug } from '../../../../lib/content/segments';
 import { formatDisplayDate } from '../../../../lib/schedule/date-selection';
+import { withBase } from '../../../../lib/base';
 
 export function getStaticPaths() {
   const terms = getTermSettings().terms;
@@ -39,7 +40,7 @@ const sundays: PlannedSunday[] = schedule.map((entry) => {
       ? {
           plannedLessonId: lesson.lesson_id,
           plannedTitle: lesson.curriculum.title,
-          lessonUrl: `/teacher/${slug}/${lesson.lesson_id.toLowerCase()}/`,
+          lessonUrl: withBase(`/teacher/${slug}/${lesson.lesson_id.toLowerCase()}/`),
         }
       : {}),
   };
@@ -58,7 +59,7 @@ const lessonOptions = getPublicLessonsBySegment(segment, CONTENT_MODE).map((less
   noindex={true}
 >
   <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
-    <a class="back-link" href={`/teacher/${slug}/`}>&larr; Back to {segment}</a>
+    <a class="back-link" href={withBase(`/teacher/${slug}/`)}>&larr; Back to {segment}</a>
   </nav>
 
   <header style="margin-bottom: var(--space-4);">
@@ -75,9 +76,8 @@ const lessonOptions = getPublicLessonsBySegment(segment, CONTENT_MODE).map((less
       otherTerms.map((other) => (
         <a
           class="button"
-          href={`/teacher/${slug}/planner/${other.term_id}/`}
+          href={withBase(`/teacher/${slug}/planner/${other.term_id}/`)}
           aria-pressed={other.term_id === term.term_id ? 'true' : 'false'}
-          style={other.term_id === term.term_id ? '' : 'background: rgb(255 255 255 / 0.8); color: var(--color-primary);'}
         >
           {other.term_id}
         </a>

@@ -1,0 +1,460 @@
+---
+// The Wellington Church of Christ website header + members sub-nav, rendered
+// only when this site is built for the members proxy (base path set). Spec and
+// source of truth: WellyWebsite docs/members-shell.md (Header.astro /
+// MembersShell.astro). Website links are root-relative (they resolve against
+// the main site under the proxy); only this app's own link uses the base.
+import { withBase } from '../../lib/base';
+
+// This app's landing inside the members area.
+const home = withBase('/');
+---
+
+<header class="members-header">
+  <div class="wrap bar">
+    <a href="/" class="brand" aria-label="Wellington Church of Christ, home">
+      <svg
+        class="brand-mark"
+        viewBox="0 0 240 210"
+        width="44"
+        height="39"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="12"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M120 22v138"></path>
+        <path d="M72 70h96"></path>
+        <path d="M18 196c36-26 66-38 102-38s66 12 102 38"></path>
+      </svg>
+      <span class="serif brand-name">Wellington<br />Church of Christ</span>
+    </a>
+
+    <nav aria-label="Main" class="desk-only main-nav">
+      <a class="nav" href="/im-new">I'm New</a>
+      <a class="nav" href="/gatherings">Gatherings</a>
+      <a class="nav" href="/bible-study">Bible Study</a>
+      <a class="nav" href="/about">About</a>
+      <a class="nav" href="/contact">Contact</a>
+    </nav>
+
+    <div class="desk-only actions">
+      <a class="nav members" href="/members" aria-current="page">Members</a>
+      <a class="btn btn-primary" href="/im-new">Plan a visit</a>
+    </div>
+
+    <button
+      class="ibtn narrow-only menu-btn"
+      type="button"
+      aria-expanded="false"
+      aria-controls="m-menu"
+    >
+      <svg
+        class="icon-open"
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      <svg
+        class="icon-close"
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      <span class="menu-label">Menu</span>
+    </button>
+  </div>
+
+  <nav id="m-menu" class="sheet narrow-only" aria-label="Main" hidden>
+    <a class="nav serif sheet-link" href="/im-new">I'm New</a>
+    <a class="nav serif sheet-link" href="/gatherings">Gatherings</a>
+    <a class="nav serif sheet-link" href="/bible-study">Bible Study</a>
+    <a class="nav serif sheet-link" href="/about">About</a>
+    <a class="nav serif sheet-link" href="/contact">Contact</a>
+    <a class="nav sheet-members" href="/members">Members</a>
+    <svg
+      class="sheet-art"
+      viewBox="0 0 240 120"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2.2"
+      stroke-linecap="round"
+      aria-hidden="true"
+    >
+      <path d="M4 80C30 66 50 44 80 48s50 30 80 18 50-42 76-30"></path>
+      <path d="M4 100c40-6 80-4 116 0s80 4 116-2"></path>
+      <path d="M60 110h20M150 112h16"></path>
+    </svg>
+  </nav>
+</header>
+
+<div class="members-bar">
+  <nav class="wrap subnav" aria-label="Members">
+    <a class="nav" href="/members">Dashboard</a>
+    <a class="nav" href="/members/calendar/">Calendar</a>
+    <a class="nav" href={home} aria-current="page">Sunday School</a>
+    <a class="nav" href="/members/account">Account</a>
+  </nav>
+</div>
+
+<style>
+  /* Shared-shell globals (scoped to the header; the app uses its own classes). */
+  .serif {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.012em;
+  }
+
+  .wrap {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+  }
+
+  .nav {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--tap);
+    color: var(--text);
+    text-decoration: none;
+    font-size: var(--fs-nav);
+    font-weight: 500;
+  }
+
+  .nav:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  .nav[aria-current='page'] {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: var(--btn-h);
+    padding: 0 26px;
+    border: 1.5px solid var(--accent);
+    border-radius: var(--r-pill);
+    font-family: inherit;
+    font-size: var(--fs-ui);
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+      background-color var(--d-hover) var(--ease-out),
+      color var(--d-hover) var(--ease-out);
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: var(--on-accent);
+  }
+
+  .btn-primary:hover {
+    background: var(--accent-h);
+    border-color: var(--accent-h);
+    color: var(--on-accent);
+  }
+
+  .ibtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: var(--tap);
+    min-width: var(--tap);
+    padding: 0 16px;
+    border: 1.5px solid var(--rule);
+    border-radius: var(--r-pill);
+    background: transparent;
+    color: var(--text2);
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .ibtn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  @media (max-width: 760px) {
+    .btn {
+      min-height: var(--btn-h-mobile);
+    }
+  }
+
+  @media (max-width: 1040px) {
+    .desk-only {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 1041px) {
+    .narrow-only {
+      display: none !important;
+    }
+  }
+
+  /* Header */
+  .members-header {
+    position: relative;
+    z-index: 50;
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: var(--tap);
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .brand-mark {
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .brand-name {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.02;
+  }
+
+  .main-nav {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-left: auto;
+  }
+
+  .main-nav .nav {
+    white-space: nowrap;
+  }
+
+  .brand,
+  .brand-mark,
+  .actions {
+    flex-shrink: 0;
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding-left: 26px;
+    border-left: 1px solid var(--rule);
+  }
+
+  .members {
+    color: var(--text2);
+  }
+
+  .menu-btn {
+    margin-left: auto;
+    font-size: 16px;
+    color: var(--text);
+  }
+
+  .icon-close {
+    display: none;
+  }
+
+  .menu-btn.is-open .icon-open {
+    display: none;
+  }
+
+  .menu-btn.is-open .icon-close {
+    display: inline-flex;
+  }
+
+  .sheet {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-height: calc(100dvh - var(--header-h, 65px));
+    padding: 24px 20px 32px;
+    background: var(--bg);
+    overflow-y: auto;
+  }
+
+  .sheet-link {
+    min-height: 56px;
+    border-bottom: 1px solid var(--rule);
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .sheet-members {
+    margin-top: 16px;
+    color: var(--text2);
+  }
+
+  .sheet-art {
+    width: 100%;
+    margin-top: auto;
+    color: var(--sage);
+  }
+
+  @media (max-width: 1240px) {
+    .main-nav {
+      gap: 16px;
+    }
+
+    .main-nav .nav {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 1040px) {
+    .members-header {
+      position: sticky;
+      top: 0;
+      padding-top: env(safe-area-inset-top);
+    }
+
+    .bar {
+      gap: 12px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .brand {
+      gap: 10px;
+    }
+
+    .brand-mark {
+      width: 36px;
+      height: 32px;
+    }
+
+    .brand-name {
+      font-size: 18px;
+    }
+  }
+
+  /* Members sub-nav bar */
+  .members-bar {
+    border-bottom: 1px solid var(--rule);
+    background: var(--bg);
+  }
+
+  .subnav {
+    display: flex;
+    gap: 0 28px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-bottom: -1px;
+  }
+
+  .subnav .nav {
+    flex-shrink: 0;
+    min-height: var(--tap);
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+  }
+
+  .subnav .nav[aria-current='page'] {
+    border-bottom-color: var(--accent);
+    color: var(--accent);
+  }
+</style>
+
+<script>
+  // Menu sheet: toggle, icon/label swap, focus trap, Esc, close past 1040px.
+  const header = document.querySelector<HTMLElement>('.members-header');
+  const btn = header?.querySelector<HTMLButtonElement>('.menu-btn');
+  const sheet = document.getElementById('m-menu');
+
+  if (header && btn && sheet) {
+    const label = btn.querySelector<HTMLElement>('.menu-label');
+    const links = () => Array.from(sheet.querySelectorAll<HTMLAnchorElement>('a'));
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let open = false;
+
+    const setOpen = (next: boolean) => {
+      open = next;
+      btn.setAttribute('aria-expanded', String(next));
+      btn.classList.toggle('is-open', next);
+      document.body.classList.toggle('menu-open', next);
+      if (label) label.textContent = next ? 'Close' : 'Menu';
+      if (next) {
+        header.style.setProperty('--header-h', `${header.offsetHeight}px`);
+        sheet.hidden = false;
+        if (!reduceMotion) sheet.classList.add('sheet-in');
+        links()[0]?.focus();
+      } else {
+        sheet.hidden = true;
+        sheet.classList.remove('sheet-in');
+      }
+    };
+
+    btn.addEventListener('click', () => setOpen(!open));
+
+    sheet.addEventListener('click', (event) => {
+      if ((event.target as HTMLElement).closest('a')) setOpen(false);
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (!open) return;
+      if (event.key === 'Escape') {
+        setOpen(false);
+        btn.focus();
+        return;
+      }
+      if (event.key === 'Tab') {
+        const focusable = [btn, ...links()];
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        const active = document.activeElement;
+        if (event.shiftKey && active === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && active === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      }
+    });
+
+    const wide = window.matchMedia('(min-width: 1041px)');
+    wide.addEventListener('change', (event) => {
+      if (event.matches && open) setOpen(false);
+    });
+  }
+</script>

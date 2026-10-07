@@ -3,6 +3,7 @@
 // and printable references shown inline.
 import type { OutlineStep, Teacher } from '../../types';
 import { activityById, questionById } from '../../lib/view-models/teacher';
+import { withBase } from '../../lib/base';
 
 interface Props {
   outline: OutlineStep[];
@@ -46,7 +47,7 @@ const resolveRefs = (step: OutlineStep) => ({
                 {refs.resources.map((resourceId, index) => (
                   <>
                     {index > 0 && ' · '}
-                    <a href={`/print/resource/${resourceId.toLowerCase()}/`}>{resourceId}</a>
+                    <a href={withBase(`/print/resource/${resourceId.toLowerCase()}/`)}>{resourceId}</a>
                   </>
                 ))}
               </p>

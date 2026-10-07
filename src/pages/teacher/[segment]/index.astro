@@ -5,6 +5,7 @@ import LessonBrowser from '../../../components/shared/LessonBrowser.astro';
 import { getTermSettings } from '../../../lib/content/loader';
 import { dateInTimeZone } from '../../../lib/schedule/date-selection';
 import { SEGMENT_SLUGS, segmentFromSlug, type SegmentSlug } from '../../../lib/content/segments';
+import { withBase } from '../../../lib/base';
 
 export function getStaticPaths() {
   return (Object.keys(SEGMENT_SLUGS) as SegmentSlug[]).map((segment) => ({
@@ -26,14 +27,14 @@ const currentTerm =
 
 <BaseLayout title={`Teachers · ${segment}`} section="teacher" description={`This Sunday's ${segment} lesson.`}>
   <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
-    <a class="back-link" href="/teacher/">&larr; Back to all groups</a>
+    <a class="back-link" href={withBase('/teacher/')}>&larr; Back to all groups</a>
   </nav>
   <h1>{segment} | Teachers</h1>
   <CurrentEntryCard role="teacher" segment={segment} />
   {
     currentTerm && (
       <p class="actions">
-        <a class="button button--secondary" href={`/teacher/${slug}/planner/${currentTerm.term_id}/`}>
+        <a class="button button--secondary" href={withBase(`/teacher/${slug}/planner/${currentTerm.term_id}/`)}>
           Plan &amp; log this term
         </a>
       </p>
