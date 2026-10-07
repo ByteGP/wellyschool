@@ -72,6 +72,15 @@
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=3600"
 
+# The manifest is a generated static endpoint, so its Response headers are
+# dropped too; set the correct type here (Netlify serves .webmanifest as
+# octet-stream otherwise).
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
+    Cache-Control = "public, max-age=3600"
+
 [dev]
   command = "npm run dev"
   targetPort = 4321

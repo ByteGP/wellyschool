@@ -52,7 +52,9 @@ const membersShell = (import.meta.env.BASE_URL || '/') !== '/';
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#17171A" />
     <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
     <link rel="apple-touch-icon" href={withBase('/icons/apple-touch-icon.png')} />
-    <link rel="manifest" href={withBase('/manifest.webmanifest')} />
+    {/* Under the members proxy the website's single manifest/PWA is the one to
+        install, so the proxied build does not advertise its own manifest. */}
+    {!membersShell && <link rel="manifest" href={withBase('/manifest.webmanifest')} />}
     <link rel="preload" as="font" type="font/woff2" crossorigin href={newsreaderUrl} />
     <link rel="preload" as="font" type="font/woff2" crossorigin href={newsreaderItalicUrl} />
     <link rel="preload" as="font" type="font/woff2" crossorigin href={instrumentSansUrl} />
