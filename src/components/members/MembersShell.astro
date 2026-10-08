@@ -100,10 +100,22 @@ const home = withBase('/');
 
 <div class="members-bar">
   <nav class="wrap subnav" aria-label="Members">
-    <a class="nav" href="/members">Dashboard</a>
-    <a class="nav" href="/members/calendar/">Calendar</a>
-    <a class="nav" href={home} aria-current="page">Sunday School</a>
-    <a class="nav" href="/members/account">Account</a>
+    <a class="nav" href="/members">
+      <svg class="tab-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"></path></svg>
+      <span class="tab-label">Dashboard</span>
+    </a>
+    <a class="nav" href="/members/calendar/">
+      <svg class="tab-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16v14H4zM4 10h16M8 3v4M16 3v4"></path></svg>
+      <span class="tab-label">Calendar</span>
+    </a>
+    <a class="nav" href={home} aria-current="page">
+      <svg class="tab-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5.5A2.5 2.5 0 0 1 7.5 3H19v15H7.5A2.5 2.5 0 0 0 5 20.5zM5 20.5A2.5 2.5 0 0 0 7.5 23H19"></path></svg>
+      <span class="tab-label">Sunday School</span>
+    </a>
+    <a class="nav" href="/members/account">
+      <svg class="tab-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0"></path></svg>
+      <span class="tab-label">Account</span>
+    </a>
   </nav>
 </div>
 
@@ -392,6 +404,62 @@ const home = withBase('/');
   .subnav .nav[aria-current='page'] {
     border-bottom-color: var(--accent);
     color: var(--accent);
+  }
+
+  /* Tab bar on phones (Phase 4): the sub-nav becomes a fixed bottom tab bar
+     with an icon above each label; body padding keeps content and the mounted
+     footer clear of it. */
+  .tab-icon {
+    display: none;
+  }
+
+  @media (max-width: 760px) {
+    .subnav {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 45;
+      gap: 0;
+      margin: 0;
+      padding: 4px 4px env(safe-area-inset-bottom);
+      overflow: visible;
+      border-top: 1px solid var(--rule);
+      background: var(--bg);
+    }
+
+    .subnav .nav {
+      flex: 1 1 0;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2px;
+      min-width: 0;
+      min-height: 60px;
+      padding: 6px 2px;
+      border-bottom: 0;
+      color: var(--text2);
+      font-size: 14px;
+      line-height: 1.15;
+      text-align: center;
+    }
+
+    .subnav .nav[aria-current='page'] {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .tab-icon {
+      display: block;
+      flex-shrink: 0;
+    }
+
+    .tab-label {
+      overflow-wrap: anywhere;
+    }
+
+    :global(body) {
+      padding-bottom: calc(68px + env(safe-area-inset-bottom));
+    }
   }
 </style>
 
