@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/base';
 ---
 
 <BaseLayout title="Page not found" noindex={true}>
@@ -7,10 +8,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <p class="lede">That page doesn't exist, or the lesson isn't published yet.</p>
   <ul class="choice-list">
     <li>
-      <a href="/teacher/"><span class="choice-title">Teacher lessons</span></a>
+      <a href={withBase('/teacher/')}><span class="choice-title">Teacher lessons</span></a>
     </li>
     <li>
-      <a href="/family/"><span class="choice-title">Parent devotionals</span></a>
+      <a href={withBase('/family/')}><span class="choice-title">Parent devotionals</span></a>
     </li>
   </ul>
 </BaseLayout>

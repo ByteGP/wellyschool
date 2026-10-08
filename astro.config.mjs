@@ -40,7 +40,28 @@ function lessonRedirects() {
           }
         }
 
-        const body = buildRedirects(entries);
+        const base = process.env.MEMBERS_BASE_PATH || '/';
+        const body = buildRedirects(entries, base);
+
+        // Under the members proxy, the Netlify site must answer at the base
+        // path: route api/teaching-log to the function, then serve the flat
+        // dist for everything else. Catch-all must stay last. Inert at '/'.
+        let proxyRules = '';
+        if (base !== '/') {
+          const b = base.replace(/\/$/, '');
+          // The teaching-log function registers its own path (/api/teaching-log
+          // via config.path), so route the base path to that, not to
+          // /.netlify/functions/. Catch-all serves the flat dist and must stay
+          // last.
+          proxyRules = [
+            '',
+            '# Members proxy: serve this app under the base path.',
+            `${b}/api/teaching-log\t/api/teaching-log\t200`,
+            `${b}/*\t/:splat\t200`,
+            '',
+          ].join('\n');
+        }
+
         const target = path.join(distDir, '_redirects');
         let existing = '';
         try {
@@ -48,7 +69,8 @@ function lessonRedirects() {
         } catch {
           existing = '';
         }
-        await writeFile(target, existing ? `${existing.trimEnd()}\n\n${body}` : body, 'utf-8');
+        const prefix = existing ? `${existing.trimEnd()}\n\n` : '';
+        await writeFile(target, `${prefix}${body}${proxyRules}`, 'utf-8');
         logger.info(`lesson-redirects: wrote ${entries.length} lesson redirect(s)`);
       },
     },
@@ -56,8 +78,16 @@ function lessonRedirects() {
 }
 
 // Production canonical URL: the lesson site's custom domain (TLS live 2026-08).
+//
+// Base path: '/' for the standalone site (sundayschool.wellingtoncoc.com), or
+// '/members/sunday-school' when built for the members-area proxy on the main
+// site. MEMBERS_BASE_PATH is set in that build only; the default leaves the
+// standalone site unchanged. See docs/members-proxy.md.
+const base = process.env.MEMBERS_BASE_PATH || '/';
+
 export default defineConfig({
   site: 'https://sundayschool.wellingtoncoc.com',
+  base,
   output: 'static',
   integrations: [react(), lessonRedirects()],
 });

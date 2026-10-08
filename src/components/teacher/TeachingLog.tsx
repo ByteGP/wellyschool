@@ -65,7 +65,7 @@ export default function TeachingLog({
 
   useEffect(() => {
     let cancelled = false;
-    fetch('/api/teaching-log')
+    fetch(`${import.meta.env.BASE_URL}api/teaching-log`)
       .then((res) => (res.ok ? res.json() : Promise.reject(new Error('load failed'))))
       .then((data: { entries: LogEntry[] }) => {
         if (cancelled) return;
@@ -102,7 +102,7 @@ export default function TeachingLog({
     setError(null);
     setSavingDate(date);
     try {
-      const res = await fetch('/api/teaching-log', {
+      const res = await fetch(`${import.meta.env.BASE_URL}api/teaching-log`, {
         method: 'POST',
         headers: { 'content-type': 'application/json', 'x-teaching-passcode': passcode },
         body: JSON.stringify({

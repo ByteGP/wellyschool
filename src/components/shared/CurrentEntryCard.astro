@@ -6,6 +6,7 @@ import { getEffectiveSchedule, getLessonById } from '../../lib/content/loader';
 import { CONTENT_MODE } from '../../lib/content/site';
 import type { Segment } from '../../lib/content/segments';
 import { slugFromSegment } from '../../lib/content/segments';
+import { withBase } from '../../lib/base';
 import {
   dateInTimeZone,
   formatDisplayDate,
@@ -28,7 +29,7 @@ const entries = allEntries
   .filter((entry) => entry.segment === segment)
   .sort((a, b) => a.date.localeCompare(b.date));
 
-const lessonUrl = (lessonId: string) => `/${role}/${slug}/${lessonId.toLowerCase()}/`;
+const lessonUrl = (lessonId: string) => withBase(`/${role}/${slug}/${lessonId.toLowerCase()}/`);
 
 const cards = entries.map((entry) => {
   const lesson = entry.lesson_id ? getLessonById(entry.lesson_id) : undefined;

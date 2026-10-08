@@ -6,6 +6,7 @@ import { getPublicLessonsBySegment } from '../../lib/content/loader';
 import { CONTENT_MODE } from '../../lib/content/site';
 import type { Segment } from '../../lib/content/segments';
 import { slugFromSegment } from '../../lib/content/segments';
+import { withBase } from '../../lib/base';
 
 interface Props {
   role: 'teacher' | 'family';
@@ -32,7 +33,7 @@ const rows = lessons.map((lesson) => {
     .toLowerCase();
   return {
     id: lesson.lesson_id,
-    url: `/${role}/${slug}/${lesson.lesson_id.toLowerCase()}/`,
+    url: withBase(`/${role}/${slug}/${lesson.lesson_id.toLowerCase()}/`),
     title: lesson.curriculum.title,
     passages,
     sequence: lesson.curriculum.sequence,

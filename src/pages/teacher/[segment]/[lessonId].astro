@@ -8,6 +8,7 @@ import { getPublicLessons, getResourceById } from '../../../lib/content/loader';
 import { CONTENT_MODE } from '../../../lib/content/site';
 import { slugFromSegment } from '../../../lib/content/segments';
 import { toTeacherViewModel } from '../../../lib/view-models/teacher';
+import { withBase } from '../../../lib/base';
 import type { LessonContent } from '../../../types';
 
 export function getStaticPaths() {
@@ -33,7 +34,7 @@ const primaryPassages = vm.passages.map((passage) => passage.reference).join('; 
 
 <BaseLayout title={`${vm.title} · Teacher`} section="teacher" description={vm.bigIdea}>
   <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
-    <a class="back-link" href={`/teacher/${slug}/`}>&larr; Back to {vm.segment} lessons</a>
+    <a class="back-link" href={withBase(`/teacher/${slug}/`)}>&larr; Back to {vm.segment} lessons</a>
   </nav>
 
   <header style="margin-bottom: var(--space-5);">
@@ -112,7 +113,7 @@ const primaryPassages = vm.passages.map((passage) => passage.reference).join('; 
                 return (
                   <li>
                     {resource ? (
-                      <a href={`/print/resource/${printable.resourceId.toLowerCase()}/`}>
+                      <a href={withBase(`/print/resource/${printable.resourceId.toLowerCase()}/`)}>
                         {printable.title}
                       </a>
                     ) : (
@@ -182,9 +183,9 @@ const primaryPassages = vm.passages.map((passage) => passage.reference).join('; 
   <section class="actions" aria-label="Print">
     <a
       class="button"
-      href={`/print/teacher/${vm.lessonId.toLowerCase()}/standard/`}
+      href={withBase(`/print/teacher/${vm.lessonId.toLowerCase()}/standard/`)}
       data-print-link
-      data-print-base={`/print/teacher/${vm.lessonId.toLowerCase()}`}
+      data-print-base={withBase(`/print/teacher/${vm.lessonId.toLowerCase()}`)}
     >
       Print this lesson
     </a>

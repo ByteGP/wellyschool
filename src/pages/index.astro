@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/base';
 ---
 
 <BaseLayout
@@ -17,7 +18,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   <p class="eyebrow">Choose your path</p>
   <ul class="choice-list">
     <li>
-      <a href="/teacher/">
+      <a href={withBase('/teacher/')}>
         <span class="icon-tile" aria-hidden="true">📖</span>
         <span class="choice-body">
           <span class="choice-title">I'm teaching on Sunday</span>
@@ -28,7 +29,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       </a>
     </li>
     <li>
-      <a href="/family/">
+      <a href={withBase('/family/')}>
         <span class="icon-tile" aria-hidden="true">🏠</span>
         <span class="choice-body">
           <span class="choice-title">I'm a parent</span>

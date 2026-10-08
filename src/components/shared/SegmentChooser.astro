@@ -1,6 +1,7 @@
 ---
 // Segment chooser shared by the Teachers and Parents hubs.
 import { SEGMENT_AGE_RANGES, SEGMENTS, slugFromSegment } from '../../lib/content/segments';
+import { withBase } from '../../lib/base';
 
 interface Props {
   role: 'teacher' | 'family';
@@ -19,7 +20,7 @@ const SEGMENT_ICONS: Record<string, string> = {
   {
     SEGMENTS.map((segment) => (
       <li>
-        <a href={`/${role}/${slugFromSegment(segment)}/`}>
+        <a href={withBase(`/${role}/${slugFromSegment(segment)}/`)}>
           <span class="icon-tile" aria-hidden="true">
             {SEGMENT_ICONS[segment]}
           </span>

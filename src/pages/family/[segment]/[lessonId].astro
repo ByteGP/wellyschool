@@ -7,6 +7,7 @@ import { getPublicLessons } from '../../../lib/content/loader';
 import { CONTENT_MODE } from '../../../lib/content/site';
 import { slugFromSegment } from '../../../lib/content/segments';
 import { toFamilyViewModel } from '../../../lib/view-models/family';
+import { withBase } from '../../../lib/base';
 import type { LessonContent } from '../../../types';
 
 export function getStaticPaths() {
@@ -38,7 +39,7 @@ const stepNames: Record<string, string> = {
 
 <BaseLayout title={`${vm.familyTitle} · Parents`} section="family" description={vm.bigIdea}>
   <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
-    <a class="back-link" href={`/family/${slug}/`}>&larr; Back to {vm.segment} devotionals</a>
+    <a class="back-link" href={withBase(`/family/${slug}/`)}>&larr; Back to {vm.segment} devotionals</a>
   </nav>
 
   <header>
@@ -80,7 +81,7 @@ const stepNames: Record<string, string> = {
   </noscript>
 
   <section class="actions" aria-label="Print">
-    <a class="button button--secondary" href={`/print/family/${vm.lessonId.toLowerCase()}/`}>
+    <a class="button button--secondary" href={withBase(`/print/family/${vm.lessonId.toLowerCase()}/`)}>
       Print the parent guide
     </a>
   </section>
