@@ -94,6 +94,7 @@ const membersShell = (import.meta.env.BASE_URL || '/') !== '/';
     <main id="main">
       <slot />
     </main>
+    {!membersShell && (
     <footer class="site-footer">
       <div class="site-footer__inner">
         <p>Wellington Church of Christ | Sunday School Lessons</p>
@@ -115,6 +116,39 @@ const membersShell = (import.meta.env.BASE_URL || '/') !== '/';
         <p class="site-footer__meta">v{version}</p>
       </div>
     </footer>
+    )}
+    <script>
+      // Members build only: mount the website's shared footer fragment from the
+      // same origin under the proxy, so it stays in sync (gathering times, build
+      // stamp) rather than drifting from a copy. See docs/members-shell.md,
+      // "Footer: insert it, don't copy it". The guard is a compile-time constant,
+      // so Vite drops this whole block from the standalone build.
+      if (import.meta.env.BASE_URL !== '/') {
+        void (async () => {
+          try {
+            const res = await fetch('/members/shell-footer', { credentials: 'same-origin' });
+            if (!res.ok) return;
+            const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+            const footer = doc.querySelector('footer');
+            if (!footer) return;
+            for (const el of doc.head.querySelectorAll('style, link[rel="stylesheet"]')) {
+              document.head.append(el.cloneNode(true));
+            }
+            document.body.append(document.importNode(footer, true));
+            for (const old of doc.querySelectorAll<HTMLScriptElement>('script[type="module"]')) {
+              const s = document.createElement('script');
+              s.type = 'module';
+              const src = old.getAttribute('src');
+              if (src) s.src = src;
+              else s.textContent = old.textContent;
+              document.body.append(s);
+            }
+          } catch {
+            /* fragment unavailable: the page simply has no footer */
+          }
+        })();
+      }
+    </script>
     <script>
       // Appearance: Auto follows the device; Light and Dark are remembered on this device.
       const KEY = 'theme';
