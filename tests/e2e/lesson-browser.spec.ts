@@ -16,7 +16,9 @@ test.describe('lesson browser', () => {
     const search = page.getByPlaceholder('Search by title, passage, or topic');
     const visibleRows = page.locator('[data-lesson-list] > li:not([hidden])');
 
-    await search.fill('storm');
+    // Search a title word unique to one Kids lesson. ('storm' now matches two:
+    // K1-L19 "Jesus Calms the Storm" and K4-L18 "Jesus Commands the Storm".)
+    await search.fill('calms');
     await expect(visibleRows).toHaveCount(1);
     await expect(visibleRows.first()).toContainText('Jesus Calms the Storm');
 

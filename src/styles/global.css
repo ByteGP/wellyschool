@@ -308,27 +308,6 @@ main {
   margin: 0 auto var(--space-5);
 }
 
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-1) var(--space-4);
-  border-radius: var(--radius-pill);
-  background: var(--tint);
-  color: var(--accent);
-  font-size: var(--text-sm);
-  font-weight: 600;
-  margin-bottom: var(--space-4);
-}
-
-.hero-badge::before {
-  content: '';
-  width: 0.5em;
-  height: 0.5em;
-  border-radius: 50%;
-  background: var(--accent);
-}
-
 /* Section labels, uppercase and tracked */
 .eyebrow {
   font-family: var(--font-sans);
