@@ -23,9 +23,15 @@ interface Props {
    * single exit link, and the page may use the full width of a tablet.
    */
   focus?: { exitHref: string; exitLabel: string };
+  /**
+   * Use the width of a tablet in landscape (from 960px). `true` widens the page
+   * for browse and planning lists; 'split' also puts the lesson card and its
+   * supporting sections side by side. Other pages keep the single column.
+   */
+  wide?: boolean | 'split';
 }
 
-const { title, description, section, noindex, focus } = Astro.props;
+const { title, description, section, noindex, focus, wide } = Astro.props;
 const settings = getSiteSettings();
 const blockIndexing = NOINDEX || noindex === true;
 const version = pkg.version;
@@ -57,7 +63,7 @@ const version = pkg.version;
     <link rel="preload" as="font" type="font/woff2" crossorigin href={newsreaderItalicUrl} />
     <link rel="preload" as="font" type="font/woff2" crossorigin href={instrumentSansUrl} />
   </head>
-  <body class={focus ? 'is-focus' : undefined}>
+  <body class={focus ? 'is-focus' : wide === 'split' ? 'is-wide is-split' : wide ? 'is-wide' : undefined}>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="site-header__inner">

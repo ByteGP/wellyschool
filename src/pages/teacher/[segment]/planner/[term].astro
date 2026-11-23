@@ -56,6 +56,7 @@ const lessonOptions = getPublicLessonsBySegment(segment, CONTENT_MODE).map((less
   section="teacher"
   description={`Plan and record what was taught for ${segment} in ${term.term_id}.`}
   noindex={true}
+  wide
 >
   <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
     <a class="back-link" href={`/teacher/${slug}/`}>&larr; Back to {segment}</a>
