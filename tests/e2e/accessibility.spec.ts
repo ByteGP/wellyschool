@@ -6,6 +6,7 @@ const CORE_ROUTES = [
   '/teacher/',
   '/teacher/kids/',
   '/teacher/kids/k1-l19/',
+  '/teach/kids/k1-l19/',
   '/family/',
   '/family/kids/',
   '/family/kids/k1-l19/',

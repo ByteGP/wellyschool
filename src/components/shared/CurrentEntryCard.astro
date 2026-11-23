@@ -81,6 +81,15 @@ const roleHeading = role === 'teacher' ? "This Sunday's lesson" : "This week's l
               <a class="button" href={lessonUrl(lesson.lesson_id)}>
                 {role === 'teacher' ? 'Open the lesson' : 'Start the 15-minute devotional'}
               </a>
+              {role === 'teacher' && (
+                <a
+                  class="button button--secondary"
+                  href={`/teach/${slug}/${lesson.lesson_id.toLowerCase()}/`}
+                  data-teach-now
+                >
+                  Teach it now
+                </a>
+              )}
             </p>
           </>
         )}

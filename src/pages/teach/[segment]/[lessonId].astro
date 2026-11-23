@@ -1,0 +1,44 @@
+---
+// Teach view: the lesson one step at a time, with clocks, for use during class.
+// The page is a focused shell (no site nav or footer); the island does the rest.
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import '../../../styles/teach.css';
+import TeachView from '../../../components/teacher/TeachView';
+import { getPublicLessons, getResourceById } from '../../../lib/content/loader';
+import { CONTENT_MODE } from '../../../lib/content/site';
+import { slugFromSegment } from '../../../lib/content/segments';
+import { toTeachViewModel } from '../../../lib/view-models/teach';
+import type { LessonContent } from '../../../types';
+
+export function getStaticPaths() {
+  return getPublicLessons(CONTENT_MODE).map((lesson) => ({
+    params: {
+      segment: slugFromSegment(lesson.curriculum.segment),
+      lessonId: lesson.lesson_id.toLowerCase(),
+    },
+    props: { lesson },
+  }));
+}
+
+interface Props {
+  lesson: LessonContent;
+}
+
+const { lesson } = Astro.props;
+const vm = toTeachViewModel(lesson, (resourceId) => getResourceById(resourceId) !== undefined);
+---
+
+<BaseLayout
+  title={`Teach: ${vm.title}`}
+  section="teacher"
+  description={vm.bigIdea}
+  focus={{ exitHref: vm.lessonHref, exitLabel: 'Exit teaching' }}
+>
+  <TeachView vm={vm} client:load />
+  <noscript>
+    <p class="notice">
+      The teaching clocks need JavaScript. The full plan is on the
+      <a href={vm.lessonHref}>lesson page</a>.
+    </p>
+  </noscript>
+</BaseLayout>

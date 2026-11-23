@@ -46,7 +46,11 @@ const primaryPassages = vm.passages.map((passage) => passage.reference).join('; 
     <p>{vm.bigIdea}</p>
   </header>
 
-  <DeliveryProfiles teacher={vm.teacher} lessonId={vm.lessonId} />
+  <DeliveryProfiles
+    teacher={vm.teacher}
+    lessonId={vm.lessonId}
+    teachHref={`/teach/${slug}/${vm.lessonId.toLowerCase()}/`}
+  />
 
   <details class="section">
     <summary>More help: full script, questions, and printables</summary>
