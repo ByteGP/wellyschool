@@ -166,7 +166,7 @@ export default function TeachingLog({
       {loading ? (
         <p>Loading the log...</p>
       ) : (
-        <ul className="option-list" style={{ gap: 'var(--space-3)' }}>
+        <ul className="option-list log-list" style={{ gap: 'var(--space-3)' }}>
           {sundays.map((sunday) => (
             <SundayRow
               key={sunday.date}

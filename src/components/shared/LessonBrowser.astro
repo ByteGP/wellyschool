@@ -73,7 +73,7 @@ const cycles = [...new Map(rows.map((row) => [row.cycleId, row.cycleName])).entr
           </>
         )}
       </div>
-      <ul class="choice-list" data-lesson-list>
+      <ul class="choice-list choice-list--columns" data-lesson-list>
         {rows.map((row) => (
           <li data-search={row.searchIndex} data-cycle={row.cycleId}>
             <a href={row.url}>

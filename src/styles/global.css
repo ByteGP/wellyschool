@@ -973,6 +973,82 @@ textarea.self-check {
   }
 }
 
+/*
+ * Tablet in landscape and wider (from 960px): pages that opt in with
+ * `wide` on the layout use the width. Lists run in two columns and the lesson
+ * page puts its supporting sections beside the lesson card. Portrait tablets
+ * and phones keep the single column, and so does every reading page.
+ */
+@media (min-width: 960px) {
+  body.is-wide main {
+    max-width: 72rem;
+    padding-inline: var(--space-5);
+  }
+
+  /* Headings and intros keep a readable line length. */
+  body.is-wide main > header,
+  body.is-wide main > h1,
+  body.is-wide .search-row {
+    max-width: var(--content-width);
+  }
+
+  /* Class page: this Sunday's lesson beside the Sundays coming up. */
+  .is-wide .current-entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: var(--space-6);
+    align-items: start;
+  }
+
+  .is-wide .current-entry > * {
+    grid-column: 1;
+  }
+
+  .is-wide .current-entry > h2 {
+    grid-column: 1 / -1;
+  }
+
+  .is-wide .current-entry > section {
+    grid-column: 2;
+    grid-row: 2 / span 3;
+  }
+
+  .is-wide .current-entry > section > h3 {
+    margin-top: 0;
+  }
+
+  /* All lessons, and the term's Sundays in the planner: two columns. */
+  .is-wide .choice-list--columns,
+  .is-wide .log-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+
+  /* Lesson page: the lesson card on the left, help and preparation on the
+     right, so a teacher can read the notes with the outline still in view. */
+  body.is-split main {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    grid-template-rows: auto auto auto auto auto 1fr;
+    column-gap: var(--space-5);
+    align-items: start;
+  }
+
+  body.is-split main > * {
+    grid-column: 2;
+  }
+
+  body.is-split main > nav,
+  body.is-split main > header {
+    grid-column: 1 / -1;
+  }
+
+  body.is-split main > [data-profile-switcher] {
+    grid-column: 1;
+    grid-row: 3 / -1;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;

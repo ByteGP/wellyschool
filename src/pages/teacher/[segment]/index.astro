@@ -24,7 +24,12 @@ const currentTerm =
   terms[terms.length - 1];
 ---
 
-<BaseLayout title={`Teachers · ${segment}`} section="teacher" description={`This Sunday's ${segment} lesson.`}>
+<BaseLayout
+  title={`Teachers · ${segment}`}
+  section="teacher"
+  description={`This Sunday's ${segment} lesson.`}
+  wide
+>
   <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
     <a class="back-link" href="/teacher/">&larr; Back to all groups</a>
   </nav>

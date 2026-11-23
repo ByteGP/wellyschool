@@ -31,7 +31,7 @@ const isDraft = !['approved', 'scheduled', 'published'].includes(lesson.status);
 const primaryPassages = vm.passages.map((passage) => passage.reference).join('; ');
 ---
 
-<BaseLayout title={`${vm.title} · Teacher`} section="teacher" description={vm.bigIdea}>
+<BaseLayout title={`${vm.title} · Teacher`} section="teacher" description={vm.bigIdea} wide="split">
   <nav aria-label="Breadcrumb" style="margin-bottom: var(--space-4);">
     <a class="back-link" href={`/teacher/${slug}/`}>&larr; Back to {vm.segment} lessons</a>
   </nav>
@@ -46,7 +46,11 @@ const primaryPassages = vm.passages.map((passage) => passage.reference).join('; 
     <p>{vm.bigIdea}</p>
   </header>
 
-  <DeliveryProfiles teacher={vm.teacher} lessonId={vm.lessonId} />
+  <DeliveryProfiles
+    teacher={vm.teacher}
+    lessonId={vm.lessonId}
+    teachHref={`/teach/${slug}/${vm.lessonId.toLowerCase()}/`}
+  />
 
   <details class="section">
     <summary>More help: full script, questions, and printables</summary>

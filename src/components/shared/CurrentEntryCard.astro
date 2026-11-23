@@ -1,7 +1,10 @@
 ---
-// Server-renders one hidden card per schedule entry plus an always-visible
-// schedule list (the no-JS fallback). A small client script unhides the card
-// matching today's date in Pacific/Auckland using the shared selection rules.
+// Server-renders one hidden card per schedule entry plus a schedule list. A
+// small client script unhides the card matching today's date in
+// Pacific/Auckland using the shared selection rules, and narrows the list to
+// the Sundays after that card, so the list never repeats the card or shows a
+// Sunday that has gone. Without JavaScript the list shows a window around the
+// build date instead (the fallback).
 import { getEffectiveSchedule, getLessonById } from '../../lib/content/loader';
 import { CONTENT_MODE } from '../../lib/content/site';
 import type { Segment } from '../../lib/content/segments';
@@ -37,16 +40,19 @@ const cards = entries.map((entry) => {
   return { entry, lesson, nextLesson, previousLesson };
 });
 
-// The full schedule can span multiple years, so the visible list shows a window
-// of upcoming Sundays around the build date. All entries still render as hidden
-// cards so the client can select the correct one for any date (incl. ?today).
+// The full schedule can span multiple years. Every entry renders as a hidden
+// card and a list row, so the client can pick the right card and the Sundays
+// after it for any date (incl. ?today), however long ago the site was built.
+// Rows outside a window around the build date start hidden: that window is
+// what shows without JavaScript. It starts one Sunday back because the family
+// rule keeps last Sunday's lesson current through the week.
 const buildToday = dateInTimeZone(new Date());
 const windowStart = (() => {
   const idx = cards.findIndex(({ entry }) => entry.date >= buildToday);
   if (idx === -1) return Math.max(0, cards.length - 8);
   return Math.max(0, idx - 1);
 })();
-const visibleCards = cards.slice(windowStart, windowStart + 10);
+const inBuildWindow = (index: number) => index >= windowStart && index < windowStart + 10;
 
 const clientConfig = JSON.stringify({
   role,
@@ -81,6 +87,15 @@ const roleHeading = role === 'teacher' ? "This Sunday's lesson" : "This week's l
               <a class="button" href={lessonUrl(lesson.lesson_id)}>
                 {role === 'teacher' ? 'Open the lesson' : 'Start the 15-minute devotional'}
               </a>
+              {role === 'teacher' && (
+                <a
+                  class="button button--secondary"
+                  href={`/teach/${slug}/${lesson.lesson_id.toLowerCase()}/`}
+                  data-teach-now
+                >
+                  Teach it now
+                </a>
+              )}
             </p>
           </>
         )}
@@ -135,20 +150,14 @@ const roleHeading = role === 'teacher' ? "This Sunday's lesson" : "This week's l
 
   {
     entries.length > 0 && (
-      <section aria-labelledby={`schedule-${role}-heading`}>
+      <section aria-labelledby={`schedule-${role}-heading`} data-upcoming>
         <h3 id={`schedule-${role}-heading`}>Upcoming Sundays</h3>
         <ul class="choice-list">
-          {visibleCards.map(({ entry, lesson }) => (
-            <li data-entry-row={entry.schedule_id}>
+          {cards.map(({ entry, lesson }, index) => (
+            <li data-entry-row={entry.schedule_id} hidden={!inBuildWindow(index)}>
               {entry.entry_type === 'lesson' && lesson ? (
                 <a href={lessonUrl(lesson.lesson_id)}>
-                  <span class="choice-title">
-                    {entry.title_override ?? lesson.curriculum.title}
-                    <span data-current-marker hidden>
-                      {' '}
-                      (current)
-                    </span>
-                  </span>
+                  <span class="choice-title">{entry.title_override ?? lesson.curriculum.title}</span>
                   <span class="choice-hint">{formatDisplayDate(entry.date)}</span>
                 </a>
               ) : (
@@ -156,7 +165,6 @@ const roleHeading = role === 'teacher' ? "This Sunday's lesson" : "This week's l
                   <strong>
                     {entry.title_override ??
                       (entry.entry_type === 'break' ? 'No Sunday School' : 'Special Sunday')}
-                    <span data-current-marker hidden> (current)</span>
                   </strong>
                   <br />
                   <span class="choice-hint">{formatDisplayDate(entry.date)}</span>
