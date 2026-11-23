@@ -12,9 +12,11 @@ import OutlineList from './OutlineList.astro';
 interface Props {
   teacher: Teacher;
   lessonId: string;
+  /** The Teach view for this lesson: the plan one step at a time, with clocks. */
+  teachHref?: string;
 }
 
-const { teacher, lessonId } = Astro.props;
+const { teacher, lessonId, teachHref } = Astro.props;
 const profiles = [
   { name: 'essential', data: teacher.delivery_profiles.essential },
   { name: 'standard', data: teacher.delivery_profiles.standard },
@@ -26,6 +28,16 @@ const defaultProfile = 'standard';
 <section class="card card--primary" aria-labelledby="profiles-heading" data-profile-switcher>
   <h2 id="profiles-heading">Teach the lesson</h2>
   <p><strong>Goal:</strong> {teacher.zero_prep_card.objective}</p>
+  {
+    teachHref && (
+      <p class="teach-entry">
+        <a class="button" href={teachHref} data-teach-link>
+          Teach this lesson
+        </a>
+        <span class="choice-hint">One step at a time, with a clock. Made for a tablet in class.</span>
+      </p>
+    )
+  }
   <p class="choice-hint" style="margin-bottom: var(--space-3);">
     Pick how long you want to teach. The plan updates to fit.
   </p>
@@ -131,6 +143,18 @@ const defaultProfile = 'standard';
 </script>
 
 <style>
+  .teach-entry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2) var(--space-3);
+    margin-bottom: var(--space-4);
+  }
+
+  .teach-entry .choice-hint {
+    margin: 0;
+  }
+
   details.js-controlled > summary {
     display: none;
   }

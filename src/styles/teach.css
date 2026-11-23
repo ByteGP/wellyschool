@@ -1,0 +1,397 @@
+/*
+ * Teach view: a lesson one step at a time, for a tablet propped up in class.
+ * Loaded only by the Teach page. Uses the shared tokens; no new colours.
+ *
+ * Narrow or portrait: steps run across the top as a strip, then clocks, then
+ * the current step. Landscape from 900px: the steps become a left rail and the
+ * current step takes the rest of the width.
+ */
+
+/* The focused shell may use the whole width of a tablet. */
+body.is-focus main {
+  display: flex;
+  flex-direction: column;
+  max-width: 76rem;
+  padding: var(--space-4) var(--teach-gutter) 0;
+
+  /* One gutter for the page and for the Back/Next bar that bleeds into it. */
+  --teach-gutter: var(--space-4);
+}
+
+/* While teaching, the view fills the screen so Back and Next sit at the bottom
+   edge even when a step is short. */
+.teach--running {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.teach--running .teach-layout {
+  flex: 1;
+  align-content: start;
+}
+
+.teach-subhead {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text2);
+  margin: var(--space-5) 0 var(--space-2);
+}
+
+/* Ready and finished screens */
+.teach-ready {
+  max-width: 44rem;
+  margin-inline: auto;
+}
+
+.teach-start {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.teach-button {
+  min-height: 56px;
+  font-size: var(--text-base);
+}
+
+/* Running layout */
+.teach-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-4);
+}
+
+/* Grid items may shrink below their content, so the step strip scrolls inside
+   itself and never widens the page. */
+.teach-rail,
+.teach-stage {
+  min-width: 0;
+}
+
+/* Steps: a strip across the top by default */
+.teach-rail__title {
+  display: none;
+}
+
+.teach-rail ol {
+  display: flex;
+  gap: var(--space-2);
+  list-style: none;
+  margin: 0;
+  padding: 0 0 var(--space-1);
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.teach-rail li {
+  flex: 1 0 auto;
+}
+
+/* Keep focused controls clear of the sticky header and the sticky Back/Next bar. */
+.teach button,
+.teach a,
+.teach h1 {
+  scroll-margin-top: 84px;
+  scroll-margin-bottom: 96px;
+}
+
+.teach-rail button {
+  /* Contains the visually hidden "Step n" label, so the strip's scroll area
+     clips it and it cannot widen the page. */
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  min-height: var(--tap-target);
+  padding: var(--space-1) var(--space-3) var(--space-1) var(--space-1);
+  border: 1.5px solid var(--rule-strong);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--text2);
+  font: inherit;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.teach-rail__number {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--band);
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.teach-rail__minutes {
+  display: none;
+  margin-left: auto;
+  font-weight: 400;
+  color: var(--text3);
+  font-variant-numeric: tabular-nums;
+}
+
+.teach-rail li.is-done button {
+  color: var(--text3);
+}
+
+.teach-rail li.is-done .teach-rail__number {
+  background: var(--ok-bg);
+  color: var(--ok);
+}
+
+.teach-rail button[aria-current='step'] {
+  border-color: var(--accent);
+  background: var(--tint);
+  color: var(--text);
+}
+
+.teach-rail button[aria-current='step'] .teach-rail__number {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.teach-rail button:hover {
+  border-color: var(--accent);
+}
+
+/* Clocks */
+.teach-clocks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.teach-clock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-2);
+  flex: 1 1 12rem;
+  margin: 0;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+
+.teach-clock__time {
+  font-family: var(--font-sans);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.teach-clock__label {
+  font-size: var(--text-sm);
+  color: var(--text2);
+}
+
+.teach-clock.is-over {
+  border-color: var(--notice);
+  background: var(--notice-bg);
+}
+
+.teach-clock.is-over .teach-clock__time,
+.teach-clock.is-over .teach-clock__label {
+  color: var(--notice);
+}
+
+.teach-clock--lesson .teach-clock__time {
+  font-size: var(--text-lg);
+}
+
+.teach-pace {
+  margin-left: auto;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--band);
+  color: var(--text);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.teach-pace--behind {
+  background: var(--notice-bg);
+  color: var(--notice);
+}
+
+.teach-pause {
+  flex: 0 0 auto;
+  align-self: center;
+}
+
+/* The current step */
+.teach-step {
+  margin-bottom: var(--space-4);
+}
+
+.teach-step h1 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-3);
+}
+
+.teach-step h1:focus-visible,
+.teach-ready h1:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: var(--radius-xs);
+}
+
+.teach-instructions {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  line-height: 1.35;
+  color: var(--text);
+  margin-bottom: var(--space-4);
+}
+
+.teach-passage {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+}
+
+.teach-list {
+  margin: 0 0 var(--space-3);
+  padding-left: 1.4em;
+}
+
+.teach-list li {
+  margin-bottom: var(--space-3);
+  font-size: var(--text-base);
+}
+
+.teach-questions li::marker {
+  font-weight: 600;
+  color: var(--text2);
+}
+
+.teach-question {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  line-height: 1.3;
+}
+
+.teach-questions .choice-hint {
+  display: block;
+  margin-top: var(--space-1);
+}
+
+.teach-resources {
+  margin-top: var(--space-4);
+}
+
+/* Back and Next stay within reach at the bottom of the screen */
+.teach-nav {
+  position: sticky;
+  bottom: 0;
+  z-index: 4;
+  display: flex;
+  gap: var(--space-3);
+  margin-inline: calc(var(--teach-gutter) * -1);
+  padding: var(--space-3) var(--teach-gutter) calc(var(--space-3) + env(safe-area-inset-bottom));
+  background: var(--bg);
+  border-top: 1px solid var(--rule);
+}
+
+.teach-nav .teach-button {
+  flex: 1 1 0;
+  min-width: 0;
+  white-space: normal;
+  line-height: 1.2;
+}
+
+.teach-nav .teach-button--next {
+  flex-grow: 2;
+}
+
+/* Tablet in landscape: steps down the left, the current step beside them */
+@media (min-width: 900px) and (orientation: landscape) {
+  .teach-layout {
+    grid-template-columns: minmax(15rem, 19rem) minmax(0, 1fr);
+    gap: var(--space-5);
+    align-items: start;
+  }
+
+  .teach-rail {
+    position: sticky;
+    top: calc(64px + var(--space-4));
+  }
+
+  .teach-rail__title {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    line-height: 1.2;
+    margin-bottom: var(--space-3);
+  }
+
+  .teach-rail ol {
+    flex-direction: column;
+    overflow: visible;
+    padding: 0;
+  }
+
+  .teach-rail button {
+    min-height: 52px;
+    border-radius: var(--radius-sm);
+    white-space: normal;
+    font-size: var(--text-base);
+  }
+
+  .teach-rail__minutes {
+    display: inline;
+    font-size: var(--text-sm);
+  }
+
+  .teach-clock__time {
+    font-size: var(--text-2xl);
+  }
+
+  .teach-clock--lesson .teach-clock__time {
+    font-size: var(--text-xl);
+  }
+}
+
+@media (max-width: 640px) {
+  .teach-clocks {
+    gap: var(--space-2);
+  }
+
+  .teach-pause {
+    flex: 1 1 100%;
+  }
+
+  .teach-rail__label {
+    display: block;
+    max-width: 9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media print {
+  .teach-nav,
+  .teach-clocks,
+  .teach-rail {
+    display: none !important;
+  }
+}

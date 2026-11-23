@@ -18,9 +18,14 @@ interface Props {
   /** 'teacher' | 'family' | undefined: highlights the section in the header. */
   section?: 'teacher' | 'family';
   noindex?: boolean;
+  /**
+   * Focused shell for the Teach view: the site nav and footer give way to a
+   * single exit link, and the page may use the full width of a tablet.
+   */
+  focus?: { exitHref: string; exitLabel: string };
 }
 
-const { title, description, section, noindex } = Astro.props;
+const { title, description, section, noindex, focus } = Astro.props;
 const settings = getSiteSettings();
 const blockIndexing = NOINDEX || noindex === true;
 const version = pkg.version;
@@ -52,7 +57,7 @@ const version = pkg.version;
     <link rel="preload" as="font" type="font/woff2" crossorigin href={newsreaderItalicUrl} />
     <link rel="preload" as="font" type="font/woff2" crossorigin href={instrumentSansUrl} />
   </head>
-  <body>
+  <body class={focus ? 'is-focus' : undefined}>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="site-header__inner">
@@ -75,36 +80,52 @@ const version = pkg.version;
           </svg>
           <span>{settings.site_name}</span>
         </a>
-        <nav class="site-nav" aria-label="Main">
-          <a href="/teacher/" aria-current={section === 'teacher' ? 'true' : undefined}>Teachers</a>
-          <a href="/family/" aria-current={section === 'family' ? 'true' : undefined}>Parents</a>
-        </nav>
+        {
+          focus ? (
+            <nav class="site-nav" aria-label="Main">
+              <a href={focus.exitHref}>{focus.exitLabel}</a>
+            </nav>
+          ) : (
+            <nav class="site-nav" aria-label="Main">
+              <a href="/teacher/" aria-current={section === 'teacher' ? 'true' : undefined}>
+                Teachers
+              </a>
+              <a href="/family/" aria-current={section === 'family' ? 'true' : undefined}>
+                Parents
+              </a>
+            </nav>
+          )
+        }
       </div>
     </header>
     <main id="main">
       <slot />
     </main>
-    <footer class="site-footer">
-      <div class="site-footer__inner">
-        <p>Wellington Church of Christ | Sunday School Lessons</p>
-        <form class="theme" data-theme-switch>
-          <fieldset class="theme-set">
-            <legend class="visually-hidden">Appearance</legend>
-            <span class="theme-label" aria-hidden="true">Appearance</span>
-            <label class="theme-opt">
-              <input type="radio" name="theme" value="system" checked /><span>Auto</span>
-            </label>
-            <label class="theme-opt">
-              <input type="radio" name="theme" value="light" /><span>Light</span>
-            </label>
-            <label class="theme-opt">
-              <input type="radio" name="theme" value="dark" /><span>Dark</span>
-            </label>
-          </fieldset>
-        </form>
-        <p class="site-footer__meta">v{version}</p>
-      </div>
-    </footer>
+    {
+      !focus && (
+        <footer class="site-footer">
+          <div class="site-footer__inner">
+            <p>Wellington Church of Christ | Sunday School Lessons</p>
+            <form class="theme" data-theme-switch>
+              <fieldset class="theme-set">
+                <legend class="visually-hidden">Appearance</legend>
+                <span class="theme-label" aria-hidden="true">Appearance</span>
+                <label class="theme-opt">
+                  <input type="radio" name="theme" value="system" checked /><span>Auto</span>
+                </label>
+                <label class="theme-opt">
+                  <input type="radio" name="theme" value="light" /><span>Light</span>
+                </label>
+                <label class="theme-opt">
+                  <input type="radio" name="theme" value="dark" /><span>Dark</span>
+                </label>
+              </fieldset>
+            </form>
+            <p class="site-footer__meta">v{version}</p>
+          </div>
+        </footer>
+      )
+    }
     <script>
       // Appearance: Auto follows the device; Light and Dark are remembered on this device.
       const KEY = 'theme';
