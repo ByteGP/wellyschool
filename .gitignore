@@ -2,8 +2,8 @@
 dist/
 .astro/
 
-# dependencies
-node_modules/
+# dependencies (no trailing slash, so a symlink named node_modules is ignored too)
+node_modules
 
 # environment
 .env
