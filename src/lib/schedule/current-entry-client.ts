@@ -3,11 +3,12 @@
 // can never drift. Runs as a tiny module script on segment index pages.
 //
 // The server renders one hidden card per schedule entry; this script unhides
-// the one matching the rule for today's date in Pacific/Auckland.
+// the one matching the rule for today's date in Pacific/Auckland, and narrows
+// the schedule list to the Sundays after it.
 import type { ScheduleEntry } from '../../types';
 import type { ContentMode } from '../content/mode';
 import type { Segment } from '../content/segments';
-import { dateInTimeZone, familyEntry, teacherEntry } from './date-selection';
+import { dateInTimeZone, entriesAfter, familyEntry, teacherEntry } from './date-selection';
 
 interface CurrentEntryConfig {
   role: 'teacher' | 'family';
@@ -46,6 +47,17 @@ export function activateCurrentEntry(root: HTMLElement): void {
   card.hidden = false;
   const fallback = root.querySelector<HTMLElement>('[data-current-fallback]');
   if (fallback) fallback.hidden = true;
-  const marker = root.querySelector<HTMLElement>(`[data-entry-row="${selected.schedule_id}"] [data-current-marker]`);
-  if (marker) marker.hidden = false;
+
+  // "Upcoming Sundays" starts after the card: the card's own Sunday is not
+  // listed again, and Sundays that have gone are dropped.
+  const upcoming = new Set(
+    entriesAfter(config.entries, config.segment, selected.date, config.mode).map(
+      (entry) => entry.schedule_id,
+    ),
+  );
+  for (const row of root.querySelectorAll<HTMLElement>('[data-entry-row]')) {
+    row.hidden = !upcoming.has(row.dataset.entryRow ?? '');
+  }
+  const list = root.querySelector<HTMLElement>('[data-upcoming]');
+  if (list) list.hidden = upcoming.size === 0;
 }

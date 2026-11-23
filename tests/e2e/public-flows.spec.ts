@@ -50,13 +50,33 @@ test.describe('teacher current-entry selection (Pacific/Auckland)', () => {
     await expect(card.getByRole('link', { name: 'Open the lesson' })).toBeVisible();
   });
 
+  test('Upcoming Sundays starts after the Sunday on the card', async ({ page }) => {
+    // Monday 19 October: the card is Sunday 25 October.
+    await page.goto('/teacher/kids/?today=2026-10-19');
+    await expect(page.locator('[data-entry-card="2026-10-25-kids"]')).toBeVisible();
+    const rows = page.locator('[data-entry-row]:not([hidden])');
+    const ids = await rows.evaluateAll((nodes) =>
+      nodes.map((node) => (node as HTMLElement).dataset.entryRow ?? ''),
+    );
+    // Not the Sunday that has gone, not the card's own Sunday again.
+    expect(ids).not.toContain('2026-10-18-kids');
+    expect(ids).not.toContain('2026-10-25-kids');
+    expect(ids[0]).toBe('2026-11-01-kids');
+    expect(ids.length).toBeGreaterThan(0);
+    expect(ids.length).toBeLessThanOrEqual(8);
+    expect([...ids].sort()).toEqual(ids);
+  });
+
   test('without JavaScript the schedule list is still usable', async ({ browser }) => {
     const context = await browser.newContext({ javaScriptEnabled: false });
     const page = await context.newPage();
     await page.goto('/teacher/kids/');
     await expect(page.getByText('Choose the correct Sunday from the schedule below.')).toBeVisible();
-    // The upcoming-Sundays list still links to lessons without JavaScript.
-    await expect(page.locator('[data-entry-row] a[href^="/teacher/kids/"]').first()).toBeVisible();
+    // The upcoming-Sundays list still links to lessons without JavaScript: the rows around the
+    // build date show, the rest of the schedule stays hidden.
+    const shown = page.locator('[data-entry-row]:not([hidden])');
+    await expect(shown.locator('a[href^="/teacher/kids/"]').first()).toBeVisible();
+    expect(await shown.count()).toBeLessThanOrEqual(10);
     await context.close();
   });
 });
@@ -67,6 +87,9 @@ test.describe('family current-entry selection', () => {
     const card = page.locator('[data-entry-card="2026-08-16-kids"]');
     await expect(card).toBeVisible();
     await expect(card.getByRole('link', { name: /Start the 15-minute devotional/ })).toBeVisible();
+    // The list picks up from the next Sunday; the card's Sunday is not repeated.
+    const first = page.locator('[data-entry-row]:not([hidden])').first();
+    await expect(first).toHaveAttribute('data-entry-row', '2026-08-23-kids');
   });
 
   test('term-holiday week shows break message and a link to review the previous lesson', async ({

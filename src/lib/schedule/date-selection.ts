@@ -106,6 +106,27 @@ export function upcomingEntries(
     .sort(ascending);
 }
 
+/** How many Sundays the "Upcoming Sundays" list shows after the current entry. */
+export const UPCOMING_LIMIT = 8;
+
+/**
+ * The next entries strictly after `date`, soonest first: what "Upcoming
+ * Sundays" lists under the current entry's card, so the list never repeats the
+ * card and never shows a Sunday that has gone.
+ */
+export function entriesAfter(
+  entries: ScheduleEntry[],
+  segment: Segment,
+  date: string,
+  mode: ContentMode = 'production',
+  limit: number = UPCOMING_LIMIT,
+): ScheduleEntry[] {
+  return publicEntries(entries, segment, mode)
+    .filter((entry) => entry.date > date)
+    .sort(ascending)
+    .slice(0, limit);
+}
+
 /** Human-readable date for schedule display, always in the site timezone. */
 export function formatDisplayDate(isoDate: string): string {
   const [year, month, day] = isoDate.split('-').map(Number);

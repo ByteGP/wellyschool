@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import type { ScheduleEntry } from '../../src/types';
 import {
   dateInTimeZone,
+  entriesAfter,
   familyEntry,
   formatDisplayDate,
   nextLessonEntryAfter,
@@ -117,6 +118,37 @@ describe('upcomingEntries', () => {
       '2026-08-16',
       '2026-08-30',
     ]);
+  });
+});
+
+describe('entriesAfter', () => {
+  const schedule: ScheduleEntry[] = [
+    entry({ date: '2026-11-22' }),
+    entry({ date: '2026-11-29' }),
+    entry({ date: '2026-12-06' }),
+    entry({ date: '2026-12-13', entry_type: 'break', lesson_id: undefined }),
+    entry({ date: '2026-12-06', schedule_id: '2026-12-06-teens', segment: 'Teens' }),
+  ];
+
+  it('starts after the current Sunday, so the list never repeats the card', () => {
+    // Monday 23 November: teachers see Sunday 29 November on the card.
+    const current = teacherEntry(schedule, 'Kids', '2026-11-23')!;
+    expect(current.date).toBe('2026-11-29');
+    expect(entriesAfter(schedule, 'Kids', current.date).map((e) => e.date)).toEqual([
+      '2026-12-06',
+      '2026-12-13',
+    ]);
+  });
+
+  it('for families, lists from next Sunday while last Sunday stays on the card', () => {
+    const current = familyEntry(schedule, 'Kids', '2026-11-23')!;
+    expect(current.date).toBe('2026-11-22');
+    expect(entriesAfter(schedule, 'Kids', current.date)[0]?.date).toBe('2026-11-29');
+  });
+
+  it('stops at the limit and is empty after the last Sunday', () => {
+    expect(entriesAfter(schedule, 'Kids', '2026-11-01', 'production', 2)).toHaveLength(2);
+    expect(entriesAfter(schedule, 'Kids', '2026-12-13')).toEqual([]);
   });
 });
 
